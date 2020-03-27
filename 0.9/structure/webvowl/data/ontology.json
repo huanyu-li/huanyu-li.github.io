@@ -1,0 +1,3330 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/ontologies/2019/10/md/structure", "http://www.semanticweb.org/ontologies/2019/10/md/core" ],
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/",
+    "author" : [ "Huanyu Li" ],
+    "labels" : {
+      "undefined" : "Materials Design Ontology-Structure Module"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Huanyu Li",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-07T09:00:00",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "231",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "237",
+    "type" : "owl:Class"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "279",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "118",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "87",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "53",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "292",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "235",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredOrthothombic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FaceCenteredOrthothombic"
+    },
+    "subClasses" : [ "22", "23", "24" ],
+    "id" : "20",
+    "superClasses" : [ "21", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTetragonal",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimitiveTetragonal"
+    },
+    "id" : "31",
+    "superClasses" : [ "21", "27" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "10", "21", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "37"
+  }, {
+    "instances" : 0,
+    "union" : [ "39", "40", "41", "42", "43", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "38"
+  }, {
+    "instances" : 0,
+    "union" : [ "10", "21", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredCubic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FaceCenteredCubic"
+    },
+    "id" : "46",
+    "superClasses" : [ "21", "12" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "21", "10", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "47"
+  }, {
+    "instances" : 0,
+    "union" : [ "21", "10", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "48"
+  }, {
+    "instances" : 0,
+    "union" : [ "21", "10", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Orthorhombic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Orthorhombic"
+    },
+    "subClasses" : [ "20", "36", "1", "4" ],
+    "id" : "2",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Species",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Species"
+    },
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LatticeSystem"
+    },
+    "subClasses" : [ "9", "12", "14", "16", "2", "27", "59" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Hexagonal",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hexagonal"
+    },
+    "subClasses" : [ "60" ],
+    "id" : "14",
+    "superClasses" : [ "10", "59" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/MetalInteraction",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MetalInteraction"
+    },
+    "id" : "67",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Tetragonal",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tetragonal"
+    },
+    "subClasses" : [ "31", "69" ],
+    "id" : "27",
+    "superClasses" : [ "10" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "39", "40", "41", "43" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "70"
+  }, {
+    "instances" : 0,
+    "union" : [ "29", "18" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/MShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MShell"
+    },
+    "id" : "44",
+    "superClasses" : [ "72" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "39", "40", "41", "43", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "75"
+  }, {
+    "instances" : 0,
+    "union" : [ "77", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/RHL2",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RHL2"
+    },
+    "id" : "78",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/RHL1",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RHL1"
+    },
+    "id" : "80",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Triclinic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Triclinic"
+    },
+    "subClasses" : [ "81" ],
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveMonoclinic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimitiveMonoclinic"
+    },
+    "id" : "82",
+    "superClasses" : [ "21", "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CrystalLattice"
+    },
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/KShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KShell"
+    },
+    "id" : "85",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/QShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QShell"
+    },
+    "id" : "43",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredTetragonal",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BodyCenteredTetragonal"
+    },
+    "id" : "69",
+    "superClasses" : [ "21", "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CrystallineElement"
+    },
+    "comment" : {
+      "undefined" : "To represent an element in the periodic table."
+    },
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/CovalentBond",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CovalentBond"
+    },
+    "id" : "122",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredOrthothombic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BodyCenteredOrthothombic"
+    },
+    "id" : "4",
+    "superClasses" : [ "21", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Trigonal",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Trigonal"
+    },
+    "subClasses" : [ "14", "127" ],
+    "id" : "59",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredOrthorhombic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BaseCenteredOrthorhombic"
+    },
+    "id" : "1",
+    "superClasses" : [ "21", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Site",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site"
+    },
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PointGroup",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PointGroup"
+    },
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI2b",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TRI2b"
+    },
+    "id" : "146",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI2a",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TRI2a"
+    },
+    "id" : "148",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTriclinic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimitiveTriclinic"
+    },
+    "subClasses" : [ "157", "158", "146", "148" ],
+    "id" : "81",
+    "superClasses" : [ "9", "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF3",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ORCF3"
+    },
+    "id" : "22",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF2",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ORCF2"
+    },
+    "id" : "23",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveRhombohederal",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimitiveRhombohederal"
+    },
+    "subClasses" : [ "78", "80" ],
+    "id" : "79",
+    "superClasses" : [ "21", "127" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF1",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ORCF1"
+    },
+    "id" : "24",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI1b",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TRI1b"
+    },
+    "id" : "157",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectronShell"
+    },
+    "subClasses" : [ "39", "40", "41", "85", "42", "43", "44" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI1a",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TRI1a"
+    },
+    "id" : "158",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/VanderWaalsLondonInteraction",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VanderWaalsLondonInteraction"
+    },
+    "id" : "173",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/LShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LShell"
+    },
+    "id" : "42",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveHexagonal",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimitiveHexagonal"
+    },
+    "id" : "60",
+    "superClasses" : [ "21", "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/NShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NShell"
+    },
+    "id" : "39",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredMonoclinic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BaseCenteredMonoclinic"
+    },
+    "subClasses" : [ "135", "137", "139", "143" ],
+    "id" : "97",
+    "superClasses" : [ "21", "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BravaisLattice"
+    },
+    "subClasses" : [ "97", "46", "82", "20", "36", "4", "108", "81", "31", "60", "69", "114", "1", "79" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "230",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/HydrogenBond",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HydrogenBond"
+    },
+    "id" : "231",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "232",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "184",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "205",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "238",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "178",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "225",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "154",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalStructure",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CrystalStructure"
+    },
+    "id" : "237",
+    "superClasses" : [ "186" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Monoclinic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monoclinic"
+    },
+    "subClasses" : [ "97", "82" ],
+    "id" : "16",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredCubic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BodyCenteredCubic"
+    },
+    "id" : "108",
+    "superClasses" : [ "21", "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Composition",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Composition"
+    },
+    "id" : "187"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "271",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "266",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "189",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "229",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "156",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Cubic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cubic"
+    },
+    "subClasses" : [ "46", "114", "108" ],
+    "id" : "12",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveCubic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimitiveCubic"
+    },
+    "id" : "114",
+    "superClasses" : [ "21", "12" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "240",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "268",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "275",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "279",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "40", "41", "43" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "65"
+  }, {
+    "instances" : 0,
+    "union" : [ "10", "21", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PShell"
+    },
+    "id" : "40",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "118",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "273",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/Rhombohedral",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rhombohedral"
+    },
+    "subClasses" : [ "79" ],
+    "id" : "127",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CrystalBonding"
+    },
+    "subClasses" : [ "173", "122", "231", "67", "235" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC1",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MCLC1"
+    },
+    "id" : "135",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC4",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MCLC4"
+    },
+    "id" : "137",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC2",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MCLC2"
+    },
+    "id" : "139",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC3",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MCLC3"
+    },
+    "id" : "143",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "227",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "243",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "87",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "53",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "200",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveOrthorhombic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimitiveOrthorhombic"
+    },
+    "id" : "36",
+    "superClasses" : [ "21", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/OShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OShell"
+    },
+    "id" : "41",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "292",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/IonicBond",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IonicBond"
+    },
+    "id" : "235",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/SpaceGroup",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpaceGroup"
+    },
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/Structure",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Structure"
+    },
+    "subClasses" : [ "237" ],
+    "attributes" : [ "external" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "183",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "198",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "199",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "201",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "203",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "204",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "206",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "207",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "208",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "209",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "210",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "212",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "213",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "217",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "218",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "219",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "220",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "223",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "244",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "269",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "270",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "274",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "276",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "277",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "278",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "283",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "287",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "288",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "289",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "290",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "291",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "293",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "294",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "295",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVolume",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasVolume"
+    },
+    "cardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "5"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "10",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "10",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "10",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecieName",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasSpecieName"
+    },
+    "cardinality" : "1",
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "The name of a specie. (e.g. Al3+)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  }, {
+    "range" : "10",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "10",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPTGroup",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasPTGroup"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The group of an element in periodic table. (The column number in periodic table)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "28"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPTPeriod",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasPTPeriod"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The period of an element in periodic table. (The row number in periodic table)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "33"
+  }, {
+    "range" : "2",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "20",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "20",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasEnergygap",
+    "equivalent" : [ "55" ],
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasEnergygap"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype" ],
+    "id" : "52"
+  }, {
+    "range" : "20",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBulkModulus",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "hasBulkModulus"
+    },
+    "maxCardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMeltingPointKelvins",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "hasMeltingPointKelvins"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The melting point of an element at Kelvins temperature."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBandgap",
+    "equivalent" : [ "52" ],
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "hasBandgap"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGSubShellElectronNumber",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "hasGSubShellElectronNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "65",
+    "comment" : {
+      "undefined" : "The number of electrons at g subshell for a specific shell (O or P or Q)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSite",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "hasSite"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGenericFormula",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "hasGenericFormula"
+    },
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "Same as anonymous formula."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroup",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "hasSpaceGroup"
+    },
+    "domain" : "87",
+    "attributes" : [ "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroupId",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "hasSpaceGroupId"
+    },
+    "cardinality" : "1",
+    "domain" : "77",
+    "comment" : {
+      "undefined" : "The id of a space group ([1, 230])."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPointGroup",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "hasPointGroup"
+    },
+    "domain" : "76",
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC44",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "hasStiffnessC44"
+    },
+    "maxCardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Stiffness Constant."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "92"
+  }, {
+    "range" : "21",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "21",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "16",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "hasSSubShellElectronNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "The number of electrons at s subshell for a specific shell (K or L or M or N or O or P or Q)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "range" : "16",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateZ",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "hasCartesianCoordinateZ"
+    },
+    "cardinality" : "3",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateY",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "hasCartesianCoordinateY"
+    },
+    "cardinality" : "3",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateX",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "hasCartesianCoordinateX"
+    },
+    "cardinality" : "3",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "105"
+  }, {
+    "range" : "21",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "21",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "21",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "21",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "21",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "21",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "21",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "21",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasLattice",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasLattice"
+    },
+    "domain" : "118",
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "21",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "21",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "hasPSubShellElectronNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "The number of electrons at p subshell for a specific shell (L or M or N or O or P or Q)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_a",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "hasBasis_a"
+    },
+    "cardinality" : "1",
+    "domain" : "45",
+    "attributes" : [ "datatype" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_b",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "hasBasis_b"
+    },
+    "cardinality" : "1",
+    "domain" : "47",
+    "attributes" : [ "datatype" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_c",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "hasBasis_c"
+    },
+    "cardinality" : "1",
+    "domain" : "48",
+    "attributes" : [ "datatype" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMeltingPointCelsius",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "133",
+    "label" : {
+      "IRI-based" : "hasMeltingPointCelsius"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The melting point of an element at Celsius temperature."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "132"
+  }, {
+    "range" : "97",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "97",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "97",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVanDerWaalsRadius",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "hasVanDerWaalsRadius"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The Van der Waals radius of an element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "140"
+  }, {
+    "range" : "97",
+    "domain" : "143",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "21",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "72",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "72",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "72",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "72",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "72",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "72",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroupSymbol",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "hasSpaceGroupSymbol"
+    },
+    "cardinality" : "1",
+    "domain" : "77",
+    "comment" : {
+      "undefined" : "The international short symbol of a space group. (e.g. P1, P1-, P2, P2_1)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPaulingElectronegativity",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "156",
+    "label" : {
+      "IRI-based" : "hasPaulingElectronegativity"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The Pauling Electronrgativity of an element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElasticAnisotropy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "hasElasticAnisotropy"
+    },
+    "maxCardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "159"
+  }, {
+    "range" : "81",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC12",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "163",
+    "label" : {
+      "IRI-based" : "hasStiffnessC12"
+    },
+    "maxCardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Stiffness Constant."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "162"
+  }, {
+    "range" : "79",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC11",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "hasStiffnessC11"
+    },
+    "maxCardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Stiffness Constant."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "165"
+  }, {
+    "range" : "79",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "72",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "27",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "9",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "59",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "59",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "81",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "81",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "81",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_gamma",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "hasAngle_gamma"
+    },
+    "cardinality" : "1",
+    "domain" : "49",
+    "attributes" : [ "datatype" ],
+    "id" : "177"
+  }, {
+    "range" : "10",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "14",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "27",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElectronShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "hasElectronShell"
+    },
+    "domain" : "18",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicSymbol",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "184",
+    "label" : {
+      "IRI-based" : "hasAtomicSymbol"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The atomic symbol of an element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasComposition",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "hasComposition"
+    },
+    "domain" : "186",
+    "attributes" : [ "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMolarVolume",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "hasMolarVolume"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The Molar volume of an element. (cm-3/mol)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFormationEnergy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "hasFormationEnergy"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_alpha",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "hasAngle_alpha"
+    },
+    "cardinality" : "1",
+    "domain" : "193",
+    "attributes" : [ "datatype" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFormula",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "196",
+    "label" : {
+      "IRI-based" : "hasFormula"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasElement"
+    },
+    "domain" : "18",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecies",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "18",
+    "annotations" : {
+      "hasZ" : [ {
+        "identifier" : "hasZ",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ],
+      "hasOccupancy" : [ {
+        "identifier" : "hasOccupancy",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ],
+      "hasX" : [ {
+        "identifier" : "hasX",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ],
+      "hasY" : [ {
+        "identifier" : "hasY",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSpecies"
+    },
+    "domain" : "74",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMendeleevNumber",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "200",
+    "label" : {
+      "IRI-based" : "hasMendeleevNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The Mendeleev number of an element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "199"
+  }, {
+    "range" : "22",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "22",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "78",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicRadius",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "205",
+    "label" : {
+      "IRI-based" : "hasAtomicRadius"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The atomic radius of an element"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "204"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroup",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "hasSpaceGroup"
+    },
+    "domain" : "91",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "206"
+  }, {
+    "range" : "9",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "27",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "23",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "9",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "27",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "127",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCrystalBinding",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasCrystalBinding"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "213"
+  }, {
+    "range" : "9",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "127",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "2",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBravaisLattice",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasBravaisLattice"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "217"
+  }, {
+    "range" : "9",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "27",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "127",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "9",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "27",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElectronShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "hasElectronShell"
+    },
+    "domain" : "71",
+    "attributes" : [ "object" ],
+    "id" : "223"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasShearModulus",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "225",
+    "label" : {
+      "IRI-based" : "hasShearModulus"
+    },
+    "maxCardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFSubShellElectronNumber",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "227",
+    "label" : {
+      "IRI-based" : "hasFSubShellElectronNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "The number of electrons at F subshell for a specific shell (N or O or P or Q)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPointGroupHMName",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "229",
+    "label" : {
+      "IRI-based" : "hasPointGroupHMName"
+    },
+    "cardinality" : "1",
+    "domain" : "91",
+    "comment" : {
+      "undefined" : "The Hermann-Mauguin notation of an point group."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "228"
+  }, {
+    "range" : "68",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "68",
+    "domain" : "235",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "186",
+    "domain" : "237",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFullAtomicName",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "240",
+    "label" : {
+      "IRI-based" : "hasFullAtomicName"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The full atomic name of an element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "239"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicMass",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "238",
+    "label" : {
+      "IRI-based" : "hasAtomicMass"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The atomic mass of an element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDSubShellElectronNumber",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "243",
+    "label" : {
+      "IRI-based" : "hasDSubShellElectronNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "75",
+    "comment" : {
+      "undefined" : "The number of electrons at d subshell for a specific shell (M or N or O or P or Q)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBoilingPointCelsius",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "230",
+    "label" : {
+      "IRI-based" : "hasBoilingPointCelsius"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The boiling point of an element at Celsius temperature."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "244"
+  }, {
+    "range" : "146",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "146",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "12",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "12",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "12",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "148",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "127",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "157",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "68",
+    "domain" : "173",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "148",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "68",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "146",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "range" : "68",
+    "domain" : "231",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasHillFormula",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "261",
+    "label" : {
+      "IRI-based" : "hasHillFormula"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasOxidationState",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "264",
+    "label" : {
+      "IRI-based" : "hasOxidationState"
+    },
+    "cardinality" : "1",
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "The oxidation state of a specie."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPossionRatio",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "266",
+    "label" : {
+      "IRI-based" : "hasPossionRatio"
+    },
+    "maxCardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDensity",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "268",
+    "label" : {
+      "IRI-based" : "hasDensity"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype" ],
+    "id" : "267"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_beta",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "248",
+    "label" : {
+      "IRI-based" : "hasAngle_beta"
+    },
+    "cardinality" : "1",
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSTPDensity",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "hasSTPDensity"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The density of an element at STP(Standard, Temperature Pressure). (g/cm-3)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicNumber",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "273",
+    "label" : {
+      "IRI-based" : "hasAtomicNumber"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The atomic number of an element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFirstIonizationEnergy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "275",
+    "label" : {
+      "IRI-based" : "hasFirstIonizationEnergy"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The first ionization energy of an element. (eV)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "274"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSolidStateDensity",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "259",
+    "label" : {
+      "IRI-based" : "hasSolidStateDensity"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The density of an element at solid state. (g/cm-3)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "276"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/belongtoLatticeSystem",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "belongtoLatticeSystem"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasElement"
+    },
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "278"
+  }, {
+    "range" : "14",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "280"
+  }, {
+    "range" : "16",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "127",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "range" : "27",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "range" : "9",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "range" : "16",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "286"
+  }, {
+    "range" : "2",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSite",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "hasSite"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "288"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElectronShell",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "hasElectronShell"
+    },
+    "domain" : "29",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "289"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecies",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "18",
+    "annotations" : {
+      "hasZ" : [ {
+        "identifier" : "hasZ",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ],
+      "hasOccupancy" : [ {
+        "identifier" : "hasOccupancy",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ],
+      "hasX" : [ {
+        "identifier" : "hasX",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ],
+      "hasY" : [ {
+        "identifier" : "hasY",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSpecies"
+    },
+    "domain" : "74",
+    "attributes" : [ "object" ],
+    "id" : "290"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVolumePerAtom",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "292",
+    "label" : {
+      "IRI-based" : "hasVolumePerAtom"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The volume per atom at STP (Standard Temperature Pressure). (A-3/atom)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasReducedFormula",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "271",
+    "label" : {
+      "IRI-based" : "hasReducedFormula"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype" ],
+    "id" : "293"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBlock",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "279",
+    "label" : {
+      "IRI-based" : "hasBlock"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "attributes" : [ "datatype" ],
+    "id" : "294"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBoilingPointKelvins",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/structure",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "hasBoilingPointKelvins"
+    },
+    "cardinality" : "1",
+    "domain" : "29",
+    "comment" : {
+      "undefined" : "The boiling point of an element at Kelvins temperature."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "295"
+  } ]
+}

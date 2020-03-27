@@ -1,0 +1,140 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-11-07T09:00:00"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Huanyu Li"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Materials Design Ontology-Calculation Module"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "https://github.com/huanyu-li/Materials-Design-Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/core/0.9"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/0.9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ComputationalMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/DensityFunctionalTheoryMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ComputationalMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ExchangeCorrelationEnergyFunctional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/GeneralizedGradientApproximation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ExchangeCorrelationEnergyFunctional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/Hartree-FockMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ComputationalMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridFunctionals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ExchangeCorrelationEnergyFunctional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridGGA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridFunctionals"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridmGGA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridFunctionals"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/LocalDensityApproximation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ExchangeCorrelationEnergyFunctional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/PostHartree-FockMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ComputationalMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/Semi-EmpiricalQuantumChemistryMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ComputationalMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasComputationalMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A calculation belongs to a specific Computational Chemical Method."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ComputationalMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasOccupancy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasX",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasXCFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/DensityFunctionalTheoryMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ExchangeCorrelationEnergyFunctional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasY",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasZ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/metaGeneralizedGradientApproximation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ExchangeCorrelationEnergyFunctional"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/test1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/test2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

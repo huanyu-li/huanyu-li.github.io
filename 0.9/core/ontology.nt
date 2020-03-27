@@ -1,0 +1,83 @@
+<http://www.semanticweb.org/ontologies/2019/10/md/core/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/ontologies/2019/10/md/core/0.9> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/> <http://www.w3.org/2000/01/rdf-schema#label> "Materials Design Ontology-Core Module" .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/huanyu-li/Materials-Design-Ontology" .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/approximateBy
+<http://www.semanticweb.org/ontologies/2019/10/md/core/approximateBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/approximateBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2019/10/md/core/MaterialsData> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/approximateBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2019/10/md/core/Structure> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputComputableProperty
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputComputableProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputComputableProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputComputableProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2019/10/md/core/ComputableProperty> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputStructure
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputStructure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputStructure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2019/10/md/core/Structure> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputComputableProperty
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputComputableProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputComputableProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputComputableProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2019/10/md/core/ComputableProperty> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputStructure
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputStructure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputStructure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2019/10/md/core/Structure> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation
+<http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/ComputableProperty
+<http://www.semanticweb.org/ontologies/2019/10/md/core/ComputableProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/ComputableProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2019/10/md/core/Property> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/MaterialsData
+<http://www.semanticweb.org/ontologies/2019/10/md/core/MaterialsData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/PhysicalProperty
+<http://www.semanticweb.org/ontologies/2019/10/md/core/PhysicalProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ontologies/2019/10/md/core/PhysicalProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ontologies/2019/10/md/core/Property> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/Property
+<http://www.semanticweb.org/ontologies/2019/10/md/core/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/Structure
+<http://www.semanticweb.org/ontologies/2019/10/md/core/Structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/test1
+<http://www.semanticweb.org/ontologies/2019/10/md/core/test1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/ontologies/2019/10/md/core/test2
+<http://www.semanticweb.org/ontologies/2019/10/md/core/test2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

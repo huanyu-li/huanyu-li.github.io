@@ -1,0 +1,141 @@
+@prefix : <http://www.semanticweb.org/ontologies/2019/10/md/calculation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/ontologies/2019/10/md/calculation/> .
+
+<http://www.semanticweb.org/ontologies/2019/10/md/calculation/> rdf:type owl:Ontology ;
+                                                                 owl:versionIRI <http://www.semanticweb.org/ontologies/2019/10/md/calculation/0.9> ;
+                                                                 owl:imports <http://www.semanticweb.org/ontologies/2019/10/md/core/0.9> ;
+                                                                 <http://purl.org/dc/terms/created> "2019-11-07T09:00:00"^^xsd:dateTime ;
+                                                                 <http://purl.org/dc/terms/creator> "Huanyu Li" ;
+                                                                 rdfs:label "Materials Design Ontology-Calculation Module" ;
+                                                                 rdfs:seeAlso "https://github.com/huanyu-li/Materials-Design-Ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasOccupancy
+:hasOccupancy rdf:type owl:AnnotationProperty ;
+              rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasX
+:hasX rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasY
+:hasY rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasZ
+:hasZ rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasComputationalMethod
+:hasComputationalMethod rdf:type owl:ObjectProperty ;
+                        rdfs:domain <http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation> ;
+                        rdfs:range :ComputationalMethod ;
+                        rdfs:comment "A calculation belongs to a specific Computational Chemical Method." .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasXCFunction
+:hasXCFunction rdf:type owl:ObjectProperty ;
+               rdfs:domain :DensityFunctionalTheoryMethod ;
+               rdfs:range :ExchangeCorrelationEnergyFunctional .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/ComputationalMethod
+:ComputationalMethod rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/DensityFunctionalTheoryMethod
+:DensityFunctionalTheoryMethod rdf:type owl:Class ;
+                               rdfs:subClassOf :ComputationalMethod .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/ExchangeCorrelationEnergyFunctional
+:ExchangeCorrelationEnergyFunctional rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/GeneralizedGradientApproximation
+:GeneralizedGradientApproximation rdf:type owl:Class ;
+                                  rdfs:subClassOf :ExchangeCorrelationEnergyFunctional .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/Hartree-FockMethod
+:Hartree-FockMethod rdf:type owl:Class ;
+                    rdfs:subClassOf :ComputationalMethod .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridFunctionals
+:HybridFunctionals rdf:type owl:Class ;
+                   rdfs:subClassOf :ExchangeCorrelationEnergyFunctional .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridGGA
+:HybridGGA rdf:type owl:Class ;
+           rdfs:subClassOf :HybridFunctionals .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridmGGA
+:HybridmGGA rdf:type owl:Class ;
+            rdfs:subClassOf :HybridFunctionals .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/LocalDensityApproximation
+:LocalDensityApproximation rdf:type owl:Class ;
+                           rdfs:subClassOf :ExchangeCorrelationEnergyFunctional .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/PostHartree-FockMethod
+:PostHartree-FockMethod rdf:type owl:Class ;
+                        rdfs:subClassOf :ComputationalMethod .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/Semi-EmpiricalQuantumChemistryMethod
+:Semi-EmpiricalQuantumChemistryMethod rdf:type owl:Class ;
+                                      rdfs:subClassOf :ComputationalMethod .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/metaGeneralizedGradientApproximation
+:metaGeneralizedGradientApproximation rdf:type owl:Class ;
+                                      rdfs:subClassOf :ExchangeCorrelationEnergyFunctional .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation
+<http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/test1
+:test1 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/ontologies/2019/10/md/calculation/test2
+:test2 rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

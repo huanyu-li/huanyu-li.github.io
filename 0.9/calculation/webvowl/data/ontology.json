@@ -1,0 +1,303 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/ontologies/2019/10/md/calculation", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/ontologies/2019/10/md/core" ],
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/",
+    "author" : [ "Huanyu Li" ],
+    "labels" : {
+      "undefined" : "Materials Design Ontology-Calculation Module"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Huanyu Li",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-07T09:00:00",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calculation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridGGA",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridGGA"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/GeneralizedGradientApproximation",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GeneralizedGradientApproximation"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/DensityFunctionalTheoryMethod",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DensityFunctionalTheoryMethod"
+    },
+    "id" : "19",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ComputationalMethod",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComputationalMethod"
+    },
+    "subClasses" : [ "14", "16", "18", "19" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridFunctionals",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridFunctionals"
+    },
+    "subClasses" : [ "1", "24" ],
+    "id" : "2",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/Hartree-FockMethod",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hartree-FockMethod"
+    },
+    "id" : "14",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/Semi-EmpiricalQuantumChemistryMethod",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semi-EmpiricalQuantumChemistryMethod"
+    },
+    "id" : "16",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/ExchangeCorrelationEnergyFunctional",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExchangeCorrelationEnergyFunctional"
+    },
+    "subClasses" : [ "6", "3", "2", "12" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/PostHartree-FockMethod",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PostHartree-FockMethod"
+    },
+    "id" : "18",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/HybridmGGA",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridmGGA"
+    },
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/metaGeneralizedGradientApproximation",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "metaGeneralizedGradientApproximation"
+    },
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/LocalDensityApproximation",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LocalDensityApproximation"
+    },
+    "id" : "12",
+    "superClasses" : [ "4" ]
+  } ],
+  "property" : [ {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "4",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasComputationalMethod",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasComputationalMethod"
+    },
+    "domain" : "0",
+    "comment" : {
+      "undefined" : "A calculation belongs to a specific Computational Chemical Method."
+    },
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "range" : "4",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "10",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "10",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "10",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "10",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/hasXCFunction",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasXCFunction"
+    },
+    "domain" : "19",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  } ]
+}

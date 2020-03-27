@@ -1,0 +1,174 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/ontologies/2019/10/md/core" ],
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/",
+    "labels" : {
+      "undefined" : "Materials Design Ontology-Core Module"
+    },
+    "other" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calculation"
+    },
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/MaterialsData",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialsData"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/ComputableProperty",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComputableProperty"
+    },
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/PhysicalProperty",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhysicalProperty"
+    },
+    "id" : "6",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/Property",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "subClasses" : [ "2", "6" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/Structure",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Structure"
+    },
+    "id" : "5"
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputStructure",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasInputStructure"
+    },
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputStructure",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasOutputStructure"
+    },
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/approximateBy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "approximateBy"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputComputableProperty",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasInputComputableProperty"
+    },
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "3",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputComputableProperty",
+    "baseIri" : "http://www.semanticweb.org/ontologies/2019/10/md/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasOutputComputableProperty"
+    },
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "12"
+  } ]
+}
