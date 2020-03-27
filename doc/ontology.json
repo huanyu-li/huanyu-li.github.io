@@ -1,0 +1,45 @@
+[ {
+  "@id" : "http://geo.linkeddata.es/ontology/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Luis Manuel Vilches-Blázquez"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "http://creativecommons.org/licenses/by-nc-sa/2.0/"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@language" : "en",
+    "@value" : "Ontology Engineering Group"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Red de ontologías geo.linkeddata.es"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "geoes"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://geo.linkeddata.es/ontology/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Geo.linkeddata.es ontology network"
+  }, {
+    "@language" : "es",
+    "@value" : "Red de ontologías geo.linkeddata.es"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://geo.linkeddata.es/ontology/geopolitica.owl"
+  }, {
+    "@id" : "http://geo.linkeddata.es/ontology/hydro.owl"
+  }, {
+    "@id" : "http://geo.linkeddata.es/ontology/transportes.owl"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "v0.1"
+  } ]
+} ]
