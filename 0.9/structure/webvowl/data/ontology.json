@@ -97,7 +97,7 @@
     "id" : "138",
     "type" : "owl:Class"
   }, {
-    "id" : "139",
+    "id" : "141",
     "type" : "owl:Class"
   }, {
     "id" : "41",
@@ -127,10 +127,10 @@
     "id" : "101",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
+    "id" : "79",
     "type" : "owl:Class"
   }, {
-    "id" : "77",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
     "id" : "21",
@@ -181,7 +181,7 @@
     "id" : "64",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "79",
+    "id" : "78",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "159",
@@ -274,7 +274,7 @@
     "id" : "228",
     "type" : "owl:Class"
   }, {
-    "id" : "238",
+    "id" : "236",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "215",
@@ -316,7 +316,7 @@
     "id" : "247",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "141",
+    "id" : "140",
     "type" : "rdfs:Literal"
   }, {
     "id" : "254",
@@ -340,7 +340,7 @@
     "id" : "91",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "236",
+    "id" : "238",
     "type" : "rdfs:Literal"
   }, {
     "id" : "226",
@@ -416,7 +416,7 @@
   }, {
     "instances" : 0,
     "union" : [ "41", "5", "45" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "44"
   }, {
     "iri" : "https://w3id.org/mdo/structure/ORCF1",
@@ -458,22 +458,22 @@
   }, {
     "instances" : 0,
     "union" : [ "41", "5", "45" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "67"
   }, {
     "instances" : 0,
     "union" : [ "41", "5", "45" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "68"
   }, {
     "instances" : 0,
     "union" : [ "41", "5", "45" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "69"
   }, {
     "instances" : 0,
     "union" : [ "41", "5", "45" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "70"
   }, {
     "iri" : "https://w3id.org/mdo/structure/BravaisLattice",
@@ -510,7 +510,7 @@
       "IRI-based" : "BaseCenteredOrthorhombic"
     },
     "id" : "13",
-    "superClasses" : [ "5", "77" ]
+    "superClasses" : [ "5", "79" ]
   }, {
     "iri" : "https://w3id.org/mdo/structure/CovalentBond",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -546,7 +546,7 @@
       "IRI-based" : "BodyCenteredOrthothombic"
     },
     "id" : "60",
-    "superClasses" : [ "5", "77" ]
+    "superClasses" : [ "5", "79" ]
   }, {
     "iri" : "https://w3id.org/mdo/structure/Site",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -579,7 +579,7 @@
     "label" : {
       "IRI-based" : "TRI1a"
     },
-    "id" : "139",
+    "id" : "141",
     "superClasses" : [ "15" ]
   }, {
     "iri" : "https://w3id.org/mdo/structure/CrystalLattice",
@@ -605,7 +605,7 @@
     "label" : {
       "IRI-based" : "LatticeType"
     },
-    "subClasses" : [ "147", "133", "7", "77", "53", "130", "35" ],
+    "subClasses" : [ "147", "133", "7", "79", "53", "130", "35" ],
     "id" : "45"
   }, {
     "iri" : "https://w3id.org/mdo/structure/FaceCenteredOrthothombic",
@@ -616,7 +616,7 @@
     },
     "subClasses" : [ "46", "48", "50" ],
     "id" : "4",
-    "superClasses" : [ "5", "77" ]
+    "superClasses" : [ "5", "79" ]
   }, {
     "iri" : "https://w3id.org/mdo/structure/PrimitiveTriclinic",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -624,7 +624,7 @@
     "label" : {
       "IRI-based" : "PrimitiveTriclinic"
     },
-    "subClasses" : [ "138", "139", "82", "83" ],
+    "subClasses" : [ "138", "141", "82", "83" ],
     "id" : "15",
     "superClasses" : [ "5", "147" ]
   }, {
@@ -666,6 +666,16 @@
     "id" : "101",
     "superClasses" : [ "81" ]
   }, {
+    "iri" : "https://w3id.org/mdo/structure/Orthorhombic",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Orthorhombic"
+    },
+    "subClasses" : [ "11", "13", "60", "4" ],
+    "id" : "79",
+    "superClasses" : [ "45" ]
+  }, {
     "iri" : "https://w3id.org/mdo/structure/PrimitiveMonoclinic",
     "baseIri" : "https://w3id.org/mdo/structure",
     "instances" : 0,
@@ -674,16 +684,6 @@
     },
     "id" : "9",
     "superClasses" : [ "5", "35" ]
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/Orthorhombic",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Orthorhombic"
-    },
-    "subClasses" : [ "11", "13", "60", "4" ],
-    "id" : "77",
-    "superClasses" : [ "45" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/CHEBI_33250",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -820,7 +820,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "79",
+    "id" : "78",
     "label" : {
       "IRI-based" : "float"
     }
@@ -871,17 +871,17 @@
   }, {
     "instances" : 0,
     "union" : [ "76", "228" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "227"
   }, {
     "instances" : 0,
     "union" : [ "41", "5" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "62"
   }, {
     "instances" : 0,
     "union" : [ "123", "214" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "230"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
@@ -946,7 +946,7 @@
       "IRI-based" : "PrimitiveOrthorhombic"
     },
     "id" : "11",
-    "superClasses" : [ "5", "77" ]
+    "superClasses" : [ "5", "79" ]
   }, {
     "iri" : "https://w3id.org/mdo/structure/CrystalStructure",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -1046,7 +1046,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "238",
+    "id" : "236",
     "label" : {
       "IRI-based" : "float"
     }
@@ -1118,7 +1118,7 @@
   }, {
     "instances" : 0,
     "union" : [ "41", "85" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "192"
   }, {
     "iri" : "https://w3id.org/mdo/core/Structure",
@@ -1133,7 +1133,7 @@
   }, {
     "instances" : 0,
     "union" : [ "41", "5", "45" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "31"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -1144,7 +1144,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "141",
+    "id" : "140",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1207,7 +1207,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "236",
+    "id" : "238",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1429,7 +1429,7 @@
     "id" : "75",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "78",
+    "id" : "77",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "84",
@@ -1519,7 +1519,7 @@
     "id" : "137",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "140",
+    "id" : "139",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "142",
@@ -1835,37 +1835,37 @@
   }, {
     "range" : "5",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "3"
   }, {
     "range" : "5",
     "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "8"
   }, {
     "range" : "5",
     "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "10"
   }, {
     "range" : "5",
     "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "12"
   }, {
     "range" : "5",
     "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "14"
   }, {
     "range" : "5",
     "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "16"
   }, {
     "range" : "5",
     "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasMolarVolume",
@@ -1884,7 +1884,7 @@
   }, {
     "range" : "5",
     "domain" : "24",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "23"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasFormationEnergy",
@@ -1924,7 +1924,7 @@
   }, {
     "range" : "5",
     "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "33"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasBravaisLattice",
@@ -1939,47 +1939,47 @@
   }, {
     "range" : "5",
     "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
     "range" : "24",
     "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "47"
   }, {
     "range" : "24",
     "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "49"
   }, {
     "range" : "24",
     "domain" : "38",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "51"
   }, {
     "range" : "24",
     "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
     "range" : "52",
     "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "55"
   }, {
     "range" : "5",
     "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "56"
   }, {
     "range" : "5",
     "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "57"
   }, {
     "range" : "5",
     "domain" : "60",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "59"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasLatticeType",
@@ -2043,7 +2043,7 @@
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasAtomicMass",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "79",
+    "range" : "78",
     "label" : {
       "IRI-based" : "hasAtomicMass"
     },
@@ -2053,7 +2053,7 @@
       "undefined" : "The atomic mass of an element."
     },
     "attributes" : [ "datatype" ],
-    "id" : "78"
+    "id" : "77"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasSPType",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -2154,12 +2154,12 @@
   }, {
     "range" : "81",
     "domain" : "101",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "100"
   }, {
     "range" : "81",
     "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "102"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasCartesianCoordinateZ",
@@ -2241,47 +2241,47 @@
   }, {
     "range" : "35",
     "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "119"
   }, {
     "range" : "35",
     "domain" : "24",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "120"
   }, {
     "range" : "123",
     "domain" : "122",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "121"
   }, {
     "range" : "81",
     "domain" : "80",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "124"
   }, {
     "range" : "81",
     "domain" : "126",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "125"
   }, {
     "range" : "81",
     "domain" : "128",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "127"
   }, {
     "range" : "130",
     "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "129"
   }, {
     "range" : "130",
     "domain" : "73",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "131"
   }, {
     "range" : "133",
     "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "132"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasMeltingPointCelsius",
@@ -2300,17 +2300,17 @@
   }, {
     "range" : "133",
     "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "136"
   }, {
     "range" : "133",
     "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "137"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasSSubShellElectronNumber",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "141",
+    "range" : "140",
     "label" : {
       "IRI-based" : "hasSSubShellElectronNumber"
     },
@@ -2319,31 +2319,31 @@
       "undefined" : "The number of electrons at s subshell for a specific shell (K or L or M or N or O or P or Q)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "140"
+    "id" : "139"
   }, {
-    "range" : "77",
+    "range" : "79",
     "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "142"
   }, {
-    "range" : "77",
+    "range" : "79",
     "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "143"
   }, {
-    "range" : "77",
+    "range" : "79",
     "domain" : "60",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "144"
   }, {
-    "range" : "77",
+    "range" : "79",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "145"
   }, {
     "range" : "147",
     "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "146"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasPSubShellElectronNumber",
@@ -2360,33 +2360,33 @@
     "id" : "148"
   }, {
     "range" : "15",
-    "domain" : "139",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "150"
   }, {
     "range" : "15",
     "domain" : "82",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "151"
   }, {
     "range" : "15",
     "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "152"
   }, {
     "range" : "17",
     "domain" : "154",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "153"
   }, {
     "range" : "17",
     "domain" : "156",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "155"
   }, {
     "range" : "7",
     "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "157"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasBandgap",
@@ -2402,57 +2402,57 @@
   }, {
     "range" : "4",
     "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "161"
   }, {
     "range" : "4",
     "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "162"
   }, {
     "range" : "4",
     "domain" : "50",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "163"
   }, {
     "range" : "15",
     "domain" : "138",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "164"
   }, {
     "range" : "45",
     "domain" : "147",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "165"
   }, {
     "range" : "45",
     "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "166"
   }, {
     "range" : "45",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "167"
   }, {
     "range" : "45",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "168"
   }, {
     "range" : "45",
     "domain" : "53",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "169"
   }, {
     "range" : "45",
     "domain" : "130",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "170"
   }, {
     "range" : "45",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "171"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasPaulingElectronegativity",
@@ -2485,22 +2485,22 @@
   }, {
     "range" : "5",
     "domain" : "73",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "176"
   }, {
     "range" : "53",
     "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "177"
   }, {
     "range" : "53",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "178"
   }, {
     "range" : "138",
-    "domain" : "139",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "179"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasAtom",
@@ -2525,12 +2525,12 @@
   }, {
     "range" : "50",
     "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "182"
   }, {
     "range" : "50",
     "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "183"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasSpecieName",
@@ -2559,22 +2559,22 @@
   }, {
     "range" : "154",
     "domain" : "156",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "187"
   }, {
     "range" : "147",
     "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "188"
   }, {
     "range" : "130",
     "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "189"
   }, {
     "range" : "48",
     "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "190"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasPointGroup",
@@ -2589,7 +2589,7 @@
   }, {
     "range" : "147",
     "domain" : "130",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "193"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasPTGroup",
@@ -2607,13 +2607,13 @@
     "id" : "194"
   }, {
     "range" : "130",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "196"
   }, {
     "range" : "52",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "197"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasVolume",
@@ -2627,18 +2627,18 @@
     "id" : "198"
   }, {
     "range" : "147",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "200"
   }, {
     "range" : "52",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "201"
   }, {
-    "range" : "77",
+    "range" : "79",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "202"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasStiffnessC12",
@@ -2657,7 +2657,7 @@
   }, {
     "range" : "147",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "205"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasStiffnessC11",
@@ -2676,22 +2676,22 @@
   }, {
     "range" : "130",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "208"
   }, {
     "range" : "52",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "209"
   }, {
     "range" : "147",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "210"
   }, {
     "range" : "130",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "211"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasEnergygap",
@@ -2782,43 +2782,32 @@
   }, {
     "range" : "82",
     "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "229"
   }, {
     "range" : "82",
-    "domain" : "139",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "231"
   }, {
     "range" : "83",
-    "domain" : "139",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "232"
   }, {
     "range" : "82",
     "domain" : "138",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "233"
   }, {
     "range" : "83",
     "domain" : "138",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "234"
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/hasBlock",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "236",
-    "label" : {
-      "IRI-based" : "hasBlock"
-    },
-    "cardinality" : "1",
-    "domain" : "21",
-    "attributes" : [ "datatype" ],
-    "id" : "235"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasFirstIonizationEnergy",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "238",
+    "range" : "236",
     "label" : {
       "IRI-based" : "hasFirstIonizationEnergy"
     },
@@ -2827,6 +2816,17 @@
     "comment" : {
       "undefined" : "The first ionization energy of an element. (eV)"
     },
+    "attributes" : [ "datatype" ],
+    "id" : "235"
+  }, {
+    "iri" : "https://w3id.org/mdo/structure/hasBlock",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "238",
+    "label" : {
+      "IRI-based" : "hasBlock"
+    },
+    "cardinality" : "1",
+    "domain" : "21",
     "attributes" : [ "datatype" ],
     "id" : "237"
   }, {
@@ -2984,42 +2984,42 @@
   }, {
     "range" : "7",
     "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "263"
   }, {
     "range" : "35",
     "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "264"
   }, {
-    "range" : "77",
+    "range" : "79",
     "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "265"
   }, {
     "range" : "52",
     "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "266"
   }, {
     "range" : "130",
     "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "267"
   }, {
     "range" : "147",
     "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "268"
   }, {
     "range" : "35",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "269"
   }, {
-    "range" : "77",
+    "range" : "79",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "270"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasBulkModulus",

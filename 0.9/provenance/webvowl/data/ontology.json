@@ -31,7 +31,7 @@
     "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
     "id" : "3",
@@ -73,7 +73,7 @@
       "IRI-based" : "MaterialsData"
     },
     "attributes" : [ "external" ],
-    "id" : "8"
+    "id" : "7"
   }, {
     "iri" : "https://w3id.org/mdo/provenance/DatabaseAgent",
     "baseIri" : "https://w3id.org/mdo/provenance",
@@ -118,7 +118,7 @@
     "id" : "4",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "7",
+    "id" : "8",
     "type" : "owl:objectProperty"
   }, {
     "id" : "10",
@@ -145,12 +145,12 @@
   "propertyAttribute" : [ {
     "range" : "1",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "2"
   }, {
     "range" : "1",
     "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "4"
   }, {
     "iri" : "https://w3id.org/mdo/provenance/publishedTo",
@@ -160,9 +160,9 @@
       "IRI-based" : "publishedTo"
     },
     "superproperty" : [ "9" ],
-    "domain" : "8",
+    "domain" : "7",
     "attributes" : [ "object" ],
-    "id" : "7"
+    "id" : "8"
   }, {
     "iri" : "https://w3id.org/mdo/provenance/hasSoftware",
     "baseIri" : "https://w3id.org/mdo/provenance",
@@ -181,8 +181,8 @@
     "label" : {
       "IRI-based" : "generatedAtTime"
     },
-    "domain" : "8",
-    "attributes" : [ "datatype", "external" ],
+    "domain" : "7",
+    "attributes" : [ "external", "datatype" ],
     "id" : "12"
   }, {
     "iri" : "https://w3id.org/mdo/provenance/publishedBy",
@@ -192,13 +192,13 @@
       "IRI-based" : "publishedBy"
     },
     "superproperty" : [ "9" ],
-    "domain" : "8",
+    "domain" : "7",
     "attributes" : [ "object" ],
     "id" : "14"
   }, {
     "range" : "1",
     "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "15"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
@@ -207,8 +207,8 @@
     "label" : {
       "IRI-based" : "wasAttributedTo"
     },
-    "domain" : "8",
-    "subproperty" : [ "7", "14" ],
+    "domain" : "7",
+    "subproperty" : [ "8", "14" ],
     "attributes" : [ "external", "object" ],
     "id" : "9"
   }, {

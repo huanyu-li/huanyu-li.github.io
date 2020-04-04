@@ -253,21 +253,21 @@
     "attributes" : [ "datatype" ],
     "id" : "10"
   }, {
-    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "8",
-    "label" : {
-      "IRI-based" : "hasPhysicalProperty"
-    },
-    "domain" : "3",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "12"
-  }, {
     "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
     "baseIri" : "https://w3id.org/mdo/core",
     "range" : "7",
     "label" : {
       "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "PartOf"
     },
     "domain" : "3",
     "attributes" : [ "object", "someValues" ],
@@ -293,11 +293,11 @@
     "attributes" : [ "object" ],
     "id" : "15"
   }, {
-    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "1",
+    "range" : "8",
     "label" : {
-      "IRI-based" : "PartOf"
+      "IRI-based" : "hasPhysicalProperty"
     },
     "domain" : "3",
     "attributes" : [ "object", "someValues" ],
@@ -316,7 +316,7 @@
   }, {
     "range" : "6",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "20"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasUnit",
@@ -391,7 +391,7 @@
   }, {
     "range" : "6",
     "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "29"
   } ]
 }
