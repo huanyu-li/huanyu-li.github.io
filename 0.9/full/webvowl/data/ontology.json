@@ -3,7 +3,7 @@
   "header" : {
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
-    "iri" : "http://www.semanticweb.org/ontologies/2019/10/md/full",
+    "iri" : "https://w3id.org/mdo/full/",
     "author" : [ "Huanyu Li" ],
     "labels" : {
       "en" : "Materials Design Ontology"

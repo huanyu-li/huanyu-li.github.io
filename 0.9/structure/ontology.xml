@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2019/10/md/structure/"
-     xml:base="http://www.semanticweb.org/ontologies/2019/10/md/structure/"
+<rdf:RDF xmlns="https://w3id.org/mdo/structure/"
+     xml:base="https://w3id.org/mdo/structure/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:structure="http://www.semanticweb.org/ontologies/2019/10/md/structure/">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/">
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/0.9"/>
-        <owl:imports rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/core/0.9"/>
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/mdo/structure/">
+        <owl:versionIRI rdf:resource="https://w3id.org/mdo/structure/0.9"/>
+        <owl:imports rdf:resource="https://w3id.org/mdo/core/0.9"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-07T09:00:00</terms:created>
         <terms:creator>Huanyu Li</terms:creator>
         <rdfs:label>Materials Design Ontology-Structure Module</rdfs:label>
@@ -45,36 +44,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasOccupancy -->
-
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasOccupancy">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasX -->
-
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasX"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasY -->
-
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasY"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasZ -->
-
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasZ"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -87,116 +56,154 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/belongtoLatticeSystem -->
+    <!-- https://w3id.org/mdo/structure/hasAtom -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/belongtoLatticeSystem">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasAtom">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/mdo/structure/Composition"/>
+                    <rdf:Description rdf:about="https://w3id.org/mdo/structure/Species"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBravaisLattice -->
+    <!-- https://w3id.org/mdo/structure/hasBravaisLattice -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBravaisLattice">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasBravaisLattice">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasComposition -->
+    <!-- https://w3id.org/mdo/structure/hasComposition -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasComposition">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/core/Structure"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Composition"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasComposition">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"/>
+                    <rdf:Description rdf:about="https://w3id.org/mdo/core/Structure"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/Composition"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCrystalBinding -->
+    <!-- https://w3id.org/mdo/structure/hasCrystalBonding -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCrystalBinding">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Species"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasCrystalBonding">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/Species"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/CrystalBonding"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElectronShell -->
+    <!-- https://w3id.org/mdo/structure/hasElement -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElectronShell">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Species"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasElement">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/Species"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElement -->
+    <!-- https://w3id.org/mdo/structure/hasLattice -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElement">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Species"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasLattice">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Structure"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasLattice -->
+    <!-- https://w3id.org/mdo/structure/hasLatticeType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasLattice">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasLatticeType">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/mdo/structure/BravaisLattice"/>
+                    <rdf:Description rdf:about="https://w3id.org/mdo/structure/CrystalLattice"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPointGroup -->
+    <!-- https://w3id.org/mdo/structure/hasPGType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPointGroup">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/SpaceGroup"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PointGroup"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasPGType">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/PointGroup"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/PointGroupType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSite -->
+    <!-- https://w3id.org/mdo/structure/hasPointGroup -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSite">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Site"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasPointGroup">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/SpaceGroup"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/PointGroup"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroup -->
+    <!-- https://w3id.org/mdo/structure/hasSPType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroup">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/SpaceGroup"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasSPType">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/SpaceGroup"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/SpaceGroupType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecies -->
+    <!-- https://w3id.org/mdo/structure/hasSite -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecies">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Site"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Species"/>
-        <hasOccupancy rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></hasOccupancy>
-        <hasX rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></hasX>
-        <hasY rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></hasY>
-        <hasZ rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></hasZ>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasSite">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Structure"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/Site"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/hasSpaceGroup -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasSpaceGroup">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Structure"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/SpaceGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/hasSpecies -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/structure/hasSpecies">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/Site"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/structure/Species"/>
     </owl:ObjectProperty>
     
 
@@ -213,58 +220,58 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_alpha -->
+    <!-- https://w3id.org/mdo/structure/hasAngle_alpha -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_alpha">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasAngle_alpha">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_beta -->
+    <!-- https://w3id.org/mdo/structure/hasAngle_beta -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_beta">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasAngle_beta">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_gamma -->
+    <!-- https://w3id.org/mdo/structure/hasAngle_gamma -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_gamma">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasAngle_gamma">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicMass -->
+    <!-- https://w3id.org/mdo/structure/hasAtomicMass -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicMass">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasAtomicMass">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The atomic mass of an element.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicNumber -->
+    <!-- https://w3id.org/mdo/structure/hasAtomicNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicNumber">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasAtomicNumber">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -283,79 +290,79 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicRadius -->
+    <!-- https://w3id.org/mdo/structure/hasAtomicRadius -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicRadius">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasAtomicRadius">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The atomic radius of an element</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicSymbol -->
+    <!-- https://w3id.org/mdo/structure/hasAtomicSymbol -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicSymbol">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasAtomicSymbol">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The atomic symbol of an element.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBandgap -->
+    <!-- https://w3id.org/mdo/structure/hasBandgap -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBandgap">
-        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasEnergygap"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasBandgap">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/mdo/structure/hasEnergygap"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_a -->
+    <!-- https://w3id.org/mdo/structure/hasBasis_a -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_a">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasBasis_a">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_b -->
+    <!-- https://w3id.org/mdo/structure/hasBasis_b -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_b">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasBasis_b">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_c -->
+    <!-- https://w3id.org/mdo/structure/hasBasis_c -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_c">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasBasis_c">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBlock -->
+    <!-- https://w3id.org/mdo/structure/hasBlock -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBlock">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasBlock">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:oneOf>
@@ -389,77 +396,72 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBoilingPointCelsius -->
+    <!-- https://w3id.org/mdo/structure/hasBoilingPointCelsius -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBoilingPointCelsius">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasBoilingPointCelsius">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The boiling point of an element at Celsius temperature.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBoilingPointKelvins -->
+    <!-- https://w3id.org/mdo/structure/hasBoilingPointKelvins -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBoilingPointKelvins">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasBoilingPointKelvins">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The boiling point of an element at Kelvins temperature.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBulkModulus -->
+    <!-- https://w3id.org/mdo/structure/hasBulkModulus -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBulkModulus">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasBulkModulus">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateX -->
+    <!-- https://w3id.org/mdo/structure/hasCartesianCoordinateX -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateX">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasCartesianCoordinateX">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateY -->
+    <!-- https://w3id.org/mdo/structure/hasCartesianCoordinateY -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateY">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasCartesianCoordinateY">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateZ -->
+    <!-- https://w3id.org/mdo/structure/hasCartesianCoordinateZ -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateZ">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasCartesianCoordinateZ">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDSubShellElectronNumber -->
+    <!-- https://w3id.org/mdo/structure/hasDSubShellElectronNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDSubShellElectronNumber">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/MShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/NShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/OShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/QShell"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasDSubShellElectronNumber">
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -478,42 +480,38 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDensity -->
+    <!-- https://w3id.org/mdo/structure/hasDensity -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDensity">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasDensity">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElasticAnisotropy -->
+    <!-- https://w3id.org/mdo/structure/hasElasticAnisotropy -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElasticAnisotropy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasElasticAnisotropy">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasEnergygap -->
+    <!-- https://w3id.org/mdo/structure/hasEnergygap -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasEnergygap">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasEnergygap">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFSubShellElectronNumber -->
+    <!-- https://w3id.org/mdo/structure/hasFSubShellElectronNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFSubShellElectronNumber">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/NShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/OShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/QShell"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasFSubShellElectronNumber">
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -532,53 +530,50 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFirstIonizationEnergy -->
+    <!-- https://w3id.org/mdo/structure/hasFirstIonizationEnergy -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFirstIonizationEnergy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasFirstIonizationEnergy">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The first ionization energy of an element. (eV)</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFormationEnergy -->
+    <!-- https://w3id.org/mdo/structure/hasFormationEnergy -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFormationEnergy">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasFormationEnergy">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFormula -->
+    <!-- https://w3id.org/mdo/structure/hasFormula -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFormula">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasFormula">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFullAtomicName -->
+    <!-- https://w3id.org/mdo/structure/hasFullAtomicName -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFullAtomicName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasFullAtomicName">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The full atomic name of an element.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGSubShellElectronNumber -->
+    <!-- https://w3id.org/mdo/structure/hasGSubShellElectronNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGSubShellElectronNumber">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/OShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/QShell"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasGSubShellElectronNumber">
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -597,52 +592,52 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGenericFormula -->
+    <!-- https://w3id.org/mdo/structure/hasGenericFormula -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGenericFormula">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasGenericFormula">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Same as anonymous formula.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasHillFormula -->
+    <!-- https://w3id.org/mdo/structure/hasHillFormula -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasHillFormula">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasHillFormula">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMeltingPointCelsius -->
+    <!-- https://w3id.org/mdo/structure/hasMeltingPointCelsius -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMeltingPointCelsius">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasMeltingPointCelsius">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The melting point of an element at Celsius temperature.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMeltingPointKelvins -->
+    <!-- https://w3id.org/mdo/structure/hasMeltingPointKelvins -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMeltingPointKelvins">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasMeltingPointKelvins">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The melting point of an element at Kelvins temperature.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMendeleevNumber -->
+    <!-- https://w3id.org/mdo/structure/hasMendeleevNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMendeleevNumber">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasMendeleevNumber">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -661,38 +656,32 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMolarVolume -->
+    <!-- https://w3id.org/mdo/structure/hasMolarVolume -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMolarVolume">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasMolarVolume">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The Molar volume of an element. (cm-3/mol)</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasOxidationState -->
+    <!-- https://w3id.org/mdo/structure/hasOxidationState -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasOxidationState">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Species"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasOxidationState">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/Species"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The oxidation state of a specie.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber -->
+    <!-- https://w3id.org/mdo/structure/hasPSubShellElectronNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/MShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/NShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/OShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PShell"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/QShell"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasPSubShellElectronNumber">
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -711,11 +700,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPTGroup -->
+    <!-- https://w3id.org/mdo/structure/hasPTGroup -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPTGroup">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasPTGroup">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -734,11 +723,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPTPeriod -->
+    <!-- https://w3id.org/mdo/structure/hasPTPeriod -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPTPeriod">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasPTPeriod">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -757,52 +746,51 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPaulingElectronegativity -->
+    <!-- https://w3id.org/mdo/structure/hasPaulingElectronegativity -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPaulingElectronegativity">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasPaulingElectronegativity">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The Pauling Electronrgativity of an element.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPointGroupHMName -->
+    <!-- https://w3id.org/mdo/structure/hasPointGroupHMName -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPointGroupHMName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PointGroup"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasPointGroupHMName">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/PointGroup"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The Hermann-Mauguin notation of an point group.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPossionRatio -->
+    <!-- https://w3id.org/mdo/structure/hasPossionRatio -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPossionRatio">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasPossionRatio">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasReducedFormula -->
+    <!-- https://w3id.org/mdo/structure/hasReducedFormula -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasReducedFormula">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasReducedFormula">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber -->
+    <!-- https://w3id.org/mdo/structure/hasSSubShellElectronNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasSSubShellElectronNumber">
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -821,130 +809,130 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSTPDensity -->
+    <!-- https://w3id.org/mdo/structure/hasSTPDensity -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSTPDensity">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasSTPDensity">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The density of an element at STP(Standard, Temperature Pressure). (g/cm-3)</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasShearModulus -->
+    <!-- https://w3id.org/mdo/structure/hasShearModulus -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasShearModulus">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasShearModulus">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSolidStateDensity -->
+    <!-- https://w3id.org/mdo/structure/hasSolidStateDensity -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSolidStateDensity">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasSolidStateDensity">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The density of an element at solid state. (g/cm-3)</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroupId -->
+    <!-- https://w3id.org/mdo/structure/hasSpaceGroupId -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroupId">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/SpaceGroup"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasSpaceGroupId">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/SpaceGroup"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The id of a space group ([1, 230]).</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroupSymbol -->
+    <!-- https://w3id.org/mdo/structure/hasSpaceGroupSymbol -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroupSymbol">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/SpaceGroup"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasSpaceGroupSymbol">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/SpaceGroup"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The international short symbol of a space group. (e.g. P1, P1-, P2, P2_1)</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecieName -->
+    <!-- https://w3id.org/mdo/structure/hasSpecieName -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecieName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Species"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasSpecieName">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/Species"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The name of a specie. (e.g. Al3+)</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC11 -->
+    <!-- https://w3id.org/mdo/structure/hasStiffnessC11 -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC11">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasStiffnessC11">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>Stiffness Constant.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC12 -->
+    <!-- https://w3id.org/mdo/structure/hasStiffnessC12 -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC12">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasStiffnessC12">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>Stiffness Constant.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC44 -->
+    <!-- https://w3id.org/mdo/structure/hasStiffnessC44 -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC44">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasStiffnessC44">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>Stiffness Constant.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVanDerWaalsRadius -->
+    <!-- https://w3id.org/mdo/structure/hasVanDerWaalsRadius -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVanDerWaalsRadius">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasVanDerWaalsRadius">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The Van der Waals radius of an element.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVolume -->
+    <!-- https://w3id.org/mdo/structure/hasVolume -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVolume">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasVolume">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/structure/CrystalLattice"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVolumePerAtom -->
+    <!-- https://w3id.org/mdo/structure/hasVolumePerAtom -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVolumePerAtom">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/structure/hasVolumePerAtom">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>The volume per atom at STP (Standard Temperature Pressure). (A-3/atom)</rdfs:comment>
     </owl:DatatypeProperty>
@@ -963,851 +951,836 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/core/Structure -->
+    <!-- http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94 -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/core/Structure"/>
+    <owl:Class rdf:about="http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"/>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredMonoclinic -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33250 -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredMonoclinic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Monoclinic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredOrthorhombic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredOrthorhombic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Orthorhombic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredCubic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredCubic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Cubic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredOrthothombic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredOrthothombic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Orthorhombic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredTetragonal -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/BodyCenteredTetragonal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Tetragonal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33250">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_alpha"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAtomicMass"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_beta"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_gamma"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_a"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_b"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_c"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Composition -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Composition"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/CovalentBond -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/CovalentBond">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalLattice">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSite"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Site"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBravaisLattice"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_alpha"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_beta"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_gamma"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_a"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_b"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_c"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateX"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateY"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasCartesianCoordinateZ"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVolume"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBulkModulus"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElasticAnisotropy"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPossionRatio"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasShearModulus"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC11"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC12"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasStiffnessC44"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalStructure -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalStructure">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/core/Structure"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElectronShell"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicMass"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicNumber"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAtomicNumber"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicRadius"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAtomicRadius"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAtomicSymbol"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAtomicSymbol"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBlock"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBlock"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBoilingPointCelsius"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBoilingPointCelsius"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBoilingPointKelvins"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBoilingPointKelvins"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFirstIonizationEnergy"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasFirstIonizationEnergy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFullAtomicName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasFullAtomicName"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMeltingPointCelsius"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasMeltingPointCelsius"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMeltingPointKelvins"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasMeltingPointKelvins"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMendeleevNumber"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasMendeleevNumber"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasMolarVolume"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasMolarVolume"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPTGroup"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasPTGroup"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPTPeriod"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasPTPeriod"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPaulingElectronegativity"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasPaulingElectronegativity"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSTPDensity"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSTPDensity"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSolidStateDensity"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSolidStateDensity"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVanDerWaalsRadius"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasVanDerWaalsRadius"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasVolumePerAtom"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasVolumePerAtom"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>To represent an element in the periodic table.</rdfs:comment>
+        <rdfs:label>atom</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Cubic -->
+    <!-- https://w3id.org/mdo/core/Structure -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Cubic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredCubic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredCubic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Cubic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredOrthothombic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredOrthothombic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Orthorhombic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Hexagonal -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Hexagonal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Trigonal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/HydrogenBond -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/HydrogenBond">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/IonicBond -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/IonicBond">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/KShell -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/KShell">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/core/Structure">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSite"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/structure/Site"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasPointGroup"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/structure/PointGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSpaceGroup"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/structure/SpaceGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/BaseCenteredMonoclinic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/BaseCenteredMonoclinic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Monoclinic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/BaseCenteredOrthorhombic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/BaseCenteredOrthorhombic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Orthorhombic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/BodyCenteredCubic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/BodyCenteredCubic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Cubic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/BodyCenteredOrthothombic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/BodyCenteredOrthothombic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Orthorhombic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/BodyCenteredTetragonal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/BodyCenteredTetragonal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Tetragonal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/BravaisLattice -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/BravaisLattice">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasLatticeType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_alpha"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_beta"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_gamma"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_a"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_b"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_c"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/Composition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Composition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAtom"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/CovalentBond -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/CovalentBond">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/CrystalBonding"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/CrystalBonding -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/CrystalBonding"/>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/CrystalLattice -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/CrystalLattice">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBravaisLattice"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasLatticeType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_alpha"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_beta"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_gamma"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_a"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_b"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_c"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasCartesianCoordinateX"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasCartesianCoordinateY"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasCartesianCoordinateZ"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBulkModulus"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasElasticAnisotropy"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasPossionRatio"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasShearModulus"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasStiffnessC11"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasStiffnessC12"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasStiffnessC44"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/CrystalStructure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/CrystalStructure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/core/Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/Cubic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Cubic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/FaceCenteredCubic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/FaceCenteredCubic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Cubic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/FaceCenteredOrthothombic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/FaceCenteredOrthothombic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Orthorhombic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/Hexagonal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Hexagonal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Trigonal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/HydrogenBond -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/HydrogenBond">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/CrystalBonding"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/IonicBond -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/IonicBond">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/CrystalBonding"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/LatticeType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/LatticeType">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_alpha"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_beta"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAngle_gamma"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_a"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_b"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasBasis_c"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/MCLC1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/MCLC1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BaseCenteredMonoclinic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/MCLC2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/MCLC2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BaseCenteredMonoclinic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/MCLC3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/MCLC3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BaseCenteredMonoclinic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/MCLC4 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/MCLC4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BaseCenteredMonoclinic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/MetalInteraction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/MetalInteraction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/CrystalBonding"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/Monoclinic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Monoclinic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/ORCF1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/ORCF1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/FaceCenteredOrthothombic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/ORCF2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/ORCF2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/FaceCenteredOrthothombic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/ORCF3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/ORCF3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/FaceCenteredOrthothombic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/Orthorhombic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Orthorhombic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PointGroup -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PointGroup">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasPGType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/structure/PointGroupType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasPointGroupHMName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PointGroupType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PointGroupType"/>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PrimitiveCubic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PrimitiveCubic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Cubic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PrimitiveHexagonal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PrimitiveHexagonal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Hexagonal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PrimitiveMonoclinic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PrimitiveMonoclinic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Monoclinic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PrimitiveOrthorhombic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PrimitiveOrthorhombic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Orthorhombic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PrimitiveRhombohederal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PrimitiveRhombohederal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Rhombohedral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PrimitiveTetragonal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PrimitiveTetragonal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Tetragonal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/PrimitiveTriclinic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/PrimitiveTriclinic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/BravaisLattice"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Triclinic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/RHL1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/RHL1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/PrimitiveRhombohederal"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/structure/RHL2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/RHL2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/RHL2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/PrimitiveRhombohederal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/Rhombohedral -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Rhombohedral">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/Trigonal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/Site -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Site">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSpecies"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/structure/Species"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/structure/SpaceGroup -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/SpaceGroup">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasPointGroup"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/structure/PointGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSPType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/structure/SpaceGroupType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSpaceGroupId"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/LShell -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/LShell">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_alpha"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_beta"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasAngle_gamma"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_a"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_b"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasBasis_c"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC1 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredMonoclinic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC2 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredMonoclinic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC3 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredMonoclinic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC4 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/MCLC4">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BaseCenteredMonoclinic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/MShell -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/MShell">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/MetalInteraction -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/MetalInteraction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Monoclinic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Monoclinic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/NShell -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/NShell">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF1 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredOrthothombic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF2 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredOrthothombic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF3 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/FaceCenteredOrthothombic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/OShell -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/OShell">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Orthorhombic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Orthorhombic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PShell -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PShell">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PointGroup -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PointGroup">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroup"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/SpaceGroup"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPointGroupHMName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSpaceGroupSymbol"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -1816,183 +1789,33 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveCubic -->
+    <!-- https://w3id.org/mdo/structure/SpaceGroupType -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveCubic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Cubic"/>
-    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/SpaceGroupType"/>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveHexagonal -->
+    <!-- https://w3id.org/mdo/structure/Species -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveHexagonal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Hexagonal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveMonoclinic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveMonoclinic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Monoclinic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveOrthorhombic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveOrthorhombic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Orthorhombic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveRhombohederal -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveRhombohederal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Rhombohedral"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTetragonal -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTetragonal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Tetragonal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTriclinic -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTriclinic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/BravaisLattice"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Triclinic"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/QShell -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/QShell">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Species">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasDSubShellElectronNumber"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasAtom"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasOxidationState"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasFSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasGSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSSubShellElectronNumber"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/RHL1 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/RHL1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveRhombohederal"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/RHL2"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/RHL2 -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/RHL2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveRhombohederal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Rhombohedral -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Rhombohedral">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Trigonal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Site -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Site">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecies"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/Species"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/SpaceGroup -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/SpaceGroup">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasPointGroup"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PointGroup"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroupId"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpaceGroupSymbol"/>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/structure/hasSpecieName"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -2001,108 +1824,74 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Species -->
+    <!-- https://w3id.org/mdo/structure/TRI1a -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Species">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElectronShell"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/ElectronShell"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasElement"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystallineElement"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasOxidationState"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecieName"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/TRI1a">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/PrimitiveTriclinic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI1a -->
+    <!-- https://w3id.org/mdo/structure/TRI1b -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI1a">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTriclinic"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/TRI1b">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/PrimitiveTriclinic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI1b -->
+    <!-- https://w3id.org/mdo/structure/TRI2a -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI1b">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTriclinic"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/TRI2a">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/PrimitiveTriclinic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI2a -->
+    <!-- https://w3id.org/mdo/structure/TRI2b -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI2a">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTriclinic"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/TRI2b">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/PrimitiveTriclinic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI2b -->
+    <!-- https://w3id.org/mdo/structure/Tetragonal -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI2b">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/PrimitiveTriclinic"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Tetragonal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Tetragonal -->
+    <!-- https://w3id.org/mdo/structure/Triclinic -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Tetragonal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Triclinic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Triclinic -->
+    <!-- https://w3id.org/mdo/structure/Trigonal -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Triclinic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/Trigonal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/LatticeType"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/Trigonal -->
+    <!-- https://w3id.org/mdo/structure/VanderWaalsLondonInteraction -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Trigonal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/LatticeSystem"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/VanderWaalsLondonInteraction -->
-
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/VanderWaalsLondonInteraction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/CrystalBonding"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/structure/VanderWaalsLondonInteraction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/structure/CrystalBonding"/>
     </owl:Class>
     
 
@@ -2119,25 +1908,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/test1 -->
+    <!-- https://w3id.org/mdo/structure/test1 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/test1">
-        <hasSpecies rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/test2"/>
-    </owl:NamedIndividual>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/test1"/>
-        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/hasSpecies"/>
-        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/ontologies/2019/10/md/structure/test2"/>
-        <hasOccupancy rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</hasOccupancy>
-    </owl:Axiom>
+    <owl:NamedIndividual rdf:about="https://w3id.org/mdo/structure/test1"/>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2019/10/md/structure/test2 -->
+    <!-- https://w3id.org/mdo/structure/test2 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/test2"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/mdo/structure/test2"/>
     
 
 
@@ -2153,36 +1934,36 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Cubic"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Hexagonal"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Monoclinic"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Orthorhombic"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Rhombohedral"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Tetragonal"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/Triclinic"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/Cubic"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/Hexagonal"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/Monoclinic"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/Orthorhombic"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/Rhombohedral"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/Tetragonal"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/Triclinic"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF1"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF2"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/ORCF3"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/ORCF1"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/ORCF2"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/ORCF3"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI1a"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI1b"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI2a"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2019/10/md/structure/TRI2b"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/TRI1a"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/TRI1b"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/TRI2a"/>
+            <rdf:Description rdf:about="https://w3id.org/mdo/structure/TRI2b"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
 
 

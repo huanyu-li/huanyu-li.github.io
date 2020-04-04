@@ -1,90 +1,205 @@
-@prefix : <http://www.semanticweb.org/ontologies/2019/10/md/core/> .
+@prefix : <https://w3id.org/mdo/core/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/ontologies/2019/10/md/core/> .
+@base <https://w3id.org/mdo/core/> .
 
-<http://www.semanticweb.org/ontologies/2019/10/md/core/> rdf:type owl:Ontology ;
-                                                          owl:versionIRI <http://www.semanticweb.org/ontologies/2019/10/md/core/0.9> ;
-                                                          rdfs:label "Materials Design Ontology-Core Module" ;
-                                                          rdfs:seeAlso "https://github.com/huanyu-li/Materials-Design-Ontology" .
+<https://w3id.org/mdo/core/> rdf:type owl:Ontology ;
+                              owl:versionIRI <https://w3id.org/mdo/core/0.9> ;
+                              <http://purl.org/dc/terms/created> "2019-11-07T09:00:00"^^xsd:dateTime ;
+                              <http://purl.org/dc/terms/creator> "Huanyu Li"@en ;
+                              rdfs:label "Materials Design Ontology-Core Module" ;
+                              rdfs:seeAlso "https://github.com/huanyu-li/Materials-Design-Ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/approximateBy
+###  https://w3id.org/mdo/core/PartOf
+:PartOf rdf:type owl:ObjectProperty ;
+        rdfs:domain :Structure ;
+        rdfs:range <http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> .
+
+
+###  https://w3id.org/mdo/core/approximateBy
 :approximateBy rdf:type owl:ObjectProperty ;
                rdfs:domain :MaterialsData ;
                rdfs:range :Structure .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputComputableProperty
-:hasInputComputableProperty rdf:type owl:ObjectProperty ;
-                            rdfs:domain :Calculation ;
-                            rdfs:range :ComputableProperty .
+###  https://w3id.org/mdo/core/decomposeTo
+:decomposeTo rdf:type owl:ObjectProperty ;
+             rdfs:domain :MaterialsData ;
+             rdfs:range :MaterialsData .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/hasInputStructure
+###  https://w3id.org/mdo/core/describedBy
+:describedBy rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> ;
+             rdfs:range :MaterialsData .
+
+
+###  https://w3id.org/mdo/core/hasCalculatedProperty
+:hasCalculatedProperty rdf:type owl:ObjectProperty ;
+                       rdfs:domain [ rdf:type owl:Class ;
+                                     owl:unionOf ( :Calculation
+                                                   :Structure
+                                                 )
+                                   ] ;
+                       rdfs:range :CalculatedProperty .
+
+
+###  https://w3id.org/mdo/core/hasInputStructure
 :hasInputStructure rdf:type owl:ObjectProperty ;
                    rdfs:domain :Calculation ;
                    rdfs:range :Structure .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputComputableProperty
-:hasOutputComputableProperty rdf:type owl:ObjectProperty ;
-                             rdfs:domain :Calculation ;
-                             rdfs:range :ComputableProperty .
-
-
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/hasOutputStructure
+###  https://w3id.org/mdo/core/hasOutputStructure
 :hasOutputStructure rdf:type owl:ObjectProperty ;
                     rdfs:domain :Calculation ;
                     rdfs:range :Structure .
+
+
+###  https://w3id.org/mdo/core/hasPhysicalProperty
+:hasPhysicalProperty rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Structure ;
+                     rdfs:range :PhysicalProperty .
+
+
+###  https://w3id.org/mdo/core/hasUnit
+:hasUnit rdf:type owl:ObjectProperty ;
+         rdfs:domain :Property ;
+         rdfs:range <http://purl.obolibrary.org/obo/Unit> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/mdo/core/hasID
+:hasID rdf:type owl:DatatypeProperty ;
+       rdfs:domain :MaterialsData .
+
+
+###  https://w3id.org/mdo/core/hasPropertyValue
+:hasPropertyValue rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Property ;
+                  rdfs:range xsd:double .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/Calculation
-:Calculation rdf:type owl:Class .
+###  http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94
+<http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty :describedBy ;
+                                                                                                         owl:someValuesFrom :MaterialsData
+                                                                                                       ] ;
+                                                                                       rdfs:label "material" .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/ComputableProperty
-:ComputableProperty rdf:type owl:Class ;
+###  http://purl.obolibrary.org/obo/Unit
+<http://purl.obolibrary.org/obo/Unit> rdf:type owl:Class .
+
+
+###  https://w3id.org/mdo/core/CalculatedProperty
+:CalculatedProperty rdf:type owl:Class ;
                     rdfs:subClassOf :Property .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/MaterialsData
-:MaterialsData rdf:type owl:Class .
+###  https://w3id.org/mdo/core/Calculation
+:Calculation rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasCalculatedProperty ;
+                               owl:someValuesFrom :CalculatedProperty
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasInputStructure ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Structure
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasOutputStructure ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Structure
+                             ] .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/PhysicalProperty
+###  https://w3id.org/mdo/core/MaterialsData
+:MaterialsData rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty :decomposeTo ;
+                                 owl:someValuesFrom :MaterialsData
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :approximateBy ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :Calculation
+                               ] .
+
+
+###  https://w3id.org/mdo/core/PhysicalProperty
 :PhysicalProperty rdf:type owl:Class ;
                   rdfs:subClassOf :Property .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/Property
-:Property rdf:type owl:Class .
+###  https://w3id.org/mdo/core/Property
+:Property rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasUnit ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass <http://purl.obolibrary.org/obo/Unit>
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasPropertyValue ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:double
+                          ] .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/Structure
-:Structure rdf:type owl:Class .
+###  https://w3id.org/mdo/core/Structure
+:Structure rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :PartOf ;
+                             owl:someValuesFrom <http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94>
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasCalculatedProperty ;
+                             owl:someValuesFrom :CalculatedProperty
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasPhysicalProperty ;
+                             owl:someValuesFrom :PhysicalProperty
+                           ] .
 
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/test1
+###  https://w3id.org/mdo/core/test1
 :test1 rdf:type owl:NamedIndividual .
 
 
-###  http://www.semanticweb.org/ontologies/2019/10/md/core/test2
+###  https://w3id.org/mdo/core/test2
 :test2 rdf:type owl:NamedIndividual .
 
 
-###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

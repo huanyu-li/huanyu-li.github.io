@@ -5,7 +5,7 @@
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/full",
+  "@id" : "https://w3id.org/mdo/full/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/created" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -24,13 +24,13 @@
     "@value" : "https://github.com/huanyu-li/Materials-Design-Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/calculation/0.9"
+    "@id" : "https://w3id.org/mdo/calculation/0.9"
   }, {
-    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/core/0.9"
+    "@id" : "https://w3id.org/mdo/core/0.9"
   }, {
-    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/structure/0.9"
+    "@id" : "https://w3id.org/mdo/structure/0.9"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/2019/10/md/full/0.9/"
+    "@id" : "https://w3id.org/mdo/full/0.9"
   } ]
 } ]
