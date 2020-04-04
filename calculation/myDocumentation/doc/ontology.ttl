@@ -1,0 +1,149 @@
+@prefix : <https://w3id.org/mdo/calculation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/mdo/calculation/> .
+
+<https://w3id.org/mdo/calculation/> rdf:type owl:Ontology ;
+                                     owl:versionIRI <https://w3id.org/mdo/calculation/0.9> ;
+                                     owl:imports <https://w3id.org/mdo/core/0.9> ;
+                                     <http://purl.org/dc/terms/created> "2019-11-07T09:00:00"^^xsd:dateTime ;
+                                     <http://purl.org/dc/terms/creator> "Huanyu Li" ;
+                                     rdfs:label "Materials Design Ontology-Calculation Module" ;
+                                     rdfs:seeAlso "https://github.com/huanyu-li/Materials-Design-Ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/mdo/calculation/hasComputationalMethod
+:hasComputationalMethod rdf:type owl:ObjectProperty ;
+                        rdfs:domain <https://w3id.org/mdo/core/Calculation> ;
+                        rdfs:range :ComputationalMethod ;
+                        rdfs:comment "A calculation belongs to a specific Computational Chemical Method." .
+
+
+###  https://w3id.org/mdo/calculation/hasPotentialFunction
+:hasPotentialFunction rdf:type owl:ObjectProperty ;
+                      rdfs:domain :DensityFunctionalTheoryMethod ;
+                      rdfs:range :PotentialFunction .
+
+
+###  https://w3id.org/mdo/calculation/hasXCFunction
+:hasXCFunction rdf:type owl:ObjectProperty ;
+               rdfs:domain :DensityFunctionalTheoryMethod ;
+               rdfs:range :ExchangeCorrelationEnergyFunctional .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/mdo/calculation/ComputationalMethod
+:ComputationalMethod rdf:type owl:Class .
+
+
+###  https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod
+:DensityFunctionalTheoryMethod rdf:type owl:Class ;
+                               rdfs:subClassOf :ComputationalMethod ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasPotentialFunction ;
+                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass :PotentialFunction
+                                               ] ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasXCFunction ;
+                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass :ExchangeCorrelationEnergyFunctional
+                                               ] .
+
+
+###  https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional
+:ExchangeCorrelationEnergyFunctional rdf:type owl:Class .
+
+
+###  https://w3id.org/mdo/calculation/GeneralizedGradientApproximation
+:GeneralizedGradientApproximation rdf:type owl:Class ;
+                                  rdfs:subClassOf :ExchangeCorrelationEnergyFunctional .
+
+
+###  https://w3id.org/mdo/calculation/Hartree-FockMethod
+:Hartree-FockMethod rdf:type owl:Class ;
+                    rdfs:subClassOf :ComputationalMethod .
+
+
+###  https://w3id.org/mdo/calculation/HybridFunctionals
+:HybridFunctionals rdf:type owl:Class ;
+                   rdfs:subClassOf :ExchangeCorrelationEnergyFunctional .
+
+
+###  https://w3id.org/mdo/calculation/HybridGGA
+:HybridGGA rdf:type owl:Class ;
+           rdfs:subClassOf :HybridFunctionals .
+
+
+###  https://w3id.org/mdo/calculation/HybridmGGA
+:HybridmGGA rdf:type owl:Class ;
+            rdfs:subClassOf :HybridFunctionals .
+
+
+###  https://w3id.org/mdo/calculation/LocalDensityApproximation
+:LocalDensityApproximation rdf:type owl:Class ;
+                           rdfs:subClassOf :ExchangeCorrelationEnergyFunctional .
+
+
+###  https://w3id.org/mdo/calculation/PostHartree-FockMethod
+:PostHartree-FockMethod rdf:type owl:Class ;
+                        rdfs:subClassOf :ComputationalMethod .
+
+
+###  https://w3id.org/mdo/calculation/PotentialFunction
+:PotentialFunction rdf:type owl:Class .
+
+
+###  https://w3id.org/mdo/calculation/Semi-EmpiricalQuantumChemistryMethod
+:Semi-EmpiricalQuantumChemistryMethod rdf:type owl:Class ;
+                                      rdfs:subClassOf :ComputationalMethod .
+
+
+###  https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation
+:metaGeneralizedGradientApproximation rdf:type owl:Class ;
+                                      rdfs:subClassOf :ExchangeCorrelationEnergyFunctional .
+
+
+###  https://w3id.org/mdo/core/Calculation
+<https://w3id.org/mdo/core/Calculation> rdf:type owl:Class ;
+                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :hasComputationalMethod ;
+                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                          owl:onClass :ComputationalMethod
+                                                        ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/mdo/calculation/test1
+:test1 rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/mdo/calculation/test2
+:test2 rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

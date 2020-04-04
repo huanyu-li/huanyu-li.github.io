@@ -1,0 +1,1216 @@
+@prefix : <https://w3id.org/mdo/structure/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/mdo/structure/> .
+
+<https://w3id.org/mdo/structure/> rdf:type owl:Ontology ;
+                                   owl:versionIRI <https://w3id.org/mdo/structure/0.9> ;
+                                   owl:imports <https://w3id.org/mdo/core/0.9> ;
+                                   <http://purl.org/dc/terms/created> "2019-11-07T09:00:00"^^xsd:dateTime ;
+                                   <http://purl.org/dc/terms/creator> "Huanyu Li" ;
+                                   rdfs:label "Materials Design Ontology-Structure Module" ;
+                                   rdfs:seeAlso "https://github.com/huanyu-li/Materials-Design-Ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/mdo/structure/hasAtom
+:hasAtom rdf:type owl:ObjectProperty ;
+         rdfs:domain [ rdf:type owl:Class ;
+                       owl:unionOf ( :Composition
+                                     :Species
+                                   )
+                     ] ;
+         rdfs:range <http://purl.obolibrary.org/obo/CHEBI_33250> .
+
+
+###  https://w3id.org/mdo/structure/hasBravaisLattice
+:hasBravaisLattice rdf:type owl:ObjectProperty ;
+                   rdfs:domain :CrystalLattice ;
+                   rdfs:range :BravaisLattice .
+
+
+###  https://w3id.org/mdo/structure/hasComposition
+:hasComposition rdf:type owl:ObjectProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( <http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94>
+                                            <https://w3id.org/mdo/core/Structure>
+                                          )
+                            ] ;
+                rdfs:range :Composition .
+
+
+###  https://w3id.org/mdo/structure/hasCrystalBonding
+:hasCrystalBonding rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Species ;
+                   rdfs:range :CrystalBonding .
+
+
+###  https://w3id.org/mdo/structure/hasElement
+:hasElement rdf:type owl:ObjectProperty ;
+            rdfs:domain :Species ;
+            rdfs:range <http://purl.obolibrary.org/obo/CHEBI_33250> .
+
+
+###  https://w3id.org/mdo/structure/hasLattice
+:hasLattice rdf:type owl:ObjectProperty ;
+            rdfs:domain <https://w3id.org/mdo/core/Structure> ;
+            rdfs:range :CrystalLattice .
+
+
+###  https://w3id.org/mdo/structure/hasLatticeType
+:hasLatticeType rdf:type owl:ObjectProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( :BravaisLattice
+                                            :CrystalLattice
+                                          )
+                            ] ;
+                rdfs:range :LatticeType .
+
+
+###  https://w3id.org/mdo/structure/hasPGType
+:hasPGType rdf:type owl:ObjectProperty ;
+           rdfs:domain :PointGroup ;
+           rdfs:range :PointGroupType .
+
+
+###  https://w3id.org/mdo/structure/hasPointGroup
+:hasPointGroup rdf:type owl:ObjectProperty ;
+               rdfs:domain :CrystalLattice ,
+                           :SpaceGroup ;
+               rdfs:range :PointGroup .
+
+
+###  https://w3id.org/mdo/structure/hasSPType
+:hasSPType rdf:type owl:ObjectProperty ;
+           rdfs:domain :SpaceGroup ;
+           rdfs:range :SpaceGroupType .
+
+
+###  https://w3id.org/mdo/structure/hasSite
+:hasSite rdf:type owl:ObjectProperty ;
+         rdfs:domain <https://w3id.org/mdo/core/Structure> ;
+         rdfs:range :Site .
+
+
+###  https://w3id.org/mdo/structure/hasSpaceGroup
+:hasSpaceGroup rdf:type owl:ObjectProperty ;
+               rdfs:domain <https://w3id.org/mdo/core/Structure> ;
+               rdfs:range :SpaceGroup .
+
+
+###  https://w3id.org/mdo/structure/hasSpecies
+:hasSpecies rdf:type owl:ObjectProperty ;
+            rdfs:domain :Site ;
+            rdfs:range :Species .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/mdo/structure/hasAngle_alpha
+:hasAngle_alpha rdf:type owl:DatatypeProperty ;
+                rdfs:domain :BravaisLattice ,
+                            :CrystalLattice ,
+                            :LatticeType ;
+                rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasAngle_beta
+:hasAngle_beta rdf:type owl:DatatypeProperty ;
+               rdfs:domain :BravaisLattice ,
+                           :CrystalLattice ,
+                           :LatticeType ;
+               rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasAngle_gamma
+:hasAngle_gamma rdf:type owl:DatatypeProperty ;
+                rdfs:domain :BravaisLattice ,
+                            :CrystalLattice ,
+                            :LatticeType ;
+                rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasAtomicMass
+:hasAtomicMass rdf:type owl:DatatypeProperty ;
+               rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+               rdfs:range xsd:float ;
+               rdfs:comment "The atomic mass of an element." .
+
+
+###  https://w3id.org/mdo/structure/hasAtomicNumber
+:hasAtomicNumber rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                 rdfs:range [ rdf:type rdfs:Datatype ;
+                              owl:onDatatype xsd:integer ;
+                              owl:withRestrictions ( [ xsd:minInclusive 1
+                                                     ]
+                                                     [ xsd:maxInclusive 118
+                                                     ]
+                                                   )
+                            ] ;
+                 rdfs:comment "The atomic number of an element." .
+
+
+###  https://w3id.org/mdo/structure/hasAtomicRadius
+:hasAtomicRadius rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                 rdfs:range xsd:float ;
+                 rdfs:comment "The atomic radius of an element" .
+
+
+###  https://w3id.org/mdo/structure/hasAtomicSymbol
+:hasAtomicSymbol rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "The atomic symbol of an element." .
+
+
+###  https://w3id.org/mdo/structure/hasBandgap
+:hasBandgap rdf:type owl:DatatypeProperty ;
+            owl:equivalentProperty :hasEnergygap ;
+            rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasBasis_a
+:hasBasis_a rdf:type owl:DatatypeProperty ;
+            rdfs:domain :BravaisLattice ,
+                        :CrystalLattice ,
+                        :LatticeType ;
+            rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasBasis_b
+:hasBasis_b rdf:type owl:DatatypeProperty ;
+            rdfs:domain :BravaisLattice ,
+                        :CrystalLattice ,
+                        :LatticeType ;
+            rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasBasis_c
+:hasBasis_c rdf:type owl:DatatypeProperty ;
+            rdfs:domain :BravaisLattice ,
+                        :CrystalLattice ,
+                        :LatticeType ;
+            rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasBlock
+:hasBlock rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+          rdfs:range [ rdf:type rdfs:Datatype ;
+                       owl:oneOf [ rdf:type rdf:List ;
+                                   rdf:first "d" ;
+                                   rdf:rest [ rdf:type rdf:List ;
+                                              rdf:first "f" ;
+                                              rdf:rest [ rdf:type rdf:List ;
+                                                         rdf:first "p" ;
+                                                         rdf:rest [ rdf:type rdf:List ;
+                                                                    rdf:first "s" ;
+                                                                    rdf:rest rdf:nil
+                                                                  ]
+                                                       ]
+                                            ]
+                                 ]
+                     ] .
+
+
+###  https://w3id.org/mdo/structure/hasBoilingPointCelsius
+:hasBoilingPointCelsius rdf:type owl:DatatypeProperty ;
+                        rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                        rdfs:range xsd:float ;
+                        rdfs:comment "The boiling point of an element at Celsius temperature." .
+
+
+###  https://w3id.org/mdo/structure/hasBoilingPointKelvins
+:hasBoilingPointKelvins rdf:type owl:DatatypeProperty ;
+                        rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                        rdfs:range xsd:float ;
+                        rdfs:comment "The boiling point of an element at Kelvins temperature." .
+
+
+###  https://w3id.org/mdo/structure/hasBulkModulus
+:hasBulkModulus rdf:type owl:DatatypeProperty ;
+                rdfs:domain :CrystalLattice ;
+                rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasCartesianCoordinateX
+:hasCartesianCoordinateX rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :CrystalLattice ;
+                         rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasCartesianCoordinateY
+:hasCartesianCoordinateY rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :CrystalLattice ;
+                         rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasCartesianCoordinateZ
+:hasCartesianCoordinateZ rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :CrystalLattice ;
+                         rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasDSubShellElectronNumber
+:hasDSubShellElectronNumber rdf:type owl:DatatypeProperty ;
+                            rdfs:range [ rdf:type rdfs:Datatype ;
+                                         owl:onDatatype xsd:integer ;
+                                         owl:withRestrictions ( [ xsd:minInclusive 0
+                                                                ]
+                                                                [ xsd:maxInclusive 10
+                                                                ]
+                                                              )
+                                       ] ;
+                            rdfs:comment "The number of electrons at d subshell for a specific shell (M or N or O or P or Q)." .
+
+
+###  https://w3id.org/mdo/structure/hasDensity
+:hasDensity rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasElasticAnisotropy
+:hasElasticAnisotropy rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :CrystalLattice ;
+                      rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasEnergygap
+:hasEnergygap rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasFSubShellElectronNumber
+:hasFSubShellElectronNumber rdf:type owl:DatatypeProperty ;
+                            rdfs:range [ rdf:type rdfs:Datatype ;
+                                         owl:onDatatype xsd:integer ;
+                                         owl:withRestrictions ( [ xsd:minInclusive 0
+                                                                ]
+                                                                [ xsd:maxInclusive 14
+                                                                ]
+                                                              )
+                                       ] ;
+                            rdfs:comment "The number of electrons at F subshell for a specific shell (N or O or P or Q)." .
+
+
+###  https://w3id.org/mdo/structure/hasFirstIonizationEnergy
+:hasFirstIonizationEnergy rdf:type owl:DatatypeProperty ;
+                          rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                          rdfs:range xsd:float ;
+                          rdfs:comment "The first ionization energy of an element. (eV)" .
+
+
+###  https://w3id.org/mdo/structure/hasFormationEnergy
+:hasFormationEnergy rdf:type owl:DatatypeProperty ;
+                    rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasFormula
+:hasFormula rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:string .
+
+
+###  https://w3id.org/mdo/structure/hasFullAtomicName
+:hasFullAtomicName rdf:type owl:DatatypeProperty ;
+                   rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "The full atomic name of an element." .
+
+
+###  https://w3id.org/mdo/structure/hasGSubShellElectronNumber
+:hasGSubShellElectronNumber rdf:type owl:DatatypeProperty ;
+                            rdfs:range [ rdf:type rdfs:Datatype ;
+                                         owl:onDatatype xsd:integer ;
+                                         owl:withRestrictions ( [ xsd:minInclusive 0
+                                                                ]
+                                                                [ xsd:maxInclusive 18
+                                                                ]
+                                                              )
+                                       ] ;
+                            rdfs:comment "The number of electrons at g subshell for a specific shell (O or P or Q)." .
+
+
+###  https://w3id.org/mdo/structure/hasGenericFormula
+:hasGenericFormula rdf:type owl:DatatypeProperty ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "Same as anonymous formula." .
+
+
+###  https://w3id.org/mdo/structure/hasHillFormula
+:hasHillFormula rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:string .
+
+
+###  https://w3id.org/mdo/structure/hasMeltingPointCelsius
+:hasMeltingPointCelsius rdf:type owl:DatatypeProperty ;
+                        rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                        rdfs:range xsd:float ;
+                        rdfs:comment "The melting point of an element at Celsius temperature." .
+
+
+###  https://w3id.org/mdo/structure/hasMeltingPointKelvins
+:hasMeltingPointKelvins rdf:type owl:DatatypeProperty ;
+                        rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                        rdfs:range xsd:float ;
+                        rdfs:comment "The melting point of an element at Kelvins temperature." .
+
+
+###  https://w3id.org/mdo/structure/hasMendeleevNumber
+:hasMendeleevNumber rdf:type owl:DatatypeProperty ;
+                    rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                    rdfs:range [ rdf:type rdfs:Datatype ;
+                                 owl:onDatatype xsd:integer ;
+                                 owl:withRestrictions ( [ xsd:minInclusive 1
+                                                        ]
+                                                        [ xsd:maxInclusive 103
+                                                        ]
+                                                      )
+                               ] ;
+                    rdfs:comment "The Mendeleev number of an element." .
+
+
+###  https://w3id.org/mdo/structure/hasMolarVolume
+:hasMolarVolume rdf:type owl:DatatypeProperty ;
+                rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                rdfs:range xsd:float ;
+                rdfs:comment "The Molar volume of an element. (cm-3/mol)" .
+
+
+###  https://w3id.org/mdo/structure/hasOxidationState
+:hasOxidationState rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Species ;
+                   rdfs:range xsd:float ;
+                   rdfs:comment "The oxidation state of a specie." .
+
+
+###  https://w3id.org/mdo/structure/hasPSubShellElectronNumber
+:hasPSubShellElectronNumber rdf:type owl:DatatypeProperty ;
+                            rdfs:range [ rdf:type rdfs:Datatype ;
+                                         owl:onDatatype xsd:integer ;
+                                         owl:withRestrictions ( [ xsd:minInclusive 0
+                                                                ]
+                                                                [ xsd:maxInclusive 6
+                                                                ]
+                                                              )
+                                       ] ;
+                            rdfs:comment "The number of electrons at p subshell for a specific shell (L or M or N or O or P or Q)." .
+
+
+###  https://w3id.org/mdo/structure/hasPTGroup
+:hasPTGroup rdf:type owl:DatatypeProperty ;
+            rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+            rdfs:range [ rdf:type rdfs:Datatype ;
+                         owl:onDatatype xsd:integer ;
+                         owl:withRestrictions ( [ xsd:minInclusive 1
+                                                ]
+                                                [ xsd:maxInclusive 18
+                                                ]
+                                              )
+                       ] ;
+            rdfs:comment "The group of an element in periodic table. (The column number in periodic table)" .
+
+
+###  https://w3id.org/mdo/structure/hasPTPeriod
+:hasPTPeriod rdf:type owl:DatatypeProperty ;
+             rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+             rdfs:range [ rdf:type rdfs:Datatype ;
+                          owl:onDatatype xsd:integer ;
+                          owl:withRestrictions ( [ xsd:minInclusive 1
+                                                 ]
+                                                 [ xsd:maxInclusive 7
+                                                 ]
+                                               )
+                        ] ;
+             rdfs:comment "The period of an element in periodic table. (The row number in periodic table)" .
+
+
+###  https://w3id.org/mdo/structure/hasPaulingElectronegativity
+:hasPaulingElectronegativity rdf:type owl:DatatypeProperty ;
+                             rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                             rdfs:range xsd:float ;
+                             rdfs:comment "The Pauling Electronrgativity of an element." .
+
+
+###  https://w3id.org/mdo/structure/hasPointGroupHMName
+:hasPointGroupHMName rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :PointGroup ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "The Hermann-Mauguin notation of an point group." .
+
+
+###  https://w3id.org/mdo/structure/hasPossionRatio
+:hasPossionRatio rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :CrystalLattice ;
+                 rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasReducedFormula
+:hasReducedFormula rdf:type owl:DatatypeProperty ;
+                   rdfs:range xsd:string .
+
+
+###  https://w3id.org/mdo/structure/hasSSubShellElectronNumber
+:hasSSubShellElectronNumber rdf:type owl:DatatypeProperty ;
+                            rdfs:range [ rdf:type rdfs:Datatype ;
+                                         owl:onDatatype xsd:integer ;
+                                         owl:withRestrictions ( [ xsd:minInclusive 0
+                                                                ]
+                                                                [ xsd:maxInclusive 2
+                                                                ]
+                                                              )
+                                       ] ;
+                            rdfs:comment "The number of electrons at s subshell for a specific shell (K or L or M or N or O or P or Q)." .
+
+
+###  https://w3id.org/mdo/structure/hasSTPDensity
+:hasSTPDensity rdf:type owl:DatatypeProperty ;
+               rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+               rdfs:range xsd:float ;
+               rdfs:comment "The density of an element at STP(Standard, Temperature Pressure). (g/cm-3)" .
+
+
+###  https://w3id.org/mdo/structure/hasShearModulus
+:hasShearModulus rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :CrystalLattice ;
+                 rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasSolidStateDensity
+:hasSolidStateDensity rdf:type owl:DatatypeProperty ;
+                      rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                      rdfs:range xsd:float ;
+                      rdfs:comment "The density of an element at solid state. (g/cm-3)" .
+
+
+###  https://w3id.org/mdo/structure/hasSpaceGroupId
+:hasSpaceGroupId rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :SpaceGroup ;
+                 rdfs:range xsd:integer ;
+                 rdfs:comment "The id of a space group ([1, 230])." .
+
+
+###  https://w3id.org/mdo/structure/hasSpaceGroupSymbol
+:hasSpaceGroupSymbol rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :SpaceGroup ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "The international short symbol of a space group. (e.g. P1, P1-, P2, P2_1)" .
+
+
+###  https://w3id.org/mdo/structure/hasSpecieName
+:hasSpecieName rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Species ;
+               rdfs:range xsd:string ;
+               rdfs:comment "The name of a specie. (e.g. Al3+)" .
+
+
+###  https://w3id.org/mdo/structure/hasStiffnessC11
+:hasStiffnessC11 rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :CrystalLattice ;
+                 rdfs:range xsd:float ;
+                 rdfs:comment "Stiffness Constant." .
+
+
+###  https://w3id.org/mdo/structure/hasStiffnessC12
+:hasStiffnessC12 rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :CrystalLattice ;
+                 rdfs:range xsd:float ;
+                 rdfs:comment "Stiffness Constant." .
+
+
+###  https://w3id.org/mdo/structure/hasStiffnessC44
+:hasStiffnessC44 rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :CrystalLattice ;
+                 rdfs:range xsd:float ;
+                 rdfs:comment "Stiffness Constant." .
+
+
+###  https://w3id.org/mdo/structure/hasVanDerWaalsRadius
+:hasVanDerWaalsRadius rdf:type owl:DatatypeProperty ;
+                      rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                      rdfs:range xsd:float ;
+                      rdfs:comment "The Van der Waals radius of an element." .
+
+
+###  https://w3id.org/mdo/structure/hasVolume
+:hasVolume rdf:type owl:DatatypeProperty ;
+           rdfs:domain :CrystalLattice ;
+           rdfs:range xsd:float .
+
+
+###  https://w3id.org/mdo/structure/hasVolumePerAtom
+:hasVolumePerAtom rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <http://purl.obolibrary.org/obo/CHEBI_33250> ;
+                  rdfs:range xsd:float ;
+                  rdfs:comment "The volume per atom at STP (Standard Temperature Pressure). (A-3/atom)" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94
+<http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_33250
+<http://purl.obolibrary.org/obo/CHEBI_33250> rdf:type owl:Class ;
+                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasAtomicMass ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasAtomicNumber ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:integer
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasAtomicRadius ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasAtomicSymbol ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:string
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasBlock ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:string
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasBoilingPointCelsius ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasBoilingPointKelvins ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasFirstIonizationEnergy ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasFullAtomicName ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:string
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasMeltingPointCelsius ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasMeltingPointKelvins ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasMendeleevNumber ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:integer
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasMolarVolume ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasPTGroup ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:integer
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasPTPeriod ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:integer
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasPaulingElectronegativity ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasSTPDensity ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasSolidStateDensity ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasVanDerWaalsRadius ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasVolumePerAtom ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:float
+                                                             ] ;
+                                             rdfs:comment "To represent an element in the periodic table." ;
+                                             rdfs:label "atom" .
+
+
+###  https://w3id.org/mdo/core/Structure
+<https://w3id.org/mdo/core/Structure> rdf:type owl:Class ;
+                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasSite ;
+                                                        owl:someValuesFrom :Site
+                                                      ] ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasPointGroup ;
+                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onClass :PointGroup
+                                                      ] ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasSpaceGroup ;
+                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onClass :SpaceGroup
+                                                      ] .
+
+
+###  https://w3id.org/mdo/structure/BaseCenteredMonoclinic
+:BaseCenteredMonoclinic rdf:type owl:Class ;
+                        rdfs:subClassOf :BravaisLattice ,
+                                        :Monoclinic .
+
+
+###  https://w3id.org/mdo/structure/BaseCenteredOrthorhombic
+:BaseCenteredOrthorhombic rdf:type owl:Class ;
+                          rdfs:subClassOf :BravaisLattice ,
+                                          :Orthorhombic .
+
+
+###  https://w3id.org/mdo/structure/BodyCenteredCubic
+:BodyCenteredCubic rdf:type owl:Class ;
+                   rdfs:subClassOf :BravaisLattice ,
+                                   :Cubic .
+
+
+###  https://w3id.org/mdo/structure/BodyCenteredOrthothombic
+:BodyCenteredOrthothombic rdf:type owl:Class ;
+                          rdfs:subClassOf :BravaisLattice ,
+                                          :Orthorhombic .
+
+
+###  https://w3id.org/mdo/structure/BodyCenteredTetragonal
+:BodyCenteredTetragonal rdf:type owl:Class ;
+                        rdfs:subClassOf :BravaisLattice ,
+                                        :Tetragonal .
+
+
+###  https://w3id.org/mdo/structure/BravaisLattice
+:BravaisLattice rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasLatticeType ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass :LatticeType
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasAngle_alpha ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasAngle_beta ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasAngle_gamma ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasBasis_a ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasBasis_b ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasBasis_c ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] .
+
+
+###  https://w3id.org/mdo/structure/Composition
+:Composition rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasAtom ;
+                               owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_33250>
+                             ] .
+
+
+###  https://w3id.org/mdo/structure/CovalentBond
+:CovalentBond rdf:type owl:Class ;
+              rdfs:subClassOf :CrystalBonding .
+
+
+###  https://w3id.org/mdo/structure/CrystalBonding
+:CrystalBonding rdf:type owl:Class .
+
+
+###  https://w3id.org/mdo/structure/CrystalLattice
+:CrystalLattice rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasBravaisLattice ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass :BravaisLattice
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasLatticeType ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass :LatticeType
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasAngle_alpha ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasAngle_beta ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasAngle_gamma ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasBasis_a ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasBasis_b ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasBasis_c ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasCartesianCoordinateX ;
+                                  owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasCartesianCoordinateY ;
+                                  owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasCartesianCoordinateZ ;
+                                  owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasBulkModulus ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasElasticAnisotropy ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasPossionRatio ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasShearModulus ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasStiffnessC11 ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasStiffnessC12 ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasStiffnessC44 ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] .
+
+
+###  https://w3id.org/mdo/structure/CrystalStructure
+:CrystalStructure rdf:type owl:Class ;
+                  rdfs:subClassOf <https://w3id.org/mdo/core/Structure> .
+
+
+###  https://w3id.org/mdo/structure/Cubic
+:Cubic rdf:type owl:Class ;
+       rdfs:subClassOf :LatticeType .
+
+
+###  https://w3id.org/mdo/structure/FaceCenteredCubic
+:FaceCenteredCubic rdf:type owl:Class ;
+                   rdfs:subClassOf :BravaisLattice ,
+                                   :Cubic .
+
+
+###  https://w3id.org/mdo/structure/FaceCenteredOrthothombic
+:FaceCenteredOrthothombic rdf:type owl:Class ;
+                          rdfs:subClassOf :BravaisLattice ,
+                                          :Orthorhombic .
+
+
+###  https://w3id.org/mdo/structure/Hexagonal
+:Hexagonal rdf:type owl:Class ;
+           rdfs:subClassOf :LatticeType ,
+                           :Trigonal .
+
+
+###  https://w3id.org/mdo/structure/HydrogenBond
+:HydrogenBond rdf:type owl:Class ;
+              rdfs:subClassOf :CrystalBonding .
+
+
+###  https://w3id.org/mdo/structure/IonicBond
+:IonicBond rdf:type owl:Class ;
+           rdfs:subClassOf :CrystalBonding .
+
+
+###  https://w3id.org/mdo/structure/LatticeType
+:LatticeType rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasAngle_alpha ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:float
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasAngle_beta ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:float
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasAngle_gamma ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:float
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasBasis_a ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:float
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasBasis_b ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:float
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasBasis_c ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:float
+                             ] .
+
+
+###  https://w3id.org/mdo/structure/MCLC1
+:MCLC1 rdf:type owl:Class ;
+       rdfs:subClassOf :BaseCenteredMonoclinic .
+
+
+###  https://w3id.org/mdo/structure/MCLC2
+:MCLC2 rdf:type owl:Class ;
+       rdfs:subClassOf :BaseCenteredMonoclinic .
+
+
+###  https://w3id.org/mdo/structure/MCLC3
+:MCLC3 rdf:type owl:Class ;
+       rdfs:subClassOf :BaseCenteredMonoclinic .
+
+
+###  https://w3id.org/mdo/structure/MCLC4
+:MCLC4 rdf:type owl:Class ;
+       rdfs:subClassOf :BaseCenteredMonoclinic .
+
+
+###  https://w3id.org/mdo/structure/MetalInteraction
+:MetalInteraction rdf:type owl:Class ;
+                  rdfs:subClassOf :CrystalBonding .
+
+
+###  https://w3id.org/mdo/structure/Monoclinic
+:Monoclinic rdf:type owl:Class ;
+            rdfs:subClassOf :LatticeType .
+
+
+###  https://w3id.org/mdo/structure/ORCF1
+:ORCF1 rdf:type owl:Class ;
+       rdfs:subClassOf :FaceCenteredOrthothombic .
+
+
+###  https://w3id.org/mdo/structure/ORCF2
+:ORCF2 rdf:type owl:Class ;
+       rdfs:subClassOf :FaceCenteredOrthothombic .
+
+
+###  https://w3id.org/mdo/structure/ORCF3
+:ORCF3 rdf:type owl:Class ;
+       rdfs:subClassOf :FaceCenteredOrthothombic .
+
+
+###  https://w3id.org/mdo/structure/Orthorhombic
+:Orthorhombic rdf:type owl:Class ;
+              rdfs:subClassOf :LatticeType .
+
+
+###  https://w3id.org/mdo/structure/PointGroup
+:PointGroup rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasPGType ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :PointGroupType
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasPointGroupHMName ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] .
+
+
+###  https://w3id.org/mdo/structure/PointGroupType
+:PointGroupType rdf:type owl:Class .
+
+
+###  https://w3id.org/mdo/structure/PrimitiveCubic
+:PrimitiveCubic rdf:type owl:Class ;
+                rdfs:subClassOf :BravaisLattice ,
+                                :Cubic .
+
+
+###  https://w3id.org/mdo/structure/PrimitiveHexagonal
+:PrimitiveHexagonal rdf:type owl:Class ;
+                    rdfs:subClassOf :BravaisLattice ,
+                                    :Hexagonal .
+
+
+###  https://w3id.org/mdo/structure/PrimitiveMonoclinic
+:PrimitiveMonoclinic rdf:type owl:Class ;
+                     rdfs:subClassOf :BravaisLattice ,
+                                     :Monoclinic .
+
+
+###  https://w3id.org/mdo/structure/PrimitiveOrthorhombic
+:PrimitiveOrthorhombic rdf:type owl:Class ;
+                       rdfs:subClassOf :BravaisLattice ,
+                                       :Orthorhombic .
+
+
+###  https://w3id.org/mdo/structure/PrimitiveRhombohederal
+:PrimitiveRhombohederal rdf:type owl:Class ;
+                        rdfs:subClassOf :BravaisLattice ,
+                                        :Rhombohedral .
+
+
+###  https://w3id.org/mdo/structure/PrimitiveTetragonal
+:PrimitiveTetragonal rdf:type owl:Class ;
+                     rdfs:subClassOf :BravaisLattice ,
+                                     :Tetragonal .
+
+
+###  https://w3id.org/mdo/structure/PrimitiveTriclinic
+:PrimitiveTriclinic rdf:type owl:Class ;
+                    rdfs:subClassOf :BravaisLattice ,
+                                    :Triclinic .
+
+
+###  https://w3id.org/mdo/structure/RHL1
+:RHL1 rdf:type owl:Class ;
+      rdfs:subClassOf :PrimitiveRhombohederal ;
+      owl:disjointWith :RHL2 .
+
+
+###  https://w3id.org/mdo/structure/RHL2
+:RHL2 rdf:type owl:Class ;
+      rdfs:subClassOf :PrimitiveRhombohederal .
+
+
+###  https://w3id.org/mdo/structure/Rhombohedral
+:Rhombohedral rdf:type owl:Class ;
+              rdfs:subClassOf :Trigonal .
+
+
+###  https://w3id.org/mdo/structure/Site
+:Site rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasSpecies ;
+                        owl:someValuesFrom :Species
+                      ] .
+
+
+###  https://w3id.org/mdo/structure/SpaceGroup
+:SpaceGroup rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasPointGroup ;
+                              owl:someValuesFrom :PointGroup
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasSPType ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :SpaceGroupType
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasSpaceGroupId ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:integer
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasSpaceGroupSymbol ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] .
+
+
+###  https://w3id.org/mdo/structure/SpaceGroupType
+:SpaceGroupType rdf:type owl:Class .
+
+
+###  https://w3id.org/mdo/structure/Species
+:Species rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasAtom ;
+                           owl:someValuesFrom <http://purl.obolibrary.org/obo/CHEBI_33250>
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasOxidationState ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:float
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasSpecieName ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] .
+
+
+###  https://w3id.org/mdo/structure/TRI1a
+:TRI1a rdf:type owl:Class ;
+       rdfs:subClassOf :PrimitiveTriclinic .
+
+
+###  https://w3id.org/mdo/structure/TRI1b
+:TRI1b rdf:type owl:Class ;
+       rdfs:subClassOf :PrimitiveTriclinic .
+
+
+###  https://w3id.org/mdo/structure/TRI2a
+:TRI2a rdf:type owl:Class ;
+       rdfs:subClassOf :PrimitiveTriclinic .
+
+
+###  https://w3id.org/mdo/structure/TRI2b
+:TRI2b rdf:type owl:Class ;
+       rdfs:subClassOf :PrimitiveTriclinic .
+
+
+###  https://w3id.org/mdo/structure/Tetragonal
+:Tetragonal rdf:type owl:Class ;
+            rdfs:subClassOf :LatticeType .
+
+
+###  https://w3id.org/mdo/structure/Triclinic
+:Triclinic rdf:type owl:Class ;
+           rdfs:subClassOf :LatticeType .
+
+
+###  https://w3id.org/mdo/structure/Trigonal
+:Trigonal rdf:type owl:Class ;
+          rdfs:subClassOf :LatticeType .
+
+
+###  https://w3id.org/mdo/structure/VanderWaalsLondonInteraction
+:VanderWaalsLondonInteraction rdf:type owl:Class ;
+                              rdfs:subClassOf :CrystalBonding .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/mdo/structure/test1
+:test1 rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/mdo/structure/test2
+:test2 rdf:type owl:NamedIndividual .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Cubic
+                :Hexagonal
+                :Monoclinic
+                :Orthorhombic
+                :Rhombohedral
+                :Tetragonal
+                :Triclinic
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :ORCF1
+                :ORCF2
+                :ORCF3
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :TRI1a
+                :TRI1b
+                :TRI2a
+                :TRI2b
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

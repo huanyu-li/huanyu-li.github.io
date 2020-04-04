@@ -1,0 +1,397 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://purl.obolibrary.org/obo", "http://emmo.info/domains/emmo-material.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://w3id.org/mdo/core/",
+    "author" : [ "Huanyu Li" ],
+    "labels" : {
+      "undefined" : "Materials Design Ontology-Core Module"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Huanyu Li",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-07T09:00:00",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/mdo/core/Structure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Structure"
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+    "baseIri" : "http://emmo.info/domains/emmo-material.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+      "undefined" : "material"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/Property",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "subClasses" : [ "7", "8" ],
+    "id" : "6"
+  }, {
+    "instances" : 0,
+    "union" : [ "5", "3" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/mdo/core/Calculation",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calculation"
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/Unit",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhysicalProperty"
+    },
+    "id" : "8",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/CalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CalculatedProperty"
+    },
+    "id" : "7",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/MaterialsData",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialsData"
+    },
+    "id" : "2"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "13",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "24",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/mdo/core/describedBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "describedBy"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasOutputStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasOutputStructure"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/decomposeTo",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "decomposeTo"
+    },
+    "domain" : "2",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasID",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasID"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasPhysicalProperty"
+    },
+    "domain" : "3",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "3",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "PartOf"
+    },
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasInputStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasInputStructure"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "PartOf"
+    },
+    "domain" : "3",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPropertyValue",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasPropertyValue"
+    },
+    "cardinality" : "1",
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "19"
+  }, {
+    "range" : "6",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasUnit",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/describedBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "describedBy"
+    },
+    "domain" : "1",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "5",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasPhysicalProperty"
+    },
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/approximateBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "approximateBy"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/decomposeTo",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "decomposeTo"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "range" : "6",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  } ]
+}
