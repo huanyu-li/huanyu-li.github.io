@@ -6,13 +6,21 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/mdo/core/">
         <owl:versionIRI rdf:resource="https://w3id.org/mdo/core/0.9"/>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-07T09:00:00</terms:created>
-        <terms:creator xml:lang="en">Huanyu Li</terms:creator>
+        <terms:contributor>Patrick Lambrix</terms:contributor>
+        <terms:contributor>Rickard Armiento</terms:contributor>
+        <terms:created>2019-11-07</terms:created>
+        <terms:creator>Huanyu Li</terms:creator>
+        <terms:license>https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE</terms:license>
+        <vann:preferredNamespacePrefix>core</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/mdo/core/0.9</vann:preferredNamespaceUri>
+        <rdfs:comment xml:lang="en">This is the core module in Materials Design Ontology.</rdfs:comment>
         <rdfs:label>Materials Design Ontology-Core Module</rdfs:label>
         <rdfs:seeAlso>https://github.com/huanyu-li/Materials-Design-Ontology</rdfs:seeAlso>
+        <owl:versionInfo>0.9</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -29,6 +37,13 @@
     
 
 
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
     <!-- http://purl.org/dc/terms/created -->
 
 
@@ -40,6 +55,27 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 

@@ -8,14 +8,25 @@
 
 <https://w3id.org/mdo/core/> rdf:type owl:Ontology ;
                               owl:versionIRI <https://w3id.org/mdo/core/0.9> ;
-                              <http://purl.org/dc/terms/created> "2019-11-07T09:00:00"^^xsd:dateTime ;
-                              <http://purl.org/dc/terms/creator> "Huanyu Li"@en ;
+                              <http://purl.org/dc/terms/contributor> "Patrick Lambrix" ,
+                                                                     "Rickard Armiento" ;
+                              <http://purl.org/dc/terms/created> "2019-11-07" ;
+                              <http://purl.org/dc/terms/creator> "Huanyu Li" ;
+                              <http://purl.org/dc/terms/license> "https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE" ;
+                              <http://purl.org/vocab/vann/preferredNamespacePrefix> "core" ;
+                              <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/mdo/core/0.9" ;
+                              rdfs:comment "This is the core module in Materials Design Ontology."@en ;
                               rdfs:label "Materials Design Ontology-Core Module" ;
-                              rdfs:seeAlso "https://github.com/huanyu-li/Materials-Design-Ontology" .
+                              rdfs:seeAlso "https://github.com/huanyu-li/Materials-Design-Ontology" ;
+                              owl:versionInfo "0.9" .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/terms/created
 <http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
@@ -23,6 +34,18 @@
 
 ###  http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
 
 
 #################################################################

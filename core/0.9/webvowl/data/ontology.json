@@ -4,21 +4,60 @@
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://purl.obolibrary.org/obo", "http://emmo.info/domains/emmo-material.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
     "iri" : "https://w3id.org/mdo/core/",
+    "version" : "0.9",
     "author" : [ "Huanyu Li" ],
     "labels" : {
       "undefined" : "Materials Design Ontology-Core Module"
     },
+    "comments" : {
+      "en" : "This is the core module in Materials Design Ontology."
+    },
     "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE",
+        "type" : "label"
+      } ],
       "creator" : [ {
         "identifier" : "creator",
-        "language" : "en",
+        "language" : "undefined",
         "value" : "Huanyu Li",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Patrick Lambrix",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Rickard Armiento",
         "type" : "label"
       } ],
       "created" : [ {
         "identifier" : "created",
         "language" : "undefined",
-        "value" : "2019-11-07T09:00:00",
+        "value" : "2019-11-07",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "core",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.9",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/mdo/core/0.9",
         "type" : "label"
       } ],
       "seeAlso" : [ {
@@ -240,7 +279,7 @@
       "IRI-based" : "decomposeTo"
     },
     "domain" : "2",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "someValues" ],
     "id" : "9"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasID",
@@ -260,17 +299,17 @@
       "IRI-based" : "hasPhysicalProperty"
     },
     "domain" : "3",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "someValues" ],
     "id" : "12"
   }, {
-    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "iri" : "https://w3id.org/mdo/core/PartOf",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "7",
+    "range" : "1",
     "label" : {
-      "IRI-based" : "hasCalculatedProperty"
+      "IRI-based" : "PartOf"
     },
     "domain" : "3",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "someValues" ],
     "id" : "13"
   }, {
     "iri" : "https://w3id.org/mdo/core/PartOf",
@@ -293,14 +332,14 @@
     "attributes" : [ "object" ],
     "id" : "15"
   }, {
-    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "1",
+    "range" : "7",
     "label" : {
-      "IRI-based" : "PartOf"
+      "IRI-based" : "hasCalculatedProperty"
     },
     "domain" : "3",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "someValues" ],
     "id" : "16"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasPropertyValue",
@@ -336,7 +375,7 @@
       "IRI-based" : "describedBy"
     },
     "domain" : "1",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "someValues" ],
     "id" : "23"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
@@ -346,7 +385,7 @@
       "IRI-based" : "hasCalculatedProperty"
     },
     "domain" : "5",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "someValues" ],
     "id" : "24"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
