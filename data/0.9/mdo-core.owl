@@ -77,6 +77,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -99,15 +116,6 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/approximateBy">
         <rdfs:domain rdf:resource="https://w3id.org/mdo/core/MaterialsData"/>
         <rdfs:range rdf:resource="https://w3id.org/mdo/core/Structure"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/mdo/core/decomposeTo -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/decomposeTo">
-        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/MaterialsData"/>
-        <rdfs:range rdf:resource="https://w3id.org/mdo/core/MaterialsData"/>
     </owl:ObjectProperty>
     
 
@@ -270,12 +278,6 @@
     <!-- https://w3id.org/mdo/core/MaterialsData -->
 
     <owl:Class rdf:about="https://w3id.org/mdo/core/MaterialsData">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/mdo/core/decomposeTo"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/core/MaterialsData"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/mdo/core/approximateBy"/>
