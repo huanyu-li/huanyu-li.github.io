@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/mdo/calculation/"
+     xml:base="https://w3id.org/mdo/calculation/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="https://w3id.org/mdo/core/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:calculation="https://w3id.org/mdo/calculation/">
+    <owl:Ontology rdf:about="https://w3id.org/mdo/calculation/">
+        <owl:versionIRI rdf:resource="https://w3id.org/mdo/calculation/1.0"/>
+        <owl:imports rdf:resource="https://w3id.org/mdo/core/1.0"/>
+        <dcterms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patrick Lambrix</dcterms:contributor>
+        <dcterms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rickard Armiento</dcterms:contributor>
+        <dcterms:created>2019-11-07</dcterms:created>
+        <dcterms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huanyu Li</dcterms:creator>
+        <dcterms:license>https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE</dcterms:license>
+        <vann:preferredNamespacePrefix>calculation</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/mdo/calculation/1.0</vann:preferredNamespaceUri>
+        <rdfs:comment xml:lang="en">This is the calculation module of Materials Design Ontology.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materials Design Ontology-Calculation Module</rdfs:label>
+        <rdfs:seeAlso>https://github.com/huanyu-li/Materials-Design-Ontology</rdfs:seeAlso>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/hasComputationalMethod -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/calculation/hasComputationalMethod">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Calculation"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A calculation belongs to a specific Computational Chemical Method.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/hasXCFunctional -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/calculation/hasXCFunctional">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/hasPotentialFunction -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/mdo/calculation/hasPotentialFunction">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/ComputationalMethod -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/ComputationalMethod"/>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasXCFunctional"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasPotentialFunction"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/Hartree-FockMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/GeneralizedGradientApproximation -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/GeneralizedGradientApproximation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/HybridFunctionals"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/LocalDensityApproximation"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/Hartree-FockMethod -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/Hartree-FockMethod">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/HybridFunctionals -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridFunctionals">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/LocalDensityApproximation"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/HybridGGA -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridGGA">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/HybridFunctionals"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/HybridmGGA"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/HybridmGGA -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridmGGA">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/HybridFunctionals"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/LocalDensityApproximation -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/LocalDensityApproximation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/mdo/core/Calculation -->
+
+    <owl:Class rdf:about="https://w3id.org/mdo/core/Calculation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasComputationalMethod"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/test1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mdo/calculation/test1"/>
+    
+
+
+    <!-- https://w3id.org/mdo/calculation/test2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/mdo/calculation/test2"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
