@@ -1,0 +1,390 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/mdo/calculation" ],
+    "iri" : "https://w3id.org/mdo/calculation/",
+    "version" : "1.0",
+    "author" : [ "Huanyu Li" ],
+    "labels" : {
+      "undefined" : "Materials Design Ontology-Calculation Module"
+    },
+    "comments" : {
+      "en" : "This is the calculation module of Materials Design Ontology."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Huanyu Li",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Patrick Lambrix",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Rickard Armiento",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-07",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "calculation",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/mdo/calculation/1.0",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "metaGeneralizedGradientApproximation"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/HybridmGGA",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridmGGA"
+    },
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/HybridFunctionals",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridFunctionals"
+    },
+    "subClasses" : [ "2", "6" ],
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/GeneralizedGradientApproximation",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GeneralizedGradientApproximation"
+    },
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/Calculation",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calculation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/ComputationalMethod",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComputationalMethod"
+    },
+    "subClasses" : [ "20", "10" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DensityFunctionalTheoryMethod"
+    },
+    "id" : "10",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/LocalDensityApproximation",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LocalDensityApproximation"
+    },
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/HybridGGA",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridGGA"
+    },
+    "id" : "6",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExchangeCorrelationEnergyFunctional"
+    },
+    "subClasses" : [ "0", "12", "3", "5" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/Hartree-FockMethod",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hartree-FockMethod"
+    },
+    "id" : "20",
+    "superClasses" : [ "22" ]
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "7",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "8",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "13",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "14",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "4"
+  }, {
+    "range" : "0",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/hasXCFunctional",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasXCFunctional"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "range" : "12",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "0",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "14"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/hasPotentialFunction",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasPotentialFunction"
+    },
+    "cardinality" : "1",
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "18"
+  }, {
+    "range" : "20",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "12",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/hasComputationalMethod",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "hasComputationalMethod"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "A calculation belongs to a specific Computational Chemical Method."
+    },
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "3",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "22",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "22",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  } ]
+}
