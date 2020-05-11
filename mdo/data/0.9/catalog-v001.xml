@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="https://w3id.org/mdo/provenance/0.9" uri="https://huanyu-li.github.io/mdo/data/0.9/mdo-provenance.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/mdo/calculation/0.9" uri="https://huanyu-li.github.io/mdo/data/0.9/mdo-calculation.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/mdo/structure/0.9" uri="https://huanyu-li.github.io/mdo/data/0.9/mdo-structure.owl"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/mdo/core/0.9" uri="https://huanyu-li.github.io/mdo/data/0.9/mdo-core.owl"/>
-</catalog>
