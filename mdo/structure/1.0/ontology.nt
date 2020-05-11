@@ -1,0 +1,570 @@
+<https://w3id.org/mdo/structure/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/mdo/structure/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/mdo/structure/1.0> .
+<https://w3id.org/mdo/structure/> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/mdo/core/1.0> .
+<https://w3id.org/mdo/structure/> <http://purl.org/dc/terms/contributor> "Patrick Lambrix" .
+<https://w3id.org/mdo/structure/> <http://purl.org/dc/terms/contributor> "Rickard Armiento" .
+<https://w3id.org/mdo/structure/> <http://purl.org/dc/terms/created> "2019-11-07" .
+<https://w3id.org/mdo/structure/> <http://purl.org/dc/terms/creator> "Huanyu Li" .
+<https://w3id.org/mdo/structure/> <http://purl.org/dc/terms/license> "https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE" .
+<https://w3id.org/mdo/structure/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "structure" .
+<https://w3id.org/mdo/structure/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/mdo/structure/1.0" .
+<https://w3id.org/mdo/structure/> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the structure module in Materials Design Ontology."@en .
+<https://w3id.org/mdo/structure/> <http://www.w3.org/2000/01/rdf-schema#label> "Materials Design Ontology-Structure Module" .
+<https://w3id.org/mdo/structure/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://github.com/huanyu-li/Materials-Design-Ontology" .
+<https://w3id.org/mdo/structure/> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mdo/structure/hasAngleVector
+<https://w3id.org/mdo/structure/hasAngleVector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasAngleVector> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/structure/Basis> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/structure/Lattice> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/mdo/structure/hasAngleVector> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/AngleTriple> .
+<https://w3id.org/mdo/structure/hasAngleVector> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a basis or a lattice can have a angle vector."@en .
+# 
+# https://w3id.org/mdo/structure/hasAxisVectors
+<https://w3id.org/mdo/structure/hasAxisVectors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasAxisVectors> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/structure/Basis> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/structure/Lattice> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/mdo/structure/hasAxisVectors> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/AxisVectors> .
+<https://w3id.org/mdo/structure/hasAxisVectors> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a basis or a lattice can have an axis-vectors."@en .
+# 
+# https://w3id.org/mdo/structure/hasBasis
+<https://w3id.org/mdo/structure/hasBasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasBasis> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/core/Structure> .
+<https://w3id.org/mdo/structure/hasBasis> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/Basis> .
+<https://w3id.org/mdo/structure/hasBasis> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a structure has a basis."@en .
+# 
+# https://w3id.org/mdo/structure/hasComposition
+<https://w3id.org/mdo/structure/hasComposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasComposition> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#unionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/core/Structure> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/mdo/structure/hasComposition> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/Composition> .
+<https://w3id.org/mdo/structure/hasComposition> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a material or a structure can have a composition."@en .
+# 
+# https://w3id.org/mdo/structure/hasElement
+<https://w3id.org/mdo/structure/hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasElement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/Species> .
+<https://w3id.org/mdo/structure/hasElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/CHEBI_33250> .
+<https://w3id.org/mdo/structure/hasElement> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a specie has related atoms."@en .
+# 
+# https://w3id.org/mdo/structure/hasLattice
+<https://w3id.org/mdo/structure/hasLattice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasLattice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/core/Structure> .
+<https://w3id.org/mdo/structure/hasLattice> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/Lattice> .
+<https://w3id.org/mdo/structure/hasLattice> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a structure has a lattice."@en .
+# 
+# https://w3id.org/mdo/structure/hasLengthVector
+<https://w3id.org/mdo/structure/hasLengthVector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasLengthVector> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid10 <http://www.w3.org/2002/07/owl#unionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/structure/Basis> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/structure/Lattice> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/mdo/structure/hasLengthVector> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/LengthTriple> .
+<https://w3id.org/mdo/structure/hasLengthVector> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a basis or a lattice can have a length vector."@en .
+# 
+# https://w3id.org/mdo/structure/hasPointGroup
+<https://w3id.org/mdo/structure/hasPointGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasPointGroup> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid13 <http://www.w3.org/2002/07/owl#unionOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/structure/Lattice> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/mdo/structure/SpaceGroup> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/mdo/structure/hasPointGroup> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/PointGroup> .
+<https://w3id.org/mdo/structure/hasPointGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a lattice or a spacegroup can have corresponding point group."@en .
+# 
+# https://w3id.org/mdo/structure/hasSite
+<https://w3id.org/mdo/structure/hasSite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasSite> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/core/Structure> .
+<https://w3id.org/mdo/structure/hasSite> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/Site> .
+<https://w3id.org/mdo/structure/hasSite> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a structure has sites."@en .
+# 
+# https://w3id.org/mdo/structure/hasSpaceGroup
+<https://w3id.org/mdo/structure/hasSpaceGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasSpaceGroup> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/core/Structure> .
+<https://w3id.org/mdo/structure/hasSpaceGroup> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/SpaceGroup> .
+<https://w3id.org/mdo/structure/hasSpaceGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a structure has a corresponding space group."@en .
+# 
+# https://w3id.org/mdo/structure/hasSpecies
+<https://w3id.org/mdo/structure/hasSpecies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/mdo/structure/hasSpecies> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/Site> .
+<https://w3id.org/mdo/structure/hasSpecies> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mdo/structure/Species> .
+<https://w3id.org/mdo/structure/hasSpecies> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent a site has corresponding species."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mdo/structure/hasAngle_alpha
+<https://w3id.org/mdo/structure/hasAngle_alpha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasAngle_alpha> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/AngleTriple> .
+<https://w3id.org/mdo/structure/hasAngle_alpha> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/hasAngle_alpha> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent angle alpha of the cell."@en .
+# 
+# https://w3id.org/mdo/structure/hasAngle_beta
+<https://w3id.org/mdo/structure/hasAngle_beta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasAngle_beta> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/AngleTriple> .
+<https://w3id.org/mdo/structure/hasAngle_beta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/hasAngle_beta> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent angle beta of the cell."@en .
+# 
+# https://w3id.org/mdo/structure/hasAngle_gamma
+<https://w3id.org/mdo/structure/hasAngle_gamma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasAngle_gamma> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/AngleTriple> .
+<https://w3id.org/mdo/structure/hasAngle_gamma> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/hasAngle_gamma> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent angle gamma of the cell."@en .
+# 
+# https://w3id.org/mdo/structure/hasAnonymousFormula
+<https://w3id.org/mdo/structure/hasAnonymousFormula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasAnonymousFormula> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/Composition> .
+<https://w3id.org/mdo/structure/hasAnonymousFormula> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/hasAnonymousFormula> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent the anonymous formula of a composition."@en .
+# 
+# https://w3id.org/mdo/structure/hasAtomicMass
+<https://w3id.org/mdo/structure/hasAtomicMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasAtomicMass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/CHEBI_33250> .
+<https://w3id.org/mdo/structure/hasAtomicMass> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/mdo/structure/hasAtomicMass> <http://www.w3.org/2000/01/rdf-schema#comment> "The atomic mass of an element." .
+# 
+# https://w3id.org/mdo/structure/hasAtomicNumber
+<https://w3id.org/mdo/structure/hasAtomicNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasAtomicNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/CHEBI_33250> .
+<https://w3id.org/mdo/structure/hasAtomicNumber> <http://www.w3.org/2000/01/rdf-schema#range> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:genid16 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid16 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
+_:genid20 <http://www.w3.org/2001/XMLSchema#minInclusive> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid18 .
+_:genid18 <http://www.w3.org/2001/XMLSchema#maxInclusive> "118"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/mdo/structure/hasAtomicNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The atomic number of an element." .
+# 
+# https://w3id.org/mdo/structure/hasAtomicSymbol
+<https://w3id.org/mdo/structure/hasAtomicSymbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasAtomicSymbol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/CHEBI_33250> .
+<https://w3id.org/mdo/structure/hasAtomicSymbol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/hasAtomicSymbol> <http://www.w3.org/2000/01/rdf-schema#comment> "The atomic symbol of an element." .
+# 
+# https://w3id.org/mdo/structure/hasDensity
+<https://w3id.org/mdo/structure/hasDensity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasDensity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# https://w3id.org/mdo/structure/hasDescriptiveFormula
+<https://w3id.org/mdo/structure/hasDescriptiveFormula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasDescriptiveFormula> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/Composition> .
+<https://w3id.org/mdo/structure/hasDescriptiveFormula> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/hasDescriptiveFormula> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent the descriptive formula of a composition."@en .
+# 
+# https://w3id.org/mdo/structure/hasFullAtomicName
+<https://w3id.org/mdo/structure/hasFullAtomicName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasFullAtomicName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/CHEBI_33250> .
+<https://w3id.org/mdo/structure/hasFullAtomicName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/hasFullAtomicName> <http://www.w3.org/2000/01/rdf-schema#comment> "The full atomic name of an element." .
+# 
+# https://w3id.org/mdo/structure/hasHillFormula
+<https://w3id.org/mdo/structure/hasHillFormula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasHillFormula> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/Composition> .
+<https://w3id.org/mdo/structure/hasHillFormula> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://w3id.org/mdo/structure/hasLength_a
+<https://w3id.org/mdo/structure/hasLength_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasLength_a> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/LengthTriple> .
+<https://w3id.org/mdo/structure/hasLength_a> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/hasLength_a> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent cell length 'a'."@en .
+# 
+# https://w3id.org/mdo/structure/hasLength_b
+<https://w3id.org/mdo/structure/hasLength_b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasLength_b> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/LengthTriple> .
+<https://w3id.org/mdo/structure/hasLength_b> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/hasLength_b> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent cell length 'b'."@en .
+# 
+# https://w3id.org/mdo/structure/hasLength_c
+<https://w3id.org/mdo/structure/hasLength_c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasLength_c> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/LengthTriple> .
+<https://w3id.org/mdo/structure/hasLength_c> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/hasLength_c> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent cell length 'c'."@en .
+# 
+# https://w3id.org/mdo/structure/hasOxidationState
+<https://w3id.org/mdo/structure/hasOxidationState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasOxidationState> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/Species> .
+<https://w3id.org/mdo/structure/hasOxidationState> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/hasOxidationState> <http://www.w3.org/2000/01/rdf-schema#comment> "The oxidation state of a specie."@en .
+# 
+# https://w3id.org/mdo/structure/hasPointGroupHMName
+<https://w3id.org/mdo/structure/hasPointGroupHMName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasPointGroupHMName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/PointGroup> .
+<https://w3id.org/mdo/structure/hasPointGroupHMName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/hasPointGroupHMName> <http://www.w3.org/2000/01/rdf-schema#comment> "The Hermann-Mauguin notation of an point group."@en .
+# 
+# https://w3id.org/mdo/structure/hasReducedFormula
+<https://w3id.org/mdo/structure/hasReducedFormula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasReducedFormula> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/Composition> .
+<https://w3id.org/mdo/structure/hasReducedFormula> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/hasReducedFormula> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent the reduced formula of a conposition"@en .
+# 
+# https://w3id.org/mdo/structure/hasSpaceGroupID
+<https://w3id.org/mdo/structure/hasSpaceGroupID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasSpaceGroupID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/SpaceGroup> .
+<https://w3id.org/mdo/structure/hasSpaceGroupID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/mdo/structure/hasSpaceGroupID> <http://www.w3.org/2000/01/rdf-schema#comment> "The ID of a space group ([1, 230])."@en .
+# 
+# https://w3id.org/mdo/structure/hasSpaceGroupSymbol
+<https://w3id.org/mdo/structure/hasSpaceGroupSymbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasSpaceGroupSymbol> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/SpaceGroup> .
+<https://w3id.org/mdo/structure/hasSpaceGroupSymbol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/hasSpaceGroupSymbol> <http://www.w3.org/2000/01/rdf-schema#comment> "The international short symbol of a space group. (e.g. P1, P1-, P2, P2_1)"@en .
+# 
+# https://w3id.org/mdo/structure/hasX_axisVector
+<https://w3id.org/mdo/structure/hasX_axisVector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasX_axisVector> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/AxisVectors> .
+<https://w3id.org/mdo/structure/hasX_axisVector> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/mdo/structure/hasX_axisVector> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent the first vector in the AxisVectors."@en .
+# 
+# https://w3id.org/mdo/structure/hasY_axisVector
+<https://w3id.org/mdo/structure/hasY_axisVector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasY_axisVector> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/AxisVectors> .
+<https://w3id.org/mdo/structure/hasY_axisVector> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/mdo/structure/hasY_axisVector> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent the second vector in the AxisVectors."@en .
+# 
+# https://w3id.org/mdo/structure/hasZ_axisVector
+<https://w3id.org/mdo/structure/hasZ_axisVector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/mdo/structure/hasZ_axisVector> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/mdo/structure/AxisVectors> .
+<https://w3id.org/mdo/structure/hasZ_axisVector> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/mdo/structure/hasZ_axisVector> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent the third vector in the AxisVectors."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94
+<http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_33250
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAtomicMass> .
+_:genid21 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAtomicNumber> .
+_:genid22 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid22 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAtomicSymbol> .
+_:genid23 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid23 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasFullAtomicName> .
+_:genid24 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/2000/01/rdf-schema#comment> "To represent an element in the periodic table."@en .
+<http://purl.obolibrary.org/obo/CHEBI_33250> <http://www.w3.org/2000/01/rdf-schema#label> "atom" .
+# 
+# https://w3id.org/mdo/core/Structure
+<https://w3id.org/mdo/core/Structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/core/Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasSite> .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/mdo/structure/Site> .
+<https://w3id.org/mdo/core/Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasBasis> .
+_:genid26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid26 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/Basis> .
+<https://w3id.org/mdo/core/Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasComposition> .
+_:genid27 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid27 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/Composition> .
+<https://w3id.org/mdo/core/Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasLattice> .
+_:genid28 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/Lattice> .
+<https://w3id.org/mdo/core/Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasPointGroup> .
+_:genid29 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid29 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/PointGroup> .
+<https://w3id.org/mdo/core/Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasSpaceGroup> .
+_:genid30 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/SpaceGroup> .
+# 
+# https://w3id.org/mdo/structure/AngleTriple
+<https://w3id.org/mdo/structure/AngleTriple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/AngleTriple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAngle_alpha> .
+_:genid31 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid31 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/AngleTriple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAngle_beta> .
+_:genid32 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid32 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/AngleTriple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAngle_gamma> .
+_:genid33 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid33 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/AngleTriple> <http://www.w3.org/2000/01/rdf-schema#comment> "AngleTriple is a vector of three angles which represent the angles among three bases in a unit cell."@en .
+# 
+# https://w3id.org/mdo/structure/AxisVectors
+<https://w3id.org/mdo/structure/AxisVectors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/AxisVectors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasX_axisVector> .
+_:genid34 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid34 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/mdo/structure/AxisVectors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasY_axisVector> .
+_:genid35 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid35 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/mdo/structure/AxisVectors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasZ_axisVector> .
+_:genid36 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid36 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/mdo/structure/AxisVectors> <http://www.w3.org/2000/01/rdf-schema#comment> "AxisVectors is the three vectors which represent the bases of primitive cell."@en .
+# 
+# https://w3id.org/mdo/structure/Basis
+<https://w3id.org/mdo/structure/Basis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/Basis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid37 <http://www.w3.org/2002/07/owl#unionOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAngleVector> .
+_:genid45 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid45 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/AngleTriple> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasLengthVector> .
+_:genid43 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid43 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/LengthTriple> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAxisVectors> .
+_:genid39 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid39 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/AxisVectors> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/mdo/structure/Basis> <http://www.w3.org/2000/01/rdf-schema#comment> "A basis can be described by basis's length vector a, b, c and the intervector angles alpha, beta and gamma."@en .
+# 
+# https://w3id.org/mdo/structure/Composition
+<https://w3id.org/mdo/structure/Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/Composition> <http://www.w3.org/2000/01/rdf-schema#comment> "Composition is used to represent the composition of chemical elements of structures."@en .
+# 
+# https://w3id.org/mdo/structure/Lattice
+<https://w3id.org/mdo/structure/Lattice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/Lattice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/2002/07/owl#unionOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAngleVector> .
+_:genid54 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid54 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/AngleTriple> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasLengthVector> .
+_:genid52 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid52 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/LengthTriple> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasAxisVectors> .
+_:genid48 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid48 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/mdo/structure/AxisVectors> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/mdo/structure/Lattice> <http://www.w3.org/2000/01/rdf-schema#comment> "Lattice is a set of points abstracted from basis. A three-dimensional lattice can ve visualized best as an infinite periodic array of points."@en .
+# 
+# https://w3id.org/mdo/structure/LengthTriple
+<https://w3id.org/mdo/structure/LengthTriple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/LengthTriple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasLength_a> .
+_:genid55 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid55 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/LengthTriple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasLength_b> .
+_:genid56 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid56 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/LengthTriple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasLength_c> .
+_:genid57 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid57 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/mdo/structure/LengthTriple> <http://www.w3.org/2000/01/rdf-schema#comment> "LengthTriple consists of three bases of a unit cell."@en .
+# 
+# https://w3id.org/mdo/structure/PointGroup
+<https://w3id.org/mdo/structure/PointGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/PointGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasPointGroupHMName> .
+_:genid58 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid58 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/PointGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of linear mappings of vector space, which is corresonpond to the group of motions in point space determining the symmetry of the macroscopic crystal, is called the point group of the crystal, furthermore of the crystal structure, and is also called the point group of its space group."@en .
+<https://w3id.org/mdo/structure/PointGroup> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "International Tables for Crystallography, Volume A, Fourth, revised edition, Section 8.1.5."@en .
+# 
+# https://w3id.org/mdo/structure/Site
+<https://w3id.org/mdo/structure/Site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/Site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasSpecies> .
+_:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/mdo/structure/Species> .
+<https://w3id.org/mdo/structure/Site> <http://www.w3.org/2000/01/rdf-schema#comment> "Each point in a lattice is a site."@en .
+# 
+# https://w3id.org/mdo/structure/SpaceGroup
+<https://w3id.org/mdo/structure/SpaceGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/SpaceGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasPointGroup> .
+_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/mdo/structure/PointGroup> .
+<https://w3id.org/mdo/structure/SpaceGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasSpaceGroupSymbol> .
+_:genid61 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid61 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/mdo/structure/SpaceGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "The symmetry group of a three-dimensional crystal pattern is called its space group."@en .
+<https://w3id.org/mdo/structure/SpaceGroup> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "International Tables for Crystallography, Volume !, Fourth, revised edition, Section 8.1.5."@en .
+# 
+# https://w3id.org/mdo/structure/Species
+<https://w3id.org/mdo/structure/Species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/mdo/structure/Species> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/mdo/structure/hasOxidationState> .
+_:genid62 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid62 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/mdo/structure/Species> <http://www.w3.org/2000/01/rdf-schema#comment> "Species is the combination of atoms on each site."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mdo/structure/test1
+<https://w3id.org/mdo/structure/test1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/mdo/structure/test2
+<https://w3id.org/mdo/structure/test2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
