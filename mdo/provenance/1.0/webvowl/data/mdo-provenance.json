@@ -1,0 +1,862 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "https://w3id.org/mdo/provenance", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://emmo.info/domains/emmo-material.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "emmo" : "http://emmo.info/domains/emmo-material.owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "vann" : "http://purl.org/vocab/vann/",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "https://w3id.org/mdo/core/",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "obo" : "http://purl.obolibrary.org/obo/",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title" : {
+      "en" : "Materials Design Ontology - Provenance Module"
+    },
+    "iri" : "https://w3id.org/mdo/provenance/",
+    "version" : "1.0",
+    "author" : [ "Huanyu Li" ],
+    "comments" : {
+      "en" : "This is the provenance module of Materials Design Ontology."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Huanyu Li",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Patrick Lambrix",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Rickard Armiento",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2020-04-02",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "provenance",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/mdo/provenance/1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Materials Design Ontology - Provenance Module",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/mdo/core/Calculation",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calculation"
+    },
+    "comment" : {
+      "en" : "Calculation means using specific computational method to compute materials' electronic structure and get the relationships between materials properties and structures."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/mdo/provenance/DatabaseAgent",
+    "baseIri" : "https://w3id.org/mdo/provenance",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DatabaseAgent"
+    },
+    "comment" : {
+      "undefined" : "DatabaseAgent represents which databases stores the material data."
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Person",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/CalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CalculatedProperty"
+    },
+    "comment" : {
+      "en" : "Properties of structures or materials that are influenced by calculations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Agent",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "subClasses" : [ "24", "12", "1", "20" ],
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#SoftwareAgent",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareAgent"
+    },
+    "comment" : {
+      "undefined" : "SoftwareAgent represents which software produces the result of a material calculation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/mdo/core/Structure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Structure"
+    },
+    "comment" : {
+      "en" : "Structure is a unit that is used in a materials calculation. It is a part of a specific material."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+    "baseIri" : "http://emmo.info/domains/emmo-material.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+      "undefined" : "material"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/Property",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "https://en.wikipedia.org/wiki/List_of_materials_properties",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "subClasses" : [ "15", "23" ],
+    "comment" : {
+      "en" : "A material's property is an intensive property of some material."
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "5" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/mdo/provenance/ReferenceAgent",
+    "baseIri" : "https://w3id.org/mdo/provenance",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReferenceAgent"
+    },
+    "comment" : {
+      "undefined" : "ReferenceAgent is used to represent the reference of materials data."
+    },
+    "id" : "1",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhysicalProperty"
+    },
+    "comment" : {
+      "en" : "Properties of structures or materials that are not influenced by calculations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/MaterialsData",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialsData"
+    },
+    "comment" : {
+      "en" : "MaterialsData is a piece of data that represents materials calculation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Organization",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "17" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "43",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "51",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/mdo/provenance/hasPublicationTitle",
+    "baseIri" : "https://w3id.org/mdo/provenance",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasPublicationTitle"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "To represent the title of the reference."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasInputStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasInputStructure"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "To represent a calculation takes a structure as the input."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/approximatedBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "approximatedBy"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "To represent materials data is approximated by calculations"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPropertyName",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasPropertyName"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "To represent the name of the property."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "To represent a structure or a calculation have calculated properties."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "wasAssociatedWith"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "9",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "17",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "9",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "17",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "17",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#generatedAtTime",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "generatedAtTime"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "27"
+  }, {
+    "range" : "17",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/describedBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "describedBy"
+    },
+    "domain" : "36",
+    "comment" : {
+      "en" : "To represent a material is described by material data."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://w3id.org/mdo/provenance/hasAuthorName",
+    "baseIri" : "https://w3id.org/mdo/provenance",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasAuthorName"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "To represent the author's name of the reference."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasOutputStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasOutputStructure"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "To represent a calculation outputs a structure after computing."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasPhysicalProperty"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a structure has physical properties."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasID",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "hasID"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "To represent the unique ID of materials data in the corresponding database."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/describedBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "describedBy"
+    },
+    "domain" : "36",
+    "comment" : {
+      "en" : "To represent a material is described by material data."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "To represent a structure or a calculation have calculated properties."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "PartOf"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a structure is a part of a material."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPropertyValue",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "hasPropertyValue"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "To represent the numerical value of the property."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasUnit",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "To represent the name of the unit."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://w3id.org/mdo/provenance/hasDOI",
+    "baseIri" : "https://w3id.org/mdo/provenance",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasDOI"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "To represent the DOI number of the reference."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a structure or a calculation have calculated properties."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "PartOf"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a structure is a part of a material."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "wasAttributedTo"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://w3id.org/mdo/provenance/hasSoftwareName",
+    "baseIri" : "https://w3id.org/mdo/provenance",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "hasSoftwareName"
+    },
+    "domain" : "20",
+    "comment" : {
+      "en" : "To respresent the software's name."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasPhysicalProperty"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a structure has physical properties."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://w3id.org/mdo/provenance/hasDatabaseName",
+    "baseIri" : "https://w3id.org/mdo/provenance",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasDatabaseName"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "To represent the database's name."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/mdo/provenance/hasPublicationDate",
+    "baseIri" : "https://w3id.org/mdo/provenance",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "hasPublicationDate"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "To represent the publication date of the reference."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  } ]
+}
