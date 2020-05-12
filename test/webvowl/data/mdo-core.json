@@ -1,8 +1,20 @@
 {
-  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://purl.obolibrary.org/obo", "http://emmo.info/domains/emmo-material.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "emmo" : "http://emmo.info/domains/emmo-material.owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "vann" : "http://purl.org/vocab/vann/",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "https://w3id.org/mdo/core/",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "obo" : "http://purl.obolibrary.org/obo/",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
     "iri" : "https://w3id.org/mdo/core/",
     "version" : "1.0",
     "author" : [ "Huanyu Li" ],
@@ -28,12 +40,12 @@
       "contributor" : [ {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Patrick Lambrix",
+        "value" : "Rickard Armiento",
         "type" : "label"
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Rickard Armiento",
+        "value" : "Patrick Lambrix",
         "type" : "label"
       } ],
       "created" : [ {
@@ -48,16 +60,16 @@
         "value" : "core",
         "type" : "label"
       } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/mdo/core/1.0",
-        "type" : "label"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
         "value" : "1.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/mdo/core/1.0",
         "type" : "label"
       } ],
       "seeAlso" : [ {
@@ -307,15 +319,15 @@
     "attributes" : [ "datatype" ],
     "id" : "10"
   }, {
-    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "iri" : "https://w3id.org/mdo/core/describedBy",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "1",
+    "range" : "2",
     "label" : {
-      "IRI-based" : "PartOf"
+      "IRI-based" : "describedBy"
     },
-    "domain" : "3",
+    "domain" : "1",
     "comment" : {
-      "en" : "To represent a structure is a part of a material."
+      "en" : "To represent a material is described by material data."
     },
     "attributes" : [ "object", "someValues" ],
     "id" : "12"
@@ -326,25 +338,12 @@
     "label" : {
       "IRI-based" : "hasCalculatedProperty"
     },
-    "domain" : "3",
+    "domain" : "5",
     "comment" : {
       "en" : "To represent a structure or a calculation have calculated properties."
     },
     "attributes" : [ "object", "someValues" ],
     "id" : "13"
-  }, {
-    "iri" : "https://w3id.org/mdo/core/hasInputStructure",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "3",
-    "label" : {
-      "IRI-based" : "hasInputStructure"
-    },
-    "domain" : "5",
-    "comment" : {
-      "en" : "To represent a calculation takes a structure as the input."
-    },
-    "attributes" : [ "object" ],
-    "id" : "14"
   }, {
     "iri" : "https://w3id.org/mdo/core/PartOf",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -355,6 +354,19 @@
     "domain" : "3",
     "comment" : {
       "en" : "To represent a structure is a part of a material."
+    },
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasInputStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasInputStructure"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a calculation takes a structure as the input."
     },
     "attributes" : [ "object" ],
     "id" : "15"
@@ -406,28 +418,28 @@
     "attributes" : [ "object" ],
     "id" : "23"
   }, {
-    "iri" : "https://w3id.org/mdo/core/describedBy",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "describedBy"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "To represent a material is described by material data."
-    },
-    "attributes" : [ "object", "someValues" ],
-    "id" : "24"
-  }, {
     "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
     "baseIri" : "https://w3id.org/mdo/core",
     "range" : "7",
     "label" : {
       "IRI-based" : "hasCalculatedProperty"
     },
-    "domain" : "5",
+    "domain" : "3",
     "comment" : {
       "en" : "To represent a structure or a calculation have calculated properties."
+    },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "PartOf"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "To represent a structure is a part of a material."
     },
     "attributes" : [ "object", "someValues" ],
     "id" : "25"
