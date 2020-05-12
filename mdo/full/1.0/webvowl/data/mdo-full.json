@@ -19,12 +19,12 @@
       "xml" : "http://www.w3.org/XML/1998/namespace",
       "core" : "https://w3id.org/mdo/core/"
     },
+    "title" : {
+      "en" : "Materials Design Ontology - Full"
+    },
     "iri" : "https://w3id.org/mdo/full/",
     "version" : "1.0",
     "author" : [ "Huanyu Li" ],
-    "labels" : {
-      "undefined" : "Materials Design Ontology"
-    },
     "comments" : {
       "en" : "This is the Materials Design Ontology."
     },
@@ -74,6 +74,12 @@
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/mdo/full/1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Materials Design Ontology - Full",
         "type" : "label"
       } ],
       "seeAlso" : [ {
