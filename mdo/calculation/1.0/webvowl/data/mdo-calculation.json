@@ -1,0 +1,874 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://emmo.info/domains/emmo-material.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/mdo/calculation" ],
+    "prefixList" : {
+      "calculation" : "https://w3id.org/mdo/calculation/",
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "emmo" : "http://emmo.info/domains/emmo-material.owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "vann" : "http://purl.org/vocab/vann/",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "https://w3id.org/mdo/core/",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "core" : "https://w3id.org/mdo/core/",
+      "obo" : "http://purl.obolibrary.org/obo/",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title" : {
+      "en" : "Materials Design Ontology - Calculation Module"
+    },
+    "iri" : "https://w3id.org/mdo/calculation/",
+    "version" : "1.0",
+    "author" : [ "Huanyu Li" ],
+    "comments" : {
+      "en" : "This is the calculation module of Materials Design Ontology."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Huanyu Li",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Patrick Lambrix",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Rickard Armiento",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2019-11-07",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "calculation",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/mdo/calculation/1.0",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Materials Design Ontology - Calculation Module",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/huanyu-li/Materials-Design-Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/mdo/calculation/HybridFunctionals",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridFunctionals"
+    },
+    "subClasses" : [ "2", "3" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/Calculation",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calculation"
+    },
+    "comment" : {
+      "en" : "Calculation means using specific computational method to compute materials' electronic structure and get the relationships between materials properties and structures."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/ComputationalMethod",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComputationalMethod"
+    },
+    "subClasses" : [ "28", "13" ],
+    "comment" : {
+      "en" : "ComputationalMethod stand for the methods used in computer simulations for materials according to theories."
+    },
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/CalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CalculatedProperty"
+    },
+    "comment" : {
+      "en" : "Properties of structures or materials that are influenced by calculations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "5", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/mdo/core/Structure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Structure"
+    },
+    "comment" : {
+      "en" : "Structure is a unit that is used in a materials calculation. It is a part of a specific material."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "metaGeneralizedGradientApproximation"
+    },
+    "id" : "21",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+    "baseIri" : "http://emmo.info/domains/emmo-material.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+      "undefined" : "material"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/HybridmGGA",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridmGGA"
+    },
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/Property",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "https://en.wikipedia.org/wiki/List_of_materials_properties",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "subClasses" : [ "19", "23" ],
+    "comment" : {
+      "en" : "A material's property is an intensive property of some material."
+    },
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/GeneralizedGradientApproximation",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GeneralizedGradientApproximation"
+    },
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "https://en.wikipedia.org/wiki/Density_functional_theory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DensityFunctionalTheoryMethod"
+    },
+    "comment" : {
+      "en" : "Density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure."
+    },
+    "id" : "13",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/LocalDensityApproximation",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LocalDensityApproximation"
+    },
+    "id" : "26",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhysicalProperty"
+    },
+    "comment" : {
+      "en" : "Properties of structures or materials that are not influenced by calculations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/HybridGGA",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HybridGGA"
+    },
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "The functionals to compute Exchange Correlation Energy.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ExchangeCorrelationEnergyFunctional"
+    },
+    "subClasses" : [ "21", "26", "0", "16" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/MaterialsData",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialsData"
+    },
+    "comment" : {
+      "en" : "MaterialsData is a piece of data that represents materials calculation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/Hartree-FockMethod",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "https://en.wikipedia.org/wiki/Density_functional_theory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hartree-FockMethod"
+    },
+    "comment" : {
+      "en" : "Hartree-Fock method is a method to get the approximation of the determination of the wave functiona and the energy of system in a stationary state."
+    },
+    "id" : "28",
+    "superClasses" : [ "27" ]
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "39",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "51",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "52",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/mdo/core/hasInputStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasInputStructure"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a calculation takes a structure as the input."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/approximatedBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "approximatedBy"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "To represent materials data is approximated by calculations"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPropertyName",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasPropertyName"
+    },
+    "cardinality" : "1",
+    "domain" : "10",
+    "comment" : {
+      "en" : "To represent the name of the property."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/hasPotentialFunction",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasPotentialFunction"
+    },
+    "cardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "en" : "The potential function used in the density functional theory method."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "12"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "To represent a structure or a calculation have calculated properties."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "10",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "1",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "27",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "10",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "27",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/hasComputationalMethod",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasComputationalMethod"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "A calculation belongs to a specific Computational Method."
+    },
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "0",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a structure or a calculation have calculated properties."
+    },
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "39"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/describedBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "describedBy"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "To represent a material is described by material data."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasOutputStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasOutputStructure"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "To represent a calculation outputs a structure after computing."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "21",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasID",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "hasID"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "To represent the unique ID of materials data in the corresponding database."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "45"
+  }, {
+    "range" : "13",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasCalculatedProperty"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "To represent a structure or a calculation have calculated properties."
+    },
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "PartOf"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "To represent a structure is a part of a material."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://w3id.org/mdo/calculation/hasXCFunctional",
+    "baseIri" : "https://w3id.org/mdo/calculation",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasXCFunctional"
+    },
+    "domain" : "13",
+    "comment" : {
+      "en" : "A density functional theory method uses a specific functional to calculate exchange correlation energy."
+    },
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/PartOf",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "PartOf"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "To represent a structure is a part of a material."
+    },
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasPhysicalProperty"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "To represent a structure has physical properties."
+    },
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/describedBy",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "describedBy"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "To represent a material is described by material data."
+    },
+    "attributes" : [ "external", "object", "someValues" ],
+    "id" : "52"
+  }, {
+    "range" : "0",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPropertyValue",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasPropertyValue"
+    },
+    "cardinality" : "1",
+    "domain" : "10",
+    "comment" : {
+      "en" : "To represent the numerical value of the property."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "54"
+  }, {
+    "range" : "26",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasUnit",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "cardinality" : "1",
+    "domain" : "10",
+    "comment" : {
+      "en" : "To represent the name of the unit."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "56"
+  }, {
+    "range" : "26",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "0",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasPhysicalProperty"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "To represent a structure has physical properties."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "59"
+  } ]
+}
