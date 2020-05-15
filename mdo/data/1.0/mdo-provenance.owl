@@ -248,7 +248,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#SoftwareAgent">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SoftwareAgent represents which software produces the result of a material calculation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A software agent is the representation of the software that produces the result of a material calculation.</rdfs:comment>
     </owl:Class>
     
 
@@ -292,7 +292,7 @@
 
     <owl:Class rdf:about="https://w3id.org/mdo/provenance/DatabaseAgent">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Organization"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DatabaseAgent represents which databases stores the material data.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A database agent is the representation of the database that stores the material data.</rdfs:comment>
     </owl:Class>
     
 
@@ -301,7 +301,7 @@
 
     <owl:Class rdf:about="https://w3id.org/mdo/provenance/ReferenceAgent">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReferenceAgent is used to represent the reference of materials data.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A reference agent is the representation of the reference that the material data refers to.</rdfs:comment>
     </owl:Class>
 </rdf:RDF>
 

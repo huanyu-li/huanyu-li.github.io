@@ -147,7 +147,7 @@
     <!-- https://w3id.org/mdo/calculation/ComputationalMethod -->
 
     <owl:Class rdf:about="https://w3id.org/mdo/calculation/ComputationalMethod">
-        <rdfs:comment xml:lang="en">ComputationalMethod stand for the methods used in computer simulations for materials according to theories.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A computational method is a way to process structures and/or properties into output structures and/or calculated properties.</rdfs:comment>
     </owl:Class>
     
 
@@ -171,7 +171,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/Hartree-FockMethod"/>
-        <rdfs:comment xml:lang="en">Density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure.</rdfs:comment>
         <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Density_functional_theory</rdfs:seeAlso>
     </owl:Class>
     
@@ -180,7 +180,7 @@
     <!-- https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional -->
 
     <owl:Class rdf:about="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional">
-        <rdfs:seeAlso xml:lang="en">The functionals to compute Exchange Correlation Energy.</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">An ExchangeCorrelationEnergyFunctional is the function to compute Exchange Correlation Energy.</rdfs:seeAlso>
     </owl:Class>
     
 

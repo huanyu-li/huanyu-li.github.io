@@ -155,12 +155,32 @@
     
 
 
+    <!-- https://w3id.org/mdo/core/hasInputProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/hasInputProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Calculation"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/core/Property"/>
+        <rdfs:comment xml:lang="en">To represent a calculation takes a property as the input.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/mdo/core/hasInputStructure -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/hasInputStructure">
         <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Calculation"/>
         <rdfs:range rdf:resource="https://w3id.org/mdo/core/Structure"/>
         <rdfs:comment xml:lang="en">To represent a calculation takes a structure as the input.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/mdo/core/hasOutputCalculatedProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/hasOutputCalculatedProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Calculation"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/core/CalculatedProperty"/>
+        <rdfs:comment xml:lang="en">To represent a calculation outputs a calculated property after computing.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -282,18 +302,16 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasInputStructure"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/mdo/core/Structure"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/core/Structure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasOutputStructure"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/mdo/core/Structure"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/core/Structure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Calculation means using specific computational method to compute materials&apos; electronic structure and get the relationships between materials properties and structures.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A calculation is the use of a specific computational method to process structures and/or properties into output structures and/or calculated properties.</rdfs:comment>
     </owl:Class>
     
 
@@ -346,7 +364,7 @@
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">A material&apos;s property is an intensive property of some material.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A property in materials design is data pertaining to at least one material or materials system.</rdfs:comment>
         <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/List_of_materials_properties</rdfs:seeAlso>
     </owl:Class>
     
@@ -373,7 +391,7 @@
                 <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/core/PhysicalProperty"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Structure is a unit that is used in a materials calculation. It is a part of a specific material.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A structure is the information of the sites and their occupancies in a material or materials system.</rdfs:comment>
     </owl:Class>
     
 
