@@ -118,23 +118,6 @@
     
 
 
-    <!-- https://w3id.org/mdo/core/hasCalculatedProperty -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/hasCalculatedProperty">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/mdo/core/Calculation"/>
-                    <rdf:Description rdf:about="https://w3id.org/mdo/core/Structure"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="https://w3id.org/mdo/core/CalculatedProperty"/>
-        <rdfs:comment xml:lang="en">To represent a structure or a calculation have calculated properties.</rdfs:comment>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/mdo/core/hasInputProperty -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/hasInputProperty">
@@ -158,7 +141,14 @@
     <!-- https://w3id.org/mdo/core/hasOutputCalculatedProperty -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/hasOutputCalculatedProperty">
-        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Calculation"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/mdo/core/Calculation"/>
+                    <rdf:Description rdf:about="https://w3id.org/mdo/core/Structure"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/mdo/core/CalculatedProperty"/>
         <rdfs:comment xml:lang="en">To represent a calculation outputs a calculated property after computing.</rdfs:comment>
     </owl:ObjectProperty>
@@ -294,12 +284,12 @@
                         <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/core/Structure"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasCalculatedProperty"/>
-                        <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/core/CalculatedProperty"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
                         <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasInputStructure"/>
                         <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/core/Structure"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasOutputCalculatedProperty"/>
+                        <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/core/CalculatedProperty"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasOutputStructure"/>
