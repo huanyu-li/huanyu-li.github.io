@@ -165,12 +165,12 @@
     
 
 
-    <!-- https://w3id.org/mdo/core/hasPhysicalProperty -->
+    <!-- https://w3id.org/mdo/core/relatesToStructure -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/hasPhysicalProperty">
-        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Structure"/>
-        <rdfs:range rdf:resource="https://w3id.org/mdo/core/PhysicalProperty"/>
-        <rdfs:comment xml:lang="en">To represent a structure has physical properties.</rdfs:comment>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mdo/core/relatesToStructure">
+        <rdfs:domain rdf:resource="https://w3id.org/mdo/core/Property"/>
+        <rdfs:range rdf:resource="https://w3id.org/mdo/core/Structure"/>
+        <rdfs:comment xml:lang="en">To represent a property relates to a structure.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -288,10 +288,6 @@
                         <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/core/Structure"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasOutputCalculatedProperty"/>
-                        <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/core/CalculatedProperty"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
                         <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasOutputStructure"/>
                         <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/core/Structure"/>
                     </owl:Restriction>
@@ -315,27 +311,6 @@
     <!-- https://w3id.org/mdo/core/Property -->
 
     <owl:Class rdf:about="https://w3id.org/mdo/core/Property">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasPropertyName"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasPropertyValue"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasUnit"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A property in materials design is data pertaining to at least one material or materials system.</rdfs:comment>
         <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/List_of_materials_properties</rdfs:seeAlso>
     </owl:Class>
@@ -358,18 +333,6 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasOutputCalculatedProperty"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/core/CalculatedProperty"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/mdo/core/hasPhysicalProperty"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/core/PhysicalProperty"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A structure is the information of the sites and their occupancies in a material or materials system.</rdfs:comment>
     </owl:Class>
