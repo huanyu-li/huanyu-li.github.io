@@ -107,6 +107,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/mdo/calculation/hasParameter">
         <rdfs:domain rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
         <rdfs:range rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethodParameter"/>
+        <rdfs:comment xml:lang="en">To represent the parameters of a computational method.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -198,13 +199,19 @@
     <owl:Class rdf:about="https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod">
         <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasXCFunctional"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasXCFunctional"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasXCFunctional"/>
+                        <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/Hartree-FockMethod"/>
         <rdfs:comment xml:lang="en">The density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure.</rdfs:comment>
         <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Density_functional_theory</rdfs:seeAlso>
     </owl:Class>
@@ -223,46 +230,40 @@
 
     <owl:Class rdf:about="https://w3id.org/mdo/calculation/GeneralizedGradientApproximation">
         <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/HybridFunctionals"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/LocalDensityApproximation"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/metaGGA"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/mdo/calculation/Hartree-FockMethod -->
+    <!-- https://w3id.org/mdo/calculation/HartreeFockMethod -->
 
-    <owl:Class rdf:about="https://w3id.org/mdo/calculation/Hartree-FockMethod">
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HartreeFockMethod">
         <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
-        <rdfs:comment xml:lang="en">Hartree-Fock method is a method to get the approximation of the determination of the wave functiona and the energy of system in a stationary state.</rdfs:comment>
+        <rdfs:comment xml:lang="en">HartreeFock method is a method to get the approximation of the determination of the wave functiona and the energy of system in a stationary state.</rdfs:comment>
         <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Density_functional_theory</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/mdo/calculation/HybridFunctionals -->
+    <!-- https://w3id.org/mdo/calculation/HybridFunctional -->
 
-    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridFunctionals">
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridFunctional">
         <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/LocalDensityApproximation"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/metaGGA"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/mdo/calculation/HybridGGA -->
+    <!-- https://w3id.org/mdo/calculation/HybridGeneralizedGradientApproximation -->
 
-    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridGGA">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/HybridFunctionals"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/HybridmGGA"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridGeneralizedGradientApproximation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/HybridFunctional"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/mdo/calculation/HybridmGGA -->
+    <!-- https://w3id.org/mdo/calculation/HybridmetaGeneralizedGradientApproximation -->
 
-    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridmGGA">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/HybridFunctionals"/>
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/HybridmetaGeneralizedGradientApproximation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/HybridFunctional"/>
     </owl:Class>
     
 
@@ -271,14 +272,13 @@
 
     <owl:Class rdf:about="https://w3id.org/mdo/calculation/LocalDensityApproximation">
         <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/mdo/calculation/metaGGA"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/mdo/calculation/metaGGA -->
+    <!-- https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation -->
 
-    <owl:Class rdf:about="https://w3id.org/mdo/calculation/metaGGA">
+    <owl:Class rdf:about="https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation">
         <rdfs:subClassOf rdf:resource="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional"/>
     </owl:Class>
     
@@ -288,19 +288,11 @@
 
     <owl:Class rdf:about="https://w3id.org/mdo/core/Calculation">
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasComputationalMethod"/>
-                        <owl:allValuesFrom rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasComputationalMethod"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/mdo/calculation/hasComputationalMethod"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/mdo/calculation/ComputationalMethod"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
