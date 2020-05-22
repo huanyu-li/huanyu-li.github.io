@@ -3,7 +3,7 @@
 <head>
     <title>Materials Design Ontology - Provenance Module</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    
+
     <style>
         #pylode {
             position: fixed;
@@ -180,7 +180,7 @@
         }
 
     </style>
-    
+
     <script type="application/ld+json">
       [
   {
@@ -267,10 +267,6 @@
     <ul class="hlist">
         <li><a href="#Agent">Agent</a></li>
         <li><a href="#Calculation">Calculation</a></li>
-        <li><a href="#DatabaseAgent">DatabaseAgent</a></li>
-        <li><a href="#MaterialsData">MaterialsData</a></li>
-        <li><a href="#Organization">Organization</a></li>
-        <li><a href="#Person">Person</a></li>
         <li><a href="#ReferenceAgent">ReferenceAgent</a></li>
         <li><a href="#SoftwareAgent">SoftwareAgent</a></li>
     </ul>
@@ -284,53 +280,8 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="http://www.w3.org/ns/prov#Person">prov:Person</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/mdo/provenance/ReferenceAgent">ReferenceAgent</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="http://www.w3.org/ns/prov#SoftwareAgent">prov:SoftwareAgent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="http://www.w3.org/ns/prov#Organization">prov:Organization</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In range of</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#wasAttributedTo">prov:wasAttributedTo</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="http://www.w3.org/ns/prov#wasAssociatedWith">prov:wasAssociatedWith</a><sup class="sup-op" title="object property">op</sup><br/>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity class" id="Organization">
-        <h3>Organization<sup title="class" class="sup-c">c</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>http://www.w3.org/ns/prov#Organization</code></td>
-            </tr>
-            <tr>
-                <th>Super-classes</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#Agent">prov:Agent</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>Sub-classes</th>
-                <td>
-                    <a href="https://w3id.org/mdo/provenance/DatabaseAgent">DatabaseAgent</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity class" id="Person">
-        <h3>Person<sup title="class" class="sup-c">c</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>http://www.w3.org/ns/prov#Person</code></td>
-            </tr>
-            <tr>
-                <th>Super-classes</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#Agent">prov:Agent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -345,13 +296,19 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>SoftwareAgent represents which software produces the result of a material calculation.</p>
+                    <p>A software agent is the representation of the software that produces the result of a material calculation.</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
                     <a href="http://www.w3.org/ns/prov#Agent">prov:Agent</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>Restrictions</th>
+                <td>
+                    <a href="https://w3id.org/mdo/provenance/hasSoftwareName">hasSoftwareName</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                 </td>
             </tr>
             <tr>
@@ -372,63 +329,7 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="http://www.w3.org/ns/prov#wasAssociatedWith">prov:wasAssociatedWith</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="http://www.w3.org/ns/prov#SoftwareAgent">prov:SoftwareAgent</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In domain of</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#wasAssociatedWith">prov:wasAssociatedWith</a><sup class="sup-op" title="object property">op</sup><br/>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity class" id="MaterialsData">
-        <h3>MaterialsData<sup title="class" class="sup-c">c</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/MaterialsData</code></td>
-            </tr>
-            <tr>
-                <th>Restrictions</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#wasAttributedTo">prov:wasAttributedTo</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/mdo/provenance/ReferenceAgent">ReferenceAgent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="http://www.w3.org/ns/prov#wasAttributedTo">prov:wasAttributedTo</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/mdo/provenance/DatabaseAgent">DatabaseAgent</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In domain of</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#wasAttributedTo">prov:wasAttributedTo</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="http://www.w3.org/ns/prov#generatedAtTime">prov:generatedAtTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity class" id="DatabaseAgent">
-        <h3>DatabaseAgent<sup title="class" class="sup-c">c</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/DatabaseAgent</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    <p>DatabaseAgent represents which databases stores the material data.</p>
-                </td>
-            </tr>
-            <tr>
-                <th>Super-classes</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#Organization">prov:Organization</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In domain of</th>
-                <td>
-                    <a href="https://w3id.org/mdo/provenance/hasDatabaseName">hasDatabaseName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="http://www.w3.org/ns/prov#wasAssociatedWith">prov:wasAssociatedWith</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="http://www.w3.org/ns/prov#SoftwareAgent">prov:SoftwareAgent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -443,7 +344,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>ReferenceAgent is used to represent the reference of materials data.</p>
+                    <p>A reference agent is the representation of the reference that the material data refers to.</p>
                 </td>
             </tr>
             <tr>
@@ -455,10 +356,12 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/provenance/hasPublicationDate">hasPublicationDate</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/provenance/hasDOI">hasDOI</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/hasDatabaseName">hasDatabaseName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/provenance/hasAuthorName">hasAuthorName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/hasPublicationDateTime">hasPublicationDateTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/provenance/hasPublicationTitle">hasPublicationTitle</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/hasURL">hasURL</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/hasDOI">hasDOI</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
         </table>
@@ -477,18 +380,6 @@
                 <th>IRI</th>
                 <td><code>http://www.w3.org/ns/prov#wasAssociatedWith</code></td>
             </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/Calculation">https://w3id.org/mdo/core/Calculation</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#Agent">prov:Agent</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
         </table>
     </div>
     <div class="entity property" id="wasAttributedTo">
@@ -498,18 +389,6 @@
                 <th>IRI</th>
                 <td><code>http://www.w3.org/ns/prov#wasAttributedTo</code></td>
             </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/MaterialsData">https://w3id.org/mdo/core/MaterialsData</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="http://www.w3.org/ns/prov#Agent">prov:Agent</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
         </table>
     </div>
 </section>
@@ -517,35 +396,14 @@
 <section id="datatypeproperties">
     <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#generatedAtTime">generatedAtTime</a></li>
         <li><a href="#hasAuthorName">hasAuthorName</a></li>
         <li><a href="#hasDOI">hasDOI</a></li>
         <li><a href="#hasDatabaseName">hasDatabaseName</a></li>
-        <li><a href="#hasPublicationDate">hasPublicationDate</a></li>
+        <li><a href="#hasPublicationDateTime">hasPublicationDateTime</a></li>
         <li><a href="#hasPublicationTitle">hasPublicationTitle</a></li>
         <li><a href="#hasSoftwareName">hasSoftwareName</a></li>
+        <li><a href="#hasURL">hasURL</a></li>
     </ul>
-    <div class="entity property" id="generatedAtTime">
-        <h3>generatedAtTime<sup title="datatype property" class="sup-dp">dp</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>http://www.w3.org/ns/prov#generatedAtTime</code></td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/MaterialsData">https://w3id.org/mdo/core/MaterialsData</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="http://www.w3.org/2001/XMLSchema#dateTime">xsd:dateTime</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-        </table>
-    </div>
     <div class="entity property" id="hasAuthorName">
         <h3>hasAuthorName<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
@@ -616,7 +474,7 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="https://w3id.org/mdo/provenance/DatabaseAgent">DatabaseAgent</a><sup class="sup-c" title="class">c</sup>
+                    <a href="https://w3id.org/mdo/provenance/ReferenceAgent">ReferenceAgent</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
@@ -627,17 +485,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasPublicationDate">
-        <h3>hasPublicationDate<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="hasPublicationDateTime">
+        <h3>hasPublicationDateTime<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/hasPublicationDate</code></td>
+                <td><code>https://w3id.org/mdo/provenance/hasPublicationDateTime</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent the publication date of the reference.
+                    To represent the publication datetime of the reference.
                 </td>
             </tr>
             <tr>
@@ -649,7 +507,7 @@
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="http://www.w3.org/2001/XMLSchema#date">xsd:date</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#dateTime">xsd:dateTime</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -698,6 +556,33 @@
                 <th>Domain(s)</th>
                 <td>
                     <a href="http://www.w3.org/ns/prov#SoftwareAgent">prov:SoftwareAgent</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasURL">
+        <h3>hasURL<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/provenance/hasURL</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the URL of a reference.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/provenance/ReferenceAgent">ReferenceAgent</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>

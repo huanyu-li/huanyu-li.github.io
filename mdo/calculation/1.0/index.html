@@ -3,7 +3,7 @@
 <head>
     <title>Materials Design Ontology - Calculation Module</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    
+
     <style>
         #pylode {
             position: fixed;
@@ -180,7 +180,7 @@
         }
 
     </style>
-    
+
     <script type="application/ld+json">
       [
   {
@@ -221,8 +221,8 @@
         </dd>
         <dt>Contributors(s)</dt>
         <dd>
-            Rickard Armiento<br/>
             Patrick Lambrix<br/>
+            Rickard Armiento<br/>
         </dd>
         <dt>Created</dt>
         <dd>2019-11-07</dd>
@@ -251,7 +251,6 @@
         <li><a href="#objectproperties">Object Properties</a></li>
         <li><a href="#datatypeproperties">Datatype Properties</a></li>
         <li><a href="#annotationproperties">Annotation Properties</a></li>
-        <li><a href="#namedindividuals">Named Individuals</a></li>
         <li><a href="#namespaces">Namespaces</a></li>
         <li><a href="#legend">Legend</a></li>
     </ol>
@@ -259,7 +258,7 @@
 <section id="overview">
     <h2>Overview</h2>
     <div class="figure">
-        <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-calculation"></iframe> 
+        <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-calculation"></iframe>
         <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
     </div>
 </section>
@@ -268,13 +267,14 @@
     <ul class="hlist">
         <li><a href="#Calculation">Calculation</a></li>
         <li><a href="#ComputationalMethod">ComputationalMethod</a></li>
+        <li><a href="#ComputationalMethodParameter">ComputationalMethodParameter</a></li>
         <li><a href="#DensityFunctionalTheoryMethod">DensityFunctionalTheoryMethod</a></li>
         <li><a href="#ExchangeCorrelationEnergyFunctional">ExchangeCorrelationEnergyFunctional</a></li>
         <li><a href="#GeneralizedGradientApproximation">GeneralizedGradientApproximation</a></li>
-        <li><a href="#Hartree-FockMethod">Hartree-FockMethod</a></li>
-        <li><a href="#HybridFunctionals">HybridFunctionals</a></li>
-        <li><a href="#HybridGGA">HybridGGA</a></li>
-        <li><a href="#HybridmGGA">HybridmGGA</a></li>
+        <li><a href="#HartreeFockMethod">HartreeFockMethod</a></li>
+        <li><a href="#HybridFunctional">HybridFunctional</a></li>
+        <li><a href="#HybridGeneralizedGradientApproximation">HybridGeneralizedGradientApproximation</a></li>
+        <li><a href="#HybridmetaGeneralizedGradientApproximation">HybridmetaGeneralizedGradientApproximation</a></li>
         <li><a href="#LocalDensityApproximation">LocalDensityApproximation</a></li>
         <li><a href="#metaGeneralizedGradientApproximation">metaGeneralizedGradientApproximation</a></li>
     </ul>
@@ -288,20 +288,60 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>ComputationalMethod stand for the methods used in computer simulations for materials according to theories.</p>
+                    <p>A computational method is a way to process structures and/or properties into output structures and/or calculated properties.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    (<a href="Naa2e6f4417f64333a21886aeb0d260b9">Naa2e6f4417f64333a21886aeb0d260b9</a><sup class="sup-c" title="class">c</sup> and <a href="N64eaa9cf41754e27af6695066cac42d6">N64eaa9cf41754e27af6695066cac42d6</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
                     <a href="https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod">DensityFunctionalTheoryMethod</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/calculation/Hartree-FockMethod">Hartree-FockMethod</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/mdo/calculation/HartreeFockMethod">HartreeFockMethod</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/calculation/hasParameter">hasParameter</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
                     <a href="https://w3id.org/mdo/calculation/hasComputationalMethod">hasComputationalMethod</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="ComputationalMethodParameter">
+        <h3>ComputationalMethodParameter<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/calculation/ComputationalMethodParameter</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A computational method parameter is one of the parameter settings of the method used for calculation.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/calculation/hasParameterName">hasParameterName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/calculation/hasParameterValue">hasParameterValue</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/calculation/hasParameter">hasParameter</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -316,26 +356,19 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure.</p>
+                    <p>The density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure.</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
                     <a href="https://w3id.org/mdo/calculation/ComputationalMethod">ComputationalMethod</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>Restrictions</th>
-                <td>
-                    <a href="https://w3id.org/mdo/calculation/hasPotentialFunction">hasPotentialFunction</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/mdo/calculation/hasXCFunctional">hasXCFunctional</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional">ExchangeCorrelationEnergyFunctional</a><sup class="sup-c" title="class">c</sup><br/>
+                    (<a href="Nc4860a6bc0784961b3b1b1f84f448d28">Nc4860a6bc0784961b3b1b1f84f448d28</a><sup class="sup-c" title="class">c</sup> and <a href="Nd06410a7338c411b88b43a3566ae5989">Nd06410a7338c411b88b43a3566ae5989</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/calculation/hasPotentialFunction">hasPotentialFunction</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/calculation/hasXCFunctional">hasXCFunctional</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
@@ -351,9 +384,9 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/mdo/calculation/HybridFunctionals">HybridFunctionals</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation">metaGeneralizedGradientApproximation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/mdo/calculation/HybridFunctional">HybridFunctional</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/mdo/calculation/GeneralizedGradientApproximation">GeneralizedGradientApproximation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation">metaGeneralizedGradientApproximation</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/mdo/calculation/LocalDensityApproximation">LocalDensityApproximation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
@@ -380,17 +413,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity class" id="Hartree-FockMethod">
-        <h3>Hartree-FockMethod<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="HartreeFockMethod">
+        <h3>HartreeFockMethod<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/calculation/Hartree-FockMethod</code></td>
+                <td><code>https://w3id.org/mdo/calculation/HartreeFockMethod</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Hartree-Fock method is a method to get the approximation of the determination of the wave functiona and the energy of system in a stationary state.</p>
+                    <p>HartreeFock method is a method to get the approximation of the determination of the wave functiona and the energy of system in a stationary state.</p>
                 </td>
             </tr>
             <tr>
@@ -401,12 +434,12 @@
             </tr>
         </table>
     </div>
-    <div class="entity class" id="HybridFunctionals">
-        <h3>HybridFunctionals<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="HybridFunctional">
+        <h3>HybridFunctional<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/calculation/HybridFunctionals</code></td>
+                <td><code>https://w3id.org/mdo/calculation/HybridFunctional</code></td>
             </tr>
             <tr>
                 <th>Super-classes</th>
@@ -417,38 +450,38 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/mdo/calculation/HybridGGA">HybridGGA</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/calculation/HybridmGGA">HybridmGGA</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/mdo/calculation/HybridGeneralizedGradientApproximation">HybridGeneralizedGradientApproximation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/mdo/calculation/HybridmetaGeneralizedGradientApproximation">HybridmetaGeneralizedGradientApproximation</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="entity class" id="HybridGGA">
-        <h3>HybridGGA<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="HybridGeneralizedGradientApproximation">
+        <h3>HybridGeneralizedGradientApproximation<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/calculation/HybridGGA</code></td>
+                <td><code>https://w3id.org/mdo/calculation/HybridGeneralizedGradientApproximation</code></td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="https://w3id.org/mdo/calculation/HybridFunctionals">HybridFunctionals</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/mdo/calculation/HybridFunctional">HybridFunctional</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
-    <div class="entity class" id="HybridmGGA">
-        <h3>HybridmGGA<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="HybridmetaGeneralizedGradientApproximation">
+        <h3>HybridmetaGeneralizedGradientApproximation<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/calculation/HybridmGGA</code></td>
+                <td><code>https://w3id.org/mdo/calculation/HybridmetaGeneralizedGradientApproximation</code></td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="https://w3id.org/mdo/calculation/HybridFunctionals">HybridFunctionals</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/mdo/calculation/HybridFunctional">HybridFunctional</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -509,6 +542,7 @@
     <h2>Object Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
         <li><a href="#hasComputationalMethod">hasComputationalMethod</a></li>
+        <li><a href="#hasParameter">hasParameter</a></li>
         <li><a href="#hasXCFunctional">hasXCFunctional</a></li>
     </ul>
     <div class="entity property" id="hasComputationalMethod">
@@ -534,6 +568,33 @@
                 <th>Range(s)</th>
                 <td>
                     <a href="https://w3id.org/mdo/calculation/ComputationalMethod">ComputationalMethod</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasParameter">
+        <h3>hasParameter<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/calculation/hasParameter</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the parameters of a computational method.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/calculation/ComputationalMethod">ComputationalMethod</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/calculation/ComputationalMethodParameter">ComputationalMethodParameter</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -570,25 +631,53 @@
 <section id="datatypeproperties">
     <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#hasPotentialFunction">hasPotentialFunction</a></li>
+        <li><a href="#hasParameterName">hasParameterName</a></li>
+        <li><a href="#hasParameterValue">hasParameterValue</a></li>
     </ul>
-    <div class="entity property" id="hasPotentialFunction">
-        <h3>hasPotentialFunction<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="hasParameterName">
+        <h3>hasParameterName<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/calculation/hasPotentialFunction</code></td>
+                <td><code>https://w3id.org/mdo/calculation/hasParameterName</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    The potential function used in the density functional theory method.
+                    To represent the name of a parameter.
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod">DensityFunctionalTheoryMethod</a><sup class="sup-c" title="class">c</sup>
+                    <a href="https://w3id.org/mdo/calculation/ComputationalMethodParameter">ComputationalMethodParameter</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasParameterValue">
+        <h3>hasParameterValue<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/calculation/hasParameterValue</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the value of a parameter
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/calculation/ComputationalMethodParameter">ComputationalMethodParameter</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
@@ -681,37 +770,7 @@
 <section id="namedindividuals">
     <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#test1">test1</a></li>
-        <li><a href="#test2">test2</a></li>
     </ul>
-    <div class="entity named_individual" id="test1">
-        <h3>test1<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td>
-                  <code>
-                      https://w3id.org/mdo/calculation/test1
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="test2">
-        <h3>test2<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td>
-                  <code>
-                      https://w3id.org/mdo/calculation/test2
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
 </section>
 
 <section id="namespaces">

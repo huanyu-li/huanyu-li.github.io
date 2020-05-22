@@ -3,7 +3,7 @@
 <head>
     <title>Materials Design Ontology - Core Module</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    
+
     <style>
         #pylode {
             position: fixed;
@@ -180,7 +180,7 @@
         }
 
     </style>
-    
+
     <script type="application/ld+json">
       [
   {
@@ -245,7 +245,6 @@
         <li><a href="#objectproperties">Object Properties</a></li>
         <li><a href="#datatypeproperties">Datatype Properties</a></li>
         <li><a href="#annotationproperties">Annotation Properties</a></li>
-        <li><a href="#namedindividuals">Named Individuals</a></li>
         <li><a href="#namespaces">Namespaces</a></li>
         <li><a href="#legend">Legend</a></li>
     </ol>
@@ -253,7 +252,7 @@
 <section id="overview">
     <h2>Overview</h2>
     <div class="figure">
-        <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-core"></iframe> 
+        <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-core"></iframe>
         <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
     </div>
 </section>
@@ -262,35 +261,22 @@
     <ul class="hlist">
         <li><a href="#CalculatedProperty">CalculatedProperty</a></li>
         <li><a href="#Calculation">Calculation</a></li>
-        <li><a href="#MaterialsData">MaterialsData</a></li>
+        <li><a href="#Material">Material</a></li>
         <li><a href="#PhysicalProperty">PhysicalProperty</a></li>
         <li><a href="#Property">Property</a></li>
         <li><a href="#Structure">Structure</a></li>
-        <li><a href="#material">material</a></li>
     </ul>
-    <div class="entity class" id="material">
-        <h3>material<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="Material">
+        <h3>Material<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
                 <td><code>http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94</code></td>
             </tr>
             <tr>
-                <th>Restrictions</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/describedBy">describedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/mdo/core/MaterialsData">MaterialsData</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In domain of</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/describedBy">describedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                </td>
-            </tr>
-            <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/PartOf">PartOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/relatesToMaterial">relatesToMaterial</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -317,7 +303,7 @@
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/hasCalculatedProperty">hasCalculatedProperty</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasOutputCalculatedProperty">hasOutputCalculatedProperty</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -332,62 +318,23 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Calculation means using specific computational method to compute materials' electronic structure and get the relationships between materials properties and structures.</p>
+                    <p>A calculation is the use of a specific computational method to process structures and/or properties into output structures and/or calculated properties.</p>
                 </td>
             </tr>
             <tr>
-                <th>Restrictions</th>
+                <th>Super-classes</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/hasCalculatedProperty">hasCalculatedProperty</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/mdo/core/CalculatedProperty">CalculatedProperty</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup><br/>
+                    (<a href="N08917b1db21b465e980f2b97cc644bec">N08917b1db21b465e980f2b97cc644bec</a><sup class="sup-c" title="class">c</sup> and <a href="N447065904a254359b5cc114e298dd068">N447065904a254359b5cc114e298dd068</a><sup class="sup-c" title="class">c</sup> and <a href="Nb172d434b64147669fad446e3c54cd64">Nb172d434b64147669fad446e3c54cd64</a><sup class="sup-c" title="class">c</sup> and <a href="Na762c9de8c8442baa3465abd7e816e48">Na762c9de8c8442baa3465abd7e816e48</a><sup class="sup-c" title="class">c</sup> and <a href="Ne98021c2437f4997a42690192d5faef5">Ne98021c2437f4997a42690192d5faef5</a><sup class="sup-c" title="class">c</sup> and <a href="Na8a6d91298314e59ac03c3dc7a334b0e">Na8a6d91298314e59ac03c3dc7a334b0e</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="N08917b1db21b465e980f2b97cc644bec">N08917b1db21b465e980f2b97cc644bec</a><sup class="sup-c" title="class">c</sup> and <a href="N447065904a254359b5cc114e298dd068">N447065904a254359b5cc114e298dd068</a><sup class="sup-c" title="class">c</sup> and <a href="Nb172d434b64147669fad446e3c54cd64">Nb172d434b64147669fad446e3c54cd64</a><sup class="sup-c" title="class">c</sup> and <a href="Na762c9de8c8442baa3465abd7e816e48">Na762c9de8c8442baa3465abd7e816e48</a><sup class="sup-c" title="class">c</sup> and <a href="Ne98021c2437f4997a42690192d5faef5">Ne98021c2437f4997a42690192d5faef5</a><sup class="sup-c" title="class">c</sup> and <a href="Na8a6d91298314e59ac03c3dc7a334b0e">Na8a6d91298314e59ac03c3dc7a334b0e</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In range of</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/approximatedBy">approximatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity class" id="MaterialsData">
-        <h3>MaterialsData<sup title="class" class="sup-c">c</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/MaterialsData</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    <p>MaterialsData is a piece of data that represents materials calculation.</p>
-                </td>
-            </tr>
-            <tr>
-                <th>Restrictions</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/approximatedBy">approximatedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In domain of</th>
-                <td>
                     <a href="https://w3id.org/mdo/core/hasID">hasID</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/core/approximatedBy">approximatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In range of</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/describedBy">describedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasInputProperty">hasInputProperty</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -411,12 +358,6 @@
                     <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
-            <tr>
-                <th>In range of</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/hasPhysicalProperty">hasPhysicalProperty</a><sup class="sup-op" title="object property">op</sup><br/>
-                </td>
-            </tr>
         </table>
     </div>
     <div class="entity class" id="Property">
@@ -429,15 +370,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>A material's property is an intensive property of some material.</p>
-                </td>
-            </tr>
-            <tr>
-                <th>Restrictions</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/hasPropertyName">hasPropertyName</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/mdo/core/hasPropertyValue">hasPropertyValue</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/mdo/core/hasUnit">hasUnit</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <p>A property in materials design is data pertaining to at least one material or materials system.</p>
                 </td>
             </tr>
             <tr>
@@ -450,9 +383,16 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/hasUnit">hasUnit</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/core/hasPropertyName">hasPropertyName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/core/relatesToStructure">relatesToStructure</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/mdo/core/hasPropertyValue">hasPropertyValue</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasUnit">hasUnit</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/hasInputProperty">hasInputProperty</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -467,27 +407,25 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Structure is a unit that is used in a materials calculation. It is a part of a specific material.</p>
+                    <p>A structure is the information of the sites and their occupancies in a material or materials system.</p>
                 </td>
             </tr>
             <tr>
-                <th>Restrictions</th>
+                <th>Super-classes</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/hasCalculatedProperty">hasCalculatedProperty</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/mdo/core/CalculatedProperty">CalculatedProperty</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/core/hasPhysicalProperty">hasPhysicalProperty</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/mdo/core/PhysicalProperty">PhysicalProperty</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/core/PartOf">PartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94">emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94</a><sup class="sup-c" title="class">c</sup><br/>
+                    (<a href="N5d840fe869714edc8791815f27a7ec19">N5d840fe869714edc8791815f27a7ec19</a><sup class="sup-c" title="class">c</sup> and <a href="N67d10ed84ea94ab4b41603e7cda9e51c">N67d10ed84ea94ab4b41603e7cda9e51c</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/hasPhysicalProperty">hasPhysicalProperty</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/mdo/core/PartOf">PartOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/relatesToMaterial">relatesToMaterial</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
+                    <a href="https://w3id.org/mdo/core/relatesToStructure">relatesToStructure</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
@@ -498,118 +436,36 @@
 <section id="objectproperties">
     <h2>Object Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#PartOf">PartOf</a></li>
-        <li><a href="#approximatedBy">approximatedBy</a></li>
-        <li><a href="#describedBy">describedBy</a></li>
-        <li><a href="#hasCalculatedProperty">hasCalculatedProperty</a></li>
+        <li><a href="#hasInputProperty">hasInputProperty</a></li>
         <li><a href="#hasInputStructure">hasInputStructure</a></li>
+        <li><a href="#hasOutputCalculatedProperty">hasOutputCalculatedProperty</a></li>
         <li><a href="#hasOutputStructure">hasOutputStructure</a></li>
-        <li><a href="#hasPhysicalProperty">hasPhysicalProperty</a></li>
+        <li><a href="#relatesToMaterial">relatesToMaterial</a></li>
+        <li><a href="#relatesToStructure">relatesToStructure</a></li>
     </ul>
-    <div class="entity property" id="PartOf">
-        <h3>PartOf<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="hasInputProperty">
+        <h3>hasInputProperty<sup title="object property" class="sup-op">op</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/PartOf</code></td>
+                <td><code>https://w3id.org/mdo/core/hasInputProperty</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent a structure is a part of a material.
+                    To represent a calculation takes a property as the input.
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94">emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="approximatedBy">
-        <h3>approximatedBy<sup title="object property" class="sup-op">op</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/approximatedBy</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    To represent materials data is approximated by calculations
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/MaterialsData">MaterialsData</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
                 <td>
                     <a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
-        </table>
-    </div>
-    <div class="entity property" id="describedBy">
-        <h3>describedBy<sup title="object property" class="sup-op">op</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/describedBy</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    To represent a material is described by material data.
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94">emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/MaterialsData">MaterialsData</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="hasCalculatedProperty">
-        <h3>hasCalculatedProperty<sup title="object property" class="sup-op">op</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/hasCalculatedProperty</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    To represent a structure or a calculation have calculated properties.
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    (<a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup> or <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup>)
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/CalculatedProperty">CalculatedProperty</a><sup class="sup-c" title="class">c</sup>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -641,6 +497,33 @@
             </tr>
         </table>
     </div>
+    <div class="entity property" id="hasOutputCalculatedProperty">
+        <h3>hasOutputCalculatedProperty<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/hasOutputCalculatedProperty</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent a calculation outputs a calculated property after computing.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup> or <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup>)
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/CalculatedProperty">CalculatedProperty</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity property" id="hasOutputStructure">
         <h3>hasOutputStructure<sup title="object property" class="sup-op">op</sup></h3>
         <table>
@@ -668,17 +551,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasPhysicalProperty">
-        <h3>hasPhysicalProperty<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="relatesToMaterial">
+        <h3>relatesToMaterial<sup title="object property" class="sup-op">op</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/hasPhysicalProperty</code></td>
+                <td><code>https://w3id.org/mdo/core/relatesToMaterial</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent a structure has physical properties.
+                    To represent a structure relates to a material.
                 </td>
             </tr>
             <tr>
@@ -690,7 +573,34 @@
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/PhysicalProperty">PhysicalProperty</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94">emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="relatesToStructure">
+        <h3>relatesToStructure<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/relatesToStructure</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent a property relates to a structure.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -715,13 +625,13 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent the unique ID of materials data in the corresponding database.
+                    To represent the unique ID of a calculation from a database.
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/MaterialsData">MaterialsData</a><sup class="sup-c" title="class">c</sup>
+                    <a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
@@ -895,37 +805,7 @@
 <section id="namedindividuals">
     <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#test1">test1</a></li>
-        <li><a href="#test2">test2</a></li>
     </ul>
-    <div class="entity named_individual" id="test1">
-        <h3>test1<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td>
-                  <code>
-                      https://w3id.org/mdo/core/test1
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="test2">
-        <h3>test2<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td>
-                  <code>
-                      https://w3id.org/mdo/core/test2
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
 </section>
 
 <section id="namespaces">

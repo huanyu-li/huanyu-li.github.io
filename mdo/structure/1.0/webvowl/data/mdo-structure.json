@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://purl.obolibrary.org/obo", "http://emmo.info/domains/emmo-material.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/mdo/structure" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://purl.obolibrary.org/obo/chebi", "http://purl.obolibrary.org/obo", "http://emmo.info/domains/emmo-material.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/mdo/structure" ],
     "prefixList" : {
       "owl" : "http://www.w3.org/2002/07/owl#",
       "emmo" : "http://emmo.info/domains/emmo-material.owl#",
@@ -62,16 +62,16 @@
         "value" : "structure",
         "type" : "label"
       } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "1.0",
-        "type" : "label"
-      } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/mdo/structure/1.0",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
         "type" : "label"
       } ],
       "title" : [ {
@@ -93,19 +93,10 @@
     "id" : "0",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "10",
+    "id" : "13",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "11",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "15",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "16",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "17",
+    "id" : "14",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "18",
@@ -117,167 +108,167 @@
     "id" : "20",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "21",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "25",
+    "id" : "22",
     "type" : "rdfs:Datatype"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "30",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "31",
-    "type" : "owl:Class"
-  }, {
-    "id" : "6",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "33",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "34",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "35",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "38",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "39",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "24",
-    "type" : "owl:Class"
-  }, {
-    "id" : "40",
-    "type" : "owl:unionOf"
   }, {
     "id" : "23",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "44",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "42",
-    "type" : "owl:Class"
-  }, {
-    "id" : "37",
-    "type" : "owl:Class"
-  }, {
-    "id" : "58",
-    "type" : "owl:Class"
-  }, {
-    "id" : "46",
-    "type" : "owl:Class"
-  }, {
-    "id" : "14",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "63",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "64",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "65",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "3",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "9",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "50",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "27",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "36",
     "type" : "owl:Class"
   }, {
-    "id" : "68",
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
     "type" : "owl:Class"
   }, {
     "id" : "61",
     "type" : "owl:Class"
   }, {
-    "id" : "41",
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "74",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
     "type" : "owl:Class"
   }, {
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "54",
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
     "type" : "owl:unionOf"
   }, {
-    "id" : "73",
+    "id" : "93",
     "type" : "owl:unionOf"
   }, {
-    "id" : "43",
+    "id" : "63",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "48",
+    "id" : "49",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "30",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "0",
     "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "10",
+    "id" : "14",
     "label" : {
       "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "11",
-    "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "15",
-    "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "16",
-    "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
-    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "id" : "17",
-    "label" : {
-      "IRI-based" : "List"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
@@ -287,18 +278,25 @@
       "IRI-based" : "double"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "19",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
-    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "id" : "20",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
     "label" : {
-      "IRI-based" : "List"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
@@ -308,9 +306,23 @@
       "IRI-based" : "double"
     }
   }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "List"
+    }
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "25",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
     "label" : {
       "IRI-based" : "string"
     }
@@ -320,19 +332,19 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "CHEBI_33250",
-      "undefined" : "atom"
+      "undefined" : "Atom"
     },
     "comment" : {
       "en" : "To represent an element in the periodic table."
     },
     "attributes" : [ "external" ],
-    "id" : "2"
+    "id" : "32"
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "30",
+    "id" : "35",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "double"
     }
   }, {
     "iri" : "https://w3id.org/mdo/structure/LengthTriple",
@@ -342,48 +354,61 @@
       "IRI-based" : "LengthTriple"
     },
     "comment" : {
-      "en" : "LengthTriple consists of three bases of a unit cell."
+      "en" : "A length triple consists of three bases of a unit cell."
     },
-    "id" : "31"
+    "id" : "36"
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "6",
+    "id" : "37",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "double"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "33",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "34",
-    "label" : {
-      "IRI-based" : "integer"
-    }
-  }, {
-    "instances" : 0,
-    "union" : [ "36", "37" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "35"
-  }, {
-    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
-    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "id" : "38",
     "label" : {
-      "IRI-based" : "List"
+      "IRI-based" : "double"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "iri" : "https://w3id.org/mdo/structure/Occupancy",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Occupancy"
+    },
+    "comment" : {
+      "en" : "An occupancy ties a specific species to a site."
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "39",
     "label" : {
-      "IRI-based" : "float"
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "double"
     }
   }, {
     "iri" : "https://w3id.org/mdo/structure/PointGroup",
@@ -403,32 +428,38 @@
     "comment" : {
       "en" : "A group of linear mappings of vector space, which is corresonpond to the group of motions in point space determining the symmetry of the macroscopic crystal, is called the point group of the crystal, furthermore of the crystal structure, and is also called the point group of its space group."
     },
-    "id" : "24"
+    "id" : "26"
   }, {
-    "instances" : 0,
-    "union" : [ "41", "42" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "40"
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
   }, {
-    "instances" : 0,
-    "union" : [ "37", "43" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "23"
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "string"
+    }
   }, {
-    "instances" : 0,
-    "union" : [ "36", "37" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "44"
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "List"
+    }
   }, {
     "iri" : "http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
     "baseIri" : "http://emmo.info/domains/emmo-material.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
-      "undefined" : "material"
+      "undefined" : "Material"
     },
     "attributes" : [ "external" ],
-    "id" : "42"
+    "id" : "45"
   }, {
     "iri" : "https://w3id.org/mdo/structure/Lattice",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -437,9 +468,9 @@
       "IRI-based" : "Lattice"
     },
     "comment" : {
-      "en" : "Lattice is a set of points abstracted from basis. A three-dimensional lattice can ve visualized best as an infinite periodic array of points."
+      "en" : "A lattice is a set of points abstracted from basis."
     },
-    "id" : "37"
+    "id" : "34"
   }, {
     "iri" : "https://w3id.org/mdo/core/PhysicalProperty",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -451,75 +482,35 @@
       "en" : "Properties of structures or materials that are not influenced by calculations."
     },
     "attributes" : [ "external" ],
-    "id" : "58",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "https://w3id.org/mdo/core/MaterialsData",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "MaterialsData"
-    },
-    "comment" : {
-      "en" : "MaterialsData is a piece of data that represents materials calculation."
-    },
-    "attributes" : [ "external" ],
-    "id" : "46"
+    "id" : "61",
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "14",
+    "id" : "69",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "63",
+    "id" : "17",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "64",
+    "id" : "72",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "65",
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "74",
     "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "3",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "9",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "50",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "27",
-    "label" : {
-      "IRI-based" : "string"
+      "undefined" : "Thing"
     }
   }, {
     "iri" : "https://w3id.org/mdo/structure/Basis",
@@ -531,7 +522,7 @@
     "comment" : {
       "en" : "A basis can be described by basis's length vector a, b, c and the intervector angles alpha, beta and gamma."
     },
-    "id" : "36"
+    "id" : "75"
   }, {
     "iri" : "https://w3id.org/mdo/core/Calculation",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -540,10 +531,10 @@
       "IRI-based" : "Calculation"
     },
     "comment" : {
-      "en" : "Calculation means using specific computational method to compute materials' electronic structure and get the relationships between materials properties and structures."
+      "en" : "A calculation is the use of a specific computational method to process structures and/or properties into output structures and/or calculated properties."
     },
     "attributes" : [ "external" ],
-    "id" : "68"
+    "id" : "47"
   }, {
     "iri" : "https://w3id.org/mdo/structure/Site",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -552,9 +543,9 @@
       "IRI-based" : "Site"
     },
     "comment" : {
-      "en" : "Each point in a lattice is a site."
+      "en" : "A site is a point in a lattice."
     },
-    "id" : "71"
+    "id" : "60"
   }, {
     "iri" : "https://w3id.org/mdo/structure/Composition",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -563,9 +554,20 @@
       "IRI-based" : "Composition"
     },
     "comment" : {
-      "en" : "Composition is used to represent the composition of chemical elements of structures."
+      "en" : "A composition is used to represent the composition of chemical elements of structures."
     },
     "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/mdo/structure/CoordinateVector",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CoordinateVector"
+    },
+    "comment" : {
+      "en" : "A coordinate vector is the coordinates of a point in space."
+    },
+    "id" : "8"
   }, {
     "iri" : "https://w3id.org/mdo/core/CalculatedProperty",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -577,8 +579,8 @@
       "en" : "Properties of structures or materials that are influenced by calculations."
     },
     "attributes" : [ "external" ],
-    "id" : "61",
-    "superClasses" : [ "8" ]
+    "id" : "64",
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "https://w3id.org/mdo/core/Structure",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -587,10 +589,10 @@
       "IRI-based" : "Structure"
     },
     "comment" : {
-      "en" : "Structure is a unit that is used in a materials calculation. It is a part of a specific material."
+      "en" : "A structure is the information of the sites and their occupancies in a material or materials system."
     },
     "attributes" : [ "external" ],
-    "id" : "41"
+    "id" : "2"
   }, {
     "iri" : "https://w3id.org/mdo/core/Property",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -606,22 +608,65 @@
     "label" : {
       "IRI-based" : "Property"
     },
-    "subClasses" : [ "61", "58" ],
+    "subClasses" : [ "64", "61" ],
     "comment" : {
-      "en" : "A material's property is an intensive property of some material."
+      "en" : "A property in materials design is data pertaining to at least one material or materials system."
     },
     "attributes" : [ "external" ],
-    "id" : "8"
+    "id" : "11"
   }, {
     "instances" : 0,
-    "union" : [ "36", "37" ],
+    "union" : [ "2", "45" ],
     "attributes" : [ "union", "anonymous" ],
-    "id" : "54"
+    "id" : "92"
   }, {
     "instances" : 0,
-    "union" : [ "68", "41" ],
+    "union" : [ "75", "34" ],
     "attributes" : [ "union", "anonymous" ],
-    "id" : "73"
+    "id" : "93"
+  }, {
+    "instances" : 0,
+    "union" : [ "47", "2" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "63"
+  }, {
+    "instances" : 0,
+    "union" : [ "75", "34" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "List"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "75", "34" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "55"
   }, {
     "iri" : "https://w3id.org/mdo/structure/SpaceGroup",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -638,9 +683,9 @@
       "IRI-based" : "SpaceGroup"
     },
     "comment" : {
-      "en" : "The symmetry group of a three-dimensional crystal pattern is called its space group."
+      "en" : "A space group is the symmetry group of a three-dimensional crystal pattern is called its space group."
     },
-    "id" : "43"
+    "id" : "25"
   }, {
     "iri" : "https://w3id.org/mdo/structure/AngleTriple",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -649,9 +694,9 @@
       "IRI-based" : "AngleTriple"
     },
     "comment" : {
-      "en" : "AngleTriple is a vector of three angles which represent the angles among three bases in a unit cell."
+      "en" : "A angle triple is a vector of three angles which represent the angles among three bases in a unit cell."
     },
-    "id" : "13"
+    "id" : "16"
   }, {
     "iri" : "https://w3id.org/mdo/structure/Species",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -660,9 +705,9 @@
       "IRI-based" : "Species"
     },
     "comment" : {
-      "en" : "Species is the combination of atoms on each site."
+      "en" : "A species is the combination of atoms on each site."
     },
-    "id" : "48"
+    "id" : "49"
   }, {
     "iri" : "https://w3id.org/mdo/structure/AxisVectors",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -671,13 +716,13 @@
       "IRI-based" : "AxisVectors"
     },
     "comment" : {
-      "en" : "AxisVectors is the three vectors which represent the bases of primitive cell."
+      "en" : "An axis-vectors is the three vectors which represent the bases of primitive cell."
     },
-    "id" : "29"
+    "id" : "30"
   } ],
   "property" : [ {
     "id" : "1",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "4",
     "type" : "owl:datatypeProperty"
@@ -685,86 +730,83 @@
     "id" : "7",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "12",
+    "id" : "10",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "22",
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
     "type" : "owl:objectProperty"
-  }, {
-    "id" : "26",
-    "type" : "owl:datatypeProperty"
   }, {
     "id" : "28",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "32",
+    "id" : "29",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "45",
+    "id" : "33",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "47",
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "49",
+    "id" : "50",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "51",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "52",
     "type" : "owl:objectProperty"
   }, {
     "id" : "53",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "55",
-    "type" : "owl:datatypeProperty"
+    "id" : "54",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "56",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "57",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "59",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "60",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "62",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "66",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "67",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "69",
-    "type" : "owl:datatypeProperty"
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "70",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "72",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "74",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "75",
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "76",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "77",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "78",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "79",
     "type" : "owl:datatypeProperty"
@@ -776,46 +818,37 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "82",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "83",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "84",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "85",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "86",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "87",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "88",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "89",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "90",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "91",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "92",
-    "type" : "owl:someValuesFrom"
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
   }, {
-    "id" : "93",
-    "type" : "owl:someValuesFrom"
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "94",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "95",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "96",
     "type" : "owl:objectProperty"
@@ -824,30 +857,35 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "98",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "99",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "100",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://w3id.org/mdo/structure/hasAtomicSymbol",
+    "iri" : "https://w3id.org/mdo/structure/hasOccupancy",
     "baseIri" : "https://w3id.org/mdo/structure",
     "range" : "3",
     "label" : {
-      "IRI-based" : "hasAtomicSymbol"
+      "IRI-based" : "hasOccupancy"
     },
-    "cardinality" : "1",
     "domain" : "2",
     "comment" : {
-      "en" : "The atomic symbol of an element."
+      "en" : "To represent a structure have an occupancy."
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "object" ],
     "id" : "1"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasDescriptiveFormula",
@@ -863,50 +901,63 @@
     "attributes" : [ "datatype" ],
     "id" : "4"
   }, {
-    "iri" : "https://w3id.org/mdo/core/hasPropertyName",
-    "baseIri" : "https://w3id.org/mdo/core",
+    "iri" : "https://w3id.org/mdo/structure/hasZ_axisCoordinate",
+    "baseIri" : "https://w3id.org/mdo/structure",
     "range" : "9",
     "label" : {
-      "IRI-based" : "hasPropertyName"
+      "IRI-based" : "hasZ_axisCoordinate"
     },
     "cardinality" : "1",
     "domain" : "8",
     "comment" : {
+      "en" : "To represent the coordinate in Z axis."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPropertyName",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasPropertyName"
+    },
+    "domain" : "11",
+    "comment" : {
       "en" : "To represent the name of the property."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "7"
+    "id" : "10"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasAngle_gamma",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "14",
+    "range" : "17",
     "label" : {
       "IRI-based" : "hasAngle_gamma"
     },
     "cardinality" : "1",
-    "domain" : "13",
+    "domain" : "16",
     "comment" : {
       "en" : "To represent angle gamma of the cell."
     },
     "attributes" : [ "datatype" ],
-    "id" : "12"
+    "id" : "15"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasPointGroup",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "24",
+    "range" : "26",
     "label" : {
       "IRI-based" : "hasPointGroup"
     },
-    "domain" : "23",
+    "domain" : "25",
     "comment" : {
       "en" : "To represent a lattice or a spacegroup can have corresponding point group."
     },
     "attributes" : [ "object" ],
-    "id" : "22"
+    "id" : "24"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasAnonymousFormula",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "27",
+    "range" : "14",
     "label" : {
       "IRI-based" : "hasAnonymousFormula"
     },
@@ -915,209 +966,287 @@
       "en" : "To represent the anonymous formula of a composition."
     },
     "attributes" : [ "datatype" ],
-    "id" : "26"
+    "id" : "28"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasY_axisVector",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "20",
+    "range" : "31",
     "label" : {
       "IRI-based" : "hasY_axisVector"
     },
     "cardinality" : "1",
-    "domain" : "29",
+    "domain" : "30",
     "comment" : {
       "en" : "To represent the second vector in the AxisVectors."
     },
     "attributes" : [ "datatype" ],
-    "id" : "28"
+    "id" : "29"
   }, {
-    "iri" : "https://w3id.org/mdo/structure/hasFullAtomicName",
+    "iri" : "https://w3id.org/mdo/structure/hasLatticeType",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "33",
+    "range" : "20",
     "label" : {
-      "IRI-based" : "hasFullAtomicName"
+      "IRI-based" : "hasLatticeType"
     },
-    "cardinality" : "1",
-    "domain" : "2",
+    "domain" : "34",
     "comment" : {
-      "en" : "The full atomic name of an element."
+      "en" : "To represent the type of a lattice."
     },
     "attributes" : [ "datatype" ],
-    "id" : "32"
+    "id" : "33"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasID",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "30",
+    "range" : "43",
     "label" : {
       "IRI-based" : "hasID"
     },
-    "domain" : "46",
+    "domain" : "47",
     "comment" : {
-      "en" : "To represent the unique ID of materials data in the corresponding database."
+      "en" : "To represent the unique ID of a calculation from a database."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "45"
+    "id" : "46"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasElement",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "2",
+    "range" : "32",
     "label" : {
       "IRI-based" : "hasElement"
     },
-    "domain" : "48",
+    "domain" : "49",
     "comment" : {
       "en" : "To represent a specie has related atoms."
     },
     "attributes" : [ "object" ],
-    "id" : "47"
+    "id" : "48"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasUnit",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "50",
+    "range" : "13",
     "label" : {
       "IRI-based" : "hasUnit"
     },
-    "cardinality" : "1",
-    "domain" : "8",
+    "domain" : "11",
     "comment" : {
       "en" : "To represent the name of the unit."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "49"
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/hasAtomicMass",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "39",
-    "label" : {
-      "IRI-based" : "hasAtomicMass"
-    },
-    "cardinality" : "1",
-    "domain" : "2",
-    "comment" : {
-      "en" : "The atomic mass of an element."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "51"
+    "id" : "50"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasAxisVectors",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "29",
+    "range" : "30",
     "label" : {
       "IRI-based" : "hasAxisVectors"
     },
-    "domain" : "35",
+    "domain" : "52",
     "comment" : {
       "en" : "To represent a basis or a lattice can have an axis-vectors."
     },
     "attributes" : [ "object" ],
-    "id" : "52"
+    "id" : "51"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/relatesToMaterial",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "relatesToMaterial"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "To represent a structure relates to a material."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "53"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasAngleVector",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "13",
+    "range" : "16",
     "label" : {
       "IRI-based" : "hasAngleVector"
     },
-    "domain" : "54",
+    "domain" : "55",
     "comment" : {
       "en" : "To represent a basis or a lattice can have a angle vector."
     },
     "attributes" : [ "object" ],
-    "id" : "53"
+    "id" : "54"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasX_axisVector",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "17",
+    "range" : "22",
     "label" : {
       "IRI-based" : "hasX_axisVector"
     },
     "cardinality" : "1",
-    "domain" : "29",
+    "domain" : "30",
     "comment" : {
       "en" : "To represent the first vector in the AxisVectors."
     },
     "attributes" : [ "datatype" ],
-    "id" : "55"
+    "id" : "56"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasSpaceGroupID",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "34",
+    "range" : "58",
     "label" : {
       "IRI-based" : "hasSpaceGroupID"
     },
-    "domain" : "43",
+    "cardinality" : "1",
+    "domain" : "25",
     "comment" : {
       "en" : "The ID of a space group ([1, 230])."
     },
     "attributes" : [ "datatype" ],
-    "id" : "56"
-  }, {
-    "range" : "8",
-    "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "57"
   }, {
-    "iri" : "https://w3id.org/mdo/structure/hasSpaceGroup",
+    "iri" : "https://w3id.org/mdo/structure/hasCartesianCoordinates",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "43",
+    "range" : "8",
     "label" : {
-      "IRI-based" : "hasSpaceGroup"
+      "IRI-based" : "hasCartesianCoordinates"
     },
-    "domain" : "41",
+    "domain" : "60",
     "comment" : {
-      "en" : "To represent a structure has a corresponding space group."
+      "en" : "To represent cartesian coordinates of a site."
     },
     "attributes" : [ "object" ],
     "id" : "59"
   }, {
-    "range" : "8",
-    "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "60"
+    "iri" : "https://w3id.org/mdo/core/hasOutputCalculatedProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "hasOutputCalculatedProperty"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "To represent a calculation outputs a calculated property after computing."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "https://w3id.org/mdo/structure/hasSpaceGroup",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasSpaceGroup"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "To represent a structure has a corresponding space group."
+    },
+    "attributes" : [ "object" ],
+    "id" : "65"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasLattice",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "37",
+    "range" : "34",
     "label" : {
       "IRI-based" : "hasLattice"
     },
-    "domain" : "41",
+    "domain" : "2",
     "comment" : {
       "en" : "To represent a structure has a lattice."
     },
     "attributes" : [ "object" ],
-    "id" : "62"
+    "id" : "66"
+  }, {
+    "range" : "11",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "11",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://w3id.org/mdo/structure/hasLatticeVolume",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasLatticeVolume"
+    },
+    "domain" : "34",
+    "comment" : {
+      "en" : "To represent the volume of a lattice."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "70"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasAngle_alpha",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "18",
+    "range" : "38",
     "label" : {
       "IRI-based" : "hasAngle_alpha"
     },
     "cardinality" : "1",
-    "domain" : "13",
+    "domain" : "16",
     "comment" : {
       "en" : "To represent angle alpha of the cell."
     },
     "attributes" : [ "datatype" ],
-    "id" : "66"
+    "id" : "71"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/chebi/formula",
+    "baseIri" : "http://purl.obolibrary.org/obo/chebi",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "formula"
+    },
+    "cardinality" : "1",
+    "domain" : "74",
+    "comment" : {
+      "en" : "To represent the formula of an atom."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/relatesToStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "relatesToStructure"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "To represent a property relates to a structure."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://w3id.org/mdo/structure/hasX_axisCoordinate",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasX_axisCoordinate"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "To represent the coordinate in X axis."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "77"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasInputStructure",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "41",
+    "range" : "2",
     "label" : {
       "IRI-based" : "hasInputStructure"
     },
-    "domain" : "68",
+    "domain" : "47",
     "comment" : {
       "en" : "To represent a calculation takes a structure as the input."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "67"
+    "id" : "78"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasReducedFormula",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "0",
+    "range" : "23",
     "label" : {
       "IRI-based" : "hasReducedFormula"
     },
@@ -1126,341 +1255,214 @@
       "en" : "To represent the reduced formula of a conposition"
     },
     "attributes" : [ "datatype" ],
-    "id" : "69"
-  }, {
-    "iri" : "https://w3id.org/mdo/core/approximatedBy",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "68",
-    "label" : {
-      "IRI-based" : "approximatedBy"
-    },
-    "domain" : "46",
-    "comment" : {
-      "en" : "To represent materials data is approximated by calculations"
-    },
-    "attributes" : [ "external", "object" ],
-    "id" : "70"
-  }, {
-    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "61",
-    "label" : {
-      "IRI-based" : "hasCalculatedProperty"
-    },
-    "domain" : "73",
-    "comment" : {
-      "en" : "To represent a structure or a calculation have calculated properties."
-    },
-    "attributes" : [ "external", "object" ],
-    "id" : "72"
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/hasLength_b",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "16",
-    "label" : {
-      "IRI-based" : "hasLength_b"
-    },
-    "cardinality" : "1",
-    "domain" : "31",
-    "comment" : {
-      "en" : "To represent cell length 'b'."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "74"
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/hasLength_a",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "65",
-    "label" : {
-      "IRI-based" : "hasLength_a"
-    },
-    "cardinality" : "1",
-    "domain" : "31",
-    "comment" : {
-      "en" : "To represent cell length 'a'."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "75"
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/hasOxidationState",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "63",
-    "label" : {
-      "IRI-based" : "hasOxidationState"
-    },
-    "cardinality" : "1",
-    "domain" : "48",
-    "comment" : {
-      "en" : "The oxidation state of a specie."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "76"
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/hasLength_c",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "21",
-    "label" : {
-      "IRI-based" : "hasLength_c"
-    },
-    "cardinality" : "1",
-    "domain" : "31",
-    "comment" : {
-      "en" : "To represent cell length 'c'."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "77"
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/hasAtomicNumber",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "64",
-    "label" : {
-      "IRI-based" : "hasAtomicNumber"
-    },
-    "cardinality" : "1",
-    "domain" : "2",
-    "comment" : {
-      "en" : "The atomic number of an element."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "78"
-  }, {
-    "iri" : "https://w3id.org/mdo/structure/hasZ_axisVector",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "38",
-    "label" : {
-      "IRI-based" : "hasZ_axisVector"
-    },
-    "cardinality" : "1",
-    "domain" : "29",
-    "comment" : {
-      "en" : "To represent the third vector in the AxisVectors."
-    },
-    "attributes" : [ "datatype" ],
     "id" : "79"
   }, {
-    "iri" : "https://w3id.org/mdo/structure/hasPointGroupHMName",
+    "iri" : "https://w3id.org/mdo/structure/hasElementRatio",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "10",
+    "range" : "19",
     "label" : {
-      "IRI-based" : "hasPointGroupHMName"
+      "IRI-based" : "hasElementRatio"
     },
-    "cardinality" : "1",
-    "domain" : "24",
+    "domain" : "49",
     "comment" : {
-      "en" : "The Hermann-Mauguin notation of an point group."
+      "en" : "To reoresent the occupancy of a element from a species."
     },
     "attributes" : [ "datatype" ],
     "id" : "80"
   }, {
-    "iri" : "https://w3id.org/mdo/structure/hasAngle_beta",
+    "iri" : "https://w3id.org/mdo/structure/hasLength_b",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "15",
+    "range" : "41",
     "label" : {
-      "IRI-based" : "hasAngle_beta"
+      "IRI-based" : "hasLength_b"
     },
     "cardinality" : "1",
-    "domain" : "13",
+    "domain" : "36",
     "comment" : {
-      "en" : "To represent angle beta of the cell."
+      "en" : "To represent cell length 'b'."
     },
     "attributes" : [ "datatype" ],
     "id" : "81"
   }, {
-    "iri" : "https://w3id.org/mdo/core/describedBy",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "46",
+    "iri" : "https://w3id.org/mdo/structure/hasLength_a",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "69",
     "label" : {
-      "IRI-based" : "describedBy"
+      "IRI-based" : "hasLength_a"
     },
-    "domain" : "42",
+    "cardinality" : "1",
+    "domain" : "36",
     "comment" : {
-      "en" : "To represent a material is described by material data."
+      "en" : "To represent cell length 'a'."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "datatype" ],
     "id" : "82"
   }, {
-    "iri" : "https://w3id.org/mdo/core/hasOutputStructure",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "41",
+    "iri" : "https://w3id.org/mdo/structure/hasOxidationState",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "0",
     "label" : {
-      "IRI-based" : "hasOutputStructure"
+      "IRI-based" : "hasOxidationState"
     },
-    "domain" : "68",
+    "domain" : "49",
     "comment" : {
-      "en" : "To represent a calculation outputs a structure after computing."
+      "en" : "The oxidation state of a specie."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "datatype" ],
     "id" : "83"
   }, {
-    "iri" : "https://w3id.org/mdo/core/PartOf",
-    "baseIri" : "https://w3id.org/mdo/core",
+    "iri" : "https://w3id.org/mdo/structure/hasLength_c",
+    "baseIri" : "https://w3id.org/mdo/structure",
     "range" : "42",
     "label" : {
-      "IRI-based" : "PartOf"
+      "IRI-based" : "hasLength_c"
     },
-    "domain" : "41",
+    "cardinality" : "1",
+    "domain" : "36",
     "comment" : {
-      "en" : "To represent a structure is a part of a material."
+      "en" : "To represent cell length 'c'."
     },
-    "attributes" : [ "external", "object", "someValues" ],
+    "attributes" : [ "datatype" ],
     "id" : "84"
   }, {
-    "iri" : "https://w3id.org/mdo/structure/hasSite",
+    "iri" : "https://w3id.org/mdo/structure/hasZ_axisVector",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "71",
+    "range" : "86",
     "label" : {
-      "IRI-based" : "hasSite"
+      "IRI-based" : "hasZ_axisVector"
     },
-    "domain" : "41",
+    "cardinality" : "1",
+    "domain" : "30",
     "comment" : {
-      "en" : "To represent a structure has sites."
+      "en" : "To represent the third vector in the AxisVectors."
     },
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "datatype" ],
     "id" : "85"
   }, {
-    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "58",
+    "iri" : "https://w3id.org/mdo/structure/hasPointGroupHMName",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "27",
     "label" : {
-      "IRI-based" : "hasPhysicalProperty"
+      "IRI-based" : "hasPointGroupHMName"
     },
-    "domain" : "41",
+    "cardinality" : "1",
+    "domain" : "26",
     "comment" : {
-      "en" : "To represent a structure has physical properties."
+      "en" : "The Hermann-Mauguin notation of an point group."
     },
-    "attributes" : [ "external", "object", "someValues" ],
-    "id" : "86"
-  }, {
-    "iri" : "https://w3id.org/mdo/core/PartOf",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "42",
-    "label" : {
-      "IRI-based" : "PartOf"
-    },
-    "domain" : "41",
-    "comment" : {
-      "en" : "To represent a structure is a part of a material."
-    },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "datatype" ],
     "id" : "87"
   }, {
-    "iri" : "https://w3id.org/mdo/core/describedBy",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "46",
+    "iri" : "https://w3id.org/mdo/structure/hasAngle_beta",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "37",
     "label" : {
-      "IRI-based" : "describedBy"
+      "IRI-based" : "hasAngle_beta"
     },
-    "domain" : "42",
+    "cardinality" : "1",
+    "domain" : "16",
     "comment" : {
-      "en" : "To represent a material is described by material data."
+      "en" : "To represent angle beta of the cell."
     },
-    "attributes" : [ "external", "object", "someValues" ],
+    "attributes" : [ "datatype" ],
     "id" : "88"
   }, {
-    "iri" : "https://w3id.org/mdo/structure/hasPointGroup",
+    "iri" : "https://w3id.org/mdo/structure/hasY_axisCoordinate",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "24",
+    "range" : "39",
     "label" : {
-      "IRI-based" : "hasPointGroup"
-    },
-    "domain" : "43",
-    "comment" : {
-      "en" : "To represent a lattice or a spacegroup can have corresponding point group."
-    },
-    "attributes" : [ "object", "someValues" ],
-    "id" : "89"
-  }, {
-    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "61",
-    "label" : {
-      "IRI-based" : "hasCalculatedProperty"
-    },
-    "domain" : "68",
-    "comment" : {
-      "en" : "To represent a structure or a calculation have calculated properties."
-    },
-    "attributes" : [ "external", "object", "someValues" ],
-    "id" : "90"
-  }, {
-    "iri" : "https://w3id.org/mdo/core/hasPropertyValue",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "11",
-    "label" : {
-      "IRI-based" : "hasPropertyValue"
+      "IRI-based" : "hasY_axisCoordinate"
     },
     "cardinality" : "1",
     "domain" : "8",
     "comment" : {
+      "en" : "To represent the coordinate in Y axis."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasInputProperty",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasInputProperty"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "To represent a calculation takes a property as the input."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasOutputStructure",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasOutputStructure"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "To represent a calculation outputs a structure after computing."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://w3id.org/mdo/core/hasPropertyValue",
+    "baseIri" : "https://w3id.org/mdo/core",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasPropertyValue"
+    },
+    "domain" : "11",
+    "comment" : {
       "en" : "To represent the numerical value of the property."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "91"
+    "id" : "94"
   }, {
-    "iri" : "https://w3id.org/mdo/structure/hasSpecies",
-    "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "48",
-    "label" : {
-      "IRI-based" : "hasSpecies"
-    },
-    "domain" : "71",
-    "comment" : {
-      "en" : "To represent a site has corresponding species."
-    },
-    "attributes" : [ "object", "someValues" ],
-    "id" : "92"
-  }, {
-    "iri" : "https://w3id.org/mdo/core/hasCalculatedProperty",
-    "baseIri" : "https://w3id.org/mdo/core",
     "range" : "61",
-    "label" : {
-      "IRI-based" : "hasCalculatedProperty"
-    },
-    "domain" : "41",
-    "comment" : {
-      "en" : "To represent a structure or a calculation have calculated properties."
-    },
-    "attributes" : [ "external", "object", "someValues" ],
-    "id" : "93"
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasSite",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "71",
+    "range" : "60",
     "label" : {
       "IRI-based" : "hasSite"
     },
-    "domain" : "41",
+    "domain" : "3",
     "comment" : {
       "en" : "To represent a structure has sites."
     },
     "attributes" : [ "object" ],
-    "id" : "94"
+    "id" : "96"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasBasis",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "36",
+    "range" : "75",
     "label" : {
       "IRI-based" : "hasBasis"
     },
-    "domain" : "41",
+    "domain" : "2",
     "comment" : {
       "en" : "To represent a structure has a basis."
     },
     "attributes" : [ "object" ],
-    "id" : "95"
+    "id" : "97"
   }, {
-    "iri" : "https://w3id.org/mdo/core/hasPhysicalProperty",
-    "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "58",
+    "iri" : "https://w3id.org/mdo/structure/hasFractionalCoordinates",
+    "baseIri" : "https://w3id.org/mdo/structure",
+    "range" : "8",
     "label" : {
-      "IRI-based" : "hasPhysicalProperty"
+      "IRI-based" : "hasFractionalCoordinates"
     },
-    "domain" : "41",
+    "domain" : "60",
     "comment" : {
-      "en" : "To represent a structure has physical properties."
+      "en" : "To represent fractional coordinates of a site."
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "96"
+    "attributes" : [ "object" ],
+    "id" : "98"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasComposition",
     "baseIri" : "https://w3id.org/mdo/structure",
@@ -1468,30 +1470,30 @@
     "label" : {
       "IRI-based" : "hasComposition"
     },
-    "domain" : "40",
+    "domain" : "92",
     "comment" : {
       "en" : "To represent a material or a structure can have a composition."
     },
     "attributes" : [ "object" ],
-    "id" : "97"
+    "id" : "99"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasSpaceGroupSymbol",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "19",
+    "range" : "44",
     "label" : {
       "IRI-based" : "hasSpaceGroupSymbol"
     },
     "cardinality" : "1",
-    "domain" : "43",
+    "domain" : "25",
     "comment" : {
       "en" : "The international short symbol of a space group. (e.g. P1, P1-, P2, P2_1)"
     },
     "attributes" : [ "datatype" ],
-    "id" : "98"
+    "id" : "100"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasHillFormula",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "25",
+    "range" : "40",
     "label" : {
       "IRI-based" : "hasHillFormula"
     },
@@ -1500,32 +1502,32 @@
       "en" : "To represent the hill formula of a composition."
     },
     "attributes" : [ "datatype" ],
-    "id" : "99"
+    "id" : "101"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasSpecies",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "48",
+    "range" : "49",
     "label" : {
       "IRI-based" : "hasSpecies"
     },
-    "domain" : "71",
+    "domain" : "3",
     "comment" : {
       "en" : "To represent a site has corresponding species."
     },
     "attributes" : [ "object" ],
-    "id" : "100"
+    "id" : "102"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasLengthVector",
     "baseIri" : "https://w3id.org/mdo/structure",
-    "range" : "31",
+    "range" : "36",
     "label" : {
       "IRI-based" : "hasLengthVector"
     },
-    "domain" : "44",
+    "domain" : "93",
     "comment" : {
       "en" : "To represent a basis or a lattice can have a length vector."
     },
     "attributes" : [ "object" ],
-    "id" : "101"
+    "id" : "103"
   } ]
 }

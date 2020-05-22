@@ -3,7 +3,7 @@
 <head>
     <title>Materials Design Ontology - Structure Module</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    
+
     <style>
         #pylode {
             position: fixed;
@@ -180,7 +180,7 @@
         }
 
     </style>
-    
+
     <script type="application/ld+json">
       [
   {
@@ -251,7 +251,6 @@
         <li><a href="#objectproperties">Object Properties</a></li>
         <li><a href="#datatypeproperties">Datatype Properties</a></li>
         <li><a href="#annotationproperties">Annotation Properties</a></li>
-        <li><a href="#namedindividuals">Named Individuals</a></li>
         <li><a href="#namespaces">Namespaces</a></li>
         <li><a href="#legend">Legend</a></li>
     </ol>
@@ -259,26 +258,28 @@
 <section id="overview">
     <h2>Overview</h2>
     <div class="figure">
-        <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-structure"></iframe> 
-        <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
+      <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-structure"></iframe>
+      <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
     </div>
 </section>
 <section id="classes">
     <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
         <li><a href="#AngleTriple">AngleTriple</a></li>
+        <li><a href="#Atom">Atom</a></li>
         <li><a href="#AxisVectors">AxisVectors</a></li>
         <li><a href="#Basis">Basis</a></li>
         <li><a href="#Composition">Composition</a></li>
+        <li><a href="#CoordinateVector">CoordinateVector</a></li>
         <li><a href="#EMMO_4207e895_8b83_4318_996a_72cfb32acd94">EMMO_4207e895_8b83_4318_996a_72cfb32acd94</a></li>
         <li><a href="#Lattice">Lattice</a></li>
         <li><a href="#LengthTriple">LengthTriple</a></li>
+        <li><a href="#Occupancy">Occupancy</a></li>
         <li><a href="#PointGroup">PointGroup</a></li>
         <li><a href="#Site">Site</a></li>
         <li><a href="#SpaceGroup">SpaceGroup</a></li>
         <li><a href="#Species">Species</a></li>
         <li><a href="#Structure">Structure</a></li>
-        <li><a href="#atom">atom</a></li>
     </ul>
     <div class="entity class" id="EMMO_4207e895_8b83_4318_996a_72cfb32acd94">
         <h3>EMMO_4207e895_8b83_4318_996a_72cfb32acd94<sup title="class" class="sup-c">c</sup></h3>
@@ -289,8 +290,8 @@
             </tr>
         </table>
     </div>
-    <div class="entity class" id="atom">
-        <h3>atom<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="Atom">
+        <h3>Atom<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -305,19 +306,7 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasAtomicMass">hasAtomicMass</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/mdo/structure/hasAtomicNumber">hasAtomicNumber</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/mdo/structure/hasFullAtomicName">hasFullAtomicName</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/mdo/structure/hasAtomicSymbol">hasAtomicSymbol</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                </td>
-            </tr>
-            <tr>
-                <th>In domain of</th>
-                <td>
-                    <a href="https://w3id.org/mdo/structure/hasAtomicMass">hasAtomicMass</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasAtomicSymbol">hasAtomicSymbol</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasAtomicNumber">hasAtomicNumber</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasFullAtomicName">hasFullAtomicName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="http://purl.obolibrary.org/obo/chebi/formula">http://purl.obolibrary.org/obo/chebi/formula</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                 </td>
             </tr>
             <tr>
@@ -336,22 +325,20 @@
                 <td><code>https://w3id.org/mdo/core/Structure</code></td>
             </tr>
             <tr>
-                <th>Restrictions</th>
+                <th>Super-classes</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasPointGroup">hasPointGroup</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/mdo/structure/PointGroup">PointGroup</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasComposition">hasComposition</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/mdo/structure/Composition">Composition</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasBasis">hasBasis</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/mdo/structure/Basis">Basis</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasSite">hasSite</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/mdo/structure/Site">Site</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasSpaceGroup">hasSpaceGroup</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/mdo/structure/SpaceGroup">SpaceGroup</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasLattice">hasLattice</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/mdo/structure/Lattice">Lattice</a><sup class="sup-c" title="class">c</sup><br/>
+                    (<a href="Nf02276619ca64a10a23ab4772be3fbe4">Nf02276619ca64a10a23ab4772be3fbe4</a><sup class="sup-c" title="class">c</sup> and <a href="N1ed42ec505b34127a27ea6dfb9a46843">N1ed42ec505b34127a27ea6dfb9a46843</a><sup class="sup-c" title="class">c</sup> and <a href="Ndcd29a2c33c0423694ffa66e7958140a">Ndcd29a2c33c0423694ffa66e7958140a</a><sup class="sup-c" title="class">c</sup> and <a href="Ne16626248c394714821b509a542461ef">Ne16626248c394714821b509a542461ef</a><sup class="sup-c" title="class">c</sup> and <a href="N63c212ce28f64bb38080ccdc88e33f1d">N63c212ce28f64bb38080ccdc88e33f1d</a><sup class="sup-c" title="class">c</sup> and <a href="Nd7dd068a088543bdadde9ae74199d7bd">Nd7dd068a088543bdadde9ae74199d7bd</a><sup class="sup-c" title="class">c</sup> and <a href="Nbafb3e50145642a2acd7757092032d04">Nbafb3e50145642a2acd7757092032d04</a><sup class="sup-c" title="class">c</sup> and <a href="N65f9e560984a45fe826b53798dc8b370">N65f9e560984a45fe826b53798dc8b370</a><sup class="sup-c" title="class">c</sup> and <a href="Ncb74e65023c340458cca19cde79f9608">Ncb74e65023c340458cca19cde79f9608</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="Nf02276619ca64a10a23ab4772be3fbe4">Nf02276619ca64a10a23ab4772be3fbe4</a><sup class="sup-c" title="class">c</sup> and <a href="N1ed42ec505b34127a27ea6dfb9a46843">N1ed42ec505b34127a27ea6dfb9a46843</a><sup class="sup-c" title="class">c</sup> and <a href="Ndcd29a2c33c0423694ffa66e7958140a">Ndcd29a2c33c0423694ffa66e7958140a</a><sup class="sup-c" title="class">c</sup> and <a href="Ne16626248c394714821b509a542461ef">Ne16626248c394714821b509a542461ef</a><sup class="sup-c" title="class">c</sup> and <a href="N63c212ce28f64bb38080ccdc88e33f1d">N63c212ce28f64bb38080ccdc88e33f1d</a><sup class="sup-c" title="class">c</sup> and <a href="Nd7dd068a088543bdadde9ae74199d7bd">Nd7dd068a088543bdadde9ae74199d7bd</a><sup class="sup-c" title="class">c</sup> and <a href="Nbafb3e50145642a2acd7757092032d04">Nbafb3e50145642a2acd7757092032d04</a><sup class="sup-c" title="class">c</sup> and <a href="N65f9e560984a45fe826b53798dc8b370">N65f9e560984a45fe826b53798dc8b370</a><sup class="sup-c" title="class">c</sup> and <a href="Ncb74e65023c340458cca19cde79f9608">Ncb74e65023c340458cca19cde79f9608</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="Nf02276619ca64a10a23ab4772be3fbe4">Nf02276619ca64a10a23ab4772be3fbe4</a><sup class="sup-c" title="class">c</sup> and <a href="N1ed42ec505b34127a27ea6dfb9a46843">N1ed42ec505b34127a27ea6dfb9a46843</a><sup class="sup-c" title="class">c</sup> and <a href="Ndcd29a2c33c0423694ffa66e7958140a">Ndcd29a2c33c0423694ffa66e7958140a</a><sup class="sup-c" title="class">c</sup> and <a href="Ne16626248c394714821b509a542461ef">Ne16626248c394714821b509a542461ef</a><sup class="sup-c" title="class">c</sup> and <a href="N63c212ce28f64bb38080ccdc88e33f1d">N63c212ce28f64bb38080ccdc88e33f1d</a><sup class="sup-c" title="class">c</sup> and <a href="Nd7dd068a088543bdadde9ae74199d7bd">Nd7dd068a088543bdadde9ae74199d7bd</a><sup class="sup-c" title="class">c</sup> and <a href="Nbafb3e50145642a2acd7757092032d04">Nbafb3e50145642a2acd7757092032d04</a><sup class="sup-c" title="class">c</sup> and <a href="N65f9e560984a45fe826b53798dc8b370">N65f9e560984a45fe826b53798dc8b370</a><sup class="sup-c" title="class">c</sup> and <a href="Ncb74e65023c340458cca19cde79f9608">Ncb74e65023c340458cca19cde79f9608</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="Nf02276619ca64a10a23ab4772be3fbe4">Nf02276619ca64a10a23ab4772be3fbe4</a><sup class="sup-c" title="class">c</sup> and <a href="N1ed42ec505b34127a27ea6dfb9a46843">N1ed42ec505b34127a27ea6dfb9a46843</a><sup class="sup-c" title="class">c</sup> and <a href="Ndcd29a2c33c0423694ffa66e7958140a">Ndcd29a2c33c0423694ffa66e7958140a</a><sup class="sup-c" title="class">c</sup> and <a href="Ne16626248c394714821b509a542461ef">Ne16626248c394714821b509a542461ef</a><sup class="sup-c" title="class">c</sup> and <a href="N63c212ce28f64bb38080ccdc88e33f1d">N63c212ce28f64bb38080ccdc88e33f1d</a><sup class="sup-c" title="class">c</sup> and <a href="Nd7dd068a088543bdadde9ae74199d7bd">Nd7dd068a088543bdadde9ae74199d7bd</a><sup class="sup-c" title="class">c</sup> and <a href="Nbafb3e50145642a2acd7757092032d04">Nbafb3e50145642a2acd7757092032d04</a><sup class="sup-c" title="class">c</sup> and <a href="N65f9e560984a45fe826b53798dc8b370">N65f9e560984a45fe826b53798dc8b370</a><sup class="sup-c" title="class">c</sup> and <a href="Ncb74e65023c340458cca19cde79f9608">Ncb74e65023c340458cca19cde79f9608</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasSpaceGroup">hasSpaceGroup</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasSite">hasSite</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/mdo/structure/hasBasis">hasBasis</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasOccupancy">hasOccupancy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasSpaceGroup">hasSpaceGroup</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/mdo/structure/hasLattice">hasLattice</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
@@ -367,23 +354,23 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>AngleTriple is a vector of three angles which represent the angles among three bases in a unit cell.</p>
+                    <p>A angle triple is a vector of three angles which represent the angles among three bases in a unit cell.</p>
                 </td>
             </tr>
             <tr>
                 <th>Restrictions</th>
                 <td>
                     <a href="https://w3id.org/mdo/structure/hasAngle_gamma">hasAngle_gamma</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/mdo/structure/hasAngle_alpha">hasAngle_alpha</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                     <a href="https://w3id.org/mdo/structure/hasAngle_beta">hasAngle_beta</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/mdo/structure/hasAngle_alpha">hasAngle_alpha</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasAngle_gamma">hasAngle_gamma</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasAngle_beta">hasAngle_beta</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/structure/hasAngle_alpha">hasAngle_alpha</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasAngle_beta">hasAngle_beta</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasAngle_gamma">hasAngle_gamma</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -404,15 +391,15 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>AxisVectors is the three vectors which represent the bases of primitive cell.</p>
+                    <p>An axis-vectors is the three vectors which represent the bases of primitive cell.</p>
                 </td>
             </tr>
             <tr>
                 <th>Restrictions</th>
                 <td>
+                    <a href="https://w3id.org/mdo/structure/hasY_axisVector">hasY_axisVector</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                     <a href="https://w3id.org/mdo/structure/hasX_axisVector">hasX_axisVector</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                     <a href="https://w3id.org/mdo/structure/hasZ_axisVector">hasZ_axisVector</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/mdo/structure/hasY_axisVector">hasY_axisVector</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                 </td>
             </tr>
             <tr>
@@ -447,7 +434,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    (<a href="N040f75c22f49442fa0e7bae6bfa00503">N040f75c22f49442fa0e7bae6bfa00503</a><sup class="sup-c" title="class">c</sup> or <a href="N80c8c789e9814c01abf233f01f1bd3fa">N80c8c789e9814c01abf233f01f1bd3fa</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="Nc2cf396221e84a04b0b3f3f28cdb9e61">Nc2cf396221e84a04b0b3f3f28cdb9e61</a><sup class="sup-c" title="class">c</sup> or <a href="Nf9bfd1e3f3f943999ceb0710c246d069">Nf9bfd1e3f3f943999ceb0710c246d069</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
             <tr>
@@ -468,22 +455,60 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Composition is used to represent the composition of chemical elements of structures.</p>
+                    <p>A composition is used to represent the composition of chemical elements of structures.</p>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasAnonymousFormula">hasAnonymousFormula</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasReducedFormula">hasReducedFormula</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasDescriptiveFormula">hasDescriptiveFormula</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/structure/hasHillFormula">hasHillFormula</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasDescriptiveFormula">hasDescriptiveFormula</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasReducedFormula">hasReducedFormula</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasAnonymousFormula">hasAnonymousFormula</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
                     <a href="https://w3id.org/mdo/structure/hasComposition">hasComposition</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="CoordinateVector">
+        <h3>CoordinateVector<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/CoordinateVector</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A coordinate vector is the coordinates of a point in space.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Restrictions</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/hasX_axisCoordinate">hasX_axisCoordinate</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/mdo/structure/hasZ_axisCoordinate">hasZ_axisCoordinate</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/mdo/structure/hasY_axisCoordinate">hasY_axisCoordinate</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/hasX_axisCoordinate">hasX_axisCoordinate</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasZ_axisCoordinate">hasZ_axisCoordinate</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasY_axisCoordinate">hasY_axisCoordinate</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/hasCartesianCoordinates">hasCartesianCoordinates</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasFractionalCoordinates">hasFractionalCoordinates</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -498,13 +523,20 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Lattice is a set of points abstracted from basis. A three-dimensional lattice can ve visualized best as an infinite periodic array of points.</p>
+                    <p>A lattice is a set of points abstracted from basis.</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    (<a href="Nabdca441ade44a35ac18bc2bce18a05f">Nabdca441ade44a35ac18bc2bce18a05f</a><sup class="sup-c" title="class">c</sup> or <a href="N886b0a0e1ee74f24a1c5b681b26f0e2a">N886b0a0e1ee74f24a1c5b681b26f0e2a</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="N610c02c999d14dedbb2b7c26f0c62e44">N610c02c999d14dedbb2b7c26f0c62e44</a><sup class="sup-c" title="class">c</sup> or <a href="Nbca8ef7bb0d749589f509dbe1fbfa09e">Nbca8ef7bb0d749589f509dbe1fbfa09e</a><sup class="sup-c" title="class">c</sup>)<br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/hasLatticeVolume">hasLatticeVolume</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasLatticeType">hasLatticeType</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -525,7 +557,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>LengthTriple consists of three bases of a unit cell.</p>
+                    <p>A length triple consists of three bases of a unit cell.</p>
                 </td>
             </tr>
             <tr>
@@ -540,14 +572,49 @@
                 <th>In domain of</th>
                 <td>
                     <a href="https://w3id.org/mdo/structure/hasLength_a">hasLength_a</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/structure/hasLength_c">hasLength_c</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/structure/hasLength_b">hasLength_b</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasLength_c">hasLength_c</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
                     <a href="https://w3id.org/mdo/structure/hasLengthVector">hasLengthVector</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Occupancy">
+        <h3>Occupancy<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/Occupancy</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>An occupancy ties a specific species to a site.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    (<a href="Neb90fbe7a2324c03a2f217d75ee15ba6">Neb90fbe7a2324c03a2f217d75ee15ba6</a><sup class="sup-c" title="class">c</sup> and <a href="N9f2f30b82a1e4dccab95b3ae1b2f1c11">N9f2f30b82a1e4dccab95b3ae1b2f1c11</a><sup class="sup-c" title="class">c</sup> and <a href="N94467437fff04dec9f36901ee70c1474">N94467437fff04dec9f36901ee70c1474</a><sup class="sup-c" title="class">c</sup> and <a href="Nd8ae3d6f92d241478eb009369dcbf3a1">Nd8ae3d6f92d241478eb009369dcbf3a1</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="Neb90fbe7a2324c03a2f217d75ee15ba6">Neb90fbe7a2324c03a2f217d75ee15ba6</a><sup class="sup-c" title="class">c</sup> and <a href="N9f2f30b82a1e4dccab95b3ae1b2f1c11">N9f2f30b82a1e4dccab95b3ae1b2f1c11</a><sup class="sup-c" title="class">c</sup> and <a href="N94467437fff04dec9f36901ee70c1474">N94467437fff04dec9f36901ee70c1474</a><sup class="sup-c" title="class">c</sup> and <a href="Nd8ae3d6f92d241478eb009369dcbf3a1">Nd8ae3d6f92d241478eb009369dcbf3a1</a><sup class="sup-c" title="class">c</sup>)<br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/hasSpecies">hasSpecies</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasSite">hasSite</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/hasOccupancy">hasOccupancy</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -595,19 +662,21 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Each point in a lattice is a site.</p>
+                    <p>A site is a point in a lattice.</p>
                 </td>
             </tr>
             <tr>
-                <th>Restrictions</th>
+                <th>Super-classes</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasSpecies">hasSpecies</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/mdo/structure/Species">Species</a><sup class="sup-c" title="class">c</sup><br/>
+                    (<a href="Nf30543b430ba44ee88a99fbc54c6552d">Nf30543b430ba44ee88a99fbc54c6552d</a><sup class="sup-c" title="class">c</sup> and <a href="Na963cebb040847b19937074c21b6793b">Na963cebb040847b19937074c21b6793b</a><sup class="sup-c" title="class">c</sup> and <a href="N25c8337f508245278aab43dc17a41824">N25c8337f508245278aab43dc17a41824</a><sup class="sup-c" title="class">c</sup> and <a href="N4719182c0bb0458897ea67193bf7caa4">N4719182c0bb0458897ea67193bf7caa4</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="Nf30543b430ba44ee88a99fbc54c6552d">Nf30543b430ba44ee88a99fbc54c6552d</a><sup class="sup-c" title="class">c</sup> and <a href="Na963cebb040847b19937074c21b6793b">Na963cebb040847b19937074c21b6793b</a><sup class="sup-c" title="class">c</sup> and <a href="N25c8337f508245278aab43dc17a41824">N25c8337f508245278aab43dc17a41824</a><sup class="sup-c" title="class">c</sup> and <a href="N4719182c0bb0458897ea67193bf7caa4">N4719182c0bb0458897ea67193bf7caa4</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasSpecies">hasSpecies</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasCartesianCoordinates">hasCartesianCoordinates</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasFractionalCoordinates">hasFractionalCoordinates</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -628,21 +697,28 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>The symmetry group of a three-dimensional crystal pattern is called its space group.</p>
+                    <p>A space group is the symmetry group of a three-dimensional crystal pattern is called its space group.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    (<a href="Nbff7c3e97657490db374386b717ff074">Nbff7c3e97657490db374386b717ff074</a><sup class="sup-c" title="class">c</sup> and <a href="N15c602fb254f4daeb8446708a2b8b870">N15c602fb254f4daeb8446708a2b8b870</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasPointGroup">hasPointGroup</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/mdo/structure/PointGroup">PointGroup</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/mdo/structure/hasSpaceGroupSymbol">hasSpaceGroupSymbol</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/mdo/structure/hasSpaceGroupID">hasSpaceGroupID</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasSpaceGroupSymbol">hasSpaceGroupSymbol</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/structure/hasSpaceGroupID">hasSpaceGroupID</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasSpaceGroupSymbol">hasSpaceGroupSymbol</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasPointGroup">hasPointGroup</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -663,20 +739,21 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>Species is the combination of atoms on each site.</p>
+                    <p>A species is the combination of atoms on each site.</p>
                 </td>
             </tr>
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasOxidationState">hasOxidationState</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/mdo/structure/hasElement">hasElement</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="http://purl.obolibrary.org/obo/CHEBI_33250">obo:CHEBI_33250</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/hasElement">hasElement</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/mdo/structure/hasOxidationState">hasOxidationState</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasElement">hasElement</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/structure/hasElementRatio">hasElementRatio</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -694,10 +771,13 @@
         <li><a href="#hasAngleVector">hasAngleVector</a></li>
         <li><a href="#hasAxisVectors">hasAxisVectors</a></li>
         <li><a href="#hasBasis">hasBasis</a></li>
+        <li><a href="#hasCartesianCoordinates">hasCartesianCoordinates</a></li>
         <li><a href="#hasComposition">hasComposition</a></li>
         <li><a href="#hasElement">hasElement</a></li>
+        <li><a href="#hasFractionalCoordinates">hasFractionalCoordinates</a></li>
         <li><a href="#hasLattice">hasLattice</a></li>
         <li><a href="#hasLengthVector">hasLengthVector</a></li>
+        <li><a href="#hasOccupancy">hasOccupancy</a></li>
         <li><a href="#hasPointGroup">hasPointGroup</a></li>
         <li><a href="#hasSite">hasSite</a></li>
         <li><a href="#hasSpaceGroup">hasSpaceGroup</a></li>
@@ -784,6 +864,33 @@
             </tr>
         </table>
     </div>
+    <div class="entity property" id="hasCartesianCoordinates">
+        <h3>hasCartesianCoordinates<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/hasCartesianCoordinates</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent cartesian coordinates of a site.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/Site">Site</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/CoordinateVector">CoordinateVector</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity property" id="hasComposition">
         <h3>hasComposition<sup title="object property" class="sup-op">op</sup></h3>
         <table>
@@ -834,6 +941,33 @@
                 <th>Range(s)</th>
                 <td>
                     <a href="http://purl.obolibrary.org/obo/CHEBI_33250">obo:CHEBI_33250</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasFractionalCoordinates">
+        <h3>hasFractionalCoordinates<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/hasFractionalCoordinates</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent fractional coordinates of a site.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/Site">Site</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/CoordinateVector">CoordinateVector</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -892,6 +1026,33 @@
             </tr>
         </table>
     </div>
+    <div class="entity property" id="hasOccupancy">
+        <h3>hasOccupancy<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/hasOccupancy</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent a structure have an occupancy.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Structure">core:Structure</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/Occupancy">Occupancy</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity property" id="hasPointGroup">
         <h3>hasPointGroup<sup title="object property" class="sup-op">op</sup></h3>
         <table>
@@ -908,7 +1069,7 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    (<a href="https://w3id.org/mdo/structure/Lattice">Lattice</a><sup class="sup-c" title="class">c</sup> or <a href="https://w3id.org/mdo/structure/SpaceGroup">SpaceGroup</a><sup class="sup-c" title="class">c</sup>)
+                    <a href="https://w3id.org/mdo/structure/SpaceGroup">SpaceGroup</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
@@ -935,7 +1096,7 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/Structure">core:Structure</a><sup class="sup-c" title="class">c</sup>
+                    <a href="https://w3id.org/mdo/structure/Occupancy">Occupancy</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
@@ -989,7 +1150,7 @@
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="https://w3id.org/mdo/structure/Site">Site</a><sup class="sup-c" title="class">c</sup>
+                    <a href="https://w3id.org/mdo/structure/Occupancy">Occupancy</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
@@ -1005,16 +1166,16 @@
 <section id="datatypeproperties">
     <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
+        <li><a href="#formula">formula</a></li>
         <li><a href="#hasAngle_alpha">hasAngle_alpha</a></li>
         <li><a href="#hasAngle_beta">hasAngle_beta</a></li>
         <li><a href="#hasAngle_gamma">hasAngle_gamma</a></li>
         <li><a href="#hasAnonymousFormula">hasAnonymousFormula</a></li>
-        <li><a href="#hasAtomicMass">hasAtomicMass</a></li>
-        <li><a href="#hasAtomicNumber">hasAtomicNumber</a></li>
-        <li><a href="#hasAtomicSymbol">hasAtomicSymbol</a></li>
         <li><a href="#hasDescriptiveFormula">hasDescriptiveFormula</a></li>
-        <li><a href="#hasFullAtomicName">hasFullAtomicName</a></li>
+        <li><a href="#hasElementRatio">hasElementRatio</a></li>
         <li><a href="#hasHillFormula">hasHillFormula</a></li>
+        <li><a href="#hasLatticeType">hasLatticeType</a></li>
+        <li><a href="#hasLatticeVolume">hasLatticeVolume</a></li>
         <li><a href="#hasLength_a">hasLength_a</a></li>
         <li><a href="#hasLength_b">hasLength_b</a></li>
         <li><a href="#hasLength_c">hasLength_c</a></li>
@@ -1023,10 +1184,28 @@
         <li><a href="#hasReducedFormula">hasReducedFormula</a></li>
         <li><a href="#hasSpaceGroupID">hasSpaceGroupID</a></li>
         <li><a href="#hasSpaceGroupSymbol">hasSpaceGroupSymbol</a></li>
+        <li><a href="#hasX_axisCoordinate">hasX_axisCoordinate</a></li>
         <li><a href="#hasX_axisVector">hasX_axisVector</a></li>
+        <li><a href="#hasY_axisCoordinate">hasY_axisCoordinate</a></li>
         <li><a href="#hasY_axisVector">hasY_axisVector</a></li>
+        <li><a href="#hasZ_axisCoordinate">hasZ_axisCoordinate</a></li>
         <li><a href="#hasZ_axisVector">hasZ_axisVector</a></li>
     </ul>
+    <div class="entity property" id="formula">
+        <h3>formula<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.obolibrary.org/obo/chebi/formula</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the formula of an atom.
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity property" id="hasAngle_alpha">
         <h3>hasAngle_alpha<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
@@ -1135,81 +1314,6 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasAtomicMass">
-        <h3>hasAtomicMass<sup title="datatype property" class="sup-dp">dp</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/structure/hasAtomicMass</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    The atomic mass of an element.
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="http://purl.obolibrary.org/obo/CHEBI_33250">obo:CHEBI_33250</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="http://www.w3.org/2001/XMLSchema#float">xsd:float</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="hasAtomicNumber">
-        <h3>hasAtomicNumber<sup title="datatype property" class="sup-dp">dp</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/structure/hasAtomicNumber</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    The atomic number of an element.
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="http://purl.obolibrary.org/obo/CHEBI_33250">obo:CHEBI_33250</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="hasAtomicSymbol">
-        <h3>hasAtomicSymbol<sup title="datatype property" class="sup-dp">dp</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/structure/hasAtomicSymbol</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    The atomic symbol of an element.
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="http://purl.obolibrary.org/obo/CHEBI_33250">obo:CHEBI_33250</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-        </table>
-    </div>
     <div class="entity property" id="hasDescriptiveFormula">
         <h3>hasDescriptiveFormula<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
@@ -1237,29 +1341,29 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasFullAtomicName">
-        <h3>hasFullAtomicName<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="hasElementRatio">
+        <h3>hasElementRatio<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/structure/hasFullAtomicName</code></td>
+                <td><code>https://w3id.org/mdo/structure/hasElementRatio</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    The full atomic name of an element.
+                    To reoresent the occupancy of a element from a species.
                 </td>
             </tr>
             <tr>
                 <th>Domain(s)</th>
                 <td>
-                    <a href="http://purl.obolibrary.org/obo/CHEBI_33250">obo:CHEBI_33250</a><sup class="sup-c" title="class">c</sup>
+                    <a href="https://w3id.org/mdo/structure/Species">Species</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
                 <td>
-                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                    <a href="http://www.w3.org/2001/XMLSchema#double">xsd:double</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -1287,6 +1391,60 @@
                 <th>Range(s)</th>
                 <td>
                     <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasLatticeType">
+        <h3>hasLatticeType<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/hasLatticeType</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the type of a lattice.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/Lattice">Lattice</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasLatticeVolume">
+        <h3>hasLatticeVolume<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/hasLatticeVolume</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the volume of a lattice.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/Lattice">Lattice</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#double">xsd:double</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -1507,6 +1665,33 @@
             </tr>
         </table>
     </div>
+    <div class="entity property" id="hasX_axisCoordinate">
+        <h3>hasX_axisCoordinate<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/hasX_axisCoordinate</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the coordinate in X axis.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/CoordinateVector">CoordinateVector</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#double">xsd:double</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity property" id="hasX_axisVector">
         <h3>hasX_axisVector<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
@@ -1534,6 +1719,33 @@
             </tr>
         </table>
     </div>
+    <div class="entity property" id="hasY_axisCoordinate">
+        <h3>hasY_axisCoordinate<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/hasY_axisCoordinate</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the coordinate in Y axis.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/CoordinateVector">CoordinateVector</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#double">xsd:double</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity property" id="hasY_axisVector">
         <h3>hasY_axisVector<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
@@ -1557,6 +1769,33 @@
                 <th>Range(s)</th>
                 <td>
                     <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">rdf:List</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasZ_axisCoordinate">
+        <h3>hasZ_axisCoordinate<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/structure/hasZ_axisCoordinate</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    To represent the coordinate in Z axis.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/structure/CoordinateVector">CoordinateVector</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#double">xsd:double</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -1670,37 +1909,7 @@
 <section id="namedindividuals">
     <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#test1">test1</a></li>
-        <li><a href="#test2">test2</a></li>
     </ul>
-    <div class="entity named_individual" id="test1">
-        <h3>test1<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td>
-                  <code>
-                      https://w3id.org/mdo/structure/test1
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity named_individual" id="test2">
-        <h3>test2<sup title="named individual" class="sup-ni">ni</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td>
-                  <code>
-                      https://w3id.org/mdo/structure/test2
-                  
-                  </code>
-                </td>
-            </tr>
-        </table>
-    </div>
 </section>
 
 <section id="namespaces">
