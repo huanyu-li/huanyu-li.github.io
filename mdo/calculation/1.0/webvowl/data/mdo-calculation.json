@@ -4,7 +4,6 @@
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/mdo/core", "http://emmo.info/domains/emmo-material.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/mdo/calculation" ],
     "prefixList" : {
-      "calculation" : "https://w3id.org/mdo/calculation/",
       "owl" : "http://www.w3.org/2002/07/owl#",
       "emmo" : "http://emmo.info/domains/emmo-material.owl#",
       "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -14,7 +13,6 @@
       "" : "https://w3id.org/mdo/core/",
       "xml" : "http://www.w3.org/XML/1998/namespace",
       "core" : "https://w3id.org/mdo/core/",
-      "obo" : "http://purl.obolibrary.org/obo/",
       "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
     },
     "title" : {
