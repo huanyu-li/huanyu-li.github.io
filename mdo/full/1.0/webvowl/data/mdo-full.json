@@ -10,7 +10,6 @@
       "terms" : "http://purl.org/dc/terms/",
       "dcterms" : "http://purl.org/dc/terms/",
       "xsd" : "http://www.w3.org/2001/XMLSchema#",
-      "obo" : "http://purl.obolibrary.org/obo/",
       "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
       "structure" : "https://w3id.org/mdo/structure/",
       "emmo" : "http://emmo.info/domains/emmo-material.owl#",
