@@ -59,16 +59,16 @@
         "value" : "core",
         "type" : "label"
       } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "1.0",
-        "type" : "label"
-      } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/mdo/core/1.0",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
         "type" : "label"
       } ],
       "title" : [ {
@@ -99,20 +99,17 @@
     "id" : "9",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "11",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "12",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "14",
+    "id" : "13",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
-    "type" : "owl:unionOf"
+    "id" : "11",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "8",
     "type" : "owl:Class"
@@ -145,14 +142,6 @@
     "iri" : "https://w3id.org/mdo/core/Property",
     "baseIri" : "https://w3id.org/mdo/core",
     "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "https://en.wikipedia.org/wiki/List_of_materials_properties",
-        "type" : "label"
-      } ]
-    },
     "label" : {
       "IRI-based" : "Property"
     },
@@ -169,13 +158,6 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "11",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "12",
@@ -185,7 +167,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "14",
+    "id" : "13",
     "label" : {
       "IRI-based" : "string"
     }
@@ -201,19 +183,18 @@
     },
     "id" : "3"
   }, {
-    "instances" : 0,
-    "union" : [ "3", "0" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "21"
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
   }, {
     "iri" : "https://w3id.org/mdo/core/PhysicalProperty",
     "baseIri" : "https://w3id.org/mdo/core",
     "instances" : 0,
     "label" : {
       "IRI-based" : "PhysicalProperty"
-    },
-    "comment" : {
-      "en" : "Properties of structures or materials that are not influenced by calculations."
     },
     "id" : "8",
     "superClasses" : [ "4" ]
@@ -223,9 +204,6 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "CalculatedProperty"
-    },
-    "comment" : {
-      "en" : "Properties of structures or materials that are influenced by calculations."
     },
     "id" : "7",
     "superClasses" : [ "4" ]
@@ -243,7 +221,7 @@
     "id" : "10",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "13",
+    "id" : "14",
     "type" : "owl:objectProperty"
   }, {
     "id" : "15",
@@ -264,10 +242,10 @@
     "id" : "20",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "22",
+    "id" : "21",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "23",
+    "id" : "22",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
@@ -279,7 +257,7 @@
     },
     "domain" : "3",
     "comment" : {
-      "en" : "To represent a calculation takes a property as the input."
+      "en" : "hasInputProperty represents the relationship between a calculation and the properties it takes as input."
     },
     "attributes" : [ "object" ],
     "id" : "2"
@@ -292,7 +270,7 @@
     },
     "domain" : "3",
     "comment" : {
-      "en" : "To represent a calculation outputs a structure after computing."
+      "en" : "hasOutputStructure represents the relationship between a calculation and the structures it outputs."
     },
     "attributes" : [ "object" ],
     "id" : "5"
@@ -305,20 +283,20 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent a property relates to a structure."
+      "en" : "relatesToStructure represents the relationship between a property and the structures it comes from."
     },
     "attributes" : [ "object" ],
     "id" : "6"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasID",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "9",
+    "range" : "11",
     "label" : {
       "IRI-based" : "hasID"
     },
     "domain" : "3",
     "comment" : {
-      "en" : "To represent the unique ID of a calculation from a database."
+      "en" : "hasID represents that a calculation has the unique ID in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "10"
@@ -331,10 +309,10 @@
     },
     "domain" : "3",
     "comment" : {
-      "en" : "To represent a calculation takes a structure as the input."
+      "en" : "hasInputStructure represents the relationship between a calculation and the structures it takes as input."
     },
     "attributes" : [ "object" ],
-    "id" : "13"
+    "id" : "14"
   }, {
     "range" : "4",
     "domain" : "7",
@@ -354,33 +332,33 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent the numerical value of the property."
+      "en" : "hasPropertyValue represent that a property has the value in a double."
     },
     "attributes" : [ "datatype" ],
     "id" : "17"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasUnit",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "14",
+    "range" : "13",
     "label" : {
       "IRI-based" : "hasUnit"
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent the name of the unit."
+      "en" : "hasUnit represents that a property has the name of the unit in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "18"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasPropertyName",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "11",
+    "range" : "9",
     "label" : {
       "IRI-based" : "hasPropertyName"
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent the name of the property."
+      "en" : "hasPropertyName represents that a property has the name in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "19"
@@ -398,10 +376,10 @@
     },
     "domain" : "0",
     "comment" : {
-      "en" : "To represent a structure relates to a material."
+      "en" : "relatesToMaterial represents the relationship between a structure and the materials it comes from."
     },
     "attributes" : [ "object" ],
-    "id" : "22"
+    "id" : "21"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasOutputCalculatedProperty",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -409,11 +387,11 @@
     "label" : {
       "IRI-based" : "hasOutputCalculatedProperty"
     },
-    "domain" : "21",
+    "domain" : "3",
     "comment" : {
-      "en" : "To represent a calculation outputs a calculated property after computing."
+      "en" : "hasOutputCalculatedProperty represents the relationship between a calculation and the calculated properties it outputs."
     },
     "attributes" : [ "object" ],
-    "id" : "23"
+    "id" : "22"
   } ]
 }
