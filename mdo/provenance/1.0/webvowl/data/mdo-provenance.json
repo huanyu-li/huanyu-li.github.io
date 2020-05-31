@@ -90,22 +90,19 @@
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "10",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "15",
+    "id" : "17",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "18",
+    "id" : "16",
     "type" : "owl:Class"
   }, {
     "id" : "2",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "17",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
     "id" : "20",
@@ -150,7 +147,7 @@
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "14",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -172,23 +169,13 @@
     "label" : {
       "IRI-based" : "CalculatedProperty"
     },
-    "comment" : {
-      "en" : "Properties of structures or materials that are influenced by calculations."
-    },
     "attributes" : [ "external" ],
-    "id" : "10",
+    "id" : "12",
     "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "14",
-    "label" : {
-      "undefined" : "Thing"
-    }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "15",
+    "id" : "17",
     "label" : {
       "IRI-based" : "string"
     }
@@ -199,9 +186,9 @@
     "label" : {
       "IRI-based" : "Agent"
     },
-    "subClasses" : [ "1", "17" ],
+    "subClasses" : [ "1", "11" ],
     "attributes" : [ "external" ],
-    "id" : "18"
+    "id" : "16"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -216,12 +203,9 @@
     "label" : {
       "IRI-based" : "SoftwareAgent"
     },
-    "comment" : {
-      "en" : "A software agent is the representation of the software that produces the result of a material calculation."
-    },
     "attributes" : [ "external" ],
-    "id" : "17",
-    "superClasses" : [ "18" ]
+    "id" : "11",
+    "superClasses" : [ "16" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -262,18 +246,10 @@
     "iri" : "https://w3id.org/mdo/core/Property",
     "baseIri" : "https://w3id.org/mdo/core",
     "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "https://en.wikipedia.org/wiki/List_of_materials_properties",
-        "type" : "label"
-      } ]
-    },
     "label" : {
       "IRI-based" : "Property"
     },
-    "subClasses" : [ "10", "12" ],
+    "subClasses" : [ "12", "14" ],
     "comment" : {
       "en" : "A property in materials design is data pertaining to at least one material or materials system."
     },
@@ -281,7 +257,7 @@
     "id" : "4"
   }, {
     "instances" : 0,
-    "union" : [ "7", "5" ],
+    "union" : [ "5", "4" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "27"
   }, {
@@ -341,10 +317,10 @@
       "IRI-based" : "ReferenceAgent"
     },
     "comment" : {
-      "en" : "A reference agent is the representation of the reference that the material data refers to."
+      "en" : "A reference agent is the representation of the reference that the structure or property refer to."
     },
     "id" : "1",
-    "superClasses" : [ "18" ]
+    "superClasses" : [ "16" ]
   }, {
     "iri" : "https://w3id.org/mdo/core/PhysicalProperty",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -352,11 +328,8 @@
     "label" : {
       "IRI-based" : "PhysicalProperty"
     },
-    "comment" : {
-      "en" : "Properties of structures or materials that are not influenced by calculations."
-    },
     "attributes" : [ "external" ],
-    "id" : "12",
+    "id" : "14",
     "superClasses" : [ "4" ]
   } ],
   "property" : [ {
@@ -372,13 +345,16 @@
     "id" : "8",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "11",
-    "type" : "rdfs:SubClassOf"
+    "id" : "10",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "13",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "16",
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "19",
@@ -441,7 +417,7 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the title of the reference."
+      "en" : "hasPublicationTitle represents that a reference agent has the publication's title in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "0"
@@ -454,9 +430,9 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent a property relates to a structure."
+      "en" : "relatesToStructure represents the relationship between a property and the structures it comes from."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "3"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasInputStructure",
@@ -467,9 +443,9 @@
     },
     "domain" : "7",
     "comment" : {
-      "en" : "To represent a calculation takes a structure as the input."
+      "en" : "hasInputStructure represents the relationship between a calculation and the structures it takes as input."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "6"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasPropertyName",
@@ -480,28 +456,38 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent the name of the property."
+      "en" : "hasPropertyName represents that a property has the name in a string."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "8"
   }, {
-    "range" : "4",
-    "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "11"
+    "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "wasAssociatedWith"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "object" ],
+    "id" : "10"
   }, {
     "range" : "4",
-    "domain" : "10",
+    "domain" : "14",
     "attributes" : [ "anonymous", "object" ],
     "id" : "13"
   }, {
-    "range" : "18",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "16"
-  }, {
-    "range" : "18",
+    "range" : "16",
     "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "4",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "16",
+    "domain" : "11",
     "attributes" : [ "anonymous", "object" ],
     "id" : "19"
   }, {
@@ -513,9 +499,9 @@
     },
     "domain" : "7",
     "comment" : {
-      "en" : "To represent a calculation takes a property as the input."
+      "en" : "hasInputProperty represents the relationship between a calculation and the properties it takes as input."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "23"
   }, {
     "iri" : "https://w3id.org/mdo/provenance/hasAuthorName",
@@ -526,7 +512,7 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the author's name of the reference."
+      "en" : "hasAuthorName represents that a reference agent has the author's name in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "24"
@@ -539,9 +525,9 @@
     },
     "domain" : "7",
     "comment" : {
-      "en" : "To represent a calculation outputs a structure after computing."
+      "en" : "hasOutputStructure represents the relationship between a calculation and the structures it outputs."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "26"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasID",
@@ -552,7 +538,7 @@
     },
     "domain" : "7",
     "comment" : {
-      "en" : "To represent the unique ID of a calculation from a database."
+      "en" : "hasID represents that a calculation has the unique ID in a string."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "28"
@@ -565,7 +551,7 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the publication datetime of the reference."
+      "en" : "hasPublicationDateTime represents that a reference agent has the date time in a dateTime."
     },
     "attributes" : [ "datatype" ],
     "id" : "30"
@@ -578,7 +564,7 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent the numerical value of the property."
+      "en" : "hasPropertyValue represent that a property has the value in a double."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "34"
@@ -591,7 +577,7 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent the name of the unit."
+      "en" : "hasUnit represents that a property has the name of the unit in a string."
     },
     "attributes" : [ "external", "datatype" ],
     "id" : "36"
@@ -604,34 +590,34 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the DOI number of the reference."
+      "en" : "hasDOI represents that a reference agent has the DOI in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "37"
   }, {
-    "range" : "12",
-    "domain" : "10",
+    "range" : "14",
+    "domain" : "12",
     "attributes" : [ "anonymous", "object" ],
     "id" : "38"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
     "baseIri" : "http://www.w3.org/ns/prov",
-    "range" : "17",
+    "range" : "11",
     "label" : {
       "IRI-based" : "wasAssociatedWith"
     },
     "domain" : "7",
-    "attributes" : [ "someValues", "object", "external" ],
+    "attributes" : [ "someValues", "external", "object" ],
     "id" : "39"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
     "baseIri" : "http://www.w3.org/ns/prov",
-    "range" : "14",
+    "range" : "1",
     "label" : {
       "IRI-based" : "wasAttributedTo"
     },
-    "domain" : "14",
-    "attributes" : [ "object", "external" ],
+    "domain" : "27",
+    "attributes" : [ "external", "object" ],
     "id" : "40"
   }, {
     "iri" : "https://w3id.org/mdo/core/relatesToMaterial",
@@ -642,9 +628,9 @@
     },
     "domain" : "5",
     "comment" : {
-      "en" : "To represent a structure relates to a material."
+      "en" : "relatesToMaterial represents the relationship between a structure and the materials it comes from."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "41"
   }, {
     "iri" : "https://w3id.org/mdo/provenance/hasSoftwareName",
@@ -654,37 +640,37 @@
       "IRI-based" : "hasSoftwareName"
     },
     "cardinality" : "1",
-    "domain" : "17",
+    "domain" : "11",
     "comment" : {
-      "en" : "To respresent the software's name."
+      "en" : "hasSoftwareName represents that a software agent has the name in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "42"
   }, {
     "iri" : "https://w3id.org/mdo/provenance/hasURL",
     "baseIri" : "https://w3id.org/mdo/provenance",
-    "range" : "15",
+    "range" : "17",
     "label" : {
       "IRI-based" : "hasURL"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the URL of a reference."
+      "en" : "hasURL represents that a reference agent has the URL in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "43"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasOutputCalculatedProperty",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "10",
+    "range" : "12",
     "label" : {
       "IRI-based" : "hasOutputCalculatedProperty"
     },
-    "domain" : "27",
+    "domain" : "7",
     "comment" : {
-      "en" : "To represent a calculation outputs a calculated property after computing."
+      "en" : "hasOutputCalculatedProperty represents the relationship between a calculation and the calculated properties it outputs."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "44"
   }, {
     "iri" : "https://w3id.org/mdo/provenance/hasDatabaseName",
@@ -695,7 +681,7 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the database's name."
+      "en" : "hasDatabaseName represents that a reference agent has the database's name in a string."
     },
     "attributes" : [ "datatype" ],
     "id" : "45"

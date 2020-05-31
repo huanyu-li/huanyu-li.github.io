@@ -294,12 +294,6 @@
                 <td><code>http://www.w3.org/ns/prov#SoftwareAgent</code></td>
             </tr>
             <tr>
-                <th>Description</th>
-                <td>
-                    <p>A software agent is the representation of the software that produces the result of a material calculation.</p>
-                </td>
-            </tr>
-            <tr>
                 <th>Super-classes</th>
                 <td>
                     <a href="http://www.w3.org/ns/prov#Agent">prov:Agent</a><sup class="sup-c" title="class">c</sup><br/>
@@ -317,6 +311,12 @@
                     <a href="https://w3id.org/mdo/provenance/hasSoftwareName">hasSoftwareName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="http://www.w3.org/ns/prov#wasAssociatedWith">prov:wasAssociatedWith</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
         </table>
     </div>
     <div class="entity class" id="Calculation">
@@ -332,6 +332,12 @@
                     <a href="http://www.w3.org/ns/prov#wasAssociatedWith">prov:wasAssociatedWith</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="http://www.w3.org/ns/prov#SoftwareAgent">prov:SoftwareAgent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="http://www.w3.org/ns/prov#wasAssociatedWith">prov:wasAssociatedWith</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
         </table>
     </div>
     <div class="entity class" id="ReferenceAgent">
@@ -344,7 +350,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    <p>A reference agent is the representation of the reference that the material data refers to.</p>
+                    <p>A reference agent is the representation of the reference that the structure or property refer to.</p>
                 </td>
             </tr>
             <tr>
@@ -356,12 +362,18 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/provenance/hasDatabaseName">hasDatabaseName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/provenance/hasURL">hasURL</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/provenance/hasAuthorName">hasAuthorName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/provenance/hasDOI">hasDOI</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/hasAuthorName">hasAuthorName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/provenance/hasPublicationDateTime">hasPublicationDateTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/provenance/hasPublicationTitle">hasPublicationTitle</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/hasDatabaseName">hasDatabaseName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/hasURL">hasURL</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="http://www.w3.org/ns/prov#wasAttributedTo">prov:wasAttributedTo</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -380,6 +392,18 @@
                 <th>IRI</th>
                 <td><code>http://www.w3.org/ns/prov#wasAssociatedWith</code></td>
             </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Calculation">https://w3id.org/mdo/core/Calculation</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/ns/prov#SoftwareAgent">prov:SoftwareAgent</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
         </table>
     </div>
     <div class="entity property" id="wasAttributedTo">
@@ -388,6 +412,18 @@
             <tr>
                 <th>IRI</th>
                 <td><code>http://www.w3.org/ns/prov#wasAttributedTo</code></td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    (<a href="https://w3id.org/mdo/core/Property">https://w3id.org/mdo/core/Property</a><sup class="sup-c" title="class">c</sup> or <a href="https://w3id.org/mdo/core/Structure">https://w3id.org/mdo/core/Structure</a><sup class="sup-c" title="class">c</sup>)
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/provenance/ReferenceAgent">ReferenceAgent</a><sup class="sup-c" title="class">c</sup>
+                </td>
             </tr>
         </table>
     </div>
@@ -414,7 +450,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent the author's name of the reference.
+                    hasAuthorName represents that a reference agent has the author's name in a string.
                 </td>
             </tr>
             <tr>
@@ -441,7 +477,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent the DOI number of the reference.
+                    hasDOI represents that a reference agent has the DOI in a string.
                 </td>
             </tr>
             <tr>
@@ -468,7 +504,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent the database's name.
+                    hasDatabaseName represents that a reference agent has the database's name in a string.
                 </td>
             </tr>
             <tr>
@@ -495,7 +531,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent the publication datetime of the reference.
+                    hasPublicationDateTime represents that a reference agent has the date time in a dateTime.
                 </td>
             </tr>
             <tr>
@@ -522,7 +558,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent the title of the reference.
+                    hasPublicationTitle represents that a reference agent has the publication's title in a string.
                 </td>
             </tr>
             <tr>
@@ -549,7 +585,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    To respresent the software's name.
+                    hasSoftwareName represents that a software agent has the name in a string.
                 </td>
             </tr>
             <tr>
@@ -576,7 +612,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    To represent the URL of a reference.
+                    hasURL represents that a reference agent has the URL in a string.
                 </td>
             </tr>
             <tr>
