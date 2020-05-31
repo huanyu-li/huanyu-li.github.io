@@ -40,12 +40,12 @@
       "contributor" : [ {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Rickard Armiento",
+        "value" : "Patrick Lambrix",
         "type" : "label"
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Patrick Lambrix",
+        "value" : "Rickard Armiento",
         "type" : "label"
       } ],
       "created" : [ {
@@ -109,40 +109,37 @@
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
+    "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "30",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "34",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "36",
+    "id" : "33",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "6",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "38",
+    "id" : "35",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "29",
+    "id" : "28",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "39",
+    "id" : "37",
     "type" : "rdfs:Datatype"
-  }, {
-    "id" : "16",
-    "type" : "owl:Class"
-  }, {
-    "id" : "46",
-    "type" : "owl:unionOf"
   }, {
     "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
     "type" : "owl:Class"
   }, {
     "id" : "12",
@@ -154,7 +151,7 @@
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "33",
+    "id" : "32",
     "type" : "owl:Class"
   }, {
     "id" : "17",
@@ -231,9 +228,6 @@
     "label" : {
       "IRI-based" : "CalculatedProperty"
     },
-    "comment" : {
-      "en" : "Properties of structures or materials that are influenced by calculations."
-    },
     "attributes" : [ "external" ],
     "id" : "13",
     "superClasses" : [ "1" ]
@@ -256,7 +250,7 @@
     "label" : {
       "IRI-based" : "metaGeneralizedGradientApproximation"
     },
-    "id" : "24",
+    "id" : "16",
     "superClasses" : [ "17" ]
   }, {
     "iri" : "http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
@@ -267,23 +261,15 @@
       "undefined" : "Material"
     },
     "attributes" : [ "external" ],
-    "id" : "30"
+    "id" : "29"
   }, {
     "iri" : "https://w3id.org/mdo/core/Property",
     "baseIri" : "https://w3id.org/mdo/core",
     "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "https://en.wikipedia.org/wiki/List_of_materials_properties",
-        "type" : "label"
-      } ]
-    },
     "label" : {
       "IRI-based" : "Property"
     },
-    "subClasses" : [ "13", "33" ],
+    "subClasses" : [ "13", "32" ],
     "comment" : {
       "en" : "A property in materials design is data pertaining to at least one material or materials system."
     },
@@ -292,14 +278,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "34",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "36",
+    "id" : "33",
     "label" : {
       "IRI-based" : "string"
     }
@@ -313,21 +292,21 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "38",
+    "id" : "35",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "29",
+    "id" : "28",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "39",
+    "id" : "37",
     "label" : {
       "IRI-based" : "string"
     }
@@ -338,13 +317,15 @@
     "label" : {
       "IRI-based" : "GeneralizedGradientApproximation"
     },
-    "id" : "16",
+    "id" : "20",
     "superClasses" : [ "17" ]
   }, {
-    "instances" : 0,
-    "union" : [ "4", "2" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "46"
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
   }, {
     "iri" : "https://w3id.org/mdo/calculation/HybridGeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
@@ -352,7 +333,7 @@
     "label" : {
       "IRI-based" : "HybridGeneralizedGradientApproximation"
     },
-    "id" : "20",
+    "id" : "25",
     "superClasses" : [ "12" ]
   }, {
     "iri" : "https://w3id.org/mdo/calculation/HybridFunctional",
@@ -361,7 +342,7 @@
     "label" : {
       "IRI-based" : "HybridFunctional"
     },
-    "subClasses" : [ "11", "20" ],
+    "subClasses" : [ "11", "25" ],
     "id" : "12",
     "superClasses" : [ "17" ]
   }, {
@@ -380,7 +361,7 @@
       "IRI-based" : "DensityFunctionalTheoryMethod"
     },
     "comment" : {
-      "en" : "The density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure."
+      "en" : "Density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure."
     },
     "id" : "8",
     "superClasses" : [ "7" ]
@@ -400,11 +381,8 @@
     "label" : {
       "IRI-based" : "PhysicalProperty"
     },
-    "comment" : {
-      "en" : "Properties of structures or materials that are not influenced by calculations."
-    },
     "attributes" : [ "external" ],
-    "id" : "33",
+    "id" : "32",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/mdo/calculation/ExchangeCorrelationEnergyFunctional",
@@ -421,7 +399,7 @@
     "label" : {
       "IRI-based" : "ExchangeCorrelationEnergyFunctional"
     },
-    "subClasses" : [ "12", "24", "22", "16" ],
+    "subClasses" : [ "12", "16", "22", "20" ],
     "id" : "17"
   } ],
   "property" : [ {
@@ -452,55 +430,55 @@
     "id" : "23",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "25",
+    "id" : "24",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "26",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "27",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "28",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "31",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "32",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "35",
+    "id" : "34",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "37",
+    "id" : "36",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "40",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "41",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "42",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "43",
+    "id" : "42",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "44",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "45",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "47",
+    "id" : "46",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "48",
+    "id" : "47",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "49",
+    "id" : "48",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
@@ -512,9 +490,9 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent a property relates to a structure."
+      "en" : "relatesToStructure represents the relationship between a property and the structures it comes from."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "0"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasInputStructure",
@@ -525,9 +503,9 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent a calculation takes a structure as the input."
+      "en" : "hasInputStructure represents the relationship between a calculation and the structures it takes as input."
     },
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "3"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasPropertyName",
@@ -538,7 +516,7 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the name of the property."
+      "en" : "hasPropertyName represents that a property has the name in a string."
     },
     "attributes" : [ "datatype", "external" ],
     "id" : "5"
@@ -551,7 +529,7 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "A calculation belongs to a specific Computational Method."
+      "en" : "hasComputationalMethod represents the relationship between a calculation and a computational method it uses."
     },
     "attributes" : [ "object" ],
     "id" : "14"
@@ -566,7 +544,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
-    "range" : "12",
+    "range" : "17",
     "domain" : "20",
     "attributes" : [ "object", "anonymous" ],
     "id" : "19"
@@ -576,38 +554,33 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "21"
   }, {
-    "range" : "17",
-    "domain" : "24",
+    "range" : "7",
+    "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
     "id" : "23"
   }, {
-    "range" : "7",
-    "domain" : "8",
+    "range" : "12",
+    "domain" : "25",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "25"
+    "id" : "24"
   }, {
     "range" : "12",
     "domain" : "11",
     "attributes" : [ "object", "anonymous" ],
     "id" : "26"
   }, {
-    "range" : "7",
-    "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "27"
-  }, {
     "iri" : "https://w3id.org/mdo/calculation/hasParameterValue",
     "baseIri" : "https://w3id.org/mdo/calculation",
-    "range" : "29",
+    "range" : "28",
     "label" : {
       "IRI-based" : "hasParameterValue"
     },
     "domain" : "10",
     "comment" : {
-      "en" : "To represent the value of a parameter"
+      "en" : "hasParameterName represents that a computational method parameter has the value in a string."
     },
     "attributes" : [ "datatype" ],
-    "id" : "28"
+    "id" : "27"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasInputProperty",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -617,10 +590,10 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent a calculation takes a property as the input."
+      "en" : "hasInputProperty represents the relationship between a calculation and the properties it takes as input."
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "31"
+    "attributes" : [ "external", "object" ],
+    "id" : "30"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasOutputStructure",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -630,23 +603,23 @@
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent a calculation outputs a structure after computing."
+      "en" : "hasOutputStructure represents the relationship between a calculation and the structures it outputs."
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "32"
+    "attributes" : [ "external", "object" ],
+    "id" : "31"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasID",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "36",
+    "range" : "33",
     "label" : {
       "IRI-based" : "hasID"
     },
     "domain" : "4",
     "comment" : {
-      "en" : "To represent the unique ID of a calculation from a database."
+      "en" : "hasID represents that a calculation has the unique ID in a string."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "35"
+    "id" : "34"
   }, {
     "iri" : "https://w3id.org/mdo/calculation/hasXCFunctional",
     "baseIri" : "https://w3id.org/mdo/calculation",
@@ -656,46 +629,51 @@
     },
     "domain" : "8",
     "comment" : {
-      "en" : "A density functional theory method uses a specific functional to calculate exchange correlation energy."
+      "en" : "hasXCFunctional represents the relationship between a density functional theory method and the exchange-correlation energy functionals it takes."
     },
     "attributes" : [ "object" ],
-    "id" : "37"
+    "id" : "36"
   }, {
     "range" : "1",
     "domain" : "13",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "40"
+    "id" : "38"
+  }, {
+    "range" : "1",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasPropertyValue",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "38",
+    "range" : "35",
     "label" : {
       "IRI-based" : "hasPropertyValue"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the numerical value of the property."
+      "en" : "hasPropertyValue represent that a property has the value in a double."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "41"
+    "id" : "40"
   }, {
-    "range" : "1",
-    "domain" : "33",
+    "range" : "7",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "42"
+    "id" : "41"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasUnit",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "39",
+    "range" : "37",
     "label" : {
       "IRI-based" : "hasUnit"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "To represent the name of the unit."
+      "en" : "hasUnit represents that a property has the name of the unit in a string."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "43"
+    "id" : "42"
   }, {
     "iri" : "https://w3id.org/mdo/calculation/hasParameter",
     "baseIri" : "https://w3id.org/mdo/calculation",
@@ -705,41 +683,41 @@
     },
     "domain" : "7",
     "comment" : {
-      "en" : "To represent the parameters of a computational method."
+      "en" : "hasParameters represents the relationship between a calculation and the parameters it has."
     },
     "attributes" : [ "object" ],
-    "id" : "44"
+    "id" : "43"
   }, {
-    "range" : "33",
+    "range" : "32",
     "domain" : "13",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "45"
+    "id" : "44"
   }, {
     "iri" : "https://w3id.org/mdo/core/relatesToMaterial",
     "baseIri" : "https://w3id.org/mdo/core",
-    "range" : "30",
+    "range" : "29",
     "label" : {
       "IRI-based" : "relatesToMaterial"
     },
     "domain" : "2",
     "comment" : {
-      "en" : "To represent a structure relates to a material."
+      "en" : "relatesToMaterial represents the relationship between a structure and the materials it comes from."
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "47"
+    "attributes" : [ "external", "object" ],
+    "id" : "46"
   }, {
     "iri" : "https://w3id.org/mdo/calculation/hasParameterName",
     "baseIri" : "https://w3id.org/mdo/calculation",
-    "range" : "34",
+    "range" : "45",
     "label" : {
       "IRI-based" : "hasParameterName"
     },
     "domain" : "10",
     "comment" : {
-      "en" : "To represent the name of a parameter."
+      "en" : "hasParameterName represents that a computational method parameter has the name in a string."
     },
     "attributes" : [ "datatype" ],
-    "id" : "48"
+    "id" : "47"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasOutputCalculatedProperty",
     "baseIri" : "https://w3id.org/mdo/core",
@@ -747,11 +725,11 @@
     "label" : {
       "IRI-based" : "hasOutputCalculatedProperty"
     },
-    "domain" : "46",
+    "domain" : "4",
     "comment" : {
-      "en" : "To represent a calculation outputs a calculated property after computing."
+      "en" : "hasOutputCalculatedProperty represents the relationship between a calculation and the calculated properties it outputs."
     },
-    "attributes" : [ "object", "external" ],
-    "id" : "49"
+    "attributes" : [ "external", "object" ],
+    "id" : "48"
   } ]
 }
