@@ -411,7 +411,7 @@
       "IRI-based" : "ComputationalMethodParameter"
     },
     "comment" : {
-      "en" : "A computational method parameter is one of the parameter settings of the method used for calculation."
+      "en" : "A computational method parameter is a parameter used in a computational method."
     },
     "attributes" : [ "external" ],
     "id" : "35"
@@ -419,19 +419,11 @@
     "iri" : "https://w3id.org/mdo/calculation/HartreeFockMethod",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "https://en.wikipedia.org/wiki/Density_functional_theory",
-        "type" : "label"
-      } ]
-    },
     "label" : {
       "IRI-based" : "HartreeFockMethod"
     },
     "comment" : {
-      "en" : "HartreeFock method is a method to get the approximation of the determination of the wave functiona and the energy of system in a stationary state."
+      "en" : "A Hartree Fock method is a computational quantum mechanical modelling method used to investigate the electronic structure based on variational search over wave functions."
     },
     "attributes" : [ "external" ],
     "id" : "27",
@@ -461,7 +453,7 @@
       "IRI-based" : "LengthTriple"
     },
     "comment" : {
-      "en" : "A length triple consists of three parameters (a, b, c) that represent the lengths in three axes respectively."
+      "en" : "A length triple defines the three parameters (a, b, c) that represent the lengths in three axes respectively."
     },
     "attributes" : [ "external" ],
     "id" : "47"
@@ -594,6 +586,14 @@
     "iri" : "https://w3id.org/mdo/calculation/GeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "A GeneralizedGradientApproximation is a classification of exchange correlation energy functionals that only use the local value of the electronic density and its gradient.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "GeneralizedGradientApproximation"
     },
@@ -608,7 +608,7 @@
       "IRI-based" : "Lattice"
     },
     "comment" : {
-      "en" : "A lattice is a set of points abstracted from basis."
+      "en" : "A lattice defines a peroidic arrangement of one or more atoms."
     },
     "attributes" : [ "external" ],
     "id" : "43"
@@ -652,6 +652,9 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "PhysicalProperty"
+    },
+    "comment" : {
+      "en" : "A physical property is an objective property over a physical system. (ie, a property pertains to the physical reality)"
     },
     "attributes" : [ "external" ],
     "id" : "86",
@@ -727,7 +730,7 @@
       "IRI-based" : "Basis"
     },
     "comment" : {
-      "en" : "A basis can be described by basis's length vector a, b, c and the intervector angles alpha, beta and gamma."
+      "en" : "A basis defines a spatial unit used to express fractional coordinates."
     },
     "attributes" : [ "external" ],
     "id" : "111"
@@ -759,6 +762,14 @@
     "iri" : "https://w3id.org/mdo/calculation/HybridmetaGeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "A hybrid meta generalized gradient approximation is a classification of exchange correlation energy functionals that combine exact exchange from Hartree–Fock theory with meta generalized gradient approximation.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "HybridmetaGeneralizedGradientApproximation"
     },
@@ -796,6 +807,9 @@
     "label" : {
       "IRI-based" : "CalculatedProperty"
     },
+    "comment" : {
+      "en" : "A calculated property is a proprty that is a result from a calculation."
+    },
     "attributes" : [ "external" ],
     "id" : "78",
     "superClasses" : [ "11" ]
@@ -815,6 +829,14 @@
     "iri" : "https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "A metaGeneralizedGradientApproximation is a classification of exchange correlation energy functionals that only use the local value of the electronic density and its gradient and the Kohn–Sham orbital kinetic energy density.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "metaGeneralizedGradientApproximation"
     },
@@ -906,6 +928,14 @@
     "iri" : "https://w3id.org/mdo/calculation/HybridGeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "A hybrid generalized gradient approximation is a classification of exchange correlation energy functionals that combine exact exchange from Hartree–Fock theory with generalized gradient approximation.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "HybridGeneralizedGradientApproximation"
     },
@@ -920,6 +950,9 @@
       "IRI-based" : "HybridFunctional"
     },
     "subClasses" : [ "82", "59" ],
+    "comment" : {
+      "en" : "A hybrid functional is a classification of exchange correlation energy functionals that combine exact exchange from HartreeFock theory with another exchange correlation energy approximation."
+    },
     "attributes" : [ "external" ],
     "id" : "60",
     "superClasses" : [ "63" ]
@@ -927,19 +960,11 @@
     "iri" : "https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "https://en.wikipedia.org/wiki/Density_functional_theory",
-        "type" : "label"
-      } ]
-    },
     "label" : {
       "IRI-based" : "DensityFunctionalTheoryMethod"
     },
     "comment" : {
-      "en" : "Density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure."
+      "en" : "A DFT method is a computational quantum mechanical modelling method used to investigate the electronic structure based on optimization of the energy over electronic densities."
     },
     "attributes" : [ "external" ],
     "id" : "26",
@@ -948,6 +973,14 @@
     "iri" : "https://w3id.org/mdo/calculation/LocalDensityApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "An LDA is a classification of exchange correlation energy functionals that only use the local value of the electronic density.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "LocalDensityApproximation"
     },
@@ -986,7 +1019,7 @@
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "en",
-        "value" : "An ExchangeCorrelationEnergyFunctional is the function to compute Exchange Correlation Energy.",
+        "value" : "An ExchangeCorrelationEnergyFunctional is a functional to compute the exchange correlation energy.",
         "type" : "label"
       } ]
     },
