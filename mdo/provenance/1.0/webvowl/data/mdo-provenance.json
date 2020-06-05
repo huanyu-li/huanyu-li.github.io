@@ -169,6 +169,9 @@
     "label" : {
       "IRI-based" : "CalculatedProperty"
     },
+    "comment" : {
+      "en" : "A calculated property is a proprty that is a result from a calculation."
+    },
     "attributes" : [ "external" ],
     "id" : "12",
     "superClasses" : [ "4" ]
@@ -327,6 +330,9 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "PhysicalProperty"
+    },
+    "comment" : {
+      "en" : "A physical property is an objective property over a physical system. (ie, a property pertains to the physical reality)"
     },
     "attributes" : [ "external" ],
     "id" : "14",
