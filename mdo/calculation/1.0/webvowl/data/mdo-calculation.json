@@ -189,13 +189,21 @@
       "IRI-based" : "ComputationalMethodParameter"
     },
     "comment" : {
-      "en" : "A computational method parameter is one of the parameter settings of the method used for calculation."
+      "en" : "A computational method parameter is a parameter used in a computational method."
     },
     "id" : "10"
   }, {
     "iri" : "https://w3id.org/mdo/calculation/HybridmetaGeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "A hybrid meta generalized gradient approximation is a classification of exchange correlation energy functionals that combine exact exchange from Hartree–Fock theory with meta generalized gradient approximation.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "HybridmetaGeneralizedGradientApproximation"
     },
@@ -205,19 +213,11 @@
     "iri" : "https://w3id.org/mdo/calculation/HartreeFockMethod",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "https://en.wikipedia.org/wiki/Density_functional_theory",
-        "type" : "label"
-      } ]
-    },
     "label" : {
       "IRI-based" : "HartreeFockMethod"
     },
     "comment" : {
-      "en" : "HartreeFock method is a method to get the approximation of the determination of the wave functiona and the energy of system in a stationary state."
+      "en" : "A Hartree Fock method is a computational quantum mechanical modelling method used to investigate the electronic structure based on variational search over wave functions."
     },
     "id" : "9",
     "superClasses" : [ "7" ]
@@ -227,6 +227,9 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "CalculatedProperty"
+    },
+    "comment" : {
+      "en" : "A calculated property is a proprty that is a result from a calculation."
     },
     "attributes" : [ "external" ],
     "id" : "13",
@@ -247,6 +250,14 @@
     "iri" : "https://w3id.org/mdo/calculation/metaGeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "A metaGeneralizedGradientApproximation is a classification of exchange correlation energy functionals that only use the local value of the electronic density and its gradient and the Kohn–Sham orbital kinetic energy density.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "metaGeneralizedGradientApproximation"
     },
@@ -314,6 +325,14 @@
     "iri" : "https://w3id.org/mdo/calculation/GeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "A GeneralizedGradientApproximation is a classification of exchange correlation energy functionals that only use the local value of the electronic density and its gradient.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "GeneralizedGradientApproximation"
     },
@@ -330,6 +349,14 @@
     "iri" : "https://w3id.org/mdo/calculation/HybridGeneralizedGradientApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "A hybrid generalized gradient approximation is a classification of exchange correlation energy functionals that combine exact exchange from Hartree–Fock theory with generalized gradient approximation.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "HybridGeneralizedGradientApproximation"
     },
@@ -343,25 +370,20 @@
       "IRI-based" : "HybridFunctional"
     },
     "subClasses" : [ "11", "25" ],
+    "comment" : {
+      "en" : "A hybrid functional is a classification of exchange correlation energy functionals that combine exact exchange from HartreeFock theory with another exchange correlation energy approximation."
+    },
     "id" : "12",
     "superClasses" : [ "17" ]
   }, {
     "iri" : "https://w3id.org/mdo/calculation/DensityFunctionalTheoryMethod",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "https://en.wikipedia.org/wiki/Density_functional_theory",
-        "type" : "label"
-      } ]
-    },
     "label" : {
       "IRI-based" : "DensityFunctionalTheoryMethod"
     },
     "comment" : {
-      "en" : "Density functional theory is a computational quantum mechanical modelling method to investigate the electronic structure."
+      "en" : "A DFT method is a computational quantum mechanical modelling method used to investigate the electronic structure based on optimization of the energy over electronic densities."
     },
     "id" : "8",
     "superClasses" : [ "7" ]
@@ -369,6 +391,14 @@
     "iri" : "https://w3id.org/mdo/calculation/LocalDensityApproximation",
     "baseIri" : "https://w3id.org/mdo/calculation",
     "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "An LDA is a classification of exchange correlation energy functionals that only use the local value of the electronic density.",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "IRI-based" : "LocalDensityApproximation"
     },
@@ -381,6 +411,9 @@
     "label" : {
       "IRI-based" : "PhysicalProperty"
     },
+    "comment" : {
+      "en" : "A physical property is an objective property over a physical system. (ie, a property pertains to the physical reality)"
+    },
     "attributes" : [ "external" ],
     "id" : "32",
     "superClasses" : [ "1" ]
@@ -392,7 +425,7 @@
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "en",
-        "value" : "An ExchangeCorrelationEnergyFunctional is the function to compute Exchange Correlation Energy.",
+        "value" : "An ExchangeCorrelationEnergyFunctional is a functional to compute the exchange correlation energy.",
         "type" : "label"
       } ]
     },
@@ -492,7 +525,7 @@
     "comment" : {
       "en" : "relatesToStructure represents the relationship between a property and the structures it comes from."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "0"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasInputStructure",
@@ -505,7 +538,7 @@
     "comment" : {
       "en" : "hasInputStructure represents the relationship between a calculation and the structures it takes as input."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "3"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasPropertyName",
@@ -592,7 +625,7 @@
     "comment" : {
       "en" : "hasInputProperty represents the relationship between a calculation and the properties it takes as input."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "30"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasOutputStructure",
@@ -605,7 +638,7 @@
     "comment" : {
       "en" : "hasOutputStructure represents the relationship between a calculation and the structures it outputs."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "31"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasID",
@@ -703,7 +736,7 @@
     "comment" : {
       "en" : "relatesToMaterial represents the relationship between a structure and the materials it comes from."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "46"
   }, {
     "iri" : "https://w3id.org/mdo/calculation/hasParameterName",
@@ -729,7 +762,7 @@
     "comment" : {
       "en" : "hasOutputCalculatedProperty represents the relationship between a calculation and the calculated properties it outputs."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "48"
   } ]
 }
