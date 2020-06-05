@@ -341,7 +341,7 @@
       "IRI-based" : "LengthTriple"
     },
     "comment" : {
-      "en" : "A length triple consists of three parameters (a, b, c) that represent the lengths in three axes respectively."
+      "en" : "A length triple defines the three parameters (a, b, c) that represent the lengths in three axes respectively."
     },
     "id" : "35"
   }, {
@@ -455,7 +455,7 @@
       "IRI-based" : "Lattice"
     },
     "comment" : {
-      "en" : "A lattice is a set of points abstracted from basis."
+      "en" : "A lattice defines a peroidic arrangement of one or more atoms."
     },
     "id" : "33"
   }, {
@@ -464,6 +464,9 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "PhysicalProperty"
+    },
+    "comment" : {
+      "en" : "A physical property is an objective property over a physical system. (ie, a property pertains to the physical reality)"
     },
     "attributes" : [ "external" ],
     "id" : "62",
@@ -483,7 +486,7 @@
       "IRI-based" : "Basis"
     },
     "comment" : {
-      "en" : "A basis can be described by basis's length vector a, b, c and the intervector angles alpha, beta and gamma."
+      "en" : "A basis defines a spatial unit used to express fractional coordinates."
     },
     "id" : "73"
   }, {
@@ -537,6 +540,9 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "CalculatedProperty"
+    },
+    "comment" : {
+      "en" : "A calculated property is a proprty that is a result from a calculation."
     },
     "attributes" : [ "external" ],
     "id" : "64",
@@ -1010,7 +1016,7 @@
     "comment" : {
       "en" : "relatesToMaterial represents the relationship between a structure and the materials it comes from."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "54"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasAngleVector",
@@ -1077,7 +1083,7 @@
     "comment" : {
       "en" : "hasOutputCalculatedProperty represents the relationship between a calculation and the calculated properties it outputs."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "63"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasSpaceGroup",
@@ -1164,7 +1170,7 @@
     "comment" : {
       "en" : "relatesToStructure represents the relationship between a property and the structures it comes from."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "74"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasX_axisCoordinate",
@@ -1191,7 +1197,7 @@
     "comment" : {
       "en" : "hasInputStructure represents the relationship between a calculation and the structures it takes as input."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "76"
   }, {
     "iri" : "https://w3id.org/mdo/structure/hasReducedFormula",
@@ -1328,7 +1334,7 @@
     "comment" : {
       "en" : "hasInputProperty represents the relationship between a calculation and the properties it takes as input."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "87"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasOutputStructure",
@@ -1341,7 +1347,7 @@
     "comment" : {
       "en" : "hasOutputStructure represents the relationship between a calculation and the structures it outputs."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "88"
   }, {
     "iri" : "https://w3id.org/mdo/core/hasPropertyValue",
