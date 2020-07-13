@@ -244,22 +244,31 @@
     </dl>
     <h2>Description</h2>
     <div id="description">
-        <p>This is the Materials Design Ontology.</p>
+        <p>This is the Materials Design Ontology, which defines concepts and relations to cover knowledge in thefield of materials design. MDO is designed using domain knowledge inmaterials science (especially in solid-state physics), and is guided by the data from several databases in the materials design field. MDO is embraced with in <a href="https://www.optimade.org">OPTIMADE</a> project.</p>
     </div>
-</section>
 <section id="toc">
     <h2>Table of Contents</h2>
     <ol>
+        <li><a href="#vision">Vision</a></li>
         <li><a href="#annotationproperties">Annotation Properties</a></li>
         <li><a href="#namespaces">Namespaces</a></li>
         <li><a href="#legend">Legend</a></li>
+        <li><a href="#instantiation">Instantiation</a></li>
     </ol>
+</section>
+<section id="vision">
+    <h2>The Vision of the Materials Design Ontology</h2>
+<div id="vision">
+    <p>The Materials Design Ontology is designed to enable semantic query and integrated query over multiple databases.By generating mappings betweenMDO and the schemas of materials databases, we can create MDO-enabled queryinterfaces. The querying can occur, for instance, via MDO-based query expan-sion, MDO-based mediation or through MDO-enabled data warehouses.</p>
+</div>
+<div class="vision"><img src="https://huanyu-li.github.io/figures/mdo/new-vision.png" height="550" width="1300" /></div> 
+<div class="caption"><strong>Figure 1:</strong> The vision of the ontology</div>
 </section>
 <section id="overview">
     <h2>Overview</h2>
     <div class="figure">
         <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-full"></iframe>
-        <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
+        <div class="caption"><strong>Figure 2:</strong> Ontology overview</div>
     </div>
 </section>
 <section id="classes">
@@ -392,6 +401,14 @@
         <tr><td><sup class="sup-p" title="Properties">p</sup></td><td>Properties</td></tr>
         <tr><td><sup class="sup-ni" title="Named Individuals">ni</sup></td><td>Named Individuals</td></tr>
     </table>
+</section>
+<section id="instantiation">
+    <h2>An Example of Instantiation the Materials Design Ontology</h2>
+    <div id="vision">
+        <p>In Figure 3, we exemplify the use of the ontology to represent a specific material calculation and related data in an instantiation. To not overcrowed the figure, we only show the instances corresponding the calculation's output structure, and for multiple calculated properties, species and sites, we only show one instance respectively.</p>
+    </div>
+    <div class="vision"><img src="https://huanyu-li.github.io/figures/mdo/instances-output.png " height="800" width="1300" /></div> 
+    <div class="caption"><strong>Figure 3:</strong> An instantiated materials calculation</div>
 </section>
 </body>
 </html>
