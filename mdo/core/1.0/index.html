@@ -221,8 +221,8 @@
         </dd>
         <dt>Contributors(s)</dt>
         <dd>
-            Rickard Armiento<br/>
             Patrick Lambrix<br/>
+            Rickard Armiento<br/>
         </dd>
         <dt>Created</dt>
         <dd>2019-11-07</dd>
@@ -245,6 +245,7 @@
         <li><a href="#objectproperties">Object Properties</a></li>
         <li><a href="#datatypeproperties">Datatype Properties</a></li>
         <li><a href="#annotationproperties">Annotation Properties</a></li>
+        <li><a href="#namedindividuals">Named Individuals</a></li>
         <li><a href="#namespaces">Namespaces</a></li>
         <li><a href="#legend">Legend</a></li>
     </ol>
@@ -259,12 +260,16 @@
 <section id="classes">
     <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#CalculatedProperty">CalculatedProperty</a></li>
+        <li><a href="#CalculatedProperty">Calculated Property</a></li>
         <li><a href="#Calculation">Calculation</a></li>
         <li><a href="#Material">Material</a></li>
-        <li><a href="#PhysicalProperty">PhysicalProperty</a></li>
+        <li><a href="#PhysicalProperty">Physical Property</a></li>
         <li><a href="#Property">Property</a></li>
+        <li><a href="#Quantity">Quantity</a></li>
+        <li><a href="#QuantityKind">QuantityKind</a></li>
+        <li><a href="#QuantityValue">QuantityValue</a></li>
         <li><a href="#Structure">Structure</a></li>
+        <li><a href="#Unit">Unit</a></li>
     </ul>
     <div class="entity class" id="Material">
         <h3>Material<sup title="class" class="sup-c">c</sup></h3>
@@ -281,8 +286,68 @@
             </tr>
         </table>
     </div>
+    <div class="entity class" id="Quantity">
+        <h3>Quantity<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/Quantity</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="QuantityKind">
+        <h3>QuantityKind<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/QuantityKind</code></td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/hasQuantityKind">qudt:hasQuantityKind</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="QuantityValue">
+        <h3>QuantityValue<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/QuantityValue</code></td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/quantityValue">qudt:quantityValue</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Unit">
+        <h3>Unit<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/vocab/unit/Unit</code></td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/unit">qudt:unit</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity class" id="CalculatedProperty">
-        <h3>CalculatedProperty<sup title="class" class="sup-c">c</sup></h3>
+        <h3>Calculated Property<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -321,29 +386,27 @@
                     <p>A calculation is the use of a specific computational method to process structures and/or properties into output structures and/or calculated properties.</p>
                 </td>
             </tr>
-            <!--
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    (<a href="Nd303629d845e427483763c2555471b46">Nd303629d845e427483763c2555471b46</a><sup class="sup-c" title="class">c</sup> and <a href="Nf91b61778c37417bb9b1ad147a03d773">Nf91b61778c37417bb9b1ad147a03d773</a><sup class="sup-c" title="class">c</sup> and <a href="Nc97847b375a64ed98ad76f99ddbb7b89">Nc97847b375a64ed98ad76f99ddbb7b89</a><sup class="sup-c" title="class">c</sup> and <a href="N1697b65cfac14a2d89eaefea15e33c7b">N1697b65cfac14a2d89eaefea15e33c7b</a><sup class="sup-c" title="class">c</sup> and <a href="N993ef5ad9e034726b0bc709ac5c7f2d7">N993ef5ad9e034726b0bc709ac5c7f2d7</a><sup class="sup-c" title="class">c</sup> and <a href="N51a129da1b42463485a5fd272b1b790f">N51a129da1b42463485a5fd272b1b790f</a><sup class="sup-c" title="class">c</sup>)<br/>
-                    (<a href="Nd303629d845e427483763c2555471b46">Nd303629d845e427483763c2555471b46</a><sup class="sup-c" title="class">c</sup> and <a href="Nf91b61778c37417bb9b1ad147a03d773">Nf91b61778c37417bb9b1ad147a03d773</a><sup class="sup-c" title="class">c</sup> and <a href="Nc97847b375a64ed98ad76f99ddbb7b89">Nc97847b375a64ed98ad76f99ddbb7b89</a><sup class="sup-c" title="class">c</sup> and <a href="N1697b65cfac14a2d89eaefea15e33c7b">N1697b65cfac14a2d89eaefea15e33c7b</a><sup class="sup-c" title="class">c</sup> and <a href="N993ef5ad9e034726b0bc709ac5c7f2d7">N993ef5ad9e034726b0bc709ac5c7f2d7</a><sup class="sup-c" title="class">c</sup> and <a href="N51a129da1b42463485a5fd272b1b790f">N51a129da1b42463485a5fd272b1b790f</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="N6e612adbd49b43e3aa5525c1ad785bfc">N6e612adbd49b43e3aa5525c1ad785bfc</a><sup class="sup-c" title="class">c</sup> and <a href="Nea78c22a7d3945b5858b7478222ac5d3">Nea78c22a7d3945b5858b7478222ac5d3</a><sup class="sup-c" title="class">c</sup> and <a href="Ndc1d2ad906b3475ab2712632f344adc3">Ndc1d2ad906b3475ab2712632f344adc3</a><sup class="sup-c" title="class">c</sup> and <a href="Nbd6bcb740d1b49a0b9f16e6bb9e1986f">Nbd6bcb740d1b49a0b9f16e6bb9e1986f</a><sup class="sup-c" title="class">c</sup> and <a href="N583a444f5eef4ef7bc63730b37e6ab55">N583a444f5eef4ef7bc63730b37e6ab55</a><sup class="sup-c" title="class">c</sup> and <a href="Ne9c06a09732045c1aba487dfacd84c00">Ne9c06a09732045c1aba487dfacd84c00</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="N6e612adbd49b43e3aa5525c1ad785bfc">N6e612adbd49b43e3aa5525c1ad785bfc</a><sup class="sup-c" title="class">c</sup> and <a href="Nea78c22a7d3945b5858b7478222ac5d3">Nea78c22a7d3945b5858b7478222ac5d3</a><sup class="sup-c" title="class">c</sup> and <a href="Ndc1d2ad906b3475ab2712632f344adc3">Ndc1d2ad906b3475ab2712632f344adc3</a><sup class="sup-c" title="class">c</sup> and <a href="Nbd6bcb740d1b49a0b9f16e6bb9e1986f">Nbd6bcb740d1b49a0b9f16e6bb9e1986f</a><sup class="sup-c" title="class">c</sup> and <a href="N583a444f5eef4ef7bc63730b37e6ab55">N583a444f5eef4ef7bc63730b37e6ab55</a><sup class="sup-c" title="class">c</sup> and <a href="Ne9c06a09732045c1aba487dfacd84c00">Ne9c06a09732045c1aba487dfacd84c00</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
-            -->
             <tr>
                 <th>In domain of</th>
                 <td>
                     <a href="https://w3id.org/mdo/core/hasOutputCalculatedProperty">hasOutputCalculatedProperty</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/mdo/core/hasID">hasID</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/core/hasInputProperty">hasInputProperty</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/ID">ID</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity class" id="PhysicalProperty">
-        <h3>PhysicalProperty<sup title="class" class="sup-c">c</sup></h3>
+        <h3>Physical Property<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -377,6 +440,12 @@
                 </td>
             </tr>
             <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/Quantity">qudt:Quantity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
                 <th>Sub-classes</th>
                 <td>
                     <a href="https://w3id.org/mdo/core/PhysicalProperty">PhysicalProperty</a><sup class="sup-c" title="class">c</sup><br/>
@@ -386,10 +455,8 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/hasPropertyName">hasPropertyName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/core/hasUnit">hasUnit</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/core/PropertyName">PropertyName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/mdo/core/relatesToStructure">relatesToStructure</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/mdo/core/hasPropertyValue">hasPropertyValue</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -413,14 +480,12 @@
                     <p>A structure is the information of the sites and their occupancies in a material or materials system.</p>
                 </td>
             </tr>
-            <!--
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    (<a href="N2e15f513255c4bb492a26a704314b8c9">N2e15f513255c4bb492a26a704314b8c9</a><sup class="sup-c" title="class">c</sup> and <a href="N23a0f80b2ac1447cb8f4b60fe281a784">N23a0f80b2ac1447cb8f4b60fe281a784</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="N9a16bbee7b154b289b5849833d930af7">N9a16bbee7b154b289b5849833d930af7</a><sup class="sup-c" title="class">c</sup> and <a href="N64331d4f5ec3400ba89a30847f0173d4">N64331d4f5ec3400ba89a30847f0173d4</a><sup class="sup-c" title="class">c</sup>)<br/>
                 </td>
             </tr>
-            -->
             <tr>
                 <th>In domain of</th>
                 <td>
@@ -430,9 +495,9 @@
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/mdo/core/relatesToStructure">relatesToStructure</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/relatesToStructure">relatesToStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -441,15 +506,64 @@
 <section id="objectproperties">
     <h2>Object Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#hasInputProperty">hasInputProperty</a></li>
-        <li><a href="#hasInputStructure">hasInputStructure</a></li>
-        <li><a href="#hasOutputCalculatedProperty">hasOutputCalculatedProperty</a></li>
-        <li><a href="#hasOutputStructure">hasOutputStructure</a></li>
-        <li><a href="#relatesToMaterial">relatesToMaterial</a></li>
-        <li><a href="#relatesToStructure">relatesToStructure</a></li>
+        <li><a href="#hasQuantityKind">hasQuantityKind</a></li>
+        <li><a href="#quantityValue">quantityValue</a></li>
+        <li><a href="#unit">unit</a></li>
+        <li><a href="#hasinputproperty">has input property</a></li>
+        <li><a href="#hasinputstructure">has input structure</a></li>
+        <li><a href="#hasoutputcalculatedproperty">has output calculated property</a></li>
+        <li><a href="#hasoutputstructure">has output structure</a></li>
+        <li><a href="#hasquantityvalue">has quantity value</a></li>
+        <li><a href="#relatestomaterial">relates to material</a></li>
+        <li><a href="#relatestostructure">relates to structure</a></li>
     </ul>
-    <div class="entity property" id="hasInputProperty">
-        <h3>hasInputProperty<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="hasQuantityKind">
+        <h3>hasQuantityKind<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/hasQuantityKind</code></td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/QuantityKind">qudt:QuantityKind</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="quantityValue">
+        <h3>quantityValue<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/quantityValue</code></td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/QuantityValue">qudt:QuantityValue</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="unit">
+        <h3>unit<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/unit</code></td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://qudt.org/vocab/unit/Unit">qudt-unit:Unit</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasinputproperty">
+        <h3>has input property<sup title="object property" class="sup-op">op</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -475,8 +589,8 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasInputStructure">
-        <h3>hasInputStructure<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="hasinputstructure">
+        <h3>has input structure<sup title="object property" class="sup-op">op</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -502,8 +616,8 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasOutputCalculatedProperty">
-        <h3>hasOutputCalculatedProperty<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="hasoutputcalculatedproperty">
+        <h3>has output calculated property<sup title="object property" class="sup-op">op</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -529,8 +643,8 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasOutputStructure">
-        <h3>hasOutputStructure<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="hasoutputstructure">
+        <h3>has output structure<sup title="object property" class="sup-op">op</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -556,8 +670,23 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="relatesToMaterial">
-        <h3>relatesToMaterial<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="hasquantityvalue">
+        <h3>has quantity value<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/hasQuantityValue</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    hasQuantityValue represents the relationship between a property and quantity value it takes.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="relatestomaterial">
+        <h3>relates to material<sup title="object property" class="sup-op">op</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -583,8 +712,8 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="relatesToStructure">
-        <h3>relatesToStructure<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="relatestostructure">
+        <h3>relates to structure<sup title="object property" class="sup-op">op</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -615,22 +744,30 @@
 <section id="datatypeproperties">
     <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#hasID">hasID</a></li>
-        <li><a href="#hasPropertyName">hasPropertyName</a></li>
-        <li><a href="#hasPropertyValue">hasPropertyValue</a></li>
-        <li><a href="#hasUnit">hasUnit</a></li>
+        <li><a href="#numericalValue">numericalValue</a></li>
+        <li><a href="#ID">ID</a></li>
+        <li><a href="#propertyname">property name</a></li>
     </ul>
-    <div class="entity property" id="hasID">
-        <h3>hasID<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="numericalValue">
+        <h3>numericalValue<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/hasID</code></td>
+                <td><code>http://qudt.org/schema/qudt/numericalValue</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="ID">
+        <h3>ID<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/ID</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasID represents that a calculation has the unique ID in a string.
+                    ID represents that a calculation has the unique ID in a string.
                 </td>
             </tr>
             <tr>
@@ -647,71 +784,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasPropertyName">
-        <h3>hasPropertyName<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="propertyname">
+        <h3>property name<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/hasPropertyName</code></td>
+                <td><code>https://w3id.org/mdo/core/PropertyName</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasPropertyName represents that a property has the name in a string.
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="hasPropertyValue">
-        <h3>hasPropertyValue<sup title="datatype property" class="sup-dp">dp</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/hasPropertyValue</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    hasPropertyValue represent that a property has the value in a double.
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="http://www.w3.org/2001/XMLSchema#double">xsd:double</a><sup class="sup-c" title="class">c</sup>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="entity property" id="hasUnit">
-        <h3>hasUnit<sup title="datatype property" class="sup-dp">dp</sup></h3>
-        <table>
-            <tr>
-                <th>IRI</th>
-                <td><code>https://w3id.org/mdo/core/hasUnit</code></td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    hasUnit represents that a property has the name of the unit in a string.
+                    PropertyName represents that a property has the name in a string.
                 </td>
             </tr>
             <tr>
@@ -810,7 +893,45 @@
 <section id="namedindividuals">
     <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
+        <li><a href="#EV">EV</a></li>
+        <li><a href="#GM-PER-CentiM3">GM-PER-CentiM3</a></li>
     </ul>
+    <div class="entity named_individual" id="EV">
+        <h3>EV<sup title="named individual" class="sup-ni">ni</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td>
+                  <code>
+                      http://qudt.org/vocab/unit/EV
+                  
+                  </code>
+                </td>
+            </tr>
+            <dt>Classes(s)</dt>
+            <dd>
+                <a href="http://qudt.org/vocab/unit/Unit">qudt-unit:Unit</a><br/>
+            </dd>
+        </table>
+    </div>
+    <div class="entity named_individual" id="GM-PER-CentiM3">
+        <h3>GM-PER-CentiM3<sup title="named individual" class="sup-ni">ni</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td>
+                  <code>
+                      http://qudt.org/vocab/unit/GM-PER-CentiM3
+                  
+                  </code>
+                </td>
+            </tr>
+            <dt>Classes(s)</dt>
+            <dd>
+                <a href="http://qudt.org/vocab/unit/Unit">qudt-unit:Unit</a><br/>
+            </dd>
+        </table>
+    </div>
 </section>
 
 <section id="namespaces">
@@ -826,6 +947,10 @@
         <dd><code>http://www.w3.org/2002/07/owl#</code></dd>
         <dt>prov</dt>
         <dd><code>http://www.w3.org/ns/prov#</code></dd>
+        <dt>qudt</dt>
+        <dd><code>http://qudt.org/schema/qudt/</code></dd>
+        <dt>qudt-unit</dt>
+        <dd><code>http://qudt.org/vocab/unit/</code></dd>
         <dt>rdf</dt>
         <dd><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></dd>
         <dt>rdfs</dt>
