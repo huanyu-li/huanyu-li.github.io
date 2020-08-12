@@ -101,11 +101,11 @@
     "id" : "13",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "1",
     "type" : "owl:Thing"
-  }, {
-    "id" : "2",
-    "type" : "rdfs:Literal"
   }, {
     "id" : "15",
     "type" : "owl:Thing"
@@ -184,18 +184,18 @@
       "IRI-based" : "string"
     }
   }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
     "id" : "1",
     "label" : {
       "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "2",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
@@ -440,7 +440,7 @@
       "IRI-based" : "hasQuantityKind"
     },
     "domain" : "15",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "16"
   }, {
     "range" : "7",
@@ -535,7 +535,7 @@
       "IRI-based" : "unit"
     },
     "domain" : "18",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "30"
   }, {
     "iri" : "http://qudt.org/schema/qudt/quantityValue",
@@ -545,7 +545,7 @@
       "IRI-based" : "quantityValue"
     },
     "domain" : "19",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "31"
   }, {
     "range" : "10",
