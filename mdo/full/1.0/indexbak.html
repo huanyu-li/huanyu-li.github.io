@@ -3,7 +3,7 @@
 <head>
     <title>Materials Design Ontology - Full</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    
+
     <style>
         #pylode {
             position: fixed;
@@ -180,7 +180,7 @@
         }
 
     </style>
-    
+
     <script type="application/ld+json">
       [
   {
@@ -221,8 +221,8 @@
         </dd>
         <dt>Contributors(s)</dt>
         <dd>
-            Patrick Lambrix<br/>
             Rickard Armiento<br/>
+            Patrick Lambrix<br/>
         </dd>
         <dt>Created</dt>
         <dd>2019-11-07</dd>
@@ -232,9 +232,9 @@
         <dd><a href="https://w3id.org/mdo/full/1.0">1.0</a></dd>
         <dt>Imports</dt>
         <dd>
-            <a href="https://w3id.org/mdo/calculation/1.0">calculation:1.0</a><br/>
-            <a href="https://w3id.org/mdo/core/1.0">https://w3id.org/mdo/core/1.0</a><br/>
+            <a href="https://w3id.org/mdo/core/1.0">core:1.0</a><br/>
             <a href="https://w3id.org/mdo/provenance/1.0">provenance:1.0</a><br/>
+            <a href="https://w3id.org/mdo/calculation/1.0">calculation:1.0</a><br/>
             <a href="https://w3id.org/mdo/structure/1.0">structure:1.0</a><br/>
         </dd>
         <dt>License</dt>
@@ -244,9 +244,8 @@
     </dl>
     <h2>Description</h2>
     <div id="description">
-        <p>This is the Materials Design Ontology.</p>
+        <p>This is the Materials Design Ontology, which defines concepts and relations to cover knowledge in the field of materials design. MDO is designed using domain knowledge in materials science (especially in solid-state physics), and is guided by the data from several databases in the materials design field. MDO is embraced within <a href="https://www.optimade.org">OPTIMADE</a> project.</p>
     </div>
-</section>
 <section id="toc">
     <h2>Table of Contents</h2>
     <ol>
@@ -266,12 +265,13 @@
   <iframe width="100%" height ="600px" src="https://huanyu-li.github.io/figures/mdo/new-vision.png"></iframe>
   <div class="caption"><strong>Figure 1:</strong> The vision of the use</div>
 </div>
+
 </section>
 <section id="overview">
     <h2>Overview</h2>
     <div class="figure">
         <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-full"></iframe>
-        <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
+        <div class="caption"><strong>Figure 2:</strong> Ontology overview</div>
     </div>
 </section>
 <section id="classes">
@@ -373,8 +373,6 @@
         <dd><code>http://www.w3.org/2002/07/owl#</code></dd>
         <dt>prov</dt>
         <dd><code>http://www.w3.org/ns/prov#</code></dd>
-        <dt>provenance</dt>
-        <dd><code>https://w3id.org/mdo/provenance/</code></dd>
         <dt>rdf</dt>
         <dd><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></dd>
         <dt>rdfs</dt>
@@ -413,7 +411,7 @@
         <p>In Figure 3, we exemplify the use of the ontology to represent a specific material calculation and related data in an instantiation. To not overcrowd the figure, we only show the instances corresponding the calculation's output structure, and for multiple calculated properties, species and sites, we only show one instance respectively.</p>
     </div>
     <div class="vision">
-      <iframe width="80%" height ="600px" src="https://huanyu-li.github.io/figures/mdo/instances-output.png"></iframe>
+      <iframe width="80%" height ="900px" src="https://huanyu-li.github.io/figures/mdo/instances-output.png"></iframe>
       <div class="caption"><strong>Figure 3:</strong> An instantiated materials calculation</div>
     </div>
 </section>
