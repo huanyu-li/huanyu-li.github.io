@@ -3,7 +3,7 @@
 <head>
     <title>Materials Design Ontology - Provenance Module</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
+    
     <style>
         #pylode {
             position: fixed;
@@ -180,7 +180,7 @@
         }
 
     </style>
-
+    
     <script type="application/ld+json">
       [
   {
@@ -221,8 +221,8 @@
         </dd>
         <dt>Contributors(s)</dt>
         <dd>
-            Rickard Armiento<br/>
             Patrick Lambrix<br/>
+            Rickard Armiento<br/>
         </dd>
         <dt>Created</dt>
         <dd>2020-04-02</dd>
@@ -267,7 +267,7 @@
     <ul class="hlist">
         <li><a href="#Agent">Agent</a></li>
         <li><a href="#Calculation">Calculation</a></li>
-        <li><a href="#ReferenceAgent">ReferenceAgent</a></li>
+        <li><a href="#ReferenceAgent">Reference Agent</a></li>
         <li><a href="#SoftwareAgent">SoftwareAgent</a></li>
     </ul>
     <div class="entity class" id="Agent">
@@ -302,13 +302,13 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/mdo/provenance/hasSoftwareName">hasSoftwareName</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/mdo/provenance/SoftwareName">SoftwareName</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/provenance/hasSoftwareName">hasSoftwareName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/SoftwareName">SoftwareName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
         </table>
@@ -329,7 +329,7 @@
         </table>
     </div>
     <div class="entity class" id="ReferenceAgent">
-        <h3>ReferenceAgent<sup title="class" class="sup-c">c</sup></h3>
+        <h3>Reference Agent<sup title="class" class="sup-c">c</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
@@ -350,12 +350,12 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/mdo/provenance/hasURL">hasURL</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/provenance/hasPublicationDateTime">hasPublicationDateTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/provenance/hasPublicationTitle">hasPublicationTitle</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/provenance/hasDOI">hasDOI</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/provenance/hasAuthorName">hasAuthorName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/mdo/provenance/hasDatabaseName">hasDatabaseName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/AuthorName">AuthorName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/DOI">DOI</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/DatabaseName">DatabaseName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/PublicationDateTime">PublicationDateTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/PublicationTitle">PublicationTitle</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/provenance/URL">URL</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
         </table>
@@ -390,25 +390,25 @@
 <section id="datatypeproperties">
     <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#hasAuthorName">hasAuthorName</a></li>
-        <li><a href="#hasDOI">hasDOI</a></li>
-        <li><a href="#hasDatabaseName">hasDatabaseName</a></li>
-        <li><a href="#hasPublicationDateTime">hasPublicationDateTime</a></li>
-        <li><a href="#hasPublicationTitle">hasPublicationTitle</a></li>
-        <li><a href="#hasSoftwareName">hasSoftwareName</a></li>
-        <li><a href="#hasURL">hasURL</a></li>
+        <li><a href="#authorname">author name</a></li>
+        <li><a href="#DOI">DOI</a></li>
+        <li><a href="#databasename">database name</a></li>
+        <li><a href="#publicationdateTime">publication dateTime</a></li>
+        <li><a href="#publicationtitle">publication title</a></li>
+        <li><a href="#softwarename">software name</a></li>
+        <li><a href="#URL">URL</a></li>
     </ul>
-    <div class="entity property" id="hasAuthorName">
-        <h3>hasAuthorName<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="authorname">
+        <h3>author name<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/hasAuthorName</code></td>
+                <td><code>https://w3id.org/mdo/provenance/AuthorName</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasAuthorName represents that a reference agent has the author's name in a string.
+                    AuthorName represents that a reference agent has the author's name in a string.
                 </td>
             </tr>
             <tr>
@@ -425,17 +425,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasDOI">
-        <h3>hasDOI<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="DOI">
+        <h3>DOI<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/hasDOI</code></td>
+                <td><code>https://w3id.org/mdo/provenance/DOI</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasDOI represents that a reference agent has the DOI in a string.
+                    DOI represents that a reference agent has the DOI in a string.
                 </td>
             </tr>
             <tr>
@@ -452,17 +452,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasDatabaseName">
-        <h3>hasDatabaseName<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="databasename">
+        <h3>database name<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/hasDatabaseName</code></td>
+                <td><code>https://w3id.org/mdo/provenance/DatabaseName</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasDatabaseName represents that a reference agent has the database's name in a string.
+                    DatabaseName represents that a reference agent has the database's name in a string.
                 </td>
             </tr>
             <tr>
@@ -479,17 +479,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasPublicationDateTime">
-        <h3>hasPublicationDateTime<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="publicationdateTime">
+        <h3>publication dateTime<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/hasPublicationDateTime</code></td>
+                <td><code>https://w3id.org/mdo/provenance/PublicationDateTime</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasPublicationDateTime represents that a reference agent has the date time in a dateTime.
+                    PublicationDateTime represents that a reference agent has the date time in a dateTime.
                 </td>
             </tr>
             <tr>
@@ -506,17 +506,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasPublicationTitle">
-        <h3>hasPublicationTitle<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="publicationtitle">
+        <h3>publication title<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/hasPublicationTitle</code></td>
+                <td><code>https://w3id.org/mdo/provenance/PublicationTitle</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasPublicationTitle represents that a reference agent has the publication's title in a string.
+                    PublicationTitle represents that a reference agent has the publication's title in a string.
                 </td>
             </tr>
             <tr>
@@ -533,17 +533,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasSoftwareName">
-        <h3>hasSoftwareName<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="softwarename">
+        <h3>software name<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/hasSoftwareName</code></td>
+                <td><code>https://w3id.org/mdo/provenance/SoftwareName</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasSoftwareName represents that a software agent has the name in a string.
+                    SoftwareName represents that a software agent has the name in a string.
                 </td>
             </tr>
             <tr>
@@ -560,17 +560,17 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="hasURL">
-        <h3>hasURL<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="URL">
+        <h3>URL<sup title="datatype property" class="sup-dp">dp</sup></h3>
         <table>
             <tr>
                 <th>IRI</th>
-                <td><code>https://w3id.org/mdo/provenance/hasURL</code></td>
+                <td><code>https://w3id.org/mdo/provenance/URL</code></td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>
-                    hasURL represents that a reference agent has the URL in a string.
+                    URL represents that a reference agent has the URL in a string.
                 </td>
             </tr>
             <tr>
