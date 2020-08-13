@@ -11,7 +11,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:structure="https://w3id.org/mdo/structure/">
     <owl:Ontology rdf:about="https://w3id.org/mdo/structure/">
-        <owl:versionIRI rdf:resource="https://w3id.org/mdo/structure/1.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/mdo/structure/1.0/"/>
         <owl:imports rdf:resource="https://w3id.org/mdo/core/1.0/"/>
         <dcterms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patrick Lambrix</dcterms:contributor>
         <dcterms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rickard Armiento</dcterms:contributor>
