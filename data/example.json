@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "name": "CsHoSiS4",
+            "id": 25672,
+            "calculation_id": 1352933,
+            "composition": "Cs1 Ho1 S4 Si1",
+            "composition_generic": "ABCD4",
+            "prototype": "CsSmGeSe4",
+            "spacegroup": "P212121",
+            "volume": 760.627,
+            "ntypes": 4,
+            "natoms": 28,
+            "unit_cell": [
+                [6.36095, 0.0, 0.0], 
+                [0.0, 6.704647, 0.0], 
+                [0.0, 0.0, 17.835028]
+            ],
+            "band_gap": 3.024,
+            "delta_e": -1.60893999919811
+        },
+        {
+            "name": "Lu",
+            "id": 1216058,
+            "calculation_id": 2454,
+            "composition": "Lu1",
+            "composition_generic": "A",
+            "prototype": "C19_alpha_Sm",
+            "spacegroup": "R-3m",
+            "volume": 86.3513,
+            "ntypes": 1,
+            "natoms": 3,
+            "unit_cell": [
+                [ -1.733802, 3.003035, 0.0 ], 
+                [3.467606, 0.0, 0.0], 
+                [1.733802, -1.001012, -8.292372]
+            ],
+            "band_gap": 0.0,
+            "delta_e": 0.0125899016666704
+        }
+    ]
+}
