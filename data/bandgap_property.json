@@ -1,11 +1,11 @@
 {
     "bandgap_property":[
         {
-            "calculation_id": 1352933,
+            "FK_entry_id": 25672,
             "band_gap": 3.024
         },
         {
-            "calculation_id": 2454,
+            "FK_entry_id": 1216058,
             "band_gap": 0.0
             
         }

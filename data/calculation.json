@@ -1,14 +1,14 @@
 {
     "Calculation":[
         {
-            "id": 25672,
+            "entry_id": 25672,
             "name": "CsHoSiS4",
             "composition": "Cs1 Ho1 S4 Si1",
             "composition_generic": "ABCD4",
             "calculation_id": 1352933
         },
         {
-            "id": 1216058,
+            "entry_id": 1216058,
             "name": "Lu",
             "composition": "Lu1",
             "composition_generic": "A",
