@@ -1,0 +1,13 @@
+{
+    "bandgap_property":[
+        {
+            "calculation_id": 1352933,
+            "band_gap": 3.024
+        },
+        {
+            "calculation_id": 2454,
+            "band_gap": 0.0
+            
+        }
+    ]
+}
