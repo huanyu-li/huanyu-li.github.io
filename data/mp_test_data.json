@@ -1,0 +1,110 @@
+{
+    "response": [
+        {
+            "energy": -517.66387638,
+            "energy_per_atom": -6.470798454750001,
+            "volume": 978.3696328071575,
+            "formation_energy_per_atom": -1.6288803575000004,
+            "nsites": 80,
+            "unit_cell_formula": {
+                "Fe": 32.0,
+                "O": 48.0
+            },
+            "pretty_formula": "Fe2O3",
+            "is_hubbard": true,
+            "elements": [
+                "Fe",
+                "O"
+            ],
+            "nelements": 2,
+            "e_above_hull": 0.278477985250003,
+            "hubbards": {
+                "Fe": 5.3,
+                "O": 0.0
+            },
+            "is_compatible": true,
+            "spacegroup": {
+                "symprec": 0.1,
+                "source": "spglib",
+                "symbol": "P1",
+                "number": 1,
+                "point_group": "1",
+                "crystal_system": "triclinic",
+                "hall": "P 1"
+            },
+            "task_ids": [
+                "mp-1244911"
+            ],
+            "band_gap": 0.2603,
+            "density": 4.336495912109739,
+            "icsd_id": null,
+            "icsd_ids": [],
+            "total_magnetization": 9.8749998875,
+            "material_id": "mp-1244911",
+            "oxide_type": "oxide",
+            "tags": [
+                "Amorphous"
+            ],
+            "elasticity": null,
+            "piezo": null,
+            "diel": null,
+            "full_formula": "Fe32O48"
+        },
+        {
+            "energy": -1060.7866494,
+            "energy_per_atom": -6.62991655875,
+            "volume": 1860.0826885883926,
+            "formation_energy_per_atom": -1.7879984614999997,
+            "nsites": 160,
+            "unit_cell_formula": {
+                "Fe": 64.0,
+                "O": 96.0
+            },
+            "pretty_formula": "Fe2O3",
+            "is_hubbard": true,
+            "elements": [
+                "Fe",
+                "O"
+            ],
+            "nelements": 2,
+            "e_above_hull": 0.11935988125000385,
+            "hubbards": {
+                "Fe": 5.3,
+                "O": 0.0
+            },
+            "is_compatible": true,
+            "spacegroup": {
+                "symprec": 0.1,
+                "source": "spglib",
+                "symbol": "P4_12_12",
+                "number": 92,
+                "point_group": "422",
+                "crystal_system": "tetragonal",
+                "hall": "P 4abw 2nw"
+            },
+            "task_ids": [
+                "mp-1197718",
+                "mp-1204971",
+                "mp-1456",
+                "mp-1338140"
+            ],
+            "band_gap": 1.5673,
+            "density": 4.561835814321036,
+            "icsd_id": null,
+            "icsd_ids": [
+                70048,
+                172906
+            ],
+            "total_magnetization": 10.00136665625,
+            "material_id": "mp-1456",
+            "oxide_type": "oxide",
+            "tags": [
+                "Iron oxide (21.34/32) - gamma"
+            ],
+            "elasticity": null,
+            "piezo": null,
+            "diel": null,
+            "full_formula": "Fe64O96"
+        }
+    ]
+}
