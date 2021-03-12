@@ -1,4 +1,4 @@
-name;entry_id;calculation_id;formationenergy_id;duplicate_entry_id;composition;composition_generic;spacegroup;volume;ntypes;natoms
-ZnNi;17859;3981;4061256;30881;Ni1 Zn1;AB;P4/mmm;23.9616;2;2
-ZnNi;17860;3984;4061262;17860;Ni1 Zn1;AB;Pm-3m;24.0255;2;2
-SmZn;18114;3908;4061241;18114;Sm1 Zn1;AB;Pm-3m;47.8713;2;2
+name,entry_id,calculation_id,formationenergy_id,duplicate_entry_id,composition,composition_generic,spacegroup,volume,ntypes,natoms
+ZnNi,17859,3981,4061256,30881,Ni1 Zn1,AB,P4/mmm,23.9616,2,2
+ZnNi,17860,3984,4061262,17860,Ni1 Zn1,AB,Pm-3m,24.0255,2,2
+SmZn,18114,3908,4061241,18114,Sm1 Zn1,AB,Pm-3m,47.8713,2,2
