@@ -1,0 +1,127 @@
+{
+    "data": [
+        {
+            "name": "ZnNi",
+            "entry_id": 17859,
+            "calculation_id": 3981,
+            "icsd_id": 105469,
+            "formationenergy_id": 4061256,
+            "duplicate_entry_id": 30881,
+            "composition": "Ni1 Zn1",
+            "composition_generic": "AB",
+            "prototype": "HgMn",
+            "spacegroup": "P4/mmm",
+            "volume": 23.9616,
+            "ntypes": 2,
+            "natoms": 2,
+            "unit_cell": [
+                [
+                    2.735285,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    2.735285,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    3.202656
+                ]
+            ],
+            "sites": [
+                "Ni @ 0 0 0",
+                "Zn @ 0.5 0.5 0.5"
+            ],
+            "band_gap": 0.0,
+            "delta_e": -0.26207291,
+            "stability": 0.0,
+            "fit": "standard",
+            "calculation_label": "static"
+        },
+        {
+            "name": "ZnNi",
+            "entry_id": 17860,
+            "calculation_id": 3984,
+            "icsd_id": 105470,
+            "formationenergy_id": 4061262,
+            "duplicate_entry_id": 17860,
+            "composition": "Ni1 Zn1",
+            "composition_generic": "AB",
+            "prototype": "CsCl",
+            "spacegroup": "Pm-3m",
+            "volume": 24.0255,
+            "ntypes": 2,
+            "natoms": 2,
+            "unit_cell": [
+                [
+                    2.885519,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    2.885519,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    2.885519
+                ]
+            ],
+            "sites": [
+                "Ni @ 0 0 0",
+                "Zn @ 0.5 0.5 0.5"
+            ],
+            "band_gap": 0.0,
+            "delta_e": -0.249743215000001,
+            "stability": 0.012329845000000034,
+            "fit": "standard",
+            "calculation_label": "static"
+        },
+        {
+            "name": "SmZn",
+            "entry_id": 18114,
+            "calculation_id": 3908,
+            "icsd_id": 106066,
+            "formationenergy_id": 4061241,
+            "duplicate_entry_id": 18114,
+            "composition": "Sm1 Zn1",
+            "composition_generic": "AB",
+            "prototype": "CsCl",
+            "spacegroup": "Pm-3m",
+            "volume": 47.8713,
+            "ntypes": 2,
+            "natoms": 2,
+            "unit_cell": [
+                [
+                    3.63099,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    3.63099,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    3.63099
+                ]
+            ],
+            "sites": [
+                "Sm @ 0 0 0",
+                "Zn @ 0.5 0.5 0.5"
+            ],
+            "band_gap": 0.0,
+            "delta_e": -0.32744836875,
+            "stability": 0.0,
+            "fit": "standard",
+            "calculation_label": "static"
+        }
+    ]
+}
