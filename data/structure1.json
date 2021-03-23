@@ -1,0 +1,20 @@
+{
+    "Structures":[
+        {
+            "composition_id": "C_1",
+            "structure_id": "S_1"
+        },
+        {
+            "composition_id": "C_2",
+            "structure_id": "S_2"
+        },
+        {
+            "composition_id": "C_3",
+            "structure_id": "S_3"
+        },
+        {
+            "composition_id": "C_4",
+            "structure_id": "S_4"
+        }
+    ]
+}

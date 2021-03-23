@@ -1,0 +1,21 @@
+{
+    "data":{
+        "Compositions":[
+        {
+            "formula_id": "C_3",
+            "Reduced_formula": "SmZn",
+            "Generic_formula": "AB"
+        },
+        {
+            "formula_id": "C_4",
+            "Reduced_formula": "SiC",
+            "Generic_formula": "AB"
+        },
+        {
+            "formula_id": "C_1",
+            "Reduced_formula": "ZnNi",
+            "Generic_formula": "AB"
+        },
+    ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "Compositions":[
+        {
+            "composition_id": "C_1",
+            "Reduced_formula": "ZnNi",
+            "Composition_generic": "AB"
+        },
+        {
+            "composition_id": "C_2",
+            "Reduced_formula": "ZnNi",
+            "Composition_generic": "AB"
+        },
+        {
+            "composition_id": "C_3",
+            "Reduced_formula": "SmZn",
+            "Composition_generic": "AB"
+        },
+        {
+            "composition_id": "C_6",
+            "Reduced_formula": "Fe2O3",
+            "Composition_generic": "A2B3"
+        }
+    ]
+}
