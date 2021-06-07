@@ -1,0 +1,5004 @@
+{
+    "data": [
+        {
+            "band_gap": 3.024,
+            "calculation_id": 1352933,
+            "entry_id": 25672
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 2454,
+            "entry_id": 1216058
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 2689,
+            "entry_id": 1216098
+        },
+        {
+            "band_gap": 11.91,
+            "calculation_id": 3346,
+            "entry_id": 4698
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3588,
+            "entry_id": 8130
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3592,
+            "entry_id": 8132
+        },
+        {
+            "band_gap": 7.487,
+            "calculation_id": 3612,
+            "entry_id": 8203
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3619,
+            "entry_id": 7503
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3620,
+            "entry_id": 8533
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3624,
+            "entry_id": 7517
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3629,
+            "entry_id": 8082
+        },
+        {
+            "band_gap": 11.657,
+            "calculation_id": 3637,
+            "entry_id": 8086
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3638,
+            "entry_id": 8100
+        },
+        {
+            "band_gap": 13.5,
+            "calculation_id": 3681,
+            "entry_id": 12054
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3697,
+            "entry_id": 8500
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3721,
+            "entry_id": 7514
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3723,
+            "entry_id": 9566
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3726,
+            "entry_id": 9320
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3729,
+            "entry_id": 10106
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3732,
+            "entry_id": 8586
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3749,
+            "entry_id": 17350
+        },
+        {
+            "band_gap": 14.115,
+            "calculation_id": 3763,
+            "entry_id": 12055
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3788,
+            "entry_id": 16720
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3794,
+            "entry_id": 7513
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3798,
+            "entry_id": 7521
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3804,
+            "entry_id": 17319
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3829,
+            "entry_id": 22514
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3833,
+            "entry_id": 22516
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3845,
+            "entry_id": 7505
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3847,
+            "entry_id": 7512
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3849,
+            "entry_id": 7519
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3853,
+            "entry_id": 7522
+        },
+        {
+            "band_gap": 2.083,
+            "calculation_id": 3859,
+            "entry_id": 6321
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3861,
+            "entry_id": 5810
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3908,
+            "entry_id": 18114
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3911,
+            "entry_id": 22472
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3976,
+            "entry_id": 8391
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3977,
+            "entry_id": 7509
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3980,
+            "entry_id": 7520
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3981,
+            "entry_id": 17859
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3983,
+            "entry_id": 10676
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3984,
+            "entry_id": 17860
+        },
+        {
+            "band_gap": 1.62,
+            "calculation_id": 3986,
+            "entry_id": 6320
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3987,
+            "entry_id": 10678
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3991,
+            "entry_id": 17352
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3992,
+            "entry_id": 10681
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3994,
+            "entry_id": 10937
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3995,
+            "entry_id": 21452
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3997,
+            "entry_id": 17610
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3998,
+            "entry_id": 10683
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 3999,
+            "entry_id": 18891
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4001,
+            "entry_id": 17612
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4003,
+            "entry_id": 19149
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4004,
+            "entry_id": 17360
+        },
+        {
+            "band_gap": 1.586,
+            "calculation_id": 4007,
+            "entry_id": 4566
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4044,
+            "entry_id": 8134
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4047,
+            "entry_id": 8138
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4049,
+            "entry_id": 31044
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4050,
+            "entry_id": 8144
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4060,
+            "entry_id": 8520
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4064,
+            "entry_id": 3925
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4069,
+            "entry_id": 13761
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4071,
+            "entry_id": 30000
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4073,
+            "entry_id": 18895
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4075,
+            "entry_id": 8143
+        },
+        {
+            "band_gap": 2.167,
+            "calculation_id": 4076,
+            "entry_id": 7648
+        },
+        {
+            "band_gap": 1.644,
+            "calculation_id": 4086,
+            "entry_id": 7649
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4108,
+            "entry_id": 8390
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4113,
+            "entry_id": 9214
+        },
+        {
+            "band_gap": 14.15,
+            "calculation_id": 4117,
+            "entry_id": 12056
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4136,
+            "entry_id": 9277
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4137,
+            "entry_id": 9287
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4153,
+            "entry_id": 28966
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4154,
+            "entry_id": 30508
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4158,
+            "entry_id": 31023
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4160,
+            "entry_id": 31025
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4161,
+            "entry_id": 31283
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4162,
+            "entry_id": 10944
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4164,
+            "entry_id": 30004
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4165,
+            "entry_id": 8386
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4183,
+            "entry_id": 18984
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4191,
+            "entry_id": 13862
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4200,
+            "entry_id": 20540
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4201,
+            "entry_id": 20541
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4208,
+            "entry_id": 8534
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4213,
+            "entry_id": 8568
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4220,
+            "entry_id": 13705
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4222,
+            "entry_id": 8597
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4224,
+            "entry_id": 17585
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4236,
+            "entry_id": 19150
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4237,
+            "entry_id": 30264
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4239,
+            "entry_id": 31032
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4247,
+            "entry_id": 22272
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4258,
+            "entry_id": 18780
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4260,
+            "entry_id": 13650
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4265,
+            "entry_id": 9316
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4267,
+            "entry_id": 5499
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4268,
+            "entry_id": 5517
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4274,
+            "entry_id": 21449
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4276,
+            "entry_id": 8118
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4278,
+            "entry_id": 21453
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4280,
+            "entry_id": 8122
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4281,
+            "entry_id": 18131
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4283,
+            "entry_id": 17621
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4284,
+            "entry_id": 18903
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4286,
+            "entry_id": 18904
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4289,
+            "entry_id": 17625
+        },
+        {
+            "band_gap": 0.182,
+            "calculation_id": 4291,
+            "entry_id": 20443
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4295,
+            "entry_id": 17627
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4297,
+            "entry_id": 18140
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4299,
+            "entry_id": 8139
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4306,
+            "entry_id": 17629
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4308,
+            "entry_id": 17630
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4310,
+            "entry_id": 8141
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4314,
+            "entry_id": 19423
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4316,
+            "entry_id": 22242
+        },
+        {
+            "band_gap": 4.09,
+            "calculation_id": 4333,
+            "entry_id": 6318
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4337,
+            "entry_id": 17349
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4340,
+            "entry_id": 18896
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4342,
+            "entry_id": 18136
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4346,
+            "entry_id": 30785
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4352,
+            "entry_id": 19422
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4353,
+            "entry_id": 8142
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4357,
+            "entry_id": 22243
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4358,
+            "entry_id": 28740
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4359,
+            "entry_id": 10705
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4361,
+            "entry_id": 18145
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4363,
+            "entry_id": 27974
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4366,
+            "entry_id": 8145
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4368,
+            "entry_id": 17380
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4370,
+            "entry_id": 18148
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4372,
+            "entry_id": 28744
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4374,
+            "entry_id": 30536
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4376,
+            "entry_id": 30025
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4378,
+            "entry_id": 17638
+        },
+        {
+            "band_gap": 1.04,
+            "calculation_id": 4382,
+            "entry_id": 10711
+        },
+        {
+            "band_gap": 0.392,
+            "calculation_id": 4388,
+            "entry_id": 10712
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4390,
+            "entry_id": 17640
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4392,
+            "entry_id": 18152
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4394,
+            "entry_id": 18153
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4395,
+            "entry_id": 17386
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4398,
+            "entry_id": 10715
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4399,
+            "entry_id": 29007
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4401,
+            "entry_id": 10972
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4419,
+            "entry_id": 9301
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4439,
+            "entry_id": 22248
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4441,
+            "entry_id": 18156
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4442,
+            "entry_id": 17389
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4443,
+            "entry_id": 18157
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4445,
+            "entry_id": 8156
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4446,
+            "entry_id": 17646
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4448,
+            "entry_id": 20463
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4452,
+            "entry_id": 20464
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4453,
+            "entry_id": 20721
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4456,
+            "entry_id": 10720
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4458,
+            "entry_id": 17392
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4460,
+            "entry_id": 17904
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4461,
+            "entry_id": 20465
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4463,
+            "entry_id": 20466
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4464,
+            "entry_id": 17650
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4466,
+            "entry_id": 17906
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4468,
+            "entry_id": 18674
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4469,
+            "entry_id": 20467
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4478,
+            "entry_id": 22309
+        },
+        {
+            "band_gap": 14.181,
+            "calculation_id": 4483,
+            "entry_id": 12059
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4491,
+            "entry_id": 9297
+        },
+        {
+            "band_gap": 1.772,
+            "calculation_id": 4495,
+            "entry_id": 22473
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4498,
+            "entry_id": 8119
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4500,
+            "entry_id": 20684
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4505,
+            "entry_id": 22262
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4509,
+            "entry_id": 29784
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4511,
+            "entry_id": 30040
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4512,
+            "entry_id": 17397
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4514,
+            "entry_id": 22264
+        },
+        {
+            "band_gap": 14.099,
+            "calculation_id": 4536,
+            "entry_id": 12057
+        },
+        {
+            "band_gap": 14.132,
+            "calculation_id": 4537,
+            "entry_id": 12058
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4546,
+            "entry_id": 10325
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4549,
+            "entry_id": 10105
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4554,
+            "entry_id": 14014
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4556,
+            "entry_id": 8123
+        },
+        {
+            "band_gap": 0.176,
+            "calculation_id": 4559,
+            "entry_id": 4543
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4561,
+            "entry_id": 11469
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4563,
+            "entry_id": 29003
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4566,
+            "entry_id": 20469
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4601,
+            "entry_id": 5497
+        },
+        {
+            "band_gap": 0.179,
+            "calculation_id": 4610,
+            "entry_id": 4523
+        },
+        {
+            "band_gap": 0.950000000000001,
+            "calculation_id": 4611,
+            "entry_id": 22475
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4625,
+            "entry_id": 17907
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4627,
+            "entry_id": 29018
+        },
+        {
+            "band_gap": 1.115,
+            "calculation_id": 4659,
+            "entry_id": 10182
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4660,
+            "entry_id": 9672
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4664,
+            "entry_id": 10445
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4665,
+            "entry_id": 14034
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4668,
+            "entry_id": 30534
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4672,
+            "entry_id": 29013
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4674,
+            "entry_id": 8162
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4692,
+            "entry_id": 22476
+        },
+        {
+            "band_gap": 1.453,
+            "calculation_id": 4694,
+            "entry_id": 17353
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4696,
+            "entry_id": 22221
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4710,
+            "entry_id": 17383
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4714,
+            "entry_id": 8155
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4734,
+            "entry_id": 8115
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4742,
+            "entry_id": 18147
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4744,
+            "entry_id": 30535
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4749,
+            "entry_id": 30537
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4752,
+            "entry_id": 17898
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4755,
+            "entry_id": 14052
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4761,
+            "entry_id": 8163
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4787,
+            "entry_id": 21451
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4788,
+            "entry_id": 30533
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4789,
+            "entry_id": 13784
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4792,
+            "entry_id": 14051
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4794,
+            "entry_id": 20468
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4802,
+            "entry_id": 4578
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4804,
+            "entry_id": 10729
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4805,
+            "entry_id": 17657
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4806,
+            "entry_id": 18169
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4807,
+            "entry_id": 10986
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4808,
+            "entry_id": 17402
+        },
+        {
+            "band_gap": 14.108,
+            "calculation_id": 4844,
+            "entry_id": 12061
+        },
+        {
+            "band_gap": 14.146,
+            "calculation_id": 4845,
+            "entry_id": 12062
+        },
+        {
+            "band_gap": 14.198,
+            "calculation_id": 4847,
+            "entry_id": 12064
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4866,
+            "entry_id": 8165
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4870,
+            "entry_id": 4579
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4871,
+            "entry_id": 17404
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4873,
+            "entry_id": 17660
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4874,
+            "entry_id": 18172
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4880,
+            "entry_id": 3311
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4904,
+            "entry_id": 18967
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4905,
+            "entry_id": 19480
+        },
+        {
+            "band_gap": 14.087,
+            "calculation_id": 4907,
+            "entry_id": 12060
+        },
+        {
+            "band_gap": 14.187,
+            "calculation_id": 4908,
+            "entry_id": 12063
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4918,
+            "entry_id": 8164
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4919,
+            "entry_id": 17661
+        },
+        {
+            "band_gap": 2.587,
+            "calculation_id": 4944,
+            "entry_id": 5624
+        },
+        {
+            "band_gap": 2.414,
+            "calculation_id": 4948,
+            "entry_id": 5625
+        },
+        {
+            "band_gap": 2.4,
+            "calculation_id": 4955,
+            "entry_id": 5626
+        },
+        {
+            "band_gap": 18.39,
+            "calculation_id": 4961,
+            "entry_id": 4177
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4964,
+            "entry_id": 14036
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4966,
+            "entry_id": 29020
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 4967,
+            "entry_id": 29022
+        },
+        {
+            "band_gap": 2.95,
+            "calculation_id": 4976,
+            "entry_id": 5627
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5002,
+            "entry_id": 6912
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5021,
+            "entry_id": 14035
+        },
+        {
+            "band_gap": 1.191,
+            "calculation_id": 5023,
+            "entry_id": 5578
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5029,
+            "entry_id": 22263
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5031,
+            "entry_id": 29023
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5033,
+            "entry_id": 17406
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5034,
+            "entry_id": 18174
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5035,
+            "entry_id": 10991
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5036,
+            "entry_id": 17407
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5037,
+            "entry_id": 17663
+        },
+        {
+            "band_gap": 7.021,
+            "calculation_id": 5038,
+            "entry_id": 20737
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5039,
+            "entry_id": 10480
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5040,
+            "entry_id": 10736
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5041,
+            "entry_id": 18176
+        },
+        {
+            "band_gap": 7.392,
+            "calculation_id": 5057,
+            "entry_id": 2562
+        },
+        {
+            "band_gap": 14.204,
+            "calculation_id": 5073,
+            "entry_id": 12065
+        },
+        {
+            "band_gap": 14.112,
+            "calculation_id": 5080,
+            "entry_id": 12074
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5084,
+            "entry_id": 4672
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5092,
+            "entry_id": 8159
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5093,
+            "entry_id": 17655
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5095,
+            "entry_id": 8166
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5096,
+            "entry_id": 8167
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5099,
+            "entry_id": 29029
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5100,
+            "entry_id": 30309
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5101,
+            "entry_id": 5613
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5103,
+            "entry_id": 9972
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5105,
+            "entry_id": 10997
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5108,
+            "entry_id": 17413
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5115,
+            "entry_id": 1797
+        },
+        {
+            "band_gap": 13.838,
+            "calculation_id": 5129,
+            "entry_id": 12067
+        },
+        {
+            "band_gap": 14.089,
+            "calculation_id": 5130,
+            "entry_id": 12069
+        },
+        {
+            "band_gap": 14.094,
+            "calculation_id": 5131,
+            "entry_id": 12070
+        },
+        {
+            "band_gap": 14.11,
+            "calculation_id": 5133,
+            "entry_id": 12073
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5139,
+            "entry_id": 17557
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5140,
+            "entry_id": 22474
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5144,
+            "entry_id": 13762
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5145,
+            "entry_id": 14025
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5146,
+            "entry_id": 8154
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5147,
+            "entry_id": 17399
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5149,
+            "entry_id": 6117
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5151,
+            "entry_id": 31334
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5153,
+            "entry_id": 17414
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5155,
+            "entry_id": 29034
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5174,
+            "entry_id": 3084
+        },
+        {
+            "band_gap": 5.181,
+            "calculation_id": 5176,
+            "entry_id": 4110
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5184,
+            "entry_id": 18981
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5187,
+            "entry_id": 18988
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5192,
+            "entry_id": 8147
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5194,
+            "entry_id": 8158
+        },
+        {
+            "band_gap": 2.319,
+            "calculation_id": 5196,
+            "entry_id": 7652
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5198,
+            "entry_id": 8168
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5199,
+            "entry_id": 8170
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5200,
+            "entry_id": 22530
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5209,
+            "entry_id": 22284
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5210,
+            "entry_id": 30061
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5213,
+            "entry_id": 22285
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5214,
+            "entry_id": 21518
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5215,
+            "entry_id": 29039
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5216,
+            "entry_id": 22287
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5218,
+            "entry_id": 11005
+        },
+        {
+            "band_gap": 4.487,
+            "calculation_id": 5224,
+            "entry_id": 4111
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5239,
+            "entry_id": 14032
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5242,
+            "entry_id": 8146
+        },
+        {
+            "band_gap": 2.106,
+            "calculation_id": 5248,
+            "entry_id": 8173
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5249,
+            "entry_id": 5615
+        },
+        {
+            "band_gap": 3.57,
+            "calculation_id": 5250,
+            "entry_id": 20234
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5251,
+            "entry_id": 17419
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5254,
+            "entry_id": 31087
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5259,
+            "entry_id": 17935
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5261,
+            "entry_id": 29043
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5262,
+            "entry_id": 30067
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5264,
+            "entry_id": 29044
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5267,
+            "entry_id": 10497
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5271,
+            "entry_id": 20242
+        },
+        {
+            "band_gap": 4.975,
+            "calculation_id": 5281,
+            "entry_id": 2577
+        },
+        {
+            "band_gap": 0.423,
+            "calculation_id": 5284,
+            "entry_id": 2578
+        },
+        {
+            "band_gap": 2.62,
+            "calculation_id": 5289,
+            "entry_id": 2580
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5295,
+            "entry_id": 8117
+        },
+        {
+            "band_gap": 0.967,
+            "calculation_id": 5297,
+            "entry_id": 20685
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5304,
+            "entry_id": 6116
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5305,
+            "entry_id": 6628
+        },
+        {
+            "band_gap": 2.61,
+            "calculation_id": 5308,
+            "entry_id": 13807
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5310,
+            "entry_id": 17670
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5311,
+            "entry_id": 21515
+        },
+        {
+            "band_gap": 2.458,
+            "calculation_id": 5312,
+            "entry_id": 20235
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5313,
+            "entry_id": 17676
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5315,
+            "entry_id": 31091
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5316,
+            "entry_id": 17424
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5317,
+            "entry_id": 19476
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5318,
+            "entry_id": 17429
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5320,
+            "entry_id": 17686
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5322,
+            "entry_id": 9226
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5336,
+            "entry_id": 5404
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5349,
+            "entry_id": 10930
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5351,
+            "entry_id": 8121
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5352,
+            "entry_id": 18905
+        },
+        {
+            "band_gap": 0.161,
+            "calculation_id": 5355,
+            "entry_id": 6119
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5362,
+            "entry_id": 21508
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5364,
+            "entry_id": 31079
+        },
+        {
+            "band_gap": 2.199,
+            "calculation_id": 5366,
+            "entry_id": 11508
+        },
+        {
+            "band_gap": 0.342,
+            "calculation_id": 5368,
+            "entry_id": 22537
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5370,
+            "entry_id": 21516
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5371,
+            "entry_id": 29816
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5372,
+            "entry_id": 17432
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5374,
+            "entry_id": 17944
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5375,
+            "entry_id": 11019
+        },
+        {
+            "band_gap": 1.367,
+            "calculation_id": 5381,
+            "entry_id": 5664
+        },
+        {
+            "band_gap": 1.751,
+            "calculation_id": 5390,
+            "entry_id": 4641
+        },
+        {
+            "band_gap": 13.842,
+            "calculation_id": 5399,
+            "entry_id": 12068
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5405,
+            "entry_id": 8171
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5411,
+            "entry_id": 21510
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5414,
+            "entry_id": 21517
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5415,
+            "entry_id": 30063
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5418,
+            "entry_id": 18193
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5419,
+            "entry_id": 30843
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5420,
+            "entry_id": 9225
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5422,
+            "entry_id": 17436
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5424,
+            "entry_id": 11022
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5446,
+            "entry_id": 8169
+        },
+        {
+            "band_gap": 3.455,
+            "calculation_id": 5447,
+            "entry_id": 11510
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5449,
+            "entry_id": 18721
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5459,
+            "entry_id": 4138
+        },
+        {
+            "band_gap": 2.323,
+            "calculation_id": 5461,
+            "entry_id": 5677
+        },
+        {
+            "band_gap": 1.084,
+            "calculation_id": 5469,
+            "entry_id": 6958
+        },
+        {
+            "band_gap": 6.781,
+            "calculation_id": 5473,
+            "entry_id": 5166
+        },
+        {
+            "band_gap": 0.366,
+            "calculation_id": 5477,
+            "entry_id": 4656
+        },
+        {
+            "band_gap": 5.432,
+            "calculation_id": 5483,
+            "entry_id": 5426
+        },
+        {
+            "band_gap": 4.53,
+            "calculation_id": 5488,
+            "entry_id": 5427
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5497,
+            "entry_id": 8157
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5498,
+            "entry_id": 17671
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5499,
+            "entry_id": 11000
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5501,
+            "entry_id": 30060
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5503,
+            "entry_id": 17168
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5504,
+            "entry_id": 17680
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5505,
+            "entry_id": 11012
+        },
+        {
+            "band_gap": 0.417000000000001,
+            "calculation_id": 5506,
+            "entry_id": 6913
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5507,
+            "entry_id": 29826
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5508,
+            "entry_id": 17441
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5509,
+            "entry_id": 10516
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5510,
+            "entry_id": 17700
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5511,
+            "entry_id": 17446
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5523,
+            "entry_id": 4149
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5529,
+            "entry_id": 4150
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5535,
+            "entry_id": 5176
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5539,
+            "entry_id": 22268
+        },
+        {
+            "band_gap": 3.367,
+            "calculation_id": 5541,
+            "entry_id": 11511
+        },
+        {
+            "band_gap": 3.948,
+            "calculation_id": 5543,
+            "entry_id": 11512
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5550,
+            "entry_id": 17685
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5551,
+            "entry_id": 5632
+        },
+        {
+            "band_gap": 2.611,
+            "calculation_id": 5557,
+            "entry_id": 8206
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5558,
+            "entry_id": 10777
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5560,
+            "entry_id": 5177
+        },
+        {
+            "band_gap": 9.633,
+            "calculation_id": 5566,
+            "entry_id": 7484
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5572,
+            "entry_id": 5179
+        },
+        {
+            "band_gap": 3.687,
+            "calculation_id": 5581,
+            "entry_id": 5181
+        },
+        {
+            "band_gap": 0.686,
+            "calculation_id": 5582,
+            "entry_id": 6974
+        },
+        {
+            "band_gap": 0.753,
+            "calculation_id": 5584,
+            "entry_id": 8001
+        },
+        {
+            "band_gap": 14.098,
+            "calculation_id": 5587,
+            "entry_id": 12071
+        },
+        {
+            "band_gap": 14.103,
+            "calculation_id": 5588,
+            "entry_id": 12072
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5590,
+            "entry_id": 14029
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5593,
+            "entry_id": 5611
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5594,
+            "entry_id": 21513
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5595,
+            "entry_id": 8182
+        },
+        {
+            "band_gap": 6.315,
+            "calculation_id": 5596,
+            "entry_id": 11514
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5597,
+            "entry_id": 29551
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5598,
+            "entry_id": 21520
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5600,
+            "entry_id": 17427
+        },
+        {
+            "band_gap": 2.792,
+            "calculation_id": 5602,
+            "entry_id": 22298
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5605,
+            "entry_id": 17187
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5606,
+            "entry_id": 21289
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5607,
+            "entry_id": 29834
+        },
+        {
+            "band_gap": 1.874,
+            "calculation_id": 5609,
+            "entry_id": 20780
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5611,
+            "entry_id": 8480
+        },
+        {
+            "band_gap": 3.363,
+            "calculation_id": 5615,
+            "entry_id": 5182
+        },
+        {
+            "band_gap": 0.966,
+            "calculation_id": 5617,
+            "entry_id": 6975
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5626,
+            "entry_id": 4671
+        },
+        {
+            "band_gap": 2.111,
+            "calculation_id": 5628,
+            "entry_id": 5183
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5630,
+            "entry_id": 18160
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5636,
+            "entry_id": 10940
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5637,
+            "entry_id": 8383
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5638,
+            "entry_id": 8389
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5639,
+            "entry_id": 6095
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5640,
+            "entry_id": 10965
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5641,
+            "entry_id": 30819
+        },
+        {
+            "band_gap": 4.521,
+            "calculation_id": 5642,
+            "entry_id": 11505
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5643,
+            "entry_id": 21509
+        },
+        {
+            "band_gap": 2.341,
+            "calculation_id": 5645,
+            "entry_id": 5616
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5652,
+            "entry_id": 22308
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5654,
+            "entry_id": 17457
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5655,
+            "entry_id": 17970
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5690,
+            "entry_id": 8112
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5693,
+            "entry_id": 5834
+        },
+        {
+            "band_gap": 0.874,
+            "calculation_id": 5695,
+            "entry_id": 6118
+        },
+        {
+            "band_gap": 4.153,
+            "calculation_id": 5697,
+            "entry_id": 11509
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5698,
+            "entry_id": 30058
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5699,
+            "entry_id": 21514
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5703,
+            "entry_id": 11517
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5704,
+            "entry_id": 17425
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5705,
+            "entry_id": 7682
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5706,
+            "entry_id": 8196
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5707,
+            "entry_id": 9221
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5710,
+            "entry_id": 22306
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5712,
+            "entry_id": 31121
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5714,
+            "entry_id": 31126
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5715,
+            "entry_id": 17460
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5722,
+            "entry_id": 4163
+        },
+        {
+            "band_gap": 13.832,
+            "calculation_id": 5727,
+            "entry_id": 12066
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5729,
+            "entry_id": 17861
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5731,
+            "entry_id": 13795
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5732,
+            "entry_id": 4568
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5734,
+            "entry_id": 7651
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5735,
+            "entry_id": 8172
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5737,
+            "entry_id": 22305
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5740,
+            "entry_id": 17454
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5744,
+            "entry_id": 30357
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5745,
+            "entry_id": 10789
+        },
+        {
+            "band_gap": 5.126,
+            "calculation_id": 5746,
+            "entry_id": 5151
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5748,
+            "entry_id": 10793
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5749,
+            "entry_id": 20282
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5767,
+            "entry_id": 20241
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5773,
+            "entry_id": 17439
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5779,
+            "entry_id": 30618
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5780,
+            "entry_id": 17207
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5781,
+            "entry_id": 20281
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5784,
+            "entry_id": 17467
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5785,
+            "entry_id": 17980
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5787,
+            "entry_id": 30370
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5789,
+            "entry_id": 10544
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5790,
+            "entry_id": 11312
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5791,
+            "entry_id": 17987
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5792,
+            "entry_id": 10550
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5793,
+            "entry_id": 10817
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5810,
+            "entry_id": 31106
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5811,
+            "entry_id": 10963
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5812,
+            "entry_id": 6096
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5813,
+            "entry_id": 14050
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5814,
+            "entry_id": 18158
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5815,
+            "entry_id": 5081
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5820,
+            "entry_id": 20743
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5821,
+            "entry_id": 20744
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5826,
+            "entry_id": 28037
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5827,
+            "entry_id": 17443
+        },
+        {
+            "band_gap": 3.978,
+            "calculation_id": 5828,
+            "entry_id": 4108
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5830,
+            "entry_id": 17448
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5831,
+            "entry_id": 17197
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5832,
+            "entry_id": 17459
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5833,
+            "entry_id": 17492
+        },
+        {
+            "band_gap": 1.341,
+            "calculation_id": 5836,
+            "entry_id": 5709
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5847,
+            "entry_id": 7247
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5852,
+            "entry_id": 7248
+        },
+        {
+            "band_gap": 0.773000000000001,
+            "calculation_id": 5858,
+            "entry_id": 5714
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5860,
+            "entry_id": 18159
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5862,
+            "entry_id": 22281
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5863,
+            "entry_id": 20243
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5864,
+            "entry_id": 22304
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5867,
+            "entry_id": 17212
+        },
+        {
+            "band_gap": 1.416,
+            "calculation_id": 5869,
+            "entry_id": 8235
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5870,
+            "entry_id": 10797
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5872,
+            "entry_id": 30881
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5873,
+            "entry_id": 10542
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5875,
+            "entry_id": 10799
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5876,
+            "entry_id": 17474
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5878,
+            "entry_id": 29867
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5880,
+            "entry_id": 17746
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5914,
+            "entry_id": 6836
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5916,
+            "entry_id": 6100
+        },
+        {
+            "band_gap": 2.637,
+            "calculation_id": 5918,
+            "entry_id": 11507
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5919,
+            "entry_id": 17170
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5920,
+            "entry_id": 10775
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5921,
+            "entry_id": 11031
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5923,
+            "entry_id": 18741
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5925,
+            "entry_id": 21569
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5926,
+            "entry_id": 30632
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5927,
+            "entry_id": 17989
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5928,
+            "entry_id": 17479
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5929,
+            "entry_id": 29100
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5930,
+            "entry_id": 29868
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5931,
+            "entry_id": 17481
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5932,
+            "entry_id": 10810
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5933,
+            "entry_id": 17995
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5937,
+            "entry_id": 10813
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5943,
+            "entry_id": 4949
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5955,
+            "entry_id": 3670
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5958,
+            "entry_id": 3671
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5970,
+            "entry_id": 17750
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5972,
+            "entry_id": 18015
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5978,
+            "entry_id": 30774
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5980,
+            "entry_id": 8161
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5984,
+            "entry_id": 11516
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5985,
+            "entry_id": 13825
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5986,
+            "entry_id": 21519
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 5987,
+            "entry_id": 17422
+        },
+        {
+            "band_gap": 3.583,
+            "calculation_id": 5993,
+            "entry_id": 19509
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6004,
+            "entry_id": 31332
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6006,
+            "entry_id": 17677
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6008,
+            "entry_id": 11013
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6014,
+            "entry_id": 3679
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6023,
+            "entry_id": 30376
+        },
+        {
+            "band_gap": 3.359,
+            "calculation_id": 6024,
+            "entry_id": 21321
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6025,
+            "entry_id": 17225
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6027,
+            "entry_id": 7479
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6030,
+            "entry_id": 10558
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6031,
+            "entry_id": 17486
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6032,
+            "entry_id": 10561
+        },
+        {
+            "band_gap": 8.496,
+            "calculation_id": 6033,
+            "entry_id": 5180
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6039,
+            "entry_id": 4707
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6043,
+            "entry_id": 21307
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6044,
+            "entry_id": 21563
+        },
+        {
+            "band_gap": 5.121,
+            "calculation_id": 6049,
+            "entry_id": 3685
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6050,
+            "entry_id": 17703
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6051,
+            "entry_id": 7452
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6054,
+            "entry_id": 30616
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6057,
+            "entry_id": 30631
+        },
+        {
+            "band_gap": 1.499,
+            "calculation_id": 6062,
+            "entry_id": 7523
+        },
+        {
+            "band_gap": 4.361,
+            "calculation_id": 6068,
+            "entry_id": 3682
+        },
+        {
+            "band_gap": 5.354,
+            "calculation_id": 6069,
+            "entry_id": 3683
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6073,
+            "entry_id": 5736
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6076,
+            "entry_id": 21324
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6084,
+            "entry_id": 6924
+        },
+        {
+            "band_gap": 3.87,
+            "calculation_id": 6085,
+            "entry_id": 4109
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6087,
+            "entry_id": 17490
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6088,
+            "entry_id": 10823
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6091,
+            "entry_id": 5734
+        },
+        {
+            "band_gap": 4.454,
+            "calculation_id": 6094,
+            "entry_id": 3684
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6095,
+            "entry_id": 5735
+        },
+        {
+            "band_gap": 4.438,
+            "calculation_id": 6097,
+            "entry_id": 3686
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6100,
+            "entry_id": 8120
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6105,
+            "entry_id": 4567
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6113,
+            "entry_id": 17421
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6114,
+            "entry_id": 20240
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6116,
+            "entry_id": 1897
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6119,
+            "entry_id": 1898
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6121,
+            "entry_id": 17215
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6122,
+            "entry_id": 4151
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6123,
+            "entry_id": 17751
+        },
+        {
+            "band_gap": 2.377,
+            "calculation_id": 6124,
+            "entry_id": 12625
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6126,
+            "entry_id": 18797
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6127,
+            "entry_id": 5737
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6128,
+            "entry_id": 5738
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6145,
+            "entry_id": 30095
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6147,
+            "entry_id": 21322
+        },
+        {
+            "band_gap": 0.264,
+            "calculation_id": 6148,
+            "entry_id": 4657
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6150,
+            "entry_id": 10822
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6154,
+            "entry_id": 5236
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6158,
+            "entry_id": 6097
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6159,
+            "entry_id": 18979
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6160,
+            "entry_id": 22310
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6161,
+            "entry_id": 22313
+        },
+        {
+            "band_gap": 6.852,
+            "calculation_id": 6162,
+            "entry_id": 5686
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6165,
+            "entry_id": 8487
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6166,
+            "entry_id": 21323
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6167,
+            "entry_id": 30124
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6168,
+            "entry_id": 21326
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6169,
+            "entry_id": 22360
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6176,
+            "entry_id": 7540
+        },
+        {
+            "band_gap": 0.372,
+            "calculation_id": 6190,
+            "entry_id": 29026
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6194,
+            "entry_id": 18199
+        },
+        {
+            "band_gap": 0.548999999999999,
+            "calculation_id": 6198,
+            "entry_id": 14102
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6200,
+            "entry_id": 21332
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6203,
+            "entry_id": 17780
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6210,
+            "entry_id": 8051
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6222,
+            "entry_id": 18488
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6223,
+            "entry_id": 21327
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6224,
+            "entry_id": 13637
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6226,
+            "entry_id": 17496
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6231,
+            "entry_id": 5242
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6235,
+            "entry_id": 8472
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6236,
+            "entry_id": 28054
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6239,
+            "entry_id": 10539
+        },
+        {
+            "band_gap": 0.691,
+            "calculation_id": 6241,
+            "entry_id": 11589
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6242,
+            "entry_id": 10576
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6245,
+            "entry_id": 10087
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6246,
+            "entry_id": 29922
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6249,
+            "entry_id": 21308
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6251,
+            "entry_id": 8239
+        },
+        {
+            "band_gap": 1.708,
+            "calculation_id": 6253,
+            "entry_id": 5695
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6254,
+            "entry_id": 17500
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6256,
+            "entry_id": 5238
+        },
+        {
+            "band_gap": 0.422,
+            "calculation_id": 6258,
+            "entry_id": 14105
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6261,
+            "entry_id": 20836
+        },
+        {
+            "band_gap": 1.376,
+            "calculation_id": 6262,
+            "entry_id": 4708
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6288,
+            "entry_id": 5239
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6291,
+            "entry_id": 20089
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6292,
+            "entry_id": 6099
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6293,
+            "entry_id": 10969
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6294,
+            "entry_id": 6101
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6296,
+            "entry_id": 10971
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6298,
+            "entry_id": 21522
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6300,
+            "entry_id": 21330
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6301,
+            "entry_id": 21338
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6302,
+            "entry_id": 8519
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6303,
+            "entry_id": 17248
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6305,
+            "entry_id": 18785
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6306,
+            "entry_id": 30405
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6310,
+            "entry_id": 18050
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6311,
+            "entry_id": 17795
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6312,
+            "entry_id": 22410
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6320,
+            "entry_id": 30778
+        },
+        {
+            "band_gap": 18.437,
+            "calculation_id": 6321,
+            "entry_id": 8394
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6322,
+            "entry_id": 10957
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6327,
+            "entry_id": 20522
+        },
+        {
+            "band_gap": 0.508,
+            "calculation_id": 6328,
+            "entry_id": 27280
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6329,
+            "entry_id": 21325
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6330,
+            "entry_id": 20565
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6332,
+            "entry_id": 10573
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6333,
+            "entry_id": 13907
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6334,
+            "entry_id": 22370
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6335,
+            "entry_id": 20837
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6337,
+            "entry_id": 18788
+        },
+        {
+            "band_gap": 1.806,
+            "calculation_id": 6343,
+            "entry_id": 5241
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6349,
+            "entry_id": 4731
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6351,
+            "entry_id": 8113
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6352,
+            "entry_id": 8384
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6356,
+            "entry_id": 22368
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6358,
+            "entry_id": 10323
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6359,
+            "entry_id": 30152
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6360,
+            "entry_id": 17512
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6365,
+            "entry_id": 8063
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6374,
+            "entry_id": 18987
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6377,
+            "entry_id": 8273
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6378,
+            "entry_id": 29642
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6384,
+            "entry_id": 8506
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6415,
+            "entry_id": 6098
+        },
+        {
+            "band_gap": 1.105,
+            "calculation_id": 6416,
+            "entry_id": 5614
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6419,
+            "entry_id": 10840
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6422,
+            "entry_id": 18025
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6427,
+            "entry_id": 17522
+        },
+        {
+            "band_gap": 4.062,
+            "calculation_id": 6429,
+            "entry_id": 20622
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6430,
+            "entry_id": 10365
+        },
+        {
+            "band_gap": 2.068,
+            "calculation_id": 6433,
+            "entry_id": 5771
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6445,
+            "entry_id": 7823
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6446,
+            "entry_id": 8079
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6450,
+            "entry_id": 8080
+        },
+        {
+            "band_gap": 2.172,
+            "calculation_id": 6458,
+            "entry_id": 11321
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6459,
+            "entry_id": 17484
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6460,
+            "entry_id": 21331
+        },
+        {
+            "band_gap": 0.773,
+            "calculation_id": 6463,
+            "entry_id": 12378
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6465,
+            "entry_id": 10846
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6466,
+            "entry_id": 30932
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6467,
+            "entry_id": 17525
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6469,
+            "entry_id": 18038
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6470,
+            "entry_id": 30426
+        },
+        {
+            "band_gap": 0.641,
+            "calculation_id": 6472,
+            "entry_id": 4497
+        },
+        {
+            "band_gap": 0.617,
+            "calculation_id": 6484,
+            "entry_id": 4498
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6489,
+            "entry_id": 6293
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6492,
+            "entry_id": 9295
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6494,
+            "entry_id": 21337
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6501,
+            "entry_id": 14013
+        },
+        {
+            "band_gap": 3.926,
+            "calculation_id": 6502,
+            "entry_id": 11506
+        },
+        {
+            "band_gap": 1.484,
+            "calculation_id": 6504,
+            "entry_id": 6296
+        },
+        {
+            "band_gap": 7.051,
+            "calculation_id": 6505,
+            "entry_id": 8091
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6506,
+            "entry_id": 22276
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6508,
+            "entry_id": 21521
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6510,
+            "entry_id": 22303
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6515,
+            "entry_id": 10077
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6516,
+            "entry_id": 17776
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6517,
+            "entry_id": 18036
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6519,
+            "entry_id": 17530
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6522,
+            "entry_id": 10623
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6528,
+            "entry_id": 8254
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6529,
+            "entry_id": 17297
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6531,
+            "entry_id": 10375
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6532,
+            "entry_id": 18839
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6533,
+            "entry_id": 18073
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6534,
+            "entry_id": 17306
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6535,
+            "entry_id": 27646
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6536,
+            "entry_id": 29950
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6537,
+            "entry_id": 31231
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6538,
+            "entry_id": 10894
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6540,
+            "entry_id": 7826
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6543,
+            "entry_id": 8507
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6544,
+            "entry_id": 17538
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6546,
+            "entry_id": 4248
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6551,
+            "entry_id": 22314
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6553,
+            "entry_id": 10632
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6554,
+            "entry_id": 29957
+        },
+        {
+            "band_gap": 5.246,
+            "calculation_id": 6559,
+            "entry_id": 3735
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6563,
+            "entry_id": 21309
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6564,
+            "entry_id": 8252
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6565,
+            "entry_id": 5178
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6566,
+            "entry_id": 21334
+        },
+        {
+            "band_gap": 0.629,
+            "calculation_id": 6567,
+            "entry_id": 10066
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6570,
+            "entry_id": 8281
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6573,
+            "entry_id": 30434
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6574,
+            "entry_id": 17536
+        },
+        {
+            "band_gap": 5.123,
+            "calculation_id": 6575,
+            "entry_id": 5995
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6576,
+            "entry_id": 13691
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6579,
+            "entry_id": 9288
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6581,
+            "entry_id": 18044
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6582,
+            "entry_id": 27877
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6583,
+            "entry_id": 10867
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6584,
+            "entry_id": 17541
+        },
+        {
+            "band_gap": 2.627,
+            "calculation_id": 6587,
+            "entry_id": 21113
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6588,
+            "entry_id": 17788
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6589,
+            "entry_id": 18067
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6591,
+            "entry_id": 10125
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6592,
+            "entry_id": 10639
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6597,
+            "entry_id": 30950
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6598,
+            "entry_id": 10359
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6600,
+            "entry_id": 10936
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6601,
+            "entry_id": 5822
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6604,
+            "entry_id": 18457
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6605,
+            "entry_id": 18458
+        },
+        {
+            "band_gap": 1.313,
+            "calculation_id": 6606,
+            "entry_id": 23862
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6607,
+            "entry_id": 11024
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6608,
+            "entry_id": 11301
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6609,
+            "entry_id": 8484
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6625,
+            "entry_id": 21329
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6628,
+            "entry_id": 30413
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6629,
+            "entry_id": 30414
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6633,
+            "entry_id": 9319
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6640,
+            "entry_id": 1949
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6643,
+            "entry_id": 10280
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6644,
+            "entry_id": 21336
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6645,
+            "entry_id": 8272
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6646,
+            "entry_id": 30156
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6647,
+            "entry_id": 7771
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6648,
+            "entry_id": 18818
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6649,
+            "entry_id": 19332
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6650,
+            "entry_id": 19333
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6651,
+            "entry_id": 18054
+        },
+        {
+            "band_gap": 0.596,
+            "calculation_id": 6652,
+            "entry_id": 21386
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6653,
+            "entry_id": 11128
+        },
+        {
+            "band_gap": 2.249,
+            "calculation_id": 6654,
+            "entry_id": 5783
+        },
+        {
+            "band_gap": 0.696,
+            "calculation_id": 6659,
+            "entry_id": 22367
+        },
+        {
+            "band_gap": 1.627,
+            "calculation_id": 6660,
+            "entry_id": 12376
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6661,
+            "entry_id": 10361
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6662,
+            "entry_id": 18313
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6663,
+            "entry_id": 18829
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6664,
+            "entry_id": 19341
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6665,
+            "entry_id": 29686
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6667,
+            "entry_id": 21407
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6668,
+            "entry_id": 18088
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6673,
+            "entry_id": 21306
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6675,
+            "entry_id": 21335
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6677,
+            "entry_id": 8278
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6678,
+            "entry_id": 10879
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6679,
+            "entry_id": 17583
+        },
+        {
+            "band_gap": 2.222,
+            "calculation_id": 6691,
+            "entry_id": 5793
+        },
+        {
+            "band_gap": 1.195,
+            "calculation_id": 6692,
+            "entry_id": 2466
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6694,
+            "entry_id": 8431
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6695,
+            "entry_id": 18454
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6700,
+            "entry_id": 30415
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6705,
+            "entry_id": 8485
+        },
+        {
+            "band_gap": 0.367999999999999,
+            "calculation_id": 6706,
+            "entry_id": 10315
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6707,
+            "entry_id": 20574
+        },
+        {
+            "band_gap": 2.953,
+            "calculation_id": 6709,
+            "entry_id": 10081
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6710,
+            "entry_id": 10609
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6711,
+            "entry_id": 18057
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6712,
+            "entry_id": 19339
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6722,
+            "entry_id": 11590
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6725,
+            "entry_id": 8285
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6726,
+            "entry_id": 30423
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6727,
+            "entry_id": 10362
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6743,
+            "entry_id": 16942
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6744,
+            "entry_id": 20278
+        },
+        {
+            "band_gap": 0.217,
+            "calculation_id": 6745,
+            "entry_id": 30151
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6747,
+            "entry_id": 8535
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6748,
+            "entry_id": 3678
+        },
+        {
+            "band_gap": 1.754,
+            "calculation_id": 6750,
+            "entry_id": 7553
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6753,
+            "entry_id": 18100
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6775,
+            "entry_id": 28120
+        },
+        {
+            "band_gap": 4.237,
+            "calculation_id": 6780,
+            "entry_id": 8090
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6786,
+            "entry_id": 9275
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6787,
+            "entry_id": 14069
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6788,
+            "entry_id": 8260
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6789,
+            "entry_id": 11602
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6790,
+            "entry_id": 18072
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6799,
+            "entry_id": 10900
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6800,
+            "entry_id": 22454
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6808,
+            "entry_id": 18717
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6809,
+            "entry_id": 11153
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6810,
+            "entry_id": 31237
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6837,
+            "entry_id": 11137
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6843,
+            "entry_id": 8149
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6846,
+            "entry_id": 21328
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6848,
+            "entry_id": 10320
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6850,
+            "entry_id": 8293
+        },
+        {
+            "band_gap": 0.366,
+            "calculation_id": 6853,
+            "entry_id": 7552
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6854,
+            "entry_id": 18325
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6855,
+            "entry_id": 17558
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6856,
+            "entry_id": 18076
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6858,
+            "entry_id": 21409
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6860,
+            "entry_id": 10896
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6861,
+            "entry_id": 10128
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6862,
+            "entry_id": 10649
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6863,
+            "entry_id": 10906
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6864,
+            "entry_id": 18090
+        },
+        {
+            "band_gap": 3.857,
+            "calculation_id": 6865,
+            "entry_id": 8355
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6866,
+            "entry_id": 18106
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6870,
+            "entry_id": 1956
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6873,
+            "entry_id": 10672
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6882,
+            "entry_id": 8385
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6886,
+            "entry_id": 13641
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6887,
+            "entry_id": 8517
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6889,
+            "entry_id": 8269
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6890,
+            "entry_id": 30411
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6893,
+            "entry_id": 8286
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6896,
+            "entry_id": 11114
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6897,
+            "entry_id": 18819
+        },
+        {
+            "band_gap": 0.894,
+            "calculation_id": 6899,
+            "entry_id": 28662
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6901,
+            "entry_id": 18079
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6904,
+            "entry_id": 18083
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6905,
+            "entry_id": 17063
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6906,
+            "entry_id": 17320
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6907,
+            "entry_id": 14033
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6909,
+            "entry_id": 21512
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6910,
+            "entry_id": 8251
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6916,
+            "entry_id": 8295
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6918,
+            "entry_id": 5237
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6919,
+            "entry_id": 17314
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6923,
+            "entry_id": 30990
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6925,
+            "entry_id": 17067
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6927,
+            "entry_id": 11166
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6929,
+            "entry_id": 18097
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6930,
+            "entry_id": 10673
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6935,
+            "entry_id": 5809
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6945,
+            "entry_id": 22432
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6946,
+            "entry_id": 11159
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6948,
+            "entry_id": 18099
+        },
+        {
+            "band_gap": 1.198,
+            "calculation_id": 6956,
+            "entry_id": 3258
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6981,
+            "entry_id": 18759
+        },
+        {
+            "band_gap": 0.574,
+            "calculation_id": 6984,
+            "entry_id": 7551
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6985,
+            "entry_id": 19093
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6987,
+            "entry_id": 18867
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 6988,
+            "entry_id": 22456
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7003,
+            "entry_id": 17895
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7005,
+            "entry_id": 8294
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7008,
+            "entry_id": 30994
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7010,
+            "entry_id": 30230
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7011,
+            "entry_id": 18101
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7012,
+            "entry_id": 17590
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7013,
+            "entry_id": 17591
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7014,
+            "entry_id": 17596
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7024,
+            "entry_id": 5240
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7025,
+            "entry_id": 10370
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7026,
+            "entry_id": 17064
+        },
+        {
+            "band_gap": 3.656,
+            "calculation_id": 7027,
+            "entry_id": 8089
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7028,
+            "entry_id": 17838
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7029,
+            "entry_id": 18094
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7030,
+            "entry_id": 18869
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7031,
+            "entry_id": 11177
+        },
+        {
+            "band_gap": 0.95,
+            "calculation_id": 7032,
+            "entry_id": 10164
+        },
+        {
+            "band_gap": 2.089,
+            "calculation_id": 7040,
+            "entry_id": 2587
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7041,
+            "entry_id": 10381
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7053,
+            "entry_id": 8279
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7055,
+            "entry_id": 22430
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7056,
+            "entry_id": 17321
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7057,
+            "entry_id": 17580
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7058,
+            "entry_id": 11171
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7060,
+            "entry_id": 10665
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7062,
+            "entry_id": 18111
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7063,
+            "entry_id": 29989
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7079,
+            "entry_id": 17053
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7080,
+            "entry_id": 10660
+        },
+        {
+            "band_gap": 1.259,
+            "calculation_id": 7101,
+            "entry_id": 14796
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7103,
+            "entry_id": 21497
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7107,
+            "entry_id": 18755
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7109,
+            "entry_id": 8270
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7110,
+            "entry_id": 16746
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7111,
+            "entry_id": 19092
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7112,
+            "entry_id": 10662
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7113,
+            "entry_id": 30236
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7115,
+            "entry_id": 10667
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7117,
+            "entry_id": 17597
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7130,
+            "entry_id": 13939
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7134,
+            "entry_id": 30745
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7135,
+            "entry_id": 5808
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7136,
+            "entry_id": 14011
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7140,
+            "entry_id": 18312
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7144,
+            "entry_id": 30158
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7148,
+            "entry_id": 22455
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7162,
+            "entry_id": 13741
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7166,
+            "entry_id": 10173
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7170,
+            "entry_id": 30736
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7172,
+            "entry_id": 17600
+        },
+        {
+            "band_gap": 1.06,
+            "calculation_id": 7183,
+            "entry_id": 3814
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7191,
+            "entry_id": 18776
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7193,
+            "entry_id": 22433
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7195,
+            "entry_id": 16037
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7197,
+            "entry_id": 30751
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7199,
+            "entry_id": 5805
+        },
+        {
+            "band_gap": 1.063,
+            "calculation_id": 7200,
+            "entry_id": 20934
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7201,
+            "entry_id": 30247
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7208,
+            "entry_id": 30750
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7231,
+            "entry_id": 20394
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7243,
+            "entry_id": 18374
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7245,
+            "entry_id": 8477
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7253,
+            "entry_id": 31001
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7255,
+            "entry_id": 16721
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7257,
+            "entry_id": 10401
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7259,
+            "entry_id": 10103
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7262,
+            "entry_id": 10426
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7263,
+            "entry_id": 8282
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7268,
+            "entry_id": 17603
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7269,
+            "entry_id": 5807
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7274,
+            "entry_id": 20679
+        },
+        {
+            "band_gap": 0.95,
+            "calculation_id": 7275,
+            "entry_id": 10165
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7279,
+            "entry_id": 11175
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7280,
+            "entry_id": 18110
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7281,
+            "entry_id": 18378
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7296,
+            "entry_id": 8265
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7297,
+            "entry_id": 18789
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7298,
+            "entry_id": 8297
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7302,
+            "entry_id": 10102
+        },
+        {
+            "band_gap": 0.364,
+            "calculation_id": 7304,
+            "entry_id": 18319
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7314,
+            "entry_id": 5806
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7320,
+            "entry_id": 20929
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7323,
+            "entry_id": 10688
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7327,
+            "entry_id": 16038
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7337,
+            "entry_id": 13946
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7338,
+            "entry_id": 22450
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7352,
+            "entry_id": 13677
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7353,
+            "entry_id": 11906
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7358,
+            "entry_id": 22369
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7362,
+            "entry_id": 18322
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7363,
+            "entry_id": 18105
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7364,
+            "entry_id": 13743
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7365,
+            "entry_id": 18108
+        },
+        {
+            "band_gap": 3.218,
+            "calculation_id": 7393,
+            "entry_id": 15297
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7395,
+            "entry_id": 10693
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7398,
+            "entry_id": 8179
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7403,
+            "entry_id": 17637
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7404,
+            "entry_id": 5847
+        },
+        {
+            "band_gap": 0.281000000000001,
+            "calculation_id": 7405,
+            "entry_id": 17649
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7406,
+            "entry_id": 5087
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7418,
+            "entry_id": 4570
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7419,
+            "entry_id": 5848
+        },
+        {
+            "band_gap": 0.331,
+            "calculation_id": 7425,
+            "entry_id": 20081
+        },
+        {
+            "band_gap": 7.225,
+            "calculation_id": 7427,
+            "entry_id": 5539
+        },
+        {
+            "band_gap": 3.824,
+            "calculation_id": 7428,
+            "entry_id": 14047
+        },
+        {
+            "band_gap": 0.821,
+            "calculation_id": 7429,
+            "entry_id": 3580
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7450,
+            "entry_id": 21461
+        },
+        {
+            "band_gap": 0.3,
+            "calculation_id": 7476,
+            "entry_id": 7530
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7484,
+            "entry_id": 14010
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7490,
+            "entry_id": 13703
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7493,
+            "entry_id": 31022
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7494,
+            "entry_id": 17653
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7495,
+            "entry_id": 8428
+        },
+        {
+            "band_gap": 0.747,
+            "calculation_id": 7507,
+            "entry_id": 11966
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7524,
+            "entry_id": 22228
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7526,
+            "entry_id": 29771
+        },
+        {
+            "band_gap": 0.622999999999999,
+            "calculation_id": 7537,
+            "entry_id": 21472
+        },
+        {
+            "band_gap": 4.343,
+            "calculation_id": 7539,
+            "entry_id": 14048
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7540,
+            "entry_id": 12787
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7544,
+            "entry_id": 18102
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7552,
+            "entry_id": 28939
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7556,
+            "entry_id": 19195
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7564,
+            "entry_id": 8476
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7566,
+            "entry_id": 8221
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7591,
+            "entry_id": 10934
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7603,
+            "entry_id": 10648
+        },
+        {
+            "band_gap": 2.422,
+            "calculation_id": 7604,
+            "entry_id": 20395
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7605,
+            "entry_id": 8088
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7607,
+            "entry_id": 30512
+        },
+        {
+            "band_gap": 1.807,
+            "calculation_id": 7608,
+            "entry_id": 6332
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7612,
+            "entry_id": 10968
+        },
+        {
+            "band_gap": 0.0,
+            "calculation_id": 7613,
+            "entry_id": 8473
+        }
+    ]
+}
