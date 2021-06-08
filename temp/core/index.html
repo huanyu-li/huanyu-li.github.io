@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Materials Design Ontology - Core Module</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <style>
+        #pylode {
+            position: fixed;
+            top: 80px;
+            left: -60px;
+            font-size: small;
+            transform: rotate(-90deg);
+            color: grey;
+        }
+        #pylode a {
+            font-size: 2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #005A9C;
+        }
+        #pylode a:hover {
+            color: #333;
+        }
+
+        .cardinality {
+            font-style: italic;
+            color: #aa00aa;
+        }
+
+        dt {
+            font-weight: bold;
+            padding: 5px 0 5px 0;
+        }
+
+        ul.hlist {
+            list-style-type: none;
+            border: 1px solid navy;
+            padding:5px;
+            background-color: #F4FFFF;
+        }
+
+        ul.hierarchy {
+            border: 1px solid navy;
+            padding: 5px 25px 5px 25px;
+            background-color: #F4FFFF;
+        }
+
+
+        ul.hlist li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .entity {
+            border: 1px solid navy;
+            margin:5px 0 5px 0;
+            padding: 5px;
+        }
+
+        .entity th {
+            width: 150px;
+            vertical-align: top;
+        }
+
+        .entity th,
+        .entity td {
+            padding-bottom: 20px;
+        }
+
+        .entity table th {
+            text-align: left;
+        }
+
+        section#overview img {
+            max-width: 1000px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            text-align: left
+        }
+        h1, h2, h3 {
+            color: #005A9C; background: white
+        }
+        h1 {
+            font: 170% sans-serif;
+            line-height: 110%;
+        }
+        h2 {
+            font: 140% sans-serif;
+            margin-top:40px;
+        }
+        h3 {
+            font: 120% sans-serif;
+            margin-top: 3px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid navy;
+        }
+        h4 { font: bold 100% sans-serif }
+        h5 { font: italic 100% sans-serif }
+        h6 { font: small-caps 100% sans-serif }
+
+
+        body {
+            padding: 2em 70px 2em 70px;
+            margin: 0;
+            font-family: sans-serif;
+            color: black;
+            background: white;
+            background-position: top left;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        section {
+            max-width: 1500px;
+        }
+
+        .figure {
+            margin-bottom: 20px;
+        }
+
+        :link { color: #00C; background: transparent }
+        :visited { color: #609; background: transparent }
+        a:active { color: #C00; background: transparent }
+
+        .sup-c,
+        .sup-op,
+        .sup-fp,
+        .sup-dp,
+        .sup-ap,
+        .sup-p,
+        .sup-ni,
+        .sup-cp,
+        .sup-cl {
+            cursor:help;
+            margin-left: 3px;
+        }
+
+        .sup-c {
+            color:orange;
+        }
+
+        .sup-op {
+            color:navy;
+        }
+
+        .sup-fp {
+            color:lightskyblue;
+        }
+
+        .sup-dp {
+            color:green;
+        }
+
+        .sup-ap {
+            color:darkred;
+        }
+
+        .sup-p {
+            color:black;
+        }
+
+        .sup-ni {
+            color:brown;
+        }
+
+        .sup-cp {
+            color:orange;
+        }
+
+        .sup-cl {
+            color:darkred;
+        }
+
+        code {
+            font-size: large;
+            color: darkred;
+        }
+
+    </style>
+    
+    <script type="application/ld+json">
+      [
+  {
+    "@id": "https://w3id.org/mdo/core/",
+    "@type": [
+      "https://schema.org/DefinedTermSet"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "<p>This is the core module in Materials Design Ontology.</p>"
+      }
+    ],
+    "https://schema.org/license": [
+      {
+        "@id": "https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Materials Design Ontology - Core Module"
+      }
+    ]
+  }
+]
+    </script>
+</head>
+<body>
+<div id="pylode">made by <a href="http://github.com/rdflib/pyLODE"><span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a></div>
+<h1>Materials Design Ontology - Core Module</h1>
+<section id="metadata">
+    <h2 style="display:none;">Metadata</h2>
+    <dl>
+        <dt>IRI</dt>
+        <dd><code>https://w3id.org/mdo/core/</code></dd>
+        <dt>Creator(s)</dt>
+        <dd>
+            Huanyu Li<br/>
+        </dd>
+        <dt>Contributors(s)</dt>
+        <dd>
+            Rickard Armiento<br/>
+            Patrick Lambrix<br/>
+        </dd>
+        <dt>Created</dt>
+        <dd>2019-11-07</dd>
+        <dt>Version Information</dt>
+        <dd>1.0</dd>
+        <dt>Version IRI</dt>
+        <dd><a href="https://w3id.org/mdo/core/1.0/">https://w3id.org/mdo/core/1.0/</a></dd>
+        <dt>License</dt>
+        <dd><a href="https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE">https://github.com/huanyu-li/Materials-Design-Ontology/blob/master/LICENSE</a></dd>
+        <dt>Ontology RDF</dt>
+        <dd><a href="mdo-core.owl">RDF (xml)</a></dd>
+    </dl>
+    <h2>Description</h2>
+    <div id="description">
+        <p>This is the core module in Materials Design Ontology.</p>
+    </div>
+</section>
+<section id="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#objectproperties">Object Properties</a></li>
+        <li><a href="#datatypeproperties">Datatype Properties</a></li>
+        <li><a href="#annotationproperties">Annotation Properties</a></li>
+        <li><a href="#namedindividuals">Named Individuals</a></li>
+        <li><a href="#namespaces">Namespaces</a></li>
+        <li><a href="#legend">Legend</a></li>
+    </ol>
+</section>
+<section id="overview">
+    <h2>Overview</h2>
+    <div class="figure">
+        <iframe width="100%" height ="800px" src="webvowl/index.html#mdo-core"></iframe>
+        <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
+    </div>
+</section>
+<section id="classes">
+    <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#CalculatedProperty">Calculated Property</a></li>
+        <li><a href="#Calculation">Calculation</a></li>
+        <li><a href="#Material">Material</a></li>
+        <li><a href="#PhysicalProperty">Physical Property</a></li>
+        <li><a href="#Property">Property</a></li>
+        <li><a href="#Quantity">Quantity</a></li>
+        <li><a href="#QuantityKind">QuantityKind</a></li>
+        <li><a href="#QuantityValue">QuantityValue</a></li>
+        <li><a href="#Structure">Structure</a></li>
+        <li><a href="#Unit">Unit</a></li>
+    </ul>
+    <div class="entity class" id="Material">
+        <h3>Material<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94</code></td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/relatesToMaterial">relatesToMaterial</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Quantity">
+        <h3>Quantity<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/Quantity</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="QuantityKind">
+        <h3>QuantityKind<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/QuantityKind</code></td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/hasQuantityKind">qudt:hasQuantityKind</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="QuantityValue">
+        <h3>QuantityValue<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/QuantityValue</code></td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/quantityValue">qudt:quantityValue</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Unit">
+        <h3>Unit<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/vocab/unit/Unit</code></td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/unit">qudt:unit</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="CalculatedProperty">
+        <h3>Calculated Property<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/CalculatedProperty</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A calculated property is a proprty that is a result from a calculation.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/hasOutputCalculatedProperty">hasOutputCalculatedProperty</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Calculation">
+        <h3>Calculation<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/Calculation</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A calculation is the use of a specific computational method to process structures and/or properties into output structures and/or calculated properties.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    (<a href="N862f59479ece4605b6723ae3f2689d05">N862f59479ece4605b6723ae3f2689d05</a><sup class="sup-c" title="class">c</sup> and <a href="N6ad5cd15d0114c458c5751d58d1a99aa">N6ad5cd15d0114c458c5751d58d1a99aa</a><sup class="sup-c" title="class">c</sup> and <a href="N1fed3805d3e24462b5d27024f9c8c2d6">N1fed3805d3e24462b5d27024f9c8c2d6</a><sup class="sup-c" title="class">c</sup> and <a href="Nfbe872dd54a64a77954632f9fc25f98d">Nfbe872dd54a64a77954632f9fc25f98d</a><sup class="sup-c" title="class">c</sup> and <a href="Naa94991ed00d47409cc6f3ba5aaab6af">Naa94991ed00d47409cc6f3ba5aaab6af</a><sup class="sup-c" title="class">c</sup> and <a href="N7ccb1c4316594769b23eff1dd19b31e2">N7ccb1c4316594769b23eff1dd19b31e2</a><sup class="sup-c" title="class">c</sup>)<br/>
+                    (<a href="N862f59479ece4605b6723ae3f2689d05">N862f59479ece4605b6723ae3f2689d05</a><sup class="sup-c" title="class">c</sup> and <a href="N6ad5cd15d0114c458c5751d58d1a99aa">N6ad5cd15d0114c458c5751d58d1a99aa</a><sup class="sup-c" title="class">c</sup> and <a href="N1fed3805d3e24462b5d27024f9c8c2d6">N1fed3805d3e24462b5d27024f9c8c2d6</a><sup class="sup-c" title="class">c</sup> and <a href="Nfbe872dd54a64a77954632f9fc25f98d">Nfbe872dd54a64a77954632f9fc25f98d</a><sup class="sup-c" title="class">c</sup> and <a href="Naa94991ed00d47409cc6f3ba5aaab6af">Naa94991ed00d47409cc6f3ba5aaab6af</a><sup class="sup-c" title="class">c</sup> and <a href="N7ccb1c4316594769b23eff1dd19b31e2">N7ccb1c4316594769b23eff1dd19b31e2</a><sup class="sup-c" title="class">c</sup>)<br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/ID">ID</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasInputProperty">hasInputProperty</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasOutputCalculatedProperty">hasOutputCalculatedProperty</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="PhysicalProperty">
+        <h3>Physical Property<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/PhysicalProperty</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A physical property is an objective property over a physical system. (ie, a property pertains to the physical reality)</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Property">
+        <h3>Property<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/Property</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A property in materials design is data pertaining to at least one material or materials system.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/Quantity">qudt:Quantity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/PhysicalProperty">PhysicalProperty</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/mdo/core/CalculatedProperty">CalculatedProperty</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/relatesToStructure">relatesToStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/PropertyName">PropertyName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/hasInputProperty">hasInputProperty</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Structure">
+        <h3>Structure<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/Structure</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A structure is the information of the sites and their occupancies in a material or materials system.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    (<a href="N7ed261f7f7f2443ca2562327db6055e6">N7ed261f7f7f2443ca2562327db6055e6</a><sup class="sup-c" title="class">c</sup> and <a href="Nbdef4b76ccaa471fb2e3abb87faa3097">Nbdef4b76ccaa471fb2e3abb87faa3097</a><sup class="sup-c" title="class">c</sup>)<br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/relatesToMaterial">relatesToMaterial</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/hasInputStructure">hasInputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/hasOutputStructure">hasOutputStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/mdo/core/relatesToStructure">relatesToStructure</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+<section id="objectproperties">
+    <h2>Object Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#hasQuantityKind">hasQuantityKind</a></li>
+        <li><a href="#quantityValue">quantityValue</a></li>
+        <li><a href="#unit">unit</a></li>
+        <li><a href="#hasinputproperty">has input property</a></li>
+        <li><a href="#hasinputstructure">has input structure</a></li>
+        <li><a href="#hasoutputcalculatedproperty">has output calculated property</a></li>
+        <li><a href="#hasoutputstructure">has output structure</a></li>
+        <li><a href="#hasquantityvalue">has quantity value</a></li>
+        <li><a href="#relatestomaterial">relates to material</a></li>
+        <li><a href="#relatestostructure">relates to structure</a></li>
+    </ul>
+    <div class="entity property" id="hasQuantityKind">
+        <h3>hasQuantityKind<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/hasQuantityKind</code></td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/QuantityKind">qudt:QuantityKind</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="quantityValue">
+        <h3>quantityValue<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/quantityValue</code></td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://qudt.org/schema/qudt/QuantityValue">qudt:QuantityValue</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="unit">
+        <h3>unit<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://qudt.org/schema/qudt/unit</code></td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://qudt.org/vocab/unit/Unit">qudt-unit:Unit</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasInputProperty">
+        <h3>has input property<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/hasInputProperty</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    hasInputProperty represents the relationship between a calculation and the properties it takes as input.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasInputStructure">
+        <h3>has input structure<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/hasInputStructure</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    hasInputStructure represents the relationship between a calculation and the structures it takes as input.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasOutputCalculatedProperty">
+        <h3>has output calculated property<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/hasOutputCalculatedProperty</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    hasOutputCalculatedProperty represents the relationship between a calculation and the calculated properties it outputs.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/CalculatedProperty">CalculatedProperty</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasOutputStructure">
+        <h3>has output structure<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/hasOutputStructure</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    hasOutputStructure represents the relationship between a calculation and the structures it outputs.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasQuantityValue">
+        <h3>has quantity value<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/hasQuantityValue</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    hasQuantityValue represents the relationship between a property and quantity value it takes.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="relatesToMaterial">
+        <h3>relates to material<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/relatesToMaterial</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    relatesToMaterial represents the relationship between a structure and the materials it comes from.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://emmo.info/domains/emmo-material.owl#EMMO_4207e895_8b83_4318_996a_72cfb32acd94">emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="relatesToStructure">
+        <h3>relates to structure<sup title="object property" class="sup-op">op</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/relatesToStructure</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    relatesToStructure represents the relationship between a property and the structures it comes from.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Structure">Structure</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="datatypeproperties">
+    <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#numericalValue">numericalValue</a></li>
+        <li><a href="#ID">ID</a></li>
+        <li><a href="#propertyname">property name</a></li>
+    </ul>
+    <div class="entity property" id="numericalValue">
+        <h3>numericalValue<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://huanyu-li.github.io/temp/core/index.html#numericalValue</code></td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#double">xsd:double</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="ID">
+        <h3>ID<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/ID</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    ID represents that a calculation has the unique ID in a string.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Calculation">Calculation</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="PropertyName">
+        <h3>property name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>https://w3id.org/mdo/core/PropertyName</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    PropertyName represents that a property has the name in a string.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/mdo/core/Property">Property</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="annotationproperties">
+    <h2>Annotation Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#contributor">contributor</a></li>
+        <li><a href="#created">created</a></li>
+        <li><a href="#creator">creator</a></li>
+        <li><a href="#license">license</a></li>
+        <li><a href="#title">title</a></li>
+        <li><a href="#preferredNamespacePrefix">preferredNamespacePrefix</a></li>
+        <li><a href="#preferredNamespaceUri">preferredNamespaceUri</a></li>
+    </ul>
+    <div class="entity property" id="contributor">
+        <h3>contributor<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/terms/contributor</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="created">
+        <h3>created<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/terms/created</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="creator">
+        <h3>creator<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/terms/creator</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="license">
+        <h3>license<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/terms/license</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="title">
+        <h3>title<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/dc/terms/title</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="preferredNamespacePrefix">
+        <h3>preferredNamespacePrefix<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/vocab/vann/preferredNamespacePrefix</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="preferredNamespaceUri">
+        <h3>preferredNamespaceUri<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td><code>http://purl.org/vocab/vann/preferredNamespaceUri</code></td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+
+<section id="namedindividuals">
+    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#EV">EV</a></li>
+        <li><a href="#GM-PER-CentiM3">GM-PER-CentiM3</a></li>
+    </ul>
+    <div class="entity named_individual" id="EV">
+        <h3>EV<sup title="named individual" class="sup-ni">ni</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td>
+                  <code>
+                      http://qudt.org/vocab/unit/EV
+                  
+                  </code>
+                </td>
+            </tr>
+            <dt>Classes(s)</dt>
+            <dd>
+                <a href="http://qudt.org/vocab/unit/Unit">qudt-unit:Unit</a><br/>
+            </dd>
+        </table>
+    </div>
+    <div class="entity named_individual" id="GM-PER-CentiM3">
+        <h3>GM-PER-CentiM3<sup title="named individual" class="sup-ni">ni</sup></h3>
+        <table>
+            <tr>
+                <th>IRI</th>
+                <td>
+                  <code>
+                      http://qudt.org/vocab/unit/GM-PER-CentiM3
+                  
+                  </code>
+                </td>
+            </tr>
+            <dt>Classes(s)</dt>
+            <dd>
+                <a href="http://qudt.org/vocab/unit/Unit">qudt-unit:Unit</a><br/>
+            </dd>
+        </table>
+    </div>
+</section>
+
+<section id="namespaces">
+    <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <dl>
+        <dt>:</dt>
+        <dd><code>https://w3id.org/mdo/core/</code></dd>
+        <dt>dcterms</dt>
+        <dd><code>http://purl.org/dc/terms/</code></dd>
+        <dt>emmo</dt>
+        <dd><code>http://emmo.info/domains/emmo-material.owl#</code></dd>
+        <dt>owl</dt>
+        <dd><code>http://www.w3.org/2002/07/owl#</code></dd>
+        <dt>prov</dt>
+        <dd><code>http://www.w3.org/ns/prov#</code></dd>
+        <dt>qudt</dt>
+        <dd><code>http://qudt.org/schema/qudt/</code></dd>
+        <dt>qudt-unit</dt>
+        <dd><code>http://qudt.org/vocab/unit/</code></dd>
+        <dt>rdf</dt>
+        <dd><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></dd>
+        <dt>rdfs</dt>
+        <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
+        <dt>sdo</dt>
+        <dd><code>https://schema.org/</code></dd>
+        <dt>skos</dt>
+        <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
+        <dt>vann</dt>
+        <dd><code>http://purl.org/vocab/vann/</code></dd>
+        <dt>xml</dt>
+        <dd><code>http://www.w3.org/XML/1998/namespace</code></dd>
+        <dt>xsd</dt>
+        <dd><code>http://www.w3.org/2001/XMLSchema#</code></dd>
+    </dl>
+</section>
+<section id="legend">
+    <h2>Legend</h2>
+    <table class="entity">
+        <tr><td><sup class="sup-c" title="Classes">c</sup></td><td>Classes</td></tr>
+        <tr><td><sup class="sup-op" title="Object Properties">op</sup></td><td>Object Properties</td></tr>
+        <tr><td><sup class="sup-fp" title="Functional Properties">fp</sup></td><td>Functional Properties</td></tr>
+        <tr><td><sup class="sup-dp" title="Data Properties">dp</sup></td><td>Data Properties</td></tr>
+        <tr><td><sup class="sup-ap" title="Annotation Properties">dp</sup></td><td>Annotation Properties</td></tr>
+        <tr><td><sup class="sup-p" title="Properties">p</sup></td><td>Properties</td></tr>
+        <tr><td><sup class="sup-ni" title="Named Individuals">ni</sup></td><td>Named Individuals</td></tr>
+    </table>
+</section>
+</body>
+</html>
