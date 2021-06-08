@@ -1,7 +1,7 @@
 import json
 from collections import defaultdict
 
-def read_json_file(file='oqmd-1K.json'):
+def read_json_file(file='oqmd-128K.json'):
     with open(file) as f:
         data = json.load(f)
         return data
@@ -41,10 +41,10 @@ for record in returned_data['data']:
     band_gaps_dict['data'].append({'entry_id': entry_id, 'calculation_id': calculation_id, 'band_gap': band_gap})
     formation_energies_dict['data'].append({'entry_id': entry_id, 'calculation_id': calculation_id, 'delta_e': delta_e})
     # write files
-    write_json('oqmd-calculation-1K.json', calculations_dict)
-    write_json('oqmd-structure-1K.json', structures_dict)
-    write_json('oqmd-composition-1K.json', compositions_dict)
-    write_json('oqmd-spacegroup-1K.json', spacegroups_dict)
-    write_json('oqmd-bandgap-1K.json', band_gaps_dict)
-    write_json('oqmd-formationenergy-1K.json', formation_energies_dict)
+write_json('oqmd-calculation-128K.json', calculations_dict)
+write_json('oqmd-structure-128K.json', structures_dict)
+write_json('oqmd-composition-128K.json', compositions_dict)
+write_json('oqmd-spacegroup-128K.json', spacegroups_dict)
+write_json('oqmd-bandgap-128K.json', band_gaps_dict)
+write_json('oqmd-formationenergy-128K.json', formation_energies_dict)
     

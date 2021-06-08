@@ -1,7 +1,7 @@
 import json
 from collections import defaultdict
 
-def read_json_file(file='mp-1K.json'):
+def read_json_file(file='mp-128K.json'):
     with open(file) as f:
         data = json.load(f)
         return data
@@ -40,10 +40,10 @@ for record in returned_data['data']:
     band_gaps_dict['data'].append({'material_id': material_id, 'band_gap': band_gap})
     formation_energies_dict['data'].append({'material_id': material_id, 'energy': energy})
     # write files
-    write_json('mp-calculation-1K.json', calculations_dict)
-    write_json('mp-structure-1K.json', structures_dict)
-    write_json('mp-composition-1K.json', compositions_dict)
-    write_json('mp-spacegroup-1K.json', spacegroups_dict)
-    write_json('mp-bandgap-1K.json', band_gaps_dict)
-    write_json('mp-formationenergy-1K.json', formation_energies_dict)
+write_json('mp-calculation-128K.json', calculations_dict)
+write_json('mp-structure-128K.json', structures_dict)
+write_json('mp-composition-128K.json', compositions_dict)
+write_json('mp-spacegroup-128K.json', spacegroups_dict)
+write_json('mp-bandgap-128K.json', band_gaps_dict)
+write_json('mp-formationenergy-128K.json', formation_energies_dict)
     
