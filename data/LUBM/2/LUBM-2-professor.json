@@ -1,0 +1,6002 @@
+[
+  {
+    "nr": 1,
+    "professorType": "fullProfessor",
+    "researchInterest": "collectives ",
+    "headOf": null
+  },
+  {
+    "nr": 2,
+    "professorType": "associateProfessor",
+    "researchInterest": "haets renouncer unventilated ",
+    "headOf": null
+  },
+  {
+    "nr": 3,
+    "professorType": "assistantProfessor",
+    "researchInterest": "taskmasters scowed starched ",
+    "headOf": null
+  },
+  {
+    "nr": 11,
+    "professorType": "fullProfessor",
+    "researchInterest": "educts exordiums ",
+    "headOf": null
+  },
+  {
+    "nr": 12,
+    "professorType": "associateProfessor",
+    "researchInterest": "atomism ruminations ",
+    "headOf": null
+  },
+  {
+    "nr": 13,
+    "professorType": "assistantProfessor",
+    "researchInterest": "behooving puttered ",
+    "headOf": null
+  },
+  {
+    "nr": 21,
+    "professorType": "fullProfessor",
+    "researchInterest": "trolleying misplace revictual ",
+    "headOf": null
+  },
+  {
+    "nr": 22,
+    "professorType": "associateProfessor",
+    "researchInterest": "mf veluring ",
+    "headOf": null
+  },
+  {
+    "nr": 23,
+    "professorType": "assistantProfessor",
+    "researchInterest": "incarcerations ",
+    "headOf": null
+  },
+  {
+    "nr": 31,
+    "professorType": "fullProfessor",
+    "researchInterest": "rhetorically echolocation cutlers ",
+    "headOf": null
+  },
+  {
+    "nr": 32,
+    "professorType": "associateProfessor",
+    "researchInterest": "obscenity oared ",
+    "headOf": null
+  },
+  {
+    "nr": 33,
+    "professorType": "assistantProfessor",
+    "researchInterest": "undistributed dawns ",
+    "headOf": null
+  },
+  {
+    "nr": 41,
+    "professorType": "fullProfessor",
+    "researchInterest": "arabizing specks ",
+    "headOf": null
+  },
+  {
+    "nr": 42,
+    "professorType": "associateProfessor",
+    "researchInterest": "toeshoes spilling ",
+    "headOf": null
+  },
+  {
+    "nr": 43,
+    "professorType": "assistantProfessor",
+    "researchInterest": "decoding plaguers ",
+    "headOf": null
+  },
+  {
+    "nr": 51,
+    "professorType": "fullProfessor",
+    "researchInterest": "corsages firebrick ",
+    "headOf": null
+  },
+  {
+    "nr": 52,
+    "professorType": "associateProfessor",
+    "researchInterest": "uncelebrated keynoted ",
+    "headOf": null
+  },
+  {
+    "nr": 53,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unenthusiastic tetragon ",
+    "headOf": null
+  },
+  {
+    "nr": 61,
+    "professorType": "fullProfessor",
+    "researchInterest": "swob printers bambino ",
+    "headOf": null
+  },
+  {
+    "nr": 62,
+    "professorType": "associateProfessor",
+    "researchInterest": "baboo ",
+    "headOf": null
+  },
+  {
+    "nr": 63,
+    "professorType": "assistantProfessor",
+    "researchInterest": "kapoks ",
+    "headOf": null
+  },
+  {
+    "nr": 71,
+    "professorType": "fullProfessor",
+    "researchInterest": "fortuned lambs chauvinist ",
+    "headOf": 0
+  },
+  {
+    "nr": 72,
+    "professorType": "associateProfessor",
+    "researchInterest": "rotisserie submersibles ",
+    "headOf": null
+  },
+  {
+    "nr": 73,
+    "professorType": "assistantProfessor",
+    "researchInterest": "bummers exemplified booed ",
+    "headOf": null
+  },
+  {
+    "nr": 81,
+    "professorType": "fullProfessor",
+    "researchInterest": "dressiest trumpeter ",
+    "headOf": null
+  },
+  {
+    "nr": 82,
+    "professorType": "associateProfessor",
+    "researchInterest": "sorceress ",
+    "headOf": null
+  },
+  {
+    "nr": 83,
+    "professorType": "assistantProfessor",
+    "researchInterest": "vicuna ",
+    "headOf": null
+  },
+  {
+    "nr": 91,
+    "professorType": "fullProfessor",
+    "researchInterest": "vendees bewig beleaguered ",
+    "headOf": null
+  },
+  {
+    "nr": 92,
+    "professorType": "associateProfessor",
+    "researchInterest": "fretsaws convoluted correlatives ",
+    "headOf": null
+  },
+  {
+    "nr": 93,
+    "professorType": "assistantProfessor",
+    "researchInterest": "woollen subsurface highbrow ",
+    "headOf": null
+  },
+  {
+    "nr": 102,
+    "professorType": "associateProfessor",
+    "researchInterest": "coveter ",
+    "headOf": null
+  },
+  {
+    "nr": 112,
+    "professorType": "associateProfessor",
+    "researchInterest": "innuendoes aptest ",
+    "headOf": null
+  },
+  {
+    "nr": 122,
+    "professorType": "associateProfessor",
+    "researchInterest": "southwesters ",
+    "headOf": null
+  },
+  {
+    "nr": 132,
+    "professorType": "associateProfessor",
+    "researchInterest": "groats beguines ",
+    "headOf": null
+  },
+  {
+    "nr": 1001,
+    "professorType": "fullProfessor",
+    "researchInterest": "loftiness moires resounding ",
+    "headOf": null
+  },
+  {
+    "nr": 1002,
+    "professorType": "associateProfessor",
+    "researchInterest": "virologists ",
+    "headOf": null
+  },
+  {
+    "nr": 1003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "undistinguishable skippers ",
+    "headOf": null
+  },
+  {
+    "nr": 1011,
+    "professorType": "fullProfessor",
+    "researchInterest": "cognize lecturer designers ",
+    "headOf": null
+  },
+  {
+    "nr": 1012,
+    "professorType": "associateProfessor",
+    "researchInterest": "disarraying ",
+    "headOf": null
+  },
+  {
+    "nr": 1013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "achenial ",
+    "headOf": null
+  },
+  {
+    "nr": 1021,
+    "professorType": "fullProfessor",
+    "researchInterest": "transgressions whammed ",
+    "headOf": null
+  },
+  {
+    "nr": 1022,
+    "professorType": "associateProfessor",
+    "researchInterest": "ideo ",
+    "headOf": null
+  },
+  {
+    "nr": 1023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "hovering ",
+    "headOf": null
+  },
+  {
+    "nr": 1031,
+    "professorType": "fullProfessor",
+    "researchInterest": "tubers inclines broths ",
+    "headOf": null
+  },
+  {
+    "nr": 1032,
+    "professorType": "associateProfessor",
+    "researchInterest": "duellers ",
+    "headOf": null
+  },
+  {
+    "nr": 1033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "encamped escalates galactoscope ",
+    "headOf": null
+  },
+  {
+    "nr": 1041,
+    "professorType": "fullProfessor",
+    "researchInterest": "resorting ",
+    "headOf": 1
+  },
+  {
+    "nr": 1042,
+    "professorType": "associateProfessor",
+    "researchInterest": "sics ",
+    "headOf": null
+  },
+  {
+    "nr": 1043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "rainout ",
+    "headOf": null
+  },
+  {
+    "nr": 1051,
+    "professorType": "fullProfessor",
+    "researchInterest": "tinniest helots rioting ",
+    "headOf": null
+  },
+  {
+    "nr": 1052,
+    "professorType": "associateProfessor",
+    "researchInterest": "slushiness ",
+    "headOf": null
+  },
+  {
+    "nr": 1053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "grouchiness ",
+    "headOf": null
+  },
+  {
+    "nr": 1061,
+    "professorType": "fullProfessor",
+    "researchInterest": "unapt conically ",
+    "headOf": null
+  },
+  {
+    "nr": 1062,
+    "professorType": "associateProfessor",
+    "researchInterest": "acceptances conformably fusspots ",
+    "headOf": null
+  },
+  {
+    "nr": 1063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "strangler wretchedly grafts ",
+    "headOf": null
+  },
+  {
+    "nr": 1071,
+    "professorType": "fullProfessor",
+    "researchInterest": "overprint ",
+    "headOf": null
+  },
+  {
+    "nr": 1072,
+    "professorType": "associateProfessor",
+    "researchInterest": "stargazers ",
+    "headOf": null
+  },
+  {
+    "nr": 1073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "clientless reannex ",
+    "headOf": null
+  },
+  {
+    "nr": 1081,
+    "professorType": "fullProfessor",
+    "researchInterest": "wanness jongleur sporting ",
+    "headOf": null
+  },
+  {
+    "nr": 1082,
+    "professorType": "associateProfessor",
+    "researchInterest": "slyness pies ",
+    "headOf": null
+  },
+  {
+    "nr": 1091,
+    "professorType": "fullProfessor",
+    "researchInterest": "cinques printer huntresses ",
+    "headOf": null
+  },
+  {
+    "nr": 1092,
+    "professorType": "associateProfessor",
+    "researchInterest": "dispatch coaled nabobery ",
+    "headOf": null
+  },
+  {
+    "nr": 2001,
+    "professorType": "fullProfessor",
+    "researchInterest": "forearm ",
+    "headOf": null
+  },
+  {
+    "nr": 2002,
+    "professorType": "associateProfessor",
+    "researchInterest": "sower heightening beths ",
+    "headOf": null
+  },
+  {
+    "nr": 2003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unattempted ",
+    "headOf": null
+  },
+  {
+    "nr": 2011,
+    "professorType": "fullProfessor",
+    "researchInterest": "backlashes unfathomed ",
+    "headOf": null
+  },
+  {
+    "nr": 2012,
+    "professorType": "associateProfessor",
+    "researchInterest": "rebills reflexologies richening ",
+    "headOf": null
+  },
+  {
+    "nr": 2013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "underemployment bequests ",
+    "headOf": null
+  },
+  {
+    "nr": 2021,
+    "professorType": "fullProfessor",
+    "researchInterest": "advantaged ",
+    "headOf": null
+  },
+  {
+    "nr": 2022,
+    "professorType": "associateProfessor",
+    "researchInterest": "reunify accepters ",
+    "headOf": null
+  },
+  {
+    "nr": 2023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "jins mizzen ",
+    "headOf": null
+  },
+  {
+    "nr": 2031,
+    "professorType": "fullProfessor",
+    "researchInterest": "craniofacial imprinted croquettes ",
+    "headOf": null
+  },
+  {
+    "nr": 2032,
+    "professorType": "associateProfessor",
+    "researchInterest": "innervates brickiest ",
+    "headOf": null
+  },
+  {
+    "nr": 2033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "fathoms ",
+    "headOf": null
+  },
+  {
+    "nr": 2041,
+    "professorType": "fullProfessor",
+    "researchInterest": "platinums ",
+    "headOf": 2
+  },
+  {
+    "nr": 2042,
+    "professorType": "associateProfessor",
+    "researchInterest": "overed dotingly ",
+    "headOf": null
+  },
+  {
+    "nr": 2043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "outstretch ",
+    "headOf": null
+  },
+  {
+    "nr": 2051,
+    "professorType": "fullProfessor",
+    "researchInterest": "autosuggestions ",
+    "headOf": null
+  },
+  {
+    "nr": 2052,
+    "professorType": "associateProfessor",
+    "researchInterest": "sweatiest recitatives knockwurst ",
+    "headOf": null
+  },
+  {
+    "nr": 2053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "appanages crowder ",
+    "headOf": null
+  },
+  {
+    "nr": 2061,
+    "professorType": "fullProfessor",
+    "researchInterest": "whishes ",
+    "headOf": null
+  },
+  {
+    "nr": 2062,
+    "professorType": "associateProfessor",
+    "researchInterest": "vulgarizer ",
+    "headOf": null
+  },
+  {
+    "nr": 2063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "deposits scarred obtuser ",
+    "headOf": null
+  },
+  {
+    "nr": 2072,
+    "professorType": "associateProfessor",
+    "researchInterest": "superseder ",
+    "headOf": null
+  },
+  {
+    "nr": 2073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "catcher interrupter ",
+    "headOf": null
+  },
+  {
+    "nr": 2082,
+    "professorType": "associateProfessor",
+    "researchInterest": "flameouts pastoralist ",
+    "headOf": null
+  },
+  {
+    "nr": 2092,
+    "professorType": "associateProfessor",
+    "researchInterest": "tunelessly ",
+    "headOf": null
+  },
+  {
+    "nr": 2102,
+    "professorType": "associateProfessor",
+    "researchInterest": "joins ",
+    "headOf": null
+  },
+  {
+    "nr": 2112,
+    "professorType": "associateProfessor",
+    "researchInterest": "rawest unattractive gaol ",
+    "headOf": null
+  },
+  {
+    "nr": 3001,
+    "professorType": "fullProfessor",
+    "researchInterest": "blunter ",
+    "headOf": null
+  },
+  {
+    "nr": 3002,
+    "professorType": "associateProfessor",
+    "researchInterest": "dingbats eyewitnesses pulverization ",
+    "headOf": null
+  },
+  {
+    "nr": 3003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "demonstrational clinchers wrigglers ",
+    "headOf": null
+  },
+  {
+    "nr": 3011,
+    "professorType": "fullProfessor",
+    "researchInterest": "arointed ",
+    "headOf": null
+  },
+  {
+    "nr": 3012,
+    "professorType": "associateProfessor",
+    "researchInterest": "delegant ",
+    "headOf": null
+  },
+  {
+    "nr": 3013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "peyote omittance ",
+    "headOf": null
+  },
+  {
+    "nr": 3021,
+    "professorType": "fullProfessor",
+    "researchInterest": "pronghorn ascertains ",
+    "headOf": null
+  },
+  {
+    "nr": 3022,
+    "professorType": "associateProfessor",
+    "researchInterest": "wankel ",
+    "headOf": null
+  },
+  {
+    "nr": 3023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "breakables snobbishly interferometry ",
+    "headOf": null
+  },
+  {
+    "nr": 3031,
+    "professorType": "fullProfessor",
+    "researchInterest": "weariful disrupts ",
+    "headOf": null
+  },
+  {
+    "nr": 3032,
+    "professorType": "associateProfessor",
+    "researchInterest": "slanged reportage ",
+    "headOf": null
+  },
+  {
+    "nr": 3033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "preschoolers raisings millennial ",
+    "headOf": null
+  },
+  {
+    "nr": 3041,
+    "professorType": "fullProfessor",
+    "researchInterest": "disesteem glassed angolan ",
+    "headOf": 3
+  },
+  {
+    "nr": 3042,
+    "professorType": "associateProfessor",
+    "researchInterest": "jib ",
+    "headOf": null
+  },
+  {
+    "nr": 3043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "soldered ",
+    "headOf": null
+  },
+  {
+    "nr": 3051,
+    "professorType": "fullProfessor",
+    "researchInterest": "reaffirming spinnery resown ",
+    "headOf": null
+  },
+  {
+    "nr": 3052,
+    "professorType": "associateProfessor",
+    "researchInterest": "salmonellas ",
+    "headOf": null
+  },
+  {
+    "nr": 3053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "ahchoo automatization ",
+    "headOf": null
+  },
+  {
+    "nr": 3061,
+    "professorType": "fullProfessor",
+    "researchInterest": "unconventional inkless hermitage ",
+    "headOf": null
+  },
+  {
+    "nr": 3062,
+    "professorType": "associateProfessor",
+    "researchInterest": "bowdlerizing ",
+    "headOf": null
+  },
+  {
+    "nr": 3063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "riveting nonracial ",
+    "headOf": null
+  },
+  {
+    "nr": 3071,
+    "professorType": "fullProfessor",
+    "researchInterest": "vexatiousness ",
+    "headOf": null
+  },
+  {
+    "nr": 3072,
+    "professorType": "associateProfessor",
+    "researchInterest": "restrictionist megabucks abbotships ",
+    "headOf": null
+  },
+  {
+    "nr": 3073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "places ",
+    "headOf": null
+  },
+  {
+    "nr": 3081,
+    "professorType": "fullProfessor",
+    "researchInterest": "passkeys intertwined sirs ",
+    "headOf": null
+  },
+  {
+    "nr": 3082,
+    "professorType": "associateProfessor",
+    "researchInterest": "untractable completing piezometric ",
+    "headOf": null
+  },
+  {
+    "nr": 3083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "octanes miggs argyll ",
+    "headOf": null
+  },
+  {
+    "nr": 3092,
+    "professorType": "associateProfessor",
+    "researchInterest": "razzed endowers ",
+    "headOf": null
+  },
+  {
+    "nr": 3093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "staffed sendable ",
+    "headOf": null
+  },
+  {
+    "nr": 3102,
+    "professorType": "associateProfessor",
+    "researchInterest": "arsonist corer ",
+    "headOf": null
+  },
+  {
+    "nr": 3112,
+    "professorType": "associateProfessor",
+    "researchInterest": "reinscribes compositors imploration ",
+    "headOf": null
+  },
+  {
+    "nr": 4001,
+    "professorType": "fullProfessor",
+    "researchInterest": "aquarists keypunching gleanings ",
+    "headOf": null
+  },
+  {
+    "nr": 4002,
+    "professorType": "associateProfessor",
+    "researchInterest": "thrashes harmonizer cushy ",
+    "headOf": null
+  },
+  {
+    "nr": 4003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "underlayer ",
+    "headOf": null
+  },
+  {
+    "nr": 4011,
+    "professorType": "fullProfessor",
+    "researchInterest": "usurped diversities ",
+    "headOf": null
+  },
+  {
+    "nr": 4012,
+    "professorType": "associateProfessor",
+    "researchInterest": "unobscured postboys paynims ",
+    "headOf": null
+  },
+  {
+    "nr": 4013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "pastorate succinctness ",
+    "headOf": null
+  },
+  {
+    "nr": 4021,
+    "professorType": "fullProfessor",
+    "researchInterest": "scratching governmental ",
+    "headOf": null
+  },
+  {
+    "nr": 4022,
+    "professorType": "associateProfessor",
+    "researchInterest": "stridden ",
+    "headOf": null
+  },
+  {
+    "nr": 4023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "rehammered ",
+    "headOf": null
+  },
+  {
+    "nr": 4031,
+    "professorType": "fullProfessor",
+    "researchInterest": "snowcapped vegetative ",
+    "headOf": 4
+  },
+  {
+    "nr": 4032,
+    "professorType": "associateProfessor",
+    "researchInterest": "undershot wagerers ",
+    "headOf": null
+  },
+  {
+    "nr": 4033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "sappiest mexicans metricates ",
+    "headOf": null
+  },
+  {
+    "nr": 4041,
+    "professorType": "fullProfessor",
+    "researchInterest": "beelike squaws cellaret ",
+    "headOf": null
+  },
+  {
+    "nr": 4042,
+    "professorType": "associateProfessor",
+    "researchInterest": "leaseholders gnus seriousness ",
+    "headOf": null
+  },
+  {
+    "nr": 4043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "notebooks lunes batholithic ",
+    "headOf": null
+  },
+  {
+    "nr": 4051,
+    "professorType": "fullProfessor",
+    "researchInterest": "gunsmiths ",
+    "headOf": null
+  },
+  {
+    "nr": 4052,
+    "professorType": "associateProfessor",
+    "researchInterest": "kaliphs ",
+    "headOf": null
+  },
+  {
+    "nr": 4053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "continuable rehears ",
+    "headOf": null
+  },
+  {
+    "nr": 4061,
+    "professorType": "fullProfessor",
+    "researchInterest": "inquiring shellacker lexicographical ",
+    "headOf": null
+  },
+  {
+    "nr": 4062,
+    "professorType": "associateProfessor",
+    "researchInterest": "trimming overexpand ",
+    "headOf": null
+  },
+  {
+    "nr": 4063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "sharkskin curls loafed ",
+    "headOf": null
+  },
+  {
+    "nr": 4072,
+    "professorType": "associateProfessor",
+    "researchInterest": "incidently ",
+    "headOf": null
+  },
+  {
+    "nr": 4073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "spiffier ",
+    "headOf": null
+  },
+  {
+    "nr": 4082,
+    "professorType": "associateProfessor",
+    "researchInterest": "greenly quisling ",
+    "headOf": null
+  },
+  {
+    "nr": 4083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unliveable provender turning ",
+    "headOf": null
+  },
+  {
+    "nr": 4092,
+    "professorType": "associateProfessor",
+    "researchInterest": "frilliness lignified feminizing ",
+    "headOf": null
+  },
+  {
+    "nr": 4093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "fallers ",
+    "headOf": null
+  },
+  {
+    "nr": 5001,
+    "professorType": "fullProfessor",
+    "researchInterest": "prickliest turbofans starlit ",
+    "headOf": null
+  },
+  {
+    "nr": 5002,
+    "professorType": "associateProfessor",
+    "researchInterest": "announcing tragically hiking ",
+    "headOf": null
+  },
+  {
+    "nr": 5003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "hexagrams restyles ",
+    "headOf": null
+  },
+  {
+    "nr": 5011,
+    "professorType": "fullProfessor",
+    "researchInterest": "ammos sandwiches ",
+    "headOf": null
+  },
+  {
+    "nr": 5012,
+    "professorType": "associateProfessor",
+    "researchInterest": "pluckily slighter ",
+    "headOf": null
+  },
+  {
+    "nr": 5013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "demographies ",
+    "headOf": null
+  },
+  {
+    "nr": 5021,
+    "professorType": "fullProfessor",
+    "researchInterest": "mammie ",
+    "headOf": null
+  },
+  {
+    "nr": 5022,
+    "professorType": "associateProfessor",
+    "researchInterest": "sitters woesome basifier ",
+    "headOf": null
+  },
+  {
+    "nr": 5023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "roundly aptitudes evolvements ",
+    "headOf": null
+  },
+  {
+    "nr": 5031,
+    "professorType": "fullProfessor",
+    "researchInterest": "checkbooks ",
+    "headOf": null
+  },
+  {
+    "nr": 5032,
+    "professorType": "associateProfessor",
+    "researchInterest": "stemmed charbroil cheerfulness ",
+    "headOf": null
+  },
+  {
+    "nr": 5033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "temporality preascertain tautogs ",
+    "headOf": null
+  },
+  {
+    "nr": 5041,
+    "professorType": "fullProfessor",
+    "researchInterest": "peritonitic ",
+    "headOf": 5
+  },
+  {
+    "nr": 5042,
+    "professorType": "associateProfessor",
+    "researchInterest": "irons jerker inoffensiveness ",
+    "headOf": null
+  },
+  {
+    "nr": 5043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "amounted ",
+    "headOf": null
+  },
+  {
+    "nr": 5051,
+    "professorType": "fullProfessor",
+    "researchInterest": "hierarchies daydreamed manubriums ",
+    "headOf": null
+  },
+  {
+    "nr": 5052,
+    "professorType": "associateProfessor",
+    "researchInterest": "unarm ",
+    "headOf": null
+  },
+  {
+    "nr": 5053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "medicaid rickeys sideburns ",
+    "headOf": null
+  },
+  {
+    "nr": 5061,
+    "professorType": "fullProfessor",
+    "researchInterest": "larked rheological urinated ",
+    "headOf": null
+  },
+  {
+    "nr": 5062,
+    "professorType": "associateProfessor",
+    "researchInterest": "creates ",
+    "headOf": null
+  },
+  {
+    "nr": 5063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "alcoholizing dianthus newsletters ",
+    "headOf": null
+  },
+  {
+    "nr": 5071,
+    "professorType": "fullProfessor",
+    "researchInterest": "tantric deloused ",
+    "headOf": null
+  },
+  {
+    "nr": 5072,
+    "professorType": "associateProfessor",
+    "researchInterest": "ozonic unblock ",
+    "headOf": null
+  },
+  {
+    "nr": 5073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "ambitions aflutter ",
+    "headOf": null
+  },
+  {
+    "nr": 5081,
+    "professorType": "fullProfessor",
+    "researchInterest": "tsarism ",
+    "headOf": null
+  },
+  {
+    "nr": 5082,
+    "professorType": "associateProfessor",
+    "researchInterest": "thickety milers ",
+    "headOf": null
+  },
+  {
+    "nr": 5091,
+    "professorType": "fullProfessor",
+    "researchInterest": "follower ",
+    "headOf": null
+  },
+  {
+    "nr": 5092,
+    "professorType": "associateProfessor",
+    "researchInterest": "abbreviators hairstylist gumweeds ",
+    "headOf": null
+  },
+  {
+    "nr": 5102,
+    "professorType": "associateProfessor",
+    "researchInterest": "chlorination proofreads pustular ",
+    "headOf": null
+  },
+  {
+    "nr": 6001,
+    "professorType": "fullProfessor",
+    "researchInterest": "gymnastically befits ",
+    "headOf": null
+  },
+  {
+    "nr": 6002,
+    "professorType": "associateProfessor",
+    "researchInterest": "duffer transplanted ",
+    "headOf": null
+  },
+  {
+    "nr": 6003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "elevon confounding migrants ",
+    "headOf": null
+  },
+  {
+    "nr": 6011,
+    "professorType": "fullProfessor",
+    "researchInterest": "nonpartisans fleshier ",
+    "headOf": 6
+  },
+  {
+    "nr": 6012,
+    "professorType": "associateProfessor",
+    "researchInterest": "hammerheads grubbily ",
+    "headOf": null
+  },
+  {
+    "nr": 6013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "transmigratory massier sheepfolds ",
+    "headOf": null
+  },
+  {
+    "nr": 6021,
+    "professorType": "fullProfessor",
+    "researchInterest": "ekistics ",
+    "headOf": null
+  },
+  {
+    "nr": 6022,
+    "professorType": "associateProfessor",
+    "researchInterest": "fortis ",
+    "headOf": null
+  },
+  {
+    "nr": 6023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "mistiming ",
+    "headOf": null
+  },
+  {
+    "nr": 6031,
+    "professorType": "fullProfessor",
+    "researchInterest": "nullities splashier feasant ",
+    "headOf": null
+  },
+  {
+    "nr": 6032,
+    "professorType": "associateProfessor",
+    "researchInterest": "jitters ",
+    "headOf": null
+  },
+  {
+    "nr": 6033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "payolas hoedowns ",
+    "headOf": null
+  },
+  {
+    "nr": 6041,
+    "professorType": "fullProfessor",
+    "researchInterest": "imperiousness ",
+    "headOf": null
+  },
+  {
+    "nr": 6042,
+    "professorType": "associateProfessor",
+    "researchInterest": "tacksman ",
+    "headOf": null
+  },
+  {
+    "nr": 6043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "umbers dwindled ",
+    "headOf": null
+  },
+  {
+    "nr": 6051,
+    "professorType": "fullProfessor",
+    "researchInterest": "confucians pools ",
+    "headOf": null
+  },
+  {
+    "nr": 6052,
+    "professorType": "associateProfessor",
+    "researchInterest": "boronic mealymouthed ",
+    "headOf": null
+  },
+  {
+    "nr": 6053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "spinouts ",
+    "headOf": null
+  },
+  {
+    "nr": 6061,
+    "professorType": "fullProfessor",
+    "researchInterest": "bolsheviks ",
+    "headOf": null
+  },
+  {
+    "nr": 6062,
+    "professorType": "associateProfessor",
+    "researchInterest": "desisting dovish bristly ",
+    "headOf": null
+  },
+  {
+    "nr": 6063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "webfoot amorists plastering ",
+    "headOf": null
+  },
+  {
+    "nr": 6071,
+    "professorType": "fullProfessor",
+    "researchInterest": "predusks ",
+    "headOf": null
+  },
+  {
+    "nr": 6072,
+    "professorType": "associateProfessor",
+    "researchInterest": "arborizes ",
+    "headOf": null
+  },
+  {
+    "nr": 6073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "distributution ",
+    "headOf": null
+  },
+  {
+    "nr": 6081,
+    "professorType": "fullProfessor",
+    "researchInterest": "uselessness outchiding ",
+    "headOf": null
+  },
+  {
+    "nr": 6082,
+    "professorType": "associateProfessor",
+    "researchInterest": "congregants pensees winged ",
+    "headOf": null
+  },
+  {
+    "nr": 6091,
+    "professorType": "fullProfessor",
+    "researchInterest": "chesty lowed ",
+    "headOf": null
+  },
+  {
+    "nr": 6092,
+    "professorType": "associateProfessor",
+    "researchInterest": "wiles contentment escallop ",
+    "headOf": null
+  },
+  {
+    "nr": 7001,
+    "professorType": "fullProfessor",
+    "researchInterest": "inherence ",
+    "headOf": null
+  },
+  {
+    "nr": 7002,
+    "professorType": "associateProfessor",
+    "researchInterest": "underdrawers superimpose ",
+    "headOf": null
+  },
+  {
+    "nr": 7003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "overinsistent ",
+    "headOf": null
+  },
+  {
+    "nr": 7011,
+    "professorType": "fullProfessor",
+    "researchInterest": "wallpapering perverter ",
+    "headOf": 7
+  },
+  {
+    "nr": 7012,
+    "professorType": "associateProfessor",
+    "researchInterest": "naughtily immunoreactive hubbies ",
+    "headOf": null
+  },
+  {
+    "nr": 7013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "fellatrice ",
+    "headOf": null
+  },
+  {
+    "nr": 7021,
+    "professorType": "fullProfessor",
+    "researchInterest": "specifics microclimatology ",
+    "headOf": null
+  },
+  {
+    "nr": 7022,
+    "professorType": "associateProfessor",
+    "researchInterest": "lobbies dimwits rebilled ",
+    "headOf": null
+  },
+  {
+    "nr": 7023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "pailful greaser bonnier ",
+    "headOf": null
+  },
+  {
+    "nr": 7031,
+    "professorType": "fullProfessor",
+    "researchInterest": "motorizes ",
+    "headOf": null
+  },
+  {
+    "nr": 7032,
+    "professorType": "associateProfessor",
+    "researchInterest": "pitons soothers ",
+    "headOf": null
+  },
+  {
+    "nr": 7033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "pheromones seizable ",
+    "headOf": null
+  },
+  {
+    "nr": 7041,
+    "professorType": "fullProfessor",
+    "researchInterest": "penalization ",
+    "headOf": null
+  },
+  {
+    "nr": 7042,
+    "professorType": "associateProfessor",
+    "researchInterest": "aptitudes ",
+    "headOf": null
+  },
+  {
+    "nr": 7043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "gleeman pekoes reprieves ",
+    "headOf": null
+  },
+  {
+    "nr": 7051,
+    "professorType": "fullProfessor",
+    "researchInterest": "vicennial telecommunication unperturbable ",
+    "headOf": null
+  },
+  {
+    "nr": 7052,
+    "professorType": "associateProfessor",
+    "researchInterest": "reseeding nam ",
+    "headOf": null
+  },
+  {
+    "nr": 7053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "socialists hysterical ",
+    "headOf": null
+  },
+  {
+    "nr": 7061,
+    "professorType": "fullProfessor",
+    "researchInterest": "crossbreeding ",
+    "headOf": null
+  },
+  {
+    "nr": 7062,
+    "professorType": "associateProfessor",
+    "researchInterest": "earldoms infrequency ",
+    "headOf": null
+  },
+  {
+    "nr": 7063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "pearlier versicles braveness ",
+    "headOf": null
+  },
+  {
+    "nr": 7072,
+    "professorType": "associateProfessor",
+    "researchInterest": "espresso hypocenters ",
+    "headOf": null
+  },
+  {
+    "nr": 7073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "oleanders gyms ",
+    "headOf": null
+  },
+  {
+    "nr": 7082,
+    "professorType": "associateProfessor",
+    "researchInterest": "footsoreness ",
+    "headOf": null
+  },
+  {
+    "nr": 7083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "broadly ",
+    "headOf": null
+  },
+  {
+    "nr": 7092,
+    "professorType": "associateProfessor",
+    "researchInterest": "exposal ",
+    "headOf": null
+  },
+  {
+    "nr": 7093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "camphorates vinca caverned ",
+    "headOf": null
+  },
+  {
+    "nr": 7102,
+    "professorType": "associateProfessor",
+    "researchInterest": "breeders radiobroadcaster chapfallen ",
+    "headOf": null
+  },
+  {
+    "nr": 7112,
+    "professorType": "associateProfessor",
+    "researchInterest": "unordained colorings appeasement ",
+    "headOf": null
+  },
+  {
+    "nr": 7122,
+    "professorType": "associateProfessor",
+    "researchInterest": "notching inflator oversea ",
+    "headOf": null
+  },
+  {
+    "nr": 7132,
+    "professorType": "associateProfessor",
+    "researchInterest": "fatly ",
+    "headOf": null
+  },
+  {
+    "nr": 8001,
+    "professorType": "fullProfessor",
+    "researchInterest": "gunslingers ozonic replants ",
+    "headOf": null
+  },
+  {
+    "nr": 8002,
+    "professorType": "associateProfessor",
+    "researchInterest": "levitates indecency triumvirates ",
+    "headOf": null
+  },
+  {
+    "nr": 8003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "demineralization foilsmen ",
+    "headOf": null
+  },
+  {
+    "nr": 8011,
+    "professorType": "fullProfessor",
+    "researchInterest": "marzipan tsunamic dads ",
+    "headOf": null
+  },
+  {
+    "nr": 8012,
+    "professorType": "associateProfessor",
+    "researchInterest": "gimballing ",
+    "headOf": null
+  },
+  {
+    "nr": 8013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "spillers ",
+    "headOf": null
+  },
+  {
+    "nr": 8021,
+    "professorType": "fullProfessor",
+    "researchInterest": "bryony lackeys ",
+    "headOf": null
+  },
+  {
+    "nr": 8022,
+    "professorType": "associateProfessor",
+    "researchInterest": "unpardonably ",
+    "headOf": null
+  },
+  {
+    "nr": 8023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "packing ",
+    "headOf": null
+  },
+  {
+    "nr": 8031,
+    "professorType": "fullProfessor",
+    "researchInterest": "outfighting calumniating promonarchists ",
+    "headOf": 8
+  },
+  {
+    "nr": 8032,
+    "professorType": "associateProfessor",
+    "researchInterest": "novena doffers ",
+    "headOf": null
+  },
+  {
+    "nr": 8033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "understandings bakeshops eau ",
+    "headOf": null
+  },
+  {
+    "nr": 8041,
+    "professorType": "fullProfessor",
+    "researchInterest": "lacquerers lisping ",
+    "headOf": null
+  },
+  {
+    "nr": 8042,
+    "professorType": "associateProfessor",
+    "researchInterest": "eyewitnesses jazzers unreelers ",
+    "headOf": null
+  },
+  {
+    "nr": 8043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "plurally doomster ",
+    "headOf": null
+  },
+  {
+    "nr": 8051,
+    "professorType": "fullProfessor",
+    "researchInterest": "sickliness ",
+    "headOf": null
+  },
+  {
+    "nr": 8052,
+    "professorType": "associateProfessor",
+    "researchInterest": "innocently semitranslucent clustery ",
+    "headOf": null
+  },
+  {
+    "nr": 8053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "entailed ",
+    "headOf": null
+  },
+  {
+    "nr": 8061,
+    "professorType": "fullProfessor",
+    "researchInterest": "meres cosponsoring ",
+    "headOf": null
+  },
+  {
+    "nr": 8062,
+    "professorType": "associateProfessor",
+    "researchInterest": "tramlines ",
+    "headOf": null
+  },
+  {
+    "nr": 8063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "armouring chemotherapies ",
+    "headOf": null
+  },
+  {
+    "nr": 8071,
+    "professorType": "fullProfessor",
+    "researchInterest": "mantlet ",
+    "headOf": null
+  },
+  {
+    "nr": 8072,
+    "professorType": "associateProfessor",
+    "researchInterest": "captions terminating laboratories ",
+    "headOf": null
+  },
+  {
+    "nr": 8073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "radiotelegraphs rowdiest scarfing ",
+    "headOf": null
+  },
+  {
+    "nr": 8081,
+    "professorType": "fullProfessor",
+    "researchInterest": "embouchures loadings joist ",
+    "headOf": null
+  },
+  {
+    "nr": 8082,
+    "professorType": "associateProfessor",
+    "researchInterest": "unctuosity carousingly plankings ",
+    "headOf": null
+  },
+  {
+    "nr": 8083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "rhetors nudniks ",
+    "headOf": null
+  },
+  {
+    "nr": 8092,
+    "professorType": "associateProfessor",
+    "researchInterest": "games ",
+    "headOf": null
+  },
+  {
+    "nr": 8093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "electrocuting enwrap ",
+    "headOf": null
+  },
+  {
+    "nr": 8102,
+    "professorType": "associateProfessor",
+    "researchInterest": "toters clarifiers ",
+    "headOf": null
+  },
+  {
+    "nr": 8103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "coitus egomaniac subphylum ",
+    "headOf": null
+  },
+  {
+    "nr": 9001,
+    "professorType": "fullProfessor",
+    "researchInterest": "fungicides ceding ",
+    "headOf": 9
+  },
+  {
+    "nr": 9002,
+    "professorType": "associateProfessor",
+    "researchInterest": "gabardines ",
+    "headOf": null
+  },
+  {
+    "nr": 9003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "throwing ",
+    "headOf": null
+  },
+  {
+    "nr": 9011,
+    "professorType": "fullProfessor",
+    "researchInterest": "bruskly barnstormed gusting ",
+    "headOf": null
+  },
+  {
+    "nr": 9012,
+    "professorType": "associateProfessor",
+    "researchInterest": "lemmings trisects ",
+    "headOf": null
+  },
+  {
+    "nr": 9013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "reappraising ",
+    "headOf": null
+  },
+  {
+    "nr": 9021,
+    "professorType": "fullProfessor",
+    "researchInterest": "soughing ",
+    "headOf": null
+  },
+  {
+    "nr": 9022,
+    "professorType": "associateProfessor",
+    "researchInterest": "bops crowbars inconvertibilities ",
+    "headOf": null
+  },
+  {
+    "nr": 9023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "jeopardous ",
+    "headOf": null
+  },
+  {
+    "nr": 9031,
+    "professorType": "fullProfessor",
+    "researchInterest": "vagueness precessions ",
+    "headOf": null
+  },
+  {
+    "nr": 9032,
+    "professorType": "associateProfessor",
+    "researchInterest": "disarmers eschewer ",
+    "headOf": null
+  },
+  {
+    "nr": 9033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "follower capybaras dazes ",
+    "headOf": null
+  },
+  {
+    "nr": 9041,
+    "professorType": "fullProfessor",
+    "researchInterest": "outdrew ",
+    "headOf": null
+  },
+  {
+    "nr": 9042,
+    "professorType": "associateProfessor",
+    "researchInterest": "warmheartedness lumpiest loveless ",
+    "headOf": null
+  },
+  {
+    "nr": 9043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "confederative plashiest parasitization ",
+    "headOf": null
+  },
+  {
+    "nr": 9051,
+    "professorType": "fullProfessor",
+    "researchInterest": "hampshiremen swoopers ",
+    "headOf": null
+  },
+  {
+    "nr": 9052,
+    "professorType": "associateProfessor",
+    "researchInterest": "anointments plutonism ",
+    "headOf": null
+  },
+  {
+    "nr": 9053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "spinate despiteful ",
+    "headOf": null
+  },
+  {
+    "nr": 9061,
+    "professorType": "fullProfessor",
+    "researchInterest": "viscid ",
+    "headOf": null
+  },
+  {
+    "nr": 9062,
+    "professorType": "associateProfessor",
+    "researchInterest": "salinas gainsay ",
+    "headOf": null
+  },
+  {
+    "nr": 9063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "sufferable ",
+    "headOf": null
+  },
+  {
+    "nr": 9072,
+    "professorType": "associateProfessor",
+    "researchInterest": "palpability rankles racetracks ",
+    "headOf": null
+  },
+  {
+    "nr": 9073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "procuress meads atriums ",
+    "headOf": null
+  },
+  {
+    "nr": 9082,
+    "professorType": "associateProfessor",
+    "researchInterest": "shiftily devisers ",
+    "headOf": null
+  },
+  {
+    "nr": 9083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "discernment concisest ",
+    "headOf": null
+  },
+  {
+    "nr": 9092,
+    "professorType": "associateProfessor",
+    "researchInterest": "distractedly intertangling earlships ",
+    "headOf": null
+  },
+  {
+    "nr": 9093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "occupationally gloamings cashbooks ",
+    "headOf": null
+  },
+  {
+    "nr": 9103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "ratable trays bowleg ",
+    "headOf": null
+  },
+  {
+    "nr": 10001,
+    "professorType": "fullProfessor",
+    "researchInterest": "hajis incinerated summarization ",
+    "headOf": null
+  },
+  {
+    "nr": 10002,
+    "professorType": "associateProfessor",
+    "researchInterest": "arabians ",
+    "headOf": null
+  },
+  {
+    "nr": 10003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "reaccustoming resealed ",
+    "headOf": null
+  },
+  {
+    "nr": 10011,
+    "professorType": "fullProfessor",
+    "researchInterest": "diadems ",
+    "headOf": null
+  },
+  {
+    "nr": 10012,
+    "professorType": "associateProfessor",
+    "researchInterest": "ikebana ",
+    "headOf": null
+  },
+  {
+    "nr": 10013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "cutlases cerated racecourse ",
+    "headOf": null
+  },
+  {
+    "nr": 10021,
+    "professorType": "fullProfessor",
+    "researchInterest": "defecating metricizing ",
+    "headOf": null
+  },
+  {
+    "nr": 10022,
+    "professorType": "associateProfessor",
+    "researchInterest": "chaperoning causeys sacked ",
+    "headOf": null
+  },
+  {
+    "nr": 10023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "redbugs loudens ",
+    "headOf": null
+  },
+  {
+    "nr": 10031,
+    "professorType": "fullProfessor",
+    "researchInterest": "cycads ab chancellorship ",
+    "headOf": null
+  },
+  {
+    "nr": 10032,
+    "professorType": "associateProfessor",
+    "researchInterest": "closeted foozlers ",
+    "headOf": null
+  },
+  {
+    "nr": 10033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "phototrophic horrors dragooning ",
+    "headOf": null
+  },
+  {
+    "nr": 10041,
+    "professorType": "fullProfessor",
+    "researchInterest": "infirms ",
+    "headOf": null
+  },
+  {
+    "nr": 10042,
+    "professorType": "associateProfessor",
+    "researchInterest": "estranges ",
+    "headOf": null
+  },
+  {
+    "nr": 10043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "sources spirally ",
+    "headOf": null
+  },
+  {
+    "nr": 10051,
+    "professorType": "fullProfessor",
+    "researchInterest": "binding hexylresorcinol tonger ",
+    "headOf": 10
+  },
+  {
+    "nr": 10052,
+    "professorType": "associateProfessor",
+    "researchInterest": "galvanometric cholla segue ",
+    "headOf": null
+  },
+  {
+    "nr": 10053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "snowslide loathsomely trashily ",
+    "headOf": null
+  },
+  {
+    "nr": 10061,
+    "professorType": "fullProfessor",
+    "researchInterest": "junketing ",
+    "headOf": null
+  },
+  {
+    "nr": 10062,
+    "professorType": "associateProfessor",
+    "researchInterest": "fifers implorer ",
+    "headOf": null
+  },
+  {
+    "nr": 10063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "saggiest footy needles ",
+    "headOf": null
+  },
+  {
+    "nr": 10072,
+    "professorType": "associateProfessor",
+    "researchInterest": "annotator ",
+    "headOf": null
+  },
+  {
+    "nr": 10073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "quiveringly ",
+    "headOf": null
+  },
+  {
+    "nr": 10082,
+    "professorType": "associateProfessor",
+    "researchInterest": "digamy ",
+    "headOf": null
+  },
+  {
+    "nr": 10083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "wartimes privets flashforwards ",
+    "headOf": null
+  },
+  {
+    "nr": 10092,
+    "professorType": "associateProfessor",
+    "researchInterest": "cognises girlfriends ampulla ",
+    "headOf": null
+  },
+  {
+    "nr": 10093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "phasic hoarier gristle ",
+    "headOf": null
+  },
+  {
+    "nr": 10102,
+    "professorType": "associateProfessor",
+    "researchInterest": "undesigned unacceptably ",
+    "headOf": null
+  },
+  {
+    "nr": 10103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "interludes precipices overweigh ",
+    "headOf": null
+  },
+  {
+    "nr": 11001,
+    "professorType": "fullProfessor",
+    "researchInterest": "chiders solvency switchable ",
+    "headOf": null
+  },
+  {
+    "nr": 11002,
+    "professorType": "associateProfessor",
+    "researchInterest": "sidepieces stockbrokerage ",
+    "headOf": null
+  },
+  {
+    "nr": 11003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "cloisonne legionaries physics ",
+    "headOf": null
+  },
+  {
+    "nr": 11011,
+    "professorType": "fullProfessor",
+    "researchInterest": "elasticizes prearming planish ",
+    "headOf": 11
+  },
+  {
+    "nr": 11012,
+    "professorType": "associateProfessor",
+    "researchInterest": "oilier reglazed ",
+    "headOf": null
+  },
+  {
+    "nr": 11013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unexpressive webless ",
+    "headOf": null
+  },
+  {
+    "nr": 11021,
+    "professorType": "fullProfessor",
+    "researchInterest": "babies ",
+    "headOf": null
+  },
+  {
+    "nr": 11022,
+    "professorType": "associateProfessor",
+    "researchInterest": "ulceration ",
+    "headOf": null
+  },
+  {
+    "nr": 11023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "frustration fissioning ",
+    "headOf": null
+  },
+  {
+    "nr": 11031,
+    "professorType": "fullProfessor",
+    "researchInterest": "pharisaically constitutes philharmonics ",
+    "headOf": null
+  },
+  {
+    "nr": 11032,
+    "professorType": "associateProfessor",
+    "researchInterest": "repatriating reproducers ",
+    "headOf": null
+  },
+  {
+    "nr": 11033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "spinally ",
+    "headOf": null
+  },
+  {
+    "nr": 11041,
+    "professorType": "fullProfessor",
+    "researchInterest": "mineralize rosets ",
+    "headOf": null
+  },
+  {
+    "nr": 11042,
+    "professorType": "associateProfessor",
+    "researchInterest": "ploying editorship razee ",
+    "headOf": null
+  },
+  {
+    "nr": 11043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "sherif ",
+    "headOf": null
+  },
+  {
+    "nr": 11051,
+    "professorType": "fullProfessor",
+    "researchInterest": "dissepimental hominy softy ",
+    "headOf": null
+  },
+  {
+    "nr": 11052,
+    "professorType": "associateProfessor",
+    "researchInterest": "implicitness ",
+    "headOf": null
+  },
+  {
+    "nr": 11053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "deforests ",
+    "headOf": null
+  },
+  {
+    "nr": 11061,
+    "professorType": "fullProfessor",
+    "researchInterest": "typographies richest wisconsinites ",
+    "headOf": null
+  },
+  {
+    "nr": 11062,
+    "professorType": "associateProfessor",
+    "researchInterest": "withdrawer ",
+    "headOf": null
+  },
+  {
+    "nr": 11063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "stringiness electrocute shunners ",
+    "headOf": null
+  },
+  {
+    "nr": 11071,
+    "professorType": "fullProfessor",
+    "researchInterest": "jessed ",
+    "headOf": null
+  },
+  {
+    "nr": 11072,
+    "professorType": "associateProfessor",
+    "researchInterest": "misbills blackjacked sequences ",
+    "headOf": null
+  },
+  {
+    "nr": 11073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "cabmen ",
+    "headOf": null
+  },
+  {
+    "nr": 11082,
+    "professorType": "associateProfessor",
+    "researchInterest": "doused ",
+    "headOf": null
+  },
+  {
+    "nr": 11083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "verdantly bleakish novelization ",
+    "headOf": null
+  },
+  {
+    "nr": 11092,
+    "professorType": "associateProfessor",
+    "researchInterest": "photophobia ",
+    "headOf": null
+  },
+  {
+    "nr": 11093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "obeahs mainframe redecorated ",
+    "headOf": null
+  },
+  {
+    "nr": 11102,
+    "professorType": "associateProfessor",
+    "researchInterest": "modulative originally satyric ",
+    "headOf": null
+  },
+  {
+    "nr": 11103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "rapturousness rooty cloyed ",
+    "headOf": null
+  },
+  {
+    "nr": 11112,
+    "professorType": "associateProfessor",
+    "researchInterest": "piped ",
+    "headOf": null
+  },
+  {
+    "nr": 11122,
+    "professorType": "associateProfessor",
+    "researchInterest": "mashes ",
+    "headOf": null
+  },
+  {
+    "nr": 11132,
+    "professorType": "associateProfessor",
+    "researchInterest": "holistic ",
+    "headOf": null
+  },
+  {
+    "nr": 12001,
+    "professorType": "fullProfessor",
+    "researchInterest": "essayists bottles trusser ",
+    "headOf": null
+  },
+  {
+    "nr": 12002,
+    "professorType": "associateProfessor",
+    "researchInterest": "linnet artistries progenitors ",
+    "headOf": null
+  },
+  {
+    "nr": 12003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "distorter unripely ",
+    "headOf": null
+  },
+  {
+    "nr": 12011,
+    "professorType": "fullProfessor",
+    "researchInterest": "truer ",
+    "headOf": null
+  },
+  {
+    "nr": 12012,
+    "professorType": "associateProfessor",
+    "researchInterest": "freeload wheelman ",
+    "headOf": null
+  },
+  {
+    "nr": 12013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "coalitionist ",
+    "headOf": null
+  },
+  {
+    "nr": 12021,
+    "professorType": "fullProfessor",
+    "researchInterest": "mongeese reeling ",
+    "headOf": 12
+  },
+  {
+    "nr": 12022,
+    "professorType": "associateProfessor",
+    "researchInterest": "condescended monocled ",
+    "headOf": null
+  },
+  {
+    "nr": 12023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "tortuously ",
+    "headOf": null
+  },
+  {
+    "nr": 12031,
+    "professorType": "fullProfessor",
+    "researchInterest": "sawbucks ",
+    "headOf": null
+  },
+  {
+    "nr": 12032,
+    "professorType": "associateProfessor",
+    "researchInterest": "charbroils domineers ",
+    "headOf": null
+  },
+  {
+    "nr": 12033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "grayest ",
+    "headOf": null
+  },
+  {
+    "nr": 12041,
+    "professorType": "fullProfessor",
+    "researchInterest": "preoccupied decimating ",
+    "headOf": null
+  },
+  {
+    "nr": 12042,
+    "professorType": "associateProfessor",
+    "researchInterest": "tipper saccharinely unarrested ",
+    "headOf": null
+  },
+  {
+    "nr": 12043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "atypical ",
+    "headOf": null
+  },
+  {
+    "nr": 12051,
+    "professorType": "fullProfessor",
+    "researchInterest": "birches ",
+    "headOf": null
+  },
+  {
+    "nr": 12052,
+    "professorType": "associateProfessor",
+    "researchInterest": "kremlinologists ",
+    "headOf": null
+  },
+  {
+    "nr": 12053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "fearlessly mishaps scuttles ",
+    "headOf": null
+  },
+  {
+    "nr": 12061,
+    "professorType": "fullProfessor",
+    "researchInterest": "housetop standardbearer lurer ",
+    "headOf": null
+  },
+  {
+    "nr": 12062,
+    "professorType": "associateProfessor",
+    "researchInterest": "nonresistant restorer citer ",
+    "headOf": null
+  },
+  {
+    "nr": 12063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "neuropathy precontrive juicer ",
+    "headOf": null
+  },
+  {
+    "nr": 12071,
+    "professorType": "fullProfessor",
+    "researchInterest": "rufflike streptococcic extirpations ",
+    "headOf": null
+  },
+  {
+    "nr": 12072,
+    "professorType": "associateProfessor",
+    "researchInterest": "docudramas ",
+    "headOf": null
+  },
+  {
+    "nr": 12073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "knickerbockers grittily ",
+    "headOf": null
+  },
+  {
+    "nr": 12081,
+    "professorType": "fullProfessor",
+    "researchInterest": "equates painlessly ",
+    "headOf": null
+  },
+  {
+    "nr": 12082,
+    "professorType": "associateProfessor",
+    "researchInterest": "impoverisher indianan ",
+    "headOf": null
+  },
+  {
+    "nr": 12083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "bloodstained ",
+    "headOf": null
+  },
+  {
+    "nr": 12092,
+    "professorType": "associateProfessor",
+    "researchInterest": "neoterics ",
+    "headOf": null
+  },
+  {
+    "nr": 12093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "pasteurize empennages inflictive ",
+    "headOf": null
+  },
+  {
+    "nr": 12102,
+    "professorType": "associateProfessor",
+    "researchInterest": "psychologically daemonic ",
+    "headOf": null
+  },
+  {
+    "nr": 12103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "howdah yours enravish ",
+    "headOf": null
+  },
+  {
+    "nr": 13001,
+    "professorType": "fullProfessor",
+    "researchInterest": "secretor birding ",
+    "headOf": null
+  },
+  {
+    "nr": 13002,
+    "professorType": "associateProfessor",
+    "researchInterest": "roisters oblongata remelted ",
+    "headOf": null
+  },
+  {
+    "nr": 13003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "secundines ",
+    "headOf": null
+  },
+  {
+    "nr": 13011,
+    "professorType": "fullProfessor",
+    "researchInterest": "protrudes missort ",
+    "headOf": null
+  },
+  {
+    "nr": 13012,
+    "professorType": "associateProfessor",
+    "researchInterest": "bares exobiological ",
+    "headOf": null
+  },
+  {
+    "nr": 13013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "bypassed ",
+    "headOf": null
+  },
+  {
+    "nr": 13021,
+    "professorType": "fullProfessor",
+    "researchInterest": "prescientific ",
+    "headOf": null
+  },
+  {
+    "nr": 13022,
+    "professorType": "associateProfessor",
+    "researchInterest": "damager ",
+    "headOf": null
+  },
+  {
+    "nr": 13023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "productively unprepossessing itemized ",
+    "headOf": null
+  },
+  {
+    "nr": 13031,
+    "professorType": "fullProfessor",
+    "researchInterest": "statures malls ",
+    "headOf": null
+  },
+  {
+    "nr": 13032,
+    "professorType": "associateProfessor",
+    "researchInterest": "routeman militiaman ",
+    "headOf": null
+  },
+  {
+    "nr": 13033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "libeler blackballed biosensor ",
+    "headOf": null
+  },
+  {
+    "nr": 13041,
+    "professorType": "fullProfessor",
+    "researchInterest": "compared chooses ",
+    "headOf": null
+  },
+  {
+    "nr": 13042,
+    "professorType": "associateProfessor",
+    "researchInterest": "cosecant sleeping ",
+    "headOf": null
+  },
+  {
+    "nr": 13043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "infinitesimally gallingly pressor ",
+    "headOf": null
+  },
+  {
+    "nr": 13051,
+    "professorType": "fullProfessor",
+    "researchInterest": "nippers ",
+    "headOf": null
+  },
+  {
+    "nr": 13052,
+    "professorType": "associateProfessor",
+    "researchInterest": "epigraphic pinning ",
+    "headOf": null
+  },
+  {
+    "nr": 13053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "subassociation ",
+    "headOf": null
+  },
+  {
+    "nr": 13061,
+    "professorType": "fullProfessor",
+    "researchInterest": "freeloading hackled aphoristic ",
+    "headOf": null
+  },
+  {
+    "nr": 13062,
+    "professorType": "associateProfessor",
+    "researchInterest": "blackbirds editorialization ",
+    "headOf": null
+  },
+  {
+    "nr": 13063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "crookeries ",
+    "headOf": null
+  },
+  {
+    "nr": 13071,
+    "professorType": "fullProfessor",
+    "researchInterest": "ceca emerging ",
+    "headOf": 13
+  },
+  {
+    "nr": 13072,
+    "professorType": "associateProfessor",
+    "researchInterest": "heaving intransigently ",
+    "headOf": null
+  },
+  {
+    "nr": 13073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "browniest ",
+    "headOf": null
+  },
+  {
+    "nr": 13082,
+    "professorType": "associateProfessor",
+    "researchInterest": "antidepressants ",
+    "headOf": null
+  },
+  {
+    "nr": 13083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "blanker nectarines ",
+    "headOf": null
+  },
+  {
+    "nr": 13092,
+    "professorType": "associateProfessor",
+    "researchInterest": "rows ",
+    "headOf": null
+  },
+  {
+    "nr": 13093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "whitefish zoning ",
+    "headOf": null
+  },
+  {
+    "nr": 13102,
+    "professorType": "associateProfessor",
+    "researchInterest": "conditionals preexaminations lessons ",
+    "headOf": null
+  },
+  {
+    "nr": 13103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "woozy trameled ",
+    "headOf": null
+  },
+  {
+    "nr": 13112,
+    "professorType": "associateProfessor",
+    "researchInterest": "kinematograph ",
+    "headOf": null
+  },
+  {
+    "nr": 13122,
+    "professorType": "associateProfessor",
+    "researchInterest": "genitors misjudgment ",
+    "headOf": null
+  },
+  {
+    "nr": 13132,
+    "professorType": "associateProfessor",
+    "researchInterest": "launcher bednights murmuring ",
+    "headOf": null
+  },
+  {
+    "nr": 14001,
+    "professorType": "fullProfessor",
+    "researchInterest": "seiners samoan hispanics ",
+    "headOf": null
+  },
+  {
+    "nr": 14002,
+    "professorType": "associateProfessor",
+    "researchInterest": "malawians phonogrammic ",
+    "headOf": null
+  },
+  {
+    "nr": 14003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "waterpower arthritic ",
+    "headOf": null
+  },
+  {
+    "nr": 14011,
+    "professorType": "fullProfessor",
+    "researchInterest": "outdistances nettlers ",
+    "headOf": null
+  },
+  {
+    "nr": 14012,
+    "professorType": "associateProfessor",
+    "researchInterest": "pancaking tussocky disgorge ",
+    "headOf": null
+  },
+  {
+    "nr": 14013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "gyving ",
+    "headOf": null
+  },
+  {
+    "nr": 14021,
+    "professorType": "fullProfessor",
+    "researchInterest": "steppes ",
+    "headOf": null
+  },
+  {
+    "nr": 14022,
+    "professorType": "associateProfessor",
+    "researchInterest": "benchmarked interrogatories ",
+    "headOf": null
+  },
+  {
+    "nr": 14023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "fidgeting archimandrite ",
+    "headOf": null
+  },
+  {
+    "nr": 14031,
+    "professorType": "fullProfessor",
+    "researchInterest": "backwashes ",
+    "headOf": null
+  },
+  {
+    "nr": 14032,
+    "professorType": "associateProfessor",
+    "researchInterest": "viol ",
+    "headOf": null
+  },
+  {
+    "nr": 14033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "citer shreds moonset ",
+    "headOf": null
+  },
+  {
+    "nr": 14041,
+    "professorType": "fullProfessor",
+    "researchInterest": "birthrates ",
+    "headOf": null
+  },
+  {
+    "nr": 14042,
+    "professorType": "associateProfessor",
+    "researchInterest": "husk recapturing ",
+    "headOf": null
+  },
+  {
+    "nr": 14043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "strips expecting devoutness ",
+    "headOf": null
+  },
+  {
+    "nr": 14051,
+    "professorType": "fullProfessor",
+    "researchInterest": "harborless peopler pointed ",
+    "headOf": null
+  },
+  {
+    "nr": 14052,
+    "professorType": "associateProfessor",
+    "researchInterest": "draggier ",
+    "headOf": null
+  },
+  {
+    "nr": 14053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "leverets soupiest truncates ",
+    "headOf": null
+  },
+  {
+    "nr": 14061,
+    "professorType": "fullProfessor",
+    "researchInterest": "legislators custodians obeyer ",
+    "headOf": 14
+  },
+  {
+    "nr": 14062,
+    "professorType": "associateProfessor",
+    "researchInterest": "mailers spurning progovernment ",
+    "headOf": null
+  },
+  {
+    "nr": 14063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "preplanning ",
+    "headOf": null
+  },
+  {
+    "nr": 14072,
+    "professorType": "associateProfessor",
+    "researchInterest": "exhibitant impeached ",
+    "headOf": null
+  },
+  {
+    "nr": 14073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "surfaces hefting ",
+    "headOf": null
+  },
+  {
+    "nr": 14082,
+    "professorType": "associateProfessor",
+    "researchInterest": "rollover ",
+    "headOf": null
+  },
+  {
+    "nr": 14092,
+    "professorType": "associateProfessor",
+    "researchInterest": "picks tatterdemalion ",
+    "headOf": null
+  },
+  {
+    "nr": 14102,
+    "professorType": "associateProfessor",
+    "researchInterest": "vertexes worthed ",
+    "headOf": null
+  },
+  {
+    "nr": 14112,
+    "professorType": "associateProfessor",
+    "researchInterest": "meetings minicar maladies ",
+    "headOf": null
+  },
+  {
+    "nr": 100001,
+    "professorType": "fullProfessor",
+    "researchInterest": "owns targets unaccented ",
+    "headOf": null
+  },
+  {
+    "nr": 100002,
+    "professorType": "associateProfessor",
+    "researchInterest": "blurring bursaries hagged ",
+    "headOf": null
+  },
+  {
+    "nr": 100003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "incorrupted thrushes ",
+    "headOf": null
+  },
+  {
+    "nr": 100011,
+    "professorType": "fullProfessor",
+    "researchInterest": "progressions unscheduled oxidants ",
+    "headOf": null
+  },
+  {
+    "nr": 100012,
+    "professorType": "associateProfessor",
+    "researchInterest": "internationalize unpopularly ",
+    "headOf": null
+  },
+  {
+    "nr": 100013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "packages blacks offers ",
+    "headOf": null
+  },
+  {
+    "nr": 100021,
+    "professorType": "fullProfessor",
+    "researchInterest": "bickerer scufflers ",
+    "headOf": null
+  },
+  {
+    "nr": 100022,
+    "professorType": "associateProfessor",
+    "researchInterest": "brigs ",
+    "headOf": null
+  },
+  {
+    "nr": 100023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "silesia wrecks reformatories ",
+    "headOf": null
+  },
+  {
+    "nr": 100031,
+    "professorType": "fullProfessor",
+    "researchInterest": "credibility freezes tootlers ",
+    "headOf": null
+  },
+  {
+    "nr": 100032,
+    "professorType": "associateProfessor",
+    "researchInterest": "midriff vexedly ",
+    "headOf": null
+  },
+  {
+    "nr": 100033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "aahed ",
+    "headOf": null
+  },
+  {
+    "nr": 100041,
+    "professorType": "fullProfessor",
+    "researchInterest": "bacteriotoxin baseboards duskily ",
+    "headOf": null
+  },
+  {
+    "nr": 100042,
+    "professorType": "associateProfessor",
+    "researchInterest": "fleabite oilskin ",
+    "headOf": null
+  },
+  {
+    "nr": 100043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "earner threnody stearin ",
+    "headOf": null
+  },
+  {
+    "nr": 100051,
+    "professorType": "fullProfessor",
+    "researchInterest": "teargas disemploying ",
+    "headOf": 100
+  },
+  {
+    "nr": 100052,
+    "professorType": "associateProfessor",
+    "researchInterest": "diebacks sherlocks ",
+    "headOf": null
+  },
+  {
+    "nr": 100053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "spatially bystanders ",
+    "headOf": null
+  },
+  {
+    "nr": 100061,
+    "professorType": "fullProfessor",
+    "researchInterest": "homunculi goatfish pixieish ",
+    "headOf": null
+  },
+  {
+    "nr": 100062,
+    "professorType": "associateProfessor",
+    "researchInterest": "reexhibit ",
+    "headOf": null
+  },
+  {
+    "nr": 100063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "appendectomies alphabeted ",
+    "headOf": null
+  },
+  {
+    "nr": 100072,
+    "professorType": "associateProfessor",
+    "researchInterest": "jaybird behaves braids ",
+    "headOf": null
+  },
+  {
+    "nr": 100073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "bowlines smartest skuas ",
+    "headOf": null
+  },
+  {
+    "nr": 100082,
+    "professorType": "associateProfessor",
+    "researchInterest": "outers envelopments ",
+    "headOf": null
+  },
+  {
+    "nr": 100083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "superhighways throatiness hopefulness ",
+    "headOf": null
+  },
+  {
+    "nr": 100092,
+    "professorType": "associateProfessor",
+    "researchInterest": "pinpointed lunkers ",
+    "headOf": null
+  },
+  {
+    "nr": 100102,
+    "professorType": "associateProfessor",
+    "researchInterest": "hongkong cymbalists ",
+    "headOf": null
+  },
+  {
+    "nr": 100112,
+    "professorType": "associateProfessor",
+    "researchInterest": "meetings redried ",
+    "headOf": null
+  },
+  {
+    "nr": 101001,
+    "professorType": "fullProfessor",
+    "researchInterest": "appalachians ",
+    "headOf": null
+  },
+  {
+    "nr": 101002,
+    "professorType": "associateProfessor",
+    "researchInterest": "kitharas cubers ",
+    "headOf": null
+  },
+  {
+    "nr": 101003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "arrestment adjustors ",
+    "headOf": null
+  },
+  {
+    "nr": 101011,
+    "professorType": "fullProfessor",
+    "researchInterest": "geysers theobromine misalliances ",
+    "headOf": null
+  },
+  {
+    "nr": 101012,
+    "professorType": "associateProfessor",
+    "researchInterest": "suitably stability thorax ",
+    "headOf": null
+  },
+  {
+    "nr": 101013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "elates ",
+    "headOf": null
+  },
+  {
+    "nr": 101021,
+    "professorType": "fullProfessor",
+    "researchInterest": "porter ",
+    "headOf": null
+  },
+  {
+    "nr": 101022,
+    "professorType": "associateProfessor",
+    "researchInterest": "donuts jugsful ",
+    "headOf": null
+  },
+  {
+    "nr": 101023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "mopey defunctive ",
+    "headOf": null
+  },
+  {
+    "nr": 101031,
+    "professorType": "fullProfessor",
+    "researchInterest": "spurts ",
+    "headOf": null
+  },
+  {
+    "nr": 101032,
+    "professorType": "associateProfessor",
+    "researchInterest": "enlightens racehorses vitalizes ",
+    "headOf": null
+  },
+  {
+    "nr": 101033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "lassitude enlistee icecap ",
+    "headOf": null
+  },
+  {
+    "nr": 101041,
+    "professorType": "fullProfessor",
+    "researchInterest": "subofficer ",
+    "headOf": null
+  },
+  {
+    "nr": 101042,
+    "professorType": "associateProfessor",
+    "researchInterest": "plebiscite petrographer ",
+    "headOf": null
+  },
+  {
+    "nr": 101043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "christianized ",
+    "headOf": null
+  },
+  {
+    "nr": 101051,
+    "professorType": "fullProfessor",
+    "researchInterest": "kerchoo trinketed photosphere ",
+    "headOf": null
+  },
+  {
+    "nr": 101052,
+    "professorType": "associateProfessor",
+    "researchInterest": "bullfighters overslips dewax ",
+    "headOf": null
+  },
+  {
+    "nr": 101053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "proctored bowingly ichthyisms ",
+    "headOf": null
+  },
+  {
+    "nr": 101061,
+    "professorType": "fullProfessor",
+    "researchInterest": "isolationism ",
+    "headOf": null
+  },
+  {
+    "nr": 101062,
+    "professorType": "associateProfessor",
+    "researchInterest": "walkers ",
+    "headOf": null
+  },
+  {
+    "nr": 101063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "mortuaries colored bisectional ",
+    "headOf": null
+  },
+  {
+    "nr": 101071,
+    "professorType": "fullProfessor",
+    "researchInterest": "tranquilized blunted ",
+    "headOf": 101
+  },
+  {
+    "nr": 101072,
+    "professorType": "associateProfessor",
+    "researchInterest": "berhymed resound wriggling ",
+    "headOf": null
+  },
+  {
+    "nr": 101073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "enserfing ",
+    "headOf": null
+  },
+  {
+    "nr": 101082,
+    "professorType": "associateProfessor",
+    "researchInterest": "disunity melanesians perfuming ",
+    "headOf": null
+  },
+  {
+    "nr": 101083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "warehousemen ciceros ",
+    "headOf": null
+  },
+  {
+    "nr": 101092,
+    "professorType": "associateProfessor",
+    "researchInterest": "cottager calicos ",
+    "headOf": null
+  },
+  {
+    "nr": 101093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "storytelling danseuse minuteness ",
+    "headOf": null
+  },
+  {
+    "nr": 101102,
+    "professorType": "associateProfessor",
+    "researchInterest": "mouthing indigents ",
+    "headOf": null
+  },
+  {
+    "nr": 101112,
+    "professorType": "associateProfessor",
+    "researchInterest": "microanalytical regilt damagingly ",
+    "headOf": null
+  },
+  {
+    "nr": 101122,
+    "professorType": "associateProfessor",
+    "researchInterest": "emoters sortable ",
+    "headOf": null
+  },
+  {
+    "nr": 101132,
+    "professorType": "associateProfessor",
+    "researchInterest": "antineutron ",
+    "headOf": null
+  },
+  {
+    "nr": 102001,
+    "professorType": "fullProfessor",
+    "researchInterest": "gardened kebab ",
+    "headOf": null
+  },
+  {
+    "nr": 102002,
+    "professorType": "associateProfessor",
+    "researchInterest": "resection ",
+    "headOf": null
+  },
+  {
+    "nr": 102003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "hoplite ",
+    "headOf": null
+  },
+  {
+    "nr": 102011,
+    "professorType": "fullProfessor",
+    "researchInterest": "greeny disloyalties ",
+    "headOf": 102
+  },
+  {
+    "nr": 102012,
+    "professorType": "associateProfessor",
+    "researchInterest": "suspectedness stamps ",
+    "headOf": null
+  },
+  {
+    "nr": 102013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "braking listens ",
+    "headOf": null
+  },
+  {
+    "nr": 102021,
+    "professorType": "fullProfessor",
+    "researchInterest": "profanities ",
+    "headOf": null
+  },
+  {
+    "nr": 102022,
+    "professorType": "associateProfessor",
+    "researchInterest": "bricky ",
+    "headOf": null
+  },
+  {
+    "nr": 102023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "reconverts adenoids ",
+    "headOf": null
+  },
+  {
+    "nr": 102031,
+    "professorType": "fullProfessor",
+    "researchInterest": "seiners disconcerted cumshaws ",
+    "headOf": null
+  },
+  {
+    "nr": 102032,
+    "professorType": "associateProfessor",
+    "researchInterest": "sententiously ",
+    "headOf": null
+  },
+  {
+    "nr": 102033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "armed extremeness ",
+    "headOf": null
+  },
+  {
+    "nr": 102041,
+    "professorType": "fullProfessor",
+    "researchInterest": "indignities huntings restuff ",
+    "headOf": null
+  },
+  {
+    "nr": 102042,
+    "professorType": "associateProfessor",
+    "researchInterest": "subdued pharyngeal ",
+    "headOf": null
+  },
+  {
+    "nr": 102043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "lignification boutonnieres noter ",
+    "headOf": null
+  },
+  {
+    "nr": 102051,
+    "professorType": "fullProfessor",
+    "researchInterest": "haversacks ",
+    "headOf": null
+  },
+  {
+    "nr": 102052,
+    "professorType": "associateProfessor",
+    "researchInterest": "georgians shit islands ",
+    "headOf": null
+  },
+  {
+    "nr": 102053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "steepened hematinic ullage ",
+    "headOf": null
+  },
+  {
+    "nr": 102061,
+    "professorType": "fullProfessor",
+    "researchInterest": "bedamn ",
+    "headOf": null
+  },
+  {
+    "nr": 102062,
+    "professorType": "associateProfessor",
+    "researchInterest": "ritzier nonego ",
+    "headOf": null
+  },
+  {
+    "nr": 102063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unabbreviated ",
+    "headOf": null
+  },
+  {
+    "nr": 102071,
+    "professorType": "fullProfessor",
+    "researchInterest": "trapeziums paddlings rotator ",
+    "headOf": null
+  },
+  {
+    "nr": 102072,
+    "professorType": "associateProfessor",
+    "researchInterest": "stenographically cardioids ",
+    "headOf": null
+  },
+  {
+    "nr": 102073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "overestimate anoraks ",
+    "headOf": null
+  },
+  {
+    "nr": 102081,
+    "professorType": "fullProfessor",
+    "researchInterest": "versant ",
+    "headOf": null
+  },
+  {
+    "nr": 102082,
+    "professorType": "associateProfessor",
+    "researchInterest": "nonesuches acknowledgedly ",
+    "headOf": null
+  },
+  {
+    "nr": 102092,
+    "professorType": "associateProfessor",
+    "researchInterest": "cleanly reeved ",
+    "headOf": null
+  },
+  {
+    "nr": 102102,
+    "professorType": "associateProfessor",
+    "researchInterest": "gismos ordinarier ",
+    "headOf": null
+  },
+  {
+    "nr": 102112,
+    "professorType": "associateProfessor",
+    "researchInterest": "housesat draying scoldingly ",
+    "headOf": null
+  },
+  {
+    "nr": 103001,
+    "professorType": "fullProfessor",
+    "researchInterest": "gentiles ",
+    "headOf": null
+  },
+  {
+    "nr": 103002,
+    "professorType": "associateProfessor",
+    "researchInterest": "antipole overpopulate closures ",
+    "headOf": null
+  },
+  {
+    "nr": 103003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "alchemical jumpoffs poseurs ",
+    "headOf": null
+  },
+  {
+    "nr": 103011,
+    "professorType": "fullProfessor",
+    "researchInterest": "impenetrably cordilleran darneder ",
+    "headOf": null
+  },
+  {
+    "nr": 103012,
+    "professorType": "associateProfessor",
+    "researchInterest": "pricing rauwolfia ",
+    "headOf": null
+  },
+  {
+    "nr": 103013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "snippiness scandinavian ",
+    "headOf": null
+  },
+  {
+    "nr": 103021,
+    "professorType": "fullProfessor",
+    "researchInterest": "filching ",
+    "headOf": 103
+  },
+  {
+    "nr": 103022,
+    "professorType": "associateProfessor",
+    "researchInterest": "enigmas ",
+    "headOf": null
+  },
+  {
+    "nr": 103023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "dueling individuality ",
+    "headOf": null
+  },
+  {
+    "nr": 103031,
+    "professorType": "fullProfessor",
+    "researchInterest": "pairings equivalencies homestretches ",
+    "headOf": null
+  },
+  {
+    "nr": 103032,
+    "professorType": "associateProfessor",
+    "researchInterest": "gelignite grecizes dystrophies ",
+    "headOf": null
+  },
+  {
+    "nr": 103033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "nexuses ",
+    "headOf": null
+  },
+  {
+    "nr": 103041,
+    "professorType": "fullProfessor",
+    "researchInterest": "seditiousness sapiently gunned ",
+    "headOf": null
+  },
+  {
+    "nr": 103042,
+    "professorType": "associateProfessor",
+    "researchInterest": "biased graveled ",
+    "headOf": null
+  },
+  {
+    "nr": 103043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "reconsider grandee gesticulated ",
+    "headOf": null
+  },
+  {
+    "nr": 103051,
+    "professorType": "fullProfessor",
+    "researchInterest": "cheapskates ",
+    "headOf": null
+  },
+  {
+    "nr": 103052,
+    "professorType": "associateProfessor",
+    "researchInterest": "denudes splotching noneducable ",
+    "headOf": null
+  },
+  {
+    "nr": 103053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "satiny ",
+    "headOf": null
+  },
+  {
+    "nr": 103061,
+    "professorType": "fullProfessor",
+    "researchInterest": "diasporas ",
+    "headOf": null
+  },
+  {
+    "nr": 103062,
+    "professorType": "associateProfessor",
+    "researchInterest": "overinsure relishing ungodly ",
+    "headOf": null
+  },
+  {
+    "nr": 103063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "bogies totemist garrulousness ",
+    "headOf": null
+  },
+  {
+    "nr": 103071,
+    "professorType": "fullProfessor",
+    "researchInterest": "cosponsored infiltrators ",
+    "headOf": null
+  },
+  {
+    "nr": 103072,
+    "professorType": "associateProfessor",
+    "researchInterest": "salter ",
+    "headOf": null
+  },
+  {
+    "nr": 103073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "moderatorship humdinger hackneys ",
+    "headOf": null
+  },
+  {
+    "nr": 103081,
+    "professorType": "fullProfessor",
+    "researchInterest": "worriment presumptions ",
+    "headOf": null
+  },
+  {
+    "nr": 103082,
+    "professorType": "associateProfessor",
+    "researchInterest": "stratification ungentlemanly ",
+    "headOf": null
+  },
+  {
+    "nr": 103083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "samplings swayback unofficiously ",
+    "headOf": null
+  },
+  {
+    "nr": 103092,
+    "professorType": "associateProfessor",
+    "researchInterest": "espaliered mosaics reinstalling ",
+    "headOf": null
+  },
+  {
+    "nr": 103093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "bootlicks started ",
+    "headOf": null
+  },
+  {
+    "nr": 103102,
+    "professorType": "associateProfessor",
+    "researchInterest": "werewolf ",
+    "headOf": null
+  },
+  {
+    "nr": 103103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "stabilities kaleyards ",
+    "headOf": null
+  },
+  {
+    "nr": 103112,
+    "professorType": "associateProfessor",
+    "researchInterest": "cesareans stemmy anticlines ",
+    "headOf": null
+  },
+  {
+    "nr": 103122,
+    "professorType": "associateProfessor",
+    "researchInterest": "wildfowl shush extinction ",
+    "headOf": null
+  },
+  {
+    "nr": 103132,
+    "professorType": "associateProfessor",
+    "researchInterest": "identifying ",
+    "headOf": null
+  },
+  {
+    "nr": 104001,
+    "professorType": "fullProfessor",
+    "researchInterest": "delimits obliterating ",
+    "headOf": null
+  },
+  {
+    "nr": 104002,
+    "professorType": "associateProfessor",
+    "researchInterest": "spendthriftiness ",
+    "headOf": null
+  },
+  {
+    "nr": 104003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "monochrome needler ",
+    "headOf": null
+  },
+  {
+    "nr": 104011,
+    "professorType": "fullProfessor",
+    "researchInterest": "twattle ",
+    "headOf": null
+  },
+  {
+    "nr": 104012,
+    "professorType": "associateProfessor",
+    "researchInterest": "passible assorter converted ",
+    "headOf": null
+  },
+  {
+    "nr": 104013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "neuralgic dieter estimation ",
+    "headOf": null
+  },
+  {
+    "nr": 104021,
+    "professorType": "fullProfessor",
+    "researchInterest": "calx ",
+    "headOf": 104
+  },
+  {
+    "nr": 104022,
+    "professorType": "associateProfessor",
+    "researchInterest": "junkie hexer ",
+    "headOf": null
+  },
+  {
+    "nr": 104023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "restrung softness romances ",
+    "headOf": null
+  },
+  {
+    "nr": 104031,
+    "professorType": "fullProfessor",
+    "researchInterest": "florescence ",
+    "headOf": null
+  },
+  {
+    "nr": 104032,
+    "professorType": "associateProfessor",
+    "researchInterest": "cameleer woad ",
+    "headOf": null
+  },
+  {
+    "nr": 104033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "glanced convoked ",
+    "headOf": null
+  },
+  {
+    "nr": 104041,
+    "professorType": "fullProfessor",
+    "researchInterest": "lollypop overbakes uncashed ",
+    "headOf": null
+  },
+  {
+    "nr": 104042,
+    "professorType": "associateProfessor",
+    "researchInterest": "typecasts poorer ",
+    "headOf": null
+  },
+  {
+    "nr": 104043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "scatterbrains ",
+    "headOf": null
+  },
+  {
+    "nr": 104051,
+    "professorType": "fullProfessor",
+    "researchInterest": "demonstrative topographic ",
+    "headOf": null
+  },
+  {
+    "nr": 104052,
+    "professorType": "associateProfessor",
+    "researchInterest": "haft lindens pulsars ",
+    "headOf": null
+  },
+  {
+    "nr": 104053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "confesses hooter ",
+    "headOf": null
+  },
+  {
+    "nr": 104061,
+    "professorType": "fullProfessor",
+    "researchInterest": "verite beggars ",
+    "headOf": null
+  },
+  {
+    "nr": 104062,
+    "professorType": "associateProfessor",
+    "researchInterest": "describing squirmer ",
+    "headOf": null
+  },
+  {
+    "nr": 104063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "commercialist kenosis ",
+    "headOf": null
+  },
+  {
+    "nr": 104072,
+    "professorType": "associateProfessor",
+    "researchInterest": "recant mailer deferentially ",
+    "headOf": null
+  },
+  {
+    "nr": 104073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "preempting ensnares ",
+    "headOf": null
+  },
+  {
+    "nr": 104082,
+    "professorType": "associateProfessor",
+    "researchInterest": "livingly blinks overdiversify ",
+    "headOf": null
+  },
+  {
+    "nr": 104083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "antimatter ",
+    "headOf": null
+  },
+  {
+    "nr": 104092,
+    "professorType": "associateProfessor",
+    "researchInterest": "hydroponics doers ",
+    "headOf": null
+  },
+  {
+    "nr": 104093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "cuscus tantalization ",
+    "headOf": null
+  },
+  {
+    "nr": 104102,
+    "professorType": "associateProfessor",
+    "researchInterest": "saltily rungless clamor ",
+    "headOf": null
+  },
+  {
+    "nr": 104112,
+    "professorType": "associateProfessor",
+    "researchInterest": "underproduce splotches implemented ",
+    "headOf": null
+  },
+  {
+    "nr": 104122,
+    "professorType": "associateProfessor",
+    "researchInterest": "intimated immotile relabelled ",
+    "headOf": null
+  },
+  {
+    "nr": 104132,
+    "professorType": "associateProfessor",
+    "researchInterest": "govt noneducational ",
+    "headOf": null
+  },
+  {
+    "nr": 105001,
+    "professorType": "fullProfessor",
+    "researchInterest": "overtired dishware ",
+    "headOf": 105
+  },
+  {
+    "nr": 105002,
+    "professorType": "associateProfessor",
+    "researchInterest": "gesundheit phantasmagories ",
+    "headOf": null
+  },
+  {
+    "nr": 105003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "theftproof ",
+    "headOf": null
+  },
+  {
+    "nr": 105011,
+    "professorType": "fullProfessor",
+    "researchInterest": "deteriorated skyrocketed crudeness ",
+    "headOf": null
+  },
+  {
+    "nr": 105012,
+    "professorType": "associateProfessor",
+    "researchInterest": "outstare ",
+    "headOf": null
+  },
+  {
+    "nr": 105013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "ferules forebodings ",
+    "headOf": null
+  },
+  {
+    "nr": 105021,
+    "professorType": "fullProfessor",
+    "researchInterest": "resown punchy ",
+    "headOf": null
+  },
+  {
+    "nr": 105022,
+    "professorType": "associateProfessor",
+    "researchInterest": "antecedence staphylococcic oleos ",
+    "headOf": null
+  },
+  {
+    "nr": 105023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "brokage tankship unclaimed ",
+    "headOf": null
+  },
+  {
+    "nr": 105031,
+    "professorType": "fullProfessor",
+    "researchInterest": "hydrospheres sleights artificers ",
+    "headOf": null
+  },
+  {
+    "nr": 105032,
+    "professorType": "associateProfessor",
+    "researchInterest": "unscrupulous slubs congeals ",
+    "headOf": null
+  },
+  {
+    "nr": 105033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "subchiefs lowish viler ",
+    "headOf": null
+  },
+  {
+    "nr": 105041,
+    "professorType": "fullProfessor",
+    "researchInterest": "concertmasters eyestones divorcer ",
+    "headOf": null
+  },
+  {
+    "nr": 105042,
+    "professorType": "associateProfessor",
+    "researchInterest": "nerved havocked peter ",
+    "headOf": null
+  },
+  {
+    "nr": 105043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "harelike imperii inaugurated ",
+    "headOf": null
+  },
+  {
+    "nr": 105051,
+    "professorType": "fullProfessor",
+    "researchInterest": "buffos affords ",
+    "headOf": null
+  },
+  {
+    "nr": 105052,
+    "professorType": "associateProfessor",
+    "researchInterest": "periscopes regardless parsimoniousness ",
+    "headOf": null
+  },
+  {
+    "nr": 105053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "clarioned disgruntling ",
+    "headOf": null
+  },
+  {
+    "nr": 105061,
+    "professorType": "fullProfessor",
+    "researchInterest": "unstop broadness ",
+    "headOf": null
+  },
+  {
+    "nr": 105062,
+    "professorType": "associateProfessor",
+    "researchInterest": "blesseder subsidizations marxist ",
+    "headOf": null
+  },
+  {
+    "nr": 105063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "piecers masoned ",
+    "headOf": null
+  },
+  {
+    "nr": 105071,
+    "professorType": "fullProfessor",
+    "researchInterest": "batsmen complaisantly ",
+    "headOf": null
+  },
+  {
+    "nr": 105072,
+    "professorType": "associateProfessor",
+    "researchInterest": "recapitalizes ",
+    "headOf": null
+  },
+  {
+    "nr": 105073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "tasseling variating horas ",
+    "headOf": null
+  },
+  {
+    "nr": 105081,
+    "professorType": "fullProfessor",
+    "researchInterest": "nauseously ",
+    "headOf": null
+  },
+  {
+    "nr": 105082,
+    "professorType": "associateProfessor",
+    "researchInterest": "accelerates queueing ",
+    "headOf": null
+  },
+  {
+    "nr": 105083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "fiberglass sideswipes ",
+    "headOf": null
+  },
+  {
+    "nr": 105092,
+    "professorType": "associateProfessor",
+    "researchInterest": "helot muskeg dunghill ",
+    "headOf": null
+  },
+  {
+    "nr": 105093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "craggier baddy reinflames ",
+    "headOf": null
+  },
+  {
+    "nr": 105102,
+    "professorType": "associateProfessor",
+    "researchInterest": "goofball anorexias noggin ",
+    "headOf": null
+  },
+  {
+    "nr": 105112,
+    "professorType": "associateProfessor",
+    "researchInterest": "inferiorities windproof ",
+    "headOf": null
+  },
+  {
+    "nr": 106001,
+    "professorType": "fullProfessor",
+    "researchInterest": "sliceable ",
+    "headOf": null
+  },
+  {
+    "nr": 106002,
+    "professorType": "associateProfessor",
+    "researchInterest": "chartings ",
+    "headOf": null
+  },
+  {
+    "nr": 106003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "trashman kentuckian descending ",
+    "headOf": null
+  },
+  {
+    "nr": 106011,
+    "professorType": "fullProfessor",
+    "researchInterest": "gonocytes cadmic aggregative ",
+    "headOf": null
+  },
+  {
+    "nr": 106012,
+    "professorType": "associateProfessor",
+    "researchInterest": "temporaries catcher diverged ",
+    "headOf": null
+  },
+  {
+    "nr": 106013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "enlighten ",
+    "headOf": null
+  },
+  {
+    "nr": 106021,
+    "professorType": "fullProfessor",
+    "researchInterest": "quietness ",
+    "headOf": null
+  },
+  {
+    "nr": 106022,
+    "professorType": "associateProfessor",
+    "researchInterest": "sightlessness ",
+    "headOf": null
+  },
+  {
+    "nr": 106023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unlawfulness fusel etherizing ",
+    "headOf": null
+  },
+  {
+    "nr": 106031,
+    "professorType": "fullProfessor",
+    "researchInterest": "tinkliest delusional confronting ",
+    "headOf": null
+  },
+  {
+    "nr": 106032,
+    "professorType": "associateProfessor",
+    "researchInterest": "dottiest aitch cloistering ",
+    "headOf": null
+  },
+  {
+    "nr": 106033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "homemaking ",
+    "headOf": null
+  },
+  {
+    "nr": 106041,
+    "professorType": "fullProfessor",
+    "researchInterest": "devotedly ",
+    "headOf": 106
+  },
+  {
+    "nr": 106042,
+    "professorType": "associateProfessor",
+    "researchInterest": "goading niters fireplugs ",
+    "headOf": null
+  },
+  {
+    "nr": 106043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "solider glossing characteristics ",
+    "headOf": null
+  },
+  {
+    "nr": 106051,
+    "professorType": "fullProfessor",
+    "researchInterest": "bullwhip nonvocal anitinstitutionalism ",
+    "headOf": null
+  },
+  {
+    "nr": 106052,
+    "professorType": "associateProfessor",
+    "researchInterest": "hollyhocks infixed snapless ",
+    "headOf": null
+  },
+  {
+    "nr": 106053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unbiased nominally ",
+    "headOf": null
+  },
+  {
+    "nr": 106061,
+    "professorType": "fullProfessor",
+    "researchInterest": "malices robotizes ",
+    "headOf": null
+  },
+  {
+    "nr": 106062,
+    "professorType": "associateProfessor",
+    "researchInterest": "yelper ",
+    "headOf": null
+  },
+  {
+    "nr": 106063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "vented compromises ",
+    "headOf": null
+  },
+  {
+    "nr": 106071,
+    "professorType": "fullProfessor",
+    "researchInterest": "extemporaneously sectaries fubsier ",
+    "headOf": null
+  },
+  {
+    "nr": 106072,
+    "professorType": "associateProfessor",
+    "researchInterest": "multifaced proliferating ",
+    "headOf": null
+  },
+  {
+    "nr": 106073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "revested strengthens ",
+    "headOf": null
+  },
+  {
+    "nr": 106081,
+    "professorType": "fullProfessor",
+    "researchInterest": "refilter ",
+    "headOf": null
+  },
+  {
+    "nr": 106082,
+    "professorType": "associateProfessor",
+    "researchInterest": "keratoid ",
+    "headOf": null
+  },
+  {
+    "nr": 106083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unburned countersinking exiles ",
+    "headOf": null
+  },
+  {
+    "nr": 106091,
+    "professorType": "fullProfessor",
+    "researchInterest": "angstroms privacies wofully ",
+    "headOf": null
+  },
+  {
+    "nr": 106092,
+    "professorType": "associateProfessor",
+    "researchInterest": "willingness vaunty institutional ",
+    "headOf": null
+  },
+  {
+    "nr": 106093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "recyclability kennels threesomes ",
+    "headOf": null
+  },
+  {
+    "nr": 106102,
+    "professorType": "associateProfessor",
+    "researchInterest": "credits ",
+    "headOf": null
+  },
+  {
+    "nr": 106103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "rightfully ballpoints afterdecks ",
+    "headOf": null
+  },
+  {
+    "nr": 107001,
+    "professorType": "fullProfessor",
+    "researchInterest": "cancellation flanger luau ",
+    "headOf": null
+  },
+  {
+    "nr": 107002,
+    "professorType": "associateProfessor",
+    "researchInterest": "immanency ",
+    "headOf": null
+  },
+  {
+    "nr": 107003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "longshoreman oomph ",
+    "headOf": null
+  },
+  {
+    "nr": 107011,
+    "professorType": "fullProfessor",
+    "researchInterest": "disenfranchising ",
+    "headOf": 107
+  },
+  {
+    "nr": 107012,
+    "professorType": "associateProfessor",
+    "researchInterest": "bedstands antidepressive ",
+    "headOf": null
+  },
+  {
+    "nr": 107013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "toadyisms merrymaking ",
+    "headOf": null
+  },
+  {
+    "nr": 107021,
+    "professorType": "fullProfessor",
+    "researchInterest": "squinting disengage oratress ",
+    "headOf": null
+  },
+  {
+    "nr": 107022,
+    "professorType": "associateProfessor",
+    "researchInterest": "promises ",
+    "headOf": null
+  },
+  {
+    "nr": 107023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "pulsation frictionless interties ",
+    "headOf": null
+  },
+  {
+    "nr": 107031,
+    "professorType": "fullProfessor",
+    "researchInterest": "octanes ",
+    "headOf": null
+  },
+  {
+    "nr": 107032,
+    "professorType": "associateProfessor",
+    "researchInterest": "dehumidifies ",
+    "headOf": null
+  },
+  {
+    "nr": 107033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "czechoslovaks helmets lees ",
+    "headOf": null
+  },
+  {
+    "nr": 107041,
+    "professorType": "fullProfessor",
+    "researchInterest": "cubit waterborne attacher ",
+    "headOf": null
+  },
+  {
+    "nr": 107042,
+    "professorType": "associateProfessor",
+    "researchInterest": "cyanosed grazier ",
+    "headOf": null
+  },
+  {
+    "nr": 107043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "abreacts emboldening ",
+    "headOf": null
+  },
+  {
+    "nr": 107051,
+    "professorType": "fullProfessor",
+    "researchInterest": "trailers ",
+    "headOf": null
+  },
+  {
+    "nr": 107052,
+    "professorType": "associateProfessor",
+    "researchInterest": "affluents ",
+    "headOf": null
+  },
+  {
+    "nr": 107053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "meritoriously ",
+    "headOf": null
+  },
+  {
+    "nr": 107061,
+    "professorType": "fullProfessor",
+    "researchInterest": "antedating delphinia worshipped ",
+    "headOf": null
+  },
+  {
+    "nr": 107062,
+    "professorType": "associateProfessor",
+    "researchInterest": "notes pyx teratologic ",
+    "headOf": null
+  },
+  {
+    "nr": 107063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "overwrote ",
+    "headOf": null
+  },
+  {
+    "nr": 107071,
+    "professorType": "fullProfessor",
+    "researchInterest": "pulings projectionists smugly ",
+    "headOf": null
+  },
+  {
+    "nr": 107072,
+    "professorType": "associateProfessor",
+    "researchInterest": "silvern trashiest rewarms ",
+    "headOf": null
+  },
+  {
+    "nr": 107073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "advents ",
+    "headOf": null
+  },
+  {
+    "nr": 107081,
+    "professorType": "fullProfessor",
+    "researchInterest": "transmits nondemocratic relaxants ",
+    "headOf": null
+  },
+  {
+    "nr": 107082,
+    "professorType": "associateProfessor",
+    "researchInterest": "glazes flashlamp dybbuk ",
+    "headOf": null
+  },
+  {
+    "nr": 107083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "demureness ",
+    "headOf": null
+  },
+  {
+    "nr": 107091,
+    "professorType": "fullProfessor",
+    "researchInterest": "drownding ",
+    "headOf": null
+  },
+  {
+    "nr": 107092,
+    "professorType": "associateProfessor",
+    "researchInterest": "geysers pinchpenny gels ",
+    "headOf": null
+  },
+  {
+    "nr": 107093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "trots jerrycan ",
+    "headOf": null
+  },
+  {
+    "nr": 107102,
+    "professorType": "associateProfessor",
+    "researchInterest": "misconstructions ",
+    "headOf": null
+  },
+  {
+    "nr": 107103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "gummier improvisor debases ",
+    "headOf": null
+  },
+  {
+    "nr": 107112,
+    "professorType": "associateProfessor",
+    "researchInterest": "authoritativeness ",
+    "headOf": null
+  },
+  {
+    "nr": 108001,
+    "professorType": "fullProfessor",
+    "researchInterest": "mariachis ",
+    "headOf": 108
+  },
+  {
+    "nr": 108002,
+    "professorType": "associateProfessor",
+    "researchInterest": "scowled witchier cuprites ",
+    "headOf": null
+  },
+  {
+    "nr": 108003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "archaisms personality unbounded ",
+    "headOf": null
+  },
+  {
+    "nr": 108011,
+    "professorType": "fullProfessor",
+    "researchInterest": "travoises banknote ",
+    "headOf": null
+  },
+  {
+    "nr": 108012,
+    "professorType": "associateProfessor",
+    "researchInterest": "superannuating quarte ",
+    "headOf": null
+  },
+  {
+    "nr": 108013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "anapest reascents ",
+    "headOf": null
+  },
+  {
+    "nr": 108021,
+    "professorType": "fullProfessor",
+    "researchInterest": "wrapped resistantly recolor ",
+    "headOf": null
+  },
+  {
+    "nr": 108022,
+    "professorType": "associateProfessor",
+    "researchInterest": "caftans playacts amelioration ",
+    "headOf": null
+  },
+  {
+    "nr": 108023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "kineses ",
+    "headOf": null
+  },
+  {
+    "nr": 108031,
+    "professorType": "fullProfessor",
+    "researchInterest": "deviation wittingly dalmatians ",
+    "headOf": null
+  },
+  {
+    "nr": 108032,
+    "professorType": "associateProfessor",
+    "researchInterest": "retranslates ",
+    "headOf": null
+  },
+  {
+    "nr": 108033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "skewness ",
+    "headOf": null
+  },
+  {
+    "nr": 108041,
+    "professorType": "fullProfessor",
+    "researchInterest": "enshrined ",
+    "headOf": null
+  },
+  {
+    "nr": 108042,
+    "professorType": "associateProfessor",
+    "researchInterest": "taffrails intoners ",
+    "headOf": null
+  },
+  {
+    "nr": 108043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "exacerbates ",
+    "headOf": null
+  },
+  {
+    "nr": 108051,
+    "professorType": "fullProfessor",
+    "researchInterest": "antlered ",
+    "headOf": null
+  },
+  {
+    "nr": 108052,
+    "professorType": "associateProfessor",
+    "researchInterest": "worthless corollas ",
+    "headOf": null
+  },
+  {
+    "nr": 108053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "manslayers violinists ",
+    "headOf": null
+  },
+  {
+    "nr": 108061,
+    "professorType": "fullProfessor",
+    "researchInterest": "revisionism miscopied ",
+    "headOf": null
+  },
+  {
+    "nr": 108062,
+    "professorType": "associateProfessor",
+    "researchInterest": "audads strangling wahines ",
+    "headOf": null
+  },
+  {
+    "nr": 108063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "signorine haggises medievalists ",
+    "headOf": null
+  },
+  {
+    "nr": 108071,
+    "professorType": "fullProfessor",
+    "researchInterest": "indestructibility throating ",
+    "headOf": null
+  },
+  {
+    "nr": 108072,
+    "professorType": "associateProfessor",
+    "researchInterest": "dietetically instiller impended ",
+    "headOf": null
+  },
+  {
+    "nr": 108073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unrest ",
+    "headOf": null
+  },
+  {
+    "nr": 108082,
+    "professorType": "associateProfessor",
+    "researchInterest": "panthers sideswipe evinces ",
+    "headOf": null
+  },
+  {
+    "nr": 108083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "queerness ",
+    "headOf": null
+  },
+  {
+    "nr": 108092,
+    "professorType": "associateProfessor",
+    "researchInterest": "skated tusking ",
+    "headOf": null
+  },
+  {
+    "nr": 108093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "tzarevnas remunerated phonographic ",
+    "headOf": null
+  },
+  {
+    "nr": 109001,
+    "professorType": "fullProfessor",
+    "researchInterest": "warningly coliforms ",
+    "headOf": null
+  },
+  {
+    "nr": 109002,
+    "professorType": "associateProfessor",
+    "researchInterest": "prejudiced magnanimousness associatively ",
+    "headOf": null
+  },
+  {
+    "nr": 109003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "celestes ballistically ",
+    "headOf": null
+  },
+  {
+    "nr": 109011,
+    "professorType": "fullProfessor",
+    "researchInterest": "rockfall ",
+    "headOf": null
+  },
+  {
+    "nr": 109012,
+    "professorType": "associateProfessor",
+    "researchInterest": "dotier suffragist aesop ",
+    "headOf": null
+  },
+  {
+    "nr": 109013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "mayweeds cruncher pileate ",
+    "headOf": null
+  },
+  {
+    "nr": 109021,
+    "professorType": "fullProfessor",
+    "researchInterest": "clinked caliphates ",
+    "headOf": null
+  },
+  {
+    "nr": 109022,
+    "professorType": "associateProfessor",
+    "researchInterest": "ornerier ",
+    "headOf": null
+  },
+  {
+    "nr": 109023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "viewless ",
+    "headOf": null
+  },
+  {
+    "nr": 109031,
+    "professorType": "fullProfessor",
+    "researchInterest": "unneighborly ",
+    "headOf": null
+  },
+  {
+    "nr": 109032,
+    "professorType": "associateProfessor",
+    "researchInterest": "mistrustfulness ",
+    "headOf": null
+  },
+  {
+    "nr": 109033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "sensations autarky beechy ",
+    "headOf": null
+  },
+  {
+    "nr": 109041,
+    "professorType": "fullProfessor",
+    "researchInterest": "champing thoughtlessly uniting ",
+    "headOf": null
+  },
+  {
+    "nr": 109042,
+    "professorType": "associateProfessor",
+    "researchInterest": "conurbation octopi ",
+    "headOf": null
+  },
+  {
+    "nr": 109043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "landladies individuality interstate ",
+    "headOf": null
+  },
+  {
+    "nr": 109051,
+    "professorType": "fullProfessor",
+    "researchInterest": "composed ",
+    "headOf": null
+  },
+  {
+    "nr": 109052,
+    "professorType": "associateProfessor",
+    "researchInterest": "unworkable dishonorable titivate ",
+    "headOf": null
+  },
+  {
+    "nr": 109053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "dragrope backs ",
+    "headOf": null
+  },
+  {
+    "nr": 109061,
+    "professorType": "fullProfessor",
+    "researchInterest": "dallying ",
+    "headOf": 109
+  },
+  {
+    "nr": 109062,
+    "professorType": "associateProfessor",
+    "researchInterest": "aretes ",
+    "headOf": null
+  },
+  {
+    "nr": 109063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "cesarian shrifts ",
+    "headOf": null
+  },
+  {
+    "nr": 109071,
+    "professorType": "fullProfessor",
+    "researchInterest": "tracer ",
+    "headOf": null
+  },
+  {
+    "nr": 109072,
+    "professorType": "associateProfessor",
+    "researchInterest": "depopulator recrates chiasms ",
+    "headOf": null
+  },
+  {
+    "nr": 109073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "milfoils bracers ",
+    "headOf": null
+  },
+  {
+    "nr": 109081,
+    "professorType": "fullProfessor",
+    "researchInterest": "tora vulcanizing ",
+    "headOf": null
+  },
+  {
+    "nr": 109082,
+    "professorType": "associateProfessor",
+    "researchInterest": "caws forebode tallyhoing ",
+    "headOf": null
+  },
+  {
+    "nr": 109083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "hyphenating subcultures ",
+    "headOf": null
+  },
+  {
+    "nr": 109092,
+    "professorType": "associateProfessor",
+    "researchInterest": "metalloidal knacked forearming ",
+    "headOf": null
+  },
+  {
+    "nr": 109102,
+    "professorType": "associateProfessor",
+    "researchInterest": "attackingly ",
+    "headOf": null
+  },
+  {
+    "nr": 109112,
+    "professorType": "associateProfessor",
+    "researchInterest": "relinquishes tennesseeans ",
+    "headOf": null
+  },
+  {
+    "nr": 110001,
+    "professorType": "fullProfessor",
+    "researchInterest": "thickened ",
+    "headOf": null
+  },
+  {
+    "nr": 110002,
+    "professorType": "associateProfessor",
+    "researchInterest": "faculae ",
+    "headOf": null
+  },
+  {
+    "nr": 110003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "sotted ",
+    "headOf": null
+  },
+  {
+    "nr": 110011,
+    "professorType": "fullProfessor",
+    "researchInterest": "pelletized threnodes ",
+    "headOf": null
+  },
+  {
+    "nr": 110012,
+    "professorType": "associateProfessor",
+    "researchInterest": "puddlings ",
+    "headOf": null
+  },
+  {
+    "nr": 110013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "tempi heparin electroplating ",
+    "headOf": null
+  },
+  {
+    "nr": 110021,
+    "professorType": "fullProfessor",
+    "researchInterest": "yeggs ",
+    "headOf": null
+  },
+  {
+    "nr": 110022,
+    "professorType": "associateProfessor",
+    "researchInterest": "aggregative kopecks funerals ",
+    "headOf": null
+  },
+  {
+    "nr": 110023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "canonists lupines recruitment ",
+    "headOf": null
+  },
+  {
+    "nr": 110031,
+    "professorType": "fullProfessor",
+    "researchInterest": "feebly grassed ",
+    "headOf": null
+  },
+  {
+    "nr": 110032,
+    "professorType": "associateProfessor",
+    "researchInterest": "polyvinyl ",
+    "headOf": null
+  },
+  {
+    "nr": 110033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "washbasins overstepped ",
+    "headOf": null
+  },
+  {
+    "nr": 110041,
+    "professorType": "fullProfessor",
+    "researchInterest": "bisected transoms ",
+    "headOf": null
+  },
+  {
+    "nr": 110042,
+    "professorType": "associateProfessor",
+    "researchInterest": "diagrammer ",
+    "headOf": null
+  },
+  {
+    "nr": 110043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "disabusing ",
+    "headOf": null
+  },
+  {
+    "nr": 110051,
+    "professorType": "fullProfessor",
+    "researchInterest": "foreknow orthopedically plenipotentiaries ",
+    "headOf": null
+  },
+  {
+    "nr": 110052,
+    "professorType": "associateProfessor",
+    "researchInterest": "fertilizations djellabas graces ",
+    "headOf": null
+  },
+  {
+    "nr": 110053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "undelivered sillers ",
+    "headOf": null
+  },
+  {
+    "nr": 110061,
+    "professorType": "fullProfessor",
+    "researchInterest": "intactness clamworm ",
+    "headOf": 110
+  },
+  {
+    "nr": 110062,
+    "professorType": "associateProfessor",
+    "researchInterest": "travelers ",
+    "headOf": null
+  },
+  {
+    "nr": 110063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "permeation ",
+    "headOf": null
+  },
+  {
+    "nr": 110071,
+    "professorType": "fullProfessor",
+    "researchInterest": "newer ",
+    "headOf": null
+  },
+  {
+    "nr": 110072,
+    "professorType": "associateProfessor",
+    "researchInterest": "spillers ",
+    "headOf": null
+  },
+  {
+    "nr": 110073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unconstitutionally disencumbered combined ",
+    "headOf": null
+  },
+  {
+    "nr": 110081,
+    "professorType": "fullProfessor",
+    "researchInterest": "compactest noninheritable dashers ",
+    "headOf": null
+  },
+  {
+    "nr": 110082,
+    "professorType": "associateProfessor",
+    "researchInterest": "possibility lactates ",
+    "headOf": null
+  },
+  {
+    "nr": 110083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "collected petulantly squeaking ",
+    "headOf": null
+  },
+  {
+    "nr": 110091,
+    "professorType": "fullProfessor",
+    "researchInterest": "condoled ",
+    "headOf": null
+  },
+  {
+    "nr": 110092,
+    "professorType": "associateProfessor",
+    "researchInterest": "barnier ",
+    "headOf": null
+  },
+  {
+    "nr": 110093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "affliction interpreted copped ",
+    "headOf": null
+  },
+  {
+    "nr": 110102,
+    "professorType": "associateProfessor",
+    "researchInterest": "beakless ",
+    "headOf": null
+  },
+  {
+    "nr": 110103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "precipitancy ",
+    "headOf": null
+  },
+  {
+    "nr": 110112,
+    "professorType": "associateProfessor",
+    "researchInterest": "rebaptizes pachysandra ",
+    "headOf": null
+  },
+  {
+    "nr": 111001,
+    "professorType": "fullProfessor",
+    "researchInterest": "surveiled ",
+    "headOf": null
+  },
+  {
+    "nr": 111002,
+    "professorType": "associateProfessor",
+    "researchInterest": "timing ",
+    "headOf": null
+  },
+  {
+    "nr": 111003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "upbraids ",
+    "headOf": null
+  },
+  {
+    "nr": 111011,
+    "professorType": "fullProfessor",
+    "researchInterest": "applying retrieved bisons ",
+    "headOf": null
+  },
+  {
+    "nr": 111012,
+    "professorType": "associateProfessor",
+    "researchInterest": "chemotherapeuticness ",
+    "headOf": null
+  },
+  {
+    "nr": 111013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "decriminalize broachers purser ",
+    "headOf": null
+  },
+  {
+    "nr": 111021,
+    "professorType": "fullProfessor",
+    "researchInterest": "nonunions concussed openhanded ",
+    "headOf": null
+  },
+  {
+    "nr": 111022,
+    "professorType": "associateProfessor",
+    "researchInterest": "unshackling ",
+    "headOf": null
+  },
+  {
+    "nr": 111023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "cardiography hippie ",
+    "headOf": null
+  },
+  {
+    "nr": 111031,
+    "professorType": "fullProfessor",
+    "researchInterest": "shuttering begone ",
+    "headOf": null
+  },
+  {
+    "nr": 111032,
+    "professorType": "associateProfessor",
+    "researchInterest": "ruptures ",
+    "headOf": null
+  },
+  {
+    "nr": 111033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "bhaktis blinding ",
+    "headOf": null
+  },
+  {
+    "nr": 111041,
+    "professorType": "fullProfessor",
+    "researchInterest": "lopers assignees ",
+    "headOf": null
+  },
+  {
+    "nr": 111042,
+    "professorType": "associateProfessor",
+    "researchInterest": "suspectable rhyming ",
+    "headOf": null
+  },
+  {
+    "nr": 111043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "libbed hellboxes conductors ",
+    "headOf": null
+  },
+  {
+    "nr": 111051,
+    "professorType": "fullProfessor",
+    "researchInterest": "molies cachepot imperforate ",
+    "headOf": 111
+  },
+  {
+    "nr": 111052,
+    "professorType": "associateProfessor",
+    "researchInterest": "diglots ",
+    "headOf": null
+  },
+  {
+    "nr": 111053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "physicals reticulation ",
+    "headOf": null
+  },
+  {
+    "nr": 111061,
+    "professorType": "fullProfessor",
+    "researchInterest": "democratically besot ",
+    "headOf": null
+  },
+  {
+    "nr": 111062,
+    "professorType": "associateProfessor",
+    "researchInterest": "indentors welshwoman percenter ",
+    "headOf": null
+  },
+  {
+    "nr": 111063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "pounds ",
+    "headOf": null
+  },
+  {
+    "nr": 111072,
+    "professorType": "associateProfessor",
+    "researchInterest": "tyrannies flurries hopes ",
+    "headOf": null
+  },
+  {
+    "nr": 111073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "worthlessness preassigning ",
+    "headOf": null
+  },
+  {
+    "nr": 111082,
+    "professorType": "associateProfessor",
+    "researchInterest": "anticommunists swampier ",
+    "headOf": null
+  },
+  {
+    "nr": 111092,
+    "professorType": "associateProfessor",
+    "researchInterest": "startler fightings teems ",
+    "headOf": null
+  },
+  {
+    "nr": 112001,
+    "professorType": "fullProfessor",
+    "researchInterest": "hydrating ",
+    "headOf": null
+  },
+  {
+    "nr": 112002,
+    "professorType": "associateProfessor",
+    "researchInterest": "brindled ",
+    "headOf": null
+  },
+  {
+    "nr": 112003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "collarless outcomes waterier ",
+    "headOf": null
+  },
+  {
+    "nr": 112011,
+    "professorType": "fullProfessor",
+    "researchInterest": "necessariness devilment coif ",
+    "headOf": null
+  },
+  {
+    "nr": 112012,
+    "professorType": "associateProfessor",
+    "researchInterest": "scarcity boohoo react ",
+    "headOf": null
+  },
+  {
+    "nr": 112013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "respecters amebean ",
+    "headOf": null
+  },
+  {
+    "nr": 112021,
+    "professorType": "fullProfessor",
+    "researchInterest": "vaporishness claimed gainfully ",
+    "headOf": null
+  },
+  {
+    "nr": 112022,
+    "professorType": "associateProfessor",
+    "researchInterest": "carracks shellacking chiefs ",
+    "headOf": null
+  },
+  {
+    "nr": 112023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "alphabetizing malfeasance ",
+    "headOf": null
+  },
+  {
+    "nr": 112031,
+    "professorType": "fullProfessor",
+    "researchInterest": "restrains deigned ",
+    "headOf": null
+  },
+  {
+    "nr": 112032,
+    "professorType": "associateProfessor",
+    "researchInterest": "dowsing ",
+    "headOf": null
+  },
+  {
+    "nr": 112033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "profligately ",
+    "headOf": null
+  },
+  {
+    "nr": 112041,
+    "professorType": "fullProfessor",
+    "researchInterest": "quintar schusses granting ",
+    "headOf": null
+  },
+  {
+    "nr": 112042,
+    "professorType": "associateProfessor",
+    "researchInterest": "warmed volleys ",
+    "headOf": null
+  },
+  {
+    "nr": 112043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "vulgarian shrouded electrophoresing ",
+    "headOf": null
+  },
+  {
+    "nr": 112051,
+    "professorType": "fullProfessor",
+    "researchInterest": "toddler freeholds ",
+    "headOf": 112
+  },
+  {
+    "nr": 112052,
+    "professorType": "associateProfessor",
+    "researchInterest": "orderer sealery pointe ",
+    "headOf": null
+  },
+  {
+    "nr": 112053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "miotic flossies ",
+    "headOf": null
+  },
+  {
+    "nr": 112061,
+    "professorType": "fullProfessor",
+    "researchInterest": "daft effector devoutly ",
+    "headOf": null
+  },
+  {
+    "nr": 112062,
+    "professorType": "associateProfessor",
+    "researchInterest": "grudges ordo blesseder ",
+    "headOf": null
+  },
+  {
+    "nr": 112063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "soapboxes plumpest ",
+    "headOf": null
+  },
+  {
+    "nr": 112071,
+    "professorType": "fullProfessor",
+    "researchInterest": "chapeau ",
+    "headOf": null
+  },
+  {
+    "nr": 112072,
+    "professorType": "associateProfessor",
+    "researchInterest": "repertories ",
+    "headOf": null
+  },
+  {
+    "nr": 112073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "recommissioned ",
+    "headOf": null
+  },
+  {
+    "nr": 112081,
+    "professorType": "fullProfessor",
+    "researchInterest": "peeve ",
+    "headOf": null
+  },
+  {
+    "nr": 112082,
+    "professorType": "associateProfessor",
+    "researchInterest": "externals remeets ",
+    "headOf": null
+  },
+  {
+    "nr": 112083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "provisions restless ",
+    "headOf": null
+  },
+  {
+    "nr": 112091,
+    "professorType": "fullProfessor",
+    "researchInterest": "sinistrally winnower reinfusion ",
+    "headOf": null
+  },
+  {
+    "nr": 112092,
+    "professorType": "associateProfessor",
+    "researchInterest": "strath escoting desoxyribonucleic ",
+    "headOf": null
+  },
+  {
+    "nr": 112102,
+    "professorType": "associateProfessor",
+    "researchInterest": "aesthetics tatted nonconformity ",
+    "headOf": null
+  },
+  {
+    "nr": 112112,
+    "professorType": "associateProfessor",
+    "researchInterest": "brightens reaccredits scheduling ",
+    "headOf": null
+  },
+  {
+    "nr": 112122,
+    "professorType": "associateProfessor",
+    "researchInterest": "arbitral quartzes ",
+    "headOf": null
+  },
+  {
+    "nr": 113001,
+    "professorType": "fullProfessor",
+    "researchInterest": "rewords ",
+    "headOf": null
+  },
+  {
+    "nr": 113002,
+    "professorType": "associateProfessor",
+    "researchInterest": "sanctum piney oxbloods ",
+    "headOf": null
+  },
+  {
+    "nr": 113003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "extrudes technologists stepdames ",
+    "headOf": null
+  },
+  {
+    "nr": 113011,
+    "professorType": "fullProfessor",
+    "researchInterest": "disinclined ",
+    "headOf": null
+  },
+  {
+    "nr": 113012,
+    "professorType": "associateProfessor",
+    "researchInterest": "pantie laager epilogues ",
+    "headOf": null
+  },
+  {
+    "nr": 113013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "negus aftershaves ",
+    "headOf": null
+  },
+  {
+    "nr": 113021,
+    "professorType": "fullProfessor",
+    "researchInterest": "unsnarling dimpled ",
+    "headOf": null
+  },
+  {
+    "nr": 113022,
+    "professorType": "associateProfessor",
+    "researchInterest": "anticorrosive ",
+    "headOf": null
+  },
+  {
+    "nr": 113023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "umpteenth skilful taperingly ",
+    "headOf": null
+  },
+  {
+    "nr": 113031,
+    "professorType": "fullProfessor",
+    "researchInterest": "uniters ",
+    "headOf": null
+  },
+  {
+    "nr": 113032,
+    "professorType": "associateProfessor",
+    "researchInterest": "reeved blowoffs vicarly ",
+    "headOf": null
+  },
+  {
+    "nr": 113033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "rebels cinching ",
+    "headOf": null
+  },
+  {
+    "nr": 113041,
+    "professorType": "fullProfessor",
+    "researchInterest": "troths gigue ",
+    "headOf": 113
+  },
+  {
+    "nr": 113042,
+    "professorType": "associateProfessor",
+    "researchInterest": "proctors garrottes ",
+    "headOf": null
+  },
+  {
+    "nr": 113043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "baiters cornballs unexplainably ",
+    "headOf": null
+  },
+  {
+    "nr": 113051,
+    "professorType": "fullProfessor",
+    "researchInterest": "embrocating ",
+    "headOf": null
+  },
+  {
+    "nr": 113052,
+    "professorType": "associateProfessor",
+    "researchInterest": "regularizes ",
+    "headOf": null
+  },
+  {
+    "nr": 113053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "disturbed mayflowers retying ",
+    "headOf": null
+  },
+  {
+    "nr": 113061,
+    "professorType": "fullProfessor",
+    "researchInterest": "wilds emphasizes pics ",
+    "headOf": null
+  },
+  {
+    "nr": 113062,
+    "professorType": "associateProfessor",
+    "researchInterest": "classing intelligibility creaminess ",
+    "headOf": null
+  },
+  {
+    "nr": 113063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "asyndeta bistro fathered ",
+    "headOf": null
+  },
+  {
+    "nr": 113071,
+    "professorType": "fullProfessor",
+    "researchInterest": "beckons loveably playgoer ",
+    "headOf": null
+  },
+  {
+    "nr": 113072,
+    "professorType": "associateProfessor",
+    "researchInterest": "recusing afterburners ",
+    "headOf": null
+  },
+  {
+    "nr": 113073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "muling ",
+    "headOf": null
+  },
+  {
+    "nr": 113081,
+    "professorType": "fullProfessor",
+    "researchInterest": "reburials regulative ",
+    "headOf": null
+  },
+  {
+    "nr": 113082,
+    "professorType": "associateProfessor",
+    "researchInterest": "ahimsas buskined ",
+    "headOf": null
+  },
+  {
+    "nr": 113083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "fumigating inspectorate ",
+    "headOf": null
+  },
+  {
+    "nr": 113091,
+    "professorType": "fullProfessor",
+    "researchInterest": "footrests sones ",
+    "headOf": null
+  },
+  {
+    "nr": 113092,
+    "professorType": "associateProfessor",
+    "researchInterest": "diminutions stonable ",
+    "headOf": null
+  },
+  {
+    "nr": 113102,
+    "professorType": "associateProfessor",
+    "researchInterest": "rationed duplexs dichotic ",
+    "headOf": null
+  },
+  {
+    "nr": 113112,
+    "professorType": "associateProfessor",
+    "researchInterest": "warmest ",
+    "headOf": null
+  },
+  {
+    "nr": 113122,
+    "professorType": "associateProfessor",
+    "researchInterest": "unseen aviators ",
+    "headOf": null
+  },
+  {
+    "nr": 114001,
+    "professorType": "fullProfessor",
+    "researchInterest": "kedges ",
+    "headOf": 114
+  },
+  {
+    "nr": 114002,
+    "professorType": "associateProfessor",
+    "researchInterest": "ambuscades destroyers ",
+    "headOf": null
+  },
+  {
+    "nr": 114003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "habitualness overlapped swagger ",
+    "headOf": null
+  },
+  {
+    "nr": 114011,
+    "professorType": "fullProfessor",
+    "researchInterest": "togas milkwood ",
+    "headOf": null
+  },
+  {
+    "nr": 114012,
+    "professorType": "associateProfessor",
+    "researchInterest": "aubades ",
+    "headOf": null
+  },
+  {
+    "nr": 114013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "yabber ",
+    "headOf": null
+  },
+  {
+    "nr": 114021,
+    "professorType": "fullProfessor",
+    "researchInterest": "simp exorcisers ",
+    "headOf": null
+  },
+  {
+    "nr": 114022,
+    "professorType": "associateProfessor",
+    "researchInterest": "codifies ",
+    "headOf": null
+  },
+  {
+    "nr": 114023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "afterburners bridled ",
+    "headOf": null
+  },
+  {
+    "nr": 114031,
+    "professorType": "fullProfessor",
+    "researchInterest": "endorsement preoccupies ",
+    "headOf": null
+  },
+  {
+    "nr": 114032,
+    "professorType": "associateProfessor",
+    "researchInterest": "arresting usuriously dehumanization ",
+    "headOf": null
+  },
+  {
+    "nr": 114033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "misgive irrupted shininess ",
+    "headOf": null
+  },
+  {
+    "nr": 114041,
+    "professorType": "fullProfessor",
+    "researchInterest": "nougats kremlinology blandness ",
+    "headOf": null
+  },
+  {
+    "nr": 114042,
+    "professorType": "associateProfessor",
+    "researchInterest": "tendons victress unionism ",
+    "headOf": null
+  },
+  {
+    "nr": 114043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "tetany seraphically ",
+    "headOf": null
+  },
+  {
+    "nr": 114051,
+    "professorType": "fullProfessor",
+    "researchInterest": "hypnotizing clitorises ",
+    "headOf": null
+  },
+  {
+    "nr": 114052,
+    "professorType": "associateProfessor",
+    "researchInterest": "unalarming unbrotherly blousing ",
+    "headOf": null
+  },
+  {
+    "nr": 114053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "disorientating sadisms quarterings ",
+    "headOf": null
+  },
+  {
+    "nr": 114061,
+    "professorType": "fullProfessor",
+    "researchInterest": "tosses honed xylophonist ",
+    "headOf": null
+  },
+  {
+    "nr": 114062,
+    "professorType": "associateProfessor",
+    "researchInterest": "stockpot condensates ",
+    "headOf": null
+  },
+  {
+    "nr": 114063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "leniently nothingness ",
+    "headOf": null
+  },
+  {
+    "nr": 114072,
+    "professorType": "associateProfessor",
+    "researchInterest": "beltway intellectualism ",
+    "headOf": null
+  },
+  {
+    "nr": 114073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "ribbed petro ",
+    "headOf": null
+  },
+  {
+    "nr": 114082,
+    "professorType": "associateProfessor",
+    "researchInterest": "ambassadors mesalliance ",
+    "headOf": null
+  },
+  {
+    "nr": 114083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "xvi imperilments ",
+    "headOf": null
+  },
+  {
+    "nr": 114092,
+    "professorType": "associateProfessor",
+    "researchInterest": "reckoned gorget faultier ",
+    "headOf": null
+  },
+  {
+    "nr": 114093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "limburger foilable whipsaws ",
+    "headOf": null
+  },
+  {
+    "nr": 115001,
+    "professorType": "fullProfessor",
+    "researchInterest": "ramified ",
+    "headOf": null
+  },
+  {
+    "nr": 115002,
+    "professorType": "associateProfessor",
+    "researchInterest": "eidola ",
+    "headOf": null
+  },
+  {
+    "nr": 115003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "benignly ",
+    "headOf": null
+  },
+  {
+    "nr": 115011,
+    "professorType": "fullProfessor",
+    "researchInterest": "remelting ",
+    "headOf": null
+  },
+  {
+    "nr": 115012,
+    "professorType": "associateProfessor",
+    "researchInterest": "clownish sandbank jiggered ",
+    "headOf": null
+  },
+  {
+    "nr": 115013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "enjoyably powerboat dought ",
+    "headOf": null
+  },
+  {
+    "nr": 115021,
+    "professorType": "fullProfessor",
+    "researchInterest": "chicness ",
+    "headOf": null
+  },
+  {
+    "nr": 115022,
+    "professorType": "associateProfessor",
+    "researchInterest": "inbounds ",
+    "headOf": null
+  },
+  {
+    "nr": 115023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "modifiable promising pipedream ",
+    "headOf": null
+  },
+  {
+    "nr": 115031,
+    "professorType": "fullProfessor",
+    "researchInterest": "sigil nonregistered ",
+    "headOf": null
+  },
+  {
+    "nr": 115032,
+    "professorType": "associateProfessor",
+    "researchInterest": "conditionally ",
+    "headOf": null
+  },
+  {
+    "nr": 115033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "hipping stomachy ",
+    "headOf": null
+  },
+  {
+    "nr": 115041,
+    "professorType": "fullProfessor",
+    "researchInterest": "swivets laryngectomies immolation ",
+    "headOf": 115
+  },
+  {
+    "nr": 115042,
+    "professorType": "associateProfessor",
+    "researchInterest": "gnarled mumper ",
+    "headOf": null
+  },
+  {
+    "nr": 115043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "enjoin highborn soporific ",
+    "headOf": null
+  },
+  {
+    "nr": 115051,
+    "professorType": "fullProfessor",
+    "researchInterest": "blinkering ",
+    "headOf": null
+  },
+  {
+    "nr": 115052,
+    "professorType": "associateProfessor",
+    "researchInterest": "nutrients ",
+    "headOf": null
+  },
+  {
+    "nr": 115053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "handrails droning ",
+    "headOf": null
+  },
+  {
+    "nr": 115061,
+    "professorType": "fullProfessor",
+    "researchInterest": "sublimity ",
+    "headOf": null
+  },
+  {
+    "nr": 115062,
+    "professorType": "associateProfessor",
+    "researchInterest": "pierrots ",
+    "headOf": null
+  },
+  {
+    "nr": 115063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "gyrose ",
+    "headOf": null
+  },
+  {
+    "nr": 115072,
+    "professorType": "associateProfessor",
+    "researchInterest": "bashfully pellmell ",
+    "headOf": null
+  },
+  {
+    "nr": 115073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "caliphal genet ",
+    "headOf": null
+  },
+  {
+    "nr": 115082,
+    "professorType": "associateProfessor",
+    "researchInterest": "trees previewed ",
+    "headOf": null
+  },
+  {
+    "nr": 115083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "uncritically ",
+    "headOf": null
+  },
+  {
+    "nr": 115092,
+    "professorType": "associateProfessor",
+    "researchInterest": "querying ",
+    "headOf": null
+  },
+  {
+    "nr": 115093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "supplanting amassment ",
+    "headOf": null
+  },
+  {
+    "nr": 115102,
+    "professorType": "associateProfessor",
+    "researchInterest": "ragas ",
+    "headOf": null
+  },
+  {
+    "nr": 115112,
+    "professorType": "associateProfessor",
+    "researchInterest": "radiotherapies ",
+    "headOf": null
+  },
+  {
+    "nr": 115122,
+    "professorType": "associateProfessor",
+    "researchInterest": "religiousness whist ",
+    "headOf": null
+  },
+  {
+    "nr": 115132,
+    "professorType": "associateProfessor",
+    "researchInterest": "fides lodicules mislies ",
+    "headOf": null
+  },
+  {
+    "nr": 116001,
+    "professorType": "fullProfessor",
+    "researchInterest": "bartends blooping itchings ",
+    "headOf": null
+  },
+  {
+    "nr": 116002,
+    "professorType": "associateProfessor",
+    "researchInterest": "handholds ",
+    "headOf": null
+  },
+  {
+    "nr": 116003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "carryings praising ",
+    "headOf": null
+  },
+  {
+    "nr": 116011,
+    "professorType": "fullProfessor",
+    "researchInterest": "ranging petiolate truculence ",
+    "headOf": null
+  },
+  {
+    "nr": 116012,
+    "professorType": "associateProfessor",
+    "researchInterest": "axiality ",
+    "headOf": null
+  },
+  {
+    "nr": 116013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "lushed amerces surmountable ",
+    "headOf": null
+  },
+  {
+    "nr": 116021,
+    "professorType": "fullProfessor",
+    "researchInterest": "ampuls strew ",
+    "headOf": null
+  },
+  {
+    "nr": 116022,
+    "professorType": "associateProfessor",
+    "researchInterest": "beaucoup ",
+    "headOf": null
+  },
+  {
+    "nr": 116023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "unboundedly ",
+    "headOf": null
+  },
+  {
+    "nr": 116031,
+    "professorType": "fullProfessor",
+    "researchInterest": "teargassed womanizer harts ",
+    "headOf": null
+  },
+  {
+    "nr": 116032,
+    "professorType": "associateProfessor",
+    "researchInterest": "stopcocks ",
+    "headOf": null
+  },
+  {
+    "nr": 116033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "catabolizing ",
+    "headOf": null
+  },
+  {
+    "nr": 116041,
+    "professorType": "fullProfessor",
+    "researchInterest": "rootless ",
+    "headOf": null
+  },
+  {
+    "nr": 116042,
+    "professorType": "associateProfessor",
+    "researchInterest": "twisting emasculation ",
+    "headOf": null
+  },
+  {
+    "nr": 116043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "hurriedness boondocks frailer ",
+    "headOf": null
+  },
+  {
+    "nr": 116051,
+    "professorType": "fullProfessor",
+    "researchInterest": "reorganize ",
+    "headOf": null
+  },
+  {
+    "nr": 116052,
+    "professorType": "associateProfessor",
+    "researchInterest": "axiality ",
+    "headOf": null
+  },
+  {
+    "nr": 116053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "gats ",
+    "headOf": null
+  },
+  {
+    "nr": 116061,
+    "professorType": "fullProfessor",
+    "researchInterest": "priggishly wildfowl sanitarian ",
+    "headOf": null
+  },
+  {
+    "nr": 116062,
+    "professorType": "associateProfessor",
+    "researchInterest": "insphering heteros ",
+    "headOf": null
+  },
+  {
+    "nr": 116063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "criminalness benzyl ",
+    "headOf": null
+  },
+  {
+    "nr": 116071,
+    "professorType": "fullProfessor",
+    "researchInterest": "humuses ciliates lurkers ",
+    "headOf": null
+  },
+  {
+    "nr": 116072,
+    "professorType": "associateProfessor",
+    "researchInterest": "engulfs ",
+    "headOf": null
+  },
+  {
+    "nr": 116073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "crepier cryptograph jitters ",
+    "headOf": null
+  },
+  {
+    "nr": 116081,
+    "professorType": "fullProfessor",
+    "researchInterest": "libertarianism ",
+    "headOf": null
+  },
+  {
+    "nr": 116082,
+    "professorType": "associateProfessor",
+    "researchInterest": "desecration nagger ",
+    "headOf": null
+  },
+  {
+    "nr": 116083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "classicism ",
+    "headOf": null
+  },
+  {
+    "nr": 116091,
+    "professorType": "fullProfessor",
+    "researchInterest": "reproduced ",
+    "headOf": 116
+  },
+  {
+    "nr": 116092,
+    "professorType": "associateProfessor",
+    "researchInterest": "vitiation woodchuck ",
+    "headOf": null
+  },
+  {
+    "nr": 116093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "deducted gesundheit varnishes ",
+    "headOf": null
+  },
+  {
+    "nr": 116102,
+    "professorType": "associateProfessor",
+    "researchInterest": "moonier ethicals ",
+    "headOf": null
+  },
+  {
+    "nr": 116103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "clobbered ",
+    "headOf": null
+  },
+  {
+    "nr": 116112,
+    "professorType": "associateProfessor",
+    "researchInterest": "proclaiming professed ",
+    "headOf": null
+  },
+  {
+    "nr": 117001,
+    "professorType": "fullProfessor",
+    "researchInterest": "goodish cleverish legitimized ",
+    "headOf": null
+  },
+  {
+    "nr": 117002,
+    "professorType": "associateProfessor",
+    "researchInterest": "annualized ",
+    "headOf": null
+  },
+  {
+    "nr": 117003,
+    "professorType": "assistantProfessor",
+    "researchInterest": "reinforcing belletrist ",
+    "headOf": null
+  },
+  {
+    "nr": 117011,
+    "professorType": "fullProfessor",
+    "researchInterest": "basset ",
+    "headOf": null
+  },
+  {
+    "nr": 117012,
+    "professorType": "associateProfessor",
+    "researchInterest": "roentgenoscopy ",
+    "headOf": null
+  },
+  {
+    "nr": 117013,
+    "professorType": "assistantProfessor",
+    "researchInterest": "communicativeness salivating ",
+    "headOf": null
+  },
+  {
+    "nr": 117021,
+    "professorType": "fullProfessor",
+    "researchInterest": "raddle ",
+    "headOf": null
+  },
+  {
+    "nr": 117022,
+    "professorType": "associateProfessor",
+    "researchInterest": "iroquoians ransacking ",
+    "headOf": null
+  },
+  {
+    "nr": 117023,
+    "professorType": "assistantProfessor",
+    "researchInterest": "rishi ",
+    "headOf": null
+  },
+  {
+    "nr": 117031,
+    "professorType": "fullProfessor",
+    "researchInterest": "stuccoes outbalancing overpessimistic ",
+    "headOf": null
+  },
+  {
+    "nr": 117032,
+    "professorType": "associateProfessor",
+    "researchInterest": "shootings ",
+    "headOf": null
+  },
+  {
+    "nr": 117033,
+    "professorType": "assistantProfessor",
+    "researchInterest": "stupefying mobbing ",
+    "headOf": null
+  },
+  {
+    "nr": 117041,
+    "professorType": "fullProfessor",
+    "researchInterest": "fusspot upsurging charts ",
+    "headOf": null
+  },
+  {
+    "nr": 117042,
+    "professorType": "associateProfessor",
+    "researchInterest": "refroze univ ",
+    "headOf": null
+  },
+  {
+    "nr": 117043,
+    "professorType": "assistantProfessor",
+    "researchInterest": "pinworms epigrams colonizer ",
+    "headOf": null
+  },
+  {
+    "nr": 117051,
+    "professorType": "fullProfessor",
+    "researchInterest": "greasewood ",
+    "headOf": null
+  },
+  {
+    "nr": 117052,
+    "professorType": "associateProfessor",
+    "researchInterest": "errands absorbency ",
+    "headOf": null
+  },
+  {
+    "nr": 117053,
+    "professorType": "assistantProfessor",
+    "researchInterest": "recruitment paperboys styptics ",
+    "headOf": null
+  },
+  {
+    "nr": 117061,
+    "professorType": "fullProfessor",
+    "researchInterest": "hostessed ",
+    "headOf": 117
+  },
+  {
+    "nr": 117062,
+    "professorType": "associateProfessor",
+    "researchInterest": "dichotomously ",
+    "headOf": null
+  },
+  {
+    "nr": 117063,
+    "professorType": "assistantProfessor",
+    "researchInterest": "bosoming seismometer ",
+    "headOf": null
+  },
+  {
+    "nr": 117071,
+    "professorType": "fullProfessor",
+    "researchInterest": "ribbers propellent molted ",
+    "headOf": null
+  },
+  {
+    "nr": 117072,
+    "professorType": "associateProfessor",
+    "researchInterest": "sideward straightest illumination ",
+    "headOf": null
+  },
+  {
+    "nr": 117073,
+    "professorType": "assistantProfessor",
+    "researchInterest": "offerings resorters ultimacy ",
+    "headOf": null
+  },
+  {
+    "nr": 117082,
+    "professorType": "associateProfessor",
+    "researchInterest": "biotical ",
+    "headOf": null
+  },
+  {
+    "nr": 117083,
+    "professorType": "assistantProfessor",
+    "researchInterest": "tonneaux smatterings biophysiography ",
+    "headOf": null
+  },
+  {
+    "nr": 117092,
+    "professorType": "associateProfessor",
+    "researchInterest": "bridled seraphic rehabilitated ",
+    "headOf": null
+  },
+  {
+    "nr": 117093,
+    "professorType": "assistantProfessor",
+    "researchInterest": "incinerator photoelectron ",
+    "headOf": null
+  },
+  {
+    "nr": 117102,
+    "professorType": "associateProfessor",
+    "researchInterest": "ballets alienees ",
+    "headOf": null
+  },
+  {
+    "nr": 117103,
+    "professorType": "assistantProfessor",
+    "researchInterest": "gravitations transmissions ",
+    "headOf": null
+  },
+  {
+    "nr": 117112,
+    "professorType": "associateProfessor",
+    "researchInterest": "apodal ",
+    "headOf": null
+  },
+  {
+    "nr": 117122,
+    "professorType": "associateProfessor",
+    "researchInterest": "calliopes sixthly ",
+    "headOf": null
+  }
+]
