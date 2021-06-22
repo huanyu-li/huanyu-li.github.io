@@ -1,0 +1,4970 @@
+[
+  {
+    "nr": 1,
+    "name": "undergraduateCourse0",
+    "teacher": 1,
+    "teachingAssistant": 1102
+  },
+  {
+    "nr": 11,
+    "name": "undergraduateCourse1",
+    "teacher": 11,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 21,
+    "name": "undergraduateCourse2",
+    "teacher": 21,
+    "teachingAssistant": 1432
+  },
+  {
+    "nr": 31,
+    "name": "undergraduateCourse3",
+    "teacher": 21,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 41,
+    "name": "undergraduateCourse4",
+    "teacher": 31,
+    "teachingAssistant": 522
+  },
+  {
+    "nr": 51,
+    "name": "undergraduateCourse5",
+    "teacher": 31,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 61,
+    "name": "undergraduateCourse6",
+    "teacher": 41,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 71,
+    "name": "undergraduateCourse7",
+    "teacher": 51,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 81,
+    "name": "undergraduateCourse8",
+    "teacher": 61,
+    "teachingAssistant": 672
+  },
+  {
+    "nr": 91,
+    "name": "undergraduateCourse9",
+    "teacher": 61,
+    "teachingAssistant": 962
+  },
+  {
+    "nr": 101,
+    "name": "undergraduateCourse10",
+    "teacher": 71,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 111,
+    "name": "undergraduateCourse11",
+    "teacher": 71,
+    "teachingAssistant": 902
+  },
+  {
+    "nr": 121,
+    "name": "undergraduateCourse12",
+    "teacher": 81,
+    "teachingAssistant": 152
+  },
+  {
+    "nr": 131,
+    "name": "undergraduateCourse13",
+    "teacher": 91,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 141,
+    "name": "undergraduateCourse14",
+    "teacher": 91,
+    "teachingAssistant": 432
+  },
+  {
+    "nr": 151,
+    "name": "undergraduateCourse15",
+    "teacher": 2,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 161,
+    "name": "undergraduateCourse16",
+    "teacher": 2,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 171,
+    "name": "undergraduateCourse17",
+    "teacher": 12,
+    "teachingAssistant": 762
+  },
+  {
+    "nr": 181,
+    "name": "undergraduateCourse18",
+    "teacher": 12,
+    "teachingAssistant": 72
+  },
+  {
+    "nr": 191,
+    "name": "undergraduateCourse19",
+    "teacher": 22,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 201,
+    "name": "undergraduateCourse20",
+    "teacher": 22,
+    "teachingAssistant": 272
+  },
+  {
+    "nr": 211,
+    "name": "undergraduateCourse21",
+    "teacher": 32,
+    "teachingAssistant": 172
+  },
+  {
+    "nr": 221,
+    "name": "undergraduateCourse22",
+    "teacher": 42,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 231,
+    "name": "undergraduateCourse23",
+    "teacher": 42,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 241,
+    "name": "undergraduateCourse24",
+    "teacher": 52,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 251,
+    "name": "undergraduateCourse25",
+    "teacher": 62,
+    "teachingAssistant": 12
+  },
+  {
+    "nr": 261,
+    "name": "undergraduateCourse26",
+    "teacher": 72,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 271,
+    "name": "undergraduateCourse27",
+    "teacher": 72,
+    "teachingAssistant": 342
+  },
+  {
+    "nr": 281,
+    "name": "undergraduateCourse28",
+    "teacher": 82,
+    "teachingAssistant": 1092
+  },
+  {
+    "nr": 291,
+    "name": "undergraduateCourse29",
+    "teacher": 92,
+    "teachingAssistant": 262
+  },
+  {
+    "nr": 301,
+    "name": "undergraduateCourse30",
+    "teacher": 92,
+    "teachingAssistant": 142
+  },
+  {
+    "nr": 311,
+    "name": "undergraduateCourse31",
+    "teacher": 102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 321,
+    "name": "undergraduateCourse32",
+    "teacher": 102,
+    "teachingAssistant": 1132
+  },
+  {
+    "nr": 331,
+    "name": "undergraduateCourse33",
+    "teacher": 112,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 341,
+    "name": "undergraduateCourse34",
+    "teacher": 112,
+    "teachingAssistant": 1302
+  },
+  {
+    "nr": 351,
+    "name": "undergraduateCourse35",
+    "teacher": 122,
+    "teachingAssistant": 22
+  },
+  {
+    "nr": 361,
+    "name": "undergraduateCourse36",
+    "teacher": 132,
+    "teachingAssistant": 1442
+  },
+  {
+    "nr": 371,
+    "name": "undergraduateCourse37",
+    "teacher": 132,
+    "teachingAssistant": 942
+  },
+  {
+    "nr": 381,
+    "name": "undergraduateCourse38",
+    "teacher": 3,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 391,
+    "name": "undergraduateCourse39",
+    "teacher": 3,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 401,
+    "name": "undergraduateCourse40",
+    "teacher": 13,
+    "teachingAssistant": 592
+  },
+  {
+    "nr": 411,
+    "name": "undergraduateCourse41",
+    "teacher": 23,
+    "teachingAssistant": 582
+  },
+  {
+    "nr": 421,
+    "name": "undergraduateCourse42",
+    "teacher": 33,
+    "teachingAssistant": 52
+  },
+  {
+    "nr": 431,
+    "name": "undergraduateCourse43",
+    "teacher": 43,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 441,
+    "name": "undergraduateCourse44",
+    "teacher": 53,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 451,
+    "name": "undergraduateCourse45",
+    "teacher": 63,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 461,
+    "name": "undergraduateCourse46",
+    "teacher": 73,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 471,
+    "name": "undergraduateCourse47",
+    "teacher": 73,
+    "teachingAssistant": 1142
+  },
+  {
+    "nr": 481,
+    "name": "undergraduateCourse48",
+    "teacher": 83,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 491,
+    "name": "undergraduateCourse49",
+    "teacher": 83,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 501,
+    "name": "undergraduateCourse50",
+    "teacher": 93,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 511,
+    "name": "undergraduateCourse51",
+    "teacher": 93,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 521,
+    "name": "undergraduateCourse52",
+    "teacher": 4,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 531,
+    "name": "undergraduateCourse53",
+    "teacher": 4,
+    "teachingAssistant": 462
+  },
+  {
+    "nr": 541,
+    "name": "undergraduateCourse54",
+    "teacher": 14,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 551,
+    "name": "undergraduateCourse55",
+    "teacher": 24,
+    "teachingAssistant": 1422
+  },
+  {
+    "nr": 561,
+    "name": "undergraduateCourse56",
+    "teacher": 34,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 571,
+    "name": "undergraduateCourse57",
+    "teacher": 34,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 581,
+    "name": "undergraduateCourse58",
+    "teacher": 44,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 591,
+    "name": "undergraduateCourse59",
+    "teacher": 54,
+    "teachingAssistant": 932
+  },
+  {
+    "nr": 601,
+    "name": "undergraduateCourse60",
+    "teacher": 64,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1001,
+    "name": "undergraduateCourse0",
+    "teacher": 1001,
+    "teachingAssistant": 10782
+  },
+  {
+    "nr": 1011,
+    "name": "undergraduateCourse1",
+    "teacher": 1001,
+    "teachingAssistant": 10342
+  },
+  {
+    "nr": 1021,
+    "name": "undergraduateCourse2",
+    "teacher": 1011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1031,
+    "name": "undergraduateCourse3",
+    "teacher": 1021,
+    "teachingAssistant": 10792
+  },
+  {
+    "nr": 1041,
+    "name": "undergraduateCourse4",
+    "teacher": 1021,
+    "teachingAssistant": 10092
+  },
+  {
+    "nr": 1051,
+    "name": "undergraduateCourse5",
+    "teacher": 1031,
+    "teachingAssistant": 11072
+  },
+  {
+    "nr": 1061,
+    "name": "undergraduateCourse6",
+    "teacher": 1031,
+    "teachingAssistant": 10282
+  },
+  {
+    "nr": 1071,
+    "name": "undergraduateCourse7",
+    "teacher": 1041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1081,
+    "name": "undergraduateCourse8",
+    "teacher": 1041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1091,
+    "name": "undergraduateCourse9",
+    "teacher": 1051,
+    "teachingAssistant": 11092
+  },
+  {
+    "nr": 1101,
+    "name": "undergraduateCourse10",
+    "teacher": 1061,
+    "teachingAssistant": 10932
+  },
+  {
+    "nr": 1111,
+    "name": "undergraduateCourse11",
+    "teacher": 1071,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1121,
+    "name": "undergraduateCourse12",
+    "teacher": 1081,
+    "teachingAssistant": 10032
+  },
+  {
+    "nr": 1131,
+    "name": "undergraduateCourse13",
+    "teacher": 1091,
+    "teachingAssistant": 10452
+  },
+  {
+    "nr": 1141,
+    "name": "undergraduateCourse14",
+    "teacher": 1002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1151,
+    "name": "undergraduateCourse15",
+    "teacher": 1012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1161,
+    "name": "undergraduateCourse16",
+    "teacher": 1012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1171,
+    "name": "undergraduateCourse17",
+    "teacher": 1022,
+    "teachingAssistant": 10162
+  },
+  {
+    "nr": 1181,
+    "name": "undergraduateCourse18",
+    "teacher": 1022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1191,
+    "name": "undergraduateCourse19",
+    "teacher": 1032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1201,
+    "name": "undergraduateCourse20",
+    "teacher": 1042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1211,
+    "name": "undergraduateCourse21",
+    "teacher": 1052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1221,
+    "name": "undergraduateCourse22",
+    "teacher": 1062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1231,
+    "name": "undergraduateCourse23",
+    "teacher": 1072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1241,
+    "name": "undergraduateCourse24",
+    "teacher": 1082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1251,
+    "name": "undergraduateCourse25",
+    "teacher": 1092,
+    "teachingAssistant": 10352
+  },
+  {
+    "nr": 1261,
+    "name": "undergraduateCourse26",
+    "teacher": 1003,
+    "teachingAssistant": 10202
+  },
+  {
+    "nr": 1271,
+    "name": "undergraduateCourse27",
+    "teacher": 1003,
+    "teachingAssistant": 10982
+  },
+  {
+    "nr": 1281,
+    "name": "undergraduateCourse28",
+    "teacher": 1013,
+    "teachingAssistant": 10752
+  },
+  {
+    "nr": 1291,
+    "name": "undergraduateCourse29",
+    "teacher": 1023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1301,
+    "name": "undergraduateCourse30",
+    "teacher": 1033,
+    "teachingAssistant": 10062
+  },
+  {
+    "nr": 1311,
+    "name": "undergraduateCourse31",
+    "teacher": 1043,
+    "teachingAssistant": 10272
+  },
+  {
+    "nr": 1321,
+    "name": "undergraduateCourse32",
+    "teacher": 1053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1331,
+    "name": "undergraduateCourse33",
+    "teacher": 1053,
+    "teachingAssistant": 10572
+  },
+  {
+    "nr": 1341,
+    "name": "undergraduateCourse34",
+    "teacher": 1063,
+    "teachingAssistant": 11062
+  },
+  {
+    "nr": 1351,
+    "name": "undergraduateCourse35",
+    "teacher": 1073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1361,
+    "name": "undergraduateCourse36",
+    "teacher": 1073,
+    "teachingAssistant": 11002
+  },
+  {
+    "nr": 1371,
+    "name": "undergraduateCourse37",
+    "teacher": 1004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1381,
+    "name": "undergraduateCourse38",
+    "teacher": 1014,
+    "teachingAssistant": 10912
+  },
+  {
+    "nr": 1391,
+    "name": "undergraduateCourse39",
+    "teacher": 1014,
+    "teachingAssistant": 10302
+  },
+  {
+    "nr": 1401,
+    "name": "undergraduateCourse40",
+    "teacher": 1024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1411,
+    "name": "undergraduateCourse41",
+    "teacher": 1024,
+    "teachingAssistant": 10402
+  },
+  {
+    "nr": 1421,
+    "name": "undergraduateCourse42",
+    "teacher": 1034,
+    "teachingAssistant": 10722
+  },
+  {
+    "nr": 1431,
+    "name": "undergraduateCourse43",
+    "teacher": 1034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1441,
+    "name": "undergraduateCourse44",
+    "teacher": 1044,
+    "teachingAssistant": 10242
+  },
+  {
+    "nr": 1451,
+    "name": "undergraduateCourse45",
+    "teacher": 1044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 1461,
+    "name": "undergraduateCourse46",
+    "teacher": 1054,
+    "teachingAssistant": 10122
+  },
+  {
+    "nr": 1471,
+    "name": "undergraduateCourse47",
+    "teacher": 1054,
+    "teachingAssistant": 10312
+  },
+  {
+    "nr": 2001,
+    "name": "undergraduateCourse0",
+    "teacher": 2001,
+    "teachingAssistant": 21062
+  },
+  {
+    "nr": 2011,
+    "name": "undergraduateCourse1",
+    "teacher": 2001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2021,
+    "name": "undergraduateCourse2",
+    "teacher": 2011,
+    "teachingAssistant": 20242
+  },
+  {
+    "nr": 2031,
+    "name": "undergraduateCourse3",
+    "teacher": 2021,
+    "teachingAssistant": 20712
+  },
+  {
+    "nr": 2041,
+    "name": "undergraduateCourse4",
+    "teacher": 2021,
+    "teachingAssistant": 20102
+  },
+  {
+    "nr": 2051,
+    "name": "undergraduateCourse5",
+    "teacher": 2031,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2061,
+    "name": "undergraduateCourse6",
+    "teacher": 2031,
+    "teachingAssistant": 20472
+  },
+  {
+    "nr": 2071,
+    "name": "undergraduateCourse7",
+    "teacher": 2041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2081,
+    "name": "undergraduateCourse8",
+    "teacher": 2051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2091,
+    "name": "undergraduateCourse9",
+    "teacher": 2051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2101,
+    "name": "undergraduateCourse10",
+    "teacher": 2061,
+    "teachingAssistant": 20862
+  },
+  {
+    "nr": 2111,
+    "name": "undergraduateCourse11",
+    "teacher": 2061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2121,
+    "name": "undergraduateCourse12",
+    "teacher": 2002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2131,
+    "name": "undergraduateCourse13",
+    "teacher": 2012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2141,
+    "name": "undergraduateCourse14",
+    "teacher": 2022,
+    "teachingAssistant": 20012
+  },
+  {
+    "nr": 2151,
+    "name": "undergraduateCourse15",
+    "teacher": 2022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2161,
+    "name": "undergraduateCourse16",
+    "teacher": 2032,
+    "teachingAssistant": 20262
+  },
+  {
+    "nr": 2171,
+    "name": "undergraduateCourse17",
+    "teacher": 2032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2181,
+    "name": "undergraduateCourse18",
+    "teacher": 2042,
+    "teachingAssistant": 20232
+  },
+  {
+    "nr": 2191,
+    "name": "undergraduateCourse19",
+    "teacher": 2042,
+    "teachingAssistant": 20432
+  },
+  {
+    "nr": 2201,
+    "name": "undergraduateCourse20",
+    "teacher": 2052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2211,
+    "name": "undergraduateCourse21",
+    "teacher": 2062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2221,
+    "name": "undergraduateCourse22",
+    "teacher": 2072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2231,
+    "name": "undergraduateCourse23",
+    "teacher": 2082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2241,
+    "name": "undergraduateCourse24",
+    "teacher": 2092,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2251,
+    "name": "undergraduateCourse25",
+    "teacher": 2102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2261,
+    "name": "undergraduateCourse26",
+    "teacher": 2112,
+    "teachingAssistant": 20292
+  },
+  {
+    "nr": 2271,
+    "name": "undergraduateCourse27",
+    "teacher": 2112,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2281,
+    "name": "undergraduateCourse28",
+    "teacher": 2003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2291,
+    "name": "undergraduateCourse29",
+    "teacher": 2003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2301,
+    "name": "undergraduateCourse30",
+    "teacher": 2013,
+    "teachingAssistant": 20992
+  },
+  {
+    "nr": 2311,
+    "name": "undergraduateCourse31",
+    "teacher": 2023,
+    "teachingAssistant": 20322
+  },
+  {
+    "nr": 2321,
+    "name": "undergraduateCourse32",
+    "teacher": 2023,
+    "teachingAssistant": 20732
+  },
+  {
+    "nr": 2331,
+    "name": "undergraduateCourse33",
+    "teacher": 2033,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2341,
+    "name": "undergraduateCourse34",
+    "teacher": 2043,
+    "teachingAssistant": 20222
+  },
+  {
+    "nr": 2351,
+    "name": "undergraduateCourse35",
+    "teacher": 2043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2361,
+    "name": "undergraduateCourse36",
+    "teacher": 2053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2371,
+    "name": "undergraduateCourse37",
+    "teacher": 2053,
+    "teachingAssistant": 20482
+  },
+  {
+    "nr": 2381,
+    "name": "undergraduateCourse38",
+    "teacher": 2063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2391,
+    "name": "undergraduateCourse39",
+    "teacher": 2073,
+    "teachingAssistant": 20402
+  },
+  {
+    "nr": 2401,
+    "name": "undergraduateCourse40",
+    "teacher": 2004,
+    "teachingAssistant": 20082
+  },
+  {
+    "nr": 2411,
+    "name": "undergraduateCourse41",
+    "teacher": 2004,
+    "teachingAssistant": 20922
+  },
+  {
+    "nr": 2421,
+    "name": "undergraduateCourse42",
+    "teacher": 2014,
+    "teachingAssistant": 21032
+  },
+  {
+    "nr": 2431,
+    "name": "undergraduateCourse43",
+    "teacher": 2014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2441,
+    "name": "undergraduateCourse44",
+    "teacher": 2024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2451,
+    "name": "undergraduateCourse45",
+    "teacher": 2034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 2461,
+    "name": "undergraduateCourse46",
+    "teacher": 2044,
+    "teachingAssistant": 20092
+  },
+  {
+    "nr": 2471,
+    "name": "undergraduateCourse47",
+    "teacher": 2054,
+    "teachingAssistant": 20272
+  },
+  {
+    "nr": 2481,
+    "name": "undergraduateCourse48",
+    "teacher": 2064,
+    "teachingAssistant": 20562
+  },
+  {
+    "nr": 3001,
+    "name": "undergraduateCourse0",
+    "teacher": 3001,
+    "teachingAssistant": 30082
+  },
+  {
+    "nr": 3011,
+    "name": "undergraduateCourse1",
+    "teacher": 3011,
+    "teachingAssistant": 30822
+  },
+  {
+    "nr": 3021,
+    "name": "undergraduateCourse2",
+    "teacher": 3021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3031,
+    "name": "undergraduateCourse3",
+    "teacher": 3021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3041,
+    "name": "undergraduateCourse4",
+    "teacher": 3031,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3051,
+    "name": "undergraduateCourse5",
+    "teacher": 3031,
+    "teachingAssistant": 31162
+  },
+  {
+    "nr": 3061,
+    "name": "undergraduateCourse6",
+    "teacher": 3041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3071,
+    "name": "undergraduateCourse7",
+    "teacher": 3051,
+    "teachingAssistant": 30002
+  },
+  {
+    "nr": 3081,
+    "name": "undergraduateCourse8",
+    "teacher": 3061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3091,
+    "name": "undergraduateCourse9",
+    "teacher": 3061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3101,
+    "name": "undergraduateCourse10",
+    "teacher": 3071,
+    "teachingAssistant": 30222
+  },
+  {
+    "nr": 3111,
+    "name": "undergraduateCourse11",
+    "teacher": 3081,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3121,
+    "name": "undergraduateCourse12",
+    "teacher": 3002,
+    "teachingAssistant": 30422
+  },
+  {
+    "nr": 3131,
+    "name": "undergraduateCourse13",
+    "teacher": 3002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3141,
+    "name": "undergraduateCourse14",
+    "teacher": 3012,
+    "teachingAssistant": 30702
+  },
+  {
+    "nr": 3151,
+    "name": "undergraduateCourse15",
+    "teacher": 3022,
+    "teachingAssistant": 30662
+  },
+  {
+    "nr": 3161,
+    "name": "undergraduateCourse16",
+    "teacher": 3022,
+    "teachingAssistant": 31082
+  },
+  {
+    "nr": 3171,
+    "name": "undergraduateCourse17",
+    "teacher": 3032,
+    "teachingAssistant": 30412
+  },
+  {
+    "nr": 3181,
+    "name": "undergraduateCourse18",
+    "teacher": 3032,
+    "teachingAssistant": 31192
+  },
+  {
+    "nr": 3191,
+    "name": "undergraduateCourse19",
+    "teacher": 3042,
+    "teachingAssistant": 31112
+  },
+  {
+    "nr": 3201,
+    "name": "undergraduateCourse20",
+    "teacher": 3052,
+    "teachingAssistant": 31022
+  },
+  {
+    "nr": 3211,
+    "name": "undergraduateCourse21",
+    "teacher": 3052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3221,
+    "name": "undergraduateCourse22",
+    "teacher": 3062,
+    "teachingAssistant": 30032
+  },
+  {
+    "nr": 3231,
+    "name": "undergraduateCourse23",
+    "teacher": 3062,
+    "teachingAssistant": 30852
+  },
+  {
+    "nr": 3241,
+    "name": "undergraduateCourse24",
+    "teacher": 3072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3251,
+    "name": "undergraduateCourse25",
+    "teacher": 3082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3261,
+    "name": "undergraduateCourse26",
+    "teacher": 3092,
+    "teachingAssistant": 30292
+  },
+  {
+    "nr": 3271,
+    "name": "undergraduateCourse27",
+    "teacher": 3092,
+    "teachingAssistant": 30782
+  },
+  {
+    "nr": 3281,
+    "name": "undergraduateCourse28",
+    "teacher": 3102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3291,
+    "name": "undergraduateCourse29",
+    "teacher": 3102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3301,
+    "name": "undergraduateCourse30",
+    "teacher": 3112,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3311,
+    "name": "undergraduateCourse31",
+    "teacher": 3003,
+    "teachingAssistant": 30402
+  },
+  {
+    "nr": 3321,
+    "name": "undergraduateCourse32",
+    "teacher": 3003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3331,
+    "name": "undergraduateCourse33",
+    "teacher": 3013,
+    "teachingAssistant": 30932
+  },
+  {
+    "nr": 3341,
+    "name": "undergraduateCourse34",
+    "teacher": 3013,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3351,
+    "name": "undergraduateCourse35",
+    "teacher": 3023,
+    "teachingAssistant": 30612
+  },
+  {
+    "nr": 3361,
+    "name": "undergraduateCourse36",
+    "teacher": 3023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3371,
+    "name": "undergraduateCourse37",
+    "teacher": 3033,
+    "teachingAssistant": 30302
+  },
+  {
+    "nr": 3381,
+    "name": "undergraduateCourse38",
+    "teacher": 3043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3391,
+    "name": "undergraduateCourse39",
+    "teacher": 3043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3401,
+    "name": "undergraduateCourse40",
+    "teacher": 3053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3411,
+    "name": "undergraduateCourse41",
+    "teacher": 3063,
+    "teachingAssistant": 30632
+  },
+  {
+    "nr": 3421,
+    "name": "undergraduateCourse42",
+    "teacher": 3073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3431,
+    "name": "undergraduateCourse43",
+    "teacher": 3083,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3441,
+    "name": "undergraduateCourse44",
+    "teacher": 3083,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3451,
+    "name": "undergraduateCourse45",
+    "teacher": 3093,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3461,
+    "name": "undergraduateCourse46",
+    "teacher": 3093,
+    "teachingAssistant": 30022
+  },
+  {
+    "nr": 3471,
+    "name": "undergraduateCourse47",
+    "teacher": 3004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3481,
+    "name": "undergraduateCourse48",
+    "teacher": 3014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3491,
+    "name": "undergraduateCourse49",
+    "teacher": 3014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3501,
+    "name": "undergraduateCourse50",
+    "teacher": 3024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3511,
+    "name": "undergraduateCourse51",
+    "teacher": 3034,
+    "teachingAssistant": 30052
+  },
+  {
+    "nr": 3521,
+    "name": "undergraduateCourse52",
+    "teacher": 3044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 3531,
+    "name": "undergraduateCourse53",
+    "teacher": 3044,
+    "teachingAssistant": 30172
+  },
+  {
+    "nr": 3541,
+    "name": "undergraduateCourse54",
+    "teacher": 3054,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4001,
+    "name": "undergraduateCourse0",
+    "teacher": 4001,
+    "teachingAssistant": 40042
+  },
+  {
+    "nr": 4011,
+    "name": "undergraduateCourse1",
+    "teacher": 4001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4021,
+    "name": "undergraduateCourse2",
+    "teacher": 4011,
+    "teachingAssistant": 40232
+  },
+  {
+    "nr": 4031,
+    "name": "undergraduateCourse3",
+    "teacher": 4021,
+    "teachingAssistant": 40952
+  },
+  {
+    "nr": 4041,
+    "name": "undergraduateCourse4",
+    "teacher": 4021,
+    "teachingAssistant": 40632
+  },
+  {
+    "nr": 4051,
+    "name": "undergraduateCourse5",
+    "teacher": 4031,
+    "teachingAssistant": 40212
+  },
+  {
+    "nr": 4061,
+    "name": "undergraduateCourse6",
+    "teacher": 4031,
+    "teachingAssistant": 40692
+  },
+  {
+    "nr": 4071,
+    "name": "undergraduateCourse7",
+    "teacher": 4041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4081,
+    "name": "undergraduateCourse8",
+    "teacher": 4041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4091,
+    "name": "undergraduateCourse9",
+    "teacher": 4051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4101,
+    "name": "undergraduateCourse10",
+    "teacher": 4061,
+    "teachingAssistant": 40072
+  },
+  {
+    "nr": 4111,
+    "name": "undergraduateCourse11",
+    "teacher": 4061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4121,
+    "name": "undergraduateCourse12",
+    "teacher": 4002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4131,
+    "name": "undergraduateCourse13",
+    "teacher": 4012,
+    "teachingAssistant": 40922
+  },
+  {
+    "nr": 4141,
+    "name": "undergraduateCourse14",
+    "teacher": 4012,
+    "teachingAssistant": 40132
+  },
+  {
+    "nr": 4151,
+    "name": "undergraduateCourse15",
+    "teacher": 4022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4161,
+    "name": "undergraduateCourse16",
+    "teacher": 4032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4171,
+    "name": "undergraduateCourse17",
+    "teacher": 4032,
+    "teachingAssistant": 40552
+  },
+  {
+    "nr": 4181,
+    "name": "undergraduateCourse18",
+    "teacher": 4042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4191,
+    "name": "undergraduateCourse19",
+    "teacher": 4042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4201,
+    "name": "undergraduateCourse20",
+    "teacher": 4052,
+    "teachingAssistant": 40782
+  },
+  {
+    "nr": 4211,
+    "name": "undergraduateCourse21",
+    "teacher": 4062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4221,
+    "name": "undergraduateCourse22",
+    "teacher": 4072,
+    "teachingAssistant": 40842
+  },
+  {
+    "nr": 4231,
+    "name": "undergraduateCourse23",
+    "teacher": 4072,
+    "teachingAssistant": 41002
+  },
+  {
+    "nr": 4241,
+    "name": "undergraduateCourse24",
+    "teacher": 4082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4251,
+    "name": "undergraduateCourse25",
+    "teacher": 4082,
+    "teachingAssistant": 40572
+  },
+  {
+    "nr": 4261,
+    "name": "undergraduateCourse26",
+    "teacher": 4092,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4271,
+    "name": "undergraduateCourse27",
+    "teacher": 4003,
+    "teachingAssistant": 41112
+  },
+  {
+    "nr": 4281,
+    "name": "undergraduateCourse28",
+    "teacher": 4013,
+    "teachingAssistant": 40612
+  },
+  {
+    "nr": 4291,
+    "name": "undergraduateCourse29",
+    "teacher": 4023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4301,
+    "name": "undergraduateCourse30",
+    "teacher": 4033,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4311,
+    "name": "undergraduateCourse31",
+    "teacher": 4033,
+    "teachingAssistant": 41152
+  },
+  {
+    "nr": 4321,
+    "name": "undergraduateCourse32",
+    "teacher": 4043,
+    "teachingAssistant": 40872
+  },
+  {
+    "nr": 4331,
+    "name": "undergraduateCourse33",
+    "teacher": 4043,
+    "teachingAssistant": 40812
+  },
+  {
+    "nr": 4341,
+    "name": "undergraduateCourse34",
+    "teacher": 4053,
+    "teachingAssistant": 40282
+  },
+  {
+    "nr": 4351,
+    "name": "undergraduateCourse35",
+    "teacher": 4063,
+    "teachingAssistant": 41192
+  },
+  {
+    "nr": 4361,
+    "name": "undergraduateCourse36",
+    "teacher": 4063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4371,
+    "name": "undergraduateCourse37",
+    "teacher": 4073,
+    "teachingAssistant": 40832
+  },
+  {
+    "nr": 4381,
+    "name": "undergraduateCourse38",
+    "teacher": 4073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4391,
+    "name": "undergraduateCourse39",
+    "teacher": 4083,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4401,
+    "name": "undergraduateCourse40",
+    "teacher": 4083,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4411,
+    "name": "undergraduateCourse41",
+    "teacher": 4093,
+    "teachingAssistant": 40422
+  },
+  {
+    "nr": 4421,
+    "name": "undergraduateCourse42",
+    "teacher": 4004,
+    "teachingAssistant": 40172
+  },
+  {
+    "nr": 4431,
+    "name": "undergraduateCourse43",
+    "teacher": 4014,
+    "teachingAssistant": 40512
+  },
+  {
+    "nr": 4441,
+    "name": "undergraduateCourse44",
+    "teacher": 4014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4451,
+    "name": "undergraduateCourse45",
+    "teacher": 4024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4461,
+    "name": "undergraduateCourse46",
+    "teacher": 4024,
+    "teachingAssistant": 40622
+  },
+  {
+    "nr": 4471,
+    "name": "undergraduateCourse47",
+    "teacher": 4034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 4481,
+    "name": "undergraduateCourse48",
+    "teacher": 4044,
+    "teachingAssistant": 40222
+  },
+  {
+    "nr": 4491,
+    "name": "undergraduateCourse49",
+    "teacher": 4054,
+    "teachingAssistant": 40662
+  },
+  {
+    "nr": 4501,
+    "name": "undergraduateCourse50",
+    "teacher": 4064,
+    "teachingAssistant": 41222
+  },
+  {
+    "nr": 5001,
+    "name": "undergraduateCourse0",
+    "teacher": 5001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5011,
+    "name": "undergraduateCourse1",
+    "teacher": 5001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5021,
+    "name": "undergraduateCourse2",
+    "teacher": 5011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5031,
+    "name": "undergraduateCourse3",
+    "teacher": 5021,
+    "teachingAssistant": 50472
+  },
+  {
+    "nr": 5041,
+    "name": "undergraduateCourse4",
+    "teacher": 5021,
+    "teachingAssistant": 50882
+  },
+  {
+    "nr": 5051,
+    "name": "undergraduateCourse5",
+    "teacher": 5031,
+    "teachingAssistant": 50152
+  },
+  {
+    "nr": 5061,
+    "name": "undergraduateCourse6",
+    "teacher": 5031,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5071,
+    "name": "undergraduateCourse7",
+    "teacher": 5041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5081,
+    "name": "undergraduateCourse8",
+    "teacher": 5041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5091,
+    "name": "undergraduateCourse9",
+    "teacher": 5051,
+    "teachingAssistant": 50452
+  },
+  {
+    "nr": 5101,
+    "name": "undergraduateCourse10",
+    "teacher": 5061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5111,
+    "name": "undergraduateCourse11",
+    "teacher": 5071,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5121,
+    "name": "undergraduateCourse12",
+    "teacher": 5081,
+    "teachingAssistant": 51042
+  },
+  {
+    "nr": 5131,
+    "name": "undergraduateCourse13",
+    "teacher": 5091,
+    "teachingAssistant": 50512
+  },
+  {
+    "nr": 5141,
+    "name": "undergraduateCourse14",
+    "teacher": 5002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5151,
+    "name": "undergraduateCourse15",
+    "teacher": 5002,
+    "teachingAssistant": 50702
+  },
+  {
+    "nr": 5161,
+    "name": "undergraduateCourse16",
+    "teacher": 5012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5171,
+    "name": "undergraduateCourse17",
+    "teacher": 5012,
+    "teachingAssistant": 50582
+  },
+  {
+    "nr": 5181,
+    "name": "undergraduateCourse18",
+    "teacher": 5022,
+    "teachingAssistant": 50312
+  },
+  {
+    "nr": 5191,
+    "name": "undergraduateCourse19",
+    "teacher": 5022,
+    "teachingAssistant": 50222
+  },
+  {
+    "nr": 5201,
+    "name": "undergraduateCourse20",
+    "teacher": 5032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5211,
+    "name": "undergraduateCourse21",
+    "teacher": 5032,
+    "teachingAssistant": 50962
+  },
+  {
+    "nr": 5221,
+    "name": "undergraduateCourse22",
+    "teacher": 5042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5231,
+    "name": "undergraduateCourse23",
+    "teacher": 5042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5241,
+    "name": "undergraduateCourse24",
+    "teacher": 5052,
+    "teachingAssistant": 50102
+  },
+  {
+    "nr": 5251,
+    "name": "undergraduateCourse25",
+    "teacher": 5052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5261,
+    "name": "undergraduateCourse26",
+    "teacher": 5062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5271,
+    "name": "undergraduateCourse27",
+    "teacher": 5062,
+    "teachingAssistant": 51082
+  },
+  {
+    "nr": 5281,
+    "name": "undergraduateCourse28",
+    "teacher": 5072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5291,
+    "name": "undergraduateCourse29",
+    "teacher": 5072,
+    "teachingAssistant": 50232
+  },
+  {
+    "nr": 5301,
+    "name": "undergraduateCourse30",
+    "teacher": 5082,
+    "teachingAssistant": 50532
+  },
+  {
+    "nr": 5311,
+    "name": "undergraduateCourse31",
+    "teacher": 5082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5321,
+    "name": "undergraduateCourse32",
+    "teacher": 5092,
+    "teachingAssistant": 50482
+  },
+  {
+    "nr": 5331,
+    "name": "undergraduateCourse33",
+    "teacher": 5102,
+    "teachingAssistant": 50262
+  },
+  {
+    "nr": 5341,
+    "name": "undergraduateCourse34",
+    "teacher": 5003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5351,
+    "name": "undergraduateCourse35",
+    "teacher": 5013,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5361,
+    "name": "undergraduateCourse36",
+    "teacher": 5013,
+    "teachingAssistant": 50952
+  },
+  {
+    "nr": 5371,
+    "name": "undergraduateCourse37",
+    "teacher": 5023,
+    "teachingAssistant": 50422
+  },
+  {
+    "nr": 5381,
+    "name": "undergraduateCourse38",
+    "teacher": 5023,
+    "teachingAssistant": 50002
+  },
+  {
+    "nr": 5391,
+    "name": "undergraduateCourse39",
+    "teacher": 5033,
+    "teachingAssistant": 50342
+  },
+  {
+    "nr": 5401,
+    "name": "undergraduateCourse40",
+    "teacher": 5033,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5411,
+    "name": "undergraduateCourse41",
+    "teacher": 5043,
+    "teachingAssistant": 50492
+  },
+  {
+    "nr": 5421,
+    "name": "undergraduateCourse42",
+    "teacher": 5053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5431,
+    "name": "undergraduateCourse43",
+    "teacher": 5063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5441,
+    "name": "undergraduateCourse44",
+    "teacher": 5073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5451,
+    "name": "undergraduateCourse45",
+    "teacher": 5073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5461,
+    "name": "undergraduateCourse46",
+    "teacher": 5004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5471,
+    "name": "undergraduateCourse47",
+    "teacher": 5004,
+    "teachingAssistant": 50392
+  },
+  {
+    "nr": 5481,
+    "name": "undergraduateCourse48",
+    "teacher": 5014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5491,
+    "name": "undergraduateCourse49",
+    "teacher": 5014,
+    "teachingAssistant": 50782
+  },
+  {
+    "nr": 5501,
+    "name": "undergraduateCourse50",
+    "teacher": 5024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5511,
+    "name": "undergraduateCourse51",
+    "teacher": 5024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5521,
+    "name": "undergraduateCourse52",
+    "teacher": 5034,
+    "teachingAssistant": 50732
+  },
+  {
+    "nr": 5531,
+    "name": "undergraduateCourse53",
+    "teacher": 5044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5541,
+    "name": "undergraduateCourse54",
+    "teacher": 5044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 5551,
+    "name": "undergraduateCourse55",
+    "teacher": 5054,
+    "teachingAssistant": 50132
+  },
+  {
+    "nr": 5561,
+    "name": "undergraduateCourse56",
+    "teacher": 5054,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6001,
+    "name": "undergraduateCourse0",
+    "teacher": 6001,
+    "teachingAssistant": 60202
+  },
+  {
+    "nr": 6011,
+    "name": "undergraduateCourse1",
+    "teacher": 6011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6021,
+    "name": "undergraduateCourse2",
+    "teacher": 6011,
+    "teachingAssistant": 60642
+  },
+  {
+    "nr": 6031,
+    "name": "undergraduateCourse3",
+    "teacher": 6021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6041,
+    "name": "undergraduateCourse4",
+    "teacher": 6031,
+    "teachingAssistant": 60882
+  },
+  {
+    "nr": 6051,
+    "name": "undergraduateCourse5",
+    "teacher": 6031,
+    "teachingAssistant": 60472
+  },
+  {
+    "nr": 6061,
+    "name": "undergraduateCourse6",
+    "teacher": 6041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6071,
+    "name": "undergraduateCourse7",
+    "teacher": 6041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6081,
+    "name": "undergraduateCourse8",
+    "teacher": 6051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6091,
+    "name": "undergraduateCourse9",
+    "teacher": 6051,
+    "teachingAssistant": 60542
+  },
+  {
+    "nr": 6101,
+    "name": "undergraduateCourse10",
+    "teacher": 6061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6111,
+    "name": "undergraduateCourse11",
+    "teacher": 6071,
+    "teachingAssistant": 60332
+  },
+  {
+    "nr": 6121,
+    "name": "undergraduateCourse12",
+    "teacher": 6071,
+    "teachingAssistant": 60572
+  },
+  {
+    "nr": 6131,
+    "name": "undergraduateCourse13",
+    "teacher": 6081,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6141,
+    "name": "undergraduateCourse14",
+    "teacher": 6081,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6151,
+    "name": "undergraduateCourse15",
+    "teacher": 6091,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6161,
+    "name": "undergraduateCourse16",
+    "teacher": 6002,
+    "teachingAssistant": 60132
+  },
+  {
+    "nr": 6171,
+    "name": "undergraduateCourse17",
+    "teacher": 6002,
+    "teachingAssistant": 60582
+  },
+  {
+    "nr": 6181,
+    "name": "undergraduateCourse18",
+    "teacher": 6012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6191,
+    "name": "undergraduateCourse19",
+    "teacher": 6012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6201,
+    "name": "undergraduateCourse20",
+    "teacher": 6022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6211,
+    "name": "undergraduateCourse21",
+    "teacher": 6022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6221,
+    "name": "undergraduateCourse22",
+    "teacher": 6032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6231,
+    "name": "undergraduateCourse23",
+    "teacher": 6032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6241,
+    "name": "undergraduateCourse24",
+    "teacher": 6042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6251,
+    "name": "undergraduateCourse25",
+    "teacher": 6042,
+    "teachingAssistant": 60992
+  },
+  {
+    "nr": 6261,
+    "name": "undergraduateCourse26",
+    "teacher": 6052,
+    "teachingAssistant": 60302
+  },
+  {
+    "nr": 6271,
+    "name": "undergraduateCourse27",
+    "teacher": 6062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6281,
+    "name": "undergraduateCourse28",
+    "teacher": 6062,
+    "teachingAssistant": 61002
+  },
+  {
+    "nr": 6291,
+    "name": "undergraduateCourse29",
+    "teacher": 6072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6301,
+    "name": "undergraduateCourse30",
+    "teacher": 6082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6311,
+    "name": "undergraduateCourse31",
+    "teacher": 6082,
+    "teachingAssistant": 60782
+  },
+  {
+    "nr": 6321,
+    "name": "undergraduateCourse32",
+    "teacher": 6092,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6331,
+    "name": "undergraduateCourse33",
+    "teacher": 6003,
+    "teachingAssistant": 60422
+  },
+  {
+    "nr": 6341,
+    "name": "undergraduateCourse34",
+    "teacher": 6013,
+    "teachingAssistant": 60592
+  },
+  {
+    "nr": 6351,
+    "name": "undergraduateCourse35",
+    "teacher": 6023,
+    "teachingAssistant": 60362
+  },
+  {
+    "nr": 6361,
+    "name": "undergraduateCourse36",
+    "teacher": 6023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6371,
+    "name": "undergraduateCourse37",
+    "teacher": 6033,
+    "teachingAssistant": 60482
+  },
+  {
+    "nr": 6381,
+    "name": "undergraduateCourse38",
+    "teacher": 6033,
+    "teachingAssistant": 60942
+  },
+  {
+    "nr": 6391,
+    "name": "undergraduateCourse39",
+    "teacher": 6043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6401,
+    "name": "undergraduateCourse40",
+    "teacher": 6043,
+    "teachingAssistant": 60622
+  },
+  {
+    "nr": 6411,
+    "name": "undergraduateCourse41",
+    "teacher": 6053,
+    "teachingAssistant": 60702
+  },
+  {
+    "nr": 6421,
+    "name": "undergraduateCourse42",
+    "teacher": 6053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6431,
+    "name": "undergraduateCourse43",
+    "teacher": 6063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6441,
+    "name": "undergraduateCourse44",
+    "teacher": 6063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6451,
+    "name": "undergraduateCourse45",
+    "teacher": 6073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6461,
+    "name": "undergraduateCourse46",
+    "teacher": 6004,
+    "teachingAssistant": 60902
+  },
+  {
+    "nr": 6471,
+    "name": "undergraduateCourse47",
+    "teacher": 6004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6481,
+    "name": "undergraduateCourse48",
+    "teacher": 6014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6491,
+    "name": "undergraduateCourse49",
+    "teacher": 6014,
+    "teachingAssistant": 60072
+  },
+  {
+    "nr": 6501,
+    "name": "undergraduateCourse50",
+    "teacher": 6024,
+    "teachingAssistant": 60512
+  },
+  {
+    "nr": 6511,
+    "name": "undergraduateCourse51",
+    "teacher": 6034,
+    "teachingAssistant": 60792
+  },
+  {
+    "nr": 6521,
+    "name": "undergraduateCourse52",
+    "teacher": 6034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6531,
+    "name": "undergraduateCourse53",
+    "teacher": 6044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 6541,
+    "name": "undergraduateCourse54",
+    "teacher": 6044,
+    "teachingAssistant": 60102
+  },
+  {
+    "nr": 6551,
+    "name": "undergraduateCourse55",
+    "teacher": 6054,
+    "teachingAssistant": 61042
+  },
+  {
+    "nr": 7001,
+    "name": "undergraduateCourse0",
+    "teacher": 7001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7011,
+    "name": "undergraduateCourse1",
+    "teacher": 7011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7021,
+    "name": "undergraduateCourse2",
+    "teacher": 7021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7031,
+    "name": "undergraduateCourse3",
+    "teacher": 7031,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7041,
+    "name": "undergraduateCourse4",
+    "teacher": 7031,
+    "teachingAssistant": 71172
+  },
+  {
+    "nr": 7051,
+    "name": "undergraduateCourse5",
+    "teacher": 7041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7061,
+    "name": "undergraduateCourse6",
+    "teacher": 7051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7071,
+    "name": "undergraduateCourse7",
+    "teacher": 7051,
+    "teachingAssistant": 70002
+  },
+  {
+    "nr": 7081,
+    "name": "undergraduateCourse8",
+    "teacher": 7061,
+    "teachingAssistant": 70622
+  },
+  {
+    "nr": 7091,
+    "name": "undergraduateCourse9",
+    "teacher": 7061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7101,
+    "name": "undergraduateCourse10",
+    "teacher": 7002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7111,
+    "name": "undergraduateCourse11",
+    "teacher": 7002,
+    "teachingAssistant": 70982
+  },
+  {
+    "nr": 7121,
+    "name": "undergraduateCourse12",
+    "teacher": 7012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7131,
+    "name": "undergraduateCourse13",
+    "teacher": 7012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7141,
+    "name": "undergraduateCourse14",
+    "teacher": 7022,
+    "teachingAssistant": 70992
+  },
+  {
+    "nr": 7151,
+    "name": "undergraduateCourse15",
+    "teacher": 7022,
+    "teachingAssistant": 70032
+  },
+  {
+    "nr": 7161,
+    "name": "undergraduateCourse16",
+    "teacher": 7032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7171,
+    "name": "undergraduateCourse17",
+    "teacher": 7032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7181,
+    "name": "undergraduateCourse18",
+    "teacher": 7042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7191,
+    "name": "undergraduateCourse19",
+    "teacher": 7052,
+    "teachingAssistant": 70432
+  },
+  {
+    "nr": 7201,
+    "name": "undergraduateCourse20",
+    "teacher": 7052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7211,
+    "name": "undergraduateCourse21",
+    "teacher": 7062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7221,
+    "name": "undergraduateCourse22",
+    "teacher": 7072,
+    "teachingAssistant": 71182
+  },
+  {
+    "nr": 7231,
+    "name": "undergraduateCourse23",
+    "teacher": 7072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7241,
+    "name": "undergraduateCourse24",
+    "teacher": 7082,
+    "teachingAssistant": 70122
+  },
+  {
+    "nr": 7251,
+    "name": "undergraduateCourse25",
+    "teacher": 7082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7261,
+    "name": "undergraduateCourse26",
+    "teacher": 7092,
+    "teachingAssistant": 70022
+  },
+  {
+    "nr": 7271,
+    "name": "undergraduateCourse27",
+    "teacher": 7092,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7281,
+    "name": "undergraduateCourse28",
+    "teacher": 7102,
+    "teachingAssistant": 70812
+  },
+  {
+    "nr": 7291,
+    "name": "undergraduateCourse29",
+    "teacher": 7102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7301,
+    "name": "undergraduateCourse30",
+    "teacher": 7112,
+    "teachingAssistant": 70102
+  },
+  {
+    "nr": 7311,
+    "name": "undergraduateCourse31",
+    "teacher": 7122,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7321,
+    "name": "undergraduateCourse32",
+    "teacher": 7122,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7331,
+    "name": "undergraduateCourse33",
+    "teacher": 7132,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7341,
+    "name": "undergraduateCourse34",
+    "teacher": 7003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7351,
+    "name": "undergraduateCourse35",
+    "teacher": 7003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7361,
+    "name": "undergraduateCourse36",
+    "teacher": 7013,
+    "teachingAssistant": 70772
+  },
+  {
+    "nr": 7371,
+    "name": "undergraduateCourse37",
+    "teacher": 7013,
+    "teachingAssistant": 70542
+  },
+  {
+    "nr": 7381,
+    "name": "undergraduateCourse38",
+    "teacher": 7023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7391,
+    "name": "undergraduateCourse39",
+    "teacher": 7023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7401,
+    "name": "undergraduateCourse40",
+    "teacher": 7033,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7411,
+    "name": "undergraduateCourse41",
+    "teacher": 7043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7421,
+    "name": "undergraduateCourse42",
+    "teacher": 7043,
+    "teachingAssistant": 70152
+  },
+  {
+    "nr": 7431,
+    "name": "undergraduateCourse43",
+    "teacher": 7053,
+    "teachingAssistant": 70112
+  },
+  {
+    "nr": 7441,
+    "name": "undergraduateCourse44",
+    "teacher": 7053,
+    "teachingAssistant": 70452
+  },
+  {
+    "nr": 7451,
+    "name": "undergraduateCourse45",
+    "teacher": 7063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7461,
+    "name": "undergraduateCourse46",
+    "teacher": 7063,
+    "teachingAssistant": 70672
+  },
+  {
+    "nr": 7471,
+    "name": "undergraduateCourse47",
+    "teacher": 7073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7481,
+    "name": "undergraduateCourse48",
+    "teacher": 7073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7491,
+    "name": "undergraduateCourse49",
+    "teacher": 7083,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7501,
+    "name": "undergraduateCourse50",
+    "teacher": 7093,
+    "teachingAssistant": 71002
+  },
+  {
+    "nr": 7511,
+    "name": "undergraduateCourse51",
+    "teacher": 7093,
+    "teachingAssistant": 70922
+  },
+  {
+    "nr": 7521,
+    "name": "undergraduateCourse52",
+    "teacher": 7004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7531,
+    "name": "undergraduateCourse53",
+    "teacher": 7004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7541,
+    "name": "undergraduateCourse54",
+    "teacher": 7014,
+    "teachingAssistant": 71102
+  },
+  {
+    "nr": 7551,
+    "name": "undergraduateCourse55",
+    "teacher": 7014,
+    "teachingAssistant": 70962
+  },
+  {
+    "nr": 7561,
+    "name": "undergraduateCourse56",
+    "teacher": 7024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7571,
+    "name": "undergraduateCourse57",
+    "teacher": 7024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7581,
+    "name": "undergraduateCourse58",
+    "teacher": 7034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7591,
+    "name": "undergraduateCourse59",
+    "teacher": 7034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 7601,
+    "name": "undergraduateCourse60",
+    "teacher": 7044,
+    "teachingAssistant": 71082
+  },
+  {
+    "nr": 7611,
+    "name": "undergraduateCourse61",
+    "teacher": 7054,
+    "teachingAssistant": 70242
+  },
+  {
+    "nr": 7621,
+    "name": "undergraduateCourse62",
+    "teacher": 7054,
+    "teachingAssistant": 70792
+  },
+  {
+    "nr": 8001,
+    "name": "undergraduateCourse0",
+    "teacher": 8001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8011,
+    "name": "undergraduateCourse1",
+    "teacher": 8001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8021,
+    "name": "undergraduateCourse2",
+    "teacher": 8011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8031,
+    "name": "undergraduateCourse3",
+    "teacher": 8011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8041,
+    "name": "undergraduateCourse4",
+    "teacher": 8021,
+    "teachingAssistant": 81162
+  },
+  {
+    "nr": 8051,
+    "name": "undergraduateCourse5",
+    "teacher": 8021,
+    "teachingAssistant": 80642
+  },
+  {
+    "nr": 8061,
+    "name": "undergraduateCourse6",
+    "teacher": 8031,
+    "teachingAssistant": 80532
+  },
+  {
+    "nr": 8071,
+    "name": "undergraduateCourse7",
+    "teacher": 8031,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8081,
+    "name": "undergraduateCourse8",
+    "teacher": 8041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8091,
+    "name": "undergraduateCourse9",
+    "teacher": 8041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8101,
+    "name": "undergraduateCourse10",
+    "teacher": 8051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8111,
+    "name": "undergraduateCourse11",
+    "teacher": 8051,
+    "teachingAssistant": 80782
+  },
+  {
+    "nr": 8121,
+    "name": "undergraduateCourse12",
+    "teacher": 8061,
+    "teachingAssistant": 80762
+  },
+  {
+    "nr": 8131,
+    "name": "undergraduateCourse13",
+    "teacher": 8061,
+    "teachingAssistant": 80492
+  },
+  {
+    "nr": 8141,
+    "name": "undergraduateCourse14",
+    "teacher": 8071,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8151,
+    "name": "undergraduateCourse15",
+    "teacher": 8071,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8161,
+    "name": "undergraduateCourse16",
+    "teacher": 8081,
+    "teachingAssistant": 80072
+  },
+  {
+    "nr": 8171,
+    "name": "undergraduateCourse17",
+    "teacher": 8002,
+    "teachingAssistant": 80852
+  },
+  {
+    "nr": 8181,
+    "name": "undergraduateCourse18",
+    "teacher": 8002,
+    "teachingAssistant": 81282
+  },
+  {
+    "nr": 8191,
+    "name": "undergraduateCourse19",
+    "teacher": 8012,
+    "teachingAssistant": 80292
+  },
+  {
+    "nr": 8201,
+    "name": "undergraduateCourse20",
+    "teacher": 8012,
+    "teachingAssistant": 81072
+  },
+  {
+    "nr": 8211,
+    "name": "undergraduateCourse21",
+    "teacher": 8022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8221,
+    "name": "undergraduateCourse22",
+    "teacher": 8022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8231,
+    "name": "undergraduateCourse23",
+    "teacher": 8032,
+    "teachingAssistant": 80332
+  },
+  {
+    "nr": 8241,
+    "name": "undergraduateCourse24",
+    "teacher": 8042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8251,
+    "name": "undergraduateCourse25",
+    "teacher": 8052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8261,
+    "name": "undergraduateCourse26",
+    "teacher": 8052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8271,
+    "name": "undergraduateCourse27",
+    "teacher": 8062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8281,
+    "name": "undergraduateCourse28",
+    "teacher": 8062,
+    "teachingAssistant": 81102
+  },
+  {
+    "nr": 8291,
+    "name": "undergraduateCourse29",
+    "teacher": 8072,
+    "teachingAssistant": 80202
+  },
+  {
+    "nr": 8301,
+    "name": "undergraduateCourse30",
+    "teacher": 8082,
+    "teachingAssistant": 81172
+  },
+  {
+    "nr": 8311,
+    "name": "undergraduateCourse31",
+    "teacher": 8092,
+    "teachingAssistant": 81342
+  },
+  {
+    "nr": 8321,
+    "name": "undergraduateCourse32",
+    "teacher": 8102,
+    "teachingAssistant": 80322
+  },
+  {
+    "nr": 8331,
+    "name": "undergraduateCourse33",
+    "teacher": 8102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8341,
+    "name": "undergraduateCourse34",
+    "teacher": 8003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8351,
+    "name": "undergraduateCourse35",
+    "teacher": 8003,
+    "teachingAssistant": 81122
+  },
+  {
+    "nr": 8361,
+    "name": "undergraduateCourse36",
+    "teacher": 8013,
+    "teachingAssistant": 80602
+  },
+  {
+    "nr": 8371,
+    "name": "undergraduateCourse37",
+    "teacher": 8023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8381,
+    "name": "undergraduateCourse38",
+    "teacher": 8023,
+    "teachingAssistant": 80542
+  },
+  {
+    "nr": 8391,
+    "name": "undergraduateCourse39",
+    "teacher": 8033,
+    "teachingAssistant": 80592
+  },
+  {
+    "nr": 8401,
+    "name": "undergraduateCourse40",
+    "teacher": 8033,
+    "teachingAssistant": 81212
+  },
+  {
+    "nr": 8411,
+    "name": "undergraduateCourse41",
+    "teacher": 8043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8421,
+    "name": "undergraduateCourse42",
+    "teacher": 8053,
+    "teachingAssistant": 80422
+  },
+  {
+    "nr": 8431,
+    "name": "undergraduateCourse43",
+    "teacher": 8063,
+    "teachingAssistant": 80212
+  },
+  {
+    "nr": 8441,
+    "name": "undergraduateCourse44",
+    "teacher": 8063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8451,
+    "name": "undergraduateCourse45",
+    "teacher": 8073,
+    "teachingAssistant": 81302
+  },
+  {
+    "nr": 8461,
+    "name": "undergraduateCourse46",
+    "teacher": 8073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8471,
+    "name": "undergraduateCourse47",
+    "teacher": 8083,
+    "teachingAssistant": 81262
+  },
+  {
+    "nr": 8481,
+    "name": "undergraduateCourse48",
+    "teacher": 8093,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8491,
+    "name": "undergraduateCourse49",
+    "teacher": 8103,
+    "teachingAssistant": 80252
+  },
+  {
+    "nr": 8501,
+    "name": "undergraduateCourse50",
+    "teacher": 8103,
+    "teachingAssistant": 80752
+  },
+  {
+    "nr": 8511,
+    "name": "undergraduateCourse51",
+    "teacher": 8004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8521,
+    "name": "undergraduateCourse52",
+    "teacher": 8004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8531,
+    "name": "undergraduateCourse53",
+    "teacher": 8014,
+    "teachingAssistant": 80472
+  },
+  {
+    "nr": 8541,
+    "name": "undergraduateCourse54",
+    "teacher": 8014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8551,
+    "name": "undergraduateCourse55",
+    "teacher": 8024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8561,
+    "name": "undergraduateCourse56",
+    "teacher": 8024,
+    "teachingAssistant": 80582
+  },
+  {
+    "nr": 8571,
+    "name": "undergraduateCourse57",
+    "teacher": 8034,
+    "teachingAssistant": 81402
+  },
+  {
+    "nr": 8581,
+    "name": "undergraduateCourse58",
+    "teacher": 8034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 8591,
+    "name": "undergraduateCourse59",
+    "teacher": 8044,
+    "teachingAssistant": 81252
+  },
+  {
+    "nr": 8601,
+    "name": "undergraduateCourse60",
+    "teacher": 8054,
+    "teachingAssistant": 80232
+  },
+  {
+    "nr": 8611,
+    "name": "undergraduateCourse61",
+    "teacher": 8054,
+    "teachingAssistant": 81222
+  },
+  {
+    "nr": 9001,
+    "name": "undergraduateCourse0",
+    "teacher": 9001,
+    "teachingAssistant": 91042
+  },
+  {
+    "nr": 9011,
+    "name": "undergraduateCourse1",
+    "teacher": 9011,
+    "teachingAssistant": 90142
+  },
+  {
+    "nr": 9021,
+    "name": "undergraduateCourse2",
+    "teacher": 9011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9031,
+    "name": "undergraduateCourse3",
+    "teacher": 9021,
+    "teachingAssistant": 90862
+  },
+  {
+    "nr": 9041,
+    "name": "undergraduateCourse4",
+    "teacher": 9031,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9051,
+    "name": "undergraduateCourse5",
+    "teacher": 9041,
+    "teachingAssistant": 90482
+  },
+  {
+    "nr": 9061,
+    "name": "undergraduateCourse6",
+    "teacher": 9051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9071,
+    "name": "undergraduateCourse7",
+    "teacher": 9051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9081,
+    "name": "undergraduateCourse8",
+    "teacher": 9061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9091,
+    "name": "undergraduateCourse9",
+    "teacher": 9061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9101,
+    "name": "undergraduateCourse10",
+    "teacher": 9002,
+    "teachingAssistant": 90382
+  },
+  {
+    "nr": 9111,
+    "name": "undergraduateCourse11",
+    "teacher": 9002,
+    "teachingAssistant": 90962
+  },
+  {
+    "nr": 9121,
+    "name": "undergraduateCourse12",
+    "teacher": 9012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9131,
+    "name": "undergraduateCourse13",
+    "teacher": 9022,
+    "teachingAssistant": 90652
+  },
+  {
+    "nr": 9141,
+    "name": "undergraduateCourse14",
+    "teacher": 9032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9151,
+    "name": "undergraduateCourse15",
+    "teacher": 9042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9161,
+    "name": "undergraduateCourse16",
+    "teacher": 9042,
+    "teachingAssistant": 90512
+  },
+  {
+    "nr": 9171,
+    "name": "undergraduateCourse17",
+    "teacher": 9052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9181,
+    "name": "undergraduateCourse18",
+    "teacher": 9062,
+    "teachingAssistant": 90122
+  },
+  {
+    "nr": 9191,
+    "name": "undergraduateCourse19",
+    "teacher": 9072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9201,
+    "name": "undergraduateCourse20",
+    "teacher": 9082,
+    "teachingAssistant": 90342
+  },
+  {
+    "nr": 9211,
+    "name": "undergraduateCourse21",
+    "teacher": 9092,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9221,
+    "name": "undergraduateCourse22",
+    "teacher": 9003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9231,
+    "name": "undergraduateCourse23",
+    "teacher": 9003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9241,
+    "name": "undergraduateCourse24",
+    "teacher": 9013,
+    "teachingAssistant": 90522
+  },
+  {
+    "nr": 9251,
+    "name": "undergraduateCourse25",
+    "teacher": 9023,
+    "teachingAssistant": 90762
+  },
+  {
+    "nr": 9261,
+    "name": "undergraduateCourse26",
+    "teacher": 9023,
+    "teachingAssistant": 90882
+  },
+  {
+    "nr": 9271,
+    "name": "undergraduateCourse27",
+    "teacher": 9033,
+    "teachingAssistant": 90282
+  },
+  {
+    "nr": 9281,
+    "name": "undergraduateCourse28",
+    "teacher": 9033,
+    "teachingAssistant": 90712
+  },
+  {
+    "nr": 9291,
+    "name": "undergraduateCourse29",
+    "teacher": 9043,
+    "teachingAssistant": 90662
+  },
+  {
+    "nr": 9301,
+    "name": "undergraduateCourse30",
+    "teacher": 9053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9311,
+    "name": "undergraduateCourse31",
+    "teacher": 9063,
+    "teachingAssistant": 90412
+  },
+  {
+    "nr": 9321,
+    "name": "undergraduateCourse32",
+    "teacher": 9073,
+    "teachingAssistant": 90112
+  },
+  {
+    "nr": 9331,
+    "name": "undergraduateCourse33",
+    "teacher": 9073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9341,
+    "name": "undergraduateCourse34",
+    "teacher": 9083,
+    "teachingAssistant": 90792
+  },
+  {
+    "nr": 9351,
+    "name": "undergraduateCourse35",
+    "teacher": 9093,
+    "teachingAssistant": 90922
+  },
+  {
+    "nr": 9361,
+    "name": "undergraduateCourse36",
+    "teacher": 9093,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9371,
+    "name": "undergraduateCourse37",
+    "teacher": 9103,
+    "teachingAssistant": 90852
+  },
+  {
+    "nr": 9381,
+    "name": "undergraduateCourse38",
+    "teacher": 9004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9391,
+    "name": "undergraduateCourse39",
+    "teacher": 9014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9401,
+    "name": "undergraduateCourse40",
+    "teacher": 9014,
+    "teachingAssistant": 90432
+  },
+  {
+    "nr": 9411,
+    "name": "undergraduateCourse41",
+    "teacher": 9024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9421,
+    "name": "undergraduateCourse42",
+    "teacher": 9024,
+    "teachingAssistant": 90042
+  },
+  {
+    "nr": 9431,
+    "name": "undergraduateCourse43",
+    "teacher": 9034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9441,
+    "name": "undergraduateCourse44",
+    "teacher": 9044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9451,
+    "name": "undergraduateCourse45",
+    "teacher": 9054,
+    "teachingAssistant": 90012
+  },
+  {
+    "nr": 9461,
+    "name": "undergraduateCourse46",
+    "teacher": 9054,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 9471,
+    "name": "undergraduateCourse47",
+    "teacher": 9064,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10001,
+    "name": "undergraduateCourse0",
+    "teacher": 10001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10011,
+    "name": "undergraduateCourse1",
+    "teacher": 10001,
+    "teachingAssistant": 100062
+  },
+  {
+    "nr": 10021,
+    "name": "undergraduateCourse2",
+    "teacher": 10011,
+    "teachingAssistant": 101202
+  },
+  {
+    "nr": 10031,
+    "name": "undergraduateCourse3",
+    "teacher": 10021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10041,
+    "name": "undergraduateCourse4",
+    "teacher": 10031,
+    "teachingAssistant": 101292
+  },
+  {
+    "nr": 10051,
+    "name": "undergraduateCourse5",
+    "teacher": 10031,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10061,
+    "name": "undergraduateCourse6",
+    "teacher": 10041,
+    "teachingAssistant": 101332
+  },
+  {
+    "nr": 10071,
+    "name": "undergraduateCourse7",
+    "teacher": 10041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10081,
+    "name": "undergraduateCourse8",
+    "teacher": 10051,
+    "teachingAssistant": 101312
+  },
+  {
+    "nr": 10091,
+    "name": "undergraduateCourse9",
+    "teacher": 10051,
+    "teachingAssistant": 100702
+  },
+  {
+    "nr": 10101,
+    "name": "undergraduateCourse10",
+    "teacher": 10061,
+    "teachingAssistant": 100892
+  },
+  {
+    "nr": 10111,
+    "name": "undergraduateCourse11",
+    "teacher": 10061,
+    "teachingAssistant": 100352
+  },
+  {
+    "nr": 10121,
+    "name": "undergraduateCourse12",
+    "teacher": 10002,
+    "teachingAssistant": 101322
+  },
+  {
+    "nr": 10131,
+    "name": "undergraduateCourse13",
+    "teacher": 10012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10141,
+    "name": "undergraduateCourse14",
+    "teacher": 10012,
+    "teachingAssistant": 100982
+  },
+  {
+    "nr": 10151,
+    "name": "undergraduateCourse15",
+    "teacher": 10022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10161,
+    "name": "undergraduateCourse16",
+    "teacher": 10032,
+    "teachingAssistant": 100072
+  },
+  {
+    "nr": 10171,
+    "name": "undergraduateCourse17",
+    "teacher": 10032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10181,
+    "name": "undergraduateCourse18",
+    "teacher": 10042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10191,
+    "name": "undergraduateCourse19",
+    "teacher": 10052,
+    "teachingAssistant": 100592
+  },
+  {
+    "nr": 10201,
+    "name": "undergraduateCourse20",
+    "teacher": 10052,
+    "teachingAssistant": 100182
+  },
+  {
+    "nr": 10211,
+    "name": "undergraduateCourse21",
+    "teacher": 10062,
+    "teachingAssistant": 100322
+  },
+  {
+    "nr": 10221,
+    "name": "undergraduateCourse22",
+    "teacher": 10072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10231,
+    "name": "undergraduateCourse23",
+    "teacher": 10072,
+    "teachingAssistant": 101112
+  },
+  {
+    "nr": 10241,
+    "name": "undergraduateCourse24",
+    "teacher": 10082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10251,
+    "name": "undergraduateCourse25",
+    "teacher": 10082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10261,
+    "name": "undergraduateCourse26",
+    "teacher": 10092,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10271,
+    "name": "undergraduateCourse27",
+    "teacher": 10092,
+    "teachingAssistant": 100462
+  },
+  {
+    "nr": 10281,
+    "name": "undergraduateCourse28",
+    "teacher": 10102,
+    "teachingAssistant": 101132
+  },
+  {
+    "nr": 10291,
+    "name": "undergraduateCourse29",
+    "teacher": 10003,
+    "teachingAssistant": 100582
+  },
+  {
+    "nr": 10301,
+    "name": "undergraduateCourse30",
+    "teacher": 10003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10311,
+    "name": "undergraduateCourse31",
+    "teacher": 10013,
+    "teachingAssistant": 101172
+  },
+  {
+    "nr": 10321,
+    "name": "undergraduateCourse32",
+    "teacher": 10013,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10331,
+    "name": "undergraduateCourse33",
+    "teacher": 10023,
+    "teachingAssistant": 100222
+  },
+  {
+    "nr": 10341,
+    "name": "undergraduateCourse34",
+    "teacher": 10033,
+    "teachingAssistant": 100952
+  },
+  {
+    "nr": 10351,
+    "name": "undergraduateCourse35",
+    "teacher": 10043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10361,
+    "name": "undergraduateCourse36",
+    "teacher": 10043,
+    "teachingAssistant": 100202
+  },
+  {
+    "nr": 10371,
+    "name": "undergraduateCourse37",
+    "teacher": 10053,
+    "teachingAssistant": 101212
+  },
+  {
+    "nr": 10381,
+    "name": "undergraduateCourse38",
+    "teacher": 10063,
+    "teachingAssistant": 101192
+  },
+  {
+    "nr": 10391,
+    "name": "undergraduateCourse39",
+    "teacher": 10063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10401,
+    "name": "undergraduateCourse40",
+    "teacher": 10073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10411,
+    "name": "undergraduateCourse41",
+    "teacher": 10073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10421,
+    "name": "undergraduateCourse42",
+    "teacher": 10083,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10431,
+    "name": "undergraduateCourse43",
+    "teacher": 10093,
+    "teachingAssistant": 100312
+  },
+  {
+    "nr": 10441,
+    "name": "undergraduateCourse44",
+    "teacher": 10093,
+    "teachingAssistant": 100672
+  },
+  {
+    "nr": 10451,
+    "name": "undergraduateCourse45",
+    "teacher": 10103,
+    "teachingAssistant": 100502
+  },
+  {
+    "nr": 10461,
+    "name": "undergraduateCourse46",
+    "teacher": 10004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10471,
+    "name": "undergraduateCourse47",
+    "teacher": 10014,
+    "teachingAssistant": 100452
+  },
+  {
+    "nr": 10481,
+    "name": "undergraduateCourse48",
+    "teacher": 10014,
+    "teachingAssistant": 100752
+  },
+  {
+    "nr": 10491,
+    "name": "undergraduateCourse49",
+    "teacher": 10024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10501,
+    "name": "undergraduateCourse50",
+    "teacher": 10034,
+    "teachingAssistant": 101372
+  },
+  {
+    "nr": 10511,
+    "name": "undergraduateCourse51",
+    "teacher": 10034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10521,
+    "name": "undergraduateCourse52",
+    "teacher": 10044,
+    "teachingAssistant": 100912
+  },
+  {
+    "nr": 10531,
+    "name": "undergraduateCourse53",
+    "teacher": 10044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10541,
+    "name": "undergraduateCourse54",
+    "teacher": 10054,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10551,
+    "name": "undergraduateCourse55",
+    "teacher": 10064,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 10561,
+    "name": "undergraduateCourse56",
+    "teacher": 10064,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11001,
+    "name": "undergraduateCourse0",
+    "teacher": 11001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11011,
+    "name": "undergraduateCourse1",
+    "teacher": 11001,
+    "teachingAssistant": 110032
+  },
+  {
+    "nr": 11021,
+    "name": "undergraduateCourse2",
+    "teacher": 11011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11031,
+    "name": "undergraduateCourse3",
+    "teacher": 11021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11041,
+    "name": "undergraduateCourse4",
+    "teacher": 11021,
+    "teachingAssistant": 111022
+  },
+  {
+    "nr": 11051,
+    "name": "undergraduateCourse5",
+    "teacher": 11031,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11061,
+    "name": "undergraduateCourse6",
+    "teacher": 11031,
+    "teachingAssistant": 110102
+  },
+  {
+    "nr": 11071,
+    "name": "undergraduateCourse7",
+    "teacher": 11041,
+    "teachingAssistant": 111402
+  },
+  {
+    "nr": 11081,
+    "name": "undergraduateCourse8",
+    "teacher": 11041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11091,
+    "name": "undergraduateCourse9",
+    "teacher": 11051,
+    "teachingAssistant": 111192
+  },
+  {
+    "nr": 11101,
+    "name": "undergraduateCourse10",
+    "teacher": 11061,
+    "teachingAssistant": 110992
+  },
+  {
+    "nr": 11111,
+    "name": "undergraduateCourse11",
+    "teacher": 11061,
+    "teachingAssistant": 110282
+  },
+  {
+    "nr": 11121,
+    "name": "undergraduateCourse12",
+    "teacher": 11071,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11131,
+    "name": "undergraduateCourse13",
+    "teacher": 11071,
+    "teachingAssistant": 110022
+  },
+  {
+    "nr": 11141,
+    "name": "undergraduateCourse14",
+    "teacher": 11002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11151,
+    "name": "undergraduateCourse15",
+    "teacher": 11012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11161,
+    "name": "undergraduateCourse16",
+    "teacher": 11012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11171,
+    "name": "undergraduateCourse17",
+    "teacher": 11022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11181,
+    "name": "undergraduateCourse18",
+    "teacher": 11032,
+    "teachingAssistant": 110242
+  },
+  {
+    "nr": 11191,
+    "name": "undergraduateCourse19",
+    "teacher": 11042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11201,
+    "name": "undergraduateCourse20",
+    "teacher": 11052,
+    "teachingAssistant": 110322
+  },
+  {
+    "nr": 11211,
+    "name": "undergraduateCourse21",
+    "teacher": 11062,
+    "teachingAssistant": 110572
+  },
+  {
+    "nr": 11221,
+    "name": "undergraduateCourse22",
+    "teacher": 11062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11231,
+    "name": "undergraduateCourse23",
+    "teacher": 11072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11241,
+    "name": "undergraduateCourse24",
+    "teacher": 11072,
+    "teachingAssistant": 110062
+  },
+  {
+    "nr": 11251,
+    "name": "undergraduateCourse25",
+    "teacher": 11082,
+    "teachingAssistant": 110672
+  },
+  {
+    "nr": 11261,
+    "name": "undergraduateCourse26",
+    "teacher": 11092,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11271,
+    "name": "undergraduateCourse27",
+    "teacher": 11102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11281,
+    "name": "undergraduateCourse28",
+    "teacher": 11102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11291,
+    "name": "undergraduateCourse29",
+    "teacher": 11112,
+    "teachingAssistant": 110982
+  },
+  {
+    "nr": 11301,
+    "name": "undergraduateCourse30",
+    "teacher": 11122,
+    "teachingAssistant": 110532
+  },
+  {
+    "nr": 11311,
+    "name": "undergraduateCourse31",
+    "teacher": 11132,
+    "teachingAssistant": 110232
+  },
+  {
+    "nr": 11321,
+    "name": "undergraduateCourse32",
+    "teacher": 11132,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11331,
+    "name": "undergraduateCourse33",
+    "teacher": 11003,
+    "teachingAssistant": 110882
+  },
+  {
+    "nr": 11341,
+    "name": "undergraduateCourse34",
+    "teacher": 11003,
+    "teachingAssistant": 111352
+  },
+  {
+    "nr": 11351,
+    "name": "undergraduateCourse35",
+    "teacher": 11013,
+    "teachingAssistant": 110582
+  },
+  {
+    "nr": 11361,
+    "name": "undergraduateCourse36",
+    "teacher": 11023,
+    "teachingAssistant": 110642
+  },
+  {
+    "nr": 11371,
+    "name": "undergraduateCourse37",
+    "teacher": 11023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11381,
+    "name": "undergraduateCourse38",
+    "teacher": 11033,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11391,
+    "name": "undergraduateCourse39",
+    "teacher": 11033,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11401,
+    "name": "undergraduateCourse40",
+    "teacher": 11043,
+    "teachingAssistant": 110612
+  },
+  {
+    "nr": 11411,
+    "name": "undergraduateCourse41",
+    "teacher": 11053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11421,
+    "name": "undergraduateCourse42",
+    "teacher": 11063,
+    "teachingAssistant": 110472
+  },
+  {
+    "nr": 11431,
+    "name": "undergraduateCourse43",
+    "teacher": 11073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11441,
+    "name": "undergraduateCourse44",
+    "teacher": 11083,
+    "teachingAssistant": 110972
+  },
+  {
+    "nr": 11451,
+    "name": "undergraduateCourse45",
+    "teacher": 11083,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11461,
+    "name": "undergraduateCourse46",
+    "teacher": 11093,
+    "teachingAssistant": 111072
+  },
+  {
+    "nr": 11471,
+    "name": "undergraduateCourse47",
+    "teacher": 11093,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11481,
+    "name": "undergraduateCourse48",
+    "teacher": 11103,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11491,
+    "name": "undergraduateCourse49",
+    "teacher": 11103,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11501,
+    "name": "undergraduateCourse50",
+    "teacher": 11004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11511,
+    "name": "undergraduateCourse51",
+    "teacher": 11014,
+    "teachingAssistant": 110442
+  },
+  {
+    "nr": 11521,
+    "name": "undergraduateCourse52",
+    "teacher": 11024,
+    "teachingAssistant": 110092
+  },
+  {
+    "nr": 11531,
+    "name": "undergraduateCourse53",
+    "teacher": 11024,
+    "teachingAssistant": 111032
+  },
+  {
+    "nr": 11541,
+    "name": "undergraduateCourse54",
+    "teacher": 11034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11551,
+    "name": "undergraduateCourse55",
+    "teacher": 11034,
+    "teachingAssistant": 111002
+  },
+  {
+    "nr": 11561,
+    "name": "undergraduateCourse56",
+    "teacher": 11044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 11571,
+    "name": "undergraduateCourse57",
+    "teacher": 11054,
+    "teachingAssistant": 110832
+  },
+  {
+    "nr": 11581,
+    "name": "undergraduateCourse58",
+    "teacher": 11054,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12001,
+    "name": "undergraduateCourse0",
+    "teacher": 12001,
+    "teachingAssistant": 120832
+  },
+  {
+    "nr": 12011,
+    "name": "undergraduateCourse1",
+    "teacher": 12001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12021,
+    "name": "undergraduateCourse2",
+    "teacher": 12011,
+    "teachingAssistant": 120502
+  },
+  {
+    "nr": 12031,
+    "name": "undergraduateCourse3",
+    "teacher": 12011,
+    "teachingAssistant": 120102
+  },
+  {
+    "nr": 12041,
+    "name": "undergraduateCourse4",
+    "teacher": 12021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12051,
+    "name": "undergraduateCourse5",
+    "teacher": 12031,
+    "teachingAssistant": 120362
+  },
+  {
+    "nr": 12061,
+    "name": "undergraduateCourse6",
+    "teacher": 12031,
+    "teachingAssistant": 120082
+  },
+  {
+    "nr": 12071,
+    "name": "undergraduateCourse7",
+    "teacher": 12041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12081,
+    "name": "undergraduateCourse8",
+    "teacher": 12041,
+    "teachingAssistant": 120132
+  },
+  {
+    "nr": 12091,
+    "name": "undergraduateCourse9",
+    "teacher": 12051,
+    "teachingAssistant": 121002
+  },
+  {
+    "nr": 12101,
+    "name": "undergraduateCourse10",
+    "teacher": 12061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12111,
+    "name": "undergraduateCourse11",
+    "teacher": 12061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12121,
+    "name": "undergraduateCourse12",
+    "teacher": 12071,
+    "teachingAssistant": 120462
+  },
+  {
+    "nr": 12131,
+    "name": "undergraduateCourse13",
+    "teacher": 12071,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12141,
+    "name": "undergraduateCourse14",
+    "teacher": 12081,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12151,
+    "name": "undergraduateCourse15",
+    "teacher": 12002,
+    "teachingAssistant": 121102
+  },
+  {
+    "nr": 12161,
+    "name": "undergraduateCourse16",
+    "teacher": 12012,
+    "teachingAssistant": 120452
+  },
+  {
+    "nr": 12171,
+    "name": "undergraduateCourse17",
+    "teacher": 12012,
+    "teachingAssistant": 120072
+  },
+  {
+    "nr": 12181,
+    "name": "undergraduateCourse18",
+    "teacher": 12022,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12191,
+    "name": "undergraduateCourse19",
+    "teacher": 12032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12201,
+    "name": "undergraduateCourse20",
+    "teacher": 12032,
+    "teachingAssistant": 120632
+  },
+  {
+    "nr": 12211,
+    "name": "undergraduateCourse21",
+    "teacher": 12042,
+    "teachingAssistant": 120522
+  },
+  {
+    "nr": 12221,
+    "name": "undergraduateCourse22",
+    "teacher": 12052,
+    "teachingAssistant": 120242
+  },
+  {
+    "nr": 12231,
+    "name": "undergraduateCourse23",
+    "teacher": 12062,
+    "teachingAssistant": 120192
+  },
+  {
+    "nr": 12241,
+    "name": "undergraduateCourse24",
+    "teacher": 12072,
+    "teachingAssistant": 121022
+  },
+  {
+    "nr": 12251,
+    "name": "undergraduateCourse25",
+    "teacher": 12082,
+    "teachingAssistant": 120992
+  },
+  {
+    "nr": 12261,
+    "name": "undergraduateCourse26",
+    "teacher": 12092,
+    "teachingAssistant": 120762
+  },
+  {
+    "nr": 12271,
+    "name": "undergraduateCourse27",
+    "teacher": 12092,
+    "teachingAssistant": 120942
+  },
+  {
+    "nr": 12281,
+    "name": "undergraduateCourse28",
+    "teacher": 12102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12291,
+    "name": "undergraduateCourse29",
+    "teacher": 12102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12301,
+    "name": "undergraduateCourse30",
+    "teacher": 12003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12311,
+    "name": "undergraduateCourse31",
+    "teacher": 12003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12321,
+    "name": "undergraduateCourse32",
+    "teacher": 12013,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12331,
+    "name": "undergraduateCourse33",
+    "teacher": 12013,
+    "teachingAssistant": 120432
+  },
+  {
+    "nr": 12341,
+    "name": "undergraduateCourse34",
+    "teacher": 12023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12351,
+    "name": "undergraduateCourse35",
+    "teacher": 12023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12361,
+    "name": "undergraduateCourse36",
+    "teacher": 12033,
+    "teachingAssistant": 120732
+  },
+  {
+    "nr": 12371,
+    "name": "undergraduateCourse37",
+    "teacher": 12033,
+    "teachingAssistant": 120742
+  },
+  {
+    "nr": 12381,
+    "name": "undergraduateCourse38",
+    "teacher": 12043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12391,
+    "name": "undergraduateCourse39",
+    "teacher": 12053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12401,
+    "name": "undergraduateCourse40",
+    "teacher": 12063,
+    "teachingAssistant": 120372
+  },
+  {
+    "nr": 12411,
+    "name": "undergraduateCourse41",
+    "teacher": 12063,
+    "teachingAssistant": 120812
+  },
+  {
+    "nr": 12421,
+    "name": "undergraduateCourse42",
+    "teacher": 12073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12431,
+    "name": "undergraduateCourse43",
+    "teacher": 12073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12441,
+    "name": "undergraduateCourse44",
+    "teacher": 12083,
+    "teachingAssistant": 120612
+  },
+  {
+    "nr": 12451,
+    "name": "undergraduateCourse45",
+    "teacher": 12093,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12461,
+    "name": "undergraduateCourse46",
+    "teacher": 12093,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12471,
+    "name": "undergraduateCourse47",
+    "teacher": 12103,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12481,
+    "name": "undergraduateCourse48",
+    "teacher": 12004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12491,
+    "name": "undergraduateCourse49",
+    "teacher": 12004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12501,
+    "name": "undergraduateCourse50",
+    "teacher": 12014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12511,
+    "name": "undergraduateCourse51",
+    "teacher": 12024,
+    "teachingAssistant": 120902
+  },
+  {
+    "nr": 12521,
+    "name": "undergraduateCourse52",
+    "teacher": 12034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12531,
+    "name": "undergraduateCourse53",
+    "teacher": 12034,
+    "teachingAssistant": 120032
+  },
+  {
+    "nr": 12541,
+    "name": "undergraduateCourse54",
+    "teacher": 12044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 12551,
+    "name": "undergraduateCourse55",
+    "teacher": 12044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13001,
+    "name": "undergraduateCourse0",
+    "teacher": 13001,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13011,
+    "name": "undergraduateCourse1",
+    "teacher": 13001,
+    "teachingAssistant": 130802
+  },
+  {
+    "nr": 13021,
+    "name": "undergraduateCourse2",
+    "teacher": 13011,
+    "teachingAssistant": 130682
+  },
+  {
+    "nr": 13031,
+    "name": "undergraduateCourse3",
+    "teacher": 13011,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13041,
+    "name": "undergraduateCourse4",
+    "teacher": 13021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13051,
+    "name": "undergraduateCourse5",
+    "teacher": 13031,
+    "teachingAssistant": 130992
+  },
+  {
+    "nr": 13061,
+    "name": "undergraduateCourse6",
+    "teacher": 13041,
+    "teachingAssistant": 130162
+  },
+  {
+    "nr": 13071,
+    "name": "undergraduateCourse7",
+    "teacher": 13041,
+    "teachingAssistant": 131222
+  },
+  {
+    "nr": 13081,
+    "name": "undergraduateCourse8",
+    "teacher": 13051,
+    "teachingAssistant": 130382
+  },
+  {
+    "nr": 13091,
+    "name": "undergraduateCourse9",
+    "teacher": 13051,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13101,
+    "name": "undergraduateCourse10",
+    "teacher": 13061,
+    "teachingAssistant": 130102
+  },
+  {
+    "nr": 13111,
+    "name": "undergraduateCourse11",
+    "teacher": 13061,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13121,
+    "name": "undergraduateCourse12",
+    "teacher": 13071,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13131,
+    "name": "undergraduateCourse13",
+    "teacher": 13071,
+    "teachingAssistant": 130112
+  },
+  {
+    "nr": 13141,
+    "name": "undergraduateCourse14",
+    "teacher": 13002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13151,
+    "name": "undergraduateCourse15",
+    "teacher": 13012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13161,
+    "name": "undergraduateCourse16",
+    "teacher": 13012,
+    "teachingAssistant": 131322
+  },
+  {
+    "nr": 13171,
+    "name": "undergraduateCourse17",
+    "teacher": 13022,
+    "teachingAssistant": 131052
+  },
+  {
+    "nr": 13181,
+    "name": "undergraduateCourse18",
+    "teacher": 13032,
+    "teachingAssistant": 130742
+  },
+  {
+    "nr": 13191,
+    "name": "undergraduateCourse19",
+    "teacher": 13042,
+    "teachingAssistant": 130522
+  },
+  {
+    "nr": 13201,
+    "name": "undergraduateCourse20",
+    "teacher": 13042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13211,
+    "name": "undergraduateCourse21",
+    "teacher": 13052,
+    "teachingAssistant": 130422
+  },
+  {
+    "nr": 13221,
+    "name": "undergraduateCourse22",
+    "teacher": 13052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13231,
+    "name": "undergraduateCourse23",
+    "teacher": 13062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13241,
+    "name": "undergraduateCourse24",
+    "teacher": 13072,
+    "teachingAssistant": 131122
+  },
+  {
+    "nr": 13251,
+    "name": "undergraduateCourse25",
+    "teacher": 13082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13261,
+    "name": "undergraduateCourse26",
+    "teacher": 13092,
+    "teachingAssistant": 131162
+  },
+  {
+    "nr": 13271,
+    "name": "undergraduateCourse27",
+    "teacher": 13102,
+    "teachingAssistant": 130872
+  },
+  {
+    "nr": 13281,
+    "name": "undergraduateCourse28",
+    "teacher": 13112,
+    "teachingAssistant": 130042
+  },
+  {
+    "nr": 13291,
+    "name": "undergraduateCourse29",
+    "teacher": 13122,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13301,
+    "name": "undergraduateCourse30",
+    "teacher": 13122,
+    "teachingAssistant": 130912
+  },
+  {
+    "nr": 13311,
+    "name": "undergraduateCourse31",
+    "teacher": 13132,
+    "teachingAssistant": 130812
+  },
+  {
+    "nr": 13321,
+    "name": "undergraduateCourse32",
+    "teacher": 13132,
+    "teachingAssistant": 130302
+  },
+  {
+    "nr": 13331,
+    "name": "undergraduateCourse33",
+    "teacher": 13003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13341,
+    "name": "undergraduateCourse34",
+    "teacher": 13003,
+    "teachingAssistant": 130642
+  },
+  {
+    "nr": 13351,
+    "name": "undergraduateCourse35",
+    "teacher": 13013,
+    "teachingAssistant": 130732
+  },
+  {
+    "nr": 13361,
+    "name": "undergraduateCourse36",
+    "teacher": 13023,
+    "teachingAssistant": 131392
+  },
+  {
+    "nr": 13371,
+    "name": "undergraduateCourse37",
+    "teacher": 13033,
+    "teachingAssistant": 130182
+  },
+  {
+    "nr": 13381,
+    "name": "undergraduateCourse38",
+    "teacher": 13043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13391,
+    "name": "undergraduateCourse39",
+    "teacher": 13053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13401,
+    "name": "undergraduateCourse40",
+    "teacher": 13063,
+    "teachingAssistant": 130262
+  },
+  {
+    "nr": 13411,
+    "name": "undergraduateCourse41",
+    "teacher": 13063,
+    "teachingAssistant": 130052
+  },
+  {
+    "nr": 13421,
+    "name": "undergraduateCourse42",
+    "teacher": 13073,
+    "teachingAssistant": 131182
+  },
+  {
+    "nr": 13431,
+    "name": "undergraduateCourse43",
+    "teacher": 13083,
+    "teachingAssistant": 130582
+  },
+  {
+    "nr": 13441,
+    "name": "undergraduateCourse44",
+    "teacher": 13093,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13451,
+    "name": "undergraduateCourse45",
+    "teacher": 13093,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13461,
+    "name": "undergraduateCourse46",
+    "teacher": 13103,
+    "teachingAssistant": 130232
+  },
+  {
+    "nr": 13471,
+    "name": "undergraduateCourse47",
+    "teacher": 13004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13481,
+    "name": "undergraduateCourse48",
+    "teacher": 13014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13491,
+    "name": "undergraduateCourse49",
+    "teacher": 13014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13501,
+    "name": "undergraduateCourse50",
+    "teacher": 13024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13511,
+    "name": "undergraduateCourse51",
+    "teacher": 13024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13521,
+    "name": "undergraduateCourse52",
+    "teacher": 13034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 13531,
+    "name": "undergraduateCourse53",
+    "teacher": 13034,
+    "teachingAssistant": 130072
+  },
+  {
+    "nr": 13541,
+    "name": "undergraduateCourse54",
+    "teacher": 13044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14001,
+    "name": "undergraduateCourse0",
+    "teacher": 14001,
+    "teachingAssistant": 140862
+  },
+  {
+    "nr": 14011,
+    "name": "undergraduateCourse1",
+    "teacher": 14011,
+    "teachingAssistant": 140812
+  },
+  {
+    "nr": 14021,
+    "name": "undergraduateCourse2",
+    "teacher": 14021,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14031,
+    "name": "undergraduateCourse3",
+    "teacher": 14031,
+    "teachingAssistant": 140002
+  },
+  {
+    "nr": 14041,
+    "name": "undergraduateCourse4",
+    "teacher": 14041,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14051,
+    "name": "undergraduateCourse5",
+    "teacher": 14051,
+    "teachingAssistant": 140352
+  },
+  {
+    "nr": 14061,
+    "name": "undergraduateCourse6",
+    "teacher": 14051,
+    "teachingAssistant": 140872
+  },
+  {
+    "nr": 14071,
+    "name": "undergraduateCourse7",
+    "teacher": 14061,
+    "teachingAssistant": 140742
+  },
+  {
+    "nr": 14081,
+    "name": "undergraduateCourse8",
+    "teacher": 14002,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14091,
+    "name": "undergraduateCourse9",
+    "teacher": 14012,
+    "teachingAssistant": 140492
+  },
+  {
+    "nr": 14101,
+    "name": "undergraduateCourse10",
+    "teacher": 14012,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14111,
+    "name": "undergraduateCourse11",
+    "teacher": 14022,
+    "teachingAssistant": 141072
+  },
+  {
+    "nr": 14121,
+    "name": "undergraduateCourse12",
+    "teacher": 14032,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14131,
+    "name": "undergraduateCourse13",
+    "teacher": 14042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14141,
+    "name": "undergraduateCourse14",
+    "teacher": 14042,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14151,
+    "name": "undergraduateCourse15",
+    "teacher": 14052,
+    "teachingAssistant": 140702
+  },
+  {
+    "nr": 14161,
+    "name": "undergraduateCourse16",
+    "teacher": 14052,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14171,
+    "name": "undergraduateCourse17",
+    "teacher": 14062,
+    "teachingAssistant": 140952
+  },
+  {
+    "nr": 14181,
+    "name": "undergraduateCourse18",
+    "teacher": 14062,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14191,
+    "name": "undergraduateCourse19",
+    "teacher": 14072,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14201,
+    "name": "undergraduateCourse20",
+    "teacher": 14082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14211,
+    "name": "undergraduateCourse21",
+    "teacher": 14082,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14221,
+    "name": "undergraduateCourse22",
+    "teacher": 14092,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14231,
+    "name": "undergraduateCourse23",
+    "teacher": 14102,
+    "teachingAssistant": 140922
+  },
+  {
+    "nr": 14241,
+    "name": "undergraduateCourse24",
+    "teacher": 14102,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14251,
+    "name": "undergraduateCourse25",
+    "teacher": 14112,
+    "teachingAssistant": 140122
+  },
+  {
+    "nr": 14261,
+    "name": "undergraduateCourse26",
+    "teacher": 14112,
+    "teachingAssistant": 141052
+  },
+  {
+    "nr": 14271,
+    "name": "undergraduateCourse27",
+    "teacher": 14003,
+    "teachingAssistant": 140322
+  },
+  {
+    "nr": 14281,
+    "name": "undergraduateCourse28",
+    "teacher": 14003,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14291,
+    "name": "undergraduateCourse29",
+    "teacher": 14013,
+    "teachingAssistant": 140102
+  },
+  {
+    "nr": 14301,
+    "name": "undergraduateCourse30",
+    "teacher": 14023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14311,
+    "name": "undergraduateCourse31",
+    "teacher": 14023,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14321,
+    "name": "undergraduateCourse32",
+    "teacher": 14033,
+    "teachingAssistant": 140142
+  },
+  {
+    "nr": 14331,
+    "name": "undergraduateCourse33",
+    "teacher": 14033,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14341,
+    "name": "undergraduateCourse34",
+    "teacher": 14043,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14351,
+    "name": "undergraduateCourse35",
+    "teacher": 14043,
+    "teachingAssistant": 140212
+  },
+  {
+    "nr": 14361,
+    "name": "undergraduateCourse36",
+    "teacher": 14053,
+    "teachingAssistant": 141032
+  },
+  {
+    "nr": 14371,
+    "name": "undergraduateCourse37",
+    "teacher": 14053,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14381,
+    "name": "undergraduateCourse38",
+    "teacher": 14063,
+    "teachingAssistant": 140362
+  },
+  {
+    "nr": 14391,
+    "name": "undergraduateCourse39",
+    "teacher": 14063,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14401,
+    "name": "undergraduateCourse40",
+    "teacher": 14073,
+    "teachingAssistant": 140192
+  },
+  {
+    "nr": 14411,
+    "name": "undergraduateCourse41",
+    "teacher": 14073,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14421,
+    "name": "undergraduateCourse42",
+    "teacher": 14004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14431,
+    "name": "undergraduateCourse43",
+    "teacher": 14004,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14441,
+    "name": "undergraduateCourse44",
+    "teacher": 14014,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14451,
+    "name": "undergraduateCourse45",
+    "teacher": 14024,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14461,
+    "name": "undergraduateCourse46",
+    "teacher": 14034,
+    "teachingAssistant": 140832
+  },
+  {
+    "nr": 14471,
+    "name": "undergraduateCourse47",
+    "teacher": 14034,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14481,
+    "name": "undergraduateCourse48",
+    "teacher": 14044,
+    "teachingAssistant": null
+  },
+  {
+    "nr": 14491,
+    "name": "undergraduateCourse49",
+    "teacher": 14054,
+    "teachingAssistant": 140452
+  },
+  {
+    "nr": 14501,
+    "name": "undergraduateCourse50",
+    "teacher": 14054,
+    "teachingAssistant": null
+  }
+]

@@ -1,1 +1,4004 @@
-{"data": [{"energy": -72.09456417, "material_id": "mp-561628"}, {"energy": -76.34949427, "material_id": "mp-551214"}, {"energy": -72.19938939, "material_id": "mp-1300528"}, {"energy": -71.33703052, "material_id": "mp-1602333"}, {"energy": -72.31013979, "material_id": "mp-1678519"}, {"energy": -72.19602475, "material_id": "mp-1832928"}, {"energy": -187.72755286, "material_id": "mp-643701"}, {"energy": -187.72840839, "material_id": "mp-749706"}, {"energy": -187.72875045, "material_id": "mp-731959"}, {"energy": -187.72878046, "material_id": "mp-742998"}, {"energy": -187.88399537, "material_id": "mp-848807"}, {"energy": -187.88373107, "material_id": "mp-725538"}, {"energy": -187.85903311, "material_id": "mp-727083"}, {"energy": -187.86240158, "material_id": "mp-860047"}, {"energy": -187.88345756, "material_id": "mp-690711"}, {"energy": -376.01739415, "material_id": "mp-864017"}, {"energy": -376.01651425, "material_id": "mp-697267"}, {"energy": -376.01488893, "material_id": "mp-750429"}, {"energy": -376.01718091, "material_id": "mp-732312"}, {"energy": -187.94260568, "material_id": "mp-1140687"}, {"energy": -375.91841682, "material_id": "mp-1203133"}, {"energy": -375.8963015, "material_id": "mp-1196113"}, {"energy": -187.94572477, "material_id": "mp-1216736"}, {"energy": -187.92452982, "material_id": "mp-1385379"}, {"energy": -376.02112049, "material_id": "mp-1358739"}, {"energy": -376.11912505, "material_id": "mp-1354679"}, {"energy": -187.99478786, "material_id": "mp-1359029"}, {"energy": -187.76235268, "material_id": "mp-1394765"}, {"energy": -376.11927903, "material_id": "mp-1684908"}, {"energy": -187.92479684, "material_id": "mp-1734098"}, {"energy": -187.90201023, "material_id": "mp-1627315"}, {"energy": -187.76238795, "material_id": "mp-1626730"}, {"energy": -187.76277583, "material_id": "mp-1751163"}, {"energy": -1024.06212364, "material_id": "mp-1161454"}, {"energy": -511.80123733, "material_id": "mp-1130281"}, {"energy": -511.53172552, "material_id": "mp-1239745"}, {"energy": -511.53296027, "material_id": "mp-1130205"}, {"energy": -187.99541193, "material_id": "mp-1820911"}, {"energy": -187.92488675, "material_id": "mp-1816090"}, {"energy": -376.11950434, "material_id": "mp-1895271"}, {"energy": -376.02098886, "material_id": "mp-1895506"}, {"energy": -187.76284503, "material_id": "mp-1816535"}, {"energy": -40.66910877, "material_id": "mp-614918"}, {"energy": -40.66913663, "material_id": "mp-655230"}, {"energy": -40.66962871, "material_id": "mp-659940"}, {"energy": -40.67139715, "material_id": "mp-660654"}, {"energy": -39.89348129, "material_id": "mp-661374"}, {"energy": -45.0561041, "material_id": "mp-688918"}, {"energy": -45.05469363, "material_id": "mp-669750"}, {"energy": -44.71415355, "material_id": "mp-689049"}, {"energy": -44.77642459, "material_id": "mp-682789"}, {"energy": -44.6273635, "material_id": "mp-708874"}, {"energy": -44.77795026, "material_id": "mp-702728"}, {"energy": -44.77550038, "material_id": "mp-504786"}, {"energy": -44.77702044, "material_id": "mp-27985"}, {"energy": -45.05461482, "material_id": "mp-552120"}, {"energy": -44.92937905, "material_id": "mp-1141117"}, {"energy": -40.66988821, "material_id": "mp-1401963"}, {"energy": -45.05501592, "material_id": "mp-1435213"}, {"energy": -44.77466305, "material_id": "mp-1422184"}, {"energy": -39.89372651, "material_id": "mp-1625463"}, {"energy": -44.77637117, "material_id": "mp-1704968"}, {"energy": -44.71483274, "material_id": "mp-1597180"}, {"energy": -40.67195169, "material_id": "mp-1760944"}, {"energy": -45.05655781, "material_id": "mp-1702478"}, {"energy": -44.62574758, "material_id": "mp-1592934"}, {"energy": -104.72994704, "material_id": "mp-1538103"}, {"energy": -100.13995159, "material_id": "mp-1127229"}, {"energy": -45.05500812, "material_id": "mp-1788009"}, {"energy": -104.81866555, "material_id": "mp-1525606"}, {"energy": -104.65711708, "material_id": "mp-1127337"}, {"energy": -40.66989413, "material_id": "mp-1924018"}, {"energy": -44.77463941, "material_id": "mp-1870640"}, {"energy": -81.5625355, "material_id": "mp-929024"}, {"energy": -81.56350525, "material_id": "mp-912590"}, {"energy": -81.77748287, "material_id": "mp-929391"}, {"energy": -81.51804337, "material_id": "mp-1458"}, {"energy": -81.50600203, "material_id": "mp-1426323"}, {"energy": -81.78476174, "material_id": "mp-1591057"}, {"energy": -81.57720352, "material_id": "mp-1698594"}, {"energy": -345.48842498, "material_id": "mp-1537105"}, {"energy": -81.50596456, "material_id": "mp-1784808"}, {"energy": -345.43621429, "material_id": "mp-1136389"}, {"energy": -65.63573039, "material_id": "mp-929445"}, {"energy": -65.71536933, "material_id": "mp-912684"}, {"energy": -65.72431538, "material_id": "mp-929104"}, {"energy": -65.71380307, "material_id": "mp-20490"}, {"energy": -65.71863547, "material_id": "mp-1095525"}, {"energy": -65.72546777, "material_id": "mp-1419904"}, {"energy": -65.72280654, "material_id": "mp-1703829"}, {"energy": -65.61946445, "material_id": "mp-1602237"}, {"energy": -65.72538219, "material_id": "mp-1776789"}, {"energy": -391.0464781, "material_id": "mp-1151080"}, {"energy": -15.60243777, "material_id": "mp-1002195"}, {"energy": -15.60189369, "material_id": "mp-1002184"}, {"energy": -15.96525688, "material_id": "mp-1002231"}, {"energy": -17.12695801, "material_id": "mp-1002225"}, {"energy": -16.75615026, "material_id": "mp-1002183"}, {"energy": -17.6048104, "material_id": "mp-1002215"}, {"energy": -16.74647599, "material_id": "mp-1002199"}, {"energy": -17.05695448, "material_id": "mp-1002187"}, {"energy": -15.35207988, "material_id": "mp-1002212"}, {"energy": -15.60800285, "material_id": "mp-1002201"}, {"energy": -17.05491506, "material_id": "mp-1002218"}, {"energy": -17.05400623, "material_id": "mp-1002205"}, {"energy": -17.60415857, "material_id": "mp-1002204"}, {"energy": -17.60469568, "material_id": "mp-1002188"}, {"energy": -16.74856831, "material_id": "mp-1002194"}, {"energy": -16.96668861, "material_id": "mp-1002214"}, {"energy": -34.57522037, "material_id": "mp-999131"}, {"energy": -34.58042468, "material_id": "mp-999146"}, {"energy": -34.3713726, "material_id": "mp-999149"}, {"energy": -34.60507001, "material_id": "mp-999172"}, {"energy": -34.96168828, "material_id": "mp-999120"}, {"energy": -34.96762595, "material_id": "mp-999162"}, {"energy": -34.96386903, "material_id": "mp-999153"}, {"energy": -34.58158411, "material_id": "mp-999118"}, {"energy": -16.747626, "material_id": "mp-1057314"}, {"energy": -16.74046889, "material_id": "mp-1057283"}, {"energy": -16.75119635, "material_id": "mp-1057291"}, {"energy": -16.95687796, "material_id": "mp-1057305"}, {"energy": -17.05449631, "material_id": "mp-1058510"}, {"energy": -16.01608761, "material_id": "mp-1058525"}, {"energy": -17.05410815, "material_id": "mp-1058529"}, {"energy": -17.06178922, "material_id": "mp-1058498"}, {"energy": -17.60371247, "material_id": "mp-1060031"}, {"energy": -17.60534329, "material_id": "mp-1059996"}, {"energy": -17.12812056, "material_id": "mp-1060053"}, {"energy": -17.6049002, "material_id": "mp-1060080"}, {"energy": -15.42897556, "material_id": "mp-1061105"}, {"energy": -15.60810269, "material_id": "mp-1061121"}, {"energy": -15.5939646, "material_id": "mp-1061051"}, {"energy": -15.60241242, "material_id": "mp-1061074"}, {"energy": -34.57714132, "material_id": "mp-1066444"}, {"energy": -34.58035358, "material_id": "mp-1066469"}, {"energy": -34.58159534, "material_id": "mp-1066433"}, {"energy": -34.39048583, "material_id": "mp-1066462"}, {"energy": -34.96675929, "material_id": "mp-1067395"}, {"energy": -34.96317335, "material_id": "mp-1067421"}, {"energy": -34.61028183, "material_id": "mp-1067440"}, {"energy": -17.55284309, "material_id": "mp-1067451"}, {"energy": -34.96745796, "material_id": "mp-1067450"}, {"energy": -17.55288789, "material_id": "mp-1067574"}, {"energy": -17.5513376, "material_id": "mp-1067704"}, {"energy": -17.55133451, "material_id": "mp-1067842"}, {"energy": -17.60468433, "material_id": "mp-1115395"}, {"energy": -15.59883507, "material_id": "mp-1423501"}, {"energy": -17.05501941, "material_id": "mp-1436276"}, {"energy": -16.74354899, "material_id": "mp-1437009"}, {"energy": -34.56710304, "material_id": "mp-1430311"}, {"energy": -17.60483351, "material_id": "mp-1382008"}, {"energy": -34.96958738, "material_id": "mp-1418009"}, {"energy": -17.54952165, "material_id": "mp-1363587"}, {"energy": -16.74876462, "material_id": "mp-1673092"}, {"energy": -17.60498443, "material_id": "mp-1675698"}, {"energy": -34.61125484, "material_id": "mp-1610876"}, {"energy": -34.39035517, "material_id": "mp-1611785"}, {"energy": -16.02637752, "material_id": "mp-1609765"}, {"energy": -17.05379374, "material_id": "mp-1672060"}, {"energy": -17.13077812, "material_id": "mp-1610750"}, {"energy": -16.95661004, "material_id": "mp-1610772"}, {"energy": -34.57938942, "material_id": "mp-1731093"}, {"energy": -34.96874724, "material_id": "mp-1764757"}, {"energy": -15.42889722, "material_id": "mp-1612626"}, {"energy": -15.6082127, "material_id": "mp-1688026"}, {"energy": -17.54750546, "material_id": "mp-1583518"}, {"energy": -85.96681418, "material_id": "mp-1159363"}, {"energy": -34.56712753, "material_id": "mp-1795425"}, {"energy": -43.11864103, "material_id": "mp-1240632"}, {"energy": -16.76861589, "material_id": "mp-1793106"}, {"energy": -40.94930265, "material_id": "mp-1164954"}, {"energy": -42.49022652, "material_id": "mp-1242371"}, {"energy": -15.59892691, "material_id": "mp-1795512"}, {"energy": -42.49010304, "material_id": "mp-1165207"}, {"energy": -42.16657803, "material_id": "mp-1242792"}, {"energy": -85.47935577, "material_id": "mp-1160814"}, {"energy": -17.60481833, "material_id": "mp-1793857"}, {"energy": -40.94934007, "material_id": "mp-1240448"}, {"energy": -42.16643174, "material_id": "mp-1165179"}, {"energy": -34.96960117, "material_id": "mp-1792244"}, {"energy": -43.11722485, "material_id": "mp-1143390"}, {"energy": -17.05557347, "material_id": "mp-1932256"}, {"energy": -31.98349453, "material_id": "mp-1001530"}, {"energy": -31.98711159, "material_id": "mp-1008033"}, {"energy": -31.65732124, "material_id": "mp-1012359"}, {"energy": -31.98562598, "material_id": "mp-3455"}, {"energy": -31.9845693, "material_id": "mp-1438502"}, {"energy": -31.63196297, "material_id": "mp-1590137"}, {"energy": -31.98723572, "material_id": "mp-1677678"}, {"energy": -108.8176228, "material_id": "mp-1135693"}, {"energy": -31.98455727, "material_id": "mp-1801227"}, {"energy": -45.30490302, "material_id": "mp-988285"}, {"energy": -45.33218476, "material_id": "mp-988040"}, {"energy": -45.33509651, "material_id": "mp-987036"}, {"energy": -45.3290195, "material_id": "mp-28698"}, {"energy": -45.35875253, "material_id": "mp-1141296"}, {"energy": -45.3463519, "material_id": "mp-1420609"}, {"energy": -45.34249464, "material_id": "mp-1700102"}, {"energy": -45.32514545, "material_id": "mp-1595200"}, {"energy": -45.34652866, "material_id": "mp-1787543"}, {"energy": -125.98267885, "material_id": "mp-1136493"}, {"energy": -26.92408811, "material_id": "mp-993467"}, {"energy": -26.93294019, "material_id": "mp-991515"}, {"energy": -25.30154729, "material_id": "mp-994798"}, {"energy": -26.94477037, "material_id": "mp-11501"}, {"energy": -26.94881256, "material_id": "mp-1438579"}, {"energy": -26.9212054, "material_id": "mp-1677535"}, {"energy": -25.31821847, "material_id": "mp-1588250"}, {"energy": -26.96478526, "material_id": "mp-1794589"}, {"energy": -67.84815792, "material_id": "mp-1524286"}, {"energy": -67.86412872, "material_id": "mp-1172005"}, {"energy": -17.52167491, "material_id": "mp-929760"}, {"energy": -17.5217482, "material_id": "mp-913241"}, {"energy": -17.69937957, "material_id": "mp-930252"}, {"energy": -16.97112992, "material_id": "mp-929782"}, {"energy": -16.97106582, "material_id": "mp-913248"}, {"energy": -16.96249687, "material_id": "mp-930290"}, {"energy": -16.97012411, "material_id": "mp-31178"}, {"energy": -17.52928002, "material_id": "mp-567589"}, {"energy": -70.65416517, "material_id": "mp-978159"}, {"energy": -70.24272472, "material_id": "mp-569981"}, {"energy": -70.22365067, "material_id": "mp-977910"}, {"energy": -70.22758058, "material_id": "mp-914525"}, {"energy": -35.22597755, "material_id": "mp-1010315"}, {"energy": -35.12650485, "material_id": "mp-1004656"}, {"energy": -35.13313159, "material_id": "mp-864995"}, {"energy": -35.12162326, "material_id": "mp-1003061"}, {"energy": -35.09268391, "material_id": "mp-1051901"}, {"energy": -35.08677251, "material_id": "mp-1051920"}, {"energy": -35.22672469, "material_id": "mp-1051925"}, {"energy": -52.62953365, "material_id": "mp-1103088"}, {"energy": -87.68510265, "material_id": "mp-1106237"}, {"energy": -87.68521899, "material_id": "mp-1188642"}, {"energy": -16.94726361, "material_id": "mp-1260898"}, {"energy": -16.94726361, "material_id": "mp-1260453"}, {"energy": -16.94726361, "material_id": "mp-1252832"}, {"energy": -16.94726361, "material_id": "mp-1263063"}, {"energy": -16.98720948, "material_id": "mp-1438131"}, {"energy": -52.66370981, "material_id": "mp-1415528"}, {"energy": -70.21008607, "material_id": "mp-1420624"}, {"energy": -87.69687203, "material_id": "mp-1425688"}, {"energy": -35.11680125, "material_id": "mp-1394352"}, {"energy": -17.5352671, "material_id": "mp-1441265"}, {"energy": -53.17878046, "material_id": "mp-1601011"}, {"energy": -87.75940974, "material_id": "mp-1674159"}, {"energy": -52.68798649, "material_id": "mp-1696619"}, {"energy": -16.93321897, "material_id": "mp-1593030"}, {"energy": -17.70786363, "material_id": "mp-1587830"}, {"energy": -16.97216384, "material_id": "mp-1703303"}, {"energy": -17.52230242, "material_id": "mp-1701087"}, {"energy": -35.23172493, "material_id": "mp-1621931"}, {"energy": -35.12604272, "material_id": "mp-1733832"}, {"energy": -88.68552222, "material_id": "mp-1607666"}, {"energy": -70.68924441, "material_id": "mp-1598944"}, {"energy": -70.23066409, "material_id": "mp-1705260"}, {"energy": -1.07772942, "material_id": "mp-1258282"}, {"energy": -145.77271303, "material_id": "mp-1538601"}, {"energy": -291.47247602, "material_id": "mp-1130155"}, {"energy": -16.97186887, "material_id": "mp-1267849"}, {"energy": -17.5291898, "material_id": "mp-1798811"}, {"energy": -364.4324654, "material_id": "mp-1230698"}, {"energy": -16.96045145, "material_id": "mp-1801658"}, {"energy": -16.97186887, "material_id": "mp-1253380"}, {"energy": -72.86577634, "material_id": "mp-1149426"}, {"energy": -1.07772942, "material_id": "mp-1266702"}, {"energy": -16.97186887, "material_id": "mp-1262134"}, {"energy": -1.07772942, "material_id": "mp-1261378"}, {"energy": -1.07772942, "material_id": "mp-1263233"}, {"energy": -145.73724372, "material_id": "mp-1127261"}, {"energy": -72.86622702, "material_id": "mp-1240549"}, {"energy": -16.97186887, "material_id": "mp-1267146"}, {"energy": -35.1168967, "material_id": "mp-1779415"}, {"energy": -52.62104572, "material_id": "mp-1776106"}, {"energy": -70.20999863, "material_id": "mp-1810115"}, {"energy": -87.68813763, "material_id": "mp-1836630"}, {"energy": -48.6550408, "material_id": "mp-660811"}, {"energy": -48.65522714, "material_id": "mp-670416"}, {"energy": -48.68743894, "material_id": "mp-842611"}, {"energy": -48.65516873, "material_id": "mp-28978"}, {"energy": -48.67910389, "material_id": "mp-1380926"}, {"energy": -48.67891504, "material_id": "mp-1676820"}, {"energy": -48.71182006, "material_id": "mp-1599245"}, {"energy": -234.6887979, "material_id": "mp-1165733"}, {"energy": -48.67915571, "material_id": "mp-1806407"}, {"energy": -24.21247877, "material_id": "mp-1006991"}, {"energy": -24.21282132, "material_id": "mp-1000517"}, {"energy": -23.86735095, "material_id": "mp-1011715"}, {"energy": -23.47662202, "material_id": "mp-1001696"}, {"energy": -24.0894209, "material_id": "mp-1012461"}, {"energy": -23.47941197, "material_id": "mp-1008143"}, {"energy": -24.21112337, "material_id": "mp-567808"}, {"energy": -23.48594777, "material_id": "mp-567840"}, {"energy": -23.98985392, "material_id": "mp-1068632"}, {"energy": -24.00082366, "material_id": "mp-1068701"}, {"energy": -24.40734759, "material_id": "mp-1068806"}, {"energy": -23.05017408, "material_id": "mp-1068790"}, {"energy": -23.98836799, "material_id": "mp-1068822"}, {"energy": -24.40821373, "material_id": "mp-1068970"}, {"energy": -24.00046868, "material_id": "mp-1068878"}, {"energy": -23.05780708, "material_id": "mp-1068947"}, {"energy": -23.9828132, "material_id": "mp-1070237"}, {"energy": -23.99246498, "material_id": "mp-1070282"}, {"energy": -23.04585198, "material_id": "mp-1070324"}, {"energy": -24.37607395, "material_id": "mp-1070362"}, {"energy": -23.48701168, "material_id": "mp-1432078"}, {"energy": -23.99967048, "material_id": "mp-1437701"}, {"energy": -23.91181696, "material_id": "mp-1590563"}, {"energy": -24.0014678, "material_id": "mp-1674280"}, {"energy": -23.48363897, "material_id": "mp-1695812"}, {"energy": -23.61128414, "material_id": "mp-1592548"}, {"energy": -123.07819972, "material_id": "mp-1127643"}, {"energy": -24.21826632, "material_id": "mp-1798899"}, {"energy": -122.34931487, "material_id": "mp-1164488"}, {"energy": -23.49050699, "material_id": "mp-1931161"}, {"energy": -50.98735304, "material_id": "mp-992401"}, {"energy": -51.2841836, "material_id": "mp-995072"}, {"energy": -50.99025547, "material_id": "mp-993976"}, {"energy": -50.99391227, "material_id": "mp-20789"}, {"energy": -50.78635707, "material_id": "mp-1116021"}, {"energy": -51.00264616, "material_id": "mp-1423010"}, {"energy": -50.98933978, "material_id": "mp-1695562"}, {"energy": -51.19688709, "material_id": "mp-1600787"}, {"energy": -51.0026474, "material_id": "mp-1829004"}, {"energy": -271.50933916, "material_id": "mp-941771"}, {"energy": -271.48889746, "material_id": "mp-941957"}, {"energy": -271.50063308, "material_id": "mp-935110"}, {"energy": -271.46071546, "material_id": "mp-573651"}, {"energy": -271.8762353, "material_id": "mp-1336758"}, {"energy": -23.21304872, "material_id": "mp-974443"}, {"energy": -23.11854607, "material_id": "mp-974404"}, {"energy": -23.14730455, "material_id": "mp-974428"}, {"energy": -23.11652098, "material_id": "mp-974386"}, {"energy": -23.12221522, "material_id": "mp-1432218"}, {"energy": -23.2140723, "material_id": "mp-1617211"}, {"energy": -23.14760042, "material_id": "mp-1764290"}, {"energy": -104.16405756, "material_id": "mp-1159573"}, {"energy": -23.12225255, "material_id": "mp-1876575"}, {"energy": -48.52975134, "material_id": "mp-18972"}, {"energy": -387.45949137, "material_id": "mp-554926"}, {"energy": -389.67468037, "material_id": "mp-618578"}, {"energy": -389.67493426, "material_id": "mp-681348"}, {"energy": -389.67389609, "material_id": "mp-701541"}, {"energy": -389.64930065, "material_id": "mp-712945"}, {"energy": -389.67418489, "material_id": "mp-565780"}, {"energy": -389.46070012, "material_id": "mp-1196833"}, {"energy": -365.07159228, "material_id": "mp-1237534"}, {"energy": -411.50303631, "material_id": "mp-555382"}, {"energy": -409.33688942, "material_id": "mp-541507"}, {"energy": -387.28312219, "material_id": "mp-1325397"}, {"energy": -359.6730841, "material_id": "mp-1326047"}, {"energy": -384.33371727, "material_id": "mp-1354069"}, {"energy": -861.72369081, "material_id": "mp-1163593"}, {"energy": -108.29826111, "material_id": "mp-1537406"}, {"energy": -108.32230488, "material_id": "mp-1136732"}, {"energy": -387.66229053, "material_id": "mp-1894768"}, {"energy": -48.53705079, "material_id": "mp-1921231"}, {"energy": -602.00084707, "material_id": "mp-665365"}, {"energy": -601.99207423, "material_id": "mp-680346"}, {"energy": -602.00097621, "material_id": "mp-657683"}, {"energy": -601.99887167, "material_id": "mp-27893"}, {"energy": -602.07247267, "material_id": "mp-1334065"}, {"energy": -602.06416465, "material_id": "mp-1629253"}, {"energy": -648.42793641, "material_id": "mp-1144400"}, {"energy": -602.07296912, "material_id": "mp-1849494"}, {"energy": -81.34110109, "material_id": "mp-943539"}, {"energy": -81.70756316, "material_id": "mp-943390"}, {"energy": -81.71515064, "material_id": "mp-933192"}, {"energy": -81.70366505, "material_id": "mp-1006366"}, {"energy": -163.40250945, "material_id": "mp-31163"}, {"energy": -163.31261273, "material_id": "mp-1191035"}, {"energy": -163.34084259, "material_id": "mp-1170763"}, {"energy": -163.34673465, "material_id": "mp-1264161"}, {"energy": -81.67160126, "material_id": "mp-1249069"}, {"energy": -81.72087139, "material_id": "mp-1417347"}, {"energy": -163.32258082, "material_id": "mp-1431723"}, {"energy": -81.71550036, "material_id": "mp-1696565"}, {"energy": -81.49627882, "material_id": "mp-1597279"}, {"energy": -163.62461115, "material_id": "mp-1734989"}, {"energy": -1676.95052018, "material_id": "mp-1263347"}, {"energy": -163.33743426, "material_id": "mp-1249955"}, {"energy": -823.80949709, "material_id": "mp-1264673"}, {"energy": -81.67004519, "material_id": "mp-1253944"}, {"energy": -163.33922566, "material_id": "mp-1875672"}, {"energy": -81.72154186, "material_id": "mp-1934014"}, {"energy": -17.64451687, "material_id": "mp-925855"}, {"energy": -20.18630495, "material_id": "mp-909870"}, {"energy": -20.18691122, "material_id": "mp-924887"}, {"energy": -80.22710752, "material_id": "mp-679964"}, {"energy": -79.76768361, "material_id": "mp-700896"}, {"energy": -80.22540236, "material_id": "mp-665302"}, {"energy": -80.22840711, "material_id": "mp-23164"}, {"energy": -20.18451219, "material_id": "mp-541837"}, {"energy": -20.17535932, "material_id": "mp-1068960"}, {"energy": -20.23604915, "material_id": "mp-1069018"}, {"energy": -20.18122741, "material_id": "mp-1068982"}, {"energy": -20.18680204, "material_id": "mp-1069440"}, {"energy": -20.18680643, "material_id": "mp-1069448"}, {"energy": -20.24461988, "material_id": "mp-1069458"}, {"energy": -19.86277787, "material_id": "mp-1069459"}, {"energy": -19.7456324, "material_id": "mp-1069013"}, {"energy": -20.17721105, "material_id": "mp-1070734"}, {"energy": -20.18316002, "material_id": "mp-1070756"}, {"energy": -19.75155768, "material_id": "mp-1070776"}, {"energy": -20.23600757, "material_id": "mp-1070785"}, {"energy": -16.82947189, "material_id": "mp-1182583"}, {"energy": -80.21614708, "material_id": "mp-1141517"}, {"energy": -155.75025914, "material_id": "mp-1198150"}, {"energy": -20.18363905, "material_id": "mp-1142301"}, {"energy": -20.18106335, "material_id": "mp-1237221"}, {"energy": -20.19889284, "material_id": "mp-1439862"}, {"energy": -80.23723975, "material_id": "mp-1423999"}, {"energy": -155.66707401, "material_id": "mp-1358032"}, {"energy": -80.23884151, "material_id": "mp-1675118"}, {"energy": -17.71433102, "material_id": "mp-1590342"}, {"energy": -79.78497887, "material_id": "mp-1610445"}, {"energy": -218.87891155, "material_id": "mp-1243249"}, {"energy": -875.08065833, "material_id": "mp-1143925"}, {"energy": -20.19891165, "material_id": "mp-1780759"}, {"energy": -219.05695058, "material_id": "mp-1536520"}, {"energy": -875.10029019, "material_id": "mp-1546074"}, {"energy": -80.23752151, "material_id": "mp-1887301"}, {"energy": -16.75750134, "material_id": "mp-1832650"}, {"energy": -44.23635094, "material_id": "mp-1079868"}, {"energy": -44.22629659, "material_id": "mp-1248793"}, {"energy": -44.24027319, "material_id": "mp-1300137"}, {"energy": -44.09898367, "material_id": "mp-1601231"}, {"energy": -44.22455539, "material_id": "mp-1688177"}, {"energy": -44.18661875, "material_id": "mp-1264832"}, {"energy": -1197.57883539, "material_id": "mp-1263208"}, {"energy": -44.24510682, "material_id": "mp-1830078"}, {"energy": -59.54115847, "material_id": "mp-701092"}, {"energy": -59.66242176, "material_id": "mp-680894"}, {"energy": -59.65879697, "material_id": "mp-712464"}, {"energy": -59.66142309, "material_id": "mp-12265"}, {"energy": -59.83755894, "material_id": "mp-1540818"}, {"energy": -59.80612368, "material_id": "mp-1415188"}, {"energy": -59.83767453, "material_id": "mp-1540102"}, {"energy": -59.62775315, "material_id": "mp-1696652"}, {"energy": -59.62803989, "material_id": "mp-1597924"}, {"energy": -139.66544222, "material_id": "mp-1136937"}, {"energy": -59.80543072, "material_id": "mp-1779601"}, {"energy": -217.10563892, "material_id": "mp-662815"}, {"energy": -216.93417477, "material_id": "mp-916509"}, {"energy": -216.95458268, "material_id": "mp-931877"}, {"energy": -216.89011254, "material_id": "mp-937225"}, {"energy": -36.39216103, "material_id": "mp-656253"}, {"energy": -36.39011524, "material_id": "mp-659418"}, {"energy": -36.0717476, "material_id": "mp-664908"}, {"energy": -217.1027292, "material_id": "mp-622375"}, {"energy": -36.3915362, "material_id": "mp-20025"}, {"energy": -36.39301861, "material_id": "mp-1078094"}, {"energy": -35.47025458, "material_id": "mp-1078110"}, {"energy": -72.81755234, "material_id": "mp-1115081"}, {"energy": -217.03775769, "material_id": "mp-1181285"}, {"energy": -35.99892605, "material_id": "mp-1221975"}, {"energy": -217.04924356, "material_id": "mp-1197814"}, {"energy": -217.10049749, "material_id": "mp-1237143"}, {"energy": -36.41020284, "material_id": "mp-1417397"}, {"energy": -36.02018232, "material_id": "mp-1443089"}, {"energy": -217.14677333, "material_id": "mp-1353639"}, {"energy": -35.52023665, "material_id": "mp-1300125"}, {"energy": -217.00388844, "material_id": "mp-1369150"}, {"energy": -36.39938958, "material_id": "mp-1701205"}, {"energy": -35.44429511, "material_id": "mp-1619829"}, {"energy": -35.48678609, "material_id": "mp-1688396"}, {"energy": -36.00964033, "material_id": "mp-1752084"}, {"energy": -36.04739113, "material_id": "mp-1588421"}, {"energy": -32.93967002, "material_id": "mp-1602496"}, {"energy": -35.52016948, "material_id": "mp-1780867"}, {"energy": -573.64014381, "material_id": "mp-1161468"}, {"energy": -95.82756708, "material_id": "mp-1525584"}, {"energy": -573.63975585, "material_id": "mp-1159602"}, {"energy": -95.74263385, "material_id": "mp-1153988"}, {"energy": -573.70145089, "material_id": "mp-1546821"}, {"energy": -36.0203503, "material_id": "mp-1867946"}, {"energy": -217.17937504, "material_id": "mp-1872016"}, {"energy": -36.41038374, "material_id": "mp-1929487"}, {"energy": -217.15343553, "material_id": "mp-1896600"}, {"energy": -98.46061049, "material_id": "mp-929143"}, {"energy": -98.44106898, "material_id": "mp-912653"}, {"energy": -98.42049184, "material_id": "mp-929525"}, {"energy": -99.48967246, "material_id": "mp-30770"}, {"energy": -98.54413231, "material_id": "mp-1349404"}, {"energy": -98.46714792, "material_id": "mp-1599931"}, {"energy": -98.52785936, "material_id": "mp-1678400"}, {"energy": -90.57443922, "material_id": "mp-657986"}, {"energy": -90.58257179, "material_id": "mp-666015"}, {"energy": -90.58593779, "material_id": "mp-681335"}, {"energy": -90.57431128, "material_id": "mp-582988"}, {"energy": -90.60356698, "material_id": "mp-1385514"}, {"energy": -90.61798979, "material_id": "mp-1654458"}, {"energy": -90.61146641, "material_id": "mp-1742601"}, {"energy": -90.60142674, "material_id": "mp-1897837"}, {"energy": -64.49202697, "material_id": "mp-943077"}, {"energy": -64.89344335, "material_id": "mp-932790"}, {"energy": -64.89484811, "material_id": "mp-942062"}, {"energy": -64.68723045, "material_id": "mp-30855"}, {"energy": -64.91868131, "material_id": "mp-1078485"}, {"energy": -64.91834675, "material_id": "mp-1079639"}, {"energy": -64.91756424, "material_id": "mp-1092253"}, {"energy": -64.11272007, "material_id": "mp-1299942"}, {"energy": -63.71718393, "material_id": "mp-1595664"}, {"energy": -64.09372491, "material_id": "mp-1687777"}, {"energy": -634.83678695, "material_id": "mp-1524505"}, {"energy": -64.84444661, "material_id": "mp-1924669"}, {"energy": -44.50315694, "material_id": "mp-927806"}, {"energy": -43.62349342, "material_id": "mp-911411"}, {"energy": -43.64652571, "material_id": "mp-927372"}, {"energy": -43.62007984, "material_id": "mp-30151"}, {"energy": -43.6565496, "material_id": "mp-1435116"}, {"energy": -44.4611601, "material_id": "mp-1604315"}, {"energy": -43.67336678, "material_id": "mp-1670241"}, {"energy": -330.95894811, "material_id": "mp-1231296"}, {"energy": -330.97143228, "material_id": "mp-1139951"}, {"energy": -19.24961991, "material_id": "mp-664169"}, {"energy": -18.88830355, "material_id": "mp-679086"}, {"energy": -19.24905747, "material_id": "mp-663541"}, {"energy": -19.24913636, "material_id": "mp-23033"}, {"energy": -19.15103997, "material_id": "mp-1141782"}, {"energy": -19.24933708, "material_id": "mp-1438602"}, {"energy": -18.888575, "material_id": "mp-1591833"}, {"energy": -19.24952929, "material_id": "mp-1667995"}, {"energy": -19.24918749, "material_id": "mp-1782244"}, {"energy": -68.52476556, "material_id": "mp-1122042"}, {"energy": -45.25175777, "material_id": "mp-680651"}, {"energy": -45.06191637, "material_id": "mp-842883"}, {"energy": -45.23078987, "material_id": "mp-665511"}, {"energy": -45.22985237, "material_id": "mp-27303"}, {"energy": -45.25412153, "material_id": "mp-1426587"}, {"energy": -45.27265871, "material_id": "mp-1694953"}, {"energy": -45.09027824, "material_id": "mp-1599763"}, {"energy": -228.61575323, "material_id": "mp-1150351"}, {"energy": -45.25423022, "material_id": "mp-1827458"}, {"energy": -33.55546779, "material_id": "mp-1103949"}, {"energy": -395.65873969, "material_id": "mp-1230762"}, {"energy": -33.67952454, "material_id": "mp-1891763"}, {"energy": -11.76522071, "material_id": "mp-972916"}, {"energy": -11.83810172, "material_id": "mp-1010825"}, {"energy": -11.76006881, "material_id": "mp-1005370"}, {"energy": -11.75996246, "material_id": "mp-1005343"}, {"energy": -11.77146646, "material_id": "mp-1185859"}, {"energy": -11.75631015, "material_id": "mp-1434395"}, {"energy": -11.75616377, "material_id": "mp-1791981"}, {"energy": -40.81515228, "material_id": "mp-1160881"}, {"energy": -57.36326197, "material_id": "mp-993921"}, {"energy": -57.59927048, "material_id": "mp-991766"}, {"energy": -57.64034939, "material_id": "mp-992305"}, {"energy": -57.59815614, "material_id": "mp-551675"}, {"energy": -57.65040351, "material_id": "mp-1416220"}, {"energy": -57.64450507, "material_id": "mp-1699934"}, {"energy": -57.64995118, "material_id": "mp-1798653"}, {"energy": -158.0391119, "material_id": "mp-1128435"}, {"energy": -32.29085667, "material_id": "mp-932179"}, {"energy": -33.01688113, "material_id": "mp-13398"}, {"energy": -32.45697873, "material_id": "mp-915469"}, {"energy": -32.47642182, "material_id": "mp-931197"}, {"energy": -33.01769726, "material_id": "mp-1069462"}, {"energy": -33.01773828, "material_id": "mp-1069512"}, {"energy": -32.91496977, "material_id": "mp-1069606"}, {"energy": -33.01714081, "material_id": "mp-1069527"}, {"energy": -33.01814086, "material_id": "mp-1069621"}, {"energy": -32.52911611, "material_id": "mp-1069629"}, {"energy": -32.91343101, "material_id": "mp-1069657"}, {"energy": -33.01793501, "material_id": "mp-1069686"}, {"energy": -32.5253894, "material_id": "mp-1069731"}, {"energy": -33.01690392, "material_id": "mp-1069563"}, {"energy": -32.52811803, "material_id": "mp-1069565"}, {"energy": -32.91642417, "material_id": "mp-1069757"}, {"energy": -33.01804756, "material_id": "mp-1070470"}, {"energy": -33.01817312, "material_id": "mp-1070522"}, {"energy": -32.52175046, "material_id": "mp-1070577"}, {"energy": -32.91753499, "material_id": "mp-1070619"}, {"energy": -33.01755162, "material_id": "mp-1124947"}, {"energy": -33.01706746, "material_id": "mp-1132749"}, {"energy": -33.01697236, "material_id": "mp-1257574"}, {"energy": -32.47172446, "material_id": "mp-1439568"}, {"energy": -32.29317086, "material_id": "mp-1591344"}, {"energy": -91.52888111, "material_id": "mp-1258485"}, {"energy": -109.94771414, "material_id": "mp-1152929"}, {"energy": -33.01552137, "material_id": "mp-1258423"}, {"energy": -33.04041072, "material_id": "mp-1802266"}, {"energy": -45.39657201, "material_id": "mp-919836"}, {"energy": -45.55747581, "material_id": "mp-918835"}, {"energy": -45.55382465, "material_id": "mp-905889"}, {"energy": -45.55408143, "material_id": "mp-12919"}, {"energy": -45.55637724, "material_id": "mp-1070842"}, {"energy": -45.55220478, "material_id": "mp-1070877"}, {"energy": -45.11576618, "material_id": "mp-1070942"}, {"energy": -45.47364464, "material_id": "mp-1070947"}, {"energy": -45.54614823, "material_id": "mp-1426778"}, {"energy": -45.40940748, "material_id": "mp-1591286"}, {"energy": -45.55720643, "material_id": "mp-1700957"}, {"energy": -257.5387964, "material_id": "mp-1131932"}, {"energy": -45.54596898, "material_id": "mp-1928483"}, {"energy": -38.42820849, "material_id": "mp-1185410"}, {"energy": -38.41479375, "material_id": "mp-1417290"}, {"energy": -38.41477534, "material_id": "mp-1791293"}, {"energy": -23.50161035, "material_id": "mp-913040"}, {"energy": -23.50134354, "material_id": "mp-929258"}, {"energy": -21.61293197, "material_id": "mp-930125"}, {"energy": -23.49814734, "material_id": "mp-11743"}, {"energy": -23.51088788, "material_id": "mp-1115706"}, {"energy": -23.49517461, "material_id": "mp-1427159"}, {"energy": -23.50445403, "material_id": "mp-1696052"}, {"energy": -23.49504622, "material_id": "mp-1802415"}, {"energy": -99.18548419, "material_id": "mp-1150821"}, {"energy": -30.97224365, "material_id": "mp-1077777"}, {"energy": -30.94393191, "material_id": "mp-1420488"}, {"energy": -30.97800691, "material_id": "mp-1697870"}, {"energy": -30.77484914, "material_id": "mp-1592138"}, {"energy": -30.93183742, "material_id": "mp-1827995"}, {"energy": -27.02162551, "material_id": "mp-1064561"}, {"energy": -27.01007152, "material_id": "mp-1064469"}, {"energy": -27.01066706, "material_id": "mp-1064504"}, {"energy": -27.09285739, "material_id": "mp-1064525"}, {"energy": -27.02180251, "material_id": "mp-1438908"}, {"energy": -27.02774081, "material_id": "mp-1677343"}, {"energy": -27.11821921, "material_id": "mp-1593146"}, {"energy": -27.02318269, "material_id": "mp-1781329"}, {"energy": -92.22639827, "material_id": "mp-923405"}, {"energy": -93.07401128, "material_id": "mp-908203"}, {"energy": -93.09045954, "material_id": "mp-922643"}, {"energy": -93.07386119, "material_id": "mp-28607"}, {"energy": -93.09563073, "material_id": "mp-1434885"}, {"energy": -92.22120132, "material_id": "mp-1592306"}, {"energy": -93.09320235, "material_id": "mp-1700298"}, {"energy": -398.71815068, "material_id": "mp-1129842"}, {"energy": -93.09555199, "material_id": "mp-1802529"}, {"energy": -252.55532013, "material_id": "mp-642279"}, {"energy": -252.53288953, "material_id": "mp-914973"}, {"energy": -252.53306402, "material_id": "mp-992087"}, {"energy": -252.65615193, "material_id": "mp-992320"}, {"energy": -252.48569067, "material_id": "mp-994035"}, {"energy": -252.59261828, "material_id": "mp-1125186"}, {"energy": -252.5788989, "material_id": "mp-1136368"}, {"energy": -252.35505047, "material_id": "mp-1660018"}, {"energy": -252.73834281, "material_id": "mp-1371741"}, {"energy": -252.40629478, "material_id": "mp-1425788"}, {"energy": -252.85600499, "material_id": "mp-1680082"}, {"energy": -252.48536764, "material_id": "mp-1766311"}, {"energy": -252.73746249, "material_id": "mp-1840863"}, {"energy": -252.41349257, "material_id": "mp-1842664"}, {"energy": -184.77376875, "material_id": "mp-664231"}, {"energy": -184.77331357, "material_id": "mp-641703"}, {"energy": -184.88156468, "material_id": "mp-700377"}, {"energy": -184.77351445, "material_id": "mp-679202"}, {"energy": -184.87546014, "material_id": "mp-1340982"}, {"energy": -349.36471553, "material_id": "mp-1165985"}, {"energy": -184.87627835, "material_id": "mp-1920487"}, {"energy": -47.08079342, "material_id": "mp-929545"}, {"energy": -48.36309212, "material_id": "mp-912856"}, {"energy": -48.39356581, "material_id": "mp-929178"}, {"energy": -48.34921813, "material_id": "mp-11594"}, {"energy": -48.38115959, "material_id": "mp-1416025"}, {"energy": -48.39691517, "material_id": "mp-1702657"}, {"energy": -47.10126102, "material_id": "mp-1589748"}, {"energy": -48.38171299, "material_id": "mp-1801655"}, {"energy": -276.39437898, "material_id": "mp-1128688"}, {"energy": -34.54287863, "material_id": "mp-977932"}, {"energy": -34.53732159, "material_id": "mp-914556"}, {"energy": -34.45539737, "material_id": "mp-992512"}, {"energy": -34.54840556, "material_id": "mp-12780"}, {"energy": -34.48139979, "material_id": "mp-1424781"}, {"energy": -34.54790572, "material_id": "mp-1697860"}, {"energy": -34.46128607, "material_id": "mp-1599172"}, {"energy": -394.28190457, "material_id": "mp-1170147"}, {"energy": -34.60722611, "material_id": "mp-1870475"}, {"energy": -407.6502603, "material_id": "mp-852685"}, {"energy": -407.65009797, "material_id": "mp-768457"}, {"energy": -407.65072743, "material_id": "mp-855570"}, {"energy": -407.65245789, "material_id": "mp-995913"}, {"energy": -203.88112203, "material_id": "mp-852696"}, {"energy": -203.87126117, "material_id": "mp-995262"}, {"energy": -203.88119907, "material_id": "mp-855577"}, {"energy": -203.64668383, "material_id": "mp-852695"}, {"energy": -203.6638615, "material_id": "mp-856457"}, {"energy": -203.64786073, "material_id": "mp-768500"}, {"energy": -203.87942875, "material_id": "mp-768486"}, {"energy": -203.64703958, "material_id": "mp-855635"}, {"energy": -813.32464618, "material_id": "mp-794420"}, {"energy": -813.31417752, "material_id": "mp-777615"}, {"energy": -813.32415695, "material_id": "mp-795162"}, {"energy": -813.32281098, "material_id": "mp-792571"}, {"energy": -408.14883008, "material_id": "mp-846992"}, {"energy": -408.25015365, "material_id": "mp-705546"}, {"energy": -408.25132332, "material_id": "mp-846373"}, {"energy": -408.18418708, "material_id": "mp-719442"}, {"energy": -202.48085203, "material_id": "mp-852681"}, {"energy": -202.48129337, "material_id": "mp-855571"}, {"energy": -202.48082285, "material_id": "mp-768484"}, {"energy": -408.214104, "material_id": "mp-27339"}, {"energy": -813.76461579, "material_id": "mp-1337737"}, {"energy": -203.75136535, "material_id": "mp-1358106"}, {"energy": -203.98632704, "material_id": "mp-1359931"}, {"energy": -408.48978848, "material_id": "mp-1351082"}, {"energy": -202.5910265, "material_id": "mp-1355968"}, {"energy": -407.86032586, "material_id": "mp-1326726"}, {"energy": -407.88411254, "material_id": "mp-1637561"}, {"energy": -203.75156016, "material_id": "mp-1680054"}, {"energy": -408.48904215, "material_id": "mp-1683744"}, {"energy": -809.25683042, "material_id": "mp-1169558"}, {"energy": -402.6213946, "material_id": "mp-1142729"}, {"energy": -807.8067931, "material_id": "mp-1169621"}, {"energy": -402.53764138, "material_id": "mp-1241435"}, {"energy": -403.95663031, "material_id": "mp-1242497"}, {"energy": -403.96134067, "material_id": "mp-1163639"}, {"energy": -403.97740513, "material_id": "mp-1163178"}, {"energy": -202.59115942, "material_id": "mp-1930644"}, {"energy": -203.75137086, "material_id": "mp-1889274"}, {"energy": -203.98790484, "material_id": "mp-1872861"}, {"energy": -407.8605278, "material_id": "mp-1850198"}, {"energy": -408.48717517, "material_id": "mp-1894766"}, {"energy": -54.76632311, "material_id": "mp-918943"}, {"energy": -54.76277938, "material_id": "mp-906090"}, {"energy": -55.9536628, "material_id": "mp-919951"}, {"energy": -54.77515904, "material_id": "mp-13070"}, {"energy": -54.75941097, "material_id": "mp-1253282"}, {"energy": -54.79102794, "material_id": "mp-1403972"}, {"energy": -55.99880935, "material_id": "mp-1620738"}, {"energy": -54.76456187, "material_id": "mp-1754451"}, {"energy": -96.81317932, "material_id": "mp-1124804"}, {"energy": -19.24657292, "material_id": "mp-1257315"}, {"energy": -54.78811707, "material_id": "mp-1262105"}, {"energy": -54.79091661, "material_id": "mp-1878535"}, {"energy": -18.13664486, "material_id": "mp-993700"}, {"energy": -17.62896597, "material_id": "mp-995013"}, {"energy": -18.1365738, "material_id": "mp-991956"}, {"energy": -18.09352412, "material_id": "mp-2436"}, {"energy": -18.15690922, "material_id": "mp-1440498"}, {"energy": -17.7061458, "material_id": "mp-1595692"}, {"energy": -18.19999723, "material_id": "mp-1695483"}, {"energy": -123.14244588, "material_id": "mp-1538351"}, {"energy": -18.09187765, "material_id": "mp-1803794"}, {"energy": -122.93211144, "material_id": "mp-1167517"}, {"energy": -20.65911182, "material_id": "mp-1070583"}, {"energy": -20.66802603, "material_id": "mp-1070677"}, {"energy": -20.21440809, "material_id": "mp-1070717"}, {"energy": -20.4597308, "material_id": "mp-1070768"}, {"energy": -20.65104404, "material_id": "mp-1424480"}, {"energy": -21.26598518, "material_id": "mp-1588467"}, {"energy": -20.67701606, "material_id": "mp-1700485"}, {"energy": -330.6089509, "material_id": "mp-1538260"}, {"energy": -20.66896124, "material_id": "mp-1796508"}, {"energy": -243.33044247, "material_id": "mp-1186271"}, {"energy": -10.84801628, "material_id": "mp-1011681"}, {"energy": -11.70120317, "material_id": "mp-1000500"}, {"energy": -11.70258605, "material_id": "mp-1006973"}, {"energy": -11.70512733, "material_id": "mp-13272"}, {"energy": -11.60022454, "material_id": "mp-1115786"}, {"energy": -11.61019576, "material_id": "mp-1263090"}, {"energy": -11.71524594, "material_id": "mp-1438909"}, {"energy": -10.77256882, "material_id": "mp-1590383"}, {"energy": -11.70086761, "material_id": "mp-1667949"}, {"energy": -1.87515072, "material_id": "mp-1259078"}, {"energy": -67.93786484, "material_id": "mp-1150839"}, {"energy": -11.61022079, "material_id": "mp-1258971"}, {"energy": -11.71523779, "material_id": "mp-1782675"}, {"energy": -67.93761263, "material_id": "mp-1239912"}, {"energy": -552.61893771, "material_id": "mp-665869"}, {"energy": -552.61838266, "material_id": "mp-8796"}, {"energy": -552.58117022, "material_id": "mp-1000217"}, {"energy": -552.62054318, "material_id": "mp-681216"}, {"energy": -552.80220247, "material_id": "mp-1350424"}, {"energy": -832.22186691, "material_id": "mp-1157954"}, {"energy": -552.70306382, "material_id": "mp-1897512"}, {"energy": -12.39743219, "material_id": "mp-990480"}, {"energy": -12.39743219, "material_id": "mp-22263"}, {"energy": -11.85970542, "material_id": "mp-1419355"}, {"energy": -11.7436136, "material_id": "mp-1587664"}, {"energy": -11.84968903, "material_id": "mp-1700652"}, {"energy": -192.53425842, "material_id": "mp-1149410"}, {"energy": -12.39923905, "material_id": "mp-1833255"}, {"energy": -71.04464298, "material_id": "mp-1007150"}, {"energy": -71.18873021, "material_id": "mp-1011886"}, {"energy": -71.10605565, "material_id": "mp-778"}, {"energy": -71.10866783, "material_id": "mp-1000691"}, {"energy": -142.23195935, "material_id": "mp-1189340"}, {"energy": -71.18034274, "material_id": "mp-1442345"}, {"energy": -71.18561994, "material_id": "mp-1594194"}, {"energy": -71.03903797, "material_id": "mp-1671253"}, {"energy": -71.18011215, "material_id": "mp-1796073"}, {"energy": -143.60231143, "material_id": "mp-1135635"}, {"energy": -143.75607984, "material_id": "mp-1525605"}, {"energy": -142.36976555, "material_id": "mp-1834902"}, {"energy": -68.9525333, "material_id": "mp-9808"}, {"energy": -68.83163643, "material_id": "mp-671087"}, {"energy": -68.95293362, "material_id": "mp-661614"}, {"energy": -138.18714356, "material_id": "mp-1115375"}, {"energy": -67.00342127, "material_id": "mp-32163"}, {"energy": -69.05827206, "material_id": "mp-1429770"}, {"energy": -69.02328766, "material_id": "mp-1598367"}, {"energy": -69.05938339, "material_id": "mp-1697169"}, {"energy": -163.09108431, "material_id": "mp-1128069"}, {"energy": -69.05803749, "material_id": "mp-1789267"}, {"energy": -15.18269132, "material_id": "mp-935050"}, {"energy": -14.66149236, "material_id": "mp-941881"}, {"energy": -15.19237952, "material_id": "mp-941737"}, {"energy": -15.22681937, "material_id": "mp-11483"}, {"energy": -15.14824113, "material_id": "mp-1439221"}, {"energy": -14.67079692, "material_id": "mp-1586297"}, {"energy": -15.19965354, "material_id": "mp-1687400"}, {"energy": -15.23019288, "material_id": "mp-1791337"}, {"energy": -125.32411203, "material_id": "mp-1524249"}, {"energy": -125.32264844, "material_id": "mp-1165068"}, {"energy": -48.03394484, "material_id": "mp-20700"}, {"energy": -48.04154632, "material_id": "mp-1070408"}, {"energy": -48.0506353, "material_id": "mp-1070593"}, {"energy": -46.59465553, "material_id": "mp-1070674"}, {"energy": -48.0614672, "material_id": "mp-1070712"}, {"energy": -48.0573743, "material_id": "mp-1133340"}, {"energy": -42.91163013, "material_id": "mp-1439888"}, {"energy": -40.83292545, "material_id": "mp-1593983"}, {"energy": -227.30091365, "material_id": "mp-1171575"}, {"energy": -42.97062256, "material_id": "mp-1783983"}, {"energy": -51.8704337, "material_id": "mp-560449"}, {"energy": -54.55928028, "material_id": "mp-835825"}, {"energy": -54.90142645, "material_id": "mp-835041"}, {"energy": -55.11301693, "material_id": "mp-825465"}, {"energy": -50.96143173, "material_id": "mp-1381430"}, {"energy": -50.6265003, "material_id": "mp-1601930"}, {"energy": -50.96145053, "material_id": "mp-1676597"}, {"energy": -114.58199177, "material_id": "mp-1156942"}, {"energy": -52.3733681, "material_id": "mp-1787034"}, {"energy": -25.71947517, "material_id": "mp-991352"}, {"energy": -24.66077225, "material_id": "mp-994606"}, {"energy": -25.72273306, "material_id": "mp-993293"}, {"energy": -25.71739494, "material_id": "mp-21242"}, {"energy": -25.72959021, "material_id": "mp-1431396"}, {"energy": -25.7236302, "material_id": "mp-1700490"}, {"energy": -25.72960799, "material_id": "mp-1777623"}, {"energy": -22.09078048, "material_id": "mp-613509"}, {"energy": -21.72646854, "material_id": "mp-665229"}, {"energy": -22.02164031, "material_id": "mp-665179"}, {"energy": -22.09079309, "material_id": "mp-665212"}, {"energy": -22.02208669, "material_id": "mp-288"}, {"energy": -22.02202137, "material_id": "mp-558811"}, {"energy": -22.02292452, "material_id": "mp-1140886"}, {"energy": -87.43470754, "material_id": "mp-1205321"}, {"energy": -87.4972071, "material_id": "mp-1380882"}, {"energy": -22.0375486, "material_id": "mp-1439644"}, {"energy": -87.57226502, "material_id": "mp-1603464"}, {"energy": -21.75159766, "material_id": "mp-1587511"}, {"energy": -87.70951621, "material_id": "mp-1677079"}, {"energy": -22.10006497, "material_id": "mp-1672136"}, {"energy": -647.48379389, "material_id": "mp-1544239"}, {"energy": -22.04370618, "material_id": "mp-1799646"}, {"energy": -162.06071112, "material_id": "mp-1162708"}, {"energy": -162.06072583, "material_id": "mp-1162985"}, {"energy": -161.8577938, "material_id": "mp-1536189"}, {"energy": -162.06288806, "material_id": "mp-1243095"}, {"energy": -87.50006957, "material_id": "mp-1935076"}, {"energy": -80.30576991, "material_id": "mp-926287"}, {"energy": -80.11671935, "material_id": "mp-926810"}, {"energy": -80.30287921, "material_id": "mp-910466"}, {"energy": -80.30182205, "material_id": "mp-22522"}, {"energy": -80.2721497, "material_id": "mp-1101956"}, {"energy": -80.28453916, "material_id": "mp-1144407"}, {"energy": -80.27404025, "material_id": "mp-1267114"}, {"energy": -80.30750386, "material_id": "mp-1382615"}, {"energy": -80.31265734, "material_id": "mp-1676084"}, {"energy": -80.12899877, "material_id": "mp-1599746"}, {"energy": -80.27630515, "material_id": "mp-1258160"}, {"energy": -80.3005291, "material_id": "mp-1788569"}, {"energy": -232.24341638, "material_id": "mp-1230498"}, {"energy": -52.80474411, "material_id": "mp-1260568"}, {"energy": -232.24332136, "material_id": "mp-1121422"}, {"energy": -12.02035856, "material_id": "mp-687762"}, {"energy": -12.01978309, "material_id": "mp-665"}, {"energy": -12.01977962, "material_id": "mp-671218"}, {"energy": -10.53002225, "material_id": "mp-687863"}, {"energy": -13.79495173, "material_id": "mp-1140668"}, {"energy": -12.02086504, "material_id": "mp-1540927"}, {"energy": -12.01860284, "material_id": "mp-1440081"}, {"energy": -12.01021962, "material_id": "mp-1541907"}, {"energy": -10.53139699, "material_id": "mp-1597037"}, {"energy": -12.01820873, "material_id": "mp-1686422"}, {"energy": -77.10918184, "material_id": "mp-1524911"}, {"energy": -77.07634256, "material_id": "mp-1136903"}, {"energy": -12.01868415, "material_id": "mp-1783848"}, {"energy": -42.6061688, "material_id": "mp-907386"}, {"energy": -42.60105198, "material_id": "mp-920798"}, {"energy": -42.5939026, "material_id": "mp-921823"}, {"energy": -42.87815929, "material_id": "mp-20779"}, {"energy": -42.64308026, "material_id": "mp-1426726"}, {"energy": -42.59421051, "material_id": "mp-1697602"}, {"energy": -255.98629843, "material_id": "mp-1126411"}, {"energy": -42.98402102, "material_id": "mp-1776133"}, {"energy": -23.46493782, "material_id": "mp-928778"}, {"energy": -23.35803101, "material_id": "mp-928241"}, {"energy": -23.35557859, "material_id": "mp-912228"}, {"energy": -23.4349885, "material_id": "mp-20735"}, {"energy": -22.26992111, "material_id": "mp-1226850"}, {"energy": -23.45240017, "material_id": "mp-1437929"}, {"energy": -22.33749682, "material_id": "mp-1390129"}, {"energy": -23.38945817, "material_id": "mp-1674211"}, {"energy": -23.45098563, "material_id": "mp-1589843"}, {"energy": -22.40935132, "material_id": "mp-1760264"}, {"energy": -22.2509217, "material_id": "mp-1624219"}, {"energy": -22.33676376, "material_id": "mp-1803574"}, {"energy": -23.45774582, "material_id": "mp-1803167"}, {"energy": -171.73793668, "material_id": "mp-1537649"}, {"energy": -12.23100692, "material_id": "mp-920812"}, {"energy": -12.77085184, "material_id": "mp-921863"}, {"energy": -12.17193783, "material_id": "mp-613384"}, {"energy": -12.22512758, "material_id": "mp-907438"}, {"energy": -44.17778159, "material_id": "mp-669316"}, {"energy": -44.10699044, "material_id": "mp-689455"}, {"energy": -41.68750715, "material_id": "mp-665298"}, {"energy": -44.11372068, "material_id": "mp-28295"}, {"energy": -44.19042469, "material_id": "mp-1114969"}, {"energy": -44.15690986, "material_id": "mp-1432625"}, {"energy": -12.24640106, "material_id": "mp-1422530"}, {"energy": -12.19784523, "material_id": "mp-1704790"}, {"energy": -12.65072879, "material_id": "mp-1592201"}, {"energy": -44.07693966, "material_id": "mp-1600789"}, {"energy": -44.15268311, "material_id": "mp-1700880"}, {"energy": -197.16870196, "material_id": "mp-1168157"}, {"energy": -44.15701017, "material_id": "mp-1788345"}, {"energy": -88.29859554, "material_id": "mp-1126574"}, {"energy": -12.18639486, "material_id": "mp-1781982"}, {"energy": -273.70861106, "material_id": "mp-733325"}, {"energy": -273.53403182, "material_id": "mp-737055"}, {"energy": -273.70766058, "material_id": "mp-707535"}, {"energy": -273.7086797, "material_id": "mp-728775"}, {"energy": -273.44477899, "material_id": "mp-1181584"}, {"energy": -274.27511676, "material_id": "mp-1197174"}, {"energy": -264.06109972, "material_id": "mp-1204989"}, {"energy": -273.77186848, "material_id": "mp-1388362"}, {"energy": -273.87101076, "material_id": "mp-1369030"}, {"energy": -264.27605971, "material_id": "mp-1346666"}, {"energy": -273.77236673, "material_id": "mp-1727476"}, {"energy": -304.26030299, "material_id": "mp-1171233"}, {"energy": -264.2773962, "material_id": "mp-1872275"}, {"energy": -273.7731078, "material_id": "mp-1842058"}, {"energy": -273.87134963, "material_id": "mp-1819337"}, {"energy": -38.27661335, "material_id": "mp-926337"}, {"energy": -38.27206217, "material_id": "mp-910583"}, {"energy": -37.6512183, "material_id": "mp-926882"}, {"energy": -38.28323195, "material_id": "mp-19959"}, {"energy": -38.26558911, "material_id": "mp-1413775"}, {"energy": -37.54063036, "material_id": "mp-1587791"}, {"energy": -38.27508476, "material_id": "mp-1701254"}, {"energy": -38.26679808, "material_id": "mp-1786009"}, {"energy": -185.34912012, "material_id": "mp-1166045"}, {"energy": -93.49909557, "material_id": "mp-937115"}, {"energy": -94.39616913, "material_id": "mp-941526"}, {"energy": -93.36225713, "material_id": "mp-941220"}, {"energy": -96.85380409, "material_id": "mp-510140"}, {"energy": -93.90399528, "material_id": "mp-1835695"}, {"energy": -71.43485164, "material_id": "mp-1102075"}, {"energy": -71.4561868, "material_id": "mp-1434695"}, {"energy": -71.40729665, "material_id": "mp-1597295"}, {"energy": -71.45671313, "material_id": "mp-1699041"}, {"energy": -71.4562892, "material_id": "mp-1930863"}, {"energy": -40.48713343, "material_id": "mp-669744"}, {"energy": -40.77320136, "material_id": "mp-689025"}, {"energy": -40.55786574, "material_id": "mp-842511"}, {"energy": -40.77321716, "material_id": "mp-842995"}, {"energy": -40.48713457, "material_id": "mp-4009"}, {"energy": -40.57118539, "material_id": "mp-1140062"}, {"energy": -19.61414842, "material_id": "mp-1232297"}, {"energy": -19.65221725, "material_id": "mp-1414588"}, {"energy": -40.50406741, "material_id": "mp-1415337"}, {"energy": -39.08413031, "material_id": "mp-1588222"}, {"energy": -18.81409336, "material_id": "mp-1615632"}, {"energy": -19.04716917, "material_id": "mp-1716449"}, {"energy": -40.56754937, "material_id": "mp-1697969"}, {"energy": -194.5624825, "material_id": "mp-1167195"}, {"energy": -40.50405878, "material_id": "mp-1788680"}, {"energy": -19.61683405, "material_id": "mp-1797243"}, {"energy": -15.40922375, "material_id": "mp-11422"}, {"energy": -15.41520923, "material_id": "mp-1439681"}, {"energy": -15.64609387, "material_id": "mp-1588690"}, {"energy": -128.24724305, "material_id": "mp-1164932"}, {"energy": -128.29893978, "material_id": "mp-1523487"}, {"energy": -15.40115563, "material_id": "mp-1791003"}, {"energy": -282.89671064, "material_id": "mp-1201065"}, {"energy": -283.89038263, "material_id": "mp-1327891"}, {"energy": -283.00285995, "material_id": "mp-1929731"}, {"energy": -49.89332519, "material_id": "mp-924829"}, {"energy": -49.97308011, "material_id": "mp-925356"}, {"energy": -49.88507575, "material_id": "mp-909797"}, {"energy": -50.18341578, "material_id": "mp-3048"}, {"energy": -50.19249788, "material_id": "mp-1437618"}, {"energy": -50.18326198, "material_id": "mp-1677669"}, {"energy": -50.20633213, "material_id": "mp-1588332"}, {"energy": -50.19243068, "material_id": "mp-1860717"}, {"energy": -18.71171881, "material_id": "mp-657137"}, {"energy": -18.71301246, "material_id": "mp-657130"}, {"energy": -18.70963945, "material_id": "mp-592"}, {"energy": -18.69406988, "material_id": "mp-655431"}, {"energy": -18.69514571, "material_id": "mp-1442231"}, {"energy": -18.73253496, "material_id": "mp-1586312"}, {"energy": -18.71233798, "material_id": "mp-1688658"}, {"energy": -52.67493885, "material_id": "mp-1164955"}, {"energy": -18.69611319, "material_id": "mp-1792103"}, {"energy": -52.71692093, "material_id": "mp-1536828"}, {"energy": -52.6749657, "material_id": "mp-1243177"}, {"energy": -31.36482019, "material_id": "mp-1018411"}, {"energy": -31.36229409, "material_id": "mp-1018224"}]}
+{
+    "data": [
+        {
+            "energy": -72.09456417,
+            "material_id": "mp-561628"
+        },
+        {
+            "energy": -76.34949427,
+            "material_id": "mp-551214"
+        },
+        {
+            "energy": -72.19938939,
+            "material_id": "mp-1300528"
+        },
+        {
+            "energy": -71.33703052,
+            "material_id": "mp-1602333"
+        },
+        {
+            "energy": -72.31013979,
+            "material_id": "mp-1678519"
+        },
+        {
+            "energy": -72.19602475,
+            "material_id": "mp-1832928"
+        },
+        {
+            "energy": -187.72755286,
+            "material_id": "mp-643701"
+        },
+        {
+            "energy": -187.72840839,
+            "material_id": "mp-749706"
+        },
+        {
+            "energy": -187.72875045,
+            "material_id": "mp-731959"
+        },
+        {
+            "energy": -187.72878046,
+            "material_id": "mp-742998"
+        },
+        {
+            "energy": -187.88399537,
+            "material_id": "mp-848807"
+        },
+        {
+            "energy": -187.88373107,
+            "material_id": "mp-725538"
+        },
+        {
+            "energy": -187.85903311,
+            "material_id": "mp-727083"
+        },
+        {
+            "energy": -187.86240158,
+            "material_id": "mp-860047"
+        },
+        {
+            "energy": -187.88345756,
+            "material_id": "mp-690711"
+        },
+        {
+            "energy": -376.01739415,
+            "material_id": "mp-864017"
+        },
+        {
+            "energy": -376.01651425,
+            "material_id": "mp-697267"
+        },
+        {
+            "energy": -376.01488893,
+            "material_id": "mp-750429"
+        },
+        {
+            "energy": -376.01718091,
+            "material_id": "mp-732312"
+        },
+        {
+            "energy": -187.94260568,
+            "material_id": "mp-1140687"
+        },
+        {
+            "energy": -375.91841682,
+            "material_id": "mp-1203133"
+        },
+        {
+            "energy": -375.8963015,
+            "material_id": "mp-1196113"
+        },
+        {
+            "energy": -187.94572477,
+            "material_id": "mp-1216736"
+        },
+        {
+            "energy": -187.92452982,
+            "material_id": "mp-1385379"
+        },
+        {
+            "energy": -376.02112049,
+            "material_id": "mp-1358739"
+        },
+        {
+            "energy": -376.11912505,
+            "material_id": "mp-1354679"
+        },
+        {
+            "energy": -187.99478786,
+            "material_id": "mp-1359029"
+        },
+        {
+            "energy": -187.76235268,
+            "material_id": "mp-1394765"
+        },
+        {
+            "energy": -376.11927903,
+            "material_id": "mp-1684908"
+        },
+        {
+            "energy": -187.92479684,
+            "material_id": "mp-1734098"
+        },
+        {
+            "energy": -187.90201023,
+            "material_id": "mp-1627315"
+        },
+        {
+            "energy": -187.76238795,
+            "material_id": "mp-1626730"
+        },
+        {
+            "energy": -187.76277583,
+            "material_id": "mp-1751163"
+        },
+        {
+            "energy": -1024.06212364,
+            "material_id": "mp-1161454"
+        },
+        {
+            "energy": -511.80123733,
+            "material_id": "mp-1130281"
+        },
+        {
+            "energy": -511.53172552,
+            "material_id": "mp-1239745"
+        },
+        {
+            "energy": -511.53296027,
+            "material_id": "mp-1130205"
+        },
+        {
+            "energy": -187.99541193,
+            "material_id": "mp-1820911"
+        },
+        {
+            "energy": -187.92488675,
+            "material_id": "mp-1816090"
+        },
+        {
+            "energy": -376.11950434,
+            "material_id": "mp-1895271"
+        },
+        {
+            "energy": -376.02098886,
+            "material_id": "mp-1895506"
+        },
+        {
+            "energy": -187.76284503,
+            "material_id": "mp-1816535"
+        },
+        {
+            "energy": -40.66910877,
+            "material_id": "mp-614918"
+        },
+        {
+            "energy": -40.66913663,
+            "material_id": "mp-655230"
+        },
+        {
+            "energy": -40.66962871,
+            "material_id": "mp-659940"
+        },
+        {
+            "energy": -40.67139715,
+            "material_id": "mp-660654"
+        },
+        {
+            "energy": -39.89348129,
+            "material_id": "mp-661374"
+        },
+        {
+            "energy": -45.0561041,
+            "material_id": "mp-688918"
+        },
+        {
+            "energy": -45.05469363,
+            "material_id": "mp-669750"
+        },
+        {
+            "energy": -44.71415355,
+            "material_id": "mp-689049"
+        },
+        {
+            "energy": -44.77642459,
+            "material_id": "mp-682789"
+        },
+        {
+            "energy": -44.6273635,
+            "material_id": "mp-708874"
+        },
+        {
+            "energy": -44.77795026,
+            "material_id": "mp-702728"
+        },
+        {
+            "energy": -44.77550038,
+            "material_id": "mp-504786"
+        },
+        {
+            "energy": -44.77702044,
+            "material_id": "mp-27985"
+        },
+        {
+            "energy": -45.05461482,
+            "material_id": "mp-552120"
+        },
+        {
+            "energy": -44.92937905,
+            "material_id": "mp-1141117"
+        },
+        {
+            "energy": -40.66988821,
+            "material_id": "mp-1401963"
+        },
+        {
+            "energy": -45.05501592,
+            "material_id": "mp-1435213"
+        },
+        {
+            "energy": -44.77466305,
+            "material_id": "mp-1422184"
+        },
+        {
+            "energy": -39.89372651,
+            "material_id": "mp-1625463"
+        },
+        {
+            "energy": -44.77637117,
+            "material_id": "mp-1704968"
+        },
+        {
+            "energy": -44.71483274,
+            "material_id": "mp-1597180"
+        },
+        {
+            "energy": -40.67195169,
+            "material_id": "mp-1760944"
+        },
+        {
+            "energy": -45.05655781,
+            "material_id": "mp-1702478"
+        },
+        {
+            "energy": -44.62574758,
+            "material_id": "mp-1592934"
+        },
+        {
+            "energy": -104.72994704,
+            "material_id": "mp-1538103"
+        },
+        {
+            "energy": -100.13995159,
+            "material_id": "mp-1127229"
+        },
+        {
+            "energy": -45.05500812,
+            "material_id": "mp-1788009"
+        },
+        {
+            "energy": -104.81866555,
+            "material_id": "mp-1525606"
+        },
+        {
+            "energy": -104.65711708,
+            "material_id": "mp-1127337"
+        },
+        {
+            "energy": -40.66989413,
+            "material_id": "mp-1924018"
+        },
+        {
+            "energy": -44.77463941,
+            "material_id": "mp-1870640"
+        },
+        {
+            "energy": -81.5625355,
+            "material_id": "mp-929024"
+        },
+        {
+            "energy": -81.56350525,
+            "material_id": "mp-912590"
+        },
+        {
+            "energy": -81.77748287,
+            "material_id": "mp-929391"
+        },
+        {
+            "energy": -81.51804337,
+            "material_id": "mp-1458"
+        },
+        {
+            "energy": -81.50600203,
+            "material_id": "mp-1426323"
+        },
+        {
+            "energy": -81.78476174,
+            "material_id": "mp-1591057"
+        },
+        {
+            "energy": -81.57720352,
+            "material_id": "mp-1698594"
+        },
+        {
+            "energy": -345.48842498,
+            "material_id": "mp-1537105"
+        },
+        {
+            "energy": -81.50596456,
+            "material_id": "mp-1784808"
+        },
+        {
+            "energy": -345.43621429,
+            "material_id": "mp-1136389"
+        },
+        {
+            "energy": -65.63573039,
+            "material_id": "mp-929445"
+        },
+        {
+            "energy": -65.71536933,
+            "material_id": "mp-912684"
+        },
+        {
+            "energy": -65.72431538,
+            "material_id": "mp-929104"
+        },
+        {
+            "energy": -65.71380307,
+            "material_id": "mp-20490"
+        },
+        {
+            "energy": -65.71863547,
+            "material_id": "mp-1095525"
+        },
+        {
+            "energy": -65.72546777,
+            "material_id": "mp-1419904"
+        },
+        {
+            "energy": -65.72280654,
+            "material_id": "mp-1703829"
+        },
+        {
+            "energy": -65.61946445,
+            "material_id": "mp-1602237"
+        },
+        {
+            "energy": -65.72538219,
+            "material_id": "mp-1776789"
+        },
+        {
+            "energy": -391.0464781,
+            "material_id": "mp-1151080"
+        },
+        {
+            "energy": -15.60243777,
+            "material_id": "mp-1002195"
+        },
+        {
+            "energy": -15.60189369,
+            "material_id": "mp-1002184"
+        },
+        {
+            "energy": -15.96525688,
+            "material_id": "mp-1002231"
+        },
+        {
+            "energy": -17.12695801,
+            "material_id": "mp-1002225"
+        },
+        {
+            "energy": -16.75615026,
+            "material_id": "mp-1002183"
+        },
+        {
+            "energy": -17.6048104,
+            "material_id": "mp-1002215"
+        },
+        {
+            "energy": -16.74647599,
+            "material_id": "mp-1002199"
+        },
+        {
+            "energy": -17.05695448,
+            "material_id": "mp-1002187"
+        },
+        {
+            "energy": -15.35207988,
+            "material_id": "mp-1002212"
+        },
+        {
+            "energy": -15.60800285,
+            "material_id": "mp-1002201"
+        },
+        {
+            "energy": -17.05491506,
+            "material_id": "mp-1002218"
+        },
+        {
+            "energy": -17.05400623,
+            "material_id": "mp-1002205"
+        },
+        {
+            "energy": -17.60415857,
+            "material_id": "mp-1002204"
+        },
+        {
+            "energy": -17.60469568,
+            "material_id": "mp-1002188"
+        },
+        {
+            "energy": -16.74856831,
+            "material_id": "mp-1002194"
+        },
+        {
+            "energy": -16.96668861,
+            "material_id": "mp-1002214"
+        },
+        {
+            "energy": -34.57522037,
+            "material_id": "mp-999131"
+        },
+        {
+            "energy": -34.58042468,
+            "material_id": "mp-999146"
+        },
+        {
+            "energy": -34.3713726,
+            "material_id": "mp-999149"
+        },
+        {
+            "energy": -34.60507001,
+            "material_id": "mp-999172"
+        },
+        {
+            "energy": -34.96168828,
+            "material_id": "mp-999120"
+        },
+        {
+            "energy": -34.96762595,
+            "material_id": "mp-999162"
+        },
+        {
+            "energy": -34.96386903,
+            "material_id": "mp-999153"
+        },
+        {
+            "energy": -34.58158411,
+            "material_id": "mp-999118"
+        },
+        {
+            "energy": -16.747626,
+            "material_id": "mp-1057314"
+        },
+        {
+            "energy": -16.74046889,
+            "material_id": "mp-1057283"
+        },
+        {
+            "energy": -16.75119635,
+            "material_id": "mp-1057291"
+        },
+        {
+            "energy": -16.95687796,
+            "material_id": "mp-1057305"
+        },
+        {
+            "energy": -17.05449631,
+            "material_id": "mp-1058510"
+        },
+        {
+            "energy": -16.01608761,
+            "material_id": "mp-1058525"
+        },
+        {
+            "energy": -17.05410815,
+            "material_id": "mp-1058529"
+        },
+        {
+            "energy": -17.06178922,
+            "material_id": "mp-1058498"
+        },
+        {
+            "energy": -17.60371247,
+            "material_id": "mp-1060031"
+        },
+        {
+            "energy": -17.60534329,
+            "material_id": "mp-1059996"
+        },
+        {
+            "energy": -17.12812056,
+            "material_id": "mp-1060053"
+        },
+        {
+            "energy": -17.6049002,
+            "material_id": "mp-1060080"
+        },
+        {
+            "energy": -15.42897556,
+            "material_id": "mp-1061105"
+        },
+        {
+            "energy": -15.60810269,
+            "material_id": "mp-1061121"
+        },
+        {
+            "energy": -15.5939646,
+            "material_id": "mp-1061051"
+        },
+        {
+            "energy": -15.60241242,
+            "material_id": "mp-1061074"
+        },
+        {
+            "energy": -34.57714132,
+            "material_id": "mp-1066444"
+        },
+        {
+            "energy": -34.58035358,
+            "material_id": "mp-1066469"
+        },
+        {
+            "energy": -34.58159534,
+            "material_id": "mp-1066433"
+        },
+        {
+            "energy": -34.39048583,
+            "material_id": "mp-1066462"
+        },
+        {
+            "energy": -34.96675929,
+            "material_id": "mp-1067395"
+        },
+        {
+            "energy": -34.96317335,
+            "material_id": "mp-1067421"
+        },
+        {
+            "energy": -34.61028183,
+            "material_id": "mp-1067440"
+        },
+        {
+            "energy": -17.55284309,
+            "material_id": "mp-1067451"
+        },
+        {
+            "energy": -34.96745796,
+            "material_id": "mp-1067450"
+        },
+        {
+            "energy": -17.55288789,
+            "material_id": "mp-1067574"
+        },
+        {
+            "energy": -17.5513376,
+            "material_id": "mp-1067704"
+        },
+        {
+            "energy": -17.55133451,
+            "material_id": "mp-1067842"
+        },
+        {
+            "energy": -17.60468433,
+            "material_id": "mp-1115395"
+        },
+        {
+            "energy": -15.59883507,
+            "material_id": "mp-1423501"
+        },
+        {
+            "energy": -17.05501941,
+            "material_id": "mp-1436276"
+        },
+        {
+            "energy": -16.74354899,
+            "material_id": "mp-1437009"
+        },
+        {
+            "energy": -34.56710304,
+            "material_id": "mp-1430311"
+        },
+        {
+            "energy": -17.60483351,
+            "material_id": "mp-1382008"
+        },
+        {
+            "energy": -34.96958738,
+            "material_id": "mp-1418009"
+        },
+        {
+            "energy": -17.54952165,
+            "material_id": "mp-1363587"
+        },
+        {
+            "energy": -16.74876462,
+            "material_id": "mp-1673092"
+        },
+        {
+            "energy": -17.60498443,
+            "material_id": "mp-1675698"
+        },
+        {
+            "energy": -34.61125484,
+            "material_id": "mp-1610876"
+        },
+        {
+            "energy": -34.39035517,
+            "material_id": "mp-1611785"
+        },
+        {
+            "energy": -16.02637752,
+            "material_id": "mp-1609765"
+        },
+        {
+            "energy": -17.05379374,
+            "material_id": "mp-1672060"
+        },
+        {
+            "energy": -17.13077812,
+            "material_id": "mp-1610750"
+        },
+        {
+            "energy": -16.95661004,
+            "material_id": "mp-1610772"
+        },
+        {
+            "energy": -34.57938942,
+            "material_id": "mp-1731093"
+        },
+        {
+            "energy": -34.96874724,
+            "material_id": "mp-1764757"
+        },
+        {
+            "energy": -15.42889722,
+            "material_id": "mp-1612626"
+        },
+        {
+            "energy": -15.6082127,
+            "material_id": "mp-1688026"
+        },
+        {
+            "energy": -17.54750546,
+            "material_id": "mp-1583518"
+        },
+        {
+            "energy": -85.96681418,
+            "material_id": "mp-1159363"
+        },
+        {
+            "energy": -34.56712753,
+            "material_id": "mp-1795425"
+        },
+        {
+            "energy": -43.11864103,
+            "material_id": "mp-1240632"
+        },
+        {
+            "energy": -16.76861589,
+            "material_id": "mp-1793106"
+        },
+        {
+            "energy": -40.94930265,
+            "material_id": "mp-1164954"
+        },
+        {
+            "energy": -42.49022652,
+            "material_id": "mp-1242371"
+        },
+        {
+            "energy": -15.59892691,
+            "material_id": "mp-1795512"
+        },
+        {
+            "energy": -42.49010304,
+            "material_id": "mp-1165207"
+        },
+        {
+            "energy": -42.16657803,
+            "material_id": "mp-1242792"
+        },
+        {
+            "energy": -85.47935577,
+            "material_id": "mp-1160814"
+        },
+        {
+            "energy": -17.60481833,
+            "material_id": "mp-1793857"
+        },
+        {
+            "energy": -40.94934007,
+            "material_id": "mp-1240448"
+        },
+        {
+            "energy": -42.16643174,
+            "material_id": "mp-1165179"
+        },
+        {
+            "energy": -34.96960117,
+            "material_id": "mp-1792244"
+        },
+        {
+            "energy": -43.11722485,
+            "material_id": "mp-1143390"
+        },
+        {
+            "energy": -17.05557347,
+            "material_id": "mp-1932256"
+        },
+        {
+            "energy": -31.98349453,
+            "material_id": "mp-1001530"
+        },
+        {
+            "energy": -31.98711159,
+            "material_id": "mp-1008033"
+        },
+        {
+            "energy": -31.65732124,
+            "material_id": "mp-1012359"
+        },
+        {
+            "energy": -31.98562598,
+            "material_id": "mp-3455"
+        },
+        {
+            "energy": -31.9845693,
+            "material_id": "mp-1438502"
+        },
+        {
+            "energy": -31.63196297,
+            "material_id": "mp-1590137"
+        },
+        {
+            "energy": -31.98723572,
+            "material_id": "mp-1677678"
+        },
+        {
+            "energy": -108.8176228,
+            "material_id": "mp-1135693"
+        },
+        {
+            "energy": -31.98455727,
+            "material_id": "mp-1801227"
+        },
+        {
+            "energy": -45.30490302,
+            "material_id": "mp-988285"
+        },
+        {
+            "energy": -45.33218476,
+            "material_id": "mp-988040"
+        },
+        {
+            "energy": -45.33509651,
+            "material_id": "mp-987036"
+        },
+        {
+            "energy": -45.3290195,
+            "material_id": "mp-28698"
+        },
+        {
+            "energy": -45.35875253,
+            "material_id": "mp-1141296"
+        },
+        {
+            "energy": -45.3463519,
+            "material_id": "mp-1420609"
+        },
+        {
+            "energy": -45.34249464,
+            "material_id": "mp-1700102"
+        },
+        {
+            "energy": -45.32514545,
+            "material_id": "mp-1595200"
+        },
+        {
+            "energy": -45.34652866,
+            "material_id": "mp-1787543"
+        },
+        {
+            "energy": -125.98267885,
+            "material_id": "mp-1136493"
+        },
+        {
+            "energy": -26.92408811,
+            "material_id": "mp-993467"
+        },
+        {
+            "energy": -26.93294019,
+            "material_id": "mp-991515"
+        },
+        {
+            "energy": -25.30154729,
+            "material_id": "mp-994798"
+        },
+        {
+            "energy": -26.94477037,
+            "material_id": "mp-11501"
+        },
+        {
+            "energy": -26.94881256,
+            "material_id": "mp-1438579"
+        },
+        {
+            "energy": -26.9212054,
+            "material_id": "mp-1677535"
+        },
+        {
+            "energy": -25.31821847,
+            "material_id": "mp-1588250"
+        },
+        {
+            "energy": -26.96478526,
+            "material_id": "mp-1794589"
+        },
+        {
+            "energy": -67.84815792,
+            "material_id": "mp-1524286"
+        },
+        {
+            "energy": -67.86412872,
+            "material_id": "mp-1172005"
+        },
+        {
+            "energy": -17.52167491,
+            "material_id": "mp-929760"
+        },
+        {
+            "energy": -17.5217482,
+            "material_id": "mp-913241"
+        },
+        {
+            "energy": -17.69937957,
+            "material_id": "mp-930252"
+        },
+        {
+            "energy": -16.97112992,
+            "material_id": "mp-929782"
+        },
+        {
+            "energy": -16.97106582,
+            "material_id": "mp-913248"
+        },
+        {
+            "energy": -16.96249687,
+            "material_id": "mp-930290"
+        },
+        {
+            "energy": -16.97012411,
+            "material_id": "mp-31178"
+        },
+        {
+            "energy": -17.52928002,
+            "material_id": "mp-567589"
+        },
+        {
+            "energy": -70.65416517,
+            "material_id": "mp-978159"
+        },
+        {
+            "energy": -70.24272472,
+            "material_id": "mp-569981"
+        },
+        {
+            "energy": -70.22365067,
+            "material_id": "mp-977910"
+        },
+        {
+            "energy": -70.22758058,
+            "material_id": "mp-914525"
+        },
+        {
+            "energy": -35.22597755,
+            "material_id": "mp-1010315"
+        },
+        {
+            "energy": -35.12650485,
+            "material_id": "mp-1004656"
+        },
+        {
+            "energy": -35.13313159,
+            "material_id": "mp-864995"
+        },
+        {
+            "energy": -35.12162326,
+            "material_id": "mp-1003061"
+        },
+        {
+            "energy": -35.09268391,
+            "material_id": "mp-1051901"
+        },
+        {
+            "energy": -35.08677251,
+            "material_id": "mp-1051920"
+        },
+        {
+            "energy": -35.22672469,
+            "material_id": "mp-1051925"
+        },
+        {
+            "energy": -52.62953365,
+            "material_id": "mp-1103088"
+        },
+        {
+            "energy": -87.68510265,
+            "material_id": "mp-1106237"
+        },
+        {
+            "energy": -87.68521899,
+            "material_id": "mp-1188642"
+        },
+        {
+            "energy": -16.94726361,
+            "material_id": "mp-1260898"
+        },
+        {
+            "energy": -16.94726361,
+            "material_id": "mp-1260453"
+        },
+        {
+            "energy": -16.94726361,
+            "material_id": "mp-1252832"
+        },
+        {
+            "energy": -16.94726361,
+            "material_id": "mp-1263063"
+        },
+        {
+            "energy": -16.98720948,
+            "material_id": "mp-1438131"
+        },
+        {
+            "energy": -52.66370981,
+            "material_id": "mp-1415528"
+        },
+        {
+            "energy": -70.21008607,
+            "material_id": "mp-1420624"
+        },
+        {
+            "energy": -87.69687203,
+            "material_id": "mp-1425688"
+        },
+        {
+            "energy": -35.11680125,
+            "material_id": "mp-1394352"
+        },
+        {
+            "energy": -17.5352671,
+            "material_id": "mp-1441265"
+        },
+        {
+            "energy": -53.17878046,
+            "material_id": "mp-1601011"
+        },
+        {
+            "energy": -87.75940974,
+            "material_id": "mp-1674159"
+        },
+        {
+            "energy": -52.68798649,
+            "material_id": "mp-1696619"
+        },
+        {
+            "energy": -16.93321897,
+            "material_id": "mp-1593030"
+        },
+        {
+            "energy": -17.70786363,
+            "material_id": "mp-1587830"
+        },
+        {
+            "energy": -16.97216384,
+            "material_id": "mp-1703303"
+        },
+        {
+            "energy": -17.52230242,
+            "material_id": "mp-1701087"
+        },
+        {
+            "energy": -35.23172493,
+            "material_id": "mp-1621931"
+        },
+        {
+            "energy": -35.12604272,
+            "material_id": "mp-1733832"
+        },
+        {
+            "energy": -88.68552222,
+            "material_id": "mp-1607666"
+        },
+        {
+            "energy": -70.68924441,
+            "material_id": "mp-1598944"
+        },
+        {
+            "energy": -70.23066409,
+            "material_id": "mp-1705260"
+        },
+        {
+            "energy": -1.07772942,
+            "material_id": "mp-1258282"
+        },
+        {
+            "energy": -145.77271303,
+            "material_id": "mp-1538601"
+        },
+        {
+            "energy": -291.47247602,
+            "material_id": "mp-1130155"
+        },
+        {
+            "energy": -16.97186887,
+            "material_id": "mp-1267849"
+        },
+        {
+            "energy": -17.5291898,
+            "material_id": "mp-1798811"
+        },
+        {
+            "energy": -364.4324654,
+            "material_id": "mp-1230698"
+        },
+        {
+            "energy": -16.96045145,
+            "material_id": "mp-1801658"
+        },
+        {
+            "energy": -16.97186887,
+            "material_id": "mp-1253380"
+        },
+        {
+            "energy": -72.86577634,
+            "material_id": "mp-1149426"
+        },
+        {
+            "energy": -1.07772942,
+            "material_id": "mp-1266702"
+        },
+        {
+            "energy": -16.97186887,
+            "material_id": "mp-1262134"
+        },
+        {
+            "energy": -1.07772942,
+            "material_id": "mp-1261378"
+        },
+        {
+            "energy": -1.07772942,
+            "material_id": "mp-1263233"
+        },
+        {
+            "energy": -145.73724372,
+            "material_id": "mp-1127261"
+        },
+        {
+            "energy": -72.86622702,
+            "material_id": "mp-1240549"
+        },
+        {
+            "energy": -16.97186887,
+            "material_id": "mp-1267146"
+        },
+        {
+            "energy": -35.1168967,
+            "material_id": "mp-1779415"
+        },
+        {
+            "energy": -52.62104572,
+            "material_id": "mp-1776106"
+        },
+        {
+            "energy": -70.20999863,
+            "material_id": "mp-1810115"
+        },
+        {
+            "energy": -87.68813763,
+            "material_id": "mp-1836630"
+        },
+        {
+            "energy": -48.6550408,
+            "material_id": "mp-660811"
+        },
+        {
+            "energy": -48.65522714,
+            "material_id": "mp-670416"
+        },
+        {
+            "energy": -48.68743894,
+            "material_id": "mp-842611"
+        },
+        {
+            "energy": -48.65516873,
+            "material_id": "mp-28978"
+        },
+        {
+            "energy": -48.67910389,
+            "material_id": "mp-1380926"
+        },
+        {
+            "energy": -48.67891504,
+            "material_id": "mp-1676820"
+        },
+        {
+            "energy": -48.71182006,
+            "material_id": "mp-1599245"
+        },
+        {
+            "energy": -234.6887979,
+            "material_id": "mp-1165733"
+        },
+        {
+            "energy": -48.67915571,
+            "material_id": "mp-1806407"
+        },
+        {
+            "energy": -24.21247877,
+            "material_id": "mp-1006991"
+        },
+        {
+            "energy": -24.21282132,
+            "material_id": "mp-1000517"
+        },
+        {
+            "energy": -23.86735095,
+            "material_id": "mp-1011715"
+        },
+        {
+            "energy": -23.47662202,
+            "material_id": "mp-1001696"
+        },
+        {
+            "energy": -24.0894209,
+            "material_id": "mp-1012461"
+        },
+        {
+            "energy": -23.47941197,
+            "material_id": "mp-1008143"
+        },
+        {
+            "energy": -24.21112337,
+            "material_id": "mp-567808"
+        },
+        {
+            "energy": -23.48594777,
+            "material_id": "mp-567840"
+        },
+        {
+            "energy": -23.98985392,
+            "material_id": "mp-1068632"
+        },
+        {
+            "energy": -24.00082366,
+            "material_id": "mp-1068701"
+        },
+        {
+            "energy": -24.40734759,
+            "material_id": "mp-1068806"
+        },
+        {
+            "energy": -23.05017408,
+            "material_id": "mp-1068790"
+        },
+        {
+            "energy": -23.98836799,
+            "material_id": "mp-1068822"
+        },
+        {
+            "energy": -24.40821373,
+            "material_id": "mp-1068970"
+        },
+        {
+            "energy": -24.00046868,
+            "material_id": "mp-1068878"
+        },
+        {
+            "energy": -23.05780708,
+            "material_id": "mp-1068947"
+        },
+        {
+            "energy": -23.9828132,
+            "material_id": "mp-1070237"
+        },
+        {
+            "energy": -23.99246498,
+            "material_id": "mp-1070282"
+        },
+        {
+            "energy": -23.04585198,
+            "material_id": "mp-1070324"
+        },
+        {
+            "energy": -24.37607395,
+            "material_id": "mp-1070362"
+        },
+        {
+            "energy": -23.48701168,
+            "material_id": "mp-1432078"
+        },
+        {
+            "energy": -23.99967048,
+            "material_id": "mp-1437701"
+        },
+        {
+            "energy": -23.91181696,
+            "material_id": "mp-1590563"
+        },
+        {
+            "energy": -24.0014678,
+            "material_id": "mp-1674280"
+        },
+        {
+            "energy": -23.48363897,
+            "material_id": "mp-1695812"
+        },
+        {
+            "energy": -23.61128414,
+            "material_id": "mp-1592548"
+        },
+        {
+            "energy": -123.07819972,
+            "material_id": "mp-1127643"
+        },
+        {
+            "energy": -24.21826632,
+            "material_id": "mp-1798899"
+        },
+        {
+            "energy": -122.34931487,
+            "material_id": "mp-1164488"
+        },
+        {
+            "energy": -23.49050699,
+            "material_id": "mp-1931161"
+        },
+        {
+            "energy": -50.98735304,
+            "material_id": "mp-992401"
+        },
+        {
+            "energy": -51.2841836,
+            "material_id": "mp-995072"
+        },
+        {
+            "energy": -50.99025547,
+            "material_id": "mp-993976"
+        },
+        {
+            "energy": -50.99391227,
+            "material_id": "mp-20789"
+        },
+        {
+            "energy": -50.78635707,
+            "material_id": "mp-1116021"
+        },
+        {
+            "energy": -51.00264616,
+            "material_id": "mp-1423010"
+        },
+        {
+            "energy": -50.98933978,
+            "material_id": "mp-1695562"
+        },
+        {
+            "energy": -51.19688709,
+            "material_id": "mp-1600787"
+        },
+        {
+            "energy": -51.0026474,
+            "material_id": "mp-1829004"
+        },
+        {
+            "energy": -271.50933916,
+            "material_id": "mp-941771"
+        },
+        {
+            "energy": -271.48889746,
+            "material_id": "mp-941957"
+        },
+        {
+            "energy": -271.50063308,
+            "material_id": "mp-935110"
+        },
+        {
+            "energy": -271.46071546,
+            "material_id": "mp-573651"
+        },
+        {
+            "energy": -271.8762353,
+            "material_id": "mp-1336758"
+        },
+        {
+            "energy": -23.21304872,
+            "material_id": "mp-974443"
+        },
+        {
+            "energy": -23.11854607,
+            "material_id": "mp-974404"
+        },
+        {
+            "energy": -23.14730455,
+            "material_id": "mp-974428"
+        },
+        {
+            "energy": -23.11652098,
+            "material_id": "mp-974386"
+        },
+        {
+            "energy": -23.12221522,
+            "material_id": "mp-1432218"
+        },
+        {
+            "energy": -23.2140723,
+            "material_id": "mp-1617211"
+        },
+        {
+            "energy": -23.14760042,
+            "material_id": "mp-1764290"
+        },
+        {
+            "energy": -104.16405756,
+            "material_id": "mp-1159573"
+        },
+        {
+            "energy": -23.12225255,
+            "material_id": "mp-1876575"
+        },
+        {
+            "energy": -48.52975134,
+            "material_id": "mp-18972"
+        },
+        {
+            "energy": -387.45949137,
+            "material_id": "mp-554926"
+        },
+        {
+            "energy": -389.67468037,
+            "material_id": "mp-618578"
+        },
+        {
+            "energy": -389.67493426,
+            "material_id": "mp-681348"
+        },
+        {
+            "energy": -389.67389609,
+            "material_id": "mp-701541"
+        },
+        {
+            "energy": -389.64930065,
+            "material_id": "mp-712945"
+        },
+        {
+            "energy": -389.67418489,
+            "material_id": "mp-565780"
+        },
+        {
+            "energy": -389.46070012,
+            "material_id": "mp-1196833"
+        },
+        {
+            "energy": -365.07159228,
+            "material_id": "mp-1237534"
+        },
+        {
+            "energy": -411.50303631,
+            "material_id": "mp-555382"
+        },
+        {
+            "energy": -409.33688942,
+            "material_id": "mp-541507"
+        },
+        {
+            "energy": -387.28312219,
+            "material_id": "mp-1325397"
+        },
+        {
+            "energy": -359.6730841,
+            "material_id": "mp-1326047"
+        },
+        {
+            "energy": -384.33371727,
+            "material_id": "mp-1354069"
+        },
+        {
+            "energy": -861.72369081,
+            "material_id": "mp-1163593"
+        },
+        {
+            "energy": -108.29826111,
+            "material_id": "mp-1537406"
+        },
+        {
+            "energy": -108.32230488,
+            "material_id": "mp-1136732"
+        },
+        {
+            "energy": -387.66229053,
+            "material_id": "mp-1894768"
+        },
+        {
+            "energy": -48.53705079,
+            "material_id": "mp-1921231"
+        },
+        {
+            "energy": -602.00084707,
+            "material_id": "mp-665365"
+        },
+        {
+            "energy": -601.99207423,
+            "material_id": "mp-680346"
+        },
+        {
+            "energy": -602.00097621,
+            "material_id": "mp-657683"
+        },
+        {
+            "energy": -601.99887167,
+            "material_id": "mp-27893"
+        },
+        {
+            "energy": -602.07247267,
+            "material_id": "mp-1334065"
+        },
+        {
+            "energy": -602.06416465,
+            "material_id": "mp-1629253"
+        },
+        {
+            "energy": -648.42793641,
+            "material_id": "mp-1144400"
+        },
+        {
+            "energy": -602.07296912,
+            "material_id": "mp-1849494"
+        },
+        {
+            "energy": -81.34110109,
+            "material_id": "mp-943539"
+        },
+        {
+            "energy": -81.70756316,
+            "material_id": "mp-943390"
+        },
+        {
+            "energy": -81.71515064,
+            "material_id": "mp-933192"
+        },
+        {
+            "energy": -81.70366505,
+            "material_id": "mp-1006366"
+        },
+        {
+            "energy": -163.40250945,
+            "material_id": "mp-31163"
+        },
+        {
+            "energy": -163.31261273,
+            "material_id": "mp-1191035"
+        },
+        {
+            "energy": -163.34084259,
+            "material_id": "mp-1170763"
+        },
+        {
+            "energy": -163.34673465,
+            "material_id": "mp-1264161"
+        },
+        {
+            "energy": -81.67160126,
+            "material_id": "mp-1249069"
+        },
+        {
+            "energy": -81.72087139,
+            "material_id": "mp-1417347"
+        },
+        {
+            "energy": -163.32258082,
+            "material_id": "mp-1431723"
+        },
+        {
+            "energy": -81.71550036,
+            "material_id": "mp-1696565"
+        },
+        {
+            "energy": -81.49627882,
+            "material_id": "mp-1597279"
+        },
+        {
+            "energy": -163.62461115,
+            "material_id": "mp-1734989"
+        },
+        {
+            "energy": -1676.95052018,
+            "material_id": "mp-1263347"
+        },
+        {
+            "energy": -163.33743426,
+            "material_id": "mp-1249955"
+        },
+        {
+            "energy": -823.80949709,
+            "material_id": "mp-1264673"
+        },
+        {
+            "energy": -81.67004519,
+            "material_id": "mp-1253944"
+        },
+        {
+            "energy": -163.33922566,
+            "material_id": "mp-1875672"
+        },
+        {
+            "energy": -81.72154186,
+            "material_id": "mp-1934014"
+        },
+        {
+            "energy": -17.64451687,
+            "material_id": "mp-925855"
+        },
+        {
+            "energy": -20.18630495,
+            "material_id": "mp-909870"
+        },
+        {
+            "energy": -20.18691122,
+            "material_id": "mp-924887"
+        },
+        {
+            "energy": -80.22710752,
+            "material_id": "mp-679964"
+        },
+        {
+            "energy": -79.76768361,
+            "material_id": "mp-700896"
+        },
+        {
+            "energy": -80.22540236,
+            "material_id": "mp-665302"
+        },
+        {
+            "energy": -80.22840711,
+            "material_id": "mp-23164"
+        },
+        {
+            "energy": -20.18451219,
+            "material_id": "mp-541837"
+        },
+        {
+            "energy": -20.17535932,
+            "material_id": "mp-1068960"
+        },
+        {
+            "energy": -20.23604915,
+            "material_id": "mp-1069018"
+        },
+        {
+            "energy": -20.18122741,
+            "material_id": "mp-1068982"
+        },
+        {
+            "energy": -20.18680204,
+            "material_id": "mp-1069440"
+        },
+        {
+            "energy": -20.18680643,
+            "material_id": "mp-1069448"
+        },
+        {
+            "energy": -20.24461988,
+            "material_id": "mp-1069458"
+        },
+        {
+            "energy": -19.86277787,
+            "material_id": "mp-1069459"
+        },
+        {
+            "energy": -19.7456324,
+            "material_id": "mp-1069013"
+        },
+        {
+            "energy": -20.17721105,
+            "material_id": "mp-1070734"
+        },
+        {
+            "energy": -20.18316002,
+            "material_id": "mp-1070756"
+        },
+        {
+            "energy": -19.75155768,
+            "material_id": "mp-1070776"
+        },
+        {
+            "energy": -20.23600757,
+            "material_id": "mp-1070785"
+        },
+        {
+            "energy": -16.82947189,
+            "material_id": "mp-1182583"
+        },
+        {
+            "energy": -80.21614708,
+            "material_id": "mp-1141517"
+        },
+        {
+            "energy": -155.75025914,
+            "material_id": "mp-1198150"
+        },
+        {
+            "energy": -20.18363905,
+            "material_id": "mp-1142301"
+        },
+        {
+            "energy": -20.18106335,
+            "material_id": "mp-1237221"
+        },
+        {
+            "energy": -20.19889284,
+            "material_id": "mp-1439862"
+        },
+        {
+            "energy": -80.23723975,
+            "material_id": "mp-1423999"
+        },
+        {
+            "energy": -155.66707401,
+            "material_id": "mp-1358032"
+        },
+        {
+            "energy": -80.23884151,
+            "material_id": "mp-1675118"
+        },
+        {
+            "energy": -17.71433102,
+            "material_id": "mp-1590342"
+        },
+        {
+            "energy": -79.78497887,
+            "material_id": "mp-1610445"
+        },
+        {
+            "energy": -218.87891155,
+            "material_id": "mp-1243249"
+        },
+        {
+            "energy": -875.08065833,
+            "material_id": "mp-1143925"
+        },
+        {
+            "energy": -20.19891165,
+            "material_id": "mp-1780759"
+        },
+        {
+            "energy": -219.05695058,
+            "material_id": "mp-1536520"
+        },
+        {
+            "energy": -875.10029019,
+            "material_id": "mp-1546074"
+        },
+        {
+            "energy": -80.23752151,
+            "material_id": "mp-1887301"
+        },
+        {
+            "energy": -16.75750134,
+            "material_id": "mp-1832650"
+        },
+        {
+            "energy": -44.23635094,
+            "material_id": "mp-1079868"
+        },
+        {
+            "energy": -44.22629659,
+            "material_id": "mp-1248793"
+        },
+        {
+            "energy": -44.24027319,
+            "material_id": "mp-1300137"
+        },
+        {
+            "energy": -44.09898367,
+            "material_id": "mp-1601231"
+        },
+        {
+            "energy": -44.22455539,
+            "material_id": "mp-1688177"
+        },
+        {
+            "energy": -44.18661875,
+            "material_id": "mp-1264832"
+        },
+        {
+            "energy": -1197.57883539,
+            "material_id": "mp-1263208"
+        },
+        {
+            "energy": -44.24510682,
+            "material_id": "mp-1830078"
+        },
+        {
+            "energy": -59.54115847,
+            "material_id": "mp-701092"
+        },
+        {
+            "energy": -59.66242176,
+            "material_id": "mp-680894"
+        },
+        {
+            "energy": -59.65879697,
+            "material_id": "mp-712464"
+        },
+        {
+            "energy": -59.66142309,
+            "material_id": "mp-12265"
+        },
+        {
+            "energy": -59.83755894,
+            "material_id": "mp-1540818"
+        },
+        {
+            "energy": -59.80612368,
+            "material_id": "mp-1415188"
+        },
+        {
+            "energy": -59.83767453,
+            "material_id": "mp-1540102"
+        },
+        {
+            "energy": -59.62775315,
+            "material_id": "mp-1696652"
+        },
+        {
+            "energy": -59.62803989,
+            "material_id": "mp-1597924"
+        },
+        {
+            "energy": -139.66544222,
+            "material_id": "mp-1136937"
+        },
+        {
+            "energy": -59.80543072,
+            "material_id": "mp-1779601"
+        },
+        {
+            "energy": -217.10563892,
+            "material_id": "mp-662815"
+        },
+        {
+            "energy": -216.93417477,
+            "material_id": "mp-916509"
+        },
+        {
+            "energy": -216.95458268,
+            "material_id": "mp-931877"
+        },
+        {
+            "energy": -216.89011254,
+            "material_id": "mp-937225"
+        },
+        {
+            "energy": -36.39216103,
+            "material_id": "mp-656253"
+        },
+        {
+            "energy": -36.39011524,
+            "material_id": "mp-659418"
+        },
+        {
+            "energy": -36.0717476,
+            "material_id": "mp-664908"
+        },
+        {
+            "energy": -217.1027292,
+            "material_id": "mp-622375"
+        },
+        {
+            "energy": -36.3915362,
+            "material_id": "mp-20025"
+        },
+        {
+            "energy": -36.39301861,
+            "material_id": "mp-1078094"
+        },
+        {
+            "energy": -35.47025458,
+            "material_id": "mp-1078110"
+        },
+        {
+            "energy": -72.81755234,
+            "material_id": "mp-1115081"
+        },
+        {
+            "energy": -217.03775769,
+            "material_id": "mp-1181285"
+        },
+        {
+            "energy": -35.99892605,
+            "material_id": "mp-1221975"
+        },
+        {
+            "energy": -217.04924356,
+            "material_id": "mp-1197814"
+        },
+        {
+            "energy": -217.10049749,
+            "material_id": "mp-1237143"
+        },
+        {
+            "energy": -36.41020284,
+            "material_id": "mp-1417397"
+        },
+        {
+            "energy": -36.02018232,
+            "material_id": "mp-1443089"
+        },
+        {
+            "energy": -217.14677333,
+            "material_id": "mp-1353639"
+        },
+        {
+            "energy": -35.52023665,
+            "material_id": "mp-1300125"
+        },
+        {
+            "energy": -217.00388844,
+            "material_id": "mp-1369150"
+        },
+        {
+            "energy": -36.39938958,
+            "material_id": "mp-1701205"
+        },
+        {
+            "energy": -35.44429511,
+            "material_id": "mp-1619829"
+        },
+        {
+            "energy": -35.48678609,
+            "material_id": "mp-1688396"
+        },
+        {
+            "energy": -36.00964033,
+            "material_id": "mp-1752084"
+        },
+        {
+            "energy": -36.04739113,
+            "material_id": "mp-1588421"
+        },
+        {
+            "energy": -32.93967002,
+            "material_id": "mp-1602496"
+        },
+        {
+            "energy": -35.52016948,
+            "material_id": "mp-1780867"
+        },
+        {
+            "energy": -573.64014381,
+            "material_id": "mp-1161468"
+        },
+        {
+            "energy": -95.82756708,
+            "material_id": "mp-1525584"
+        },
+        {
+            "energy": -573.63975585,
+            "material_id": "mp-1159602"
+        },
+        {
+            "energy": -95.74263385,
+            "material_id": "mp-1153988"
+        },
+        {
+            "energy": -573.70145089,
+            "material_id": "mp-1546821"
+        },
+        {
+            "energy": -36.0203503,
+            "material_id": "mp-1867946"
+        },
+        {
+            "energy": -217.17937504,
+            "material_id": "mp-1872016"
+        },
+        {
+            "energy": -36.41038374,
+            "material_id": "mp-1929487"
+        },
+        {
+            "energy": -217.15343553,
+            "material_id": "mp-1896600"
+        },
+        {
+            "energy": -98.46061049,
+            "material_id": "mp-929143"
+        },
+        {
+            "energy": -98.44106898,
+            "material_id": "mp-912653"
+        },
+        {
+            "energy": -98.42049184,
+            "material_id": "mp-929525"
+        },
+        {
+            "energy": -99.48967246,
+            "material_id": "mp-30770"
+        },
+        {
+            "energy": -98.54413231,
+            "material_id": "mp-1349404"
+        },
+        {
+            "energy": -98.46714792,
+            "material_id": "mp-1599931"
+        },
+        {
+            "energy": -98.52785936,
+            "material_id": "mp-1678400"
+        },
+        {
+            "energy": -90.57443922,
+            "material_id": "mp-657986"
+        },
+        {
+            "energy": -90.58257179,
+            "material_id": "mp-666015"
+        },
+        {
+            "energy": -90.58593779,
+            "material_id": "mp-681335"
+        },
+        {
+            "energy": -90.57431128,
+            "material_id": "mp-582988"
+        },
+        {
+            "energy": -90.60356698,
+            "material_id": "mp-1385514"
+        },
+        {
+            "energy": -90.61798979,
+            "material_id": "mp-1654458"
+        },
+        {
+            "energy": -90.61146641,
+            "material_id": "mp-1742601"
+        },
+        {
+            "energy": -90.60142674,
+            "material_id": "mp-1897837"
+        },
+        {
+            "energy": -64.49202697,
+            "material_id": "mp-943077"
+        },
+        {
+            "energy": -64.89344335,
+            "material_id": "mp-932790"
+        },
+        {
+            "energy": -64.89484811,
+            "material_id": "mp-942062"
+        },
+        {
+            "energy": -64.68723045,
+            "material_id": "mp-30855"
+        },
+        {
+            "energy": -64.91868131,
+            "material_id": "mp-1078485"
+        },
+        {
+            "energy": -64.91834675,
+            "material_id": "mp-1079639"
+        },
+        {
+            "energy": -64.91756424,
+            "material_id": "mp-1092253"
+        },
+        {
+            "energy": -64.11272007,
+            "material_id": "mp-1299942"
+        },
+        {
+            "energy": -63.71718393,
+            "material_id": "mp-1595664"
+        },
+        {
+            "energy": -64.09372491,
+            "material_id": "mp-1687777"
+        },
+        {
+            "energy": -634.83678695,
+            "material_id": "mp-1524505"
+        },
+        {
+            "energy": -64.84444661,
+            "material_id": "mp-1924669"
+        },
+        {
+            "energy": -44.50315694,
+            "material_id": "mp-927806"
+        },
+        {
+            "energy": -43.62349342,
+            "material_id": "mp-911411"
+        },
+        {
+            "energy": -43.64652571,
+            "material_id": "mp-927372"
+        },
+        {
+            "energy": -43.62007984,
+            "material_id": "mp-30151"
+        },
+        {
+            "energy": -43.6565496,
+            "material_id": "mp-1435116"
+        },
+        {
+            "energy": -44.4611601,
+            "material_id": "mp-1604315"
+        },
+        {
+            "energy": -43.67336678,
+            "material_id": "mp-1670241"
+        },
+        {
+            "energy": -330.95894811,
+            "material_id": "mp-1231296"
+        },
+        {
+            "energy": -330.97143228,
+            "material_id": "mp-1139951"
+        },
+        {
+            "energy": -19.24961991,
+            "material_id": "mp-664169"
+        },
+        {
+            "energy": -18.88830355,
+            "material_id": "mp-679086"
+        },
+        {
+            "energy": -19.24905747,
+            "material_id": "mp-663541"
+        },
+        {
+            "energy": -19.24913636,
+            "material_id": "mp-23033"
+        },
+        {
+            "energy": -19.15103997,
+            "material_id": "mp-1141782"
+        },
+        {
+            "energy": -19.24933708,
+            "material_id": "mp-1438602"
+        },
+        {
+            "energy": -18.888575,
+            "material_id": "mp-1591833"
+        },
+        {
+            "energy": -19.24952929,
+            "material_id": "mp-1667995"
+        },
+        {
+            "energy": -19.24918749,
+            "material_id": "mp-1782244"
+        },
+        {
+            "energy": -68.52476556,
+            "material_id": "mp-1122042"
+        },
+        {
+            "energy": -45.25175777,
+            "material_id": "mp-680651"
+        },
+        {
+            "energy": -45.06191637,
+            "material_id": "mp-842883"
+        },
+        {
+            "energy": -45.23078987,
+            "material_id": "mp-665511"
+        },
+        {
+            "energy": -45.22985237,
+            "material_id": "mp-27303"
+        },
+        {
+            "energy": -45.25412153,
+            "material_id": "mp-1426587"
+        },
+        {
+            "energy": -45.27265871,
+            "material_id": "mp-1694953"
+        },
+        {
+            "energy": -45.09027824,
+            "material_id": "mp-1599763"
+        },
+        {
+            "energy": -228.61575323,
+            "material_id": "mp-1150351"
+        },
+        {
+            "energy": -45.25423022,
+            "material_id": "mp-1827458"
+        },
+        {
+            "energy": -33.55546779,
+            "material_id": "mp-1103949"
+        },
+        {
+            "energy": -395.65873969,
+            "material_id": "mp-1230762"
+        },
+        {
+            "energy": -33.67952454,
+            "material_id": "mp-1891763"
+        },
+        {
+            "energy": -11.76522071,
+            "material_id": "mp-972916"
+        },
+        {
+            "energy": -11.83810172,
+            "material_id": "mp-1010825"
+        },
+        {
+            "energy": -11.76006881,
+            "material_id": "mp-1005370"
+        },
+        {
+            "energy": -11.75996246,
+            "material_id": "mp-1005343"
+        },
+        {
+            "energy": -11.77146646,
+            "material_id": "mp-1185859"
+        },
+        {
+            "energy": -11.75631015,
+            "material_id": "mp-1434395"
+        },
+        {
+            "energy": -11.75616377,
+            "material_id": "mp-1791981"
+        },
+        {
+            "energy": -40.81515228,
+            "material_id": "mp-1160881"
+        },
+        {
+            "energy": -57.36326197,
+            "material_id": "mp-993921"
+        },
+        {
+            "energy": -57.59927048,
+            "material_id": "mp-991766"
+        },
+        {
+            "energy": -57.64034939,
+            "material_id": "mp-992305"
+        },
+        {
+            "energy": -57.59815614,
+            "material_id": "mp-551675"
+        },
+        {
+            "energy": -57.65040351,
+            "material_id": "mp-1416220"
+        },
+        {
+            "energy": -57.64450507,
+            "material_id": "mp-1699934"
+        },
+        {
+            "energy": -57.64995118,
+            "material_id": "mp-1798653"
+        },
+        {
+            "energy": -158.0391119,
+            "material_id": "mp-1128435"
+        },
+        {
+            "energy": -32.29085667,
+            "material_id": "mp-932179"
+        },
+        {
+            "energy": -33.01688113,
+            "material_id": "mp-13398"
+        },
+        {
+            "energy": -32.45697873,
+            "material_id": "mp-915469"
+        },
+        {
+            "energy": -32.47642182,
+            "material_id": "mp-931197"
+        },
+        {
+            "energy": -33.01769726,
+            "material_id": "mp-1069462"
+        },
+        {
+            "energy": -33.01773828,
+            "material_id": "mp-1069512"
+        },
+        {
+            "energy": -32.91496977,
+            "material_id": "mp-1069606"
+        },
+        {
+            "energy": -33.01714081,
+            "material_id": "mp-1069527"
+        },
+        {
+            "energy": -33.01814086,
+            "material_id": "mp-1069621"
+        },
+        {
+            "energy": -32.52911611,
+            "material_id": "mp-1069629"
+        },
+        {
+            "energy": -32.91343101,
+            "material_id": "mp-1069657"
+        },
+        {
+            "energy": -33.01793501,
+            "material_id": "mp-1069686"
+        },
+        {
+            "energy": -32.5253894,
+            "material_id": "mp-1069731"
+        },
+        {
+            "energy": -33.01690392,
+            "material_id": "mp-1069563"
+        },
+        {
+            "energy": -32.52811803,
+            "material_id": "mp-1069565"
+        },
+        {
+            "energy": -32.91642417,
+            "material_id": "mp-1069757"
+        },
+        {
+            "energy": -33.01804756,
+            "material_id": "mp-1070470"
+        },
+        {
+            "energy": -33.01817312,
+            "material_id": "mp-1070522"
+        },
+        {
+            "energy": -32.52175046,
+            "material_id": "mp-1070577"
+        },
+        {
+            "energy": -32.91753499,
+            "material_id": "mp-1070619"
+        },
+        {
+            "energy": -33.01755162,
+            "material_id": "mp-1124947"
+        },
+        {
+            "energy": -33.01706746,
+            "material_id": "mp-1132749"
+        },
+        {
+            "energy": -33.01697236,
+            "material_id": "mp-1257574"
+        },
+        {
+            "energy": -32.47172446,
+            "material_id": "mp-1439568"
+        },
+        {
+            "energy": -32.29317086,
+            "material_id": "mp-1591344"
+        },
+        {
+            "energy": -91.52888111,
+            "material_id": "mp-1258485"
+        },
+        {
+            "energy": -109.94771414,
+            "material_id": "mp-1152929"
+        },
+        {
+            "energy": -33.01552137,
+            "material_id": "mp-1258423"
+        },
+        {
+            "energy": -33.04041072,
+            "material_id": "mp-1802266"
+        },
+        {
+            "energy": -45.39657201,
+            "material_id": "mp-919836"
+        },
+        {
+            "energy": -45.55747581,
+            "material_id": "mp-918835"
+        },
+        {
+            "energy": -45.55382465,
+            "material_id": "mp-905889"
+        },
+        {
+            "energy": -45.55408143,
+            "material_id": "mp-12919"
+        },
+        {
+            "energy": -45.55637724,
+            "material_id": "mp-1070842"
+        },
+        {
+            "energy": -45.55220478,
+            "material_id": "mp-1070877"
+        },
+        {
+            "energy": -45.11576618,
+            "material_id": "mp-1070942"
+        },
+        {
+            "energy": -45.47364464,
+            "material_id": "mp-1070947"
+        },
+        {
+            "energy": -45.54614823,
+            "material_id": "mp-1426778"
+        },
+        {
+            "energy": -45.40940748,
+            "material_id": "mp-1591286"
+        },
+        {
+            "energy": -45.55720643,
+            "material_id": "mp-1700957"
+        },
+        {
+            "energy": -257.5387964,
+            "material_id": "mp-1131932"
+        },
+        {
+            "energy": -45.54596898,
+            "material_id": "mp-1928483"
+        },
+        {
+            "energy": -38.42820849,
+            "material_id": "mp-1185410"
+        },
+        {
+            "energy": -38.41479375,
+            "material_id": "mp-1417290"
+        },
+        {
+            "energy": -38.41477534,
+            "material_id": "mp-1791293"
+        },
+        {
+            "energy": -23.50161035,
+            "material_id": "mp-913040"
+        },
+        {
+            "energy": -23.50134354,
+            "material_id": "mp-929258"
+        },
+        {
+            "energy": -21.61293197,
+            "material_id": "mp-930125"
+        },
+        {
+            "energy": -23.49814734,
+            "material_id": "mp-11743"
+        },
+        {
+            "energy": -23.51088788,
+            "material_id": "mp-1115706"
+        },
+        {
+            "energy": -23.49517461,
+            "material_id": "mp-1427159"
+        },
+        {
+            "energy": -23.50445403,
+            "material_id": "mp-1696052"
+        },
+        {
+            "energy": -23.49504622,
+            "material_id": "mp-1802415"
+        },
+        {
+            "energy": -99.18548419,
+            "material_id": "mp-1150821"
+        },
+        {
+            "energy": -30.97224365,
+            "material_id": "mp-1077777"
+        },
+        {
+            "energy": -30.94393191,
+            "material_id": "mp-1420488"
+        },
+        {
+            "energy": -30.97800691,
+            "material_id": "mp-1697870"
+        },
+        {
+            "energy": -30.77484914,
+            "material_id": "mp-1592138"
+        },
+        {
+            "energy": -30.93183742,
+            "material_id": "mp-1827995"
+        },
+        {
+            "energy": -27.02162551,
+            "material_id": "mp-1064561"
+        },
+        {
+            "energy": -27.01007152,
+            "material_id": "mp-1064469"
+        },
+        {
+            "energy": -27.01066706,
+            "material_id": "mp-1064504"
+        },
+        {
+            "energy": -27.09285739,
+            "material_id": "mp-1064525"
+        },
+        {
+            "energy": -27.02180251,
+            "material_id": "mp-1438908"
+        },
+        {
+            "energy": -27.02774081,
+            "material_id": "mp-1677343"
+        },
+        {
+            "energy": -27.11821921,
+            "material_id": "mp-1593146"
+        },
+        {
+            "energy": -27.02318269,
+            "material_id": "mp-1781329"
+        },
+        {
+            "energy": -92.22639827,
+            "material_id": "mp-923405"
+        },
+        {
+            "energy": -93.07401128,
+            "material_id": "mp-908203"
+        },
+        {
+            "energy": -93.09045954,
+            "material_id": "mp-922643"
+        },
+        {
+            "energy": -93.07386119,
+            "material_id": "mp-28607"
+        },
+        {
+            "energy": -93.09563073,
+            "material_id": "mp-1434885"
+        },
+        {
+            "energy": -92.22120132,
+            "material_id": "mp-1592306"
+        },
+        {
+            "energy": -93.09320235,
+            "material_id": "mp-1700298"
+        },
+        {
+            "energy": -398.71815068,
+            "material_id": "mp-1129842"
+        },
+        {
+            "energy": -93.09555199,
+            "material_id": "mp-1802529"
+        },
+        {
+            "energy": -252.55532013,
+            "material_id": "mp-642279"
+        },
+        {
+            "energy": -252.53288953,
+            "material_id": "mp-914973"
+        },
+        {
+            "energy": -252.53306402,
+            "material_id": "mp-992087"
+        },
+        {
+            "energy": -252.65615193,
+            "material_id": "mp-992320"
+        },
+        {
+            "energy": -252.48569067,
+            "material_id": "mp-994035"
+        },
+        {
+            "energy": -252.59261828,
+            "material_id": "mp-1125186"
+        },
+        {
+            "energy": -252.5788989,
+            "material_id": "mp-1136368"
+        },
+        {
+            "energy": -252.35505047,
+            "material_id": "mp-1660018"
+        },
+        {
+            "energy": -252.73834281,
+            "material_id": "mp-1371741"
+        },
+        {
+            "energy": -252.40629478,
+            "material_id": "mp-1425788"
+        },
+        {
+            "energy": -252.85600499,
+            "material_id": "mp-1680082"
+        },
+        {
+            "energy": -252.48536764,
+            "material_id": "mp-1766311"
+        },
+        {
+            "energy": -252.73746249,
+            "material_id": "mp-1840863"
+        },
+        {
+            "energy": -252.41349257,
+            "material_id": "mp-1842664"
+        },
+        {
+            "energy": -184.77376875,
+            "material_id": "mp-664231"
+        },
+        {
+            "energy": -184.77331357,
+            "material_id": "mp-641703"
+        },
+        {
+            "energy": -184.88156468,
+            "material_id": "mp-700377"
+        },
+        {
+            "energy": -184.77351445,
+            "material_id": "mp-679202"
+        },
+        {
+            "energy": -184.87546014,
+            "material_id": "mp-1340982"
+        },
+        {
+            "energy": -349.36471553,
+            "material_id": "mp-1165985"
+        },
+        {
+            "energy": -184.87627835,
+            "material_id": "mp-1920487"
+        },
+        {
+            "energy": -47.08079342,
+            "material_id": "mp-929545"
+        },
+        {
+            "energy": -48.36309212,
+            "material_id": "mp-912856"
+        },
+        {
+            "energy": -48.39356581,
+            "material_id": "mp-929178"
+        },
+        {
+            "energy": -48.34921813,
+            "material_id": "mp-11594"
+        },
+        {
+            "energy": -48.38115959,
+            "material_id": "mp-1416025"
+        },
+        {
+            "energy": -48.39691517,
+            "material_id": "mp-1702657"
+        },
+        {
+            "energy": -47.10126102,
+            "material_id": "mp-1589748"
+        },
+        {
+            "energy": -48.38171299,
+            "material_id": "mp-1801655"
+        },
+        {
+            "energy": -276.39437898,
+            "material_id": "mp-1128688"
+        },
+        {
+            "energy": -34.54287863,
+            "material_id": "mp-977932"
+        },
+        {
+            "energy": -34.53732159,
+            "material_id": "mp-914556"
+        },
+        {
+            "energy": -34.45539737,
+            "material_id": "mp-992512"
+        },
+        {
+            "energy": -34.54840556,
+            "material_id": "mp-12780"
+        },
+        {
+            "energy": -34.48139979,
+            "material_id": "mp-1424781"
+        },
+        {
+            "energy": -34.54790572,
+            "material_id": "mp-1697860"
+        },
+        {
+            "energy": -34.46128607,
+            "material_id": "mp-1599172"
+        },
+        {
+            "energy": -394.28190457,
+            "material_id": "mp-1170147"
+        },
+        {
+            "energy": -34.60722611,
+            "material_id": "mp-1870475"
+        },
+        {
+            "energy": -407.6502603,
+            "material_id": "mp-852685"
+        },
+        {
+            "energy": -407.65009797,
+            "material_id": "mp-768457"
+        },
+        {
+            "energy": -407.65072743,
+            "material_id": "mp-855570"
+        },
+        {
+            "energy": -407.65245789,
+            "material_id": "mp-995913"
+        },
+        {
+            "energy": -203.88112203,
+            "material_id": "mp-852696"
+        },
+        {
+            "energy": -203.87126117,
+            "material_id": "mp-995262"
+        },
+        {
+            "energy": -203.88119907,
+            "material_id": "mp-855577"
+        },
+        {
+            "energy": -203.64668383,
+            "material_id": "mp-852695"
+        },
+        {
+            "energy": -203.6638615,
+            "material_id": "mp-856457"
+        },
+        {
+            "energy": -203.64786073,
+            "material_id": "mp-768500"
+        },
+        {
+            "energy": -203.87942875,
+            "material_id": "mp-768486"
+        },
+        {
+            "energy": -203.64703958,
+            "material_id": "mp-855635"
+        },
+        {
+            "energy": -813.32464618,
+            "material_id": "mp-794420"
+        },
+        {
+            "energy": -813.31417752,
+            "material_id": "mp-777615"
+        },
+        {
+            "energy": -813.32415695,
+            "material_id": "mp-795162"
+        },
+        {
+            "energy": -813.32281098,
+            "material_id": "mp-792571"
+        },
+        {
+            "energy": -408.14883008,
+            "material_id": "mp-846992"
+        },
+        {
+            "energy": -408.25015365,
+            "material_id": "mp-705546"
+        },
+        {
+            "energy": -408.25132332,
+            "material_id": "mp-846373"
+        },
+        {
+            "energy": -408.18418708,
+            "material_id": "mp-719442"
+        },
+        {
+            "energy": -202.48085203,
+            "material_id": "mp-852681"
+        },
+        {
+            "energy": -202.48129337,
+            "material_id": "mp-855571"
+        },
+        {
+            "energy": -202.48082285,
+            "material_id": "mp-768484"
+        },
+        {
+            "energy": -408.214104,
+            "material_id": "mp-27339"
+        },
+        {
+            "energy": -813.76461579,
+            "material_id": "mp-1337737"
+        },
+        {
+            "energy": -203.75136535,
+            "material_id": "mp-1358106"
+        },
+        {
+            "energy": -203.98632704,
+            "material_id": "mp-1359931"
+        },
+        {
+            "energy": -408.48978848,
+            "material_id": "mp-1351082"
+        },
+        {
+            "energy": -202.5910265,
+            "material_id": "mp-1355968"
+        },
+        {
+            "energy": -407.86032586,
+            "material_id": "mp-1326726"
+        },
+        {
+            "energy": -407.88411254,
+            "material_id": "mp-1637561"
+        },
+        {
+            "energy": -203.75156016,
+            "material_id": "mp-1680054"
+        },
+        {
+            "energy": -408.48904215,
+            "material_id": "mp-1683744"
+        },
+        {
+            "energy": -809.25683042,
+            "material_id": "mp-1169558"
+        },
+        {
+            "energy": -402.6213946,
+            "material_id": "mp-1142729"
+        },
+        {
+            "energy": -807.8067931,
+            "material_id": "mp-1169621"
+        },
+        {
+            "energy": -402.53764138,
+            "material_id": "mp-1241435"
+        },
+        {
+            "energy": -403.95663031,
+            "material_id": "mp-1242497"
+        },
+        {
+            "energy": -403.96134067,
+            "material_id": "mp-1163639"
+        },
+        {
+            "energy": -403.97740513,
+            "material_id": "mp-1163178"
+        },
+        {
+            "energy": -202.59115942,
+            "material_id": "mp-1930644"
+        },
+        {
+            "energy": -203.75137086,
+            "material_id": "mp-1889274"
+        },
+        {
+            "energy": -203.98790484,
+            "material_id": "mp-1872861"
+        },
+        {
+            "energy": -407.8605278,
+            "material_id": "mp-1850198"
+        },
+        {
+            "energy": -408.48717517,
+            "material_id": "mp-1894766"
+        },
+        {
+            "energy": -54.76632311,
+            "material_id": "mp-918943"
+        },
+        {
+            "energy": -54.76277938,
+            "material_id": "mp-906090"
+        },
+        {
+            "energy": -55.9536628,
+            "material_id": "mp-919951"
+        },
+        {
+            "energy": -54.77515904,
+            "material_id": "mp-13070"
+        },
+        {
+            "energy": -54.75941097,
+            "material_id": "mp-1253282"
+        },
+        {
+            "energy": -54.79102794,
+            "material_id": "mp-1403972"
+        },
+        {
+            "energy": -55.99880935,
+            "material_id": "mp-1620738"
+        },
+        {
+            "energy": -54.76456187,
+            "material_id": "mp-1754451"
+        },
+        {
+            "energy": -96.81317932,
+            "material_id": "mp-1124804"
+        },
+        {
+            "energy": -19.24657292,
+            "material_id": "mp-1257315"
+        },
+        {
+            "energy": -54.78811707,
+            "material_id": "mp-1262105"
+        },
+        {
+            "energy": -54.79091661,
+            "material_id": "mp-1878535"
+        },
+        {
+            "energy": -18.13664486,
+            "material_id": "mp-993700"
+        },
+        {
+            "energy": -17.62896597,
+            "material_id": "mp-995013"
+        },
+        {
+            "energy": -18.1365738,
+            "material_id": "mp-991956"
+        },
+        {
+            "energy": -18.09352412,
+            "material_id": "mp-2436"
+        },
+        {
+            "energy": -18.15690922,
+            "material_id": "mp-1440498"
+        },
+        {
+            "energy": -17.7061458,
+            "material_id": "mp-1595692"
+        },
+        {
+            "energy": -18.19999723,
+            "material_id": "mp-1695483"
+        },
+        {
+            "energy": -123.14244588,
+            "material_id": "mp-1538351"
+        },
+        {
+            "energy": -18.09187765,
+            "material_id": "mp-1803794"
+        },
+        {
+            "energy": -122.93211144,
+            "material_id": "mp-1167517"
+        },
+        {
+            "energy": -20.65911182,
+            "material_id": "mp-1070583"
+        },
+        {
+            "energy": -20.66802603,
+            "material_id": "mp-1070677"
+        },
+        {
+            "energy": -20.21440809,
+            "material_id": "mp-1070717"
+        },
+        {
+            "energy": -20.4597308,
+            "material_id": "mp-1070768"
+        },
+        {
+            "energy": -20.65104404,
+            "material_id": "mp-1424480"
+        },
+        {
+            "energy": -21.26598518,
+            "material_id": "mp-1588467"
+        },
+        {
+            "energy": -20.67701606,
+            "material_id": "mp-1700485"
+        },
+        {
+            "energy": -330.6089509,
+            "material_id": "mp-1538260"
+        },
+        {
+            "energy": -20.66896124,
+            "material_id": "mp-1796508"
+        },
+        {
+            "energy": -243.33044247,
+            "material_id": "mp-1186271"
+        },
+        {
+            "energy": -10.84801628,
+            "material_id": "mp-1011681"
+        },
+        {
+            "energy": -11.70120317,
+            "material_id": "mp-1000500"
+        },
+        {
+            "energy": -11.70258605,
+            "material_id": "mp-1006973"
+        },
+        {
+            "energy": -11.70512733,
+            "material_id": "mp-13272"
+        },
+        {
+            "energy": -11.60022454,
+            "material_id": "mp-1115786"
+        },
+        {
+            "energy": -11.61019576,
+            "material_id": "mp-1263090"
+        },
+        {
+            "energy": -11.71524594,
+            "material_id": "mp-1438909"
+        },
+        {
+            "energy": -10.77256882,
+            "material_id": "mp-1590383"
+        },
+        {
+            "energy": -11.70086761,
+            "material_id": "mp-1667949"
+        },
+        {
+            "energy": -1.87515072,
+            "material_id": "mp-1259078"
+        },
+        {
+            "energy": -67.93786484,
+            "material_id": "mp-1150839"
+        },
+        {
+            "energy": -11.61022079,
+            "material_id": "mp-1258971"
+        },
+        {
+            "energy": -11.71523779,
+            "material_id": "mp-1782675"
+        },
+        {
+            "energy": -67.93761263,
+            "material_id": "mp-1239912"
+        },
+        {
+            "energy": -552.61893771,
+            "material_id": "mp-665869"
+        },
+        {
+            "energy": -552.61838266,
+            "material_id": "mp-8796"
+        },
+        {
+            "energy": -552.58117022,
+            "material_id": "mp-1000217"
+        },
+        {
+            "energy": -552.62054318,
+            "material_id": "mp-681216"
+        },
+        {
+            "energy": -552.80220247,
+            "material_id": "mp-1350424"
+        },
+        {
+            "energy": -832.22186691,
+            "material_id": "mp-1157954"
+        },
+        {
+            "energy": -552.70306382,
+            "material_id": "mp-1897512"
+        },
+        {
+            "energy": -12.39743219,
+            "material_id": "mp-990480"
+        },
+        {
+            "energy": -12.39743219,
+            "material_id": "mp-22263"
+        },
+        {
+            "energy": -11.85970542,
+            "material_id": "mp-1419355"
+        },
+        {
+            "energy": -11.7436136,
+            "material_id": "mp-1587664"
+        },
+        {
+            "energy": -11.84968903,
+            "material_id": "mp-1700652"
+        },
+        {
+            "energy": -192.53425842,
+            "material_id": "mp-1149410"
+        },
+        {
+            "energy": -12.39923905,
+            "material_id": "mp-1833255"
+        },
+        {
+            "energy": -71.04464298,
+            "material_id": "mp-1007150"
+        },
+        {
+            "energy": -71.18873021,
+            "material_id": "mp-1011886"
+        },
+        {
+            "energy": -71.10605565,
+            "material_id": "mp-778"
+        },
+        {
+            "energy": -71.10866783,
+            "material_id": "mp-1000691"
+        },
+        {
+            "energy": -142.23195935,
+            "material_id": "mp-1189340"
+        },
+        {
+            "energy": -71.18034274,
+            "material_id": "mp-1442345"
+        },
+        {
+            "energy": -71.18561994,
+            "material_id": "mp-1594194"
+        },
+        {
+            "energy": -71.03903797,
+            "material_id": "mp-1671253"
+        },
+        {
+            "energy": -71.18011215,
+            "material_id": "mp-1796073"
+        },
+        {
+            "energy": -143.60231143,
+            "material_id": "mp-1135635"
+        },
+        {
+            "energy": -143.75607984,
+            "material_id": "mp-1525605"
+        },
+        {
+            "energy": -142.36976555,
+            "material_id": "mp-1834902"
+        },
+        {
+            "energy": -68.9525333,
+            "material_id": "mp-9808"
+        },
+        {
+            "energy": -68.83163643,
+            "material_id": "mp-671087"
+        },
+        {
+            "energy": -68.95293362,
+            "material_id": "mp-661614"
+        },
+        {
+            "energy": -138.18714356,
+            "material_id": "mp-1115375"
+        },
+        {
+            "energy": -67.00342127,
+            "material_id": "mp-32163"
+        },
+        {
+            "energy": -69.05827206,
+            "material_id": "mp-1429770"
+        },
+        {
+            "energy": -69.02328766,
+            "material_id": "mp-1598367"
+        },
+        {
+            "energy": -69.05938339,
+            "material_id": "mp-1697169"
+        },
+        {
+            "energy": -163.09108431,
+            "material_id": "mp-1128069"
+        },
+        {
+            "energy": -69.05803749,
+            "material_id": "mp-1789267"
+        },
+        {
+            "energy": -15.18269132,
+            "material_id": "mp-935050"
+        },
+        {
+            "energy": -14.66149236,
+            "material_id": "mp-941881"
+        },
+        {
+            "energy": -15.19237952,
+            "material_id": "mp-941737"
+        },
+        {
+            "energy": -15.22681937,
+            "material_id": "mp-11483"
+        },
+        {
+            "energy": -15.14824113,
+            "material_id": "mp-1439221"
+        },
+        {
+            "energy": -14.67079692,
+            "material_id": "mp-1586297"
+        },
+        {
+            "energy": -15.19965354,
+            "material_id": "mp-1687400"
+        },
+        {
+            "energy": -15.23019288,
+            "material_id": "mp-1791337"
+        },
+        {
+            "energy": -125.32411203,
+            "material_id": "mp-1524249"
+        },
+        {
+            "energy": -125.32264844,
+            "material_id": "mp-1165068"
+        },
+        {
+            "energy": -48.03394484,
+            "material_id": "mp-20700"
+        },
+        {
+            "energy": -48.04154632,
+            "material_id": "mp-1070408"
+        },
+        {
+            "energy": -48.0506353,
+            "material_id": "mp-1070593"
+        },
+        {
+            "energy": -46.59465553,
+            "material_id": "mp-1070674"
+        },
+        {
+            "energy": -48.0614672,
+            "material_id": "mp-1070712"
+        },
+        {
+            "energy": -48.0573743,
+            "material_id": "mp-1133340"
+        },
+        {
+            "energy": -42.91163013,
+            "material_id": "mp-1439888"
+        },
+        {
+            "energy": -40.83292545,
+            "material_id": "mp-1593983"
+        },
+        {
+            "energy": -227.30091365,
+            "material_id": "mp-1171575"
+        },
+        {
+            "energy": -42.97062256,
+            "material_id": "mp-1783983"
+        },
+        {
+            "energy": -51.8704337,
+            "material_id": "mp-560449"
+        },
+        {
+            "energy": -54.55928028,
+            "material_id": "mp-835825"
+        },
+        {
+            "energy": -54.90142645,
+            "material_id": "mp-835041"
+        },
+        {
+            "energy": -55.11301693,
+            "material_id": "mp-825465"
+        },
+        {
+            "energy": -50.96143173,
+            "material_id": "mp-1381430"
+        },
+        {
+            "energy": -50.6265003,
+            "material_id": "mp-1601930"
+        },
+        {
+            "energy": -50.96145053,
+            "material_id": "mp-1676597"
+        },
+        {
+            "energy": -114.58199177,
+            "material_id": "mp-1156942"
+        },
+        {
+            "energy": -52.3733681,
+            "material_id": "mp-1787034"
+        },
+        {
+            "energy": -25.71947517,
+            "material_id": "mp-991352"
+        },
+        {
+            "energy": -24.66077225,
+            "material_id": "mp-994606"
+        },
+        {
+            "energy": -25.72273306,
+            "material_id": "mp-993293"
+        },
+        {
+            "energy": -25.71739494,
+            "material_id": "mp-21242"
+        },
+        {
+            "energy": -25.72959021,
+            "material_id": "mp-1431396"
+        },
+        {
+            "energy": -25.7236302,
+            "material_id": "mp-1700490"
+        },
+        {
+            "energy": -25.72960799,
+            "material_id": "mp-1777623"
+        },
+        {
+            "energy": -22.09078048,
+            "material_id": "mp-613509"
+        },
+        {
+            "energy": -21.72646854,
+            "material_id": "mp-665229"
+        },
+        {
+            "energy": -22.02164031,
+            "material_id": "mp-665179"
+        },
+        {
+            "energy": -22.09079309,
+            "material_id": "mp-665212"
+        },
+        {
+            "energy": -22.02208669,
+            "material_id": "mp-288"
+        },
+        {
+            "energy": -22.02202137,
+            "material_id": "mp-558811"
+        },
+        {
+            "energy": -22.02292452,
+            "material_id": "mp-1140886"
+        },
+        {
+            "energy": -87.43470754,
+            "material_id": "mp-1205321"
+        },
+        {
+            "energy": -87.4972071,
+            "material_id": "mp-1380882"
+        },
+        {
+            "energy": -22.0375486,
+            "material_id": "mp-1439644"
+        },
+        {
+            "energy": -87.57226502,
+            "material_id": "mp-1603464"
+        },
+        {
+            "energy": -21.75159766,
+            "material_id": "mp-1587511"
+        },
+        {
+            "energy": -87.70951621,
+            "material_id": "mp-1677079"
+        },
+        {
+            "energy": -22.10006497,
+            "material_id": "mp-1672136"
+        },
+        {
+            "energy": -647.48379389,
+            "material_id": "mp-1544239"
+        },
+        {
+            "energy": -22.04370618,
+            "material_id": "mp-1799646"
+        },
+        {
+            "energy": -162.06071112,
+            "material_id": "mp-1162708"
+        },
+        {
+            "energy": -162.06072583,
+            "material_id": "mp-1162985"
+        },
+        {
+            "energy": -161.8577938,
+            "material_id": "mp-1536189"
+        },
+        {
+            "energy": -162.06288806,
+            "material_id": "mp-1243095"
+        },
+        {
+            "energy": -87.50006957,
+            "material_id": "mp-1935076"
+        },
+        {
+            "energy": -80.30576991,
+            "material_id": "mp-926287"
+        },
+        {
+            "energy": -80.11671935,
+            "material_id": "mp-926810"
+        },
+        {
+            "energy": -80.30287921,
+            "material_id": "mp-910466"
+        },
+        {
+            "energy": -80.30182205,
+            "material_id": "mp-22522"
+        },
+        {
+            "energy": -80.2721497,
+            "material_id": "mp-1101956"
+        },
+        {
+            "energy": -80.28453916,
+            "material_id": "mp-1144407"
+        },
+        {
+            "energy": -80.27404025,
+            "material_id": "mp-1267114"
+        },
+        {
+            "energy": -80.30750386,
+            "material_id": "mp-1382615"
+        },
+        {
+            "energy": -80.31265734,
+            "material_id": "mp-1676084"
+        },
+        {
+            "energy": -80.12899877,
+            "material_id": "mp-1599746"
+        },
+        {
+            "energy": -80.27630515,
+            "material_id": "mp-1258160"
+        },
+        {
+            "energy": -80.3005291,
+            "material_id": "mp-1788569"
+        },
+        {
+            "energy": -232.24341638,
+            "material_id": "mp-1230498"
+        },
+        {
+            "energy": -52.80474411,
+            "material_id": "mp-1260568"
+        },
+        {
+            "energy": -232.24332136,
+            "material_id": "mp-1121422"
+        },
+        {
+            "energy": -12.02035856,
+            "material_id": "mp-687762"
+        },
+        {
+            "energy": -12.01978309,
+            "material_id": "mp-665"
+        },
+        {
+            "energy": -12.01977962,
+            "material_id": "mp-671218"
+        },
+        {
+            "energy": -10.53002225,
+            "material_id": "mp-687863"
+        },
+        {
+            "energy": -13.79495173,
+            "material_id": "mp-1140668"
+        },
+        {
+            "energy": -12.02086504,
+            "material_id": "mp-1540927"
+        },
+        {
+            "energy": -12.01860284,
+            "material_id": "mp-1440081"
+        },
+        {
+            "energy": -12.01021962,
+            "material_id": "mp-1541907"
+        },
+        {
+            "energy": -10.53139699,
+            "material_id": "mp-1597037"
+        },
+        {
+            "energy": -12.01820873,
+            "material_id": "mp-1686422"
+        },
+        {
+            "energy": -77.10918184,
+            "material_id": "mp-1524911"
+        },
+        {
+            "energy": -77.07634256,
+            "material_id": "mp-1136903"
+        },
+        {
+            "energy": -12.01868415,
+            "material_id": "mp-1783848"
+        },
+        {
+            "energy": -42.6061688,
+            "material_id": "mp-907386"
+        },
+        {
+            "energy": -42.60105198,
+            "material_id": "mp-920798"
+        },
+        {
+            "energy": -42.5939026,
+            "material_id": "mp-921823"
+        },
+        {
+            "energy": -42.87815929,
+            "material_id": "mp-20779"
+        },
+        {
+            "energy": -42.64308026,
+            "material_id": "mp-1426726"
+        },
+        {
+            "energy": -42.59421051,
+            "material_id": "mp-1697602"
+        },
+        {
+            "energy": -255.98629843,
+            "material_id": "mp-1126411"
+        },
+        {
+            "energy": -42.98402102,
+            "material_id": "mp-1776133"
+        },
+        {
+            "energy": -23.46493782,
+            "material_id": "mp-928778"
+        },
+        {
+            "energy": -23.35803101,
+            "material_id": "mp-928241"
+        },
+        {
+            "energy": -23.35557859,
+            "material_id": "mp-912228"
+        },
+        {
+            "energy": -23.4349885,
+            "material_id": "mp-20735"
+        },
+        {
+            "energy": -22.26992111,
+            "material_id": "mp-1226850"
+        },
+        {
+            "energy": -23.45240017,
+            "material_id": "mp-1437929"
+        },
+        {
+            "energy": -22.33749682,
+            "material_id": "mp-1390129"
+        },
+        {
+            "energy": -23.38945817,
+            "material_id": "mp-1674211"
+        },
+        {
+            "energy": -23.45098563,
+            "material_id": "mp-1589843"
+        },
+        {
+            "energy": -22.40935132,
+            "material_id": "mp-1760264"
+        },
+        {
+            "energy": -22.2509217,
+            "material_id": "mp-1624219"
+        },
+        {
+            "energy": -22.33676376,
+            "material_id": "mp-1803574"
+        },
+        {
+            "energy": -23.45774582,
+            "material_id": "mp-1803167"
+        },
+        {
+            "energy": -171.73793668,
+            "material_id": "mp-1537649"
+        },
+        {
+            "energy": -12.23100692,
+            "material_id": "mp-920812"
+        },
+        {
+            "energy": -12.77085184,
+            "material_id": "mp-921863"
+        },
+        {
+            "energy": -12.17193783,
+            "material_id": "mp-613384"
+        },
+        {
+            "energy": -12.22512758,
+            "material_id": "mp-907438"
+        },
+        {
+            "energy": -44.17778159,
+            "material_id": "mp-669316"
+        },
+        {
+            "energy": -44.10699044,
+            "material_id": "mp-689455"
+        },
+        {
+            "energy": -41.68750715,
+            "material_id": "mp-665298"
+        },
+        {
+            "energy": -44.11372068,
+            "material_id": "mp-28295"
+        },
+        {
+            "energy": -44.19042469,
+            "material_id": "mp-1114969"
+        },
+        {
+            "energy": -44.15690986,
+            "material_id": "mp-1432625"
+        },
+        {
+            "energy": -12.24640106,
+            "material_id": "mp-1422530"
+        },
+        {
+            "energy": -12.19784523,
+            "material_id": "mp-1704790"
+        },
+        {
+            "energy": -12.65072879,
+            "material_id": "mp-1592201"
+        },
+        {
+            "energy": -44.07693966,
+            "material_id": "mp-1600789"
+        },
+        {
+            "energy": -44.15268311,
+            "material_id": "mp-1700880"
+        },
+        {
+            "energy": -197.16870196,
+            "material_id": "mp-1168157"
+        },
+        {
+            "energy": -44.15701017,
+            "material_id": "mp-1788345"
+        },
+        {
+            "energy": -88.29859554,
+            "material_id": "mp-1126574"
+        },
+        {
+            "energy": -12.18639486,
+            "material_id": "mp-1781982"
+        },
+        {
+            "energy": -273.70861106,
+            "material_id": "mp-733325"
+        },
+        {
+            "energy": -273.53403182,
+            "material_id": "mp-737055"
+        },
+        {
+            "energy": -273.70766058,
+            "material_id": "mp-707535"
+        },
+        {
+            "energy": -273.7086797,
+            "material_id": "mp-728775"
+        },
+        {
+            "energy": -273.44477899,
+            "material_id": "mp-1181584"
+        },
+        {
+            "energy": -274.27511676,
+            "material_id": "mp-1197174"
+        },
+        {
+            "energy": -264.06109972,
+            "material_id": "mp-1204989"
+        },
+        {
+            "energy": -273.77186848,
+            "material_id": "mp-1388362"
+        },
+        {
+            "energy": -273.87101076,
+            "material_id": "mp-1369030"
+        },
+        {
+            "energy": -264.27605971,
+            "material_id": "mp-1346666"
+        },
+        {
+            "energy": -273.77236673,
+            "material_id": "mp-1727476"
+        },
+        {
+            "energy": -304.26030299,
+            "material_id": "mp-1171233"
+        },
+        {
+            "energy": -264.2773962,
+            "material_id": "mp-1872275"
+        },
+        {
+            "energy": -273.7731078,
+            "material_id": "mp-1842058"
+        },
+        {
+            "energy": -273.87134963,
+            "material_id": "mp-1819337"
+        },
+        {
+            "energy": -38.27661335,
+            "material_id": "mp-926337"
+        },
+        {
+            "energy": -38.27206217,
+            "material_id": "mp-910583"
+        },
+        {
+            "energy": -37.6512183,
+            "material_id": "mp-926882"
+        },
+        {
+            "energy": -38.28323195,
+            "material_id": "mp-19959"
+        },
+        {
+            "energy": -38.26558911,
+            "material_id": "mp-1413775"
+        },
+        {
+            "energy": -37.54063036,
+            "material_id": "mp-1587791"
+        },
+        {
+            "energy": -38.27508476,
+            "material_id": "mp-1701254"
+        },
+        {
+            "energy": -38.26679808,
+            "material_id": "mp-1786009"
+        },
+        {
+            "energy": -185.34912012,
+            "material_id": "mp-1166045"
+        },
+        {
+            "energy": -93.49909557,
+            "material_id": "mp-937115"
+        },
+        {
+            "energy": -94.39616913,
+            "material_id": "mp-941526"
+        },
+        {
+            "energy": -93.36225713,
+            "material_id": "mp-941220"
+        },
+        {
+            "energy": -96.85380409,
+            "material_id": "mp-510140"
+        },
+        {
+            "energy": -93.90399528,
+            "material_id": "mp-1835695"
+        },
+        {
+            "energy": -71.43485164,
+            "material_id": "mp-1102075"
+        },
+        {
+            "energy": -71.4561868,
+            "material_id": "mp-1434695"
+        },
+        {
+            "energy": -71.40729665,
+            "material_id": "mp-1597295"
+        },
+        {
+            "energy": -71.45671313,
+            "material_id": "mp-1699041"
+        },
+        {
+            "energy": -71.4562892,
+            "material_id": "mp-1930863"
+        },
+        {
+            "energy": -40.48713343,
+            "material_id": "mp-669744"
+        },
+        {
+            "energy": -40.77320136,
+            "material_id": "mp-689025"
+        },
+        {
+            "energy": -40.55786574,
+            "material_id": "mp-842511"
+        },
+        {
+            "energy": -40.77321716,
+            "material_id": "mp-842995"
+        },
+        {
+            "energy": -40.48713457,
+            "material_id": "mp-4009"
+        },
+        {
+            "energy": -40.57118539,
+            "material_id": "mp-1140062"
+        },
+        {
+            "energy": -19.61414842,
+            "material_id": "mp-1232297"
+        },
+        {
+            "energy": -19.65221725,
+            "material_id": "mp-1414588"
+        },
+        {
+            "energy": -40.50406741,
+            "material_id": "mp-1415337"
+        },
+        {
+            "energy": -39.08413031,
+            "material_id": "mp-1588222"
+        },
+        {
+            "energy": -18.81409336,
+            "material_id": "mp-1615632"
+        },
+        {
+            "energy": -19.04716917,
+            "material_id": "mp-1716449"
+        },
+        {
+            "energy": -40.56754937,
+            "material_id": "mp-1697969"
+        },
+        {
+            "energy": -194.5624825,
+            "material_id": "mp-1167195"
+        },
+        {
+            "energy": -40.50405878,
+            "material_id": "mp-1788680"
+        },
+        {
+            "energy": -19.61683405,
+            "material_id": "mp-1797243"
+        },
+        {
+            "energy": -15.40922375,
+            "material_id": "mp-11422"
+        },
+        {
+            "energy": -15.41520923,
+            "material_id": "mp-1439681"
+        },
+        {
+            "energy": -15.64609387,
+            "material_id": "mp-1588690"
+        },
+        {
+            "energy": -128.24724305,
+            "material_id": "mp-1164932"
+        },
+        {
+            "energy": -128.29893978,
+            "material_id": "mp-1523487"
+        },
+        {
+            "energy": -15.40115563,
+            "material_id": "mp-1791003"
+        },
+        {
+            "energy": -282.89671064,
+            "material_id": "mp-1201065"
+        },
+        {
+            "energy": -283.89038263,
+            "material_id": "mp-1327891"
+        },
+        {
+            "energy": -283.00285995,
+            "material_id": "mp-1929731"
+        },
+        {
+            "energy": -49.89332519,
+            "material_id": "mp-924829"
+        },
+        {
+            "energy": -49.97308011,
+            "material_id": "mp-925356"
+        },
+        {
+            "energy": -49.88507575,
+            "material_id": "mp-909797"
+        },
+        {
+            "energy": -50.18341578,
+            "material_id": "mp-3048"
+        },
+        {
+            "energy": -50.19249788,
+            "material_id": "mp-1437618"
+        },
+        {
+            "energy": -50.18326198,
+            "material_id": "mp-1677669"
+        },
+        {
+            "energy": -50.20633213,
+            "material_id": "mp-1588332"
+        },
+        {
+            "energy": -50.19243068,
+            "material_id": "mp-1860717"
+        },
+        {
+            "energy": -18.71171881,
+            "material_id": "mp-657137"
+        },
+        {
+            "energy": -18.71301246,
+            "material_id": "mp-657130"
+        },
+        {
+            "energy": -18.70963945,
+            "material_id": "mp-592"
+        },
+        {
+            "energy": -18.69406988,
+            "material_id": "mp-655431"
+        },
+        {
+            "energy": -18.69514571,
+            "material_id": "mp-1442231"
+        },
+        {
+            "energy": -18.73253496,
+            "material_id": "mp-1586312"
+        },
+        {
+            "energy": -18.71233798,
+            "material_id": "mp-1688658"
+        },
+        {
+            "energy": -52.67493885,
+            "material_id": "mp-1164955"
+        },
+        {
+            "energy": -18.69611319,
+            "material_id": "mp-1792103"
+        },
+        {
+            "energy": -52.71692093,
+            "material_id": "mp-1536828"
+        },
+        {
+            "energy": -52.6749657,
+            "material_id": "mp-1243177"
+        },
+        {
+            "energy": -31.36482019,
+            "material_id": "mp-1018411"
+        },
+        {
+            "energy": -31.36229409,
+            "material_id": "mp-1018224"
+        }
+    ]
+}

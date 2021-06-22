@@ -1,0 +1,3997 @@
+[
+  {
+    "nr": 2,
+    "name": "graduateCourse0",
+    "teacher": 1
+  },
+  {
+    "nr": 12,
+    "name": "graduateCourse1",
+    "teacher": 1
+  },
+  {
+    "nr": 22,
+    "name": "graduateCourse2",
+    "teacher": 11
+  },
+  {
+    "nr": 32,
+    "name": "graduateCourse3",
+    "teacher": 21
+  },
+  {
+    "nr": 42,
+    "name": "graduateCourse4",
+    "teacher": 31
+  },
+  {
+    "nr": 52,
+    "name": "graduateCourse5",
+    "teacher": 31
+  },
+  {
+    "nr": 62,
+    "name": "graduateCourse6",
+    "teacher": 41
+  },
+  {
+    "nr": 72,
+    "name": "graduateCourse7",
+    "teacher": 41
+  },
+  {
+    "nr": 82,
+    "name": "graduateCourse8",
+    "teacher": 51
+  },
+  {
+    "nr": 92,
+    "name": "graduateCourse9",
+    "teacher": 51
+  },
+  {
+    "nr": 102,
+    "name": "graduateCourse10",
+    "teacher": 61
+  },
+  {
+    "nr": 112,
+    "name": "graduateCourse11",
+    "teacher": 71
+  },
+  {
+    "nr": 122,
+    "name": "graduateCourse12",
+    "teacher": 71
+  },
+  {
+    "nr": 132,
+    "name": "graduateCourse13",
+    "teacher": 81
+  },
+  {
+    "nr": 142,
+    "name": "graduateCourse14",
+    "teacher": 81
+  },
+  {
+    "nr": 152,
+    "name": "graduateCourse15",
+    "teacher": 91
+  },
+  {
+    "nr": 162,
+    "name": "graduateCourse16",
+    "teacher": 91
+  },
+  {
+    "nr": 172,
+    "name": "graduateCourse17",
+    "teacher": 2
+  },
+  {
+    "nr": 182,
+    "name": "graduateCourse18",
+    "teacher": 2
+  },
+  {
+    "nr": 192,
+    "name": "graduateCourse19",
+    "teacher": 12
+  },
+  {
+    "nr": 202,
+    "name": "graduateCourse20",
+    "teacher": 12
+  },
+  {
+    "nr": 212,
+    "name": "graduateCourse21",
+    "teacher": 22
+  },
+  {
+    "nr": 222,
+    "name": "graduateCourse22",
+    "teacher": 22
+  },
+  {
+    "nr": 232,
+    "name": "graduateCourse23",
+    "teacher": 32
+  },
+  {
+    "nr": 242,
+    "name": "graduateCourse24",
+    "teacher": 42
+  },
+  {
+    "nr": 252,
+    "name": "graduateCourse25",
+    "teacher": 52
+  },
+  {
+    "nr": 262,
+    "name": "graduateCourse26",
+    "teacher": 62
+  },
+  {
+    "nr": 272,
+    "name": "graduateCourse27",
+    "teacher": 72
+  },
+  {
+    "nr": 282,
+    "name": "graduateCourse28",
+    "teacher": 72
+  },
+  {
+    "nr": 292,
+    "name": "graduateCourse29",
+    "teacher": 82
+  },
+  {
+    "nr": 302,
+    "name": "graduateCourse30",
+    "teacher": 82
+  },
+  {
+    "nr": 312,
+    "name": "graduateCourse31",
+    "teacher": 92
+  },
+  {
+    "nr": 322,
+    "name": "graduateCourse32",
+    "teacher": 102
+  },
+  {
+    "nr": 332,
+    "name": "graduateCourse33",
+    "teacher": 102
+  },
+  {
+    "nr": 342,
+    "name": "graduateCourse34",
+    "teacher": 112
+  },
+  {
+    "nr": 352,
+    "name": "graduateCourse35",
+    "teacher": 112
+  },
+  {
+    "nr": 362,
+    "name": "graduateCourse36",
+    "teacher": 122
+  },
+  {
+    "nr": 372,
+    "name": "graduateCourse37",
+    "teacher": 132
+  },
+  {
+    "nr": 382,
+    "name": "graduateCourse38",
+    "teacher": 132
+  },
+  {
+    "nr": 392,
+    "name": "graduateCourse39",
+    "teacher": 3
+  },
+  {
+    "nr": 402,
+    "name": "graduateCourse40",
+    "teacher": 3
+  },
+  {
+    "nr": 412,
+    "name": "graduateCourse41",
+    "teacher": 13
+  },
+  {
+    "nr": 422,
+    "name": "graduateCourse42",
+    "teacher": 23
+  },
+  {
+    "nr": 432,
+    "name": "graduateCourse43",
+    "teacher": 23
+  },
+  {
+    "nr": 442,
+    "name": "graduateCourse44",
+    "teacher": 33
+  },
+  {
+    "nr": 452,
+    "name": "graduateCourse45",
+    "teacher": 43
+  },
+  {
+    "nr": 462,
+    "name": "graduateCourse46",
+    "teacher": 53
+  },
+  {
+    "nr": 472,
+    "name": "graduateCourse47",
+    "teacher": 53
+  },
+  {
+    "nr": 482,
+    "name": "graduateCourse48",
+    "teacher": 63
+  },
+  {
+    "nr": 492,
+    "name": "graduateCourse49",
+    "teacher": 63
+  },
+  {
+    "nr": 502,
+    "name": "graduateCourse50",
+    "teacher": 73
+  },
+  {
+    "nr": 512,
+    "name": "graduateCourse51",
+    "teacher": 73
+  },
+  {
+    "nr": 522,
+    "name": "graduateCourse52",
+    "teacher": 83
+  },
+  {
+    "nr": 532,
+    "name": "graduateCourse53",
+    "teacher": 83
+  },
+  {
+    "nr": 542,
+    "name": "graduateCourse54",
+    "teacher": 93
+  },
+  {
+    "nr": 552,
+    "name": "graduateCourse55",
+    "teacher": 93
+  },
+  {
+    "nr": 562,
+    "name": "graduateCourse56",
+    "teacher": 4
+  },
+  {
+    "nr": 572,
+    "name": "graduateCourse57",
+    "teacher": 14
+  },
+  {
+    "nr": 582,
+    "name": "graduateCourse58",
+    "teacher": 14
+  },
+  {
+    "nr": 592,
+    "name": "graduateCourse59",
+    "teacher": 24
+  },
+  {
+    "nr": 602,
+    "name": "graduateCourse60",
+    "teacher": 34
+  },
+  {
+    "nr": 612,
+    "name": "graduateCourse61",
+    "teacher": 34
+  },
+  {
+    "nr": 622,
+    "name": "graduateCourse62",
+    "teacher": 44
+  },
+  {
+    "nr": 632,
+    "name": "graduateCourse63",
+    "teacher": 44
+  },
+  {
+    "nr": 642,
+    "name": "graduateCourse64",
+    "teacher": 54
+  },
+  {
+    "nr": 652,
+    "name": "graduateCourse65",
+    "teacher": 54
+  },
+  {
+    "nr": 662,
+    "name": "graduateCourse66",
+    "teacher": 64
+  },
+  {
+    "nr": 1002,
+    "name": "graduateCourse0",
+    "teacher": 1001
+  },
+  {
+    "nr": 1012,
+    "name": "graduateCourse1",
+    "teacher": 1001
+  },
+  {
+    "nr": 1022,
+    "name": "graduateCourse2",
+    "teacher": 1011
+  },
+  {
+    "nr": 1032,
+    "name": "graduateCourse3",
+    "teacher": 1021
+  },
+  {
+    "nr": 1042,
+    "name": "graduateCourse4",
+    "teacher": 1031
+  },
+  {
+    "nr": 1052,
+    "name": "graduateCourse5",
+    "teacher": 1041
+  },
+  {
+    "nr": 1062,
+    "name": "graduateCourse6",
+    "teacher": 1051
+  },
+  {
+    "nr": 1072,
+    "name": "graduateCourse7",
+    "teacher": 1051
+  },
+  {
+    "nr": 1082,
+    "name": "graduateCourse8",
+    "teacher": 1061
+  },
+  {
+    "nr": 1092,
+    "name": "graduateCourse9",
+    "teacher": 1071
+  },
+  {
+    "nr": 1102,
+    "name": "graduateCourse10",
+    "teacher": 1081
+  },
+  {
+    "nr": 1112,
+    "name": "graduateCourse11",
+    "teacher": 1091
+  },
+  {
+    "nr": 1122,
+    "name": "graduateCourse12",
+    "teacher": 1002
+  },
+  {
+    "nr": 1132,
+    "name": "graduateCourse13",
+    "teacher": 1012
+  },
+  {
+    "nr": 1142,
+    "name": "graduateCourse14",
+    "teacher": 1012
+  },
+  {
+    "nr": 1152,
+    "name": "graduateCourse15",
+    "teacher": 1022
+  },
+  {
+    "nr": 1162,
+    "name": "graduateCourse16",
+    "teacher": 1022
+  },
+  {
+    "nr": 1172,
+    "name": "graduateCourse17",
+    "teacher": 1032
+  },
+  {
+    "nr": 1182,
+    "name": "graduateCourse18",
+    "teacher": 1042
+  },
+  {
+    "nr": 1192,
+    "name": "graduateCourse19",
+    "teacher": 1042
+  },
+  {
+    "nr": 1202,
+    "name": "graduateCourse20",
+    "teacher": 1052
+  },
+  {
+    "nr": 1212,
+    "name": "graduateCourse21",
+    "teacher": 1052
+  },
+  {
+    "nr": 1222,
+    "name": "graduateCourse22",
+    "teacher": 1062
+  },
+  {
+    "nr": 1232,
+    "name": "graduateCourse23",
+    "teacher": 1072
+  },
+  {
+    "nr": 1242,
+    "name": "graduateCourse24",
+    "teacher": 1072
+  },
+  {
+    "nr": 1252,
+    "name": "graduateCourse25",
+    "teacher": 1082
+  },
+  {
+    "nr": 1262,
+    "name": "graduateCourse26",
+    "teacher": 1092
+  },
+  {
+    "nr": 1272,
+    "name": "graduateCourse27",
+    "teacher": 1003
+  },
+  {
+    "nr": 1282,
+    "name": "graduateCourse28",
+    "teacher": 1003
+  },
+  {
+    "nr": 1292,
+    "name": "graduateCourse29",
+    "teacher": 1013
+  },
+  {
+    "nr": 1302,
+    "name": "graduateCourse30",
+    "teacher": 1023
+  },
+  {
+    "nr": 1312,
+    "name": "graduateCourse31",
+    "teacher": 1023
+  },
+  {
+    "nr": 1322,
+    "name": "graduateCourse32",
+    "teacher": 1033
+  },
+  {
+    "nr": 1332,
+    "name": "graduateCourse33",
+    "teacher": 1033
+  },
+  {
+    "nr": 1342,
+    "name": "graduateCourse34",
+    "teacher": 1043
+  },
+  {
+    "nr": 1352,
+    "name": "graduateCourse35",
+    "teacher": 1053
+  },
+  {
+    "nr": 1362,
+    "name": "graduateCourse36",
+    "teacher": 1063
+  },
+  {
+    "nr": 1372,
+    "name": "graduateCourse37",
+    "teacher": 1073
+  },
+  {
+    "nr": 1382,
+    "name": "graduateCourse38",
+    "teacher": 1004
+  },
+  {
+    "nr": 1392,
+    "name": "graduateCourse39",
+    "teacher": 1014
+  },
+  {
+    "nr": 1402,
+    "name": "graduateCourse40",
+    "teacher": 1024
+  },
+  {
+    "nr": 1412,
+    "name": "graduateCourse41",
+    "teacher": 1034
+  },
+  {
+    "nr": 1422,
+    "name": "graduateCourse42",
+    "teacher": 1034
+  },
+  {
+    "nr": 1432,
+    "name": "graduateCourse43",
+    "teacher": 1044
+  },
+  {
+    "nr": 1442,
+    "name": "graduateCourse44",
+    "teacher": 1054
+  },
+  {
+    "nr": 1452,
+    "name": "graduateCourse45",
+    "teacher": 1054
+  },
+  {
+    "nr": 2002,
+    "name": "graduateCourse0",
+    "teacher": 2001
+  },
+  {
+    "nr": 2012,
+    "name": "graduateCourse1",
+    "teacher": 2001
+  },
+  {
+    "nr": 2022,
+    "name": "graduateCourse2",
+    "teacher": 2011
+  },
+  {
+    "nr": 2032,
+    "name": "graduateCourse3",
+    "teacher": 2021
+  },
+  {
+    "nr": 2042,
+    "name": "graduateCourse4",
+    "teacher": 2031
+  },
+  {
+    "nr": 2052,
+    "name": "graduateCourse5",
+    "teacher": 2041
+  },
+  {
+    "nr": 2062,
+    "name": "graduateCourse6",
+    "teacher": 2051
+  },
+  {
+    "nr": 2072,
+    "name": "graduateCourse7",
+    "teacher": 2051
+  },
+  {
+    "nr": 2082,
+    "name": "graduateCourse8",
+    "teacher": 2061
+  },
+  {
+    "nr": 2092,
+    "name": "graduateCourse9",
+    "teacher": 2002
+  },
+  {
+    "nr": 2102,
+    "name": "graduateCourse10",
+    "teacher": 2002
+  },
+  {
+    "nr": 2112,
+    "name": "graduateCourse11",
+    "teacher": 2012
+  },
+  {
+    "nr": 2122,
+    "name": "graduateCourse12",
+    "teacher": 2012
+  },
+  {
+    "nr": 2132,
+    "name": "graduateCourse13",
+    "teacher": 2022
+  },
+  {
+    "nr": 2142,
+    "name": "graduateCourse14",
+    "teacher": 2022
+  },
+  {
+    "nr": 2152,
+    "name": "graduateCourse15",
+    "teacher": 2032
+  },
+  {
+    "nr": 2162,
+    "name": "graduateCourse16",
+    "teacher": 2032
+  },
+  {
+    "nr": 2172,
+    "name": "graduateCourse17",
+    "teacher": 2042
+  },
+  {
+    "nr": 2182,
+    "name": "graduateCourse18",
+    "teacher": 2052
+  },
+  {
+    "nr": 2192,
+    "name": "graduateCourse19",
+    "teacher": 2062
+  },
+  {
+    "nr": 2202,
+    "name": "graduateCourse20",
+    "teacher": 2072
+  },
+  {
+    "nr": 2212,
+    "name": "graduateCourse21",
+    "teacher": 2072
+  },
+  {
+    "nr": 2222,
+    "name": "graduateCourse22",
+    "teacher": 2082
+  },
+  {
+    "nr": 2232,
+    "name": "graduateCourse23",
+    "teacher": 2092
+  },
+  {
+    "nr": 2242,
+    "name": "graduateCourse24",
+    "teacher": 2092
+  },
+  {
+    "nr": 2252,
+    "name": "graduateCourse25",
+    "teacher": 2102
+  },
+  {
+    "nr": 2262,
+    "name": "graduateCourse26",
+    "teacher": 2102
+  },
+  {
+    "nr": 2272,
+    "name": "graduateCourse27",
+    "teacher": 2112
+  },
+  {
+    "nr": 2282,
+    "name": "graduateCourse28",
+    "teacher": 2003
+  },
+  {
+    "nr": 2292,
+    "name": "graduateCourse29",
+    "teacher": 2013
+  },
+  {
+    "nr": 2302,
+    "name": "graduateCourse30",
+    "teacher": 2023
+  },
+  {
+    "nr": 2312,
+    "name": "graduateCourse31",
+    "teacher": 2033
+  },
+  {
+    "nr": 2322,
+    "name": "graduateCourse32",
+    "teacher": 2043
+  },
+  {
+    "nr": 2332,
+    "name": "graduateCourse33",
+    "teacher": 2053
+  },
+  {
+    "nr": 2342,
+    "name": "graduateCourse34",
+    "teacher": 2053
+  },
+  {
+    "nr": 2352,
+    "name": "graduateCourse35",
+    "teacher": 2063
+  },
+  {
+    "nr": 2362,
+    "name": "graduateCourse36",
+    "teacher": 2073
+  },
+  {
+    "nr": 2372,
+    "name": "graduateCourse37",
+    "teacher": 2004
+  },
+  {
+    "nr": 2382,
+    "name": "graduateCourse38",
+    "teacher": 2004
+  },
+  {
+    "nr": 2392,
+    "name": "graduateCourse39",
+    "teacher": 2014
+  },
+  {
+    "nr": 2402,
+    "name": "graduateCourse40",
+    "teacher": 2024
+  },
+  {
+    "nr": 2412,
+    "name": "graduateCourse41",
+    "teacher": 2034
+  },
+  {
+    "nr": 2422,
+    "name": "graduateCourse42",
+    "teacher": 2034
+  },
+  {
+    "nr": 2432,
+    "name": "graduateCourse43",
+    "teacher": 2044
+  },
+  {
+    "nr": 2442,
+    "name": "graduateCourse44",
+    "teacher": 2044
+  },
+  {
+    "nr": 2452,
+    "name": "graduateCourse45",
+    "teacher": 2054
+  },
+  {
+    "nr": 2462,
+    "name": "graduateCourse46",
+    "teacher": 2064
+  },
+  {
+    "nr": 3002,
+    "name": "graduateCourse0",
+    "teacher": 3001
+  },
+  {
+    "nr": 3012,
+    "name": "graduateCourse1",
+    "teacher": 3011
+  },
+  {
+    "nr": 3022,
+    "name": "graduateCourse2",
+    "teacher": 3011
+  },
+  {
+    "nr": 3032,
+    "name": "graduateCourse3",
+    "teacher": 3021
+  },
+  {
+    "nr": 3042,
+    "name": "graduateCourse4",
+    "teacher": 3031
+  },
+  {
+    "nr": 3052,
+    "name": "graduateCourse5",
+    "teacher": 3031
+  },
+  {
+    "nr": 3062,
+    "name": "graduateCourse6",
+    "teacher": 3041
+  },
+  {
+    "nr": 3072,
+    "name": "graduateCourse7",
+    "teacher": 3041
+  },
+  {
+    "nr": 3082,
+    "name": "graduateCourse8",
+    "teacher": 3051
+  },
+  {
+    "nr": 3092,
+    "name": "graduateCourse9",
+    "teacher": 3051
+  },
+  {
+    "nr": 3102,
+    "name": "graduateCourse10",
+    "teacher": 3061
+  },
+  {
+    "nr": 3112,
+    "name": "graduateCourse11",
+    "teacher": 3071
+  },
+  {
+    "nr": 3122,
+    "name": "graduateCourse12",
+    "teacher": 3071
+  },
+  {
+    "nr": 3132,
+    "name": "graduateCourse13",
+    "teacher": 3081
+  },
+  {
+    "nr": 3142,
+    "name": "graduateCourse14",
+    "teacher": 3081
+  },
+  {
+    "nr": 3152,
+    "name": "graduateCourse15",
+    "teacher": 3002
+  },
+  {
+    "nr": 3162,
+    "name": "graduateCourse16",
+    "teacher": 3002
+  },
+  {
+    "nr": 3172,
+    "name": "graduateCourse17",
+    "teacher": 3012
+  },
+  {
+    "nr": 3182,
+    "name": "graduateCourse18",
+    "teacher": 3012
+  },
+  {
+    "nr": 3192,
+    "name": "graduateCourse19",
+    "teacher": 3022
+  },
+  {
+    "nr": 3202,
+    "name": "graduateCourse20",
+    "teacher": 3022
+  },
+  {
+    "nr": 3212,
+    "name": "graduateCourse21",
+    "teacher": 3032
+  },
+  {
+    "nr": 3222,
+    "name": "graduateCourse22",
+    "teacher": 3042
+  },
+  {
+    "nr": 3232,
+    "name": "graduateCourse23",
+    "teacher": 3042
+  },
+  {
+    "nr": 3242,
+    "name": "graduateCourse24",
+    "teacher": 3052
+  },
+  {
+    "nr": 3252,
+    "name": "graduateCourse25",
+    "teacher": 3062
+  },
+  {
+    "nr": 3262,
+    "name": "graduateCourse26",
+    "teacher": 3072
+  },
+  {
+    "nr": 3272,
+    "name": "graduateCourse27",
+    "teacher": 3072
+  },
+  {
+    "nr": 3282,
+    "name": "graduateCourse28",
+    "teacher": 3082
+  },
+  {
+    "nr": 3292,
+    "name": "graduateCourse29",
+    "teacher": 3082
+  },
+  {
+    "nr": 3302,
+    "name": "graduateCourse30",
+    "teacher": 3092
+  },
+  {
+    "nr": 3312,
+    "name": "graduateCourse31",
+    "teacher": 3102
+  },
+  {
+    "nr": 3322,
+    "name": "graduateCourse32",
+    "teacher": 3102
+  },
+  {
+    "nr": 3332,
+    "name": "graduateCourse33",
+    "teacher": 3112
+  },
+  {
+    "nr": 3342,
+    "name": "graduateCourse34",
+    "teacher": 3003
+  },
+  {
+    "nr": 3352,
+    "name": "graduateCourse35",
+    "teacher": 3013
+  },
+  {
+    "nr": 3362,
+    "name": "graduateCourse36",
+    "teacher": 3023
+  },
+  {
+    "nr": 3372,
+    "name": "graduateCourse37",
+    "teacher": 3023
+  },
+  {
+    "nr": 3382,
+    "name": "graduateCourse38",
+    "teacher": 3033
+  },
+  {
+    "nr": 3392,
+    "name": "graduateCourse39",
+    "teacher": 3033
+  },
+  {
+    "nr": 3402,
+    "name": "graduateCourse40",
+    "teacher": 3043
+  },
+  {
+    "nr": 3412,
+    "name": "graduateCourse41",
+    "teacher": 3043
+  },
+  {
+    "nr": 3422,
+    "name": "graduateCourse42",
+    "teacher": 3053
+  },
+  {
+    "nr": 3432,
+    "name": "graduateCourse43",
+    "teacher": 3063
+  },
+  {
+    "nr": 3442,
+    "name": "graduateCourse44",
+    "teacher": 3063
+  },
+  {
+    "nr": 3452,
+    "name": "graduateCourse45",
+    "teacher": 3073
+  },
+  {
+    "nr": 3462,
+    "name": "graduateCourse46",
+    "teacher": 3073
+  },
+  {
+    "nr": 3472,
+    "name": "graduateCourse47",
+    "teacher": 3083
+  },
+  {
+    "nr": 3482,
+    "name": "graduateCourse48",
+    "teacher": 3083
+  },
+  {
+    "nr": 3492,
+    "name": "graduateCourse49",
+    "teacher": 3093
+  },
+  {
+    "nr": 3502,
+    "name": "graduateCourse50",
+    "teacher": 3093
+  },
+  {
+    "nr": 3512,
+    "name": "graduateCourse51",
+    "teacher": 3004
+  },
+  {
+    "nr": 3522,
+    "name": "graduateCourse52",
+    "teacher": 3004
+  },
+  {
+    "nr": 3532,
+    "name": "graduateCourse53",
+    "teacher": 3014
+  },
+  {
+    "nr": 3542,
+    "name": "graduateCourse54",
+    "teacher": 3024
+  },
+  {
+    "nr": 3552,
+    "name": "graduateCourse55",
+    "teacher": 3034
+  },
+  {
+    "nr": 3562,
+    "name": "graduateCourse56",
+    "teacher": 3044
+  },
+  {
+    "nr": 3572,
+    "name": "graduateCourse57",
+    "teacher": 3054
+  },
+  {
+    "nr": 4002,
+    "name": "graduateCourse0",
+    "teacher": 4001
+  },
+  {
+    "nr": 4012,
+    "name": "graduateCourse1",
+    "teacher": 4011
+  },
+  {
+    "nr": 4022,
+    "name": "graduateCourse2",
+    "teacher": 4021
+  },
+  {
+    "nr": 4032,
+    "name": "graduateCourse3",
+    "teacher": 4031
+  },
+  {
+    "nr": 4042,
+    "name": "graduateCourse4",
+    "teacher": 4041
+  },
+  {
+    "nr": 4052,
+    "name": "graduateCourse5",
+    "teacher": 4051
+  },
+  {
+    "nr": 4062,
+    "name": "graduateCourse6",
+    "teacher": 4061
+  },
+  {
+    "nr": 4072,
+    "name": "graduateCourse7",
+    "teacher": 4061
+  },
+  {
+    "nr": 4082,
+    "name": "graduateCourse8",
+    "teacher": 4002
+  },
+  {
+    "nr": 4092,
+    "name": "graduateCourse9",
+    "teacher": 4002
+  },
+  {
+    "nr": 4102,
+    "name": "graduateCourse10",
+    "teacher": 4012
+  },
+  {
+    "nr": 4112,
+    "name": "graduateCourse11",
+    "teacher": 4012
+  },
+  {
+    "nr": 4122,
+    "name": "graduateCourse12",
+    "teacher": 4022
+  },
+  {
+    "nr": 4132,
+    "name": "graduateCourse13",
+    "teacher": 4022
+  },
+  {
+    "nr": 4142,
+    "name": "graduateCourse14",
+    "teacher": 4032
+  },
+  {
+    "nr": 4152,
+    "name": "graduateCourse15",
+    "teacher": 4042
+  },
+  {
+    "nr": 4162,
+    "name": "graduateCourse16",
+    "teacher": 4042
+  },
+  {
+    "nr": 4172,
+    "name": "graduateCourse17",
+    "teacher": 4052
+  },
+  {
+    "nr": 4182,
+    "name": "graduateCourse18",
+    "teacher": 4062
+  },
+  {
+    "nr": 4192,
+    "name": "graduateCourse19",
+    "teacher": 4062
+  },
+  {
+    "nr": 4202,
+    "name": "graduateCourse20",
+    "teacher": 4072
+  },
+  {
+    "nr": 4212,
+    "name": "graduateCourse21",
+    "teacher": 4072
+  },
+  {
+    "nr": 4222,
+    "name": "graduateCourse22",
+    "teacher": 4082
+  },
+  {
+    "nr": 4232,
+    "name": "graduateCourse23",
+    "teacher": 4092
+  },
+  {
+    "nr": 4242,
+    "name": "graduateCourse24",
+    "teacher": 4003
+  },
+  {
+    "nr": 4252,
+    "name": "graduateCourse25",
+    "teacher": 4013
+  },
+  {
+    "nr": 4262,
+    "name": "graduateCourse26",
+    "teacher": 4013
+  },
+  {
+    "nr": 4272,
+    "name": "graduateCourse27",
+    "teacher": 4023
+  },
+  {
+    "nr": 4282,
+    "name": "graduateCourse28",
+    "teacher": 4023
+  },
+  {
+    "nr": 4292,
+    "name": "graduateCourse29",
+    "teacher": 4033
+  },
+  {
+    "nr": 4302,
+    "name": "graduateCourse30",
+    "teacher": 4033
+  },
+  {
+    "nr": 4312,
+    "name": "graduateCourse31",
+    "teacher": 4043
+  },
+  {
+    "nr": 4322,
+    "name": "graduateCourse32",
+    "teacher": 4053
+  },
+  {
+    "nr": 4332,
+    "name": "graduateCourse33",
+    "teacher": 4063
+  },
+  {
+    "nr": 4342,
+    "name": "graduateCourse34",
+    "teacher": 4063
+  },
+  {
+    "nr": 4352,
+    "name": "graduateCourse35",
+    "teacher": 4073
+  },
+  {
+    "nr": 4362,
+    "name": "graduateCourse36",
+    "teacher": 4083
+  },
+  {
+    "nr": 4372,
+    "name": "graduateCourse37",
+    "teacher": 4083
+  },
+  {
+    "nr": 4382,
+    "name": "graduateCourse38",
+    "teacher": 4093
+  },
+  {
+    "nr": 4392,
+    "name": "graduateCourse39",
+    "teacher": 4093
+  },
+  {
+    "nr": 4402,
+    "name": "graduateCourse40",
+    "teacher": 4004
+  },
+  {
+    "nr": 4412,
+    "name": "graduateCourse41",
+    "teacher": 4004
+  },
+  {
+    "nr": 4422,
+    "name": "graduateCourse42",
+    "teacher": 4014
+  },
+  {
+    "nr": 4432,
+    "name": "graduateCourse43",
+    "teacher": 4014
+  },
+  {
+    "nr": 4442,
+    "name": "graduateCourse44",
+    "teacher": 4024
+  },
+  {
+    "nr": 4452,
+    "name": "graduateCourse45",
+    "teacher": 4034
+  },
+  {
+    "nr": 4462,
+    "name": "graduateCourse46",
+    "teacher": 4044
+  },
+  {
+    "nr": 4472,
+    "name": "graduateCourse47",
+    "teacher": 4044
+  },
+  {
+    "nr": 4482,
+    "name": "graduateCourse48",
+    "teacher": 4054
+  },
+  {
+    "nr": 4492,
+    "name": "graduateCourse49",
+    "teacher": 4054
+  },
+  {
+    "nr": 4502,
+    "name": "graduateCourse50",
+    "teacher": 4064
+  },
+  {
+    "nr": 5002,
+    "name": "graduateCourse0",
+    "teacher": 5001
+  },
+  {
+    "nr": 5012,
+    "name": "graduateCourse1",
+    "teacher": 5001
+  },
+  {
+    "nr": 5022,
+    "name": "graduateCourse2",
+    "teacher": 5011
+  },
+  {
+    "nr": 5032,
+    "name": "graduateCourse3",
+    "teacher": 5021
+  },
+  {
+    "nr": 5042,
+    "name": "graduateCourse4",
+    "teacher": 5031
+  },
+  {
+    "nr": 5052,
+    "name": "graduateCourse5",
+    "teacher": 5041
+  },
+  {
+    "nr": 5062,
+    "name": "graduateCourse6",
+    "teacher": 5051
+  },
+  {
+    "nr": 5072,
+    "name": "graduateCourse7",
+    "teacher": 5061
+  },
+  {
+    "nr": 5082,
+    "name": "graduateCourse8",
+    "teacher": 5061
+  },
+  {
+    "nr": 5092,
+    "name": "graduateCourse9",
+    "teacher": 5071
+  },
+  {
+    "nr": 5102,
+    "name": "graduateCourse10",
+    "teacher": 5071
+  },
+  {
+    "nr": 5112,
+    "name": "graduateCourse11",
+    "teacher": 5081
+  },
+  {
+    "nr": 5122,
+    "name": "graduateCourse12",
+    "teacher": 5081
+  },
+  {
+    "nr": 5132,
+    "name": "graduateCourse13",
+    "teacher": 5091
+  },
+  {
+    "nr": 5142,
+    "name": "graduateCourse14",
+    "teacher": 5091
+  },
+  {
+    "nr": 5152,
+    "name": "graduateCourse15",
+    "teacher": 5002
+  },
+  {
+    "nr": 5162,
+    "name": "graduateCourse16",
+    "teacher": 5012
+  },
+  {
+    "nr": 5172,
+    "name": "graduateCourse17",
+    "teacher": 5022
+  },
+  {
+    "nr": 5182,
+    "name": "graduateCourse18",
+    "teacher": 5022
+  },
+  {
+    "nr": 5192,
+    "name": "graduateCourse19",
+    "teacher": 5032
+  },
+  {
+    "nr": 5202,
+    "name": "graduateCourse20",
+    "teacher": 5042
+  },
+  {
+    "nr": 5212,
+    "name": "graduateCourse21",
+    "teacher": 5052
+  },
+  {
+    "nr": 5222,
+    "name": "graduateCourse22",
+    "teacher": 5062
+  },
+  {
+    "nr": 5232,
+    "name": "graduateCourse23",
+    "teacher": 5062
+  },
+  {
+    "nr": 5242,
+    "name": "graduateCourse24",
+    "teacher": 5072
+  },
+  {
+    "nr": 5252,
+    "name": "graduateCourse25",
+    "teacher": 5082
+  },
+  {
+    "nr": 5262,
+    "name": "graduateCourse26",
+    "teacher": 5092
+  },
+  {
+    "nr": 5272,
+    "name": "graduateCourse27",
+    "teacher": 5102
+  },
+  {
+    "nr": 5282,
+    "name": "graduateCourse28",
+    "teacher": 5102
+  },
+  {
+    "nr": 5292,
+    "name": "graduateCourse29",
+    "teacher": 5003
+  },
+  {
+    "nr": 5302,
+    "name": "graduateCourse30",
+    "teacher": 5003
+  },
+  {
+    "nr": 5312,
+    "name": "graduateCourse31",
+    "teacher": 5013
+  },
+  {
+    "nr": 5322,
+    "name": "graduateCourse32",
+    "teacher": 5013
+  },
+  {
+    "nr": 5332,
+    "name": "graduateCourse33",
+    "teacher": 5023
+  },
+  {
+    "nr": 5342,
+    "name": "graduateCourse34",
+    "teacher": 5023
+  },
+  {
+    "nr": 5352,
+    "name": "graduateCourse35",
+    "teacher": 5033
+  },
+  {
+    "nr": 5362,
+    "name": "graduateCourse36",
+    "teacher": 5033
+  },
+  {
+    "nr": 5372,
+    "name": "graduateCourse37",
+    "teacher": 5043
+  },
+  {
+    "nr": 5382,
+    "name": "graduateCourse38",
+    "teacher": 5053
+  },
+  {
+    "nr": 5392,
+    "name": "graduateCourse39",
+    "teacher": 5063
+  },
+  {
+    "nr": 5402,
+    "name": "graduateCourse40",
+    "teacher": 5063
+  },
+  {
+    "nr": 5412,
+    "name": "graduateCourse41",
+    "teacher": 5073
+  },
+  {
+    "nr": 5422,
+    "name": "graduateCourse42",
+    "teacher": 5004
+  },
+  {
+    "nr": 5432,
+    "name": "graduateCourse43",
+    "teacher": 5014
+  },
+  {
+    "nr": 5442,
+    "name": "graduateCourse44",
+    "teacher": 5014
+  },
+  {
+    "nr": 5452,
+    "name": "graduateCourse45",
+    "teacher": 5024
+  },
+  {
+    "nr": 5462,
+    "name": "graduateCourse46",
+    "teacher": 5024
+  },
+  {
+    "nr": 5472,
+    "name": "graduateCourse47",
+    "teacher": 5034
+  },
+  {
+    "nr": 5482,
+    "name": "graduateCourse48",
+    "teacher": 5044
+  },
+  {
+    "nr": 5492,
+    "name": "graduateCourse49",
+    "teacher": 5054
+  },
+  {
+    "nr": 6002,
+    "name": "graduateCourse0",
+    "teacher": 6001
+  },
+  {
+    "nr": 6012,
+    "name": "graduateCourse1",
+    "teacher": 6001
+  },
+  {
+    "nr": 6022,
+    "name": "graduateCourse2",
+    "teacher": 6011
+  },
+  {
+    "nr": 6032,
+    "name": "graduateCourse3",
+    "teacher": 6021
+  },
+  {
+    "nr": 6042,
+    "name": "graduateCourse4",
+    "teacher": 6021
+  },
+  {
+    "nr": 6052,
+    "name": "graduateCourse5",
+    "teacher": 6031
+  },
+  {
+    "nr": 6062,
+    "name": "graduateCourse6",
+    "teacher": 6041
+  },
+  {
+    "nr": 6072,
+    "name": "graduateCourse7",
+    "teacher": 6051
+  },
+  {
+    "nr": 6082,
+    "name": "graduateCourse8",
+    "teacher": 6061
+  },
+  {
+    "nr": 6092,
+    "name": "graduateCourse9",
+    "teacher": 6071
+  },
+  {
+    "nr": 6102,
+    "name": "graduateCourse10",
+    "teacher": 6071
+  },
+  {
+    "nr": 6112,
+    "name": "graduateCourse11",
+    "teacher": 6081
+  },
+  {
+    "nr": 6122,
+    "name": "graduateCourse12",
+    "teacher": 6091
+  },
+  {
+    "nr": 6132,
+    "name": "graduateCourse13",
+    "teacher": 6002
+  },
+  {
+    "nr": 6142,
+    "name": "graduateCourse14",
+    "teacher": 6002
+  },
+  {
+    "nr": 6152,
+    "name": "graduateCourse15",
+    "teacher": 6012
+  },
+  {
+    "nr": 6162,
+    "name": "graduateCourse16",
+    "teacher": 6012
+  },
+  {
+    "nr": 6172,
+    "name": "graduateCourse17",
+    "teacher": 6022
+  },
+  {
+    "nr": 6182,
+    "name": "graduateCourse18",
+    "teacher": 6032
+  },
+  {
+    "nr": 6192,
+    "name": "graduateCourse19",
+    "teacher": 6032
+  },
+  {
+    "nr": 6202,
+    "name": "graduateCourse20",
+    "teacher": 6042
+  },
+  {
+    "nr": 6212,
+    "name": "graduateCourse21",
+    "teacher": 6042
+  },
+  {
+    "nr": 6222,
+    "name": "graduateCourse22",
+    "teacher": 6052
+  },
+  {
+    "nr": 6232,
+    "name": "graduateCourse23",
+    "teacher": 6062
+  },
+  {
+    "nr": 6242,
+    "name": "graduateCourse24",
+    "teacher": 6072
+  },
+  {
+    "nr": 6252,
+    "name": "graduateCourse25",
+    "teacher": 6082
+  },
+  {
+    "nr": 6262,
+    "name": "graduateCourse26",
+    "teacher": 6082
+  },
+  {
+    "nr": 6272,
+    "name": "graduateCourse27",
+    "teacher": 6092
+  },
+  {
+    "nr": 6282,
+    "name": "graduateCourse28",
+    "teacher": 6003
+  },
+  {
+    "nr": 6292,
+    "name": "graduateCourse29",
+    "teacher": 6003
+  },
+  {
+    "nr": 6302,
+    "name": "graduateCourse30",
+    "teacher": 6013
+  },
+  {
+    "nr": 6312,
+    "name": "graduateCourse31",
+    "teacher": 6023
+  },
+  {
+    "nr": 6322,
+    "name": "graduateCourse32",
+    "teacher": 6033
+  },
+  {
+    "nr": 6332,
+    "name": "graduateCourse33",
+    "teacher": 6043
+  },
+  {
+    "nr": 6342,
+    "name": "graduateCourse34",
+    "teacher": 6043
+  },
+  {
+    "nr": 6352,
+    "name": "graduateCourse35",
+    "teacher": 6053
+  },
+  {
+    "nr": 6362,
+    "name": "graduateCourse36",
+    "teacher": 6053
+  },
+  {
+    "nr": 6372,
+    "name": "graduateCourse37",
+    "teacher": 6063
+  },
+  {
+    "nr": 6382,
+    "name": "graduateCourse38",
+    "teacher": 6063
+  },
+  {
+    "nr": 6392,
+    "name": "graduateCourse39",
+    "teacher": 6073
+  },
+  {
+    "nr": 6402,
+    "name": "graduateCourse40",
+    "teacher": 6004
+  },
+  {
+    "nr": 6412,
+    "name": "graduateCourse41",
+    "teacher": 6004
+  },
+  {
+    "nr": 6422,
+    "name": "graduateCourse42",
+    "teacher": 6014
+  },
+  {
+    "nr": 6432,
+    "name": "graduateCourse43",
+    "teacher": 6014
+  },
+  {
+    "nr": 6442,
+    "name": "graduateCourse44",
+    "teacher": 6024
+  },
+  {
+    "nr": 6452,
+    "name": "graduateCourse45",
+    "teacher": 6034
+  },
+  {
+    "nr": 6462,
+    "name": "graduateCourse46",
+    "teacher": 6044
+  },
+  {
+    "nr": 6472,
+    "name": "graduateCourse47",
+    "teacher": 6054
+  },
+  {
+    "nr": 7002,
+    "name": "graduateCourse0",
+    "teacher": 7001
+  },
+  {
+    "nr": 7012,
+    "name": "graduateCourse1",
+    "teacher": 7001
+  },
+  {
+    "nr": 7022,
+    "name": "graduateCourse2",
+    "teacher": 7011
+  },
+  {
+    "nr": 7032,
+    "name": "graduateCourse3",
+    "teacher": 7021
+  },
+  {
+    "nr": 7042,
+    "name": "graduateCourse4",
+    "teacher": 7021
+  },
+  {
+    "nr": 7052,
+    "name": "graduateCourse5",
+    "teacher": 7031
+  },
+  {
+    "nr": 7062,
+    "name": "graduateCourse6",
+    "teacher": 7031
+  },
+  {
+    "nr": 7072,
+    "name": "graduateCourse7",
+    "teacher": 7041
+  },
+  {
+    "nr": 7082,
+    "name": "graduateCourse8",
+    "teacher": 7041
+  },
+  {
+    "nr": 7092,
+    "name": "graduateCourse9",
+    "teacher": 7051
+  },
+  {
+    "nr": 7102,
+    "name": "graduateCourse10",
+    "teacher": 7051
+  },
+  {
+    "nr": 7112,
+    "name": "graduateCourse11",
+    "teacher": 7061
+  },
+  {
+    "nr": 7122,
+    "name": "graduateCourse12",
+    "teacher": 7061
+  },
+  {
+    "nr": 7132,
+    "name": "graduateCourse13",
+    "teacher": 7002
+  },
+  {
+    "nr": 7142,
+    "name": "graduateCourse14",
+    "teacher": 7012
+  },
+  {
+    "nr": 7152,
+    "name": "graduateCourse15",
+    "teacher": 7022
+  },
+  {
+    "nr": 7162,
+    "name": "graduateCourse16",
+    "teacher": 7032
+  },
+  {
+    "nr": 7172,
+    "name": "graduateCourse17",
+    "teacher": 7042
+  },
+  {
+    "nr": 7182,
+    "name": "graduateCourse18",
+    "teacher": 7052
+  },
+  {
+    "nr": 7192,
+    "name": "graduateCourse19",
+    "teacher": 7052
+  },
+  {
+    "nr": 7202,
+    "name": "graduateCourse20",
+    "teacher": 7062
+  },
+  {
+    "nr": 7212,
+    "name": "graduateCourse21",
+    "teacher": 7062
+  },
+  {
+    "nr": 7222,
+    "name": "graduateCourse22",
+    "teacher": 7072
+  },
+  {
+    "nr": 7232,
+    "name": "graduateCourse23",
+    "teacher": 7082
+  },
+  {
+    "nr": 7242,
+    "name": "graduateCourse24",
+    "teacher": 7082
+  },
+  {
+    "nr": 7252,
+    "name": "graduateCourse25",
+    "teacher": 7092
+  },
+  {
+    "nr": 7262,
+    "name": "graduateCourse26",
+    "teacher": 7102
+  },
+  {
+    "nr": 7272,
+    "name": "graduateCourse27",
+    "teacher": 7112
+  },
+  {
+    "nr": 7282,
+    "name": "graduateCourse28",
+    "teacher": 7122
+  },
+  {
+    "nr": 7292,
+    "name": "graduateCourse29",
+    "teacher": 7122
+  },
+  {
+    "nr": 7302,
+    "name": "graduateCourse30",
+    "teacher": 7132
+  },
+  {
+    "nr": 7312,
+    "name": "graduateCourse31",
+    "teacher": 7132
+  },
+  {
+    "nr": 7322,
+    "name": "graduateCourse32",
+    "teacher": 7003
+  },
+  {
+    "nr": 7332,
+    "name": "graduateCourse33",
+    "teacher": 7003
+  },
+  {
+    "nr": 7342,
+    "name": "graduateCourse34",
+    "teacher": 7013
+  },
+  {
+    "nr": 7352,
+    "name": "graduateCourse35",
+    "teacher": 7013
+  },
+  {
+    "nr": 7362,
+    "name": "graduateCourse36",
+    "teacher": 7023
+  },
+  {
+    "nr": 7372,
+    "name": "graduateCourse37",
+    "teacher": 7033
+  },
+  {
+    "nr": 7382,
+    "name": "graduateCourse38",
+    "teacher": 7043
+  },
+  {
+    "nr": 7392,
+    "name": "graduateCourse39",
+    "teacher": 7053
+  },
+  {
+    "nr": 7402,
+    "name": "graduateCourse40",
+    "teacher": 7053
+  },
+  {
+    "nr": 7412,
+    "name": "graduateCourse41",
+    "teacher": 7063
+  },
+  {
+    "nr": 7422,
+    "name": "graduateCourse42",
+    "teacher": 7063
+  },
+  {
+    "nr": 7432,
+    "name": "graduateCourse43",
+    "teacher": 7073
+  },
+  {
+    "nr": 7442,
+    "name": "graduateCourse44",
+    "teacher": 7073
+  },
+  {
+    "nr": 7452,
+    "name": "graduateCourse45",
+    "teacher": 7083
+  },
+  {
+    "nr": 7462,
+    "name": "graduateCourse46",
+    "teacher": 7083
+  },
+  {
+    "nr": 7472,
+    "name": "graduateCourse47",
+    "teacher": 7093
+  },
+  {
+    "nr": 7482,
+    "name": "graduateCourse48",
+    "teacher": 7093
+  },
+  {
+    "nr": 7492,
+    "name": "graduateCourse49",
+    "teacher": 7004
+  },
+  {
+    "nr": 7502,
+    "name": "graduateCourse50",
+    "teacher": 7014
+  },
+  {
+    "nr": 7512,
+    "name": "graduateCourse51",
+    "teacher": 7014
+  },
+  {
+    "nr": 7522,
+    "name": "graduateCourse52",
+    "teacher": 7024
+  },
+  {
+    "nr": 7532,
+    "name": "graduateCourse53",
+    "teacher": 7034
+  },
+  {
+    "nr": 7542,
+    "name": "graduateCourse54",
+    "teacher": 7034
+  },
+  {
+    "nr": 7552,
+    "name": "graduateCourse55",
+    "teacher": 7044
+  },
+  {
+    "nr": 7562,
+    "name": "graduateCourse56",
+    "teacher": 7054
+  },
+  {
+    "nr": 7572,
+    "name": "graduateCourse57",
+    "teacher": 7054
+  },
+  {
+    "nr": 8002,
+    "name": "graduateCourse0",
+    "teacher": 8001
+  },
+  {
+    "nr": 8012,
+    "name": "graduateCourse1",
+    "teacher": 8001
+  },
+  {
+    "nr": 8022,
+    "name": "graduateCourse2",
+    "teacher": 8011
+  },
+  {
+    "nr": 8032,
+    "name": "graduateCourse3",
+    "teacher": 8011
+  },
+  {
+    "nr": 8042,
+    "name": "graduateCourse4",
+    "teacher": 8021
+  },
+  {
+    "nr": 8052,
+    "name": "graduateCourse5",
+    "teacher": 8031
+  },
+  {
+    "nr": 8062,
+    "name": "graduateCourse6",
+    "teacher": 8041
+  },
+  {
+    "nr": 8072,
+    "name": "graduateCourse7",
+    "teacher": 8041
+  },
+  {
+    "nr": 8082,
+    "name": "graduateCourse8",
+    "teacher": 8051
+  },
+  {
+    "nr": 8092,
+    "name": "graduateCourse9",
+    "teacher": 8061
+  },
+  {
+    "nr": 8102,
+    "name": "graduateCourse10",
+    "teacher": 8061
+  },
+  {
+    "nr": 8112,
+    "name": "graduateCourse11",
+    "teacher": 8071
+  },
+  {
+    "nr": 8122,
+    "name": "graduateCourse12",
+    "teacher": 8081
+  },
+  {
+    "nr": 8132,
+    "name": "graduateCourse13",
+    "teacher": 8081
+  },
+  {
+    "nr": 8142,
+    "name": "graduateCourse14",
+    "teacher": 8002
+  },
+  {
+    "nr": 8152,
+    "name": "graduateCourse15",
+    "teacher": 8012
+  },
+  {
+    "nr": 8162,
+    "name": "graduateCourse16",
+    "teacher": 8022
+  },
+  {
+    "nr": 8172,
+    "name": "graduateCourse17",
+    "teacher": 8032
+  },
+  {
+    "nr": 8182,
+    "name": "graduateCourse18",
+    "teacher": 8042
+  },
+  {
+    "nr": 8192,
+    "name": "graduateCourse19",
+    "teacher": 8042
+  },
+  {
+    "nr": 8202,
+    "name": "graduateCourse20",
+    "teacher": 8052
+  },
+  {
+    "nr": 8212,
+    "name": "graduateCourse21",
+    "teacher": 8062
+  },
+  {
+    "nr": 8222,
+    "name": "graduateCourse22",
+    "teacher": 8072
+  },
+  {
+    "nr": 8232,
+    "name": "graduateCourse23",
+    "teacher": 8082
+  },
+  {
+    "nr": 8242,
+    "name": "graduateCourse24",
+    "teacher": 8082
+  },
+  {
+    "nr": 8252,
+    "name": "graduateCourse25",
+    "teacher": 8092
+  },
+  {
+    "nr": 8262,
+    "name": "graduateCourse26",
+    "teacher": 8102
+  },
+  {
+    "nr": 8272,
+    "name": "graduateCourse27",
+    "teacher": 8003
+  },
+  {
+    "nr": 8282,
+    "name": "graduateCourse28",
+    "teacher": 8013
+  },
+  {
+    "nr": 8292,
+    "name": "graduateCourse29",
+    "teacher": 8013
+  },
+  {
+    "nr": 8302,
+    "name": "graduateCourse30",
+    "teacher": 8023
+  },
+  {
+    "nr": 8312,
+    "name": "graduateCourse31",
+    "teacher": 8023
+  },
+  {
+    "nr": 8322,
+    "name": "graduateCourse32",
+    "teacher": 8033
+  },
+  {
+    "nr": 8332,
+    "name": "graduateCourse33",
+    "teacher": 8043
+  },
+  {
+    "nr": 8342,
+    "name": "graduateCourse34",
+    "teacher": 8043
+  },
+  {
+    "nr": 8352,
+    "name": "graduateCourse35",
+    "teacher": 8053
+  },
+  {
+    "nr": 8362,
+    "name": "graduateCourse36",
+    "teacher": 8063
+  },
+  {
+    "nr": 8372,
+    "name": "graduateCourse37",
+    "teacher": 8073
+  },
+  {
+    "nr": 8382,
+    "name": "graduateCourse38",
+    "teacher": 8083
+  },
+  {
+    "nr": 8392,
+    "name": "graduateCourse39",
+    "teacher": 8093
+  },
+  {
+    "nr": 8402,
+    "name": "graduateCourse40",
+    "teacher": 8103
+  },
+  {
+    "nr": 8412,
+    "name": "graduateCourse41",
+    "teacher": 8004
+  },
+  {
+    "nr": 8422,
+    "name": "graduateCourse42",
+    "teacher": 8004
+  },
+  {
+    "nr": 8432,
+    "name": "graduateCourse43",
+    "teacher": 8014
+  },
+  {
+    "nr": 8442,
+    "name": "graduateCourse44",
+    "teacher": 8014
+  },
+  {
+    "nr": 8452,
+    "name": "graduateCourse45",
+    "teacher": 8024
+  },
+  {
+    "nr": 8462,
+    "name": "graduateCourse46",
+    "teacher": 8024
+  },
+  {
+    "nr": 8472,
+    "name": "graduateCourse47",
+    "teacher": 8034
+  },
+  {
+    "nr": 8482,
+    "name": "graduateCourse48",
+    "teacher": 8044
+  },
+  {
+    "nr": 8492,
+    "name": "graduateCourse49",
+    "teacher": 8044
+  },
+  {
+    "nr": 8502,
+    "name": "graduateCourse50",
+    "teacher": 8054
+  },
+  {
+    "nr": 9002,
+    "name": "graduateCourse0",
+    "teacher": 9001
+  },
+  {
+    "nr": 9012,
+    "name": "graduateCourse1",
+    "teacher": 9011
+  },
+  {
+    "nr": 9022,
+    "name": "graduateCourse2",
+    "teacher": 9021
+  },
+  {
+    "nr": 9032,
+    "name": "graduateCourse3",
+    "teacher": 9021
+  },
+  {
+    "nr": 9042,
+    "name": "graduateCourse4",
+    "teacher": 9031
+  },
+  {
+    "nr": 9052,
+    "name": "graduateCourse5",
+    "teacher": 9031
+  },
+  {
+    "nr": 9062,
+    "name": "graduateCourse6",
+    "teacher": 9041
+  },
+  {
+    "nr": 9072,
+    "name": "graduateCourse7",
+    "teacher": 9041
+  },
+  {
+    "nr": 9082,
+    "name": "graduateCourse8",
+    "teacher": 9051
+  },
+  {
+    "nr": 9092,
+    "name": "graduateCourse9",
+    "teacher": 9051
+  },
+  {
+    "nr": 9102,
+    "name": "graduateCourse10",
+    "teacher": 9061
+  },
+  {
+    "nr": 9112,
+    "name": "graduateCourse11",
+    "teacher": 9061
+  },
+  {
+    "nr": 9122,
+    "name": "graduateCourse12",
+    "teacher": 9002
+  },
+  {
+    "nr": 9132,
+    "name": "graduateCourse13",
+    "teacher": 9002
+  },
+  {
+    "nr": 9142,
+    "name": "graduateCourse14",
+    "teacher": 9012
+  },
+  {
+    "nr": 9152,
+    "name": "graduateCourse15",
+    "teacher": 9012
+  },
+  {
+    "nr": 9162,
+    "name": "graduateCourse16",
+    "teacher": 9022
+  },
+  {
+    "nr": 9172,
+    "name": "graduateCourse17",
+    "teacher": 9022
+  },
+  {
+    "nr": 9182,
+    "name": "graduateCourse18",
+    "teacher": 9032
+  },
+  {
+    "nr": 9192,
+    "name": "graduateCourse19",
+    "teacher": 9032
+  },
+  {
+    "nr": 9202,
+    "name": "graduateCourse20",
+    "teacher": 9042
+  },
+  {
+    "nr": 9212,
+    "name": "graduateCourse21",
+    "teacher": 9052
+  },
+  {
+    "nr": 9222,
+    "name": "graduateCourse22",
+    "teacher": 9052
+  },
+  {
+    "nr": 9232,
+    "name": "graduateCourse23",
+    "teacher": 9062
+  },
+  {
+    "nr": 9242,
+    "name": "graduateCourse24",
+    "teacher": 9062
+  },
+  {
+    "nr": 9252,
+    "name": "graduateCourse25",
+    "teacher": 9072
+  },
+  {
+    "nr": 9262,
+    "name": "graduateCourse26",
+    "teacher": 9082
+  },
+  {
+    "nr": 9272,
+    "name": "graduateCourse27",
+    "teacher": 9082
+  },
+  {
+    "nr": 9282,
+    "name": "graduateCourse28",
+    "teacher": 9092
+  },
+  {
+    "nr": 9292,
+    "name": "graduateCourse29",
+    "teacher": 9003
+  },
+  {
+    "nr": 9302,
+    "name": "graduateCourse30",
+    "teacher": 9003
+  },
+  {
+    "nr": 9312,
+    "name": "graduateCourse31",
+    "teacher": 9013
+  },
+  {
+    "nr": 9322,
+    "name": "graduateCourse32",
+    "teacher": 9023
+  },
+  {
+    "nr": 9332,
+    "name": "graduateCourse33",
+    "teacher": 9023
+  },
+  {
+    "nr": 9342,
+    "name": "graduateCourse34",
+    "teacher": 9033
+  },
+  {
+    "nr": 9352,
+    "name": "graduateCourse35",
+    "teacher": 9043
+  },
+  {
+    "nr": 9362,
+    "name": "graduateCourse36",
+    "teacher": 9053
+  },
+  {
+    "nr": 9372,
+    "name": "graduateCourse37",
+    "teacher": 9053
+  },
+  {
+    "nr": 9382,
+    "name": "graduateCourse38",
+    "teacher": 9063
+  },
+  {
+    "nr": 9392,
+    "name": "graduateCourse39",
+    "teacher": 9063
+  },
+  {
+    "nr": 9402,
+    "name": "graduateCourse40",
+    "teacher": 9073
+  },
+  {
+    "nr": 9412,
+    "name": "graduateCourse41",
+    "teacher": 9083
+  },
+  {
+    "nr": 9422,
+    "name": "graduateCourse42",
+    "teacher": 9083
+  },
+  {
+    "nr": 9432,
+    "name": "graduateCourse43",
+    "teacher": 9093
+  },
+  {
+    "nr": 9442,
+    "name": "graduateCourse44",
+    "teacher": 9103
+  },
+  {
+    "nr": 9452,
+    "name": "graduateCourse45",
+    "teacher": 9103
+  },
+  {
+    "nr": 9462,
+    "name": "graduateCourse46",
+    "teacher": 9004
+  },
+  {
+    "nr": 9472,
+    "name": "graduateCourse47",
+    "teacher": 9004
+  },
+  {
+    "nr": 9482,
+    "name": "graduateCourse48",
+    "teacher": 9014
+  },
+  {
+    "nr": 9492,
+    "name": "graduateCourse49",
+    "teacher": 9024
+  },
+  {
+    "nr": 9502,
+    "name": "graduateCourse50",
+    "teacher": 9024
+  },
+  {
+    "nr": 9512,
+    "name": "graduateCourse51",
+    "teacher": 9034
+  },
+  {
+    "nr": 9522,
+    "name": "graduateCourse52",
+    "teacher": 9044
+  },
+  {
+    "nr": 9532,
+    "name": "graduateCourse53",
+    "teacher": 9044
+  },
+  {
+    "nr": 9542,
+    "name": "graduateCourse54",
+    "teacher": 9054
+  },
+  {
+    "nr": 9552,
+    "name": "graduateCourse55",
+    "teacher": 9054
+  },
+  {
+    "nr": 9562,
+    "name": "graduateCourse56",
+    "teacher": 9064
+  },
+  {
+    "nr": 9572,
+    "name": "graduateCourse57",
+    "teacher": 9064
+  },
+  {
+    "nr": 10002,
+    "name": "graduateCourse0",
+    "teacher": 10001
+  },
+  {
+    "nr": 10012,
+    "name": "graduateCourse1",
+    "teacher": 10011
+  },
+  {
+    "nr": 10022,
+    "name": "graduateCourse2",
+    "teacher": 10021
+  },
+  {
+    "nr": 10032,
+    "name": "graduateCourse3",
+    "teacher": 10021
+  },
+  {
+    "nr": 10042,
+    "name": "graduateCourse4",
+    "teacher": 10031
+  },
+  {
+    "nr": 10052,
+    "name": "graduateCourse5",
+    "teacher": 10041
+  },
+  {
+    "nr": 10062,
+    "name": "graduateCourse6",
+    "teacher": 10051
+  },
+  {
+    "nr": 10072,
+    "name": "graduateCourse7",
+    "teacher": 10061
+  },
+  {
+    "nr": 10082,
+    "name": "graduateCourse8",
+    "teacher": 10002
+  },
+  {
+    "nr": 10092,
+    "name": "graduateCourse9",
+    "teacher": 10012
+  },
+  {
+    "nr": 10102,
+    "name": "graduateCourse10",
+    "teacher": 10022
+  },
+  {
+    "nr": 10112,
+    "name": "graduateCourse11",
+    "teacher": 10032
+  },
+  {
+    "nr": 10122,
+    "name": "graduateCourse12",
+    "teacher": 10032
+  },
+  {
+    "nr": 10132,
+    "name": "graduateCourse13",
+    "teacher": 10042
+  },
+  {
+    "nr": 10142,
+    "name": "graduateCourse14",
+    "teacher": 10042
+  },
+  {
+    "nr": 10152,
+    "name": "graduateCourse15",
+    "teacher": 10052
+  },
+  {
+    "nr": 10162,
+    "name": "graduateCourse16",
+    "teacher": 10062
+  },
+  {
+    "nr": 10172,
+    "name": "graduateCourse17",
+    "teacher": 10072
+  },
+  {
+    "nr": 10182,
+    "name": "graduateCourse18",
+    "teacher": 10072
+  },
+  {
+    "nr": 10192,
+    "name": "graduateCourse19",
+    "teacher": 10082
+  },
+  {
+    "nr": 10202,
+    "name": "graduateCourse20",
+    "teacher": 10092
+  },
+  {
+    "nr": 10212,
+    "name": "graduateCourse21",
+    "teacher": 10092
+  },
+  {
+    "nr": 10222,
+    "name": "graduateCourse22",
+    "teacher": 10102
+  },
+  {
+    "nr": 10232,
+    "name": "graduateCourse23",
+    "teacher": 10003
+  },
+  {
+    "nr": 10242,
+    "name": "graduateCourse24",
+    "teacher": 10003
+  },
+  {
+    "nr": 10252,
+    "name": "graduateCourse25",
+    "teacher": 10013
+  },
+  {
+    "nr": 10262,
+    "name": "graduateCourse26",
+    "teacher": 10013
+  },
+  {
+    "nr": 10272,
+    "name": "graduateCourse27",
+    "teacher": 10023
+  },
+  {
+    "nr": 10282,
+    "name": "graduateCourse28",
+    "teacher": 10033
+  },
+  {
+    "nr": 10292,
+    "name": "graduateCourse29",
+    "teacher": 10033
+  },
+  {
+    "nr": 10302,
+    "name": "graduateCourse30",
+    "teacher": 10043
+  },
+  {
+    "nr": 10312,
+    "name": "graduateCourse31",
+    "teacher": 10053
+  },
+  {
+    "nr": 10322,
+    "name": "graduateCourse32",
+    "teacher": 10063
+  },
+  {
+    "nr": 10332,
+    "name": "graduateCourse33",
+    "teacher": 10063
+  },
+  {
+    "nr": 10342,
+    "name": "graduateCourse34",
+    "teacher": 10073
+  },
+  {
+    "nr": 10352,
+    "name": "graduateCourse35",
+    "teacher": 10083
+  },
+  {
+    "nr": 10362,
+    "name": "graduateCourse36",
+    "teacher": 10083
+  },
+  {
+    "nr": 10372,
+    "name": "graduateCourse37",
+    "teacher": 10093
+  },
+  {
+    "nr": 10382,
+    "name": "graduateCourse38",
+    "teacher": 10103
+  },
+  {
+    "nr": 10392,
+    "name": "graduateCourse39",
+    "teacher": 10103
+  },
+  {
+    "nr": 10402,
+    "name": "graduateCourse40",
+    "teacher": 10004
+  },
+  {
+    "nr": 10412,
+    "name": "graduateCourse41",
+    "teacher": 10014
+  },
+  {
+    "nr": 10422,
+    "name": "graduateCourse42",
+    "teacher": 10024
+  },
+  {
+    "nr": 10432,
+    "name": "graduateCourse43",
+    "teacher": 10034
+  },
+  {
+    "nr": 10442,
+    "name": "graduateCourse44",
+    "teacher": 10044
+  },
+  {
+    "nr": 10452,
+    "name": "graduateCourse45",
+    "teacher": 10054
+  },
+  {
+    "nr": 10462,
+    "name": "graduateCourse46",
+    "teacher": 10054
+  },
+  {
+    "nr": 10472,
+    "name": "graduateCourse47",
+    "teacher": 10064
+  },
+  {
+    "nr": 11002,
+    "name": "graduateCourse0",
+    "teacher": 11001
+  },
+  {
+    "nr": 11012,
+    "name": "graduateCourse1",
+    "teacher": 11011
+  },
+  {
+    "nr": 11022,
+    "name": "graduateCourse2",
+    "teacher": 11021
+  },
+  {
+    "nr": 11032,
+    "name": "graduateCourse3",
+    "teacher": 11031
+  },
+  {
+    "nr": 11042,
+    "name": "graduateCourse4",
+    "teacher": 11041
+  },
+  {
+    "nr": 11052,
+    "name": "graduateCourse5",
+    "teacher": 11051
+  },
+  {
+    "nr": 11062,
+    "name": "graduateCourse6",
+    "teacher": 11051
+  },
+  {
+    "nr": 11072,
+    "name": "graduateCourse7",
+    "teacher": 11061
+  },
+  {
+    "nr": 11082,
+    "name": "graduateCourse8",
+    "teacher": 11061
+  },
+  {
+    "nr": 11092,
+    "name": "graduateCourse9",
+    "teacher": 11071
+  },
+  {
+    "nr": 11102,
+    "name": "graduateCourse10",
+    "teacher": 11071
+  },
+  {
+    "nr": 11112,
+    "name": "graduateCourse11",
+    "teacher": 11002
+  },
+  {
+    "nr": 11122,
+    "name": "graduateCourse12",
+    "teacher": 11012
+  },
+  {
+    "nr": 11132,
+    "name": "graduateCourse13",
+    "teacher": 11022
+  },
+  {
+    "nr": 11142,
+    "name": "graduateCourse14",
+    "teacher": 11022
+  },
+  {
+    "nr": 11152,
+    "name": "graduateCourse15",
+    "teacher": 11032
+  },
+  {
+    "nr": 11162,
+    "name": "graduateCourse16",
+    "teacher": 11042
+  },
+  {
+    "nr": 11172,
+    "name": "graduateCourse17",
+    "teacher": 11052
+  },
+  {
+    "nr": 11182,
+    "name": "graduateCourse18",
+    "teacher": 11062
+  },
+  {
+    "nr": 11192,
+    "name": "graduateCourse19",
+    "teacher": 11062
+  },
+  {
+    "nr": 11202,
+    "name": "graduateCourse20",
+    "teacher": 11072
+  },
+  {
+    "nr": 11212,
+    "name": "graduateCourse21",
+    "teacher": 11072
+  },
+  {
+    "nr": 11222,
+    "name": "graduateCourse22",
+    "teacher": 11082
+  },
+  {
+    "nr": 11232,
+    "name": "graduateCourse23",
+    "teacher": 11082
+  },
+  {
+    "nr": 11242,
+    "name": "graduateCourse24",
+    "teacher": 11092
+  },
+  {
+    "nr": 11252,
+    "name": "graduateCourse25",
+    "teacher": 11102
+  },
+  {
+    "nr": 11262,
+    "name": "graduateCourse26",
+    "teacher": 11102
+  },
+  {
+    "nr": 11272,
+    "name": "graduateCourse27",
+    "teacher": 11112
+  },
+  {
+    "nr": 11282,
+    "name": "graduateCourse28",
+    "teacher": 11112
+  },
+  {
+    "nr": 11292,
+    "name": "graduateCourse29",
+    "teacher": 11122
+  },
+  {
+    "nr": 11302,
+    "name": "graduateCourse30",
+    "teacher": 11122
+  },
+  {
+    "nr": 11312,
+    "name": "graduateCourse31",
+    "teacher": 11132
+  },
+  {
+    "nr": 11322,
+    "name": "graduateCourse32",
+    "teacher": 11132
+  },
+  {
+    "nr": 11332,
+    "name": "graduateCourse33",
+    "teacher": 11003
+  },
+  {
+    "nr": 11342,
+    "name": "graduateCourse34",
+    "teacher": 11003
+  },
+  {
+    "nr": 11352,
+    "name": "graduateCourse35",
+    "teacher": 11013
+  },
+  {
+    "nr": 11362,
+    "name": "graduateCourse36",
+    "teacher": 11023
+  },
+  {
+    "nr": 11372,
+    "name": "graduateCourse37",
+    "teacher": 11023
+  },
+  {
+    "nr": 11382,
+    "name": "graduateCourse38",
+    "teacher": 11033
+  },
+  {
+    "nr": 11392,
+    "name": "graduateCourse39",
+    "teacher": 11033
+  },
+  {
+    "nr": 11402,
+    "name": "graduateCourse40",
+    "teacher": 11043
+  },
+  {
+    "nr": 11412,
+    "name": "graduateCourse41",
+    "teacher": 11053
+  },
+  {
+    "nr": 11422,
+    "name": "graduateCourse42",
+    "teacher": 11063
+  },
+  {
+    "nr": 11432,
+    "name": "graduateCourse43",
+    "teacher": 11073
+  },
+  {
+    "nr": 11442,
+    "name": "graduateCourse44",
+    "teacher": 11073
+  },
+  {
+    "nr": 11452,
+    "name": "graduateCourse45",
+    "teacher": 11083
+  },
+  {
+    "nr": 11462,
+    "name": "graduateCourse46",
+    "teacher": 11083
+  },
+  {
+    "nr": 11472,
+    "name": "graduateCourse47",
+    "teacher": 11093
+  },
+  {
+    "nr": 11482,
+    "name": "graduateCourse48",
+    "teacher": 11103
+  },
+  {
+    "nr": 11492,
+    "name": "graduateCourse49",
+    "teacher": 11103
+  },
+  {
+    "nr": 11502,
+    "name": "graduateCourse50",
+    "teacher": 11004
+  },
+  {
+    "nr": 11512,
+    "name": "graduateCourse51",
+    "teacher": 11014
+  },
+  {
+    "nr": 11522,
+    "name": "graduateCourse52",
+    "teacher": 11014
+  },
+  {
+    "nr": 11532,
+    "name": "graduateCourse53",
+    "teacher": 11024
+  },
+  {
+    "nr": 11542,
+    "name": "graduateCourse54",
+    "teacher": 11024
+  },
+  {
+    "nr": 11552,
+    "name": "graduateCourse55",
+    "teacher": 11034
+  },
+  {
+    "nr": 11562,
+    "name": "graduateCourse56",
+    "teacher": 11044
+  },
+  {
+    "nr": 11572,
+    "name": "graduateCourse57",
+    "teacher": 11044
+  },
+  {
+    "nr": 11582,
+    "name": "graduateCourse58",
+    "teacher": 11054
+  },
+  {
+    "nr": 11592,
+    "name": "graduateCourse59",
+    "teacher": 11054
+  },
+  {
+    "nr": 12002,
+    "name": "graduateCourse0",
+    "teacher": 12001
+  },
+  {
+    "nr": 12012,
+    "name": "graduateCourse1",
+    "teacher": 12011
+  },
+  {
+    "nr": 12022,
+    "name": "graduateCourse2",
+    "teacher": 12021
+  },
+  {
+    "nr": 12032,
+    "name": "graduateCourse3",
+    "teacher": 12031
+  },
+  {
+    "nr": 12042,
+    "name": "graduateCourse4",
+    "teacher": 12031
+  },
+  {
+    "nr": 12052,
+    "name": "graduateCourse5",
+    "teacher": 12041
+  },
+  {
+    "nr": 12062,
+    "name": "graduateCourse6",
+    "teacher": 12041
+  },
+  {
+    "nr": 12072,
+    "name": "graduateCourse7",
+    "teacher": 12051
+  },
+  {
+    "nr": 12082,
+    "name": "graduateCourse8",
+    "teacher": 12051
+  },
+  {
+    "nr": 12092,
+    "name": "graduateCourse9",
+    "teacher": 12061
+  },
+  {
+    "nr": 12102,
+    "name": "graduateCourse10",
+    "teacher": 12071
+  },
+  {
+    "nr": 12112,
+    "name": "graduateCourse11",
+    "teacher": 12071
+  },
+  {
+    "nr": 12122,
+    "name": "graduateCourse12",
+    "teacher": 12081
+  },
+  {
+    "nr": 12132,
+    "name": "graduateCourse13",
+    "teacher": 12081
+  },
+  {
+    "nr": 12142,
+    "name": "graduateCourse14",
+    "teacher": 12002
+  },
+  {
+    "nr": 12152,
+    "name": "graduateCourse15",
+    "teacher": 12012
+  },
+  {
+    "nr": 12162,
+    "name": "graduateCourse16",
+    "teacher": 12022
+  },
+  {
+    "nr": 12172,
+    "name": "graduateCourse17",
+    "teacher": 12032
+  },
+  {
+    "nr": 12182,
+    "name": "graduateCourse18",
+    "teacher": 12032
+  },
+  {
+    "nr": 12192,
+    "name": "graduateCourse19",
+    "teacher": 12042
+  },
+  {
+    "nr": 12202,
+    "name": "graduateCourse20",
+    "teacher": 12042
+  },
+  {
+    "nr": 12212,
+    "name": "graduateCourse21",
+    "teacher": 12052
+  },
+  {
+    "nr": 12222,
+    "name": "graduateCourse22",
+    "teacher": 12062
+  },
+  {
+    "nr": 12232,
+    "name": "graduateCourse23",
+    "teacher": 12062
+  },
+  {
+    "nr": 12242,
+    "name": "graduateCourse24",
+    "teacher": 12072
+  },
+  {
+    "nr": 12252,
+    "name": "graduateCourse25",
+    "teacher": 12082
+  },
+  {
+    "nr": 12262,
+    "name": "graduateCourse26",
+    "teacher": 12092
+  },
+  {
+    "nr": 12272,
+    "name": "graduateCourse27",
+    "teacher": 12102
+  },
+  {
+    "nr": 12282,
+    "name": "graduateCourse28",
+    "teacher": 12102
+  },
+  {
+    "nr": 12292,
+    "name": "graduateCourse29",
+    "teacher": 12003
+  },
+  {
+    "nr": 12302,
+    "name": "graduateCourse30",
+    "teacher": 12003
+  },
+  {
+    "nr": 12312,
+    "name": "graduateCourse31",
+    "teacher": 12013
+  },
+  {
+    "nr": 12322,
+    "name": "graduateCourse32",
+    "teacher": 12023
+  },
+  {
+    "nr": 12332,
+    "name": "graduateCourse33",
+    "teacher": 12033
+  },
+  {
+    "nr": 12342,
+    "name": "graduateCourse34",
+    "teacher": 12033
+  },
+  {
+    "nr": 12352,
+    "name": "graduateCourse35",
+    "teacher": 12043
+  },
+  {
+    "nr": 12362,
+    "name": "graduateCourse36",
+    "teacher": 12053
+  },
+  {
+    "nr": 12372,
+    "name": "graduateCourse37",
+    "teacher": 12053
+  },
+  {
+    "nr": 12382,
+    "name": "graduateCourse38",
+    "teacher": 12063
+  },
+  {
+    "nr": 12392,
+    "name": "graduateCourse39",
+    "teacher": 12073
+  },
+  {
+    "nr": 12402,
+    "name": "graduateCourse40",
+    "teacher": 12083
+  },
+  {
+    "nr": 12412,
+    "name": "graduateCourse41",
+    "teacher": 12093
+  },
+  {
+    "nr": 12422,
+    "name": "graduateCourse42",
+    "teacher": 12093
+  },
+  {
+    "nr": 12432,
+    "name": "graduateCourse43",
+    "teacher": 12103
+  },
+  {
+    "nr": 12442,
+    "name": "graduateCourse44",
+    "teacher": 12103
+  },
+  {
+    "nr": 12452,
+    "name": "graduateCourse45",
+    "teacher": 12004
+  },
+  {
+    "nr": 12462,
+    "name": "graduateCourse46",
+    "teacher": 12014
+  },
+  {
+    "nr": 12472,
+    "name": "graduateCourse47",
+    "teacher": 12014
+  },
+  {
+    "nr": 12482,
+    "name": "graduateCourse48",
+    "teacher": 12024
+  },
+  {
+    "nr": 12492,
+    "name": "graduateCourse49",
+    "teacher": 12024
+  },
+  {
+    "nr": 12502,
+    "name": "graduateCourse50",
+    "teacher": 12034
+  },
+  {
+    "nr": 12512,
+    "name": "graduateCourse51",
+    "teacher": 12034
+  },
+  {
+    "nr": 12522,
+    "name": "graduateCourse52",
+    "teacher": 12044
+  },
+  {
+    "nr": 13002,
+    "name": "graduateCourse0",
+    "teacher": 13001
+  },
+  {
+    "nr": 13012,
+    "name": "graduateCourse1",
+    "teacher": 13001
+  },
+  {
+    "nr": 13022,
+    "name": "graduateCourse2",
+    "teacher": 13011
+  },
+  {
+    "nr": 13032,
+    "name": "graduateCourse3",
+    "teacher": 13021
+  },
+  {
+    "nr": 13042,
+    "name": "graduateCourse4",
+    "teacher": 13021
+  },
+  {
+    "nr": 13052,
+    "name": "graduateCourse5",
+    "teacher": 13031
+  },
+  {
+    "nr": 13062,
+    "name": "graduateCourse6",
+    "teacher": 13031
+  },
+  {
+    "nr": 13072,
+    "name": "graduateCourse7",
+    "teacher": 13041
+  },
+  {
+    "nr": 13082,
+    "name": "graduateCourse8",
+    "teacher": 13051
+  },
+  {
+    "nr": 13092,
+    "name": "graduateCourse9",
+    "teacher": 13061
+  },
+  {
+    "nr": 13102,
+    "name": "graduateCourse10",
+    "teacher": 13061
+  },
+  {
+    "nr": 13112,
+    "name": "graduateCourse11",
+    "teacher": 13071
+  },
+  {
+    "nr": 13122,
+    "name": "graduateCourse12",
+    "teacher": 13002
+  },
+  {
+    "nr": 13132,
+    "name": "graduateCourse13",
+    "teacher": 13012
+  },
+  {
+    "nr": 13142,
+    "name": "graduateCourse14",
+    "teacher": 13022
+  },
+  {
+    "nr": 13152,
+    "name": "graduateCourse15",
+    "teacher": 13022
+  },
+  {
+    "nr": 13162,
+    "name": "graduateCourse16",
+    "teacher": 13032
+  },
+  {
+    "nr": 13172,
+    "name": "graduateCourse17",
+    "teacher": 13042
+  },
+  {
+    "nr": 13182,
+    "name": "graduateCourse18",
+    "teacher": 13042
+  },
+  {
+    "nr": 13192,
+    "name": "graduateCourse19",
+    "teacher": 13052
+  },
+  {
+    "nr": 13202,
+    "name": "graduateCourse20",
+    "teacher": 13052
+  },
+  {
+    "nr": 13212,
+    "name": "graduateCourse21",
+    "teacher": 13062
+  },
+  {
+    "nr": 13222,
+    "name": "graduateCourse22",
+    "teacher": 13062
+  },
+  {
+    "nr": 13232,
+    "name": "graduateCourse23",
+    "teacher": 13072
+  },
+  {
+    "nr": 13242,
+    "name": "graduateCourse24",
+    "teacher": 13082
+  },
+  {
+    "nr": 13252,
+    "name": "graduateCourse25",
+    "teacher": 13092
+  },
+  {
+    "nr": 13262,
+    "name": "graduateCourse26",
+    "teacher": 13092
+  },
+  {
+    "nr": 13272,
+    "name": "graduateCourse27",
+    "teacher": 13102
+  },
+  {
+    "nr": 13282,
+    "name": "graduateCourse28",
+    "teacher": 13112
+  },
+  {
+    "nr": 13292,
+    "name": "graduateCourse29",
+    "teacher": 13112
+  },
+  {
+    "nr": 13302,
+    "name": "graduateCourse30",
+    "teacher": 13122
+  },
+  {
+    "nr": 13312,
+    "name": "graduateCourse31",
+    "teacher": 13122
+  },
+  {
+    "nr": 13322,
+    "name": "graduateCourse32",
+    "teacher": 13132
+  },
+  {
+    "nr": 13332,
+    "name": "graduateCourse33",
+    "teacher": 13003
+  },
+  {
+    "nr": 13342,
+    "name": "graduateCourse34",
+    "teacher": 13003
+  },
+  {
+    "nr": 13352,
+    "name": "graduateCourse35",
+    "teacher": 13013
+  },
+  {
+    "nr": 13362,
+    "name": "graduateCourse36",
+    "teacher": 13023
+  },
+  {
+    "nr": 13372,
+    "name": "graduateCourse37",
+    "teacher": 13023
+  },
+  {
+    "nr": 13382,
+    "name": "graduateCourse38",
+    "teacher": 13033
+  },
+  {
+    "nr": 13392,
+    "name": "graduateCourse39",
+    "teacher": 13033
+  },
+  {
+    "nr": 13402,
+    "name": "graduateCourse40",
+    "teacher": 13043
+  },
+  {
+    "nr": 13412,
+    "name": "graduateCourse41",
+    "teacher": 13053
+  },
+  {
+    "nr": 13422,
+    "name": "graduateCourse42",
+    "teacher": 13053
+  },
+  {
+    "nr": 13432,
+    "name": "graduateCourse43",
+    "teacher": 13063
+  },
+  {
+    "nr": 13442,
+    "name": "graduateCourse44",
+    "teacher": 13073
+  },
+  {
+    "nr": 13452,
+    "name": "graduateCourse45",
+    "teacher": 13073
+  },
+  {
+    "nr": 13462,
+    "name": "graduateCourse46",
+    "teacher": 13083
+  },
+  {
+    "nr": 13472,
+    "name": "graduateCourse47",
+    "teacher": 13083
+  },
+  {
+    "nr": 13482,
+    "name": "graduateCourse48",
+    "teacher": 13093
+  },
+  {
+    "nr": 13492,
+    "name": "graduateCourse49",
+    "teacher": 13093
+  },
+  {
+    "nr": 13502,
+    "name": "graduateCourse50",
+    "teacher": 13103
+  },
+  {
+    "nr": 13512,
+    "name": "graduateCourse51",
+    "teacher": 13004
+  },
+  {
+    "nr": 13522,
+    "name": "graduateCourse52",
+    "teacher": 13014
+  },
+  {
+    "nr": 13532,
+    "name": "graduateCourse53",
+    "teacher": 13014
+  },
+  {
+    "nr": 13542,
+    "name": "graduateCourse54",
+    "teacher": 13024
+  },
+  {
+    "nr": 13552,
+    "name": "graduateCourse55",
+    "teacher": 13034
+  },
+  {
+    "nr": 13562,
+    "name": "graduateCourse56",
+    "teacher": 13044
+  },
+  {
+    "nr": 13572,
+    "name": "graduateCourse57",
+    "teacher": 13044
+  },
+  {
+    "nr": 14002,
+    "name": "graduateCourse0",
+    "teacher": 14001
+  },
+  {
+    "nr": 14012,
+    "name": "graduateCourse1",
+    "teacher": 14011
+  },
+  {
+    "nr": 14022,
+    "name": "graduateCourse2",
+    "teacher": 14021
+  },
+  {
+    "nr": 14032,
+    "name": "graduateCourse3",
+    "teacher": 14031
+  },
+  {
+    "nr": 14042,
+    "name": "graduateCourse4",
+    "teacher": 14041
+  },
+  {
+    "nr": 14052,
+    "name": "graduateCourse5",
+    "teacher": 14041
+  },
+  {
+    "nr": 14062,
+    "name": "graduateCourse6",
+    "teacher": 14051
+  },
+  {
+    "nr": 14072,
+    "name": "graduateCourse7",
+    "teacher": 14051
+  },
+  {
+    "nr": 14082,
+    "name": "graduateCourse8",
+    "teacher": 14061
+  },
+  {
+    "nr": 14092,
+    "name": "graduateCourse9",
+    "teacher": 14061
+  },
+  {
+    "nr": 14102,
+    "name": "graduateCourse10",
+    "teacher": 14002
+  },
+  {
+    "nr": 14112,
+    "name": "graduateCourse11",
+    "teacher": 14012
+  },
+  {
+    "nr": 14122,
+    "name": "graduateCourse12",
+    "teacher": 14012
+  },
+  {
+    "nr": 14132,
+    "name": "graduateCourse13",
+    "teacher": 14022
+  },
+  {
+    "nr": 14142,
+    "name": "graduateCourse14",
+    "teacher": 14032
+  },
+  {
+    "nr": 14152,
+    "name": "graduateCourse15",
+    "teacher": 14042
+  },
+  {
+    "nr": 14162,
+    "name": "graduateCourse16",
+    "teacher": 14052
+  },
+  {
+    "nr": 14172,
+    "name": "graduateCourse17",
+    "teacher": 14052
+  },
+  {
+    "nr": 14182,
+    "name": "graduateCourse18",
+    "teacher": 14062
+  },
+  {
+    "nr": 14192,
+    "name": "graduateCourse19",
+    "teacher": 14062
+  },
+  {
+    "nr": 14202,
+    "name": "graduateCourse20",
+    "teacher": 14072
+  },
+  {
+    "nr": 14212,
+    "name": "graduateCourse21",
+    "teacher": 14082
+  },
+  {
+    "nr": 14222,
+    "name": "graduateCourse22",
+    "teacher": 14082
+  },
+  {
+    "nr": 14232,
+    "name": "graduateCourse23",
+    "teacher": 14092
+  },
+  {
+    "nr": 14242,
+    "name": "graduateCourse24",
+    "teacher": 14102
+  },
+  {
+    "nr": 14252,
+    "name": "graduateCourse25",
+    "teacher": 14102
+  },
+  {
+    "nr": 14262,
+    "name": "graduateCourse26",
+    "teacher": 14112
+  },
+  {
+    "nr": 14272,
+    "name": "graduateCourse27",
+    "teacher": 14112
+  },
+  {
+    "nr": 14282,
+    "name": "graduateCourse28",
+    "teacher": 14003
+  },
+  {
+    "nr": 14292,
+    "name": "graduateCourse29",
+    "teacher": 14013
+  },
+  {
+    "nr": 14302,
+    "name": "graduateCourse30",
+    "teacher": 14023
+  },
+  {
+    "nr": 14312,
+    "name": "graduateCourse31",
+    "teacher": 14023
+  },
+  {
+    "nr": 14322,
+    "name": "graduateCourse32",
+    "teacher": 14033
+  },
+  {
+    "nr": 14332,
+    "name": "graduateCourse33",
+    "teacher": 14043
+  },
+  {
+    "nr": 14342,
+    "name": "graduateCourse34",
+    "teacher": 14053
+  },
+  {
+    "nr": 14352,
+    "name": "graduateCourse35",
+    "teacher": 14063
+  },
+  {
+    "nr": 14362,
+    "name": "graduateCourse36",
+    "teacher": 14073
+  },
+  {
+    "nr": 14372,
+    "name": "graduateCourse37",
+    "teacher": 14004
+  },
+  {
+    "nr": 14382,
+    "name": "graduateCourse38",
+    "teacher": 14014
+  },
+  {
+    "nr": 14392,
+    "name": "graduateCourse39",
+    "teacher": 14024
+  },
+  {
+    "nr": 14402,
+    "name": "graduateCourse40",
+    "teacher": 14024
+  },
+  {
+    "nr": 14412,
+    "name": "graduateCourse41",
+    "teacher": 14034
+  },
+  {
+    "nr": 14422,
+    "name": "graduateCourse42",
+    "teacher": 14034
+  },
+  {
+    "nr": 14432,
+    "name": "graduateCourse43",
+    "teacher": 14044
+  },
+  {
+    "nr": 14442,
+    "name": "graduateCourse44",
+    "teacher": 14054
+  },
+  {
+    "nr": 14452,
+    "name": "graduateCourse45",
+    "teacher": 14054
+  }
+]

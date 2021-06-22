@@ -1,1 +1,4004 @@
-{"data": [{"band_gap": 0.0, "material_id": "mp-561628"}, {"band_gap": 0.0, "material_id": "mp-551214"}, {"band_gap": 0.0, "material_id": "mp-1300528"}, {"band_gap": 0.0, "material_id": "mp-1602333"}, {"band_gap": 0.0, "material_id": "mp-1678519"}, {"band_gap": 0.0, "material_id": "mp-1832928"}, {"band_gap": 4.2303, "material_id": "mp-643701"}, {"band_gap": 3.9882000000000004, "material_id": "mp-749706"}, {"band_gap": 4.182, "material_id": "mp-731959"}, {"band_gap": 3.9970000000000003, "material_id": "mp-742998"}, {"band_gap": 4.2692000000000005, "material_id": "mp-848807"}, {"band_gap": 4.420999999999999, "material_id": "mp-725538"}, {"band_gap": 4.2688, "material_id": "mp-727083"}, {"band_gap": 4.2688, "material_id": "mp-860047"}, {"band_gap": 4.4593, "material_id": "mp-690711"}, {"band_gap": 3.9718000000000004, "material_id": "mp-864017"}, {"band_gap": 4.0863, "material_id": "mp-697267"}, {"band_gap": 3.9699000000000004, "material_id": "mp-750429"}, {"band_gap": 4.1278, "material_id": "mp-732312"}, {"band_gap": 4.3487, "material_id": "mp-1140687"}, {"band_gap": 4.1887, "material_id": "mp-1203133"}, {"band_gap": 4.1376, "material_id": "mp-1196113"}, {"band_gap": 4.2562, "material_id": "mp-1216736"}, {"band_gap": 4.265000000000001, "material_id": "mp-1385379"}, {"band_gap": 4.1974, "material_id": "mp-1358739"}, {"band_gap": 3.9682999999999997, "material_id": "mp-1354679"}, {"band_gap": 4.0987, "material_id": "mp-1359029"}, {"band_gap": 3.9888999999999997, "material_id": "mp-1394765"}, {"band_gap": 3.97, "material_id": "mp-1684908"}, {"band_gap": 4.2684999999999995, "material_id": "mp-1734098"}, {"band_gap": 4.2684999999999995, "material_id": "mp-1627315"}, {"band_gap": 3.9886000000000004, "material_id": "mp-1626730"}, {"band_gap": 4.1826, "material_id": "mp-1751163"}, {"band_gap": 4.2157, "material_id": "mp-1161454"}, {"band_gap": 4.7715000000000005, "material_id": "mp-1130281"}, {"band_gap": 4.3784, "material_id": "mp-1239745"}, {"band_gap": 4.391900000000001, "material_id": "mp-1130205"}, {"band_gap": 4.3159, "material_id": "mp-1820911"}, {"band_gap": 4.2703, "material_id": "mp-1816090"}, {"band_gap": 3.9743000000000004, "material_id": "mp-1895271"}, {"band_gap": 4.179, "material_id": "mp-1895506"}, {"band_gap": 4.1844, "material_id": "mp-1816535"}, {"band_gap": 2.2287, "material_id": "mp-614918"}, {"band_gap": 2.2460999999999998, "material_id": "mp-655230"}, {"band_gap": 2.2493000000000003, "material_id": "mp-659940"}, {"band_gap": 2.1293, "material_id": "mp-660654"}, {"band_gap": 2.1238, "material_id": "mp-661374"}, {"band_gap": 4.2988, "material_id": "mp-688918"}, {"band_gap": 4.2844, "material_id": "mp-669750"}, {"band_gap": 4.270700000000001, "material_id": "mp-689049"}, {"band_gap": 5.2679, "material_id": "mp-682789"}, {"band_gap": 5.0908, "material_id": "mp-708874"}, {"band_gap": 5.0908, "material_id": "mp-702728"}, {"band_gap": 5.2642, "material_id": "mp-504786"}, {"band_gap": 5.2684999999999995, "material_id": "mp-27985"}, {"band_gap": 4.287400000000001, "material_id": "mp-552120"}, {"band_gap": 5.0657, "material_id": "mp-1141117"}, {"band_gap": 2.1506000000000003, "material_id": "mp-1401963"}, {"band_gap": 4.4619, "material_id": "mp-1435213"}, {"band_gap": 5.0855999999999995, "material_id": "mp-1422184"}, {"band_gap": 2.1253, "material_id": "mp-1625463"}, {"band_gap": 5.0892, "material_id": "mp-1704968"}, {"band_gap": 4.2733, "material_id": "mp-1597180"}, {"band_gap": 2.1501000000000006, "material_id": "mp-1760944"}, {"band_gap": 4.4621, "material_id": "mp-1702478"}, {"band_gap": 5.0892, "material_id": "mp-1592934"}, {"band_gap": 0.0, "material_id": "mp-1538103"}, {"band_gap": 2.5294, "material_id": "mp-1127229"}, {"band_gap": 4.4575000000000005, "material_id": "mp-1788009"}, {"band_gap": 4.992500000000001, "material_id": "mp-1525606"}, {"band_gap": 5.5577000000000005, "material_id": "mp-1127337"}, {"band_gap": 2.1494, "material_id": "mp-1924018"}, {"band_gap": 5.0898, "material_id": "mp-1870640"}, {"band_gap": 0.0, "material_id": "mp-929024"}, {"band_gap": 0.0, "material_id": "mp-912590"}, {"band_gap": 0.0, "material_id": "mp-929391"}, {"band_gap": 0.06929999999999925, "material_id": "mp-1458"}, {"band_gap": 0.0, "material_id": "mp-1426323"}, {"band_gap": 0.0, "material_id": "mp-1591057"}, {"band_gap": 0.0, "material_id": "mp-1698594"}, {"band_gap": 0.0, "material_id": "mp-1537105"}, {"band_gap": 0.0, "material_id": "mp-1784808"}, {"band_gap": 0.0, "material_id": "mp-1136389"}, {"band_gap": 0.0, "material_id": "mp-929445"}, {"band_gap": 0.0, "material_id": "mp-912684"}, {"band_gap": 0.0, "material_id": "mp-929104"}, {"band_gap": 0.0647000000000002, "material_id": "mp-20490"}, {"band_gap": 0.0, "material_id": "mp-1095525"}, {"band_gap": 0.0, "material_id": "mp-1419904"}, {"band_gap": 0.0, "material_id": "mp-1703829"}, {"band_gap": 0.0, "material_id": "mp-1602237"}, {"band_gap": 0.0, "material_id": "mp-1776789"}, {"band_gap": 0.0, "material_id": "mp-1151080"}, {"band_gap": 0.0, "material_id": "mp-1002195"}, {"band_gap": 0.0, "material_id": "mp-1002184"}, {"band_gap": 0.0, "material_id": "mp-1002231"}, {"band_gap": 0.0, "material_id": "mp-1002225"}, {"band_gap": 0.0, "material_id": "mp-1002183"}, {"band_gap": 0.0, "material_id": "mp-1002215"}, {"band_gap": 0.0, "material_id": "mp-1002199"}, {"band_gap": 0.0, "material_id": "mp-1002187"}, {"band_gap": 0.0, "material_id": "mp-1002212"}, {"band_gap": 0.0, "material_id": "mp-1002201"}, {"band_gap": 0.0, "material_id": "mp-1002218"}, {"band_gap": 0.0, "material_id": "mp-1002205"}, {"band_gap": 0.0, "material_id": "mp-1002204"}, {"band_gap": 0.0, "material_id": "mp-1002188"}, {"band_gap": 0.0, "material_id": "mp-1002194"}, {"band_gap": 0.0, "material_id": "mp-1002214"}, {"band_gap": 0.0, "material_id": "mp-999131"}, {"band_gap": 0.0, "material_id": "mp-999146"}, {"band_gap": 0.0, "material_id": "mp-999149"}, {"band_gap": 0.0, "material_id": "mp-999172"}, {"band_gap": 0.0, "material_id": "mp-999120"}, {"band_gap": 0.0, "material_id": "mp-999162"}, {"band_gap": 0.0, "material_id": "mp-999153"}, {"band_gap": 0.0, "material_id": "mp-999118"}, {"band_gap": 0.0, "material_id": "mp-1057314"}, {"band_gap": 0.0, "material_id": "mp-1057283"}, {"band_gap": 0.0, "material_id": "mp-1057291"}, {"band_gap": 0.0, "material_id": "mp-1057305"}, {"band_gap": 0.0, "material_id": "mp-1058510"}, {"band_gap": 0.0, "material_id": "mp-1058525"}, {"band_gap": 0.0, "material_id": "mp-1058529"}, {"band_gap": 0.0, "material_id": "mp-1058498"}, {"band_gap": 0.0, "material_id": "mp-1060031"}, {"band_gap": 0.0, "material_id": "mp-1059996"}, {"band_gap": 0.0, "material_id": "mp-1060053"}, {"band_gap": 0.0, "material_id": "mp-1060080"}, {"band_gap": 0.0, "material_id": "mp-1061105"}, {"band_gap": 0.0, "material_id": "mp-1061121"}, {"band_gap": 0.0, "material_id": "mp-1061051"}, {"band_gap": 0.0, "material_id": "mp-1061074"}, {"band_gap": 0.0, "material_id": "mp-1066444"}, {"band_gap": 0.0, "material_id": "mp-1066469"}, {"band_gap": 0.0, "material_id": "mp-1066433"}, {"band_gap": 0.0, "material_id": "mp-1066462"}, {"band_gap": 0.0, "material_id": "mp-1067395"}, {"band_gap": 0.0, "material_id": "mp-1067421"}, {"band_gap": 0.0, "material_id": "mp-1067440"}, {"band_gap": 1.4236999999999997, "material_id": "mp-1067451"}, {"band_gap": 0.0, "material_id": "mp-1067450"}, {"band_gap": 1.4254000000000002, "material_id": "mp-1067574"}, {"band_gap": 1.4291, "material_id": "mp-1067704"}, {"band_gap": 1.4291, "material_id": "mp-1067842"}, {"band_gap": 0.0, "material_id": "mp-1115395"}, {"band_gap": 0.0, "material_id": "mp-1423501"}, {"band_gap": 0.0, "material_id": "mp-1436276"}, {"band_gap": 0.0, "material_id": "mp-1437009"}, {"band_gap": 0.0, "material_id": "mp-1430311"}, {"band_gap": 0.0, "material_id": "mp-1382008"}, {"band_gap": 0.0, "material_id": "mp-1418009"}, {"band_gap": 1.3759999999999994, "material_id": "mp-1363587"}, {"band_gap": 0.0, "material_id": "mp-1673092"}, {"band_gap": 0.0, "material_id": "mp-1675698"}, {"band_gap": 0.0, "material_id": "mp-1610876"}, {"band_gap": 0.0, "material_id": "mp-1611785"}, {"band_gap": 0.0, "material_id": "mp-1609765"}, {"band_gap": 0.0, "material_id": "mp-1672060"}, {"band_gap": 0.0, "material_id": "mp-1610750"}, {"band_gap": 0.0, "material_id": "mp-1610772"}, {"band_gap": 0.0, "material_id": "mp-1731093"}, {"band_gap": 0.0, "material_id": "mp-1764757"}, {"band_gap": 0.0, "material_id": "mp-1612626"}, {"band_gap": 0.0, "material_id": "mp-1688026"}, {"band_gap": 1.3805, "material_id": "mp-1583518"}, {"band_gap": 0.0, "material_id": "mp-1159363"}, {"band_gap": 0.0, "material_id": "mp-1795425"}, {"band_gap": 0.0, "material_id": "mp-1240632"}, {"band_gap": 0.0, "material_id": "mp-1793106"}, {"band_gap": 0.0, "material_id": "mp-1164954"}, {"band_gap": 0.0, "material_id": "mp-1242371"}, {"band_gap": 0.0, "material_id": "mp-1795512"}, {"band_gap": 0.0, "material_id": "mp-1165207"}, {"band_gap": 0.0, "material_id": "mp-1242792"}, {"band_gap": 0.0, "material_id": "mp-1160814"}, {"band_gap": 0.0, "material_id": "mp-1793857"}, {"band_gap": 0.0, "material_id": "mp-1240448"}, {"band_gap": 0.0, "material_id": "mp-1165179"}, {"band_gap": 0.0, "material_id": "mp-1792244"}, {"band_gap": 0.0, "material_id": "mp-1143390"}, {"band_gap": 0.0, "material_id": "mp-1932256"}, {"band_gap": 0.0, "material_id": "mp-1001530"}, {"band_gap": 0.0, "material_id": "mp-1008033"}, {"band_gap": 0.0, "material_id": "mp-1012359"}, {"band_gap": 0, "material_id": "mp-3455"}, {"band_gap": 0.0, "material_id": "mp-1438502"}, {"band_gap": 0.0, "material_id": "mp-1590137"}, {"band_gap": 0.0, "material_id": "mp-1677678"}, {"band_gap": 0.0, "material_id": "mp-1135693"}, {"band_gap": 0.0, "material_id": "mp-1801227"}, {"band_gap": 0.42910000000000004, "material_id": "mp-988285"}, {"band_gap": 0.4333, "material_id": "mp-988040"}, {"band_gap": 0.44030000000000014, "material_id": "mp-987036"}, {"band_gap": 0.43699999999999983, "material_id": "mp-28698"}, {"band_gap": 0.43299999999999983, "material_id": "mp-1141296"}, {"band_gap": 0.46119999999999983, "material_id": "mp-1420609"}, {"band_gap": 0.4426000000000001, "material_id": "mp-1700102"}, {"band_gap": 0.4312, "material_id": "mp-1595200"}, {"band_gap": 0.46030000000000015, "material_id": "mp-1787543"}, {"band_gap": 1.0095, "material_id": "mp-1136493"}, {"band_gap": 0.0, "material_id": "mp-993467"}, {"band_gap": 0.0, "material_id": "mp-991515"}, {"band_gap": 0.0, "material_id": "mp-994798"}, {"band_gap": 0.013099999999999667, "material_id": "mp-11501"}, {"band_gap": 0.0, "material_id": "mp-1438579"}, {"band_gap": 0.0, "material_id": "mp-1677535"}, {"band_gap": 0.0, "material_id": "mp-1588250"}, {"band_gap": 0.0, "material_id": "mp-1794589"}, {"band_gap": 0.0, "material_id": "mp-1524286"}, {"band_gap": 0.0, "material_id": "mp-1172005"}, {"band_gap": 0.0, "material_id": "mp-929760"}, {"band_gap": 0.0, "material_id": "mp-913241"}, {"band_gap": 0.0, "material_id": "mp-930252"}, {"band_gap": 0.0, "material_id": "mp-929782"}, {"band_gap": 0.0, "material_id": "mp-913248"}, {"band_gap": 0.0, "material_id": "mp-930290"}, {"band_gap": 0.02260000000000062, "material_id": "mp-31178"}, {"band_gap": 0.0, "material_id": "mp-567589"}, {"band_gap": 0.0, "material_id": "mp-978159"}, {"band_gap": 0.0, "material_id": "mp-569981"}, {"band_gap": 0.0, "material_id": "mp-977910"}, {"band_gap": 0.0, "material_id": "mp-914525"}, {"band_gap": 0.0, "material_id": "mp-1010315"}, {"band_gap": 0.0, "material_id": "mp-1004656"}, {"band_gap": 0.0, "material_id": "mp-864995"}, {"band_gap": 0.0, "material_id": "mp-1003061"}, {"band_gap": 0.0, "material_id": "mp-1051901"}, {"band_gap": 0.0, "material_id": "mp-1051920"}, {"band_gap": 0.0, "material_id": "mp-1051925"}, {"band_gap": 0.0, "material_id": "mp-1103088"}, {"band_gap": 0.0, "material_id": "mp-1106237"}, {"band_gap": 0.0, "material_id": "mp-1188642"}, {"band_gap": 0.0, "material_id": "mp-1260898"}, {"band_gap": 0.0, "material_id": "mp-1260453"}, {"band_gap": 0.0, "material_id": "mp-1252832"}, {"band_gap": 0.0, "material_id": "mp-1263063"}, {"band_gap": 0.0, "material_id": "mp-1438131"}, {"band_gap": 0.0, "material_id": "mp-1415528"}, {"band_gap": 0.0, "material_id": "mp-1420624"}, {"band_gap": 0.0, "material_id": "mp-1425688"}, {"band_gap": 0.0, "material_id": "mp-1394352"}, {"band_gap": 0.0, "material_id": "mp-1441265"}, {"band_gap": 0.0, "material_id": "mp-1601011"}, {"band_gap": 0.0, "material_id": "mp-1674159"}, {"band_gap": 0.0, "material_id": "mp-1696619"}, {"band_gap": 0.0, "material_id": "mp-1593030"}, {"band_gap": 0.0, "material_id": "mp-1587830"}, {"band_gap": 0.0, "material_id": "mp-1703303"}, {"band_gap": 0.0, "material_id": "mp-1701087"}, {"band_gap": 0.0, "material_id": "mp-1621931"}, {"band_gap": 0.0, "material_id": "mp-1733832"}, {"band_gap": 0.0, "material_id": "mp-1607666"}, {"band_gap": 0.0, "material_id": "mp-1598944"}, {"band_gap": 0.0, "material_id": "mp-1705260"}, {"band_gap": 0.0, "material_id": "mp-1258282"}, {"band_gap": 0.0, "material_id": "mp-1538601"}, {"band_gap": 0.0, "material_id": "mp-1130155"}, {"band_gap": 0.0, "material_id": "mp-1267849"}, {"band_gap": 0.0, "material_id": "mp-1798811"}, {"band_gap": 0.0, "material_id": "mp-1230698"}, {"band_gap": 0.0, "material_id": "mp-1801658"}, {"band_gap": 0.0, "material_id": "mp-1253380"}, {"band_gap": 0.0, "material_id": "mp-1149426"}, {"band_gap": 0.0, "material_id": "mp-1266702"}, {"band_gap": 0.0, "material_id": "mp-1262134"}, {"band_gap": 0.0, "material_id": "mp-1261378"}, {"band_gap": 0.0, "material_id": "mp-1263233"}, {"band_gap": 0.0, "material_id": "mp-1127261"}, {"band_gap": 0.0, "material_id": "mp-1240549"}, {"band_gap": 0.0, "material_id": "mp-1267146"}, {"band_gap": 0.0, "material_id": "mp-1779415"}, {"band_gap": 0.0, "material_id": "mp-1776106"}, {"band_gap": 0.0, "material_id": "mp-1810115"}, {"band_gap": 0.0, "material_id": "mp-1836630"}, {"band_gap": 1.5941, "material_id": "mp-660811"}, {"band_gap": 1.6324999999999998, "material_id": "mp-670416"}, {"band_gap": 1.5977999999999999, "material_id": "mp-842611"}, {"band_gap": 1.7443000000000004, "material_id": "mp-28978"}, {"band_gap": 1.6092, "material_id": "mp-1380926"}, {"band_gap": 1.6239000000000003, "material_id": "mp-1676820"}, {"band_gap": 1.6147999999999998, "material_id": "mp-1599245"}, {"band_gap": 2.2591999999999994, "material_id": "mp-1165733"}, {"band_gap": 1.6240000000000006, "material_id": "mp-1806407"}, {"band_gap": 0.0, "material_id": "mp-1006991"}, {"band_gap": 0.0, "material_id": "mp-1000517"}, {"band_gap": 0.0, "material_id": "mp-1011715"}, {"band_gap": 0.0, "material_id": "mp-1001696"}, {"band_gap": 0.0, "material_id": "mp-1012461"}, {"band_gap": 0.0, "material_id": "mp-1008143"}, {"band_gap": 0.0, "material_id": "mp-567808"}, {"band_gap": 0.0, "material_id": "mp-567840"}, {"band_gap": 0.0, "material_id": "mp-1068632"}, {"band_gap": 0.0, "material_id": "mp-1068701"}, {"band_gap": 0.0, "material_id": "mp-1068806"}, {"band_gap": 0.0, "material_id": "mp-1068790"}, {"band_gap": 0.0, "material_id": "mp-1068822"}, {"band_gap": 0.0, "material_id": "mp-1068970"}, {"band_gap": 0.0, "material_id": "mp-1068878"}, {"band_gap": 0.0, "material_id": "mp-1068947"}, {"band_gap": 0.0, "material_id": "mp-1070237"}, {"band_gap": 0.0, "material_id": "mp-1070282"}, {"band_gap": 0.0, "material_id": "mp-1070324"}, {"band_gap": 0.0, "material_id": "mp-1070362"}, {"band_gap": 0.0, "material_id": "mp-1432078"}, {"band_gap": 0.0, "material_id": "mp-1437701"}, {"band_gap": 0.0, "material_id": "mp-1590563"}, {"band_gap": 0.0, "material_id": "mp-1674280"}, {"band_gap": 0.0, "material_id": "mp-1695812"}, {"band_gap": 0.0, "material_id": "mp-1592548"}, {"band_gap": 0.0, "material_id": "mp-1127643"}, {"band_gap": 0.0, "material_id": "mp-1798899"}, {"band_gap": 0.0, "material_id": "mp-1164488"}, {"band_gap": 0.0, "material_id": "mp-1931161"}, {"band_gap": 0.0, "material_id": "mp-992401"}, {"band_gap": 0.0, "material_id": "mp-995072"}, {"band_gap": 0.0, "material_id": "mp-993976"}, {"band_gap": 0.030100000000000016, "material_id": "mp-20789"}, {"band_gap": 0.0, "material_id": "mp-1116021"}, {"band_gap": 0.0, "material_id": "mp-1423010"}, {"band_gap": 0.0, "material_id": "mp-1695562"}, {"band_gap": 0.0, "material_id": "mp-1600787"}, {"band_gap": 0.0, "material_id": "mp-1829004"}, {"band_gap": 0.0, "material_id": "mp-941771"}, {"band_gap": 0.0, "material_id": "mp-941957"}, {"band_gap": 0.0, "material_id": "mp-935110"}, {"band_gap": 0.0, "material_id": "mp-573651"}, {"band_gap": 0.0, "material_id": "mp-1336758"}, {"band_gap": 0.0, "material_id": "mp-974443"}, {"band_gap": 0.0, "material_id": "mp-974404"}, {"band_gap": 0.0, "material_id": "mp-974428"}, {"band_gap": 0.0, "material_id": "mp-974386"}, {"band_gap": 0.0, "material_id": "mp-1432218"}, {"band_gap": 0.0, "material_id": "mp-1617211"}, {"band_gap": 0.0, "material_id": "mp-1764290"}, {"band_gap": 0.0, "material_id": "mp-1159573"}, {"band_gap": 0.0, "material_id": "mp-1876575"}, {"band_gap": 0, "material_id": "mp-18972"}, {"band_gap": 1.5283999999999995, "material_id": "mp-554926"}, {"band_gap": 1.5856000000000003, "material_id": "mp-618578"}, {"band_gap": 1.5438, "material_id": "mp-681348"}, {"band_gap": 1.5297, "material_id": "mp-701541"}, {"band_gap": 1.5295999999999998, "material_id": "mp-712945"}, {"band_gap": 1.5853000000000002, "material_id": "mp-565780"}, {"band_gap": 1.5164999999999997, "material_id": "mp-1196833"}, {"band_gap": 1.0125000000000002, "material_id": "mp-1237534"}, {"band_gap": 0.0, "material_id": "mp-555382"}, {"band_gap": 0.02800000000000047, "material_id": "mp-541507"}, {"band_gap": 1.4075999999999995, "material_id": "mp-1325397"}, {"band_gap": 0.3719000000000001, "material_id": "mp-1326047"}, {"band_gap": 0.04589999999999961, "material_id": "mp-1354069"}, {"band_gap": 0.4981, "material_id": "mp-1163593"}, {"band_gap": 0.0, "material_id": "mp-1537406"}, {"band_gap": 0.0, "material_id": "mp-1136732"}, {"band_gap": 1.4657999999999998, "material_id": "mp-1894768"}, {"band_gap": 0.0, "material_id": "mp-1921231"}, {"band_gap": 3.7727, "material_id": "mp-665365"}, {"band_gap": 3.7727, "material_id": "mp-680346"}, {"band_gap": 3.9000000000000004, "material_id": "mp-657683"}, {"band_gap": 3.8998, "material_id": "mp-27893"}, {"band_gap": 3.7742, "material_id": "mp-1334065"}, {"band_gap": 3.7741, "material_id": "mp-1629253"}, {"band_gap": 4.0172, "material_id": "mp-1144400"}, {"band_gap": 3.7731, "material_id": "mp-1849494"}, {"band_gap": 0.0, "material_id": "mp-943539"}, {"band_gap": 0.0, "material_id": "mp-943390"}, {"band_gap": 0.0, "material_id": "mp-933192"}, {"band_gap": 0.0, "material_id": "mp-1006366"}, {"band_gap": 0.0, "material_id": "mp-31163"}, {"band_gap": 0.0, "material_id": "mp-1191035"}, {"band_gap": 0.0, "material_id": "mp-1170763"}, {"band_gap": 0.0, "material_id": "mp-1264161"}, {"band_gap": 0.0, "material_id": "mp-1249069"}, {"band_gap": 0.0, "material_id": "mp-1417347"}, {"band_gap": 0.0, "material_id": "mp-1431723"}, {"band_gap": 0.0, "material_id": "mp-1696565"}, {"band_gap": 0.0, "material_id": "mp-1597279"}, {"band_gap": 0.0, "material_id": "mp-1734989"}, {"band_gap": 0.0, "material_id": "mp-1263347"}, {"band_gap": 0.0, "material_id": "mp-1249955"}, {"band_gap": 0.0, "material_id": "mp-1264673"}, {"band_gap": 0.0, "material_id": "mp-1253944"}, {"band_gap": 0.0, "material_id": "mp-1875672"}, {"band_gap": 0.0, "material_id": "mp-1934014"}, {"band_gap": 0.4356, "material_id": "mp-925855"}, {"band_gap": 0.43569999999999975, "material_id": "mp-909870"}, {"band_gap": 0.4356, "material_id": "mp-924887"}, {"band_gap": 0.9706000000000001, "material_id": "mp-679964"}, {"band_gap": 0.9558, "material_id": "mp-700896"}, {"band_gap": 1.1623999999999994, "material_id": "mp-665302"}, {"band_gap": 1.2258999999999998, "material_id": "mp-23164"}, {"band_gap": 0.49460000000000015, "material_id": "mp-541837"}, {"band_gap": 0.3780000000000001, "material_id": "mp-1068960"}, {"band_gap": 0.3769, "material_id": "mp-1069018"}, {"band_gap": 0.3784999999999994, "material_id": "mp-1068982"}, {"band_gap": 0.5435999999999996, "material_id": "mp-1069440"}, {"band_gap": 0.5449000000000002, "material_id": "mp-1069448"}, {"band_gap": 0.5434000000000001, "material_id": "mp-1069458"}, {"band_gap": 0.5434000000000001, "material_id": "mp-1069459"}, {"band_gap": 0.3769, "material_id": "mp-1069013"}, {"band_gap": 0.4020999999999999, "material_id": "mp-1070734"}, {"band_gap": 0.4022999999999999, "material_id": "mp-1070756"}, {"band_gap": 0.4006000000000003, "material_id": "mp-1070776"}, {"band_gap": 0.4006000000000003, "material_id": "mp-1070785"}, {"band_gap": 0.0, "material_id": "mp-1182583"}, {"band_gap": 0.9557000000000002, "material_id": "mp-1141517"}, {"band_gap": 0.6402000000000001, "material_id": "mp-1198150"}, {"band_gap": 0.43599999999999994, "material_id": "mp-1142301"}, {"band_gap": 0.48139999999999983, "material_id": "mp-1237221"}, {"band_gap": 0.5528, "material_id": "mp-1439862"}, {"band_gap": 1.0907999999999998, "material_id": "mp-1423999"}, {"band_gap": 0.5469000000000004, "material_id": "mp-1358032"}, {"band_gap": 1.0908000000000002, "material_id": "mp-1675118"}, {"band_gap": 0.5531999999999999, "material_id": "mp-1590342"}, {"band_gap": 0.9577999999999998, "material_id": "mp-1610445"}, {"band_gap": 1.1919, "material_id": "mp-1243249"}, {"band_gap": 1.4853999999999998, "material_id": "mp-1143925"}, {"band_gap": 0.0, "material_id": "mp-1780759"}, {"band_gap": 0.47009999999999996, "material_id": "mp-1536520"}, {"band_gap": 1.2433000000000005, "material_id": "mp-1546074"}, {"band_gap": 1.0913, "material_id": "mp-1887301"}, {"band_gap": 0.0, "material_id": "mp-1832650"}, {"band_gap": 0.0, "material_id": "mp-1079868"}, {"band_gap": 0.0, "material_id": "mp-1248793"}, {"band_gap": 0.0, "material_id": "mp-1300137"}, {"band_gap": 0.0, "material_id": "mp-1601231"}, {"band_gap": 0.0, "material_id": "mp-1688177"}, {"band_gap": 0.0, "material_id": "mp-1264832"}, {"band_gap": 0.0, "material_id": "mp-1263208"}, {"band_gap": 0.0, "material_id": "mp-1830078"}, {"band_gap": 0.6707, "material_id": "mp-701092"}, {"band_gap": 1.0062, "material_id": "mp-680894"}, {"band_gap": 0.7596999999999999, "material_id": "mp-712464"}, {"band_gap": 1.0063, "material_id": "mp-12265"}, {"band_gap": 1.2062, "material_id": "mp-1540818"}, {"band_gap": 1.2504000000000002, "material_id": "mp-1415188"}, {"band_gap": 1.2064000000000001, "material_id": "mp-1540102"}, {"band_gap": 0.8389, "material_id": "mp-1696652"}, {"band_gap": 0.8036, "material_id": "mp-1597924"}, {"band_gap": 2.6071, "material_id": "mp-1136937"}, {"band_gap": 1.2414, "material_id": "mp-1779601"}, {"band_gap": 0.49609999999999976, "material_id": "mp-662815"}, {"band_gap": 0.40429999999999966, "material_id": "mp-916509"}, {"band_gap": 0.41110000000000024, "material_id": "mp-931877"}, {"band_gap": 0.41090000000000027, "material_id": "mp-937225"}, {"band_gap": 1.2332999999999998, "material_id": "mp-656253"}, {"band_gap": 1.1795, "material_id": "mp-659418"}, {"band_gap": 1.1795, "material_id": "mp-664908"}, {"band_gap": 0.5010000000000003, "material_id": "mp-622375"}, {"band_gap": 1.3204000000000002, "material_id": "mp-20025"}, {"band_gap": 1.1976, "material_id": "mp-1078094"}, {"band_gap": 0.0, "material_id": "mp-1078110"}, {"band_gap": 1.2754000000000003, "material_id": "mp-1115081"}, {"band_gap": 0.4032, "material_id": "mp-1181285"}, {"band_gap": 0.6006999999999998, "material_id": "mp-1221975"}, {"band_gap": 0.3512999999999997, "material_id": "mp-1197814"}, {"band_gap": 0.44090000000000007, "material_id": "mp-1237143"}, {"band_gap": 1.201, "material_id": "mp-1417397"}, {"band_gap": 0.5714999999999999, "material_id": "mp-1443089"}, {"band_gap": 0.4507000000000003, "material_id": "mp-1353639"}, {"band_gap": 0.0, "material_id": "mp-1300125"}, {"band_gap": 0.4091, "material_id": "mp-1369150"}, {"band_gap": 1.1954000000000002, "material_id": "mp-1701205"}, {"band_gap": 0.5247000000000002, "material_id": "mp-1619829"}, {"band_gap": 0.0, "material_id": "mp-1688396"}, {"band_gap": 0.5679000000000003, "material_id": "mp-1752084"}, {"band_gap": 1.1791, "material_id": "mp-1588421"}, {"band_gap": 0.0, "material_id": "mp-1602496"}, {"band_gap": 0.0, "material_id": "mp-1780867"}, {"band_gap": 1.2572999999999999, "material_id": "mp-1161468"}, {"band_gap": 0.0, "material_id": "mp-1525584"}, {"band_gap": 1.255, "material_id": "mp-1159602"}, {"band_gap": 1.9665, "material_id": "mp-1153988"}, {"band_gap": 1.1029999999999998, "material_id": "mp-1546821"}, {"band_gap": 0.5725000000000002, "material_id": "mp-1867946"}, {"band_gap": 0.5617000000000001, "material_id": "mp-1872016"}, {"band_gap": 1.2012999999999998, "material_id": "mp-1929487"}, {"band_gap": 0.5669999999999997, "material_id": "mp-1896600"}, {"band_gap": 0.0, "material_id": "mp-929143"}, {"band_gap": 0.0, "material_id": "mp-912653"}, {"band_gap": 0.0, "material_id": "mp-929525"}, {"band_gap": 0.012900000000000134, "material_id": "mp-30770"}, {"band_gap": 0.0, "material_id": "mp-1349404"}, {"band_gap": 0.0, "material_id": "mp-1599931"}, {"band_gap": 0.0, "material_id": "mp-1678400"}, {"band_gap": 0.9217, "material_id": "mp-657986"}, {"band_gap": 0.9057, "material_id": "mp-666015"}, {"band_gap": 0.8982000000000001, "material_id": "mp-681335"}, {"band_gap": 0.9234, "material_id": "mp-582988"}, {"band_gap": 0.9312, "material_id": "mp-1385514"}, {"band_gap": 0.8948, "material_id": "mp-1654458"}, {"band_gap": 0.9321000000000002, "material_id": "mp-1742601"}, {"band_gap": 0.935, "material_id": "mp-1897837"}, {"band_gap": 0.0, "material_id": "mp-943077"}, {"band_gap": 0.0, "material_id": "mp-932790"}, {"band_gap": 0.0, "material_id": "mp-942062"}, {"band_gap": 0.002500000000001279, "material_id": "mp-30855"}, {"band_gap": 0.0, "material_id": "mp-1078485"}, {"band_gap": 0.0, "material_id": "mp-1079639"}, {"band_gap": 0.0, "material_id": "mp-1092253"}, {"band_gap": 0.0, "material_id": "mp-1299942"}, {"band_gap": 0.0, "material_id": "mp-1595664"}, {"band_gap": 0.0, "material_id": "mp-1687777"}, {"band_gap": 0.0, "material_id": "mp-1524505"}, {"band_gap": 0.0, "material_id": "mp-1924669"}, {"band_gap": 0.0, "material_id": "mp-927806"}, {"band_gap": 0.0, "material_id": "mp-911411"}, {"band_gap": 0.0, "material_id": "mp-927372"}, {"band_gap": 0.28590000000000027, "material_id": "mp-30151"}, {"band_gap": 0.0, "material_id": "mp-1435116"}, {"band_gap": 0.0, "material_id": "mp-1604315"}, {"band_gap": 0.0, "material_id": "mp-1670241"}, {"band_gap": 0.25070000000000014, "material_id": "mp-1231296"}, {"band_gap": 0.2857000000000003, "material_id": "mp-1139951"}, {"band_gap": 1.9398000000000004, "material_id": "mp-664169"}, {"band_gap": 1.9398000000000004, "material_id": "mp-679086"}, {"band_gap": 1.9610000000000003, "material_id": "mp-663541"}, {"band_gap": 1.9598000000000004, "material_id": "mp-23033"}, {"band_gap": 1.9541, "material_id": "mp-1141782"}, {"band_gap": 1.9548, "material_id": "mp-1438602"}, {"band_gap": 1.9454000000000002, "material_id": "mp-1591833"}, {"band_gap": 1.9838999999999998, "material_id": "mp-1667995"}, {"band_gap": 1.9779, "material_id": "mp-1782244"}, {"band_gap": 2.3345999999999996, "material_id": "mp-1122042"}, {"band_gap": 0.6596, "material_id": "mp-680651"}, {"band_gap": 0.6596, "material_id": "mp-842883"}, {"band_gap": 0.6911999999999998, "material_id": "mp-665511"}, {"band_gap": 0.7622, "material_id": "mp-27303"}, {"band_gap": 0.6619999999999999, "material_id": "mp-1426587"}, {"band_gap": 0.7541000000000002, "material_id": "mp-1694953"}, {"band_gap": 0.6675, "material_id": "mp-1599763"}, {"band_gap": 0.9519000000000002, "material_id": "mp-1150351"}, {"band_gap": 0.7496, "material_id": "mp-1827458"}, {"band_gap": 3.7614, "material_id": "mp-1103949"}, {"band_gap": 4.5024, "material_id": "mp-1230762"}, {"band_gap": 3.7681999999999998, "material_id": "mp-1891763"}, {"band_gap": 0.0, "material_id": "mp-972916"}, {"band_gap": 0.0, "material_id": "mp-1010825"}, {"band_gap": 0.0, "material_id": "mp-1005370"}, {"band_gap": 0.0, "material_id": "mp-1005343"}, {"band_gap": 0.0, "material_id": "mp-1185859"}, {"band_gap": 0.0, "material_id": "mp-1434395"}, {"band_gap": 0.0, "material_id": "mp-1791981"}, {"band_gap": 0.0, "material_id": "mp-1160881"}, {"band_gap": 0.3780000000000001, "material_id": "mp-993921"}, {"band_gap": 0.30410000000000004, "material_id": "mp-991766"}, {"band_gap": 0.3830999999999998, "material_id": "mp-992305"}, {"band_gap": 0.29129999999999967, "material_id": "mp-551675"}, {"band_gap": 0.38649999999999984, "material_id": "mp-1416220"}, {"band_gap": 0.3876999999999997, "material_id": "mp-1699934"}, {"band_gap": 0.39450000000000074, "material_id": "mp-1798653"}, {"band_gap": 1.0125000000000002, "material_id": "mp-1128435"}, {"band_gap": 0.0, "material_id": "mp-932179"}, {"band_gap": 0, "material_id": "mp-13398"}, {"band_gap": 0.0, "material_id": "mp-915469"}, {"band_gap": 0.0, "material_id": "mp-931197"}, {"band_gap": 0.0, "material_id": "mp-1069462"}, {"band_gap": 0.0, "material_id": "mp-1069512"}, {"band_gap": 0.0, "material_id": "mp-1069606"}, {"band_gap": 0.0, "material_id": "mp-1069527"}, {"band_gap": 0.0, "material_id": "mp-1069621"}, {"band_gap": 0.0, "material_id": "mp-1069629"}, {"band_gap": 0.0, "material_id": "mp-1069657"}, {"band_gap": 0.0, "material_id": "mp-1069686"}, {"band_gap": 0.0, "material_id": "mp-1069731"}, {"band_gap": 0.0, "material_id": "mp-1069563"}, {"band_gap": 0.0, "material_id": "mp-1069565"}, {"band_gap": 0.0, "material_id": "mp-1069757"}, {"band_gap": 0.0, "material_id": "mp-1070470"}, {"band_gap": 0.0, "material_id": "mp-1070522"}, {"band_gap": 0.0, "material_id": "mp-1070577"}, {"band_gap": 0.0, "material_id": "mp-1070619"}, {"band_gap": 0.0, "material_id": "mp-1124947"}, {"band_gap": 0.0, "material_id": "mp-1132749"}, {"band_gap": 0.0, "material_id": "mp-1257574"}, {"band_gap": 0.0, "material_id": "mp-1439568"}, {"band_gap": 0.0, "material_id": "mp-1591344"}, {"band_gap": 0.0, "material_id": "mp-1258485"}, {"band_gap": 0.0, "material_id": "mp-1152929"}, {"band_gap": 0.0, "material_id": "mp-1258423"}, {"band_gap": 0.0, "material_id": "mp-1802266"}, {"band_gap": 0.0, "material_id": "mp-919836"}, {"band_gap": 0.0, "material_id": "mp-918835"}, {"band_gap": 0.0, "material_id": "mp-905889"}, {"band_gap": 0, "material_id": "mp-12919"}, {"band_gap": 0.0, "material_id": "mp-1070842"}, {"band_gap": 0.0, "material_id": "mp-1070877"}, {"band_gap": 0.0, "material_id": "mp-1070942"}, {"band_gap": 0.0, "material_id": "mp-1070947"}, {"band_gap": 0.0, "material_id": "mp-1426778"}, {"band_gap": 0.0, "material_id": "mp-1591286"}, {"band_gap": 0.0, "material_id": "mp-1700957"}, {"band_gap": 0.0, "material_id": "mp-1131932"}, {"band_gap": 0.0, "material_id": "mp-1928483"}, {"band_gap": 0.0, "material_id": "mp-1185410"}, {"band_gap": 0.0, "material_id": "mp-1417290"}, {"band_gap": 0.0, "material_id": "mp-1791293"}, {"band_gap": 0.0, "material_id": "mp-913040"}, {"band_gap": 0.0, "material_id": "mp-929258"}, {"band_gap": 0.0, "material_id": "mp-930125"}, {"band_gap": 0.030299999999999994, "material_id": "mp-11743"}, {"band_gap": 0.0, "material_id": "mp-1115706"}, {"band_gap": 0.0, "material_id": "mp-1427159"}, {"band_gap": 0.0, "material_id": "mp-1696052"}, {"band_gap": 0.0, "material_id": "mp-1802415"}, {"band_gap": 0.0, "material_id": "mp-1150821"}, {"band_gap": 0.0, "material_id": "mp-1077777"}, {"band_gap": 0.0, "material_id": "mp-1420488"}, {"band_gap": 0.0, "material_id": "mp-1697870"}, {"band_gap": 0.0, "material_id": "mp-1592138"}, {"band_gap": 0.0, "material_id": "mp-1827995"}, {"band_gap": 0.0, "material_id": "mp-1064561"}, {"band_gap": 0.0, "material_id": "mp-1064469"}, {"band_gap": 0.0, "material_id": "mp-1064504"}, {"band_gap": 0.2895000000000003, "material_id": "mp-1064525"}, {"band_gap": 0.0, "material_id": "mp-1438908"}, {"band_gap": 0.0, "material_id": "mp-1677343"}, {"band_gap": 0.0, "material_id": "mp-1593146"}, {"band_gap": 0.0, "material_id": "mp-1781329"}, {"band_gap": 0.0, "material_id": "mp-923405"}, {"band_gap": 0.0, "material_id": "mp-908203"}, {"band_gap": 0.0, "material_id": "mp-922643"}, {"band_gap": 0, "material_id": "mp-28607"}, {"band_gap": 0.0, "material_id": "mp-1434885"}, {"band_gap": 0.0, "material_id": "mp-1592306"}, {"band_gap": 0.0, "material_id": "mp-1700298"}, {"band_gap": 0.0, "material_id": "mp-1129842"}, {"band_gap": 0.0, "material_id": "mp-1802529"}, {"band_gap": 0.0, "material_id": "mp-642279"}, {"band_gap": 0.0, "material_id": "mp-914973"}, {"band_gap": 0.0, "material_id": "mp-992087"}, {"band_gap": 0.0, "material_id": "mp-992320"}, {"band_gap": 0.0, "material_id": "mp-994035"}, {"band_gap": 0.01559999999999917, "material_id": "mp-1125186"}, {"band_gap": 0.0, "material_id": "mp-1136368"}, {"band_gap": 0.0, "material_id": "mp-1660018"}, {"band_gap": 0.0, "material_id": "mp-1371741"}, {"band_gap": 0.0, "material_id": "mp-1425788"}, {"band_gap": 0.0, "material_id": "mp-1680082"}, {"band_gap": 0.0, "material_id": "mp-1766311"}, {"band_gap": 0.020400000000000418, "material_id": "mp-1840863"}, {"band_gap": 0.0, "material_id": "mp-1842664"}, {"band_gap": 2.4883, "material_id": "mp-664231"}, {"band_gap": 2.4872999999999994, "material_id": "mp-641703"}, {"band_gap": 2.4142, "material_id": "mp-700377"}, {"band_gap": 2.4173, "material_id": "mp-679202"}, {"band_gap": 2.4273000000000002, "material_id": "mp-1340982"}, {"band_gap": 3.1451000000000002, "material_id": "mp-1165985"}, {"band_gap": 2.5276, "material_id": "mp-1920487"}, {"band_gap": 0.0, "material_id": "mp-929545"}, {"band_gap": 0.0, "material_id": "mp-912856"}, {"band_gap": 0.0, "material_id": "mp-929178"}, {"band_gap": 0, "material_id": "mp-11594"}, {"band_gap": 0.0, "material_id": "mp-1416025"}, {"band_gap": 0.0, "material_id": "mp-1702657"}, {"band_gap": 0.0, "material_id": "mp-1589748"}, {"band_gap": 0.0, "material_id": "mp-1801655"}, {"band_gap": 0.0, "material_id": "mp-1128688"}, {"band_gap": 0.0, "material_id": "mp-977932"}, {"band_gap": 0.0, "material_id": "mp-914556"}, {"band_gap": 0.0, "material_id": "mp-992512"}, {"band_gap": 0.06840000000000002, "material_id": "mp-12780"}, {"band_gap": 0.0, "material_id": "mp-1424781"}, {"band_gap": 0.0, "material_id": "mp-1697860"}, {"band_gap": 0.0, "material_id": "mp-1599172"}, {"band_gap": 0.0, "material_id": "mp-1170147"}, {"band_gap": 0.0, "material_id": "mp-1870475"}, {"band_gap": 3.715, "material_id": "mp-852685"}, {"band_gap": 3.7143000000000006, "material_id": "mp-768457"}, {"band_gap": 3.6256000000000004, "material_id": "mp-855570"}, {"band_gap": 3.6256000000000004, "material_id": "mp-995913"}, {"band_gap": 3.6824, "material_id": "mp-852696"}, {"band_gap": 3.6732, "material_id": "mp-995262"}, {"band_gap": 3.6732, "material_id": "mp-855577"}, {"band_gap": 3.2098, "material_id": "mp-852695"}, {"band_gap": 3.1011999999999995, "material_id": "mp-856457"}, {"band_gap": 3.21, "material_id": "mp-768500"}, {"band_gap": 3.6818, "material_id": "mp-768486"}, {"band_gap": 3.1011999999999995, "material_id": "mp-855635"}, {"band_gap": 3.3325000000000005, "material_id": "mp-794420"}, {"band_gap": 3.4661999999999997, "material_id": "mp-777615"}, {"band_gap": 3.3325000000000005, "material_id": "mp-795162"}, {"band_gap": 3.4618, "material_id": "mp-792571"}, {"band_gap": 4.016299999999999, "material_id": "mp-846992"}, {"band_gap": 4.1098, "material_id": "mp-705546"}, {"band_gap": 4.0194, "material_id": "mp-846373"}, {"band_gap": 4.016299999999999, "material_id": "mp-719442"}, {"band_gap": 3.1784000000000003, "material_id": "mp-852681"}, {"band_gap": 3.0776, "material_id": "mp-855571"}, {"band_gap": 3.1799, "material_id": "mp-768484"}, {"band_gap": 4.1101, "material_id": "mp-27339"}, {"band_gap": 3.3362000000000003, "material_id": "mp-1337737"}, {"band_gap": 3.1054999999999997, "material_id": "mp-1358106"}, {"band_gap": 3.7364999999999995, "material_id": "mp-1359931"}, {"band_gap": 4.0133, "material_id": "mp-1351082"}, {"band_gap": 3.0968999999999998, "material_id": "mp-1355968"}, {"band_gap": 3.6289000000000007, "material_id": "mp-1326726"}, {"band_gap": 3.6273999999999997, "material_id": "mp-1637561"}, {"band_gap": 3.1049, "material_id": "mp-1680054"}, {"band_gap": 4.018, "material_id": "mp-1683744"}, {"band_gap": 4.690099999999999, "material_id": "mp-1169558"}, {"band_gap": 4.4339, "material_id": "mp-1142729"}, {"band_gap": 4.436, "material_id": "mp-1169621"}, {"band_gap": 4.4434, "material_id": "mp-1241435"}, {"band_gap": 3.9838000000000005, "material_id": "mp-1242497"}, {"band_gap": 4.0352, "material_id": "mp-1163639"}, {"band_gap": 4.847300000000001, "material_id": "mp-1163178"}, {"band_gap": 3.095, "material_id": "mp-1930644"}, {"band_gap": 3.1034, "material_id": "mp-1889274"}, {"band_gap": 3.7379, "material_id": "mp-1872861"}, {"band_gap": 3.6278999999999995, "material_id": "mp-1850198"}, {"band_gap": 4.0224, "material_id": "mp-1894766"}, {"band_gap": 0.0, "material_id": "mp-918943"}, {"band_gap": 0.0, "material_id": "mp-906090"}, {"band_gap": 0.0, "material_id": "mp-919951"}, {"band_gap": 0, "material_id": "mp-13070"}, {"band_gap": 0.0, "material_id": "mp-1253282"}, {"band_gap": 0.0, "material_id": "mp-1403972"}, {"band_gap": 0.0, "material_id": "mp-1620738"}, {"band_gap": 0.0, "material_id": "mp-1754451"}, {"band_gap": 0.0, "material_id": "mp-1124804"}, {"band_gap": 0.0, "material_id": "mp-1257315"}, {"band_gap": 0.0, "material_id": "mp-1262105"}, {"band_gap": 0.0, "material_id": "mp-1878535"}, {"band_gap": 0.0, "material_id": "mp-993700"}, {"band_gap": 0.0, "material_id": "mp-995013"}, {"band_gap": 0.0, "material_id": "mp-991956"}, {"band_gap": 0.05140000000000011, "material_id": "mp-2436"}, {"band_gap": 0.0, "material_id": "mp-1440498"}, {"band_gap": 0.0, "material_id": "mp-1595692"}, {"band_gap": 0.0, "material_id": "mp-1695483"}, {"band_gap": 0.0, "material_id": "mp-1538351"}, {"band_gap": 0.0, "material_id": "mp-1803794"}, {"band_gap": 0.0, "material_id": "mp-1167517"}, {"band_gap": 0.0, "material_id": "mp-1070583"}, {"band_gap": 0.0, "material_id": "mp-1070677"}, {"band_gap": 0.0, "material_id": "mp-1070717"}, {"band_gap": 0.0, "material_id": "mp-1070768"}, {"band_gap": 0.0, "material_id": "mp-1424480"}, {"band_gap": 0.0, "material_id": "mp-1588467"}, {"band_gap": 0.0, "material_id": "mp-1700485"}, {"band_gap": 0.0, "material_id": "mp-1538260"}, {"band_gap": 0.0, "material_id": "mp-1796508"}, {"band_gap": 0.5471999999999997, "material_id": "mp-1186271"}, {"band_gap": 0.0, "material_id": "mp-1011681"}, {"band_gap": 0.0, "material_id": "mp-1000500"}, {"band_gap": 0.0, "material_id": "mp-1006973"}, {"band_gap": 0, "material_id": "mp-13272"}, {"band_gap": 0.0, "material_id": "mp-1115786"}, {"band_gap": 0.0, "material_id": "mp-1263090"}, {"band_gap": 0.0, "material_id": "mp-1438909"}, {"band_gap": 0.0, "material_id": "mp-1590383"}, {"band_gap": 0.0, "material_id": "mp-1667949"}, {"band_gap": 0.0, "material_id": "mp-1259078"}, {"band_gap": 0.0, "material_id": "mp-1150839"}, {"band_gap": 0.0, "material_id": "mp-1258971"}, {"band_gap": 0.0, "material_id": "mp-1782675"}, {"band_gap": 0.0, "material_id": "mp-1239912"}, {"band_gap": 4.665100000000001, "material_id": "mp-665869"}, {"band_gap": 4.665100000000001, "material_id": "mp-8796"}, {"band_gap": 4.626, "material_id": "mp-1000217"}, {"band_gap": 4.6287, "material_id": "mp-681216"}, {"band_gap": 4.6401, "material_id": "mp-1350424"}, {"band_gap": 5.381, "material_id": "mp-1157954"}, {"band_gap": 4.6358, "material_id": "mp-1897512"}, {"band_gap": 0.013900000000000023, "material_id": "mp-990480"}, {"band_gap": 0.013900000000000023, "material_id": "mp-22263"}, {"band_gap": 0.0, "material_id": "mp-1419355"}, {"band_gap": 0.0, "material_id": "mp-1587664"}, {"band_gap": 0.0, "material_id": "mp-1700652"}, {"band_gap": 0.0, "material_id": "mp-1149410"}, {"band_gap": 0.08479999999999999, "material_id": "mp-1833255"}, {"band_gap": 0.0, "material_id": "mp-1007150"}, {"band_gap": 0.0, "material_id": "mp-1011886"}, {"band_gap": 0, "material_id": "mp-778"}, {"band_gap": 0.0, "material_id": "mp-1000691"}, {"band_gap": 0.0, "material_id": "mp-1189340"}, {"band_gap": 0.0, "material_id": "mp-1442345"}, {"band_gap": 0.0, "material_id": "mp-1594194"}, {"band_gap": 0.0, "material_id": "mp-1671253"}, {"band_gap": 0.0, "material_id": "mp-1796073"}, {"band_gap": 0.0, "material_id": "mp-1135635"}, {"band_gap": 0.0, "material_id": "mp-1525605"}, {"band_gap": 0.0, "material_id": "mp-1834902"}, {"band_gap": 2.6266000000000003, "material_id": "mp-9808"}, {"band_gap": 2.4783, "material_id": "mp-671087"}, {"band_gap": 2.6265, "material_id": "mp-661614"}, {"band_gap": 2.662, "material_id": "mp-1115375"}, {"band_gap": 2.8804, "material_id": "mp-32163"}, {"band_gap": 2.6231999999999998, "material_id": "mp-1429770"}, {"band_gap": 2.6223, "material_id": "mp-1598367"}, {"band_gap": 2.664, "material_id": "mp-1697169"}, {"band_gap": 3.2321, "material_id": "mp-1128069"}, {"band_gap": 0.00019999999999997797, "material_id": "mp-1789267"}, {"band_gap": 0.0, "material_id": "mp-935050"}, {"band_gap": 0.0, "material_id": "mp-941881"}, {"band_gap": 0.0, "material_id": "mp-941737"}, {"band_gap": 0.47630000000000017, "material_id": "mp-11483"}, {"band_gap": 0.0, "material_id": "mp-1439221"}, {"band_gap": 0.0, "material_id": "mp-1586297"}, {"band_gap": 0.0, "material_id": "mp-1687400"}, {"band_gap": 0.4782000000000002, "material_id": "mp-1791337"}, {"band_gap": 0.8851000000000004, "material_id": "mp-1524249"}, {"band_gap": 0.8835999999999995, "material_id": "mp-1165068"}, {"band_gap": 0.010600000000000165, "material_id": "mp-20700"}, {"band_gap": 0.0, "material_id": "mp-1070408"}, {"band_gap": 0.0, "material_id": "mp-1070593"}, {"band_gap": 0.0, "material_id": "mp-1070674"}, {"band_gap": 0.0, "material_id": "mp-1070712"}, {"band_gap": 0.0, "material_id": "mp-1133340"}, {"band_gap": 0.0, "material_id": "mp-1439888"}, {"band_gap": 0.0, "material_id": "mp-1593983"}, {"band_gap": 0.0, "material_id": "mp-1171575"}, {"band_gap": 0.0, "material_id": "mp-1783983"}, {"band_gap": 4.6238, "material_id": "mp-560449"}, {"band_gap": 0.13269999999999993, "material_id": "mp-835825"}, {"band_gap": 0.1765, "material_id": "mp-835041"}, {"band_gap": 0.4484, "material_id": "mp-825465"}, {"band_gap": 3.7443, "material_id": "mp-1381430"}, {"band_gap": 3.5833000000000004, "material_id": "mp-1601930"}, {"band_gap": 3.7376, "material_id": "mp-1676597"}, {"band_gap": 2.4367, "material_id": "mp-1156942"}, {"band_gap": 4.9199, "material_id": "mp-1787034"}, {"band_gap": 0.0, "material_id": "mp-991352"}, {"band_gap": 0.0, "material_id": "mp-994606"}, {"band_gap": 0.0, "material_id": "mp-993293"}, {"band_gap": 0.04980000000000029, "material_id": "mp-21242"}, {"band_gap": 0.0, "material_id": "mp-1431396"}, {"band_gap": 0.0, "material_id": "mp-1700490"}, {"band_gap": 0.0, "material_id": "mp-1777623"}, {"band_gap": 0.3666999999999998, "material_id": "mp-613509"}, {"band_gap": 0.3669000000000002, "material_id": "mp-665229"}, {"band_gap": 0.4645999999999999, "material_id": "mp-665179"}, {"band_gap": 0.3669000000000002, "material_id": "mp-665212"}, {"band_gap": 0.5365000000000002, "material_id": "mp-288"}, {"band_gap": 0.5410999999999992, "material_id": "mp-558811"}, {"band_gap": 0.5365000000000002, "material_id": "mp-1140886"}, {"band_gap": 0.17569999999999997, "material_id": "mp-1205321"}, {"band_gap": 0.16019999999999968, "material_id": "mp-1380882"}, {"band_gap": 0.3188000000000004, "material_id": "mp-1439644"}, {"band_gap": 0.18820000000000014, "material_id": "mp-1603464"}, {"band_gap": 0.38480000000000025, "material_id": "mp-1587511"}, {"band_gap": 0.19409999999999972, "material_id": "mp-1677079"}, {"band_gap": 0.47140000000000004, "material_id": "mp-1672136"}, {"band_gap": 0.4520999999999997, "material_id": "mp-1544239"}, {"band_gap": 0.6272000000000002, "material_id": "mp-1799646"}, {"band_gap": 1.0264999999999995, "material_id": "mp-1162708"}, {"band_gap": 1.0281000000000002, "material_id": "mp-1162985"}, {"band_gap": 0.976, "material_id": "mp-1536189"}, {"band_gap": 1.0404, "material_id": "mp-1243095"}, {"band_gap": 0.5946999999999996, "material_id": "mp-1935076"}, {"band_gap": 0.0, "material_id": "mp-926287"}, {"band_gap": 0.0, "material_id": "mp-926810"}, {"band_gap": 0.0, "material_id": "mp-910466"}, {"band_gap": 0.01890000000000036, "material_id": "mp-22522"}, {"band_gap": 0.0, "material_id": "mp-1101956"}, {"band_gap": 0.0, "material_id": "mp-1144407"}, {"band_gap": 0.0, "material_id": "mp-1267114"}, {"band_gap": 0.0, "material_id": "mp-1382615"}, {"band_gap": 0.0, "material_id": "mp-1676084"}, {"band_gap": 0.0, "material_id": "mp-1599746"}, {"band_gap": 0.0, "material_id": "mp-1258160"}, {"band_gap": 0.0, "material_id": "mp-1788569"}, {"band_gap": 0.0, "material_id": "mp-1230498"}, {"band_gap": 0.0, "material_id": "mp-1260568"}, {"band_gap": 0.0, "material_id": "mp-1121422"}, {"band_gap": 0.7030000000000003, "material_id": "mp-687762"}, {"band_gap": 0.7003999999999997, "material_id": "mp-665"}, {"band_gap": 0.7004000000000001, "material_id": "mp-671218"}, {"band_gap": 0.7018, "material_id": "mp-687863"}, {"band_gap": 0.21560000000000024, "material_id": "mp-1140668"}, {"band_gap": 0.7649999999999997, "material_id": "mp-1540927"}, {"band_gap": 0.8009, "material_id": "mp-1440081"}, {"band_gap": 0.7464999999999997, "material_id": "mp-1541907"}, {"band_gap": 0.7013000000000003, "material_id": "mp-1597037"}, {"band_gap": 0.8000000000000003, "material_id": "mp-1686422"}, {"band_gap": 1.0379, "material_id": "mp-1524911"}, {"band_gap": 0.9594, "material_id": "mp-1136903"}, {"band_gap": 0.7972000000000001, "material_id": "mp-1783848"}, {"band_gap": 0.0, "material_id": "mp-907386"}, {"band_gap": 0.0, "material_id": "mp-920798"}, {"band_gap": 0.0, "material_id": "mp-921823"}, {"band_gap": 0.0026000000000001577, "material_id": "mp-20779"}, {"band_gap": 0.0, "material_id": "mp-1426726"}, {"band_gap": 0.0, "material_id": "mp-1697602"}, {"band_gap": 0.0, "material_id": "mp-1126411"}, {"band_gap": 0.0, "material_id": "mp-1776133"}, {"band_gap": 0.0, "material_id": "mp-928778"}, {"band_gap": 0.0, "material_id": "mp-928241"}, {"band_gap": 0.0, "material_id": "mp-912228"}, {"band_gap": 0.007799999999999585, "material_id": "mp-20735"}, {"band_gap": 0.0, "material_id": "mp-1226850"}, {"band_gap": 0.0, "material_id": "mp-1437929"}, {"band_gap": 0.0, "material_id": "mp-1390129"}, {"band_gap": 0.0, "material_id": "mp-1674211"}, {"band_gap": 0.0, "material_id": "mp-1589843"}, {"band_gap": 0.0, "material_id": "mp-1760264"}, {"band_gap": 0.0, "material_id": "mp-1624219"}, {"band_gap": 0.0, "material_id": "mp-1803574"}, {"band_gap": 0.0, "material_id": "mp-1803167"}, {"band_gap": 0.0, "material_id": "mp-1537649"}, {"band_gap": 0.0, "material_id": "mp-920812"}, {"band_gap": 0.0, "material_id": "mp-921863"}, {"band_gap": 0.0, "material_id": "mp-613384"}, {"band_gap": 0.0, "material_id": "mp-907438"}, {"band_gap": 3.0624000000000002, "material_id": "mp-669316"}, {"band_gap": 3.0911999999999997, "material_id": "mp-689455"}, {"band_gap": 0.0, "material_id": "mp-665298"}, {"band_gap": 3.2692000000000005, "material_id": "mp-28295"}, {"band_gap": 3.2579000000000002, "material_id": "mp-1114969"}, {"band_gap": 3.1043, "material_id": "mp-1432625"}, {"band_gap": 0.0, "material_id": "mp-1422530"}, {"band_gap": 0.0, "material_id": "mp-1704790"}, {"band_gap": 0.0, "material_id": "mp-1592201"}, {"band_gap": 3.1020000000000003, "material_id": "mp-1600789"}, {"band_gap": 3.39, "material_id": "mp-1700880"}, {"band_gap": 3.2909999999999995, "material_id": "mp-1168157"}, {"band_gap": 3.3937, "material_id": "mp-1788345"}, {"band_gap": 0.0, "material_id": "mp-1126574"}, {"band_gap": 0.0, "material_id": "mp-1781982"}, {"band_gap": 2.3846000000000003, "material_id": "mp-733325"}, {"band_gap": 2.3823, "material_id": "mp-737055"}, {"band_gap": 2.4083, "material_id": "mp-707535"}, {"band_gap": 2.4009, "material_id": "mp-728775"}, {"band_gap": 2.9831, "material_id": "mp-1181584"}, {"band_gap": 3.2927, "material_id": "mp-1197174"}, {"band_gap": 1.7252999999999998, "material_id": "mp-1204989"}, {"band_gap": 3.0069, "material_id": "mp-1388362"}, {"band_gap": 2.4139, "material_id": "mp-1369030"}, {"band_gap": 1.7294, "material_id": "mp-1346666"}, {"band_gap": 3.0108, "material_id": "mp-1727476"}, {"band_gap": 2.3806, "material_id": "mp-1171233"}, {"band_gap": 1.731, "material_id": "mp-1872275"}, {"band_gap": 2.9887, "material_id": "mp-1842058"}, {"band_gap": 2.396, "material_id": "mp-1819337"}, {"band_gap": 0.0, "material_id": "mp-926337"}, {"band_gap": 0.0, "material_id": "mp-910583"}, {"band_gap": 0.0, "material_id": "mp-926882"}, {"band_gap": 0.019400000000000084, "material_id": "mp-19959"}, {"band_gap": 0.0, "material_id": "mp-1413775"}, {"band_gap": 0.0, "material_id": "mp-1587791"}, {"band_gap": 0.0, "material_id": "mp-1701254"}, {"band_gap": 0.0, "material_id": "mp-1786009"}, {"band_gap": 0.0, "material_id": "mp-1166045"}, {"band_gap": 0.0, "material_id": "mp-937115"}, {"band_gap": 0.0, "material_id": "mp-941526"}, {"band_gap": 0.0, "material_id": "mp-941220"}, {"band_gap": 0.0, "material_id": "mp-510140"}, {"band_gap": 0.0, "material_id": "mp-1835695"}, {"band_gap": 4.795299999999999, "material_id": "mp-1102075"}, {"band_gap": 4.7914, "material_id": "mp-1434695"}, {"band_gap": 4.798500000000001, "material_id": "mp-1597295"}, {"band_gap": 4.962, "material_id": "mp-1699041"}, {"band_gap": 4.9603, "material_id": "mp-1930863"}, {"band_gap": 0.5251999999999999, "material_id": "mp-669744"}, {"band_gap": 0.3844000000000003, "material_id": "mp-689025"}, {"band_gap": 0.3844000000000003, "material_id": "mp-842511"}, {"band_gap": 0.3844000000000003, "material_id": "mp-842995"}, {"band_gap": 0.5249999999999999, "material_id": "mp-4009"}, {"band_gap": 0.3449, "material_id": "mp-1140062"}, {"band_gap": 0.0, "material_id": "mp-1232297"}, {"band_gap": 0.0, "material_id": "mp-1414588"}, {"band_gap": 0.34819999999999984, "material_id": "mp-1415337"}, {"band_gap": 0.6943999999999999, "material_id": "mp-1588222"}, {"band_gap": 0.0, "material_id": "mp-1615632"}, {"band_gap": 0.0, "material_id": "mp-1716449"}, {"band_gap": 0.38629999999999987, "material_id": "mp-1697969"}, {"band_gap": 0.4662999999999995, "material_id": "mp-1167195"}, {"band_gap": 0.0, "material_id": "mp-1788680"}, {"band_gap": 0.0, "material_id": "mp-1797243"}, {"band_gap": 0.00990000000000002, "material_id": "mp-11422"}, {"band_gap": 0.0, "material_id": "mp-1439681"}, {"band_gap": 0.0, "material_id": "mp-1588690"}, {"band_gap": 0.0, "material_id": "mp-1164932"}, {"band_gap": 0.0, "material_id": "mp-1523487"}, {"band_gap": 0.0, "material_id": "mp-1791003"}, {"band_gap": 2.3545, "material_id": "mp-1201065"}, {"band_gap": 2.3794, "material_id": "mp-1327891"}, {"band_gap": 2.6967000000000003, "material_id": "mp-1929731"}, {"band_gap": 0.0, "material_id": "mp-924829"}, {"band_gap": 0.0, "material_id": "mp-925356"}, {"band_gap": 0.0, "material_id": "mp-909797"}, {"band_gap": 0, "material_id": "mp-3048"}, {"band_gap": 0.0, "material_id": "mp-1437618"}, {"band_gap": 0.0, "material_id": "mp-1677669"}, {"band_gap": 0.0, "material_id": "mp-1588332"}, {"band_gap": 0.0, "material_id": "mp-1860717"}, {"band_gap": 0.0, "material_id": "mp-657137"}, {"band_gap": 0.0, "material_id": "mp-657130"}, {"band_gap": 0.5362, "material_id": "mp-592"}, {"band_gap": 0.0, "material_id": "mp-655431"}, {"band_gap": 0.0, "material_id": "mp-1442231"}, {"band_gap": 0.0, "material_id": "mp-1586312"}, {"band_gap": 0.0, "material_id": "mp-1688658"}, {"band_gap": 0.0, "material_id": "mp-1164955"}, {"band_gap": 0.0, "material_id": "mp-1792103"}, {"band_gap": 0.0, "material_id": "mp-1536828"}, {"band_gap": 0.0, "material_id": "mp-1243177"}, {"band_gap": 1.7318999999999996, "material_id": "mp-1018411"}, {"band_gap": 1.862400000000001, "material_id": "mp-1018224"}]}
+{
+    "data": [
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-561628"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-551214"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1300528"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1602333"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1678519"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1832928"
+        },
+        {
+            "band_gap": 4.2303,
+            "material_id": "mp-643701"
+        },
+        {
+            "band_gap": 3.9882000000000004,
+            "material_id": "mp-749706"
+        },
+        {
+            "band_gap": 4.182,
+            "material_id": "mp-731959"
+        },
+        {
+            "band_gap": 3.9970000000000003,
+            "material_id": "mp-742998"
+        },
+        {
+            "band_gap": 4.2692000000000005,
+            "material_id": "mp-848807"
+        },
+        {
+            "band_gap": 4.420999999999999,
+            "material_id": "mp-725538"
+        },
+        {
+            "band_gap": 4.2688,
+            "material_id": "mp-727083"
+        },
+        {
+            "band_gap": 4.2688,
+            "material_id": "mp-860047"
+        },
+        {
+            "band_gap": 4.4593,
+            "material_id": "mp-690711"
+        },
+        {
+            "band_gap": 3.9718000000000004,
+            "material_id": "mp-864017"
+        },
+        {
+            "band_gap": 4.0863,
+            "material_id": "mp-697267"
+        },
+        {
+            "band_gap": 3.9699000000000004,
+            "material_id": "mp-750429"
+        },
+        {
+            "band_gap": 4.1278,
+            "material_id": "mp-732312"
+        },
+        {
+            "band_gap": 4.3487,
+            "material_id": "mp-1140687"
+        },
+        {
+            "band_gap": 4.1887,
+            "material_id": "mp-1203133"
+        },
+        {
+            "band_gap": 4.1376,
+            "material_id": "mp-1196113"
+        },
+        {
+            "band_gap": 4.2562,
+            "material_id": "mp-1216736"
+        },
+        {
+            "band_gap": 4.265000000000001,
+            "material_id": "mp-1385379"
+        },
+        {
+            "band_gap": 4.1974,
+            "material_id": "mp-1358739"
+        },
+        {
+            "band_gap": 3.9682999999999997,
+            "material_id": "mp-1354679"
+        },
+        {
+            "band_gap": 4.0987,
+            "material_id": "mp-1359029"
+        },
+        {
+            "band_gap": 3.9888999999999997,
+            "material_id": "mp-1394765"
+        },
+        {
+            "band_gap": 3.97,
+            "material_id": "mp-1684908"
+        },
+        {
+            "band_gap": 4.2684999999999995,
+            "material_id": "mp-1734098"
+        },
+        {
+            "band_gap": 4.2684999999999995,
+            "material_id": "mp-1627315"
+        },
+        {
+            "band_gap": 3.9886000000000004,
+            "material_id": "mp-1626730"
+        },
+        {
+            "band_gap": 4.1826,
+            "material_id": "mp-1751163"
+        },
+        {
+            "band_gap": 4.2157,
+            "material_id": "mp-1161454"
+        },
+        {
+            "band_gap": 4.7715000000000005,
+            "material_id": "mp-1130281"
+        },
+        {
+            "band_gap": 4.3784,
+            "material_id": "mp-1239745"
+        },
+        {
+            "band_gap": 4.391900000000001,
+            "material_id": "mp-1130205"
+        },
+        {
+            "band_gap": 4.3159,
+            "material_id": "mp-1820911"
+        },
+        {
+            "band_gap": 4.2703,
+            "material_id": "mp-1816090"
+        },
+        {
+            "band_gap": 3.9743000000000004,
+            "material_id": "mp-1895271"
+        },
+        {
+            "band_gap": 4.179,
+            "material_id": "mp-1895506"
+        },
+        {
+            "band_gap": 4.1844,
+            "material_id": "mp-1816535"
+        },
+        {
+            "band_gap": 2.2287,
+            "material_id": "mp-614918"
+        },
+        {
+            "band_gap": 2.2460999999999998,
+            "material_id": "mp-655230"
+        },
+        {
+            "band_gap": 2.2493000000000003,
+            "material_id": "mp-659940"
+        },
+        {
+            "band_gap": 2.1293,
+            "material_id": "mp-660654"
+        },
+        {
+            "band_gap": 2.1238,
+            "material_id": "mp-661374"
+        },
+        {
+            "band_gap": 4.2988,
+            "material_id": "mp-688918"
+        },
+        {
+            "band_gap": 4.2844,
+            "material_id": "mp-669750"
+        },
+        {
+            "band_gap": 4.270700000000001,
+            "material_id": "mp-689049"
+        },
+        {
+            "band_gap": 5.2679,
+            "material_id": "mp-682789"
+        },
+        {
+            "band_gap": 5.0908,
+            "material_id": "mp-708874"
+        },
+        {
+            "band_gap": 5.0908,
+            "material_id": "mp-702728"
+        },
+        {
+            "band_gap": 5.2642,
+            "material_id": "mp-504786"
+        },
+        {
+            "band_gap": 5.2684999999999995,
+            "material_id": "mp-27985"
+        },
+        {
+            "band_gap": 4.287400000000001,
+            "material_id": "mp-552120"
+        },
+        {
+            "band_gap": 5.0657,
+            "material_id": "mp-1141117"
+        },
+        {
+            "band_gap": 2.1506000000000003,
+            "material_id": "mp-1401963"
+        },
+        {
+            "band_gap": 4.4619,
+            "material_id": "mp-1435213"
+        },
+        {
+            "band_gap": 5.0855999999999995,
+            "material_id": "mp-1422184"
+        },
+        {
+            "band_gap": 2.1253,
+            "material_id": "mp-1625463"
+        },
+        {
+            "band_gap": 5.0892,
+            "material_id": "mp-1704968"
+        },
+        {
+            "band_gap": 4.2733,
+            "material_id": "mp-1597180"
+        },
+        {
+            "band_gap": 2.1501000000000006,
+            "material_id": "mp-1760944"
+        },
+        {
+            "band_gap": 4.4621,
+            "material_id": "mp-1702478"
+        },
+        {
+            "band_gap": 5.0892,
+            "material_id": "mp-1592934"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1538103"
+        },
+        {
+            "band_gap": 2.5294,
+            "material_id": "mp-1127229"
+        },
+        {
+            "band_gap": 4.4575000000000005,
+            "material_id": "mp-1788009"
+        },
+        {
+            "band_gap": 4.992500000000001,
+            "material_id": "mp-1525606"
+        },
+        {
+            "band_gap": 5.5577000000000005,
+            "material_id": "mp-1127337"
+        },
+        {
+            "band_gap": 2.1494,
+            "material_id": "mp-1924018"
+        },
+        {
+            "band_gap": 5.0898,
+            "material_id": "mp-1870640"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929024"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-912590"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929391"
+        },
+        {
+            "band_gap": 0.06929999999999925,
+            "material_id": "mp-1458"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1426323"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1591057"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1698594"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1537105"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1784808"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1136389"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929445"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-912684"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929104"
+        },
+        {
+            "band_gap": 0.0647000000000002,
+            "material_id": "mp-20490"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1095525"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1419904"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1703829"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1602237"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1776789"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1151080"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002195"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002184"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002231"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002225"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002183"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002215"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002199"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002187"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002212"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002201"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002218"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002205"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002204"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002188"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002194"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1002214"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-999131"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-999146"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-999149"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-999172"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-999120"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-999162"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-999153"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-999118"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1057314"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1057283"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1057291"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1057305"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1058510"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1058525"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1058529"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1058498"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1060031"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1059996"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1060053"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1060080"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1061105"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1061121"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1061051"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1061074"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1066444"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1066469"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1066433"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1066462"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1067395"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1067421"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1067440"
+        },
+        {
+            "band_gap": 1.4236999999999997,
+            "material_id": "mp-1067451"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1067450"
+        },
+        {
+            "band_gap": 1.4254000000000002,
+            "material_id": "mp-1067574"
+        },
+        {
+            "band_gap": 1.4291,
+            "material_id": "mp-1067704"
+        },
+        {
+            "band_gap": 1.4291,
+            "material_id": "mp-1067842"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1115395"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1423501"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1436276"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1437009"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1430311"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1382008"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1418009"
+        },
+        {
+            "band_gap": 1.3759999999999994,
+            "material_id": "mp-1363587"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1673092"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1675698"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1610876"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1611785"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1609765"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1672060"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1610750"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1610772"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1731093"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1764757"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1612626"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1688026"
+        },
+        {
+            "band_gap": 1.3805,
+            "material_id": "mp-1583518"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1159363"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1795425"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1240632"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1793106"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1164954"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1242371"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1795512"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1165207"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1242792"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1160814"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1793857"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1240448"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1165179"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1792244"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1143390"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1932256"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1001530"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1008033"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1012359"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-3455"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1438502"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1590137"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1677678"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1135693"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1801227"
+        },
+        {
+            "band_gap": 0.42910000000000004,
+            "material_id": "mp-988285"
+        },
+        {
+            "band_gap": 0.4333,
+            "material_id": "mp-988040"
+        },
+        {
+            "band_gap": 0.44030000000000014,
+            "material_id": "mp-987036"
+        },
+        {
+            "band_gap": 0.43699999999999983,
+            "material_id": "mp-28698"
+        },
+        {
+            "band_gap": 0.43299999999999983,
+            "material_id": "mp-1141296"
+        },
+        {
+            "band_gap": 0.46119999999999983,
+            "material_id": "mp-1420609"
+        },
+        {
+            "band_gap": 0.4426000000000001,
+            "material_id": "mp-1700102"
+        },
+        {
+            "band_gap": 0.4312,
+            "material_id": "mp-1595200"
+        },
+        {
+            "band_gap": 0.46030000000000015,
+            "material_id": "mp-1787543"
+        },
+        {
+            "band_gap": 1.0095,
+            "material_id": "mp-1136493"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-993467"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-991515"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-994798"
+        },
+        {
+            "band_gap": 0.013099999999999667,
+            "material_id": "mp-11501"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1438579"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1677535"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1588250"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1794589"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1524286"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1172005"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929760"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-913241"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-930252"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929782"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-913248"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-930290"
+        },
+        {
+            "band_gap": 0.02260000000000062,
+            "material_id": "mp-31178"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-567589"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-978159"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-569981"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-977910"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-914525"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1010315"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1004656"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-864995"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1003061"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1051901"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1051920"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1051925"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1103088"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1106237"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1188642"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1260898"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1260453"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1252832"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1263063"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1438131"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1415528"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1420624"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1425688"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1394352"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1441265"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1601011"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1674159"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1696619"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1593030"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1587830"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1703303"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1701087"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1621931"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1733832"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1607666"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1598944"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1705260"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1258282"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1538601"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1130155"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1267849"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1798811"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1230698"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1801658"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1253380"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1149426"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1266702"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1262134"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1261378"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1263233"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1127261"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1240549"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1267146"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1779415"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1776106"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1810115"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1836630"
+        },
+        {
+            "band_gap": 1.5941,
+            "material_id": "mp-660811"
+        },
+        {
+            "band_gap": 1.6324999999999998,
+            "material_id": "mp-670416"
+        },
+        {
+            "band_gap": 1.5977999999999999,
+            "material_id": "mp-842611"
+        },
+        {
+            "band_gap": 1.7443000000000004,
+            "material_id": "mp-28978"
+        },
+        {
+            "band_gap": 1.6092,
+            "material_id": "mp-1380926"
+        },
+        {
+            "band_gap": 1.6239000000000003,
+            "material_id": "mp-1676820"
+        },
+        {
+            "band_gap": 1.6147999999999998,
+            "material_id": "mp-1599245"
+        },
+        {
+            "band_gap": 2.2591999999999994,
+            "material_id": "mp-1165733"
+        },
+        {
+            "band_gap": 1.6240000000000006,
+            "material_id": "mp-1806407"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1006991"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1000517"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1011715"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1001696"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1012461"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1008143"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-567808"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-567840"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1068632"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1068701"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1068806"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1068790"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1068822"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1068970"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1068878"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1068947"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070237"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070282"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070324"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070362"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1432078"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1437701"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1590563"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1674280"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1695812"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1592548"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1127643"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1798899"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1164488"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1931161"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-992401"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-995072"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-993976"
+        },
+        {
+            "band_gap": 0.030100000000000016,
+            "material_id": "mp-20789"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1116021"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1423010"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1695562"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1600787"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1829004"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-941771"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-941957"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-935110"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-573651"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1336758"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-974443"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-974404"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-974428"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-974386"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1432218"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1617211"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1764290"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1159573"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1876575"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-18972"
+        },
+        {
+            "band_gap": 1.5283999999999995,
+            "material_id": "mp-554926"
+        },
+        {
+            "band_gap": 1.5856000000000003,
+            "material_id": "mp-618578"
+        },
+        {
+            "band_gap": 1.5438,
+            "material_id": "mp-681348"
+        },
+        {
+            "band_gap": 1.5297,
+            "material_id": "mp-701541"
+        },
+        {
+            "band_gap": 1.5295999999999998,
+            "material_id": "mp-712945"
+        },
+        {
+            "band_gap": 1.5853000000000002,
+            "material_id": "mp-565780"
+        },
+        {
+            "band_gap": 1.5164999999999997,
+            "material_id": "mp-1196833"
+        },
+        {
+            "band_gap": 1.0125000000000002,
+            "material_id": "mp-1237534"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-555382"
+        },
+        {
+            "band_gap": 0.02800000000000047,
+            "material_id": "mp-541507"
+        },
+        {
+            "band_gap": 1.4075999999999995,
+            "material_id": "mp-1325397"
+        },
+        {
+            "band_gap": 0.3719000000000001,
+            "material_id": "mp-1326047"
+        },
+        {
+            "band_gap": 0.04589999999999961,
+            "material_id": "mp-1354069"
+        },
+        {
+            "band_gap": 0.4981,
+            "material_id": "mp-1163593"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1537406"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1136732"
+        },
+        {
+            "band_gap": 1.4657999999999998,
+            "material_id": "mp-1894768"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1921231"
+        },
+        {
+            "band_gap": 3.7727,
+            "material_id": "mp-665365"
+        },
+        {
+            "band_gap": 3.7727,
+            "material_id": "mp-680346"
+        },
+        {
+            "band_gap": 3.9000000000000004,
+            "material_id": "mp-657683"
+        },
+        {
+            "band_gap": 3.8998,
+            "material_id": "mp-27893"
+        },
+        {
+            "band_gap": 3.7742,
+            "material_id": "mp-1334065"
+        },
+        {
+            "band_gap": 3.7741,
+            "material_id": "mp-1629253"
+        },
+        {
+            "band_gap": 4.0172,
+            "material_id": "mp-1144400"
+        },
+        {
+            "band_gap": 3.7731,
+            "material_id": "mp-1849494"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-943539"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-943390"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-933192"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1006366"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-31163"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1191035"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1170763"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1264161"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1249069"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1417347"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1431723"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1696565"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1597279"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1734989"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1263347"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1249955"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1264673"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1253944"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1875672"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1934014"
+        },
+        {
+            "band_gap": 0.4356,
+            "material_id": "mp-925855"
+        },
+        {
+            "band_gap": 0.43569999999999975,
+            "material_id": "mp-909870"
+        },
+        {
+            "band_gap": 0.4356,
+            "material_id": "mp-924887"
+        },
+        {
+            "band_gap": 0.9706000000000001,
+            "material_id": "mp-679964"
+        },
+        {
+            "band_gap": 0.9558,
+            "material_id": "mp-700896"
+        },
+        {
+            "band_gap": 1.1623999999999994,
+            "material_id": "mp-665302"
+        },
+        {
+            "band_gap": 1.2258999999999998,
+            "material_id": "mp-23164"
+        },
+        {
+            "band_gap": 0.49460000000000015,
+            "material_id": "mp-541837"
+        },
+        {
+            "band_gap": 0.3780000000000001,
+            "material_id": "mp-1068960"
+        },
+        {
+            "band_gap": 0.3769,
+            "material_id": "mp-1069018"
+        },
+        {
+            "band_gap": 0.3784999999999994,
+            "material_id": "mp-1068982"
+        },
+        {
+            "band_gap": 0.5435999999999996,
+            "material_id": "mp-1069440"
+        },
+        {
+            "band_gap": 0.5449000000000002,
+            "material_id": "mp-1069448"
+        },
+        {
+            "band_gap": 0.5434000000000001,
+            "material_id": "mp-1069458"
+        },
+        {
+            "band_gap": 0.5434000000000001,
+            "material_id": "mp-1069459"
+        },
+        {
+            "band_gap": 0.3769,
+            "material_id": "mp-1069013"
+        },
+        {
+            "band_gap": 0.4020999999999999,
+            "material_id": "mp-1070734"
+        },
+        {
+            "band_gap": 0.4022999999999999,
+            "material_id": "mp-1070756"
+        },
+        {
+            "band_gap": 0.4006000000000003,
+            "material_id": "mp-1070776"
+        },
+        {
+            "band_gap": 0.4006000000000003,
+            "material_id": "mp-1070785"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1182583"
+        },
+        {
+            "band_gap": 0.9557000000000002,
+            "material_id": "mp-1141517"
+        },
+        {
+            "band_gap": 0.6402000000000001,
+            "material_id": "mp-1198150"
+        },
+        {
+            "band_gap": 0.43599999999999994,
+            "material_id": "mp-1142301"
+        },
+        {
+            "band_gap": 0.48139999999999983,
+            "material_id": "mp-1237221"
+        },
+        {
+            "band_gap": 0.5528,
+            "material_id": "mp-1439862"
+        },
+        {
+            "band_gap": 1.0907999999999998,
+            "material_id": "mp-1423999"
+        },
+        {
+            "band_gap": 0.5469000000000004,
+            "material_id": "mp-1358032"
+        },
+        {
+            "band_gap": 1.0908000000000002,
+            "material_id": "mp-1675118"
+        },
+        {
+            "band_gap": 0.5531999999999999,
+            "material_id": "mp-1590342"
+        },
+        {
+            "band_gap": 0.9577999999999998,
+            "material_id": "mp-1610445"
+        },
+        {
+            "band_gap": 1.1919,
+            "material_id": "mp-1243249"
+        },
+        {
+            "band_gap": 1.4853999999999998,
+            "material_id": "mp-1143925"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1780759"
+        },
+        {
+            "band_gap": 0.47009999999999996,
+            "material_id": "mp-1536520"
+        },
+        {
+            "band_gap": 1.2433000000000005,
+            "material_id": "mp-1546074"
+        },
+        {
+            "band_gap": 1.0913,
+            "material_id": "mp-1887301"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1832650"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1079868"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1248793"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1300137"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1601231"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1688177"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1264832"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1263208"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1830078"
+        },
+        {
+            "band_gap": 0.6707,
+            "material_id": "mp-701092"
+        },
+        {
+            "band_gap": 1.0062,
+            "material_id": "mp-680894"
+        },
+        {
+            "band_gap": 0.7596999999999999,
+            "material_id": "mp-712464"
+        },
+        {
+            "band_gap": 1.0063,
+            "material_id": "mp-12265"
+        },
+        {
+            "band_gap": 1.2062,
+            "material_id": "mp-1540818"
+        },
+        {
+            "band_gap": 1.2504000000000002,
+            "material_id": "mp-1415188"
+        },
+        {
+            "band_gap": 1.2064000000000001,
+            "material_id": "mp-1540102"
+        },
+        {
+            "band_gap": 0.8389,
+            "material_id": "mp-1696652"
+        },
+        {
+            "band_gap": 0.8036,
+            "material_id": "mp-1597924"
+        },
+        {
+            "band_gap": 2.6071,
+            "material_id": "mp-1136937"
+        },
+        {
+            "band_gap": 1.2414,
+            "material_id": "mp-1779601"
+        },
+        {
+            "band_gap": 0.49609999999999976,
+            "material_id": "mp-662815"
+        },
+        {
+            "band_gap": 0.40429999999999966,
+            "material_id": "mp-916509"
+        },
+        {
+            "band_gap": 0.41110000000000024,
+            "material_id": "mp-931877"
+        },
+        {
+            "band_gap": 0.41090000000000027,
+            "material_id": "mp-937225"
+        },
+        {
+            "band_gap": 1.2332999999999998,
+            "material_id": "mp-656253"
+        },
+        {
+            "band_gap": 1.1795,
+            "material_id": "mp-659418"
+        },
+        {
+            "band_gap": 1.1795,
+            "material_id": "mp-664908"
+        },
+        {
+            "band_gap": 0.5010000000000003,
+            "material_id": "mp-622375"
+        },
+        {
+            "band_gap": 1.3204000000000002,
+            "material_id": "mp-20025"
+        },
+        {
+            "band_gap": 1.1976,
+            "material_id": "mp-1078094"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1078110"
+        },
+        {
+            "band_gap": 1.2754000000000003,
+            "material_id": "mp-1115081"
+        },
+        {
+            "band_gap": 0.4032,
+            "material_id": "mp-1181285"
+        },
+        {
+            "band_gap": 0.6006999999999998,
+            "material_id": "mp-1221975"
+        },
+        {
+            "band_gap": 0.3512999999999997,
+            "material_id": "mp-1197814"
+        },
+        {
+            "band_gap": 0.44090000000000007,
+            "material_id": "mp-1237143"
+        },
+        {
+            "band_gap": 1.201,
+            "material_id": "mp-1417397"
+        },
+        {
+            "band_gap": 0.5714999999999999,
+            "material_id": "mp-1443089"
+        },
+        {
+            "band_gap": 0.4507000000000003,
+            "material_id": "mp-1353639"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1300125"
+        },
+        {
+            "band_gap": 0.4091,
+            "material_id": "mp-1369150"
+        },
+        {
+            "band_gap": 1.1954000000000002,
+            "material_id": "mp-1701205"
+        },
+        {
+            "band_gap": 0.5247000000000002,
+            "material_id": "mp-1619829"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1688396"
+        },
+        {
+            "band_gap": 0.5679000000000003,
+            "material_id": "mp-1752084"
+        },
+        {
+            "band_gap": 1.1791,
+            "material_id": "mp-1588421"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1602496"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1780867"
+        },
+        {
+            "band_gap": 1.2572999999999999,
+            "material_id": "mp-1161468"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1525584"
+        },
+        {
+            "band_gap": 1.255,
+            "material_id": "mp-1159602"
+        },
+        {
+            "band_gap": 1.9665,
+            "material_id": "mp-1153988"
+        },
+        {
+            "band_gap": 1.1029999999999998,
+            "material_id": "mp-1546821"
+        },
+        {
+            "band_gap": 0.5725000000000002,
+            "material_id": "mp-1867946"
+        },
+        {
+            "band_gap": 0.5617000000000001,
+            "material_id": "mp-1872016"
+        },
+        {
+            "band_gap": 1.2012999999999998,
+            "material_id": "mp-1929487"
+        },
+        {
+            "band_gap": 0.5669999999999997,
+            "material_id": "mp-1896600"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929143"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-912653"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929525"
+        },
+        {
+            "band_gap": 0.012900000000000134,
+            "material_id": "mp-30770"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1349404"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1599931"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1678400"
+        },
+        {
+            "band_gap": 0.9217,
+            "material_id": "mp-657986"
+        },
+        {
+            "band_gap": 0.9057,
+            "material_id": "mp-666015"
+        },
+        {
+            "band_gap": 0.8982000000000001,
+            "material_id": "mp-681335"
+        },
+        {
+            "band_gap": 0.9234,
+            "material_id": "mp-582988"
+        },
+        {
+            "band_gap": 0.9312,
+            "material_id": "mp-1385514"
+        },
+        {
+            "band_gap": 0.8948,
+            "material_id": "mp-1654458"
+        },
+        {
+            "band_gap": 0.9321000000000002,
+            "material_id": "mp-1742601"
+        },
+        {
+            "band_gap": 0.935,
+            "material_id": "mp-1897837"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-943077"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-932790"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-942062"
+        },
+        {
+            "band_gap": 0.002500000000001279,
+            "material_id": "mp-30855"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1078485"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1079639"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1092253"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1299942"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1595664"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1687777"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1524505"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1924669"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-927806"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-911411"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-927372"
+        },
+        {
+            "band_gap": 0.28590000000000027,
+            "material_id": "mp-30151"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1435116"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1604315"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1670241"
+        },
+        {
+            "band_gap": 0.25070000000000014,
+            "material_id": "mp-1231296"
+        },
+        {
+            "band_gap": 0.2857000000000003,
+            "material_id": "mp-1139951"
+        },
+        {
+            "band_gap": 1.9398000000000004,
+            "material_id": "mp-664169"
+        },
+        {
+            "band_gap": 1.9398000000000004,
+            "material_id": "mp-679086"
+        },
+        {
+            "band_gap": 1.9610000000000003,
+            "material_id": "mp-663541"
+        },
+        {
+            "band_gap": 1.9598000000000004,
+            "material_id": "mp-23033"
+        },
+        {
+            "band_gap": 1.9541,
+            "material_id": "mp-1141782"
+        },
+        {
+            "band_gap": 1.9548,
+            "material_id": "mp-1438602"
+        },
+        {
+            "band_gap": 1.9454000000000002,
+            "material_id": "mp-1591833"
+        },
+        {
+            "band_gap": 1.9838999999999998,
+            "material_id": "mp-1667995"
+        },
+        {
+            "band_gap": 1.9779,
+            "material_id": "mp-1782244"
+        },
+        {
+            "band_gap": 2.3345999999999996,
+            "material_id": "mp-1122042"
+        },
+        {
+            "band_gap": 0.6596,
+            "material_id": "mp-680651"
+        },
+        {
+            "band_gap": 0.6596,
+            "material_id": "mp-842883"
+        },
+        {
+            "band_gap": 0.6911999999999998,
+            "material_id": "mp-665511"
+        },
+        {
+            "band_gap": 0.7622,
+            "material_id": "mp-27303"
+        },
+        {
+            "band_gap": 0.6619999999999999,
+            "material_id": "mp-1426587"
+        },
+        {
+            "band_gap": 0.7541000000000002,
+            "material_id": "mp-1694953"
+        },
+        {
+            "band_gap": 0.6675,
+            "material_id": "mp-1599763"
+        },
+        {
+            "band_gap": 0.9519000000000002,
+            "material_id": "mp-1150351"
+        },
+        {
+            "band_gap": 0.7496,
+            "material_id": "mp-1827458"
+        },
+        {
+            "band_gap": 3.7614,
+            "material_id": "mp-1103949"
+        },
+        {
+            "band_gap": 4.5024,
+            "material_id": "mp-1230762"
+        },
+        {
+            "band_gap": 3.7681999999999998,
+            "material_id": "mp-1891763"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-972916"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1010825"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1005370"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1005343"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1185859"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1434395"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1791981"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1160881"
+        },
+        {
+            "band_gap": 0.3780000000000001,
+            "material_id": "mp-993921"
+        },
+        {
+            "band_gap": 0.30410000000000004,
+            "material_id": "mp-991766"
+        },
+        {
+            "band_gap": 0.3830999999999998,
+            "material_id": "mp-992305"
+        },
+        {
+            "band_gap": 0.29129999999999967,
+            "material_id": "mp-551675"
+        },
+        {
+            "band_gap": 0.38649999999999984,
+            "material_id": "mp-1416220"
+        },
+        {
+            "band_gap": 0.3876999999999997,
+            "material_id": "mp-1699934"
+        },
+        {
+            "band_gap": 0.39450000000000074,
+            "material_id": "mp-1798653"
+        },
+        {
+            "band_gap": 1.0125000000000002,
+            "material_id": "mp-1128435"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-932179"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-13398"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-915469"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-931197"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069462"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069512"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069606"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069527"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069621"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069629"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069657"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069686"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069731"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069563"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069565"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1069757"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070470"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070522"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070577"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070619"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1124947"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1132749"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1257574"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1439568"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1591344"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1258485"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1152929"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1258423"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1802266"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-919836"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-918835"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-905889"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-12919"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070842"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070877"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070942"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070947"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1426778"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1591286"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1700957"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1131932"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1928483"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1185410"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1417290"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1791293"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-913040"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929258"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-930125"
+        },
+        {
+            "band_gap": 0.030299999999999994,
+            "material_id": "mp-11743"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1115706"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1427159"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1696052"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1802415"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1150821"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1077777"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1420488"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1697870"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1592138"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1827995"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1064561"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1064469"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1064504"
+        },
+        {
+            "band_gap": 0.2895000000000003,
+            "material_id": "mp-1064525"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1438908"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1677343"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1593146"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1781329"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-923405"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-908203"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-922643"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-28607"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1434885"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1592306"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1700298"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1129842"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1802529"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-642279"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-914973"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-992087"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-992320"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-994035"
+        },
+        {
+            "band_gap": 0.01559999999999917,
+            "material_id": "mp-1125186"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1136368"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1660018"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1371741"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1425788"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1680082"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1766311"
+        },
+        {
+            "band_gap": 0.020400000000000418,
+            "material_id": "mp-1840863"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1842664"
+        },
+        {
+            "band_gap": 2.4883,
+            "material_id": "mp-664231"
+        },
+        {
+            "band_gap": 2.4872999999999994,
+            "material_id": "mp-641703"
+        },
+        {
+            "band_gap": 2.4142,
+            "material_id": "mp-700377"
+        },
+        {
+            "band_gap": 2.4173,
+            "material_id": "mp-679202"
+        },
+        {
+            "band_gap": 2.4273000000000002,
+            "material_id": "mp-1340982"
+        },
+        {
+            "band_gap": 3.1451000000000002,
+            "material_id": "mp-1165985"
+        },
+        {
+            "band_gap": 2.5276,
+            "material_id": "mp-1920487"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929545"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-912856"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-929178"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-11594"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1416025"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1702657"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1589748"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1801655"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1128688"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-977932"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-914556"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-992512"
+        },
+        {
+            "band_gap": 0.06840000000000002,
+            "material_id": "mp-12780"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1424781"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1697860"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1599172"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1170147"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1870475"
+        },
+        {
+            "band_gap": 3.715,
+            "material_id": "mp-852685"
+        },
+        {
+            "band_gap": 3.7143000000000006,
+            "material_id": "mp-768457"
+        },
+        {
+            "band_gap": 3.6256000000000004,
+            "material_id": "mp-855570"
+        },
+        {
+            "band_gap": 3.6256000000000004,
+            "material_id": "mp-995913"
+        },
+        {
+            "band_gap": 3.6824,
+            "material_id": "mp-852696"
+        },
+        {
+            "band_gap": 3.6732,
+            "material_id": "mp-995262"
+        },
+        {
+            "band_gap": 3.6732,
+            "material_id": "mp-855577"
+        },
+        {
+            "band_gap": 3.2098,
+            "material_id": "mp-852695"
+        },
+        {
+            "band_gap": 3.1011999999999995,
+            "material_id": "mp-856457"
+        },
+        {
+            "band_gap": 3.21,
+            "material_id": "mp-768500"
+        },
+        {
+            "band_gap": 3.6818,
+            "material_id": "mp-768486"
+        },
+        {
+            "band_gap": 3.1011999999999995,
+            "material_id": "mp-855635"
+        },
+        {
+            "band_gap": 3.3325000000000005,
+            "material_id": "mp-794420"
+        },
+        {
+            "band_gap": 3.4661999999999997,
+            "material_id": "mp-777615"
+        },
+        {
+            "band_gap": 3.3325000000000005,
+            "material_id": "mp-795162"
+        },
+        {
+            "band_gap": 3.4618,
+            "material_id": "mp-792571"
+        },
+        {
+            "band_gap": 4.016299999999999,
+            "material_id": "mp-846992"
+        },
+        {
+            "band_gap": 4.1098,
+            "material_id": "mp-705546"
+        },
+        {
+            "band_gap": 4.0194,
+            "material_id": "mp-846373"
+        },
+        {
+            "band_gap": 4.016299999999999,
+            "material_id": "mp-719442"
+        },
+        {
+            "band_gap": 3.1784000000000003,
+            "material_id": "mp-852681"
+        },
+        {
+            "band_gap": 3.0776,
+            "material_id": "mp-855571"
+        },
+        {
+            "band_gap": 3.1799,
+            "material_id": "mp-768484"
+        },
+        {
+            "band_gap": 4.1101,
+            "material_id": "mp-27339"
+        },
+        {
+            "band_gap": 3.3362000000000003,
+            "material_id": "mp-1337737"
+        },
+        {
+            "band_gap": 3.1054999999999997,
+            "material_id": "mp-1358106"
+        },
+        {
+            "band_gap": 3.7364999999999995,
+            "material_id": "mp-1359931"
+        },
+        {
+            "band_gap": 4.0133,
+            "material_id": "mp-1351082"
+        },
+        {
+            "band_gap": 3.0968999999999998,
+            "material_id": "mp-1355968"
+        },
+        {
+            "band_gap": 3.6289000000000007,
+            "material_id": "mp-1326726"
+        },
+        {
+            "band_gap": 3.6273999999999997,
+            "material_id": "mp-1637561"
+        },
+        {
+            "band_gap": 3.1049,
+            "material_id": "mp-1680054"
+        },
+        {
+            "band_gap": 4.018,
+            "material_id": "mp-1683744"
+        },
+        {
+            "band_gap": 4.690099999999999,
+            "material_id": "mp-1169558"
+        },
+        {
+            "band_gap": 4.4339,
+            "material_id": "mp-1142729"
+        },
+        {
+            "band_gap": 4.436,
+            "material_id": "mp-1169621"
+        },
+        {
+            "band_gap": 4.4434,
+            "material_id": "mp-1241435"
+        },
+        {
+            "band_gap": 3.9838000000000005,
+            "material_id": "mp-1242497"
+        },
+        {
+            "band_gap": 4.0352,
+            "material_id": "mp-1163639"
+        },
+        {
+            "band_gap": 4.847300000000001,
+            "material_id": "mp-1163178"
+        },
+        {
+            "band_gap": 3.095,
+            "material_id": "mp-1930644"
+        },
+        {
+            "band_gap": 3.1034,
+            "material_id": "mp-1889274"
+        },
+        {
+            "band_gap": 3.7379,
+            "material_id": "mp-1872861"
+        },
+        {
+            "band_gap": 3.6278999999999995,
+            "material_id": "mp-1850198"
+        },
+        {
+            "band_gap": 4.0224,
+            "material_id": "mp-1894766"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-918943"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-906090"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-919951"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-13070"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1253282"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1403972"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1620738"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1754451"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1124804"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1257315"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1262105"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1878535"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-993700"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-995013"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-991956"
+        },
+        {
+            "band_gap": 0.05140000000000011,
+            "material_id": "mp-2436"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1440498"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1595692"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1695483"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1538351"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1803794"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1167517"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070583"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070677"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070717"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070768"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1424480"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1588467"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1700485"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1538260"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1796508"
+        },
+        {
+            "band_gap": 0.5471999999999997,
+            "material_id": "mp-1186271"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1011681"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1000500"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1006973"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-13272"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1115786"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1263090"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1438909"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1590383"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1667949"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1259078"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1150839"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1258971"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1782675"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1239912"
+        },
+        {
+            "band_gap": 4.665100000000001,
+            "material_id": "mp-665869"
+        },
+        {
+            "band_gap": 4.665100000000001,
+            "material_id": "mp-8796"
+        },
+        {
+            "band_gap": 4.626,
+            "material_id": "mp-1000217"
+        },
+        {
+            "band_gap": 4.6287,
+            "material_id": "mp-681216"
+        },
+        {
+            "band_gap": 4.6401,
+            "material_id": "mp-1350424"
+        },
+        {
+            "band_gap": 5.381,
+            "material_id": "mp-1157954"
+        },
+        {
+            "band_gap": 4.6358,
+            "material_id": "mp-1897512"
+        },
+        {
+            "band_gap": 0.013900000000000023,
+            "material_id": "mp-990480"
+        },
+        {
+            "band_gap": 0.013900000000000023,
+            "material_id": "mp-22263"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1419355"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1587664"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1700652"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1149410"
+        },
+        {
+            "band_gap": 0.08479999999999999,
+            "material_id": "mp-1833255"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1007150"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1011886"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-778"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1000691"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1189340"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1442345"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1594194"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1671253"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1796073"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1135635"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1525605"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1834902"
+        },
+        {
+            "band_gap": 2.6266000000000003,
+            "material_id": "mp-9808"
+        },
+        {
+            "band_gap": 2.4783,
+            "material_id": "mp-671087"
+        },
+        {
+            "band_gap": 2.6265,
+            "material_id": "mp-661614"
+        },
+        {
+            "band_gap": 2.662,
+            "material_id": "mp-1115375"
+        },
+        {
+            "band_gap": 2.8804,
+            "material_id": "mp-32163"
+        },
+        {
+            "band_gap": 2.6231999999999998,
+            "material_id": "mp-1429770"
+        },
+        {
+            "band_gap": 2.6223,
+            "material_id": "mp-1598367"
+        },
+        {
+            "band_gap": 2.664,
+            "material_id": "mp-1697169"
+        },
+        {
+            "band_gap": 3.2321,
+            "material_id": "mp-1128069"
+        },
+        {
+            "band_gap": 0.00019999999999997797,
+            "material_id": "mp-1789267"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-935050"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-941881"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-941737"
+        },
+        {
+            "band_gap": 0.47630000000000017,
+            "material_id": "mp-11483"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1439221"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1586297"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1687400"
+        },
+        {
+            "band_gap": 0.4782000000000002,
+            "material_id": "mp-1791337"
+        },
+        {
+            "band_gap": 0.8851000000000004,
+            "material_id": "mp-1524249"
+        },
+        {
+            "band_gap": 0.8835999999999995,
+            "material_id": "mp-1165068"
+        },
+        {
+            "band_gap": 0.010600000000000165,
+            "material_id": "mp-20700"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070408"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070593"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070674"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1070712"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1133340"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1439888"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1593983"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1171575"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1783983"
+        },
+        {
+            "band_gap": 4.6238,
+            "material_id": "mp-560449"
+        },
+        {
+            "band_gap": 0.13269999999999993,
+            "material_id": "mp-835825"
+        },
+        {
+            "band_gap": 0.1765,
+            "material_id": "mp-835041"
+        },
+        {
+            "band_gap": 0.4484,
+            "material_id": "mp-825465"
+        },
+        {
+            "band_gap": 3.7443,
+            "material_id": "mp-1381430"
+        },
+        {
+            "band_gap": 3.5833000000000004,
+            "material_id": "mp-1601930"
+        },
+        {
+            "band_gap": 3.7376,
+            "material_id": "mp-1676597"
+        },
+        {
+            "band_gap": 2.4367,
+            "material_id": "mp-1156942"
+        },
+        {
+            "band_gap": 4.9199,
+            "material_id": "mp-1787034"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-991352"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-994606"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-993293"
+        },
+        {
+            "band_gap": 0.04980000000000029,
+            "material_id": "mp-21242"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1431396"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1700490"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1777623"
+        },
+        {
+            "band_gap": 0.3666999999999998,
+            "material_id": "mp-613509"
+        },
+        {
+            "band_gap": 0.3669000000000002,
+            "material_id": "mp-665229"
+        },
+        {
+            "band_gap": 0.4645999999999999,
+            "material_id": "mp-665179"
+        },
+        {
+            "band_gap": 0.3669000000000002,
+            "material_id": "mp-665212"
+        },
+        {
+            "band_gap": 0.5365000000000002,
+            "material_id": "mp-288"
+        },
+        {
+            "band_gap": 0.5410999999999992,
+            "material_id": "mp-558811"
+        },
+        {
+            "band_gap": 0.5365000000000002,
+            "material_id": "mp-1140886"
+        },
+        {
+            "band_gap": 0.17569999999999997,
+            "material_id": "mp-1205321"
+        },
+        {
+            "band_gap": 0.16019999999999968,
+            "material_id": "mp-1380882"
+        },
+        {
+            "band_gap": 0.3188000000000004,
+            "material_id": "mp-1439644"
+        },
+        {
+            "band_gap": 0.18820000000000014,
+            "material_id": "mp-1603464"
+        },
+        {
+            "band_gap": 0.38480000000000025,
+            "material_id": "mp-1587511"
+        },
+        {
+            "band_gap": 0.19409999999999972,
+            "material_id": "mp-1677079"
+        },
+        {
+            "band_gap": 0.47140000000000004,
+            "material_id": "mp-1672136"
+        },
+        {
+            "band_gap": 0.4520999999999997,
+            "material_id": "mp-1544239"
+        },
+        {
+            "band_gap": 0.6272000000000002,
+            "material_id": "mp-1799646"
+        },
+        {
+            "band_gap": 1.0264999999999995,
+            "material_id": "mp-1162708"
+        },
+        {
+            "band_gap": 1.0281000000000002,
+            "material_id": "mp-1162985"
+        },
+        {
+            "band_gap": 0.976,
+            "material_id": "mp-1536189"
+        },
+        {
+            "band_gap": 1.0404,
+            "material_id": "mp-1243095"
+        },
+        {
+            "band_gap": 0.5946999999999996,
+            "material_id": "mp-1935076"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-926287"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-926810"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-910466"
+        },
+        {
+            "band_gap": 0.01890000000000036,
+            "material_id": "mp-22522"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1101956"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1144407"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1267114"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1382615"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1676084"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1599746"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1258160"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1788569"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1230498"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1260568"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1121422"
+        },
+        {
+            "band_gap": 0.7030000000000003,
+            "material_id": "mp-687762"
+        },
+        {
+            "band_gap": 0.7003999999999997,
+            "material_id": "mp-665"
+        },
+        {
+            "band_gap": 0.7004000000000001,
+            "material_id": "mp-671218"
+        },
+        {
+            "band_gap": 0.7018,
+            "material_id": "mp-687863"
+        },
+        {
+            "band_gap": 0.21560000000000024,
+            "material_id": "mp-1140668"
+        },
+        {
+            "band_gap": 0.7649999999999997,
+            "material_id": "mp-1540927"
+        },
+        {
+            "band_gap": 0.8009,
+            "material_id": "mp-1440081"
+        },
+        {
+            "band_gap": 0.7464999999999997,
+            "material_id": "mp-1541907"
+        },
+        {
+            "band_gap": 0.7013000000000003,
+            "material_id": "mp-1597037"
+        },
+        {
+            "band_gap": 0.8000000000000003,
+            "material_id": "mp-1686422"
+        },
+        {
+            "band_gap": 1.0379,
+            "material_id": "mp-1524911"
+        },
+        {
+            "band_gap": 0.9594,
+            "material_id": "mp-1136903"
+        },
+        {
+            "band_gap": 0.7972000000000001,
+            "material_id": "mp-1783848"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-907386"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-920798"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-921823"
+        },
+        {
+            "band_gap": 0.0026000000000001577,
+            "material_id": "mp-20779"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1426726"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1697602"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1126411"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1776133"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-928778"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-928241"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-912228"
+        },
+        {
+            "band_gap": 0.007799999999999585,
+            "material_id": "mp-20735"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1226850"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1437929"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1390129"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1674211"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1589843"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1760264"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1624219"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1803574"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1803167"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1537649"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-920812"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-921863"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-613384"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-907438"
+        },
+        {
+            "band_gap": 3.0624000000000002,
+            "material_id": "mp-669316"
+        },
+        {
+            "band_gap": 3.0911999999999997,
+            "material_id": "mp-689455"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-665298"
+        },
+        {
+            "band_gap": 3.2692000000000005,
+            "material_id": "mp-28295"
+        },
+        {
+            "band_gap": 3.2579000000000002,
+            "material_id": "mp-1114969"
+        },
+        {
+            "band_gap": 3.1043,
+            "material_id": "mp-1432625"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1422530"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1704790"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1592201"
+        },
+        {
+            "band_gap": 3.1020000000000003,
+            "material_id": "mp-1600789"
+        },
+        {
+            "band_gap": 3.39,
+            "material_id": "mp-1700880"
+        },
+        {
+            "band_gap": 3.2909999999999995,
+            "material_id": "mp-1168157"
+        },
+        {
+            "band_gap": 3.3937,
+            "material_id": "mp-1788345"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1126574"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1781982"
+        },
+        {
+            "band_gap": 2.3846000000000003,
+            "material_id": "mp-733325"
+        },
+        {
+            "band_gap": 2.3823,
+            "material_id": "mp-737055"
+        },
+        {
+            "band_gap": 2.4083,
+            "material_id": "mp-707535"
+        },
+        {
+            "band_gap": 2.4009,
+            "material_id": "mp-728775"
+        },
+        {
+            "band_gap": 2.9831,
+            "material_id": "mp-1181584"
+        },
+        {
+            "band_gap": 3.2927,
+            "material_id": "mp-1197174"
+        },
+        {
+            "band_gap": 1.7252999999999998,
+            "material_id": "mp-1204989"
+        },
+        {
+            "band_gap": 3.0069,
+            "material_id": "mp-1388362"
+        },
+        {
+            "band_gap": 2.4139,
+            "material_id": "mp-1369030"
+        },
+        {
+            "band_gap": 1.7294,
+            "material_id": "mp-1346666"
+        },
+        {
+            "band_gap": 3.0108,
+            "material_id": "mp-1727476"
+        },
+        {
+            "band_gap": 2.3806,
+            "material_id": "mp-1171233"
+        },
+        {
+            "band_gap": 1.731,
+            "material_id": "mp-1872275"
+        },
+        {
+            "band_gap": 2.9887,
+            "material_id": "mp-1842058"
+        },
+        {
+            "band_gap": 2.396,
+            "material_id": "mp-1819337"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-926337"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-910583"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-926882"
+        },
+        {
+            "band_gap": 0.019400000000000084,
+            "material_id": "mp-19959"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1413775"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1587791"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1701254"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1786009"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1166045"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-937115"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-941526"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-941220"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-510140"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1835695"
+        },
+        {
+            "band_gap": 4.795299999999999,
+            "material_id": "mp-1102075"
+        },
+        {
+            "band_gap": 4.7914,
+            "material_id": "mp-1434695"
+        },
+        {
+            "band_gap": 4.798500000000001,
+            "material_id": "mp-1597295"
+        },
+        {
+            "band_gap": 4.962,
+            "material_id": "mp-1699041"
+        },
+        {
+            "band_gap": 4.9603,
+            "material_id": "mp-1930863"
+        },
+        {
+            "band_gap": 0.5251999999999999,
+            "material_id": "mp-669744"
+        },
+        {
+            "band_gap": 0.3844000000000003,
+            "material_id": "mp-689025"
+        },
+        {
+            "band_gap": 0.3844000000000003,
+            "material_id": "mp-842511"
+        },
+        {
+            "band_gap": 0.3844000000000003,
+            "material_id": "mp-842995"
+        },
+        {
+            "band_gap": 0.5249999999999999,
+            "material_id": "mp-4009"
+        },
+        {
+            "band_gap": 0.3449,
+            "material_id": "mp-1140062"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1232297"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1414588"
+        },
+        {
+            "band_gap": 0.34819999999999984,
+            "material_id": "mp-1415337"
+        },
+        {
+            "band_gap": 0.6943999999999999,
+            "material_id": "mp-1588222"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1615632"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1716449"
+        },
+        {
+            "band_gap": 0.38629999999999987,
+            "material_id": "mp-1697969"
+        },
+        {
+            "band_gap": 0.4662999999999995,
+            "material_id": "mp-1167195"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1788680"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1797243"
+        },
+        {
+            "band_gap": 0.00990000000000002,
+            "material_id": "mp-11422"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1439681"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1588690"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1164932"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1523487"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1791003"
+        },
+        {
+            "band_gap": 2.3545,
+            "material_id": "mp-1201065"
+        },
+        {
+            "band_gap": 2.3794,
+            "material_id": "mp-1327891"
+        },
+        {
+            "band_gap": 2.6967000000000003,
+            "material_id": "mp-1929731"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-924829"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-925356"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-909797"
+        },
+        {
+            "band_gap": 0,
+            "material_id": "mp-3048"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1437618"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1677669"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1588332"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1860717"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-657137"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-657130"
+        },
+        {
+            "band_gap": 0.5362,
+            "material_id": "mp-592"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-655431"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1442231"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1586312"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1688658"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1164955"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1792103"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1536828"
+        },
+        {
+            "band_gap": 0.0,
+            "material_id": "mp-1243177"
+        },
+        {
+            "band_gap": 1.7318999999999996,
+            "material_id": "mp-1018411"
+        },
+        {
+            "band_gap": 1.862400000000001,
+            "material_id": "mp-1018224"
+        }
+    ]
+}

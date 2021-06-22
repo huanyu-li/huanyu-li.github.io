@@ -1,0 +1,898 @@
+[
+  {
+    "nr": 0,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 1,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 2,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 3,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 4,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 5,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 6,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 7,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 8,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 9,
+    "subOrganizationOf": 0
+  },
+  {
+    "nr": 100,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 101,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 102,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 103,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 104,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 105,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 106,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 107,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 108,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 109,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 110,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 111,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 112,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 113,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 114,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 115,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 116,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 117,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 118,
+    "subOrganizationOf": 1
+  },
+  {
+    "nr": 200,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 201,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 202,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 203,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 204,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 205,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 206,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 207,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 208,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 209,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 210,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 211,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 212,
+    "subOrganizationOf": 2
+  },
+  {
+    "nr": 300,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 301,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 302,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 303,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 304,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 305,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 306,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 307,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 308,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 309,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 310,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 311,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 312,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 313,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 314,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 315,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 316,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 317,
+    "subOrganizationOf": 3
+  },
+  {
+    "nr": 400,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 401,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 402,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 403,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 404,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 405,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 406,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 407,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 408,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 409,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 410,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 411,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 412,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 413,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 414,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 415,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 416,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 417,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 418,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 419,
+    "subOrganizationOf": 4
+  },
+  {
+    "nr": 500,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 501,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 502,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 503,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 504,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 505,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 506,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 507,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 508,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 509,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 510,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 511,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 512,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 513,
+    "subOrganizationOf": 5
+  },
+  {
+    "nr": 600,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 601,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 602,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 603,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 604,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 605,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 606,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 607,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 608,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 609,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 610,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 611,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 612,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 613,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 614,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 615,
+    "subOrganizationOf": 6
+  },
+  {
+    "nr": 700,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 701,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 702,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 703,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 704,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 705,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 706,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 707,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 708,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 709,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 710,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 711,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 712,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 713,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 714,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 715,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 716,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 717,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 718,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 719,
+    "subOrganizationOf": 7
+  },
+  {
+    "nr": 800,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 801,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 802,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 803,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 804,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 805,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 806,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 807,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 808,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 809,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 810,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 811,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 812,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 813,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 814,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 815,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 816,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 817,
+    "subOrganizationOf": 8
+  },
+  {
+    "nr": 900,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 901,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 902,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 903,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 904,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 905,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 906,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 907,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 908,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 909,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 910,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 911,
+    "subOrganizationOf": 9
+  },
+  {
+    "nr": 1000,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1001,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1002,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1003,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1004,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1005,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1006,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1007,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1008,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1009,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1010,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1011,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1012,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1013,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1014,
+    "subOrganizationOf": 10
+  },
+  {
+    "nr": 1100,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1101,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1102,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1103,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1104,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1105,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1106,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1107,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1108,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1109,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1110,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1111,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1112,
+    "subOrganizationOf": 11
+  },
+  {
+    "nr": 1200,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1201,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1202,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1203,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1204,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1205,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1206,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1207,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1208,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1209,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1210,
+    "subOrganizationOf": 12
+  },
+  {
+    "nr": 1300,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1301,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1302,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1303,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1304,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1305,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1306,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1307,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1308,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1309,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1310,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1311,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1312,
+    "subOrganizationOf": 13
+  },
+  {
+    "nr": 1400,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1401,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1402,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1403,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1404,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1405,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1406,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1407,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1408,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1409,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1410,
+    "subOrganizationOf": 14
+  },
+  {
+    "nr": 1411,
+    "subOrganizationOf": 14
+  }
+]

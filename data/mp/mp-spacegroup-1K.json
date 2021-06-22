@@ -1,1 +1,4004 @@
-{"data": [{"spacegroup": "C2/m", "material_id": "mp-561628"}, {"spacegroup": "C2/m", "material_id": "mp-551214"}, {"spacegroup": "C2/m", "material_id": "mp-1300528"}, {"spacegroup": "C2/m", "material_id": "mp-1602333"}, {"spacegroup": "C2/m", "material_id": "mp-1678519"}, {"spacegroup": "C2/m", "material_id": "mp-1832928"}, {"spacegroup": "Pbcn", "material_id": "mp-643701"}, {"spacegroup": "Pbcn", "material_id": "mp-749706"}, {"spacegroup": "Pbcn", "material_id": "mp-731959"}, {"spacegroup": "Pbcn", "material_id": "mp-742998"}, {"spacegroup": "P2_1/c", "material_id": "mp-848807"}, {"spacegroup": "P2_1/c", "material_id": "mp-725538"}, {"spacegroup": "P2_1/c", "material_id": "mp-727083"}, {"spacegroup": "P2_1/c", "material_id": "mp-860047"}, {"spacegroup": "P2_1/c", "material_id": "mp-690711"}, {"spacegroup": "P2_1/c", "material_id": "mp-864017"}, {"spacegroup": "P2_1/c", "material_id": "mp-697267"}, {"spacegroup": "P2_1/c", "material_id": "mp-750429"}, {"spacegroup": "P2_1/c", "material_id": "mp-732312"}, {"spacegroup": "P2_1/c", "material_id": "mp-1140687"}, {"spacegroup": "P-1", "material_id": "mp-1203133"}, {"spacegroup": "P-1", "material_id": "mp-1196113"}, {"spacegroup": "Pc", "material_id": "mp-1216736"}, {"spacegroup": "P2_1/c", "material_id": "mp-1385379"}, {"spacegroup": "P-1", "material_id": "mp-1358739"}, {"spacegroup": "P2_1/c", "material_id": "mp-1354679"}, {"spacegroup": "Pc", "material_id": "mp-1359029"}, {"spacegroup": "Pbcn", "material_id": "mp-1394765"}, {"spacegroup": "P2_1/c", "material_id": "mp-1684908"}, {"spacegroup": "P2_1/c", "material_id": "mp-1734098"}, {"spacegroup": "P2_1/c", "material_id": "mp-1627315"}, {"spacegroup": "Pbcn", "material_id": "mp-1626730"}, {"spacegroup": "Pbcn", "material_id": "mp-1751163"}, {"spacegroup": "P2_1/c", "material_id": "mp-1161454"}, {"spacegroup": "P2_1/c", "material_id": "mp-1130281"}, {"spacegroup": "Pbcn", "material_id": "mp-1239745"}, {"spacegroup": "Pbcn", "material_id": "mp-1130205"}, {"spacegroup": "Pc", "material_id": "mp-1820911"}, {"spacegroup": "P2_1/c", "material_id": "mp-1816090"}, {"spacegroup": "P2_1/c", "material_id": "mp-1895271"}, {"spacegroup": "P-1", "material_id": "mp-1895506"}, {"spacegroup": "Pbcn", "material_id": "mp-1816535"}, {"spacegroup": "P4/nmm", "material_id": "mp-614918"}, {"spacegroup": "P4/nmm", "material_id": "mp-655230"}, {"spacegroup": "P4/nmm", "material_id": "mp-659940"}, {"spacegroup": "P4/nmm", "material_id": "mp-660654"}, {"spacegroup": "P4/nmm", "material_id": "mp-661374"}, {"spacegroup": "R-3m", "material_id": "mp-688918"}, {"spacegroup": "R-3m", "material_id": "mp-669750"}, {"spacegroup": "R-3m", "material_id": "mp-689049"}, {"spacegroup": "P4/nmm", "material_id": "mp-682789"}, {"spacegroup": "P4/nmm", "material_id": "mp-708874"}, {"spacegroup": "P4/nmm", "material_id": "mp-702728"}, {"spacegroup": "P4/nmm", "material_id": "mp-504786"}, {"spacegroup": "P4/nmm", "material_id": "mp-27985"}, {"spacegroup": "R-3m", "material_id": "mp-552120"}, {"spacegroup": "P4/nmm", "material_id": "mp-1141117"}, {"spacegroup": "P4/nmm", "material_id": "mp-1401963"}, {"spacegroup": "R-3m", "material_id": "mp-1435213"}, {"spacegroup": "P4/nmm", "material_id": "mp-1422184"}, {"spacegroup": "P4/nmm", "material_id": "mp-1625463"}, {"spacegroup": "P4/nmm", "material_id": "mp-1704968"}, {"spacegroup": "R-3m", "material_id": "mp-1597180"}, {"spacegroup": "P4/nmm", "material_id": "mp-1760944"}, {"spacegroup": "R-3m", "material_id": "mp-1702478"}, {"spacegroup": "P4/nmm", "material_id": "mp-1592934"}, {"spacegroup": "P4/nmm", "material_id": "mp-1538103"}, {"spacegroup": "P4/nmm", "material_id": "mp-1127229"}, {"spacegroup": "R-3m", "material_id": "mp-1788009"}, {"spacegroup": "R-3m", "material_id": "mp-1525606"}, {"spacegroup": "P4/nmm", "material_id": "mp-1127337"}, {"spacegroup": "P4/nmm", "material_id": "mp-1924018"}, {"spacegroup": "P4/nmm", "material_id": "mp-1870640"}, {"spacegroup": "Pm-3n", "material_id": "mp-929024"}, {"spacegroup": "Pm-3n", "material_id": "mp-912590"}, {"spacegroup": "Pm-3n", "material_id": "mp-929391"}, {"spacegroup": "Pm-3n", "material_id": "mp-1458"}, {"spacegroup": "Pm-3n", "material_id": "mp-1426323"}, {"spacegroup": "Pm-3n", "material_id": "mp-1591057"}, {"spacegroup": "Pm-3n", "material_id": "mp-1698594"}, {"spacegroup": "Pm-3n", "material_id": "mp-1537105"}, {"spacegroup": "Pm-3n", "material_id": "mp-1784808"}, {"spacegroup": "Pm-3n", "material_id": "mp-1136389"}, {"spacegroup": "Pnma", "material_id": "mp-929445"}, {"spacegroup": "Pnma", "material_id": "mp-912684"}, {"spacegroup": "Pnma", "material_id": "mp-929104"}, {"spacegroup": "Pnma", "material_id": "mp-20490"}, {"spacegroup": "Pnma", "material_id": "mp-1095525"}, {"spacegroup": "Pnma", "material_id": "mp-1419904"}, {"spacegroup": "Pnma", "material_id": "mp-1703829"}, {"spacegroup": "Pnma", "material_id": "mp-1602237"}, {"spacegroup": "Pnma", "material_id": "mp-1776789"}, {"spacegroup": "Pnma", "material_id": "mp-1151080"}, {"spacegroup": "F-43m", "material_id": "mp-1002195"}, {"spacegroup": "F-43m", "material_id": "mp-1002184"}, {"spacegroup": "Fm-3m", "material_id": "mp-1002231"}, {"spacegroup": "P-6m2", "material_id": "mp-1002225"}, {"spacegroup": "Pm-3m", "material_id": "mp-1002183"}, {"spacegroup": "P-6m2", "material_id": "mp-1002215"}, {"spacegroup": "Pm-3m", "material_id": "mp-1002199"}, {"spacegroup": "Fm-3m", "material_id": "mp-1002187"}, {"spacegroup": "F-43m", "material_id": "mp-1002212"}, {"spacegroup": "F-43m", "material_id": "mp-1002201"}, {"spacegroup": "Fm-3m", "material_id": "mp-1002218"}, {"spacegroup": "Fm-3m", "material_id": "mp-1002205"}, {"spacegroup": "P-6m2", "material_id": "mp-1002204"}, {"spacegroup": "P-6m2", "material_id": "mp-1002188"}, {"spacegroup": "Pm-3m", "material_id": "mp-1002194"}, {"spacegroup": "Pm-3m", "material_id": "mp-1002214"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-999131"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-999146"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-999149"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-999172"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-999120"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-999162"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-999153"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-999118"}, {"spacegroup": "Pm-3m", "material_id": "mp-1057314"}, {"spacegroup": "Pm-3m", "material_id": "mp-1057283"}, {"spacegroup": "Pm-3m", "material_id": "mp-1057291"}, {"spacegroup": "Pm-3m", "material_id": "mp-1057305"}, {"spacegroup": "Fm-3m", "material_id": "mp-1058510"}, {"spacegroup": "Fm-3m", "material_id": "mp-1058525"}, {"spacegroup": "Fm-3m", "material_id": "mp-1058529"}, {"spacegroup": "Fm-3m", "material_id": "mp-1058498"}, {"spacegroup": "P-6m2", "material_id": "mp-1060031"}, {"spacegroup": "P-6m2", "material_id": "mp-1059996"}, {"spacegroup": "P-6m2", "material_id": "mp-1060053"}, {"spacegroup": "P-6m2", "material_id": "mp-1060080"}, {"spacegroup": "F-43m", "material_id": "mp-1061105"}, {"spacegroup": "F-43m", "material_id": "mp-1061121"}, {"spacegroup": "F-43m", "material_id": "mp-1061051"}, {"spacegroup": "F-43m", "material_id": "mp-1061074"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1066444"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1066469"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1066433"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1066462"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1067395"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1067421"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1067440"}, {"spacegroup": "P6_3mc", "material_id": "mp-1067451"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1067450"}, {"spacegroup": "P6_3mc", "material_id": "mp-1067574"}, {"spacegroup": "P6_3mc", "material_id": "mp-1067704"}, {"spacegroup": "P6_3mc", "material_id": "mp-1067842"}, {"spacegroup": "P-6m2", "material_id": "mp-1115395"}, {"spacegroup": "F-43m", "material_id": "mp-1423501"}, {"spacegroup": "Fm-3m", "material_id": "mp-1436276"}, {"spacegroup": "Pm-3m", "material_id": "mp-1437009"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1430311"}, {"spacegroup": "P-6m2", "material_id": "mp-1382008"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1418009"}, {"spacegroup": "P6_3mc", "material_id": "mp-1363587"}, {"spacegroup": "Pm-3m", "material_id": "mp-1673092"}, {"spacegroup": "P-6m2", "material_id": "mp-1675698"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1610876"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1611785"}, {"spacegroup": "Fm-3m", "material_id": "mp-1609765"}, {"spacegroup": "Fm-3m", "material_id": "mp-1672060"}, {"spacegroup": "P-6m2", "material_id": "mp-1610750"}, {"spacegroup": "Pm-3m", "material_id": "mp-1610772"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1731093"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1764757"}, {"spacegroup": "F-43m", "material_id": "mp-1612626"}, {"spacegroup": "F-43m", "material_id": "mp-1688026"}, {"spacegroup": "P6_3mc", "material_id": "mp-1583518"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1159363"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1795425"}, {"spacegroup": "P-6m2", "material_id": "mp-1240632"}, {"spacegroup": "Pm-3m", "material_id": "mp-1793106"}, {"spacegroup": "F-43m", "material_id": "mp-1164954"}, {"spacegroup": "Fm-3m", "material_id": "mp-1242371"}, {"spacegroup": "F-43m", "material_id": "mp-1795512"}, {"spacegroup": "Fm-3m", "material_id": "mp-1165207"}, {"spacegroup": "Pm-3m", "material_id": "mp-1242792"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1160814"}, {"spacegroup": "P-6m2", "material_id": "mp-1793857"}, {"spacegroup": "F-43m", "material_id": "mp-1240448"}, {"spacegroup": "Pm-3m", "material_id": "mp-1165179"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1792244"}, {"spacegroup": "P-6m2", "material_id": "mp-1143390"}, {"spacegroup": "Fm-3m", "material_id": "mp-1932256"}, {"spacegroup": "I4/mmm", "material_id": "mp-1001530"}, {"spacegroup": "I4/mmm", "material_id": "mp-1008033"}, {"spacegroup": "I4/mmm", "material_id": "mp-1012359"}, {"spacegroup": "I4/mmm", "material_id": "mp-3455"}, {"spacegroup": "I4/mmm", "material_id": "mp-1438502"}, {"spacegroup": "I4/mmm", "material_id": "mp-1590137"}, {"spacegroup": "I4/mmm", "material_id": "mp-1677678"}, {"spacegroup": "I4/mmm", "material_id": "mp-1135693"}, {"spacegroup": "I4/mmm", "material_id": "mp-1801227"}, {"spacegroup": "I4/m", "material_id": "mp-988285"}, {"spacegroup": "I4/m", "material_id": "mp-988040"}, {"spacegroup": "I4/m", "material_id": "mp-987036"}, {"spacegroup": "I4/m", "material_id": "mp-28698"}, {"spacegroup": "I4/m", "material_id": "mp-1141296"}, {"spacegroup": "I4/m", "material_id": "mp-1420609"}, {"spacegroup": "I4/m", "material_id": "mp-1700102"}, {"spacegroup": "I4/m", "material_id": "mp-1595200"}, {"spacegroup": "I4/m", "material_id": "mp-1787543"}, {"spacegroup": "I4/m", "material_id": "mp-1136493"}, {"spacegroup": "Pm-3m", "material_id": "mp-993467"}, {"spacegroup": "Pm-3m", "material_id": "mp-991515"}, {"spacegroup": "Pm-3m", "material_id": "mp-994798"}, {"spacegroup": "Pm-3m", "material_id": "mp-11501"}, {"spacegroup": "Pm-3m", "material_id": "mp-1438579"}, {"spacegroup": "Pm-3m", "material_id": "mp-1677535"}, {"spacegroup": "Pm-3m", "material_id": "mp-1588250"}, {"spacegroup": "Pm-3m", "material_id": "mp-1794589"}, {"spacegroup": "Pm-3m", "material_id": "mp-1524286"}, {"spacegroup": "Pm-3m", "material_id": "mp-1172005"}, {"spacegroup": "Pm-3m", "material_id": "mp-929760"}, {"spacegroup": "Pm-3m", "material_id": "mp-913241"}, {"spacegroup": "Pm-3m", "material_id": "mp-930252"}, {"spacegroup": "I4/mmm", "material_id": "mp-929782"}, {"spacegroup": "I4/mmm", "material_id": "mp-913248"}, {"spacegroup": "I4/mmm", "material_id": "mp-930290"}, {"spacegroup": "I4/mmm", "material_id": "mp-31178"}, {"spacegroup": "Pm-3m", "material_id": "mp-567589"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-978159"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-569981"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-977910"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-914525"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1010315"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1004656"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-864995"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1003061"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1051901"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1051920"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1051925"}, {"spacegroup": "R-3m", "material_id": "mp-1103088"}, {"spacegroup": "R-3m", "material_id": "mp-1106237"}, {"spacegroup": "R-3m", "material_id": "mp-1188642"}, {"spacegroup": "I4/mmm", "material_id": "mp-1260898"}, {"spacegroup": "I4/mmm", "material_id": "mp-1260453"}, {"spacegroup": "I4/mmm", "material_id": "mp-1252832"}, {"spacegroup": "I4/mmm", "material_id": "mp-1263063"}, {"spacegroup": "I4/mmm", "material_id": "mp-1438131"}, {"spacegroup": "R-3m", "material_id": "mp-1415528"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1420624"}, {"spacegroup": "R-3m", "material_id": "mp-1425688"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1394352"}, {"spacegroup": "Pm-3m", "material_id": "mp-1441265"}, {"spacegroup": "R-3m", "material_id": "mp-1601011"}, {"spacegroup": "R-3m", "material_id": "mp-1674159"}, {"spacegroup": "R-3m", "material_id": "mp-1696619"}, {"spacegroup": "I4/mmm", "material_id": "mp-1593030"}, {"spacegroup": "Pm-3m", "material_id": "mp-1587830"}, {"spacegroup": "I4/mmm", "material_id": "mp-1703303"}, {"spacegroup": "Pm-3m", "material_id": "mp-1701087"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1621931"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1733832"}, {"spacegroup": "R-3m", "material_id": "mp-1607666"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1598944"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1705260"}, {"spacegroup": "I4/mmm", "material_id": "mp-1258282"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1538601"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1130155"}, {"spacegroup": "I4/mmm", "material_id": "mp-1267849"}, {"spacegroup": "Pm-3m", "material_id": "mp-1798811"}, {"spacegroup": "R-3m", "material_id": "mp-1230698"}, {"spacegroup": "I4/mmm", "material_id": "mp-1801658"}, {"spacegroup": "I4/mmm", "material_id": "mp-1253380"}, {"spacegroup": "Pm-3m", "material_id": "mp-1149426"}, {"spacegroup": "I4/mmm", "material_id": "mp-1266702"}, {"spacegroup": "I4/mmm", "material_id": "mp-1262134"}, {"spacegroup": "I4/mmm", "material_id": "mp-1261378"}, {"spacegroup": "I4/mmm", "material_id": "mp-1263233"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1127261"}, {"spacegroup": "Pm-3m", "material_id": "mp-1240549"}, {"spacegroup": "I4/mmm", "material_id": "mp-1267146"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1779415"}, {"spacegroup": "R-3m", "material_id": "mp-1776106"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1810115"}, {"spacegroup": "R-3m", "material_id": "mp-1836630"}, {"spacegroup": "I4_1md", "material_id": "mp-660811"}, {"spacegroup": "I4_1md", "material_id": "mp-670416"}, {"spacegroup": "I4_1md", "material_id": "mp-842611"}, {"spacegroup": "I4_1md", "material_id": "mp-28978"}, {"spacegroup": "I4_1md", "material_id": "mp-1380926"}, {"spacegroup": "I4_1md", "material_id": "mp-1676820"}, {"spacegroup": "I4_1md", "material_id": "mp-1599245"}, {"spacegroup": "I4_1md", "material_id": "mp-1165733"}, {"spacegroup": "I4_1md", "material_id": "mp-1806407"}, {"spacegroup": "I4/mmm", "material_id": "mp-1006991"}, {"spacegroup": "I4/mmm", "material_id": "mp-1000517"}, {"spacegroup": "I4/mmm", "material_id": "mp-1011715"}, {"spacegroup": "I4/mmm", "material_id": "mp-1001696"}, {"spacegroup": "I4/mmm", "material_id": "mp-1012461"}, {"spacegroup": "I4/mmm", "material_id": "mp-1008143"}, {"spacegroup": "I4/mmm", "material_id": "mp-567808"}, {"spacegroup": "I4/mmm", "material_id": "mp-567840"}, {"spacegroup": "I4/mmm", "material_id": "mp-1068632"}, {"spacegroup": "I4/mmm", "material_id": "mp-1068701"}, {"spacegroup": "I4/mmm", "material_id": "mp-1068806"}, {"spacegroup": "I4/mmm", "material_id": "mp-1068790"}, {"spacegroup": "I4/mmm", "material_id": "mp-1068822"}, {"spacegroup": "I4/mmm", "material_id": "mp-1068970"}, {"spacegroup": "I4/mmm", "material_id": "mp-1068878"}, {"spacegroup": "I4/mmm", "material_id": "mp-1068947"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070237"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070282"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070324"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070362"}, {"spacegroup": "I4/mmm", "material_id": "mp-1432078"}, {"spacegroup": "I4/mmm", "material_id": "mp-1437701"}, {"spacegroup": "I4/mmm", "material_id": "mp-1590563"}, {"spacegroup": "I4/mmm", "material_id": "mp-1674280"}, {"spacegroup": "I4/mmm", "material_id": "mp-1695812"}, {"spacegroup": "I4/mmm", "material_id": "mp-1592548"}, {"spacegroup": "I4/mmm", "material_id": "mp-1127643"}, {"spacegroup": "I4/mmm", "material_id": "mp-1798899"}, {"spacegroup": "I4/mmm", "material_id": "mp-1164488"}, {"spacegroup": "I4/mmm", "material_id": "mp-1931161"}, {"spacegroup": "P-62m", "material_id": "mp-992401"}, {"spacegroup": "P-62m", "material_id": "mp-995072"}, {"spacegroup": "P-62m", "material_id": "mp-993976"}, {"spacegroup": "P-62m", "material_id": "mp-20789"}, {"spacegroup": "P-62m", "material_id": "mp-1116021"}, {"spacegroup": "P-62m", "material_id": "mp-1423010"}, {"spacegroup": "P-62m", "material_id": "mp-1695562"}, {"spacegroup": "P-62m", "material_id": "mp-1600787"}, {"spacegroup": "P-62m", "material_id": "mp-1829004"}, {"spacegroup": "F-43m", "material_id": "mp-941771"}, {"spacegroup": "F-43m", "material_id": "mp-941957"}, {"spacegroup": "F-43m", "material_id": "mp-935110"}, {"spacegroup": "F-43m", "material_id": "mp-573651"}, {"spacegroup": "F-43m", "material_id": "mp-1336758"}, {"spacegroup": "I4/mmm", "material_id": "mp-974443"}, {"spacegroup": "I4/mmm", "material_id": "mp-974404"}, {"spacegroup": "I4/mmm", "material_id": "mp-974428"}, {"spacegroup": "I4/mmm", "material_id": "mp-974386"}, {"spacegroup": "I4/mmm", "material_id": "mp-1432218"}, {"spacegroup": "I4/mmm", "material_id": "mp-1617211"}, {"spacegroup": "I4/mmm", "material_id": "mp-1764290"}, {"spacegroup": "I4/mmm", "material_id": "mp-1159573"}, {"spacegroup": "I4/mmm", "material_id": "mp-1876575"}, {"spacegroup": "I4/mmm", "material_id": "mp-18972"}, {"spacegroup": "Pna2_1", "material_id": "mp-554926"}, {"spacegroup": "Pna2_1", "material_id": "mp-618578"}, {"spacegroup": "Pna2_1", "material_id": "mp-681348"}, {"spacegroup": "Pna2_1", "material_id": "mp-701541"}, {"spacegroup": "Pna2_1", "material_id": "mp-712945"}, {"spacegroup": "Pna2_1", "material_id": "mp-565780"}, {"spacegroup": "Pna2_1", "material_id": "mp-1196833"}, {"spacegroup": "Pna2_1", "material_id": "mp-1237534"}, {"spacegroup": "Pna2_1", "material_id": "mp-555382"}, {"spacegroup": "Pna2_1", "material_id": "mp-541507"}, {"spacegroup": "Pna2_1", "material_id": "mp-1325397"}, {"spacegroup": "Pna2_1", "material_id": "mp-1326047"}, {"spacegroup": "Pna2_1", "material_id": "mp-1354069"}, {"spacegroup": "Pna2_1", "material_id": "mp-1163593"}, {"spacegroup": "I4/mmm", "material_id": "mp-1537406"}, {"spacegroup": "I4/mmm", "material_id": "mp-1136732"}, {"spacegroup": "Pna2_1", "material_id": "mp-1894768"}, {"spacegroup": "I4/mmm", "material_id": "mp-1921231"}, {"spacegroup": "Pnma", "material_id": "mp-665365"}, {"spacegroup": "Pnma", "material_id": "mp-680346"}, {"spacegroup": "Pnma", "material_id": "mp-657683"}, {"spacegroup": "Pnma", "material_id": "mp-27893"}, {"spacegroup": "Pnma", "material_id": "mp-1334065"}, {"spacegroup": "Pnma", "material_id": "mp-1629253"}, {"spacegroup": "Pnma", "material_id": "mp-1144400"}, {"spacegroup": "Pnma", "material_id": "mp-1849494"}, {"spacegroup": "P6/mmm", "material_id": "mp-943539"}, {"spacegroup": "P6/mmm", "material_id": "mp-943390"}, {"spacegroup": "P6/mmm", "material_id": "mp-933192"}, {"spacegroup": "P6/mmm", "material_id": "mp-1006366"}, {"spacegroup": "P6/mmm", "material_id": "mp-31163"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1191035"}, {"spacegroup": "P6/mmm", "material_id": "mp-1170763"}, {"spacegroup": "P6/mmm", "material_id": "mp-1264161"}, {"spacegroup": "P6/mmm", "material_id": "mp-1249069"}, {"spacegroup": "P6/mmm", "material_id": "mp-1417347"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1431723"}, {"spacegroup": "P6/mmm", "material_id": "mp-1696565"}, {"spacegroup": "P6/mmm", "material_id": "mp-1597279"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1734989"}, {"spacegroup": "P6/mmm", "material_id": "mp-1263347"}, {"spacegroup": "P6/mmm", "material_id": "mp-1249955"}, {"spacegroup": "P6/mmm", "material_id": "mp-1264673"}, {"spacegroup": "P6/mmm", "material_id": "mp-1253944"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1875672"}, {"spacegroup": "P6/mmm", "material_id": "mp-1934014"}, {"spacegroup": "R-3m", "material_id": "mp-925855"}, {"spacegroup": "R-3m", "material_id": "mp-909870"}, {"spacegroup": "R-3m", "material_id": "mp-924887"}, {"spacegroup": "Pnma", "material_id": "mp-679964"}, {"spacegroup": "Pnma", "material_id": "mp-700896"}, {"spacegroup": "Pnma", "material_id": "mp-665302"}, {"spacegroup": "Pnma", "material_id": "mp-23164"}, {"spacegroup": "R-3m", "material_id": "mp-541837"}, {"spacegroup": "R-3m", "material_id": "mp-1068960"}, {"spacegroup": "R-3m", "material_id": "mp-1069018"}, {"spacegroup": "R-3m", "material_id": "mp-1068982"}, {"spacegroup": "R-3m", "material_id": "mp-1069440"}, {"spacegroup": "R-3m", "material_id": "mp-1069448"}, {"spacegroup": "R-3m", "material_id": "mp-1069458"}, {"spacegroup": "R-3m", "material_id": "mp-1069459"}, {"spacegroup": "R-3m", "material_id": "mp-1069013"}, {"spacegroup": "R-3m", "material_id": "mp-1070734"}, {"spacegroup": "R-3m", "material_id": "mp-1070756"}, {"spacegroup": "R-3m", "material_id": "mp-1070776"}, {"spacegroup": "R-3m", "material_id": "mp-1070785"}, {"spacegroup": "C2/m", "material_id": "mp-1182583"}, {"spacegroup": "Pnma", "material_id": "mp-1141517"}, {"spacegroup": "P4_2/nmc", "material_id": "mp-1198150"}, {"spacegroup": "R-3m", "material_id": "mp-1142301"}, {"spacegroup": "R-3m", "material_id": "mp-1237221"}, {"spacegroup": "R-3m", "material_id": "mp-1439862"}, {"spacegroup": "Pnma", "material_id": "mp-1423999"}, {"spacegroup": "P4_2/nmc", "material_id": "mp-1358032"}, {"spacegroup": "Pnma", "material_id": "mp-1675118"}, {"spacegroup": "R-3m", "material_id": "mp-1590342"}, {"spacegroup": "Pnma", "material_id": "mp-1610445"}, {"spacegroup": "R-3m", "material_id": "mp-1243249"}, {"spacegroup": "Pnma", "material_id": "mp-1143925"}, {"spacegroup": "R-3m", "material_id": "mp-1780759"}, {"spacegroup": "R-3m", "material_id": "mp-1536520"}, {"spacegroup": "Pnma", "material_id": "mp-1546074"}, {"spacegroup": "Pnma", "material_id": "mp-1887301"}, {"spacegroup": "C2/m", "material_id": "mp-1832650"}, {"spacegroup": "P-62m", "material_id": "mp-1079868"}, {"spacegroup": "P-62m", "material_id": "mp-1248793"}, {"spacegroup": "P-62m", "material_id": "mp-1300137"}, {"spacegroup": "P-62m", "material_id": "mp-1601231"}, {"spacegroup": "P-62m", "material_id": "mp-1688177"}, {"spacegroup": "P-62m", "material_id": "mp-1264832"}, {"spacegroup": "P-62m", "material_id": "mp-1263208"}, {"spacegroup": "P-62m", "material_id": "mp-1830078"}, {"spacegroup": "I4/mcm", "material_id": "mp-701092"}, {"spacegroup": "I4/mcm", "material_id": "mp-680894"}, {"spacegroup": "I4/mcm", "material_id": "mp-712464"}, {"spacegroup": "I4/mcm", "material_id": "mp-12265"}, {"spacegroup": "I4/mcm", "material_id": "mp-1540818"}, {"spacegroup": "I4/mcm", "material_id": "mp-1415188"}, {"spacegroup": "I4/mcm", "material_id": "mp-1540102"}, {"spacegroup": "I4/mcm", "material_id": "mp-1696652"}, {"spacegroup": "I4/mcm", "material_id": "mp-1597924"}, {"spacegroup": "I4/mcm", "material_id": "mp-1136937"}, {"spacegroup": "I4/mcm", "material_id": "mp-1779601"}, {"spacegroup": "C2/c", "material_id": "mp-662815"}, {"spacegroup": "C2/c", "material_id": "mp-916509"}, {"spacegroup": "C2/c", "material_id": "mp-931877"}, {"spacegroup": "C2/c", "material_id": "mp-937225"}, {"spacegroup": "I-4", "material_id": "mp-656253"}, {"spacegroup": "I-4", "material_id": "mp-659418"}, {"spacegroup": "I-4", "material_id": "mp-664908"}, {"spacegroup": "P-1", "material_id": "mp-622375"}, {"spacegroup": "I-4", "material_id": "mp-20025"}, {"spacegroup": "I-4", "material_id": "mp-1078094"}, {"spacegroup": "R3m", "material_id": "mp-1078110"}, {"spacegroup": "I-4", "material_id": "mp-1115081"}, {"spacegroup": "C2/c", "material_id": "mp-1181285"}, {"spacegroup": "Pm", "material_id": "mp-1221975"}, {"spacegroup": "C2/c", "material_id": "mp-1197814"}, {"spacegroup": "C2/c", "material_id": "mp-1237143"}, {"spacegroup": "I-4", "material_id": "mp-1417397"}, {"spacegroup": "Pm", "material_id": "mp-1443089"}, {"spacegroup": "C2/c", "material_id": "mp-1353639"}, {"spacegroup": "R3m", "material_id": "mp-1300125"}, {"spacegroup": "C2/c", "material_id": "mp-1369150"}, {"spacegroup": "I-4", "material_id": "mp-1701205"}, {"spacegroup": "Pm", "material_id": "mp-1619829"}, {"spacegroup": "R3m", "material_id": "mp-1688396"}, {"spacegroup": "Pm", "material_id": "mp-1752084"}, {"spacegroup": "I-4", "material_id": "mp-1588421"}, {"spacegroup": "R3m", "material_id": "mp-1602496"}, {"spacegroup": "R3m", "material_id": "mp-1780867"}, {"spacegroup": "C2/c", "material_id": "mp-1161468"}, {"spacegroup": "I-4", "material_id": "mp-1525584"}, {"spacegroup": "C2/c", "material_id": "mp-1159602"}, {"spacegroup": "I-4", "material_id": "mp-1153988"}, {"spacegroup": "C2/c", "material_id": "mp-1546821"}, {"spacegroup": "Pm", "material_id": "mp-1867946"}, {"spacegroup": "P-1", "material_id": "mp-1872016"}, {"spacegroup": "I-4", "material_id": "mp-1929487"}, {"spacegroup": "C2/c", "material_id": "mp-1896600"}, {"spacegroup": "P6_3mc", "material_id": "mp-929143"}, {"spacegroup": "P6_3mc", "material_id": "mp-912653"}, {"spacegroup": "P6_3mc", "material_id": "mp-929525"}, {"spacegroup": "P6_3mc", "material_id": "mp-30770"}, {"spacegroup": "P6_3mc", "material_id": "mp-1349404"}, {"spacegroup": "P6_3mc", "material_id": "mp-1599931"}, {"spacegroup": "P6_3mc", "material_id": "mp-1678400"}, {"spacegroup": "P1", "material_id": "mp-657986"}, {"spacegroup": "P1", "material_id": "mp-666015"}, {"spacegroup": "P1", "material_id": "mp-681335"}, {"spacegroup": "P1", "material_id": "mp-582988"}, {"spacegroup": "P1", "material_id": "mp-1385514"}, {"spacegroup": "P1", "material_id": "mp-1654458"}, {"spacegroup": "P1", "material_id": "mp-1742601"}, {"spacegroup": "P1", "material_id": "mp-1897837"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-943077"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-932790"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-942062"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-30855"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1078485"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1079639"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1092253"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1299942"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1595664"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1687777"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1524505"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1924669"}, {"spacegroup": "P2_1/m", "material_id": "mp-927806"}, {"spacegroup": "P2_1/m", "material_id": "mp-911411"}, {"spacegroup": "P2_1/m", "material_id": "mp-927372"}, {"spacegroup": "P2_1/m", "material_id": "mp-30151"}, {"spacegroup": "P2_1/m", "material_id": "mp-1435116"}, {"spacegroup": "P2_1/m", "material_id": "mp-1604315"}, {"spacegroup": "P2_1/m", "material_id": "mp-1670241"}, {"spacegroup": "P2_1/m", "material_id": "mp-1231296"}, {"spacegroup": "P2_1/m", "material_id": "mp-1139951"}, {"spacegroup": "R-3m", "material_id": "mp-664169"}, {"spacegroup": "R-3m", "material_id": "mp-679086"}, {"spacegroup": "R-3m", "material_id": "mp-663541"}, {"spacegroup": "R-3m", "material_id": "mp-23033"}, {"spacegroup": "R-3m", "material_id": "mp-1141782"}, {"spacegroup": "R-3m", "material_id": "mp-1438602"}, {"spacegroup": "R-3m", "material_id": "mp-1591833"}, {"spacegroup": "R-3m", "material_id": "mp-1667995"}, {"spacegroup": "R-3m", "material_id": "mp-1782244"}, {"spacegroup": "R-3m", "material_id": "mp-1122042"}, {"spacegroup": "Ibam", "material_id": "mp-680651"}, {"spacegroup": "Ibam", "material_id": "mp-842883"}, {"spacegroup": "Ibam", "material_id": "mp-665511"}, {"spacegroup": "Ibam", "material_id": "mp-27303"}, {"spacegroup": "Ibam", "material_id": "mp-1426587"}, {"spacegroup": "Ibam", "material_id": "mp-1694953"}, {"spacegroup": "Ibam", "material_id": "mp-1599763"}, {"spacegroup": "Ibam", "material_id": "mp-1150351"}, {"spacegroup": "Ibam", "material_id": "mp-1827458"}, {"spacegroup": "Cmc2_1", "material_id": "mp-1103949"}, {"spacegroup": "Cmc2_1", "material_id": "mp-1230762"}, {"spacegroup": "Cmc2_1", "material_id": "mp-1891763"}, {"spacegroup": "Pmma", "material_id": "mp-972916"}, {"spacegroup": "Pmma", "material_id": "mp-1010825"}, {"spacegroup": "Pmma", "material_id": "mp-1005370"}, {"spacegroup": "Pmma", "material_id": "mp-1005343"}, {"spacegroup": "Pmma", "material_id": "mp-1185859"}, {"spacegroup": "Pmma", "material_id": "mp-1434395"}, {"spacegroup": "Pmma", "material_id": "mp-1791981"}, {"spacegroup": "Pmma", "material_id": "mp-1160881"}, {"spacegroup": "I4/mmm", "material_id": "mp-993921"}, {"spacegroup": "I4/mmm", "material_id": "mp-991766"}, {"spacegroup": "I4/mmm", "material_id": "mp-992305"}, {"spacegroup": "I4/mmm", "material_id": "mp-551675"}, {"spacegroup": "I4/mmm", "material_id": "mp-1416220"}, {"spacegroup": "I4/mmm", "material_id": "mp-1699934"}, {"spacegroup": "I4/mmm", "material_id": "mp-1798653"}, {"spacegroup": "I4/mmm", "material_id": "mp-1128435"}, {"spacegroup": "I4/mmm", "material_id": "mp-932179"}, {"spacegroup": "I4/mmm", "material_id": "mp-13398"}, {"spacegroup": "I4/mmm", "material_id": "mp-915469"}, {"spacegroup": "I4/mmm", "material_id": "mp-931197"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069462"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069512"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069606"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069527"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069621"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069629"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069657"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069686"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069731"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069563"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069565"}, {"spacegroup": "I4/mmm", "material_id": "mp-1069757"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070470"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070522"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070577"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070619"}, {"spacegroup": "I4/mmm", "material_id": "mp-1124947"}, {"spacegroup": "I4/mmm", "material_id": "mp-1132749"}, {"spacegroup": "I4/mmm", "material_id": "mp-1257574"}, {"spacegroup": "I4/mmm", "material_id": "mp-1439568"}, {"spacegroup": "I4/mmm", "material_id": "mp-1591344"}, {"spacegroup": "I4/mmm", "material_id": "mp-1258485"}, {"spacegroup": "I4/mmm", "material_id": "mp-1152929"}, {"spacegroup": "I4/mmm", "material_id": "mp-1258423"}, {"spacegroup": "I4/mmm", "material_id": "mp-1802266"}, {"spacegroup": "I4_1md", "material_id": "mp-919836"}, {"spacegroup": "I4_1md", "material_id": "mp-918835"}, {"spacegroup": "I4_1md", "material_id": "mp-905889"}, {"spacegroup": "I4_1md", "material_id": "mp-12919"}, {"spacegroup": "I4_1md", "material_id": "mp-1070842"}, {"spacegroup": "I4_1md", "material_id": "mp-1070877"}, {"spacegroup": "I4_1md", "material_id": "mp-1070942"}, {"spacegroup": "I4_1md", "material_id": "mp-1070947"}, {"spacegroup": "I4_1md", "material_id": "mp-1426778"}, {"spacegroup": "I4_1md", "material_id": "mp-1591286"}, {"spacegroup": "I4_1md", "material_id": "mp-1700957"}, {"spacegroup": "I4_1md", "material_id": "mp-1131932"}, {"spacegroup": "I4_1md", "material_id": "mp-1928483"}, {"spacegroup": "Fm-3m", "material_id": "mp-1185410"}, {"spacegroup": "Fm-3m", "material_id": "mp-1417290"}, {"spacegroup": "Fm-3m", "material_id": "mp-1791293"}, {"spacegroup": "P-6m2", "material_id": "mp-913040"}, {"spacegroup": "P-6m2", "material_id": "mp-929258"}, {"spacegroup": "P-6m2", "material_id": "mp-930125"}, {"spacegroup": "P-6m2", "material_id": "mp-11743"}, {"spacegroup": "P-6m2", "material_id": "mp-1115706"}, {"spacegroup": "P-6m2", "material_id": "mp-1427159"}, {"spacegroup": "P-6m2", "material_id": "mp-1696052"}, {"spacegroup": "P-6m2", "material_id": "mp-1802415"}, {"spacegroup": "P-6m2", "material_id": "mp-1150821"}, {"spacegroup": "I4/mmm", "material_id": "mp-1077777"}, {"spacegroup": "I4/mmm", "material_id": "mp-1420488"}, {"spacegroup": "I4/mmm", "material_id": "mp-1697870"}, {"spacegroup": "I4/mmm", "material_id": "mp-1592138"}, {"spacegroup": "I4/mmm", "material_id": "mp-1827995"}, {"spacegroup": "Amm2", "material_id": "mp-1064561"}, {"spacegroup": "Amm2", "material_id": "mp-1064469"}, {"spacegroup": "Amm2", "material_id": "mp-1064504"}, {"spacegroup": "Amm2", "material_id": "mp-1064525"}, {"spacegroup": "Amm2", "material_id": "mp-1438908"}, {"spacegroup": "Amm2", "material_id": "mp-1677343"}, {"spacegroup": "Amm2", "material_id": "mp-1593146"}, {"spacegroup": "Amm2", "material_id": "mp-1781329"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-923405"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-908203"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-922643"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-28607"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1434885"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1592306"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1700298"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1129842"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1802529"}, {"spacegroup": "Fm-3m", "material_id": "mp-642279"}, {"spacegroup": "Fm-3m", "material_id": "mp-914973"}, {"spacegroup": "Fm-3m", "material_id": "mp-992087"}, {"spacegroup": "Fm-3m", "material_id": "mp-992320"}, {"spacegroup": "Fm-3m", "material_id": "mp-994035"}, {"spacegroup": "F-43m", "material_id": "mp-1125186"}, {"spacegroup": "Fm-3m", "material_id": "mp-1136368"}, {"spacegroup": "Fm-3m", "material_id": "mp-1660018"}, {"spacegroup": "F-43m", "material_id": "mp-1371741"}, {"spacegroup": "Fm-3m", "material_id": "mp-1425788"}, {"spacegroup": "F-43m", "material_id": "mp-1680082"}, {"spacegroup": "Fm-3m", "material_id": "mp-1766311"}, {"spacegroup": "F-43m", "material_id": "mp-1840863"}, {"spacegroup": "Fm-3m", "material_id": "mp-1842664"}, {"spacegroup": "P-1", "material_id": "mp-664231"}, {"spacegroup": "P-1", "material_id": "mp-641703"}, {"spacegroup": "P-1", "material_id": "mp-700377"}, {"spacegroup": "P-1", "material_id": "mp-679202"}, {"spacegroup": "P-1", "material_id": "mp-1340982"}, {"spacegroup": "P-1", "material_id": "mp-1165985"}, {"spacegroup": "P-1", "material_id": "mp-1920487"}, {"spacegroup": "P6/mmm", "material_id": "mp-929545"}, {"spacegroup": "P6/mmm", "material_id": "mp-912856"}, {"spacegroup": "P6/mmm", "material_id": "mp-929178"}, {"spacegroup": "P6/mmm", "material_id": "mp-11594"}, {"spacegroup": "P6/mmm", "material_id": "mp-1416025"}, {"spacegroup": "P6/mmm", "material_id": "mp-1702657"}, {"spacegroup": "P6/mmm", "material_id": "mp-1589748"}, {"spacegroup": "P6/mmm", "material_id": "mp-1801655"}, {"spacegroup": "P6/mmm", "material_id": "mp-1128688"}, {"spacegroup": "P4/nmm", "material_id": "mp-977932"}, {"spacegroup": "P4/nmm", "material_id": "mp-914556"}, {"spacegroup": "P4/nmm", "material_id": "mp-992512"}, {"spacegroup": "P4/nmm", "material_id": "mp-12780"}, {"spacegroup": "P4/nmm", "material_id": "mp-1424781"}, {"spacegroup": "P4/nmm", "material_id": "mp-1697860"}, {"spacegroup": "P4/nmm", "material_id": "mp-1599172"}, {"spacegroup": "P4/nmm", "material_id": "mp-1170147"}, {"spacegroup": "P4/nmm", "material_id": "mp-1870475"}, {"spacegroup": "P2_1/c", "material_id": "mp-852685"}, {"spacegroup": "P2_1/c", "material_id": "mp-768457"}, {"spacegroup": "P2_1/c", "material_id": "mp-855570"}, {"spacegroup": "P2_1/c", "material_id": "mp-995913"}, {"spacegroup": "R-3", "material_id": "mp-852696"}, {"spacegroup": "R-3", "material_id": "mp-995262"}, {"spacegroup": "R-3", "material_id": "mp-855577"}, {"spacegroup": "R-3c", "material_id": "mp-852695"}, {"spacegroup": "R-3c", "material_id": "mp-856457"}, {"spacegroup": "R-3c", "material_id": "mp-768500"}, {"spacegroup": "R-3", "material_id": "mp-768486"}, {"spacegroup": "R-3c", "material_id": "mp-855635"}, {"spacegroup": "Pbca", "material_id": "mp-794420"}, {"spacegroup": "Pbca", "material_id": "mp-777615"}, {"spacegroup": "Pbca", "material_id": "mp-795162"}, {"spacegroup": "Pbca", "material_id": "mp-792571"}, {"spacegroup": "P2_1/c", "material_id": "mp-846992"}, {"spacegroup": "P2_1/c", "material_id": "mp-705546"}, {"spacegroup": "P2_1/c", "material_id": "mp-846373"}, {"spacegroup": "P2_1/c", "material_id": "mp-719442"}, {"spacegroup": "C2/c", "material_id": "mp-852681"}, {"spacegroup": "C2/c", "material_id": "mp-855571"}, {"spacegroup": "C2/c", "material_id": "mp-768484"}, {"spacegroup": "P2_1/c", "material_id": "mp-27339"}, {"spacegroup": "Pbca", "material_id": "mp-1337737"}, {"spacegroup": "R-3c", "material_id": "mp-1358106"}, {"spacegroup": "R-3", "material_id": "mp-1359931"}, {"spacegroup": "P2_1/c", "material_id": "mp-1351082"}, {"spacegroup": "C2/c", "material_id": "mp-1355968"}, {"spacegroup": "P2_1/c", "material_id": "mp-1326726"}, {"spacegroup": "P2_1/c", "material_id": "mp-1637561"}, {"spacegroup": "R-3c", "material_id": "mp-1680054"}, {"spacegroup": "P2_1/c", "material_id": "mp-1683744"}, {"spacegroup": "P2_1/c", "material_id": "mp-1169558"}, {"spacegroup": "C2/c", "material_id": "mp-1142729"}, {"spacegroup": "P2_1/c", "material_id": "mp-1169621"}, {"spacegroup": "C2/c", "material_id": "mp-1241435"}, {"spacegroup": "R-3c", "material_id": "mp-1242497"}, {"spacegroup": "R-3c", "material_id": "mp-1163639"}, {"spacegroup": "R-3", "material_id": "mp-1163178"}, {"spacegroup": "C2/c", "material_id": "mp-1930644"}, {"spacegroup": "R-3c", "material_id": "mp-1889274"}, {"spacegroup": "R-3", "material_id": "mp-1872861"}, {"spacegroup": "P2_1/c", "material_id": "mp-1850198"}, {"spacegroup": "P2_1/c", "material_id": "mp-1894766"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-918943"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-906090"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-919951"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-13070"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1253282"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1403972"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1620738"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1754451"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1124804"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1257315"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1262105"}, {"spacegroup": "P6_3/mmc", "material_id": "mp-1878535"}, {"spacegroup": "P6/mmm", "material_id": "mp-993700"}, {"spacegroup": "P6/mmm", "material_id": "mp-995013"}, {"spacegroup": "P6/mmm", "material_id": "mp-991956"}, {"spacegroup": "P6/mmm", "material_id": "mp-2436"}, {"spacegroup": "P6/mmm", "material_id": "mp-1440498"}, {"spacegroup": "P6/mmm", "material_id": "mp-1595692"}, {"spacegroup": "P6/mmm", "material_id": "mp-1695483"}, {"spacegroup": "P6/mmm", "material_id": "mp-1538351"}, {"spacegroup": "P6/mmm", "material_id": "mp-1803794"}, {"spacegroup": "P6/mmm", "material_id": "mp-1167517"}, {"spacegroup": "I4/m", "material_id": "mp-1070583"}, {"spacegroup": "I4/m", "material_id": "mp-1070677"}, {"spacegroup": "I4/m", "material_id": "mp-1070717"}, {"spacegroup": "I4/m", "material_id": "mp-1070768"}, {"spacegroup": "I4/m", "material_id": "mp-1424480"}, {"spacegroup": "I4/m", "material_id": "mp-1588467"}, {"spacegroup": "I4/m", "material_id": "mp-1700485"}, {"spacegroup": "I4/m", "material_id": "mp-1538260"}, {"spacegroup": "I4/m", "material_id": "mp-1796508"}, {"spacegroup": "P-6m2", "material_id": "mp-1186271"}, {"spacegroup": "P-6m2", "material_id": "mp-1011681"}, {"spacegroup": "P-6m2", "material_id": "mp-1000500"}, {"spacegroup": "P-6m2", "material_id": "mp-1006973"}, {"spacegroup": "P-6m2", "material_id": "mp-13272"}, {"spacegroup": "P-6m2", "material_id": "mp-1115786"}, {"spacegroup": "P-6m2", "material_id": "mp-1263090"}, {"spacegroup": "P-6m2", "material_id": "mp-1438909"}, {"spacegroup": "P-6m2", "material_id": "mp-1590383"}, {"spacegroup": "P-6m2", "material_id": "mp-1667949"}, {"spacegroup": "P-6m2", "material_id": "mp-1259078"}, {"spacegroup": "P-6m2", "material_id": "mp-1150839"}, {"spacegroup": "P-6m2", "material_id": "mp-1258971"}, {"spacegroup": "P-6m2", "material_id": "mp-1782675"}, {"spacegroup": "P-6m2", "material_id": "mp-1239912"}, {"spacegroup": "P2_1/c", "material_id": "mp-665869"}, {"spacegroup": "P2_1/c", "material_id": "mp-8796"}, {"spacegroup": "P2_1/c", "material_id": "mp-1000217"}, {"spacegroup": "P2_1/c", "material_id": "mp-681216"}, {"spacegroup": "P2_1/c", "material_id": "mp-1350424"}, {"spacegroup": "P2_1/c", "material_id": "mp-1157954"}, {"spacegroup": "P2_1/c", "material_id": "mp-1897512"}, {"spacegroup": "Pm-3m", "material_id": "mp-990480"}, {"spacegroup": "Pm-3m", "material_id": "mp-22263"}, {"spacegroup": "Pm-3m", "material_id": "mp-1419355"}, {"spacegroup": "Pm-3m", "material_id": "mp-1587664"}, {"spacegroup": "Pm-3m", "material_id": "mp-1700652"}, {"spacegroup": "Pm-3m", "material_id": "mp-1149410"}, {"spacegroup": "Pm-3m", "material_id": "mp-1833255"}, {"spacegroup": "P-62m", "material_id": "mp-1007150"}, {"spacegroup": "P-62m", "material_id": "mp-1011886"}, {"spacegroup": "P-62m", "material_id": "mp-778"}, {"spacegroup": "P-62m", "material_id": "mp-1000691"}, {"spacegroup": "Imm2", "material_id": "mp-1189340"}, {"spacegroup": "P-62m", "material_id": "mp-1442345"}, {"spacegroup": "P-62m", "material_id": "mp-1594194"}, {"spacegroup": "P-62m", "material_id": "mp-1671253"}, {"spacegroup": "P-62m", "material_id": "mp-1796073"}, {"spacegroup": "P-62m", "material_id": "mp-1135635"}, {"spacegroup": "P-62m", "material_id": "mp-1525605"}, {"spacegroup": "Imm2", "material_id": "mp-1834902"}, {"spacegroup": "I-42m", "material_id": "mp-9808"}, {"spacegroup": "P1", "material_id": "mp-671087"}, {"spacegroup": "I-42m", "material_id": "mp-661614"}, {"spacegroup": "I-42m", "material_id": "mp-1115375"}, {"spacegroup": "I-42m", "material_id": "mp-32163"}, {"spacegroup": "I-42m", "material_id": "mp-1429770"}, {"spacegroup": "I-42m", "material_id": "mp-1598367"}, {"spacegroup": "I-42m", "material_id": "mp-1697169"}, {"spacegroup": "I-42m", "material_id": "mp-1128069"}, {"spacegroup": "I-42m", "material_id": "mp-1789267"}, {"spacegroup": "Pm-3m", "material_id": "mp-935050"}, {"spacegroup": "Pm-3m", "material_id": "mp-941881"}, {"spacegroup": "Pm-3m", "material_id": "mp-941737"}, {"spacegroup": "Pm-3m", "material_id": "mp-11483"}, {"spacegroup": "Pm-3m", "material_id": "mp-1439221"}, {"spacegroup": "Pm-3m", "material_id": "mp-1586297"}, {"spacegroup": "Pm-3m", "material_id": "mp-1687400"}, {"spacegroup": "Pm-3m", "material_id": "mp-1791337"}, {"spacegroup": "Pm-3m", "material_id": "mp-1524249"}, {"spacegroup": "Pm-3m", "material_id": "mp-1165068"}, {"spacegroup": "I4/mmm", "material_id": "mp-20700"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070408"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070593"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070674"}, {"spacegroup": "I4/mmm", "material_id": "mp-1070712"}, {"spacegroup": "I4/mmm", "material_id": "mp-1133340"}, {"spacegroup": "I4/mmm", "material_id": "mp-1439888"}, {"spacegroup": "I4/mmm", "material_id": "mp-1593983"}, {"spacegroup": "I4/mmm", "material_id": "mp-1171575"}, {"spacegroup": "I4/mmm", "material_id": "mp-1783983"}, {"spacegroup": "I4/mmm", "material_id": "mp-560449"}, {"spacegroup": "I4/mmm", "material_id": "mp-835825"}, {"spacegroup": "I4/mmm", "material_id": "mp-835041"}, {"spacegroup": "I4/mmm", "material_id": "mp-825465"}, {"spacegroup": "I4/mmm", "material_id": "mp-1381430"}, {"spacegroup": "I4/mmm", "material_id": "mp-1601930"}, {"spacegroup": "I4/mmm", "material_id": "mp-1676597"}, {"spacegroup": "I4/mmm", "material_id": "mp-1156942"}, {"spacegroup": "I4/mmm", "material_id": "mp-1787034"}, {"spacegroup": "P-6m2", "material_id": "mp-991352"}, {"spacegroup": "P-6m2", "material_id": "mp-994606"}, {"spacegroup": "P-6m2", "material_id": "mp-993293"}, {"spacegroup": "P-6m2", "material_id": "mp-21242"}, {"spacegroup": "P-6m2", "material_id": "mp-1431396"}, {"spacegroup": "P-6m2", "material_id": "mp-1700490"}, {"spacegroup": "P-6m2", "material_id": "mp-1777623"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-613509"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-665229"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-665179"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-665212"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-288"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-558811"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1140886"}, {"spacegroup": "P4_2/m", "material_id": "mp-1205321"}, {"spacegroup": "P4_2/m", "material_id": "mp-1380882"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1439644"}, {"spacegroup": "P4_2/m", "material_id": "mp-1603464"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1587511"}, {"spacegroup": "P4_2/m", "material_id": "mp-1677079"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1672136"}, {"spacegroup": "P4_2/m", "material_id": "mp-1544239"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1799646"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1162708"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1162985"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1536189"}, {"spacegroup": "P4_2/mmc", "material_id": "mp-1243095"}, {"spacegroup": "P4_2/m", "material_id": "mp-1935076"}, {"spacegroup": "Pnma", "material_id": "mp-926287"}, {"spacegroup": "Pnma", "material_id": "mp-926810"}, {"spacegroup": "Pnma", "material_id": "mp-910466"}, {"spacegroup": "Pnma", "material_id": "mp-22522"}, {"spacegroup": "Pnma", "material_id": "mp-1101956"}, {"spacegroup": "Pnma", "material_id": "mp-1144407"}, {"spacegroup": "Pnma", "material_id": "mp-1267114"}, {"spacegroup": "Pnma", "material_id": "mp-1382615"}, {"spacegroup": "Pnma", "material_id": "mp-1676084"}, {"spacegroup": "Pnma", "material_id": "mp-1599746"}, {"spacegroup": "Pnma", "material_id": "mp-1258160"}, {"spacegroup": "Pnma", "material_id": "mp-1788569"}, {"spacegroup": "Pnma", "material_id": "mp-1230498"}, {"spacegroup": "Pnma", "material_id": "mp-1260568"}, {"spacegroup": "Pnma", "material_id": "mp-1121422"}, {"spacegroup": "P-3m1", "material_id": "mp-687762"}, {"spacegroup": "P-3m1", "material_id": "mp-665"}, {"spacegroup": "P-3m1", "material_id": "mp-671218"}, {"spacegroup": "P-3m1", "material_id": "mp-687863"}, {"spacegroup": "P-3m1", "material_id": "mp-1140668"}, {"spacegroup": "P-3m1", "material_id": "mp-1540927"}, {"spacegroup": "P-3m1", "material_id": "mp-1440081"}, {"spacegroup": "P-3m1", "material_id": "mp-1541907"}, {"spacegroup": "P-3m1", "material_id": "mp-1597037"}, {"spacegroup": "P-3m1", "material_id": "mp-1686422"}, {"spacegroup": "P-3m1", "material_id": "mp-1524911"}, {"spacegroup": "P-3m1", "material_id": "mp-1136903"}, {"spacegroup": "P-3m1", "material_id": "mp-1783848"}, {"spacegroup": "P4/nmm", "material_id": "mp-907386"}, {"spacegroup": "P4/nmm", "material_id": "mp-920798"}, {"spacegroup": "P4/nmm", "material_id": "mp-921823"}, {"spacegroup": "P4/nmm", "material_id": "mp-20779"}, {"spacegroup": "P4/nmm", "material_id": "mp-1426726"}, {"spacegroup": "P4/nmm", "material_id": "mp-1697602"}, {"spacegroup": "P4/nmm", "material_id": "mp-1126411"}, {"spacegroup": "P4/nmm", "material_id": "mp-1776133"}, {"spacegroup": "Pm-3m", "material_id": "mp-928778"}, {"spacegroup": "Pm-3m", "material_id": "mp-928241"}, {"spacegroup": "Pm-3m", "material_id": "mp-912228"}, {"spacegroup": "Pm-3m", "material_id": "mp-20735"}, {"spacegroup": "R-3m", "material_id": "mp-1226850"}, {"spacegroup": "Pm-3m", "material_id": "mp-1437929"}, {"spacegroup": "R-3m", "material_id": "mp-1390129"}, {"spacegroup": "Pm-3m", "material_id": "mp-1674211"}, {"spacegroup": "Pm-3m", "material_id": "mp-1589843"}, {"spacegroup": "R-3m", "material_id": "mp-1760264"}, {"spacegroup": "R-3m", "material_id": "mp-1624219"}, {"spacegroup": "R-3m", "material_id": "mp-1803574"}, {"spacegroup": "Pm-3m", "material_id": "mp-1803167"}, {"spacegroup": "Pm-3m", "material_id": "mp-1537649"}, {"spacegroup": "Pm-3m", "material_id": "mp-920812"}, {"spacegroup": "Pm-3m", "material_id": "mp-921863"}, {"spacegroup": "Pm-3m", "material_id": "mp-613384"}, {"spacegroup": "Pm-3m", "material_id": "mp-907438"}, {"spacegroup": "Pmn2_1", "material_id": "mp-669316"}, {"spacegroup": "Pmn2_1", "material_id": "mp-689455"}, {"spacegroup": "Pmn2_1", "material_id": "mp-665298"}, {"spacegroup": "Pmn2_1", "material_id": "mp-28295"}, {"spacegroup": "Pmn2_1", "material_id": "mp-1114969"}, {"spacegroup": "Pmn2_1", "material_id": "mp-1432625"}, {"spacegroup": "Pm-3m", "material_id": "mp-1422530"}, {"spacegroup": "Pm-3m", "material_id": "mp-1704790"}, {"spacegroup": "Pm-3m", "material_id": "mp-1592201"}, {"spacegroup": "Pmn2_1", "material_id": "mp-1600789"}, {"spacegroup": "Pmn2_1", "material_id": "mp-1700880"}, {"spacegroup": "Pmn2_1", "material_id": "mp-1168157"}, {"spacegroup": "Pmn2_1", "material_id": "mp-1788345"}, {"spacegroup": "Pm-3m", "material_id": "mp-1126574"}, {"spacegroup": "Pm-3m", "material_id": "mp-1781982"}, {"spacegroup": "P-1", "material_id": "mp-733325"}, {"spacegroup": "P-1", "material_id": "mp-737055"}, {"spacegroup": "P-1", "material_id": "mp-707535"}, {"spacegroup": "P-1", "material_id": "mp-728775"}, {"spacegroup": "Fdd2", "material_id": "mp-1181584"}, {"spacegroup": "Fdd2", "material_id": "mp-1197174"}, {"spacegroup": "Fdd2", "material_id": "mp-1204989"}, {"spacegroup": "Fdd2", "material_id": "mp-1388362"}, {"spacegroup": "P-1", "material_id": "mp-1369030"}, {"spacegroup": "Fdd2", "material_id": "mp-1346666"}, {"spacegroup": "Fdd2", "material_id": "mp-1727476"}, {"spacegroup": "P-1", "material_id": "mp-1171233"}, {"spacegroup": "Fdd2", "material_id": "mp-1872275"}, {"spacegroup": "Fdd2", "material_id": "mp-1842058"}, {"spacegroup": "P-1", "material_id": "mp-1819337"}, {"spacegroup": "P4/nmm", "material_id": "mp-926337"}, {"spacegroup": "P4/nmm", "material_id": "mp-910583"}, {"spacegroup": "P4/nmm", "material_id": "mp-926882"}, {"spacegroup": "P4/nmm", "material_id": "mp-19959"}, {"spacegroup": "P4/nmm", "material_id": "mp-1413775"}, {"spacegroup": "P4/nmm", "material_id": "mp-1587791"}, {"spacegroup": "P4/nmm", "material_id": "mp-1701254"}, {"spacegroup": "P4/nmm", "material_id": "mp-1786009"}, {"spacegroup": "P4/nmm", "material_id": "mp-1166045"}, {"spacegroup": "Cmcm", "material_id": "mp-937115"}, {"spacegroup": "Cmcm", "material_id": "mp-941526"}, {"spacegroup": "Cmcm", "material_id": "mp-941220"}, {"spacegroup": "Cmcm", "material_id": "mp-510140"}, {"spacegroup": "Cmcm", "material_id": "mp-1835695"}, {"spacegroup": "P2_1/m", "material_id": "mp-1102075"}, {"spacegroup": "P2_1/m", "material_id": "mp-1434695"}, {"spacegroup": "P2_1/m", "material_id": "mp-1597295"}, {"spacegroup": "P2_1/m", "material_id": "mp-1699041"}, {"spacegroup": "P2_1/m", "material_id": "mp-1930863"}, {"spacegroup": "Cmcm", "material_id": "mp-669744"}, {"spacegroup": "Cmcm", "material_id": "mp-689025"}, {"spacegroup": "Cmcm", "material_id": "mp-842511"}, {"spacegroup": "Cmcm", "material_id": "mp-842995"}, {"spacegroup": "Cmcm", "material_id": "mp-4009"}, {"spacegroup": "Cmcm", "material_id": "mp-1140062"}, {"spacegroup": "P4/mmm", "material_id": "mp-1232297"}, {"spacegroup": "P4/mmm", "material_id": "mp-1414588"}, {"spacegroup": "Cmcm", "material_id": "mp-1415337"}, {"spacegroup": "Cmcm", "material_id": "mp-1588222"}, {"spacegroup": "P4/mmm", "material_id": "mp-1615632"}, {"spacegroup": "P4/mmm", "material_id": "mp-1716449"}, {"spacegroup": "Cmcm", "material_id": "mp-1697969"}, {"spacegroup": "Cmcm", "material_id": "mp-1167195"}, {"spacegroup": "Cmcm", "material_id": "mp-1788680"}, {"spacegroup": "P4/mmm", "material_id": "mp-1797243"}, {"spacegroup": "Pm-3m", "material_id": "mp-11422"}, {"spacegroup": "Pm-3m", "material_id": "mp-1439681"}, {"spacegroup": "Pm-3m", "material_id": "mp-1588690"}, {"spacegroup": "Pm-3m", "material_id": "mp-1164932"}, {"spacegroup": "Pm-3m", "material_id": "mp-1523487"}, {"spacegroup": "Pm-3m", "material_id": "mp-1791003"}, {"spacegroup": "Pc", "material_id": "mp-1201065"}, {"spacegroup": "Pc", "material_id": "mp-1327891"}, {"spacegroup": "Pc", "material_id": "mp-1929731"}, {"spacegroup": "P-3m1", "material_id": "mp-924829"}, {"spacegroup": "P-3m1", "material_id": "mp-925356"}, {"spacegroup": "P-3m1", "material_id": "mp-909797"}, {"spacegroup": "P-3m1", "material_id": "mp-3048"}, {"spacegroup": "P-3m1", "material_id": "mp-1437618"}, {"spacegroup": "P-3m1", "material_id": "mp-1677669"}, {"spacegroup": "P-3m1", "material_id": "mp-1588332"}, {"spacegroup": "P-3m1", "material_id": "mp-1860717"}, {"spacegroup": "Pm-3m", "material_id": "mp-657137"}, {"spacegroup": "Pm-3m", "material_id": "mp-657130"}, {"spacegroup": "Pm-3m", "material_id": "mp-592"}, {"spacegroup": "Pm-3m", "material_id": "mp-655431"}, {"spacegroup": "Pm-3m", "material_id": "mp-1442231"}, {"spacegroup": "Pm-3m", "material_id": "mp-1586312"}, {"spacegroup": "Pm-3m", "material_id": "mp-1688658"}, {"spacegroup": "Pm-3m", "material_id": "mp-1164955"}, {"spacegroup": "Pm-3m", "material_id": "mp-1792103"}, {"spacegroup": "Pm-3m", "material_id": "mp-1536828"}, {"spacegroup": "Pm-3m", "material_id": "mp-1243177"}, {"spacegroup": "P4/nmm", "material_id": "mp-1018411"}, {"spacegroup": "P4/nmm", "material_id": "mp-1018224"}]}
+{
+    "data": [
+        {
+            "spacegroup": "C2/m",
+            "material_id": "mp-561628"
+        },
+        {
+            "spacegroup": "C2/m",
+            "material_id": "mp-551214"
+        },
+        {
+            "spacegroup": "C2/m",
+            "material_id": "mp-1300528"
+        },
+        {
+            "spacegroup": "C2/m",
+            "material_id": "mp-1602333"
+        },
+        {
+            "spacegroup": "C2/m",
+            "material_id": "mp-1678519"
+        },
+        {
+            "spacegroup": "C2/m",
+            "material_id": "mp-1832928"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-643701"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-749706"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-731959"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-742998"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-848807"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-725538"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-727083"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-860047"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-690711"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-864017"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-697267"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-750429"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-732312"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1140687"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1203133"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1196113"
+        },
+        {
+            "spacegroup": "Pc",
+            "material_id": "mp-1216736"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1385379"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1358739"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1354679"
+        },
+        {
+            "spacegroup": "Pc",
+            "material_id": "mp-1359029"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-1394765"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1684908"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1734098"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1627315"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-1626730"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-1751163"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1161454"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1130281"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-1239745"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-1130205"
+        },
+        {
+            "spacegroup": "Pc",
+            "material_id": "mp-1820911"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1816090"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1895271"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1895506"
+        },
+        {
+            "spacegroup": "Pbcn",
+            "material_id": "mp-1816535"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-614918"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-655230"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-659940"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-660654"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-661374"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-688918"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-669750"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-689049"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-682789"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-708874"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-702728"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-504786"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-27985"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-552120"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1141117"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1401963"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1435213"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1422184"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1625463"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1704968"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1597180"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1760944"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1702478"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1592934"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1538103"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1127229"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1788009"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1525606"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1127337"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1924018"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1870640"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-929024"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-912590"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-929391"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-1458"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-1426323"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-1591057"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-1698594"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-1537105"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-1784808"
+        },
+        {
+            "spacegroup": "Pm-3n",
+            "material_id": "mp-1136389"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-929445"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-912684"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-929104"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-20490"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1095525"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1419904"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1703829"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1602237"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1776789"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1151080"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1002195"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1002184"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1002231"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1002225"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1002183"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1002215"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1002199"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1002187"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1002212"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1002201"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1002218"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1002205"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1002204"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1002188"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1002194"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1002214"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-999131"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-999146"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-999149"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-999172"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-999120"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-999162"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-999153"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-999118"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1057314"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1057283"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1057291"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1057305"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1058510"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1058525"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1058529"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1058498"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1060031"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1059996"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1060053"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1060080"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1061105"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1061121"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1061051"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1061074"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1066444"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1066469"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1066433"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1066462"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1067395"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1067421"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1067440"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1067451"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1067450"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1067574"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1067704"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1067842"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1115395"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1423501"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1436276"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1437009"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1430311"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1382008"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1418009"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1363587"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1673092"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1675698"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1610876"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1611785"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1609765"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1672060"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1610750"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1610772"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1731093"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1764757"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1612626"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1688026"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1583518"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1159363"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1795425"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1240632"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1793106"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1164954"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1242371"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1795512"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1165207"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1242792"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1160814"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1793857"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1240448"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1165179"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1792244"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1143390"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1932256"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1001530"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1008033"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1012359"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-3455"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1438502"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1590137"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1677678"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1135693"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1801227"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-988285"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-988040"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-987036"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-28698"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1141296"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1420609"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1700102"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1595200"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1787543"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1136493"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-993467"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-991515"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-994798"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-11501"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1438579"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1677535"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1588250"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1794589"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1524286"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1172005"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-929760"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-913241"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-930252"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-929782"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-913248"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-930290"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-31178"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-567589"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-978159"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-569981"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-977910"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-914525"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1010315"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1004656"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-864995"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1003061"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1051901"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1051920"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1051925"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1103088"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1106237"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1188642"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1260898"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1260453"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1252832"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1263063"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1438131"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1415528"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1420624"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1425688"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1394352"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1441265"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1601011"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1674159"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1696619"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1593030"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1587830"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1703303"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1701087"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1621931"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1733832"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1607666"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1598944"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1705260"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1258282"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1538601"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1130155"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1267849"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1798811"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1230698"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1801658"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1253380"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1149426"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1266702"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1262134"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1261378"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1263233"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1127261"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1240549"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1267146"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1779415"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1776106"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1810115"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1836630"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-660811"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-670416"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-842611"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-28978"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1380926"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1676820"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1599245"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1165733"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1806407"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1006991"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1000517"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1011715"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1001696"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1012461"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1008143"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-567808"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-567840"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1068632"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1068701"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1068806"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1068790"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1068822"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1068970"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1068878"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1068947"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070237"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070282"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070324"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070362"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1432078"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1437701"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1590563"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1674280"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1695812"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1592548"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1127643"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1798899"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1164488"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1931161"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-992401"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-995072"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-993976"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-20789"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1116021"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1423010"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1695562"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1600787"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1829004"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-941771"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-941957"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-935110"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-573651"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1336758"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-974443"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-974404"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-974428"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-974386"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1432218"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1617211"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1764290"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1159573"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1876575"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-18972"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-554926"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-618578"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-681348"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-701541"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-712945"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-565780"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-1196833"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-1237534"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-555382"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-541507"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-1325397"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-1326047"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-1354069"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-1163593"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1537406"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1136732"
+        },
+        {
+            "spacegroup": "Pna2_1",
+            "material_id": "mp-1894768"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1921231"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-665365"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-680346"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-657683"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-27893"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1334065"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1629253"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1144400"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1849494"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-943539"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-943390"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-933192"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1006366"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-31163"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1191035"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1170763"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1264161"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1249069"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1417347"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1431723"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1696565"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1597279"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1734989"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1263347"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1249955"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1264673"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1253944"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1875672"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1934014"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-925855"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-909870"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-924887"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-679964"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-700896"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-665302"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-23164"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-541837"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1068960"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1069018"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1068982"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1069440"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1069448"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1069458"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1069459"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1069013"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1070734"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1070756"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1070776"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1070785"
+        },
+        {
+            "spacegroup": "C2/m",
+            "material_id": "mp-1182583"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1141517"
+        },
+        {
+            "spacegroup": "P4_2/nmc",
+            "material_id": "mp-1198150"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1142301"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1237221"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1439862"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1423999"
+        },
+        {
+            "spacegroup": "P4_2/nmc",
+            "material_id": "mp-1358032"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1675118"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1590342"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1610445"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1243249"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1143925"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1780759"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1536520"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1546074"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1887301"
+        },
+        {
+            "spacegroup": "C2/m",
+            "material_id": "mp-1832650"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1079868"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1248793"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1300137"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1601231"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1688177"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1264832"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1263208"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1830078"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-701092"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-680894"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-712464"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-12265"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-1540818"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-1415188"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-1540102"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-1696652"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-1597924"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-1136937"
+        },
+        {
+            "spacegroup": "I4/mcm",
+            "material_id": "mp-1779601"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-662815"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-916509"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-931877"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-937225"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-656253"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-659418"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-664908"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-622375"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-20025"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-1078094"
+        },
+        {
+            "spacegroup": "R3m",
+            "material_id": "mp-1078110"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-1115081"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1181285"
+        },
+        {
+            "spacegroup": "Pm",
+            "material_id": "mp-1221975"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1197814"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1237143"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-1417397"
+        },
+        {
+            "spacegroup": "Pm",
+            "material_id": "mp-1443089"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1353639"
+        },
+        {
+            "spacegroup": "R3m",
+            "material_id": "mp-1300125"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1369150"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-1701205"
+        },
+        {
+            "spacegroup": "Pm",
+            "material_id": "mp-1619829"
+        },
+        {
+            "spacegroup": "R3m",
+            "material_id": "mp-1688396"
+        },
+        {
+            "spacegroup": "Pm",
+            "material_id": "mp-1752084"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-1588421"
+        },
+        {
+            "spacegroup": "R3m",
+            "material_id": "mp-1602496"
+        },
+        {
+            "spacegroup": "R3m",
+            "material_id": "mp-1780867"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1161468"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-1525584"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1159602"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-1153988"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1546821"
+        },
+        {
+            "spacegroup": "Pm",
+            "material_id": "mp-1867946"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1872016"
+        },
+        {
+            "spacegroup": "I-4",
+            "material_id": "mp-1929487"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1896600"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-929143"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-912653"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-929525"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-30770"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1349404"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1599931"
+        },
+        {
+            "spacegroup": "P6_3mc",
+            "material_id": "mp-1678400"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-657986"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-666015"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-681335"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-582988"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-1385514"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-1654458"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-1742601"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-1897837"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-943077"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-932790"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-942062"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-30855"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1078485"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1079639"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1092253"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1299942"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1595664"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1687777"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1524505"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1924669"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-927806"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-911411"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-927372"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-30151"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1435116"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1604315"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1670241"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1231296"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1139951"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-664169"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-679086"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-663541"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-23033"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1141782"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1438602"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1591833"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1667995"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1782244"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1122042"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-680651"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-842883"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-665511"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-27303"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-1426587"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-1694953"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-1599763"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-1150351"
+        },
+        {
+            "spacegroup": "Ibam",
+            "material_id": "mp-1827458"
+        },
+        {
+            "spacegroup": "Cmc2_1",
+            "material_id": "mp-1103949"
+        },
+        {
+            "spacegroup": "Cmc2_1",
+            "material_id": "mp-1230762"
+        },
+        {
+            "spacegroup": "Cmc2_1",
+            "material_id": "mp-1891763"
+        },
+        {
+            "spacegroup": "Pmma",
+            "material_id": "mp-972916"
+        },
+        {
+            "spacegroup": "Pmma",
+            "material_id": "mp-1010825"
+        },
+        {
+            "spacegroup": "Pmma",
+            "material_id": "mp-1005370"
+        },
+        {
+            "spacegroup": "Pmma",
+            "material_id": "mp-1005343"
+        },
+        {
+            "spacegroup": "Pmma",
+            "material_id": "mp-1185859"
+        },
+        {
+            "spacegroup": "Pmma",
+            "material_id": "mp-1434395"
+        },
+        {
+            "spacegroup": "Pmma",
+            "material_id": "mp-1791981"
+        },
+        {
+            "spacegroup": "Pmma",
+            "material_id": "mp-1160881"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-993921"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-991766"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-992305"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-551675"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1416220"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1699934"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1798653"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1128435"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-932179"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-13398"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-915469"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-931197"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069462"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069512"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069606"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069527"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069621"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069629"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069657"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069686"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069731"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069563"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069565"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1069757"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070470"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070522"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070577"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070619"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1124947"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1132749"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1257574"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1439568"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1591344"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1258485"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1152929"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1258423"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1802266"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-919836"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-918835"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-905889"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-12919"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1070842"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1070877"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1070942"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1070947"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1426778"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1591286"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1700957"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1131932"
+        },
+        {
+            "spacegroup": "I4_1md",
+            "material_id": "mp-1928483"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1185410"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1417290"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1791293"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-913040"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-929258"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-930125"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-11743"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1115706"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1427159"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1696052"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1802415"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1150821"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1077777"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1420488"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1697870"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1592138"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1827995"
+        },
+        {
+            "spacegroup": "Amm2",
+            "material_id": "mp-1064561"
+        },
+        {
+            "spacegroup": "Amm2",
+            "material_id": "mp-1064469"
+        },
+        {
+            "spacegroup": "Amm2",
+            "material_id": "mp-1064504"
+        },
+        {
+            "spacegroup": "Amm2",
+            "material_id": "mp-1064525"
+        },
+        {
+            "spacegroup": "Amm2",
+            "material_id": "mp-1438908"
+        },
+        {
+            "spacegroup": "Amm2",
+            "material_id": "mp-1677343"
+        },
+        {
+            "spacegroup": "Amm2",
+            "material_id": "mp-1593146"
+        },
+        {
+            "spacegroup": "Amm2",
+            "material_id": "mp-1781329"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-923405"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-908203"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-922643"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-28607"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1434885"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1592306"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1700298"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1129842"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1802529"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-642279"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-914973"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-992087"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-992320"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-994035"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1125186"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1136368"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1660018"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1371741"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1425788"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1680082"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1766311"
+        },
+        {
+            "spacegroup": "F-43m",
+            "material_id": "mp-1840863"
+        },
+        {
+            "spacegroup": "Fm-3m",
+            "material_id": "mp-1842664"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-664231"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-641703"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-700377"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-679202"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1340982"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1165985"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1920487"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-929545"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-912856"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-929178"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-11594"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1416025"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1702657"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1589748"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1801655"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1128688"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-977932"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-914556"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-992512"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-12780"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1424781"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1697860"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1599172"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1170147"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1870475"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-852685"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-768457"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-855570"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-995913"
+        },
+        {
+            "spacegroup": "R-3",
+            "material_id": "mp-852696"
+        },
+        {
+            "spacegroup": "R-3",
+            "material_id": "mp-995262"
+        },
+        {
+            "spacegroup": "R-3",
+            "material_id": "mp-855577"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-852695"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-856457"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-768500"
+        },
+        {
+            "spacegroup": "R-3",
+            "material_id": "mp-768486"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-855635"
+        },
+        {
+            "spacegroup": "Pbca",
+            "material_id": "mp-794420"
+        },
+        {
+            "spacegroup": "Pbca",
+            "material_id": "mp-777615"
+        },
+        {
+            "spacegroup": "Pbca",
+            "material_id": "mp-795162"
+        },
+        {
+            "spacegroup": "Pbca",
+            "material_id": "mp-792571"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-846992"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-705546"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-846373"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-719442"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-852681"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-855571"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-768484"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-27339"
+        },
+        {
+            "spacegroup": "Pbca",
+            "material_id": "mp-1337737"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-1358106"
+        },
+        {
+            "spacegroup": "R-3",
+            "material_id": "mp-1359931"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1351082"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1355968"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1326726"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1637561"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-1680054"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1683744"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1169558"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1142729"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1169621"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1241435"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-1242497"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-1163639"
+        },
+        {
+            "spacegroup": "R-3",
+            "material_id": "mp-1163178"
+        },
+        {
+            "spacegroup": "C2/c",
+            "material_id": "mp-1930644"
+        },
+        {
+            "spacegroup": "R-3c",
+            "material_id": "mp-1889274"
+        },
+        {
+            "spacegroup": "R-3",
+            "material_id": "mp-1872861"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1850198"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1894766"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-918943"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-906090"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-919951"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-13070"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1253282"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1403972"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1620738"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1754451"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1124804"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1257315"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1262105"
+        },
+        {
+            "spacegroup": "P6_3/mmc",
+            "material_id": "mp-1878535"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-993700"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-995013"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-991956"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-2436"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1440498"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1595692"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1695483"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1538351"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1803794"
+        },
+        {
+            "spacegroup": "P6/mmm",
+            "material_id": "mp-1167517"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1070583"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1070677"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1070717"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1070768"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1424480"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1588467"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1700485"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1538260"
+        },
+        {
+            "spacegroup": "I4/m",
+            "material_id": "mp-1796508"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1186271"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1011681"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1000500"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1006973"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-13272"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1115786"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1263090"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1438909"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1590383"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1667949"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1259078"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1150839"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1258971"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1782675"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1239912"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-665869"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-8796"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1000217"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-681216"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1350424"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1157954"
+        },
+        {
+            "spacegroup": "P2_1/c",
+            "material_id": "mp-1897512"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-990480"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-22263"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1419355"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1587664"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1700652"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1149410"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1833255"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1007150"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1011886"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-778"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1000691"
+        },
+        {
+            "spacegroup": "Imm2",
+            "material_id": "mp-1189340"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1442345"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1594194"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1671253"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1796073"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1135635"
+        },
+        {
+            "spacegroup": "P-62m",
+            "material_id": "mp-1525605"
+        },
+        {
+            "spacegroup": "Imm2",
+            "material_id": "mp-1834902"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-9808"
+        },
+        {
+            "spacegroup": "P1",
+            "material_id": "mp-671087"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-661614"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-1115375"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-32163"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-1429770"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-1598367"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-1697169"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-1128069"
+        },
+        {
+            "spacegroup": "I-42m",
+            "material_id": "mp-1789267"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-935050"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-941881"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-941737"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-11483"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1439221"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1586297"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1687400"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1791337"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1524249"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1165068"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-20700"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070408"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070593"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070674"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1070712"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1133340"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1439888"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1593983"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1171575"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1783983"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-560449"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-835825"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-835041"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-825465"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1381430"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1601930"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1676597"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1156942"
+        },
+        {
+            "spacegroup": "I4/mmm",
+            "material_id": "mp-1787034"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-991352"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-994606"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-993293"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-21242"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1431396"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1700490"
+        },
+        {
+            "spacegroup": "P-6m2",
+            "material_id": "mp-1777623"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-613509"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-665229"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-665179"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-665212"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-288"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-558811"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1140886"
+        },
+        {
+            "spacegroup": "P4_2/m",
+            "material_id": "mp-1205321"
+        },
+        {
+            "spacegroup": "P4_2/m",
+            "material_id": "mp-1380882"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1439644"
+        },
+        {
+            "spacegroup": "P4_2/m",
+            "material_id": "mp-1603464"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1587511"
+        },
+        {
+            "spacegroup": "P4_2/m",
+            "material_id": "mp-1677079"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1672136"
+        },
+        {
+            "spacegroup": "P4_2/m",
+            "material_id": "mp-1544239"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1799646"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1162708"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1162985"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1536189"
+        },
+        {
+            "spacegroup": "P4_2/mmc",
+            "material_id": "mp-1243095"
+        },
+        {
+            "spacegroup": "P4_2/m",
+            "material_id": "mp-1935076"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-926287"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-926810"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-910466"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-22522"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1101956"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1144407"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1267114"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1382615"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1676084"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1599746"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1258160"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1788569"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1230498"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1260568"
+        },
+        {
+            "spacegroup": "Pnma",
+            "material_id": "mp-1121422"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-687762"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-665"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-671218"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-687863"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1140668"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1540927"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1440081"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1541907"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1597037"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1686422"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1524911"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1136903"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1783848"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-907386"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-920798"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-921823"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-20779"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1426726"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1697602"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1126411"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1776133"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-928778"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-928241"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-912228"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-20735"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1226850"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1437929"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1390129"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1674211"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1589843"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1760264"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1624219"
+        },
+        {
+            "spacegroup": "R-3m",
+            "material_id": "mp-1803574"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1803167"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1537649"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-920812"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-921863"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-613384"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-907438"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-669316"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-689455"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-665298"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-28295"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-1114969"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-1432625"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1422530"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1704790"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1592201"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-1600789"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-1700880"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-1168157"
+        },
+        {
+            "spacegroup": "Pmn2_1",
+            "material_id": "mp-1788345"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1126574"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1781982"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-733325"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-737055"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-707535"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-728775"
+        },
+        {
+            "spacegroup": "Fdd2",
+            "material_id": "mp-1181584"
+        },
+        {
+            "spacegroup": "Fdd2",
+            "material_id": "mp-1197174"
+        },
+        {
+            "spacegroup": "Fdd2",
+            "material_id": "mp-1204989"
+        },
+        {
+            "spacegroup": "Fdd2",
+            "material_id": "mp-1388362"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1369030"
+        },
+        {
+            "spacegroup": "Fdd2",
+            "material_id": "mp-1346666"
+        },
+        {
+            "spacegroup": "Fdd2",
+            "material_id": "mp-1727476"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1171233"
+        },
+        {
+            "spacegroup": "Fdd2",
+            "material_id": "mp-1872275"
+        },
+        {
+            "spacegroup": "Fdd2",
+            "material_id": "mp-1842058"
+        },
+        {
+            "spacegroup": "P-1",
+            "material_id": "mp-1819337"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-926337"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-910583"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-926882"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-19959"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1413775"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1587791"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1701254"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1786009"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1166045"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-937115"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-941526"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-941220"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-510140"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-1835695"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1102075"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1434695"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1597295"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1699041"
+        },
+        {
+            "spacegroup": "P2_1/m",
+            "material_id": "mp-1930863"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-669744"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-689025"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-842511"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-842995"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-4009"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-1140062"
+        },
+        {
+            "spacegroup": "P4/mmm",
+            "material_id": "mp-1232297"
+        },
+        {
+            "spacegroup": "P4/mmm",
+            "material_id": "mp-1414588"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-1415337"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-1588222"
+        },
+        {
+            "spacegroup": "P4/mmm",
+            "material_id": "mp-1615632"
+        },
+        {
+            "spacegroup": "P4/mmm",
+            "material_id": "mp-1716449"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-1697969"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-1167195"
+        },
+        {
+            "spacegroup": "Cmcm",
+            "material_id": "mp-1788680"
+        },
+        {
+            "spacegroup": "P4/mmm",
+            "material_id": "mp-1797243"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-11422"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1439681"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1588690"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1164932"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1523487"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1791003"
+        },
+        {
+            "spacegroup": "Pc",
+            "material_id": "mp-1201065"
+        },
+        {
+            "spacegroup": "Pc",
+            "material_id": "mp-1327891"
+        },
+        {
+            "spacegroup": "Pc",
+            "material_id": "mp-1929731"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-924829"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-925356"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-909797"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-3048"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1437618"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1677669"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1588332"
+        },
+        {
+            "spacegroup": "P-3m1",
+            "material_id": "mp-1860717"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-657137"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-657130"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-592"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-655431"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1442231"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1586312"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1688658"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1164955"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1792103"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1536828"
+        },
+        {
+            "spacegroup": "Pm-3m",
+            "material_id": "mp-1243177"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1018411"
+        },
+        {
+            "spacegroup": "P4/nmm",
+            "material_id": "mp-1018224"
+        }
+    ]
+}

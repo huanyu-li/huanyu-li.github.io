@@ -1,1 +1,4004 @@
-{"data": [{"material_id": "mp-561628", "formula_pretty": "CeCrS2O"}, {"material_id": "mp-551214", "formula_pretty": "CeCrS2O"}, {"material_id": "mp-1300528", "formula_pretty": "CeCrS2O"}, {"material_id": "mp-1602333", "formula_pretty": "CeCrS2O"}, {"material_id": "mp-1678519", "formula_pretty": "CeCrS2O"}, {"material_id": "mp-1832928", "formula_pretty": "CeCrS2O"}, {"material_id": "mp-643701", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-749706", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-731959", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-742998", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-848807", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-725538", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-727083", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-860047", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-690711", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-864017", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-697267", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-750429", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-732312", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1140687", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1203133", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1196113", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1216736", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1385379", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1358739", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1354679", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1359029", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1394765", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1684908", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1734098", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1627315", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1626730", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1751163", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1161454", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1130281", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1239745", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1130205", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1820911", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1816090", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1895271", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1895506", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-1816535", "formula_pretty": "TlP(HO2)2"}, {"material_id": "mp-614918", "formula_pretty": "YClO"}, {"material_id": "mp-655230", "formula_pretty": "YClO"}, {"material_id": "mp-659940", "formula_pretty": "YClO"}, {"material_id": "mp-660654", "formula_pretty": "YClO"}, {"material_id": "mp-661374", "formula_pretty": "YClO"}, {"material_id": "mp-688918", "formula_pretty": "YClO"}, {"material_id": "mp-669750", "formula_pretty": "YClO"}, {"material_id": "mp-689049", "formula_pretty": "YClO"}, {"material_id": "mp-682789", "formula_pretty": "YClO"}, {"material_id": "mp-708874", "formula_pretty": "YClO"}, {"material_id": "mp-702728", "formula_pretty": "YClO"}, {"material_id": "mp-504786", "formula_pretty": "YClO"}, {"material_id": "mp-27985", "formula_pretty": "YClO"}, {"material_id": "mp-552120", "formula_pretty": "YClO"}, {"material_id": "mp-1141117", "formula_pretty": "YClO"}, {"material_id": "mp-1401963", "formula_pretty": "YClO"}, {"material_id": "mp-1435213", "formula_pretty": "YClO"}, {"material_id": "mp-1422184", "formula_pretty": "YClO"}, {"material_id": "mp-1625463", "formula_pretty": "YClO"}, {"material_id": "mp-1704968", "formula_pretty": "YClO"}, {"material_id": "mp-1597180", "formula_pretty": "YClO"}, {"material_id": "mp-1760944", "formula_pretty": "YClO"}, {"material_id": "mp-1702478", "formula_pretty": "YClO"}, {"material_id": "mp-1592934", "formula_pretty": "YClO"}, {"material_id": "mp-1538103", "formula_pretty": "YClO"}, {"material_id": "mp-1127229", "formula_pretty": "YClO"}, {"material_id": "mp-1788009", "formula_pretty": "YClO"}, {"material_id": "mp-1525606", "formula_pretty": "YClO"}, {"material_id": "mp-1127337", "formula_pretty": "YClO"}, {"material_id": "mp-1924018", "formula_pretty": "YClO"}, {"material_id": "mp-1870640", "formula_pretty": "YClO"}, {"material_id": "mp-929024", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-912590", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-929391", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-1458", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-1426323", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-1591057", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-1698594", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-1537105", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-1784808", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-1136389", "formula_pretty": "Nb3Ir"}, {"material_id": "mp-929445", "formula_pretty": "NdNiSn"}, {"material_id": "mp-912684", "formula_pretty": "NdNiSn"}, {"material_id": "mp-929104", "formula_pretty": "NdNiSn"}, {"material_id": "mp-20490", "formula_pretty": "NdNiSn"}, {"material_id": "mp-1095525", "formula_pretty": "NdNiSn"}, {"material_id": "mp-1419904", "formula_pretty": "NdNiSn"}, {"material_id": "mp-1703829", "formula_pretty": "NdNiSn"}, {"material_id": "mp-1602237", "formula_pretty": "NdNiSn"}, {"material_id": "mp-1776789", "formula_pretty": "NdNiSn"}, {"material_id": "mp-1151080", "formula_pretty": "NdNiSn"}, {"material_id": "mp-1002195", "formula_pretty": "TcB"}, {"material_id": "mp-1002184", "formula_pretty": "TcB"}, {"material_id": "mp-1002231", "formula_pretty": "TcB"}, {"material_id": "mp-1002225", "formula_pretty": "TcB"}, {"material_id": "mp-1002183", "formula_pretty": "TcB"}, {"material_id": "mp-1002215", "formula_pretty": "TcB"}, {"material_id": "mp-1002199", "formula_pretty": "TcB"}, {"material_id": "mp-1002187", "formula_pretty": "TcB"}, {"material_id": "mp-1002212", "formula_pretty": "TcB"}, {"material_id": "mp-1002201", "formula_pretty": "TcB"}, {"material_id": "mp-1002218", "formula_pretty": "TcB"}, {"material_id": "mp-1002205", "formula_pretty": "TcB"}, {"material_id": "mp-1002204", "formula_pretty": "TcB"}, {"material_id": "mp-1002188", "formula_pretty": "TcB"}, {"material_id": "mp-1002194", "formula_pretty": "TcB"}, {"material_id": "mp-1002214", "formula_pretty": "TcB"}, {"material_id": "mp-999131", "formula_pretty": "TcB"}, {"material_id": "mp-999146", "formula_pretty": "TcB"}, {"material_id": "mp-999149", "formula_pretty": "TcB"}, {"material_id": "mp-999172", "formula_pretty": "TcB"}, {"material_id": "mp-999120", "formula_pretty": "TcB"}, {"material_id": "mp-999162", "formula_pretty": "TcB"}, {"material_id": "mp-999153", "formula_pretty": "TcB"}, {"material_id": "mp-999118", "formula_pretty": "TcB"}, {"material_id": "mp-1057314", "formula_pretty": "TcB"}, {"material_id": "mp-1057283", "formula_pretty": "TcB"}, {"material_id": "mp-1057291", "formula_pretty": "TcB"}, {"material_id": "mp-1057305", "formula_pretty": "TcB"}, {"material_id": "mp-1058510", "formula_pretty": "TcB"}, {"material_id": "mp-1058525", "formula_pretty": "TcB"}, {"material_id": "mp-1058529", "formula_pretty": "TcB"}, {"material_id": "mp-1058498", "formula_pretty": "TcB"}, {"material_id": "mp-1060031", "formula_pretty": "TcB"}, {"material_id": "mp-1059996", "formula_pretty": "TcB"}, {"material_id": "mp-1060053", "formula_pretty": "TcB"}, {"material_id": "mp-1060080", "formula_pretty": "TcB"}, {"material_id": "mp-1061105", "formula_pretty": "TcB"}, {"material_id": "mp-1061121", "formula_pretty": "TcB"}, {"material_id": "mp-1061051", "formula_pretty": "TcB"}, {"material_id": "mp-1061074", "formula_pretty": "TcB"}, {"material_id": "mp-1066444", "formula_pretty": "TcB"}, {"material_id": "mp-1066469", "formula_pretty": "TcB"}, {"material_id": "mp-1066433", "formula_pretty": "TcB"}, {"material_id": "mp-1066462", "formula_pretty": "TcB"}, {"material_id": "mp-1067395", "formula_pretty": "TcB"}, {"material_id": "mp-1067421", "formula_pretty": "TcB"}, {"material_id": "mp-1067440", "formula_pretty": "TcB"}, {"material_id": "mp-1067451", "formula_pretty": "TcB"}, {"material_id": "mp-1067450", "formula_pretty": "TcB"}, {"material_id": "mp-1067574", "formula_pretty": "TcB"}, {"material_id": "mp-1067704", "formula_pretty": "TcB"}, {"material_id": "mp-1067842", "formula_pretty": "TcB"}, {"material_id": "mp-1115395", "formula_pretty": "TcB"}, {"material_id": "mp-1423501", "formula_pretty": "TcB"}, {"material_id": "mp-1436276", "formula_pretty": "TcB"}, {"material_id": "mp-1437009", "formula_pretty": "TcB"}, {"material_id": "mp-1430311", "formula_pretty": "TcB"}, {"material_id": "mp-1382008", "formula_pretty": "TcB"}, {"material_id": "mp-1418009", "formula_pretty": "TcB"}, {"material_id": "mp-1363587", "formula_pretty": "TcB"}, {"material_id": "mp-1673092", "formula_pretty": "TcB"}, {"material_id": "mp-1675698", "formula_pretty": "TcB"}, {"material_id": "mp-1610876", "formula_pretty": "TcB"}, {"material_id": "mp-1611785", "formula_pretty": "TcB"}, {"material_id": "mp-1609765", "formula_pretty": "TcB"}, {"material_id": "mp-1672060", "formula_pretty": "TcB"}, {"material_id": "mp-1610750", "formula_pretty": "TcB"}, {"material_id": "mp-1610772", "formula_pretty": "TcB"}, {"material_id": "mp-1731093", "formula_pretty": "TcB"}, {"material_id": "mp-1764757", "formula_pretty": "TcB"}, {"material_id": "mp-1612626", "formula_pretty": "TcB"}, {"material_id": "mp-1688026", "formula_pretty": "TcB"}, {"material_id": "mp-1583518", "formula_pretty": "TcB"}, {"material_id": "mp-1159363", "formula_pretty": "TcB"}, {"material_id": "mp-1795425", "formula_pretty": "TcB"}, {"material_id": "mp-1240632", "formula_pretty": "TcB"}, {"material_id": "mp-1793106", "formula_pretty": "TcB"}, {"material_id": "mp-1164954", "formula_pretty": "TcB"}, {"material_id": "mp-1242371", "formula_pretty": "TcB"}, {"material_id": "mp-1795512", "formula_pretty": "TcB"}, {"material_id": "mp-1165207", "formula_pretty": "TcB"}, {"material_id": "mp-1242792", "formula_pretty": "TcB"}, {"material_id": "mp-1160814", "formula_pretty": "TcB"}, {"material_id": "mp-1793857", "formula_pretty": "TcB"}, {"material_id": "mp-1240448", "formula_pretty": "TcB"}, {"material_id": "mp-1165179", "formula_pretty": "TcB"}, {"material_id": "mp-1792244", "formula_pretty": "TcB"}, {"material_id": "mp-1143390", "formula_pretty": "TcB"}, {"material_id": "mp-1932256", "formula_pretty": "TcB"}, {"material_id": "mp-1001530", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-1008033", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-1012359", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-3455", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-1438502", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-1590137", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-1677678", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-1135693", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-1801227", "formula_pretty": "Er(NiP)2"}, {"material_id": "mp-988285", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-988040", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-987036", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-28698", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-1141296", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-1420609", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-1700102", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-1595200", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-1787543", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-1136493", "formula_pretty": "Na4IrO4"}, {"material_id": "mp-993467", "formula_pretty": "MnNi3"}, {"material_id": "mp-991515", "formula_pretty": "MnNi3"}, {"material_id": "mp-994798", "formula_pretty": "MnNi3"}, {"material_id": "mp-11501", "formula_pretty": "MnNi3"}, {"material_id": "mp-1438579", "formula_pretty": "MnNi3"}, {"material_id": "mp-1677535", "formula_pretty": "MnNi3"}, {"material_id": "mp-1588250", "formula_pretty": "MnNi3"}, {"material_id": "mp-1794589", "formula_pretty": "MnNi3"}, {"material_id": "mp-1524286", "formula_pretty": "MnNi3"}, {"material_id": "mp-1172005", "formula_pretty": "MnNi3"}, {"material_id": "mp-929760", "formula_pretty": "DyAl3"}, {"material_id": "mp-913241", "formula_pretty": "DyAl3"}, {"material_id": "mp-930252", "formula_pretty": "DyAl3"}, {"material_id": "mp-929782", "formula_pretty": "DyAl3"}, {"material_id": "mp-913248", "formula_pretty": "DyAl3"}, {"material_id": "mp-930290", "formula_pretty": "DyAl3"}, {"material_id": "mp-31178", "formula_pretty": "DyAl3"}, {"material_id": "mp-567589", "formula_pretty": "DyAl3"}, {"material_id": "mp-978159", "formula_pretty": "DyAl3"}, {"material_id": "mp-569981", "formula_pretty": "DyAl3"}, {"material_id": "mp-977910", "formula_pretty": "DyAl3"}, {"material_id": "mp-914525", "formula_pretty": "DyAl3"}, {"material_id": "mp-1010315", "formula_pretty": "DyAl3"}, {"material_id": "mp-1004656", "formula_pretty": "DyAl3"}, {"material_id": "mp-864995", "formula_pretty": "DyAl3"}, {"material_id": "mp-1003061", "formula_pretty": "DyAl3"}, {"material_id": "mp-1051901", "formula_pretty": "DyAl3"}, {"material_id": "mp-1051920", "formula_pretty": "DyAl3"}, {"material_id": "mp-1051925", "formula_pretty": "DyAl3"}, {"material_id": "mp-1103088", "formula_pretty": "DyAl3"}, {"material_id": "mp-1106237", "formula_pretty": "DyAl3"}, {"material_id": "mp-1188642", "formula_pretty": "DyAl3"}, {"material_id": "mp-1260898", "formula_pretty": "DyAl3"}, {"material_id": "mp-1260453", "formula_pretty": "DyAl3"}, {"material_id": "mp-1252832", "formula_pretty": "DyAl3"}, {"material_id": "mp-1263063", "formula_pretty": "DyAl3"}, {"material_id": "mp-1438131", "formula_pretty": "DyAl3"}, {"material_id": "mp-1415528", "formula_pretty": "DyAl3"}, {"material_id": "mp-1420624", "formula_pretty": "DyAl3"}, {"material_id": "mp-1425688", "formula_pretty": "DyAl3"}, {"material_id": "mp-1394352", "formula_pretty": "DyAl3"}, {"material_id": "mp-1441265", "formula_pretty": "DyAl3"}, {"material_id": "mp-1601011", "formula_pretty": "DyAl3"}, {"material_id": "mp-1674159", "formula_pretty": "DyAl3"}, {"material_id": "mp-1696619", "formula_pretty": "DyAl3"}, {"material_id": "mp-1593030", "formula_pretty": "DyAl3"}, {"material_id": "mp-1587830", "formula_pretty": "DyAl3"}, {"material_id": "mp-1703303", "formula_pretty": "DyAl3"}, {"material_id": "mp-1701087", "formula_pretty": "DyAl3"}, {"material_id": "mp-1621931", "formula_pretty": "DyAl3"}, {"material_id": "mp-1733832", "formula_pretty": "DyAl3"}, {"material_id": "mp-1607666", "formula_pretty": "DyAl3"}, {"material_id": "mp-1598944", "formula_pretty": "DyAl3"}, {"material_id": "mp-1705260", "formula_pretty": "DyAl3"}, {"material_id": "mp-1258282", "formula_pretty": "DyAl3"}, {"material_id": "mp-1538601", "formula_pretty": "DyAl3"}, {"material_id": "mp-1130155", "formula_pretty": "DyAl3"}, {"material_id": "mp-1267849", "formula_pretty": "DyAl3"}, {"material_id": "mp-1798811", "formula_pretty": "DyAl3"}, {"material_id": "mp-1230698", "formula_pretty": "DyAl3"}, {"material_id": "mp-1801658", "formula_pretty": "DyAl3"}, {"material_id": "mp-1253380", "formula_pretty": "DyAl3"}, {"material_id": "mp-1149426", "formula_pretty": "DyAl3"}, {"material_id": "mp-1266702", "formula_pretty": "DyAl3"}, {"material_id": "mp-1262134", "formula_pretty": "DyAl3"}, {"material_id": "mp-1261378", "formula_pretty": "DyAl3"}, {"material_id": "mp-1263233", "formula_pretty": "DyAl3"}, {"material_id": "mp-1127261", "formula_pretty": "DyAl3"}, {"material_id": "mp-1240549", "formula_pretty": "DyAl3"}, {"material_id": "mp-1267146", "formula_pretty": "DyAl3"}, {"material_id": "mp-1779415", "formula_pretty": "DyAl3"}, {"material_id": "mp-1776106", "formula_pretty": "DyAl3"}, {"material_id": "mp-1810115", "formula_pretty": "DyAl3"}, {"material_id": "mp-1836630", "formula_pretty": "DyAl3"}, {"material_id": "mp-660811", "formula_pretty": "Ba2S3"}, {"material_id": "mp-670416", "formula_pretty": "Ba2S3"}, {"material_id": "mp-842611", "formula_pretty": "Ba2S3"}, {"material_id": "mp-28978", "formula_pretty": "Ba2S3"}, {"material_id": "mp-1380926", "formula_pretty": "Ba2S3"}, {"material_id": "mp-1676820", "formula_pretty": "Ba2S3"}, {"material_id": "mp-1599245", "formula_pretty": "Ba2S3"}, {"material_id": "mp-1165733", "formula_pretty": "Ba2S3"}, {"material_id": "mp-1806407", "formula_pretty": "Ba2S3"}, {"material_id": "mp-1006991", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1000517", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1011715", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1001696", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1012461", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1008143", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-567808", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-567840", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1068632", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1068701", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1068806", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1068790", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1068822", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1068970", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1068878", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1068947", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1070237", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1070282", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1070324", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1070362", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1432078", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1437701", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1590563", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1674280", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1695812", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1592548", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1127643", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1798899", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1164488", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-1931161", "formula_pretty": "Tm(CuGe)2"}, {"material_id": "mp-992401", "formula_pretty": "SmInRh"}, {"material_id": "mp-995072", "formula_pretty": "SmInRh"}, {"material_id": "mp-993976", "formula_pretty": "SmInRh"}, {"material_id": "mp-20789", "formula_pretty": "SmInRh"}, {"material_id": "mp-1116021", "formula_pretty": "SmInRh"}, {"material_id": "mp-1423010", "formula_pretty": "SmInRh"}, {"material_id": "mp-1695562", "formula_pretty": "SmInRh"}, {"material_id": "mp-1600787", "formula_pretty": "SmInRh"}, {"material_id": "mp-1829004", "formula_pretty": "SmInRh"}, {"material_id": "mp-941771", "formula_pretty": "Li22Pb5"}, {"material_id": "mp-941957", "formula_pretty": "Li22Pb5"}, {"material_id": "mp-935110", "formula_pretty": "Li22Pb5"}, {"material_id": "mp-573651", "formula_pretty": "Li22Pb5"}, {"material_id": "mp-1336758", "formula_pretty": "Li22Pb5"}, {"material_id": "mp-974443", "formula_pretty": "Rh3F"}, {"material_id": "mp-974404", "formula_pretty": "Rh3F"}, {"material_id": "mp-974428", "formula_pretty": "Rh3F"}, {"material_id": "mp-974386", "formula_pretty": "Rh3F"}, {"material_id": "mp-1432218", "formula_pretty": "Rh3F"}, {"material_id": "mp-1617211", "formula_pretty": "Rh3F"}, {"material_id": "mp-1764290", "formula_pretty": "Rh3F"}, {"material_id": "mp-1159573", "formula_pretty": "Rh3F"}, {"material_id": "mp-1876575", "formula_pretty": "Rh3F"}, {"material_id": "mp-18972", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-554926", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-618578", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-681348", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-701541", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-712945", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-565780", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1196833", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1237534", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-555382", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-541507", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1325397", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1326047", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1354069", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1163593", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1537406", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1136732", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1894768", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-1921231", "formula_pretty": "Sr2VO4"}, {"material_id": "mp-665365", "formula_pretty": "B5H9N"}, {"material_id": "mp-680346", "formula_pretty": "B5H9N"}, {"material_id": "mp-657683", "formula_pretty": "B5H9N"}, {"material_id": "mp-27893", "formula_pretty": "B5H9N"}, {"material_id": "mp-1334065", "formula_pretty": "B5H9N"}, {"material_id": "mp-1629253", "formula_pretty": "B5H9N"}, {"material_id": "mp-1144400", "formula_pretty": "B5H9N"}, {"material_id": "mp-1849494", "formula_pretty": "B5H9N"}, {"material_id": "mp-943539", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-943390", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-933192", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1006366", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-31163", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1191035", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1170763", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1264161", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1249069", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1417347", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1431723", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1696565", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1597279", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1734989", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1263347", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1249955", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1264673", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1253944", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1875672", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-1934014", "formula_pretty": "Ce2Si3Rh"}, {"material_id": "mp-925855", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-909870", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-924887", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-679964", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-700896", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-665302", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-23164", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-541837", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1068960", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1069018", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1068982", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1069440", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1069448", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1069458", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1069459", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1069013", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1070734", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1070756", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1070776", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1070785", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1182583", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1141517", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1198150", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1142301", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1237221", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1439862", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1423999", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1358032", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1675118", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1590342", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1610445", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1243249", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1143925", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1780759", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1536520", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1546074", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1887301", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1832650", "formula_pretty": "Bi2Se3"}, {"material_id": "mp-1079868", "formula_pretty": "CeAlCu"}, {"material_id": "mp-1248793", "formula_pretty": "CeAlCu"}, {"material_id": "mp-1300137", "formula_pretty": "CeAlCu"}, {"material_id": "mp-1601231", "formula_pretty": "CeAlCu"}, {"material_id": "mp-1688177", "formula_pretty": "CeAlCu"}, {"material_id": "mp-1264832", "formula_pretty": "CeAlCu"}, {"material_id": "mp-1263208", "formula_pretty": "CeAlCu"}, {"material_id": "mp-1830078", "formula_pretty": "CeAlCu"}, {"material_id": "mp-701092", "formula_pretty": "SrCuF4"}, {"material_id": "mp-680894", "formula_pretty": "SrCuF4"}, {"material_id": "mp-712464", "formula_pretty": "SrCuF4"}, {"material_id": "mp-12265", "formula_pretty": "SrCuF4"}, {"material_id": "mp-1540818", "formula_pretty": "SrCuF4"}, {"material_id": "mp-1415188", "formula_pretty": "SrCuF4"}, {"material_id": "mp-1540102", "formula_pretty": "SrCuF4"}, {"material_id": "mp-1696652", "formula_pretty": "SrCuF4"}, {"material_id": "mp-1597924", "formula_pretty": "SrCuF4"}, {"material_id": "mp-1136937", "formula_pretty": "SrCuF4"}, {"material_id": "mp-1779601", "formula_pretty": "SrCuF4"}, {"material_id": "mp-662815", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-916509", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-931877", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-937225", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-656253", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-659418", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-664908", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-622375", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-20025", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1078094", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1078110", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1115081", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1181285", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1221975", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1197814", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1237143", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1417397", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1443089", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1353639", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1300125", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1369150", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1701205", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1619829", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1688396", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1752084", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1588421", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1602496", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1780867", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1161468", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1525584", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1159602", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1153988", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1546821", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1867946", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1872016", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1929487", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-1896600", "formula_pretty": "Mn(GaS2)2"}, {"material_id": "mp-929143", "formula_pretty": "LuMn5"}, {"material_id": "mp-912653", "formula_pretty": "LuMn5"}, {"material_id": "mp-929525", "formula_pretty": "LuMn5"}, {"material_id": "mp-30770", "formula_pretty": "LuMn5"}, {"material_id": "mp-1349404", "formula_pretty": "LuMn5"}, {"material_id": "mp-1599931", "formula_pretty": "LuMn5"}, {"material_id": "mp-1678400", "formula_pretty": "LuMn5"}, {"material_id": "mp-657986", "formula_pretty": "Bi12PtCl12"}, {"material_id": "mp-666015", "formula_pretty": "Bi12PtCl12"}, {"material_id": "mp-681335", "formula_pretty": "Bi12PtCl12"}, {"material_id": "mp-582988", "formula_pretty": "Bi12PtCl12"}, {"material_id": "mp-1385514", "formula_pretty": "Bi12PtCl12"}, {"material_id": "mp-1654458", "formula_pretty": "Bi12PtCl12"}, {"material_id": "mp-1742601", "formula_pretty": "Bi12PtCl12"}, {"material_id": "mp-1897837", "formula_pretty": "Bi12PtCl12"}, {"material_id": "mp-943077", "formula_pretty": "UPt3"}, {"material_id": "mp-932790", "formula_pretty": "UPt3"}, {"material_id": "mp-942062", "formula_pretty": "UPt3"}, {"material_id": "mp-30855", "formula_pretty": "UPt3"}, {"material_id": "mp-1078485", "formula_pretty": "UPt3"}, {"material_id": "mp-1079639", "formula_pretty": "UPt3"}, {"material_id": "mp-1092253", "formula_pretty": "UPt3"}, {"material_id": "mp-1299942", "formula_pretty": "UPt3"}, {"material_id": "mp-1595664", "formula_pretty": "UPt3"}, {"material_id": "mp-1687777", "formula_pretty": "UPt3"}, {"material_id": "mp-1524505", "formula_pretty": "UPt3"}, {"material_id": "mp-1924669", "formula_pretty": "UPt3"}, {"material_id": "mp-927806", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-911411", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-927372", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-30151", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-1435116", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-1604315", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-1670241", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-1231296", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-1139951", "formula_pretty": "CuAuSe4"}, {"material_id": "mp-664169", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-679086", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-663541", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-23033", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-1141782", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-1438602", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-1591833", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-1667995", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-1782244", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-1122042", "formula_pretty": "Sr2NCl"}, {"material_id": "mp-680651", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-842883", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-665511", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-27303", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-1426587", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-1694953", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-1599763", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-1150351", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-1827458", "formula_pretty": "NaAg3O2"}, {"material_id": "mp-1103949", "formula_pretty": "Cs2LiI3"}, {"material_id": "mp-1230762", "formula_pretty": "Cs2LiI3"}, {"material_id": "mp-1891763", "formula_pretty": "Cs2LiI3"}, {"material_id": "mp-972916", "formula_pretty": "MgCu"}, {"material_id": "mp-1010825", "formula_pretty": "MgCu"}, {"material_id": "mp-1005370", "formula_pretty": "MgCu"}, {"material_id": "mp-1005343", "formula_pretty": "MgCu"}, {"material_id": "mp-1185859", "formula_pretty": "MgCu"}, {"material_id": "mp-1434395", "formula_pretty": "MgCu"}, {"material_id": "mp-1791981", "formula_pretty": "MgCu"}, {"material_id": "mp-1160881", "formula_pretty": "MgCu"}, {"material_id": "mp-993921", "formula_pretty": "Li3UO4"}, {"material_id": "mp-991766", "formula_pretty": "Li3UO4"}, {"material_id": "mp-992305", "formula_pretty": "Li3UO4"}, {"material_id": "mp-551675", "formula_pretty": "Li3UO4"}, {"material_id": "mp-1416220", "formula_pretty": "Li3UO4"}, {"material_id": "mp-1699934", "formula_pretty": "Li3UO4"}, {"material_id": "mp-1798653", "formula_pretty": "Li3UO4"}, {"material_id": "mp-1128435", "formula_pretty": "Li3UO4"}, {"material_id": "mp-932179", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-13398", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-915469", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-931197", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069462", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069512", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069606", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069527", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069621", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069629", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069657", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069686", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069731", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069563", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069565", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1069757", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1070470", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1070522", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1070577", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1070619", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1124947", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1132749", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1257574", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1439568", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1591344", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1258485", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1152929", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1258423", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-1802266", "formula_pretty": "Yb(MnSi)2"}, {"material_id": "mp-919836", "formula_pretty": "LaPIr"}, {"material_id": "mp-918835", "formula_pretty": "LaPIr"}, {"material_id": "mp-905889", "formula_pretty": "LaPIr"}, {"material_id": "mp-12919", "formula_pretty": "LaPIr"}, {"material_id": "mp-1070842", "formula_pretty": "LaPIr"}, {"material_id": "mp-1070877", "formula_pretty": "LaPIr"}, {"material_id": "mp-1070942", "formula_pretty": "LaPIr"}, {"material_id": "mp-1070947", "formula_pretty": "LaPIr"}, {"material_id": "mp-1426778", "formula_pretty": "LaPIr"}, {"material_id": "mp-1591286", "formula_pretty": "LaPIr"}, {"material_id": "mp-1700957", "formula_pretty": "LaPIr"}, {"material_id": "mp-1131932", "formula_pretty": "LaPIr"}, {"material_id": "mp-1928483", "formula_pretty": "LaPIr"}, {"material_id": "mp-1185410", "formula_pretty": "LiRe3"}, {"material_id": "mp-1417290", "formula_pretty": "LiRe3"}, {"material_id": "mp-1791293", "formula_pretty": "LiRe3"}, {"material_id": "mp-913040", "formula_pretty": "LiYGa4"}, {"material_id": "mp-929258", "formula_pretty": "LiYGa4"}, {"material_id": "mp-930125", "formula_pretty": "LiYGa4"}, {"material_id": "mp-11743", "formula_pretty": "LiYGa4"}, {"material_id": "mp-1115706", "formula_pretty": "LiYGa4"}, {"material_id": "mp-1427159", "formula_pretty": "LiYGa4"}, {"material_id": "mp-1696052", "formula_pretty": "LiYGa4"}, {"material_id": "mp-1802415", "formula_pretty": "LiYGa4"}, {"material_id": "mp-1150821", "formula_pretty": "LiYGa4"}, {"material_id": "mp-1077777", "formula_pretty": "Pr2Bi"}, {"material_id": "mp-1420488", "formula_pretty": "Pr2Bi"}, {"material_id": "mp-1697870", "formula_pretty": "Pr2Bi"}, {"material_id": "mp-1592138", "formula_pretty": "Pr2Bi"}, {"material_id": "mp-1827995", "formula_pretty": "Pr2Bi"}, {"material_id": "mp-1064561", "formula_pretty": "YbNiC2"}, {"material_id": "mp-1064469", "formula_pretty": "YbNiC2"}, {"material_id": "mp-1064504", "formula_pretty": "YbNiC2"}, {"material_id": "mp-1064525", "formula_pretty": "YbNiC2"}, {"material_id": "mp-1438908", "formula_pretty": "YbNiC2"}, {"material_id": "mp-1677343", "formula_pretty": "YbNiC2"}, {"material_id": "mp-1593146", "formula_pretty": "YbNiC2"}, {"material_id": "mp-1781329", "formula_pretty": "YbNiC2"}, {"material_id": "mp-923405", "formula_pretty": "UReB3"}, {"material_id": "mp-908203", "formula_pretty": "UReB3"}, {"material_id": "mp-922643", "formula_pretty": "UReB3"}, {"material_id": "mp-28607", "formula_pretty": "UReB3"}, {"material_id": "mp-1434885", "formula_pretty": "UReB3"}, {"material_id": "mp-1592306", "formula_pretty": "UReB3"}, {"material_id": "mp-1700298", "formula_pretty": "UReB3"}, {"material_id": "mp-1129842", "formula_pretty": "UReB3"}, {"material_id": "mp-1802529", "formula_pretty": "UReB3"}, {"material_id": "mp-642279", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-914973", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-992087", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-992320", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-994035", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1125186", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1136368", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1660018", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1371741", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1425788", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1680082", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1766311", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1840863", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-1842664", "formula_pretty": "U6Fe16Si7"}, {"material_id": "mp-664231", "formula_pretty": "Li7P3S11"}, {"material_id": "mp-641703", "formula_pretty": "Li7P3S11"}, {"material_id": "mp-700377", "formula_pretty": "Li7P3S11"}, {"material_id": "mp-679202", "formula_pretty": "Li7P3S11"}, {"material_id": "mp-1340982", "formula_pretty": "Li7P3S11"}, {"material_id": "mp-1165985", "formula_pretty": "Li7P3S11"}, {"material_id": "mp-1920487", "formula_pretty": "Li7P3S11"}, {"material_id": "mp-929545", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-912856", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-929178", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-11594", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-1416025", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-1702657", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-1589748", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-1801655", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-1128688", "formula_pretty": "PrB2Ir3"}, {"material_id": "mp-977932", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-914556", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-992512", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-12780", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-1424781", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-1697860", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-1599172", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-1170147", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-1870475", "formula_pretty": "Sr(GaAu)2"}, {"material_id": "mp-852685", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-768457", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-855570", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-995913", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-852696", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-995262", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-855577", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-852695", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-856457", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-768500", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-768486", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-855635", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-794420", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-777615", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-795162", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-792571", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-846992", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-705546", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-846373", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-719442", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-852681", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-855571", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-768484", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-27339", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1337737", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1358106", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1359931", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1351082", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1355968", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1326726", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1637561", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1680054", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1683744", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1169558", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1142729", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1169621", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1241435", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1242497", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1163639", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1163178", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1930644", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1889274", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1872861", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1850198", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-1894766", "formula_pretty": "Sb2(SO4)3"}, {"material_id": "mp-918943", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-906090", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-919951", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-13070", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-1253282", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-1403972", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-1620738", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-1754451", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-1124804", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-1257315", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-1262105", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-1878535", "formula_pretty": "Sc2AlC"}, {"material_id": "mp-993700", "formula_pretty": "EuZn5"}, {"material_id": "mp-995013", "formula_pretty": "EuZn5"}, {"material_id": "mp-991956", "formula_pretty": "EuZn5"}, {"material_id": "mp-2436", "formula_pretty": "EuZn5"}, {"material_id": "mp-1440498", "formula_pretty": "EuZn5"}, {"material_id": "mp-1595692", "formula_pretty": "EuZn5"}, {"material_id": "mp-1695483", "formula_pretty": "EuZn5"}, {"material_id": "mp-1538351", "formula_pretty": "EuZn5"}, {"material_id": "mp-1803794", "formula_pretty": "EuZn5"}, {"material_id": "mp-1167517", "formula_pretty": "EuZn5"}, {"material_id": "mp-1070583", "formula_pretty": "ErAu4"}, {"material_id": "mp-1070677", "formula_pretty": "ErAu4"}, {"material_id": "mp-1070717", "formula_pretty": "ErAu4"}, {"material_id": "mp-1070768", "formula_pretty": "ErAu4"}, {"material_id": "mp-1424480", "formula_pretty": "ErAu4"}, {"material_id": "mp-1588467", "formula_pretty": "ErAu4"}, {"material_id": "mp-1700485", "formula_pretty": "ErAu4"}, {"material_id": "mp-1538260", "formula_pretty": "ErAu4"}, {"material_id": "mp-1796508", "formula_pretty": "ErAu4"}, {"material_id": "mp-1186271", "formula_pretty": "NaMg149"}, {"material_id": "mp-1011681", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1000500", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1006973", "formula_pretty": "BaAlGe"}, {"material_id": "mp-13272", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1115786", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1263090", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1438909", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1590383", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1667949", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1259078", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1150839", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1258971", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1782675", "formula_pretty": "BaAlGe"}, {"material_id": "mp-1239912", "formula_pretty": "BaAlGe"}, {"material_id": "mp-665869", "formula_pretty": "Sr2LiSc(B2O5)2"}, {"material_id": "mp-8796", "formula_pretty": "Sr2LiSc(B2O5)2"}, {"material_id": "mp-1000217", "formula_pretty": "Sr2LiSc(B2O5)2"}, {"material_id": "mp-681216", "formula_pretty": "Sr2LiSc(B2O5)2"}, {"material_id": "mp-1350424", "formula_pretty": "Sr2LiSc(B2O5)2"}, {"material_id": "mp-1157954", "formula_pretty": "Sr2LiSc(B2O5)2"}, {"material_id": "mp-1897512", "formula_pretty": "Sr2LiSc(B2O5)2"}, {"material_id": "mp-990480", "formula_pretty": "Yb3SnC"}, {"material_id": "mp-22263", "formula_pretty": "Yb3SnC"}, {"material_id": "mp-1419355", "formula_pretty": "Yb3SnC"}, {"material_id": "mp-1587664", "formula_pretty": "Yb3SnC"}, {"material_id": "mp-1700652", "formula_pretty": "Yb3SnC"}, {"material_id": "mp-1149410", "formula_pretty": "Yb3SnC"}, {"material_id": "mp-1833255", "formula_pretty": "Yb3SnC"}, {"material_id": "mp-1007150", "formula_pretty": "Fe2P"}, {"material_id": "mp-1011886", "formula_pretty": "Fe2P"}, {"material_id": "mp-778", "formula_pretty": "Fe2P"}, {"material_id": "mp-1000691", "formula_pretty": "Fe2P"}, {"material_id": "mp-1189340", "formula_pretty": "Fe2P"}, {"material_id": "mp-1442345", "formula_pretty": "Fe2P"}, {"material_id": "mp-1594194", "formula_pretty": "Fe2P"}, {"material_id": "mp-1671253", "formula_pretty": "Fe2P"}, {"material_id": "mp-1796073", "formula_pretty": "Fe2P"}, {"material_id": "mp-1135635", "formula_pretty": "Fe2P"}, {"material_id": "mp-1525605", "formula_pretty": "Fe2P"}, {"material_id": "mp-1834902", "formula_pretty": "Fe2P"}, {"material_id": "mp-9808", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-671087", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-661614", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-1115375", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-32163", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-1429770", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-1598367", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-1697169", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-1128069", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-1789267", "formula_pretty": "Rb3NbO8"}, {"material_id": "mp-935050", "formula_pretty": "TmIr"}, {"material_id": "mp-941881", "formula_pretty": "TmIr"}, {"material_id": "mp-941737", "formula_pretty": "TmIr"}, {"material_id": "mp-11483", "formula_pretty": "TmIr"}, {"material_id": "mp-1439221", "formula_pretty": "TmIr"}, {"material_id": "mp-1586297", "formula_pretty": "TmIr"}, {"material_id": "mp-1687400", "formula_pretty": "TmIr"}, {"material_id": "mp-1791337", "formula_pretty": "TmIr"}, {"material_id": "mp-1524249", "formula_pretty": "TmIr"}, {"material_id": "mp-1165068", "formula_pretty": "TmIr"}, {"material_id": "mp-20700", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1070408", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1070593", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1070674", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1070712", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1133340", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1439888", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1593983", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1171575", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-1783983", "formula_pretty": "Gd(SiIr)2"}, {"material_id": "mp-560449", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-835825", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-835041", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-825465", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-1381430", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-1601930", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-1676597", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-1156942", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-1787034", "formula_pretty": "K3Ni2F7"}, {"material_id": "mp-991352", "formula_pretty": "LiYbPb"}, {"material_id": "mp-994606", "formula_pretty": "LiYbPb"}, {"material_id": "mp-993293", "formula_pretty": "LiYbPb"}, {"material_id": "mp-21242", "formula_pretty": "LiYbPb"}, {"material_id": "mp-1431396", "formula_pretty": "LiYbPb"}, {"material_id": "mp-1700490", "formula_pretty": "LiYbPb"}, {"material_id": "mp-1777623", "formula_pretty": "LiYbPb"}, {"material_id": "mp-613509", "formula_pretty": "PtS"}, {"material_id": "mp-665229", "formula_pretty": "PtS"}, {"material_id": "mp-665179", "formula_pretty": "PtS"}, {"material_id": "mp-665212", "formula_pretty": "PtS"}, {"material_id": "mp-288", "formula_pretty": "PtS"}, {"material_id": "mp-558811", "formula_pretty": "PtS"}, {"material_id": "mp-1140886", "formula_pretty": "PtS"}, {"material_id": "mp-1205321", "formula_pretty": "PtS"}, {"material_id": "mp-1380882", "formula_pretty": "PtS"}, {"material_id": "mp-1439644", "formula_pretty": "PtS"}, {"material_id": "mp-1603464", "formula_pretty": "PtS"}, {"material_id": "mp-1587511", "formula_pretty": "PtS"}, {"material_id": "mp-1677079", "formula_pretty": "PtS"}, {"material_id": "mp-1672136", "formula_pretty": "PtS"}, {"material_id": "mp-1544239", "formula_pretty": "PtS"}, {"material_id": "mp-1799646", "formula_pretty": "PtS"}, {"material_id": "mp-1162708", "formula_pretty": "PtS"}, {"material_id": "mp-1162985", "formula_pretty": "PtS"}, {"material_id": "mp-1536189", "formula_pretty": "PtS"}, {"material_id": "mp-1243095", "formula_pretty": "PtS"}, {"material_id": "mp-1935076", "formula_pretty": "PtS"}, {"material_id": "mp-926287", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-926810", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-910466", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-22522", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1101956", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1144407", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1267114", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1382615", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1676084", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1599746", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1258160", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1788569", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1230498", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1260568", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-1121422", "formula_pretty": "ZrCuSi"}, {"material_id": "mp-687762", "formula_pretty": "SnSe2"}, {"material_id": "mp-665", "formula_pretty": "SnSe2"}, {"material_id": "mp-671218", "formula_pretty": "SnSe2"}, {"material_id": "mp-687863", "formula_pretty": "SnSe2"}, {"material_id": "mp-1140668", "formula_pretty": "SnSe2"}, {"material_id": "mp-1540927", "formula_pretty": "SnSe2"}, {"material_id": "mp-1440081", "formula_pretty": "SnSe2"}, {"material_id": "mp-1541907", "formula_pretty": "SnSe2"}, {"material_id": "mp-1597037", "formula_pretty": "SnSe2"}, {"material_id": "mp-1686422", "formula_pretty": "SnSe2"}, {"material_id": "mp-1524911", "formula_pretty": "SnSe2"}, {"material_id": "mp-1136903", "formula_pretty": "SnSe2"}, {"material_id": "mp-1783848", "formula_pretty": "SnSe2"}, {"material_id": "mp-907386", "formula_pretty": "Li2CeSb2"}, {"material_id": "mp-920798", "formula_pretty": "Li2CeSb2"}, {"material_id": "mp-921823", "formula_pretty": "Li2CeSb2"}, {"material_id": "mp-20779", "formula_pretty": "Li2CeSb2"}, {"material_id": "mp-1426726", "formula_pretty": "Li2CeSb2"}, {"material_id": "mp-1697602", "formula_pretty": "Li2CeSb2"}, {"material_id": "mp-1126411", "formula_pretty": "Li2CeSb2"}, {"material_id": "mp-1776133", "formula_pretty": "Li2CeSb2"}, {"material_id": "mp-928778", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-928241", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-912228", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-20735", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1226850", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1437929", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1390129", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1674211", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1589843", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1760264", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1624219", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1803574", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1803167", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-1537649", "formula_pretty": "Ce3Sn"}, {"material_id": "mp-920812", "formula_pretty": "CsIO3"}, {"material_id": "mp-921863", "formula_pretty": "CsIO3"}, {"material_id": "mp-613384", "formula_pretty": "CsIO3"}, {"material_id": "mp-907438", "formula_pretty": "CsIO3"}, {"material_id": "mp-669316", "formula_pretty": "CsIO3"}, {"material_id": "mp-689455", "formula_pretty": "CsIO3"}, {"material_id": "mp-665298", "formula_pretty": "CsIO3"}, {"material_id": "mp-28295", "formula_pretty": "CsIO3"}, {"material_id": "mp-1114969", "formula_pretty": "CsIO3"}, {"material_id": "mp-1432625", "formula_pretty": "CsIO3"}, {"material_id": "mp-1422530", "formula_pretty": "CsIO3"}, {"material_id": "mp-1704790", "formula_pretty": "CsIO3"}, {"material_id": "mp-1592201", "formula_pretty": "CsIO3"}, {"material_id": "mp-1600789", "formula_pretty": "CsIO3"}, {"material_id": "mp-1700880", "formula_pretty": "CsIO3"}, {"material_id": "mp-1168157", "formula_pretty": "CsIO3"}, {"material_id": "mp-1788345", "formula_pretty": "CsIO3"}, {"material_id": "mp-1126574", "formula_pretty": "CsIO3"}, {"material_id": "mp-1781982", "formula_pretty": "CsIO3"}, {"material_id": "mp-733325", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-737055", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-707535", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-728775", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1181584", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1197174", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1204989", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1388362", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1369030", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1346666", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1727476", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1171233", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1872275", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1842058", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-1819337", "formula_pretty": "H4C(N2O)2"}, {"material_id": "mp-926337", "formula_pretty": "LuTiGe"}, {"material_id": "mp-910583", "formula_pretty": "LuTiGe"}, {"material_id": "mp-926882", "formula_pretty": "LuTiGe"}, {"material_id": "mp-19959", "formula_pretty": "LuTiGe"}, {"material_id": "mp-1413775", "formula_pretty": "LuTiGe"}, {"material_id": "mp-1587791", "formula_pretty": "LuTiGe"}, {"material_id": "mp-1701254", "formula_pretty": "LuTiGe"}, {"material_id": "mp-1786009", "formula_pretty": "LuTiGe"}, {"material_id": "mp-1166045", "formula_pretty": "LuTiGe"}, {"material_id": "mp-937115", "formula_pretty": "Pu3Co"}, {"material_id": "mp-941526", "formula_pretty": "Pu3Co"}, {"material_id": "mp-941220", "formula_pretty": "Pu3Co"}, {"material_id": "mp-510140", "formula_pretty": "Pu3Co"}, {"material_id": "mp-1835695", "formula_pretty": "Pu3Co"}, {"material_id": "mp-1102075", "formula_pretty": "TbH2ClO2"}, {"material_id": "mp-1434695", "formula_pretty": "TbH2ClO2"}, {"material_id": "mp-1597295", "formula_pretty": "TbH2ClO2"}, {"material_id": "mp-1699041", "formula_pretty": "TbH2ClO2"}, {"material_id": "mp-1930863", "formula_pretty": "TbH2ClO2"}, {"material_id": "mp-669744", "formula_pretty": "BaPdS2"}, {"material_id": "mp-689025", "formula_pretty": "BaPdS2"}, {"material_id": "mp-842511", "formula_pretty": "BaPdS2"}, {"material_id": "mp-842995", "formula_pretty": "BaPdS2"}, {"material_id": "mp-4009", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1140062", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1232297", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1414588", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1415337", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1588222", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1615632", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1716449", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1697969", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1167195", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1788680", "formula_pretty": "BaPdS2"}, {"material_id": "mp-1797243", "formula_pretty": "BaPdS2"}, {"material_id": "mp-11422", "formula_pretty": "GdHg"}, {"material_id": "mp-1439681", "formula_pretty": "GdHg"}, {"material_id": "mp-1588690", "formula_pretty": "GdHg"}, {"material_id": "mp-1164932", "formula_pretty": "GdHg"}, {"material_id": "mp-1523487", "formula_pretty": "GdHg"}, {"material_id": "mp-1791003", "formula_pretty": "GdHg"}, {"material_id": "mp-1201065", "formula_pretty": "Li15H9N8"}, {"material_id": "mp-1327891", "formula_pretty": "Li15H9N8"}, {"material_id": "mp-1929731", "formula_pretty": "Li15H9N8"}, {"material_id": "mp-924829", "formula_pretty": "U2SeN2"}, {"material_id": "mp-925356", "formula_pretty": "U2SeN2"}, {"material_id": "mp-909797", "formula_pretty": "U2SeN2"}, {"material_id": "mp-3048", "formula_pretty": "U2SeN2"}, {"material_id": "mp-1437618", "formula_pretty": "U2SeN2"}, {"material_id": "mp-1677669", "formula_pretty": "U2SeN2"}, {"material_id": "mp-1588332", "formula_pretty": "U2SeN2"}, {"material_id": "mp-1860717", "formula_pretty": "U2SeN2"}, {"material_id": "mp-657137", "formula_pretty": "TiRu"}, {"material_id": "mp-657130", "formula_pretty": "TiRu"}, {"material_id": "mp-592", "formula_pretty": "TiRu"}, {"material_id": "mp-655431", "formula_pretty": "TiRu"}, {"material_id": "mp-1442231", "formula_pretty": "TiRu"}, {"material_id": "mp-1586312", "formula_pretty": "TiRu"}, {"material_id": "mp-1688658", "formula_pretty": "TiRu"}, {"material_id": "mp-1164955", "formula_pretty": "TiRu"}, {"material_id": "mp-1792103", "formula_pretty": "TiRu"}, {"material_id": "mp-1536828", "formula_pretty": "TiRu"}, {"material_id": "mp-1243177", "formula_pretty": "TiRu"}, {"material_id": "mp-1018411", "formula_pretty": "LaN"}, {"material_id": "mp-1018224", "formula_pretty": "LaN"}]}
+{
+    "data": [
+        {
+            "material_id": "mp-561628",
+            "formula_pretty": "CeCrS2O"
+        },
+        {
+            "material_id": "mp-551214",
+            "formula_pretty": "CeCrS2O"
+        },
+        {
+            "material_id": "mp-1300528",
+            "formula_pretty": "CeCrS2O"
+        },
+        {
+            "material_id": "mp-1602333",
+            "formula_pretty": "CeCrS2O"
+        },
+        {
+            "material_id": "mp-1678519",
+            "formula_pretty": "CeCrS2O"
+        },
+        {
+            "material_id": "mp-1832928",
+            "formula_pretty": "CeCrS2O"
+        },
+        {
+            "material_id": "mp-643701",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-749706",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-731959",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-742998",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-848807",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-725538",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-727083",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-860047",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-690711",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-864017",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-697267",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-750429",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-732312",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1140687",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1203133",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1196113",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1216736",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1385379",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1358739",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1354679",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1359029",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1394765",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1684908",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1734098",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1627315",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1626730",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1751163",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1161454",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1130281",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1239745",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1130205",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1820911",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1816090",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1895271",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1895506",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-1816535",
+            "formula_pretty": "TlP(HO2)2"
+        },
+        {
+            "material_id": "mp-614918",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-655230",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-659940",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-660654",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-661374",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-688918",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-669750",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-689049",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-682789",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-708874",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-702728",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-504786",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-27985",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-552120",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1141117",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1401963",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1435213",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1422184",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1625463",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1704968",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1597180",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1760944",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1702478",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1592934",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1538103",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1127229",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1788009",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1525606",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1127337",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1924018",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-1870640",
+            "formula_pretty": "YClO"
+        },
+        {
+            "material_id": "mp-929024",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-912590",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-929391",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-1458",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-1426323",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-1591057",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-1698594",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-1537105",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-1784808",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-1136389",
+            "formula_pretty": "Nb3Ir"
+        },
+        {
+            "material_id": "mp-929445",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-912684",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-929104",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-20490",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-1095525",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-1419904",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-1703829",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-1602237",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-1776789",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-1151080",
+            "formula_pretty": "NdNiSn"
+        },
+        {
+            "material_id": "mp-1002195",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002184",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002231",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002225",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002183",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002215",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002199",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002187",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002212",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002201",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002218",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002205",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002204",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002188",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002194",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1002214",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-999131",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-999146",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-999149",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-999172",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-999120",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-999162",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-999153",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-999118",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1057314",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1057283",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1057291",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1057305",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1058510",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1058525",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1058529",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1058498",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1060031",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1059996",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1060053",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1060080",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1061105",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1061121",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1061051",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1061074",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1066444",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1066469",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1066433",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1066462",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1067395",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1067421",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1067440",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1067451",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1067450",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1067574",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1067704",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1067842",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1115395",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1423501",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1436276",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1437009",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1430311",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1382008",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1418009",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1363587",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1673092",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1675698",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1610876",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1611785",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1609765",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1672060",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1610750",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1610772",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1731093",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1764757",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1612626",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1688026",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1583518",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1159363",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1795425",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1240632",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1793106",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1164954",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1242371",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1795512",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1165207",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1242792",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1160814",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1793857",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1240448",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1165179",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1792244",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1143390",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1932256",
+            "formula_pretty": "TcB"
+        },
+        {
+            "material_id": "mp-1001530",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-1008033",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-1012359",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-3455",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-1438502",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-1590137",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-1677678",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-1135693",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-1801227",
+            "formula_pretty": "Er(NiP)2"
+        },
+        {
+            "material_id": "mp-988285",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-988040",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-987036",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-28698",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-1141296",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-1420609",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-1700102",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-1595200",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-1787543",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-1136493",
+            "formula_pretty": "Na4IrO4"
+        },
+        {
+            "material_id": "mp-993467",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-991515",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-994798",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-11501",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-1438579",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-1677535",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-1588250",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-1794589",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-1524286",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-1172005",
+            "formula_pretty": "MnNi3"
+        },
+        {
+            "material_id": "mp-929760",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-913241",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-930252",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-929782",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-913248",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-930290",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-31178",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-567589",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-978159",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-569981",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-977910",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-914525",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1010315",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1004656",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-864995",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1003061",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1051901",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1051920",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1051925",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1103088",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1106237",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1188642",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1260898",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1260453",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1252832",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1263063",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1438131",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1415528",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1420624",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1425688",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1394352",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1441265",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1601011",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1674159",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1696619",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1593030",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1587830",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1703303",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1701087",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1621931",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1733832",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1607666",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1598944",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1705260",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1258282",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1538601",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1130155",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1267849",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1798811",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1230698",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1801658",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1253380",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1149426",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1266702",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1262134",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1261378",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1263233",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1127261",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1240549",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1267146",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1779415",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1776106",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1810115",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-1836630",
+            "formula_pretty": "DyAl3"
+        },
+        {
+            "material_id": "mp-660811",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-670416",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-842611",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-28978",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-1380926",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-1676820",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-1599245",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-1165733",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-1806407",
+            "formula_pretty": "Ba2S3"
+        },
+        {
+            "material_id": "mp-1006991",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1000517",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1011715",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1001696",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1012461",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1008143",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-567808",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-567840",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1068632",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1068701",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1068806",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1068790",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1068822",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1068970",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1068878",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1068947",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1070237",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1070282",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1070324",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1070362",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1432078",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1437701",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1590563",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1674280",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1695812",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1592548",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1127643",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1798899",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1164488",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-1931161",
+            "formula_pretty": "Tm(CuGe)2"
+        },
+        {
+            "material_id": "mp-992401",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-995072",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-993976",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-20789",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-1116021",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-1423010",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-1695562",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-1600787",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-1829004",
+            "formula_pretty": "SmInRh"
+        },
+        {
+            "material_id": "mp-941771",
+            "formula_pretty": "Li22Pb5"
+        },
+        {
+            "material_id": "mp-941957",
+            "formula_pretty": "Li22Pb5"
+        },
+        {
+            "material_id": "mp-935110",
+            "formula_pretty": "Li22Pb5"
+        },
+        {
+            "material_id": "mp-573651",
+            "formula_pretty": "Li22Pb5"
+        },
+        {
+            "material_id": "mp-1336758",
+            "formula_pretty": "Li22Pb5"
+        },
+        {
+            "material_id": "mp-974443",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-974404",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-974428",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-974386",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-1432218",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-1617211",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-1764290",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-1159573",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-1876575",
+            "formula_pretty": "Rh3F"
+        },
+        {
+            "material_id": "mp-18972",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-554926",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-618578",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-681348",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-701541",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-712945",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-565780",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1196833",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1237534",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-555382",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-541507",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1325397",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1326047",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1354069",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1163593",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1537406",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1136732",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1894768",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-1921231",
+            "formula_pretty": "Sr2VO4"
+        },
+        {
+            "material_id": "mp-665365",
+            "formula_pretty": "B5H9N"
+        },
+        {
+            "material_id": "mp-680346",
+            "formula_pretty": "B5H9N"
+        },
+        {
+            "material_id": "mp-657683",
+            "formula_pretty": "B5H9N"
+        },
+        {
+            "material_id": "mp-27893",
+            "formula_pretty": "B5H9N"
+        },
+        {
+            "material_id": "mp-1334065",
+            "formula_pretty": "B5H9N"
+        },
+        {
+            "material_id": "mp-1629253",
+            "formula_pretty": "B5H9N"
+        },
+        {
+            "material_id": "mp-1144400",
+            "formula_pretty": "B5H9N"
+        },
+        {
+            "material_id": "mp-1849494",
+            "formula_pretty": "B5H9N"
+        },
+        {
+            "material_id": "mp-943539",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-943390",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-933192",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1006366",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-31163",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1191035",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1170763",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1264161",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1249069",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1417347",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1431723",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1696565",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1597279",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1734989",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1263347",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1249955",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1264673",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1253944",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1875672",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-1934014",
+            "formula_pretty": "Ce2Si3Rh"
+        },
+        {
+            "material_id": "mp-925855",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-909870",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-924887",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-679964",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-700896",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-665302",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-23164",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-541837",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1068960",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1069018",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1068982",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1069440",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1069448",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1069458",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1069459",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1069013",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1070734",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1070756",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1070776",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1070785",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1182583",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1141517",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1198150",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1142301",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1237221",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1439862",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1423999",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1358032",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1675118",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1590342",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1610445",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1243249",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1143925",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1780759",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1536520",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1546074",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1887301",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1832650",
+            "formula_pretty": "Bi2Se3"
+        },
+        {
+            "material_id": "mp-1079868",
+            "formula_pretty": "CeAlCu"
+        },
+        {
+            "material_id": "mp-1248793",
+            "formula_pretty": "CeAlCu"
+        },
+        {
+            "material_id": "mp-1300137",
+            "formula_pretty": "CeAlCu"
+        },
+        {
+            "material_id": "mp-1601231",
+            "formula_pretty": "CeAlCu"
+        },
+        {
+            "material_id": "mp-1688177",
+            "formula_pretty": "CeAlCu"
+        },
+        {
+            "material_id": "mp-1264832",
+            "formula_pretty": "CeAlCu"
+        },
+        {
+            "material_id": "mp-1263208",
+            "formula_pretty": "CeAlCu"
+        },
+        {
+            "material_id": "mp-1830078",
+            "formula_pretty": "CeAlCu"
+        },
+        {
+            "material_id": "mp-701092",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-680894",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-712464",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-12265",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-1540818",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-1415188",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-1540102",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-1696652",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-1597924",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-1136937",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-1779601",
+            "formula_pretty": "SrCuF4"
+        },
+        {
+            "material_id": "mp-662815",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-916509",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-931877",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-937225",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-656253",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-659418",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-664908",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-622375",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-20025",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1078094",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1078110",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1115081",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1181285",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1221975",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1197814",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1237143",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1417397",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1443089",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1353639",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1300125",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1369150",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1701205",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1619829",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1688396",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1752084",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1588421",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1602496",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1780867",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1161468",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1525584",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1159602",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1153988",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1546821",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1867946",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1872016",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1929487",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-1896600",
+            "formula_pretty": "Mn(GaS2)2"
+        },
+        {
+            "material_id": "mp-929143",
+            "formula_pretty": "LuMn5"
+        },
+        {
+            "material_id": "mp-912653",
+            "formula_pretty": "LuMn5"
+        },
+        {
+            "material_id": "mp-929525",
+            "formula_pretty": "LuMn5"
+        },
+        {
+            "material_id": "mp-30770",
+            "formula_pretty": "LuMn5"
+        },
+        {
+            "material_id": "mp-1349404",
+            "formula_pretty": "LuMn5"
+        },
+        {
+            "material_id": "mp-1599931",
+            "formula_pretty": "LuMn5"
+        },
+        {
+            "material_id": "mp-1678400",
+            "formula_pretty": "LuMn5"
+        },
+        {
+            "material_id": "mp-657986",
+            "formula_pretty": "Bi12PtCl12"
+        },
+        {
+            "material_id": "mp-666015",
+            "formula_pretty": "Bi12PtCl12"
+        },
+        {
+            "material_id": "mp-681335",
+            "formula_pretty": "Bi12PtCl12"
+        },
+        {
+            "material_id": "mp-582988",
+            "formula_pretty": "Bi12PtCl12"
+        },
+        {
+            "material_id": "mp-1385514",
+            "formula_pretty": "Bi12PtCl12"
+        },
+        {
+            "material_id": "mp-1654458",
+            "formula_pretty": "Bi12PtCl12"
+        },
+        {
+            "material_id": "mp-1742601",
+            "formula_pretty": "Bi12PtCl12"
+        },
+        {
+            "material_id": "mp-1897837",
+            "formula_pretty": "Bi12PtCl12"
+        },
+        {
+            "material_id": "mp-943077",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-932790",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-942062",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-30855",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-1078485",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-1079639",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-1092253",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-1299942",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-1595664",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-1687777",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-1524505",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-1924669",
+            "formula_pretty": "UPt3"
+        },
+        {
+            "material_id": "mp-927806",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-911411",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-927372",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-30151",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-1435116",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-1604315",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-1670241",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-1231296",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-1139951",
+            "formula_pretty": "CuAuSe4"
+        },
+        {
+            "material_id": "mp-664169",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-679086",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-663541",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-23033",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-1141782",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-1438602",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-1591833",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-1667995",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-1782244",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-1122042",
+            "formula_pretty": "Sr2NCl"
+        },
+        {
+            "material_id": "mp-680651",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-842883",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-665511",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-27303",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-1426587",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-1694953",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-1599763",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-1150351",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-1827458",
+            "formula_pretty": "NaAg3O2"
+        },
+        {
+            "material_id": "mp-1103949",
+            "formula_pretty": "Cs2LiI3"
+        },
+        {
+            "material_id": "mp-1230762",
+            "formula_pretty": "Cs2LiI3"
+        },
+        {
+            "material_id": "mp-1891763",
+            "formula_pretty": "Cs2LiI3"
+        },
+        {
+            "material_id": "mp-972916",
+            "formula_pretty": "MgCu"
+        },
+        {
+            "material_id": "mp-1010825",
+            "formula_pretty": "MgCu"
+        },
+        {
+            "material_id": "mp-1005370",
+            "formula_pretty": "MgCu"
+        },
+        {
+            "material_id": "mp-1005343",
+            "formula_pretty": "MgCu"
+        },
+        {
+            "material_id": "mp-1185859",
+            "formula_pretty": "MgCu"
+        },
+        {
+            "material_id": "mp-1434395",
+            "formula_pretty": "MgCu"
+        },
+        {
+            "material_id": "mp-1791981",
+            "formula_pretty": "MgCu"
+        },
+        {
+            "material_id": "mp-1160881",
+            "formula_pretty": "MgCu"
+        },
+        {
+            "material_id": "mp-993921",
+            "formula_pretty": "Li3UO4"
+        },
+        {
+            "material_id": "mp-991766",
+            "formula_pretty": "Li3UO4"
+        },
+        {
+            "material_id": "mp-992305",
+            "formula_pretty": "Li3UO4"
+        },
+        {
+            "material_id": "mp-551675",
+            "formula_pretty": "Li3UO4"
+        },
+        {
+            "material_id": "mp-1416220",
+            "formula_pretty": "Li3UO4"
+        },
+        {
+            "material_id": "mp-1699934",
+            "formula_pretty": "Li3UO4"
+        },
+        {
+            "material_id": "mp-1798653",
+            "formula_pretty": "Li3UO4"
+        },
+        {
+            "material_id": "mp-1128435",
+            "formula_pretty": "Li3UO4"
+        },
+        {
+            "material_id": "mp-932179",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-13398",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-915469",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-931197",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069462",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069512",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069606",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069527",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069621",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069629",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069657",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069686",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069731",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069563",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069565",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1069757",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1070470",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1070522",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1070577",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1070619",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1124947",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1132749",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1257574",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1439568",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1591344",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1258485",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1152929",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1258423",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-1802266",
+            "formula_pretty": "Yb(MnSi)2"
+        },
+        {
+            "material_id": "mp-919836",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-918835",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-905889",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-12919",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1070842",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1070877",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1070942",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1070947",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1426778",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1591286",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1700957",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1131932",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1928483",
+            "formula_pretty": "LaPIr"
+        },
+        {
+            "material_id": "mp-1185410",
+            "formula_pretty": "LiRe3"
+        },
+        {
+            "material_id": "mp-1417290",
+            "formula_pretty": "LiRe3"
+        },
+        {
+            "material_id": "mp-1791293",
+            "formula_pretty": "LiRe3"
+        },
+        {
+            "material_id": "mp-913040",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-929258",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-930125",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-11743",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-1115706",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-1427159",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-1696052",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-1802415",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-1150821",
+            "formula_pretty": "LiYGa4"
+        },
+        {
+            "material_id": "mp-1077777",
+            "formula_pretty": "Pr2Bi"
+        },
+        {
+            "material_id": "mp-1420488",
+            "formula_pretty": "Pr2Bi"
+        },
+        {
+            "material_id": "mp-1697870",
+            "formula_pretty": "Pr2Bi"
+        },
+        {
+            "material_id": "mp-1592138",
+            "formula_pretty": "Pr2Bi"
+        },
+        {
+            "material_id": "mp-1827995",
+            "formula_pretty": "Pr2Bi"
+        },
+        {
+            "material_id": "mp-1064561",
+            "formula_pretty": "YbNiC2"
+        },
+        {
+            "material_id": "mp-1064469",
+            "formula_pretty": "YbNiC2"
+        },
+        {
+            "material_id": "mp-1064504",
+            "formula_pretty": "YbNiC2"
+        },
+        {
+            "material_id": "mp-1064525",
+            "formula_pretty": "YbNiC2"
+        },
+        {
+            "material_id": "mp-1438908",
+            "formula_pretty": "YbNiC2"
+        },
+        {
+            "material_id": "mp-1677343",
+            "formula_pretty": "YbNiC2"
+        },
+        {
+            "material_id": "mp-1593146",
+            "formula_pretty": "YbNiC2"
+        },
+        {
+            "material_id": "mp-1781329",
+            "formula_pretty": "YbNiC2"
+        },
+        {
+            "material_id": "mp-923405",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-908203",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-922643",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-28607",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-1434885",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-1592306",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-1700298",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-1129842",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-1802529",
+            "formula_pretty": "UReB3"
+        },
+        {
+            "material_id": "mp-642279",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-914973",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-992087",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-992320",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-994035",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1125186",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1136368",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1660018",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1371741",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1425788",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1680082",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1766311",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1840863",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-1842664",
+            "formula_pretty": "U6Fe16Si7"
+        },
+        {
+            "material_id": "mp-664231",
+            "formula_pretty": "Li7P3S11"
+        },
+        {
+            "material_id": "mp-641703",
+            "formula_pretty": "Li7P3S11"
+        },
+        {
+            "material_id": "mp-700377",
+            "formula_pretty": "Li7P3S11"
+        },
+        {
+            "material_id": "mp-679202",
+            "formula_pretty": "Li7P3S11"
+        },
+        {
+            "material_id": "mp-1340982",
+            "formula_pretty": "Li7P3S11"
+        },
+        {
+            "material_id": "mp-1165985",
+            "formula_pretty": "Li7P3S11"
+        },
+        {
+            "material_id": "mp-1920487",
+            "formula_pretty": "Li7P3S11"
+        },
+        {
+            "material_id": "mp-929545",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-912856",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-929178",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-11594",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-1416025",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-1702657",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-1589748",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-1801655",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-1128688",
+            "formula_pretty": "PrB2Ir3"
+        },
+        {
+            "material_id": "mp-977932",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-914556",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-992512",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-12780",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-1424781",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-1697860",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-1599172",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-1170147",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-1870475",
+            "formula_pretty": "Sr(GaAu)2"
+        },
+        {
+            "material_id": "mp-852685",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-768457",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-855570",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-995913",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-852696",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-995262",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-855577",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-852695",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-856457",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-768500",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-768486",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-855635",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-794420",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-777615",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-795162",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-792571",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-846992",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-705546",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-846373",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-719442",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-852681",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-855571",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-768484",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-27339",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1337737",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1358106",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1359931",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1351082",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1355968",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1326726",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1637561",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1680054",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1683744",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1169558",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1142729",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1169621",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1241435",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1242497",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1163639",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1163178",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1930644",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1889274",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1872861",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1850198",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-1894766",
+            "formula_pretty": "Sb2(SO4)3"
+        },
+        {
+            "material_id": "mp-918943",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-906090",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-919951",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-13070",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-1253282",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-1403972",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-1620738",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-1754451",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-1124804",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-1257315",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-1262105",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-1878535",
+            "formula_pretty": "Sc2AlC"
+        },
+        {
+            "material_id": "mp-993700",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-995013",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-991956",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-2436",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-1440498",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-1595692",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-1695483",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-1538351",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-1803794",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-1167517",
+            "formula_pretty": "EuZn5"
+        },
+        {
+            "material_id": "mp-1070583",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1070677",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1070717",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1070768",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1424480",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1588467",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1700485",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1538260",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1796508",
+            "formula_pretty": "ErAu4"
+        },
+        {
+            "material_id": "mp-1186271",
+            "formula_pretty": "NaMg149"
+        },
+        {
+            "material_id": "mp-1011681",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1000500",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1006973",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-13272",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1115786",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1263090",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1438909",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1590383",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1667949",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1259078",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1150839",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1258971",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1782675",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-1239912",
+            "formula_pretty": "BaAlGe"
+        },
+        {
+            "material_id": "mp-665869",
+            "formula_pretty": "Sr2LiSc(B2O5)2"
+        },
+        {
+            "material_id": "mp-8796",
+            "formula_pretty": "Sr2LiSc(B2O5)2"
+        },
+        {
+            "material_id": "mp-1000217",
+            "formula_pretty": "Sr2LiSc(B2O5)2"
+        },
+        {
+            "material_id": "mp-681216",
+            "formula_pretty": "Sr2LiSc(B2O5)2"
+        },
+        {
+            "material_id": "mp-1350424",
+            "formula_pretty": "Sr2LiSc(B2O5)2"
+        },
+        {
+            "material_id": "mp-1157954",
+            "formula_pretty": "Sr2LiSc(B2O5)2"
+        },
+        {
+            "material_id": "mp-1897512",
+            "formula_pretty": "Sr2LiSc(B2O5)2"
+        },
+        {
+            "material_id": "mp-990480",
+            "formula_pretty": "Yb3SnC"
+        },
+        {
+            "material_id": "mp-22263",
+            "formula_pretty": "Yb3SnC"
+        },
+        {
+            "material_id": "mp-1419355",
+            "formula_pretty": "Yb3SnC"
+        },
+        {
+            "material_id": "mp-1587664",
+            "formula_pretty": "Yb3SnC"
+        },
+        {
+            "material_id": "mp-1700652",
+            "formula_pretty": "Yb3SnC"
+        },
+        {
+            "material_id": "mp-1149410",
+            "formula_pretty": "Yb3SnC"
+        },
+        {
+            "material_id": "mp-1833255",
+            "formula_pretty": "Yb3SnC"
+        },
+        {
+            "material_id": "mp-1007150",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1011886",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-778",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1000691",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1189340",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1442345",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1594194",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1671253",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1796073",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1135635",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1525605",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-1834902",
+            "formula_pretty": "Fe2P"
+        },
+        {
+            "material_id": "mp-9808",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-671087",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-661614",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-1115375",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-32163",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-1429770",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-1598367",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-1697169",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-1128069",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-1789267",
+            "formula_pretty": "Rb3NbO8"
+        },
+        {
+            "material_id": "mp-935050",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-941881",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-941737",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-11483",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-1439221",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-1586297",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-1687400",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-1791337",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-1524249",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-1165068",
+            "formula_pretty": "TmIr"
+        },
+        {
+            "material_id": "mp-20700",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1070408",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1070593",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1070674",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1070712",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1133340",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1439888",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1593983",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1171575",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-1783983",
+            "formula_pretty": "Gd(SiIr)2"
+        },
+        {
+            "material_id": "mp-560449",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-835825",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-835041",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-825465",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-1381430",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-1601930",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-1676597",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-1156942",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-1787034",
+            "formula_pretty": "K3Ni2F7"
+        },
+        {
+            "material_id": "mp-991352",
+            "formula_pretty": "LiYbPb"
+        },
+        {
+            "material_id": "mp-994606",
+            "formula_pretty": "LiYbPb"
+        },
+        {
+            "material_id": "mp-993293",
+            "formula_pretty": "LiYbPb"
+        },
+        {
+            "material_id": "mp-21242",
+            "formula_pretty": "LiYbPb"
+        },
+        {
+            "material_id": "mp-1431396",
+            "formula_pretty": "LiYbPb"
+        },
+        {
+            "material_id": "mp-1700490",
+            "formula_pretty": "LiYbPb"
+        },
+        {
+            "material_id": "mp-1777623",
+            "formula_pretty": "LiYbPb"
+        },
+        {
+            "material_id": "mp-613509",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-665229",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-665179",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-665212",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-288",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-558811",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1140886",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1205321",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1380882",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1439644",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1603464",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1587511",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1677079",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1672136",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1544239",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1799646",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1162708",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1162985",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1536189",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1243095",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-1935076",
+            "formula_pretty": "PtS"
+        },
+        {
+            "material_id": "mp-926287",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-926810",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-910466",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-22522",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1101956",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1144407",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1267114",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1382615",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1676084",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1599746",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1258160",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1788569",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1230498",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1260568",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-1121422",
+            "formula_pretty": "ZrCuSi"
+        },
+        {
+            "material_id": "mp-687762",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-665",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-671218",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-687863",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1140668",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1540927",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1440081",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1541907",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1597037",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1686422",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1524911",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1136903",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-1783848",
+            "formula_pretty": "SnSe2"
+        },
+        {
+            "material_id": "mp-907386",
+            "formula_pretty": "Li2CeSb2"
+        },
+        {
+            "material_id": "mp-920798",
+            "formula_pretty": "Li2CeSb2"
+        },
+        {
+            "material_id": "mp-921823",
+            "formula_pretty": "Li2CeSb2"
+        },
+        {
+            "material_id": "mp-20779",
+            "formula_pretty": "Li2CeSb2"
+        },
+        {
+            "material_id": "mp-1426726",
+            "formula_pretty": "Li2CeSb2"
+        },
+        {
+            "material_id": "mp-1697602",
+            "formula_pretty": "Li2CeSb2"
+        },
+        {
+            "material_id": "mp-1126411",
+            "formula_pretty": "Li2CeSb2"
+        },
+        {
+            "material_id": "mp-1776133",
+            "formula_pretty": "Li2CeSb2"
+        },
+        {
+            "material_id": "mp-928778",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-928241",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-912228",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-20735",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1226850",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1437929",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1390129",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1674211",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1589843",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1760264",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1624219",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1803574",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1803167",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-1537649",
+            "formula_pretty": "Ce3Sn"
+        },
+        {
+            "material_id": "mp-920812",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-921863",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-613384",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-907438",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-669316",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-689455",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-665298",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-28295",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1114969",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1432625",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1422530",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1704790",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1592201",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1600789",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1700880",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1168157",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1788345",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1126574",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-1781982",
+            "formula_pretty": "CsIO3"
+        },
+        {
+            "material_id": "mp-733325",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-737055",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-707535",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-728775",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1181584",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1197174",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1204989",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1388362",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1369030",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1346666",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1727476",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1171233",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1872275",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1842058",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-1819337",
+            "formula_pretty": "H4C(N2O)2"
+        },
+        {
+            "material_id": "mp-926337",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-910583",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-926882",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-19959",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-1413775",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-1587791",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-1701254",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-1786009",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-1166045",
+            "formula_pretty": "LuTiGe"
+        },
+        {
+            "material_id": "mp-937115",
+            "formula_pretty": "Pu3Co"
+        },
+        {
+            "material_id": "mp-941526",
+            "formula_pretty": "Pu3Co"
+        },
+        {
+            "material_id": "mp-941220",
+            "formula_pretty": "Pu3Co"
+        },
+        {
+            "material_id": "mp-510140",
+            "formula_pretty": "Pu3Co"
+        },
+        {
+            "material_id": "mp-1835695",
+            "formula_pretty": "Pu3Co"
+        },
+        {
+            "material_id": "mp-1102075",
+            "formula_pretty": "TbH2ClO2"
+        },
+        {
+            "material_id": "mp-1434695",
+            "formula_pretty": "TbH2ClO2"
+        },
+        {
+            "material_id": "mp-1597295",
+            "formula_pretty": "TbH2ClO2"
+        },
+        {
+            "material_id": "mp-1699041",
+            "formula_pretty": "TbH2ClO2"
+        },
+        {
+            "material_id": "mp-1930863",
+            "formula_pretty": "TbH2ClO2"
+        },
+        {
+            "material_id": "mp-669744",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-689025",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-842511",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-842995",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-4009",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1140062",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1232297",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1414588",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1415337",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1588222",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1615632",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1716449",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1697969",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1167195",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1788680",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-1797243",
+            "formula_pretty": "BaPdS2"
+        },
+        {
+            "material_id": "mp-11422",
+            "formula_pretty": "GdHg"
+        },
+        {
+            "material_id": "mp-1439681",
+            "formula_pretty": "GdHg"
+        },
+        {
+            "material_id": "mp-1588690",
+            "formula_pretty": "GdHg"
+        },
+        {
+            "material_id": "mp-1164932",
+            "formula_pretty": "GdHg"
+        },
+        {
+            "material_id": "mp-1523487",
+            "formula_pretty": "GdHg"
+        },
+        {
+            "material_id": "mp-1791003",
+            "formula_pretty": "GdHg"
+        },
+        {
+            "material_id": "mp-1201065",
+            "formula_pretty": "Li15H9N8"
+        },
+        {
+            "material_id": "mp-1327891",
+            "formula_pretty": "Li15H9N8"
+        },
+        {
+            "material_id": "mp-1929731",
+            "formula_pretty": "Li15H9N8"
+        },
+        {
+            "material_id": "mp-924829",
+            "formula_pretty": "U2SeN2"
+        },
+        {
+            "material_id": "mp-925356",
+            "formula_pretty": "U2SeN2"
+        },
+        {
+            "material_id": "mp-909797",
+            "formula_pretty": "U2SeN2"
+        },
+        {
+            "material_id": "mp-3048",
+            "formula_pretty": "U2SeN2"
+        },
+        {
+            "material_id": "mp-1437618",
+            "formula_pretty": "U2SeN2"
+        },
+        {
+            "material_id": "mp-1677669",
+            "formula_pretty": "U2SeN2"
+        },
+        {
+            "material_id": "mp-1588332",
+            "formula_pretty": "U2SeN2"
+        },
+        {
+            "material_id": "mp-1860717",
+            "formula_pretty": "U2SeN2"
+        },
+        {
+            "material_id": "mp-657137",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-657130",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-592",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-655431",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-1442231",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-1586312",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-1688658",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-1164955",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-1792103",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-1536828",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-1243177",
+            "formula_pretty": "TiRu"
+        },
+        {
+            "material_id": "mp-1018411",
+            "formula_pretty": "LaN"
+        },
+        {
+            "material_id": "mp-1018224",
+            "formula_pretty": "LaN"
+        }
+    ]
+}
